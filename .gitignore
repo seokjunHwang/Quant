@@ -1,0 +1,22 @@
+# 특정 파일 형식만 무시
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+*.zip
+*.tar.gz
+
+# 큰 폴더들
+stock-prediction/
+crypto_data_400d/
+linear_regression/
+
+# 코드 파일은 자동으로 포함됨
+# .py, .sql, .ipynb 등
+
+# data 폴더만
+**/data/
+**/datasets/
