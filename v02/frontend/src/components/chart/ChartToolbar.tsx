@@ -4,7 +4,11 @@ import { useChartStore } from "@/store/chartStore";
 
 const INTERVALS = ["1m", "5m", "15m", "1h", "4h", "1d", "1w"];
 
-const INDICATORS = [
+const PINE_INDICATORS = [
+  { id: "SR_BREAKS", label: "S/R" },
+];
+
+const BUILTIN_INDICATORS = [
   { id: "RSI_14", label: "RSI" },
   { id: "MACD", label: "MACD" },
   { id: "BB_20", label: "BB" },
@@ -15,6 +19,11 @@ const INDICATORS = [
   { id: "OBV", label: "OBV" },
 ];
 
+const btnBase: React.CSSProperties = {
+  padding: "4px 8px", fontSize: 12, borderRadius: 4,
+  border: "none", cursor: "pointer",
+};
+
 interface ChartToolbarProps {
   symbol: string;
 }
@@ -24,38 +33,59 @@ export default function ChartToolbar({ symbol }: ChartToolbarProps) {
     useChartStore();
 
   return (
-    <div className="flex items-center gap-4 px-4 py-2 bg-gray-900 border-b border-gray-800">
-      {/* Symbol */}
-      <span className="font-bold text-lg">{symbol}</span>
+    <div style={{
+      display: "flex", alignItems: "center", gap: 16,
+      padding: "8px 16px", background: "#111827",
+      borderBottom: "1px solid #1f2937", height: 50,
+    }}>
+      <span style={{ fontWeight: 700, fontSize: 16, color: "#f9fafb" }}>{symbol}</span>
 
-      {/* Interval selector */}
-      <div className="flex gap-1">
+      {/* Intervals */}
+      <div style={{ display: "flex", gap: 4 }}>
         {INTERVALS.map((tf) => (
           <button
             key={tf}
             onClick={() => setInterval(tf)}
-            className={`px-2 py-1 text-xs rounded ${
-              interval === tf
-                ? "bg-blue-600 text-white"
-                : "text-gray-400 hover:bg-gray-800"
-            }`}
+            style={{
+              ...btnBase,
+              background: interval === tf ? "#2563eb" : "transparent",
+              color: interval === tf ? "#fff" : "#9ca3af",
+            }}
           >
             {tf}
           </button>
         ))}
       </div>
 
-      {/* Indicator toggles */}
-      <div className="flex gap-1 ml-4">
-        {INDICATORS.map((ind) => (
+      {/* Pine indicators */}
+      <div style={{ display: "flex", gap: 4, marginLeft: 16, paddingLeft: 16, borderLeft: "1px solid #374151" }}>
+        <span style={{ color: "#6b7280", fontSize: 11, alignSelf: "center", marginRight: 4 }}>Pine:</span>
+        {PINE_INDICATORS.map((ind) => (
           <button
             key={ind.id}
             onClick={() => toggleIndicator(ind.id)}
-            className={`px-2 py-1 text-xs rounded ${
-              activeIndicators.includes(ind.id)
-                ? "bg-purple-600 text-white"
-                : "text-gray-400 hover:bg-gray-800"
-            }`}
+            style={{
+              ...btnBase,
+              background: activeIndicators.includes(ind.id) ? "#16a34a" : "transparent",
+              color: activeIndicators.includes(ind.id) ? "#fff" : "#9ca3af",
+            }}
+          >
+            {ind.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Built-in indicators */}
+      <div style={{ display: "flex", gap: 4 }}>
+        {BUILTIN_INDICATORS.map((ind) => (
+          <button
+            key={ind.id}
+            onClick={() => toggleIndicator(ind.id)}
+            style={{
+              ...btnBase,
+              background: activeIndicators.includes(ind.id) ? "#7c3aed" : "transparent",
+              color: activeIndicators.includes(ind.id) ? "#fff" : "#9ca3af",
+            }}
           >
             {ind.label}
           </button>

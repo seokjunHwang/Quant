@@ -1,44 +1,85 @@
-from fastapi import APIRouter, Depends, Query
+"""Market endpoints — OHLCV candle data from Binance public API."""
 
-from app.dependencies import get_dynamodb, get_config
+import httpx
+from fastapi import APIRouter, Query
 
 router = APIRouter()
+
+BINANCE_KLINES_URL = "https://api.binance.com/api/v3/klines"
 
 
 @router.get("/klines")
 async def get_klines(
-    symbol: str = Query(..., example="BTCUSDT"),
+    symbol: str = Query("BTCUSDT", example="BTCUSDT"),
     interval: str = Query("1d", example="1d"),
     limit: int = Query(500, le=1500),
-    db=Depends(get_dynamodb),
-    config=Depends(get_config),
 ):
-    """OHLCV 캔들 데이터 조회. DynamoDB 캐시 우선, 미스 시 Binance에서 fetch."""
-    # TODO: implement candle_repo.get_klines + binance fallback
-    return {"symbol": symbol, "interval": interval, "data": []}
+    """OHLCV candle data from Binance."""
+    async with httpx.AsyncClient(timeout=15) as client:
+        resp = await client.get(
+            BINANCE_KLINES_URL,
+            params={"symbol": symbol.upper(), "interval": interval, "limit": limit},
+        )
+        resp.raise_for_status()
+        raw = resp.json()
+
+    # Binance format: [openTime, O, H, L, C, volume, closeTime, ...]
+    data = []
+    for k in raw:
+        data.append({
+            "time": int(k[0]) // 1000,  # Unix seconds for Lightweight Charts
+            "open": float(k[1]),
+            "high": float(k[2]),
+            "low": float(k[3]),
+            "close": float(k[4]),
+            "volume": float(k[5]),
+        })
+
+    return {"symbol": symbol, "interval": interval, "data": data}
 
 
 @router.get("/ticker")
-async def get_ticker(
-    symbol: str = Query(..., example="BTCUSDT"),
-):
-    """24시간 티커 정보."""
-    # TODO: implement binance_service.get_ticker
-    return {"symbol": symbol, "lastPrice": 0, "priceChange24h": 0, "volume24h": 0}
+async def get_ticker(symbol: str = Query("BTCUSDT")):
+    """24h ticker info."""
+    async with httpx.AsyncClient(timeout=10) as client:
+        resp = await client.get(
+            "https://api.binance.com/api/v3/ticker/24hr",
+            params={"symbol": symbol.upper()},
+        )
+        resp.raise_for_status()
+        t = resp.json()
+
+    return {
+        "symbol": t["symbol"],
+        "lastPrice": float(t["lastPrice"]),
+        "priceChange24h": float(t["priceChangePercent"]),
+        "volume24h": float(t["quoteVolume"]),
+    }
 
 
 @router.get("/orderbook")
 async def get_orderbook(
-    symbol: str = Query(..., example="BTCUSDT"),
+    symbol: str = Query("BTCUSDT"),
     limit: int = Query(20, le=100),
 ):
-    """오더북 조회."""
-    # TODO: implement binance_service.get_orderbook
-    return {"symbol": symbol, "bids": [], "asks": []}
+    """Order book."""
+    async with httpx.AsyncClient(timeout=10) as client:
+        resp = await client.get(
+            "https://api.binance.com/api/v3/depth",
+            params={"symbol": symbol.upper(), "limit": limit},
+        )
+        resp.raise_for_status()
+        return resp.json()
 
 
 @router.get("/symbols")
 async def get_symbols():
-    """거래 가능한 심볼 목록."""
-    # TODO: implement binance_service.get_exchange_info
-    return {"symbols": []}
+    """Available trading symbols."""
+    return {
+        "symbols": [
+            {"symbol": "BTCUSDT", "base": "BTC", "quote": "USDT"},
+            {"symbol": "ETHUSDT", "base": "ETH", "quote": "USDT"},
+            {"symbol": "SOLUSDT", "base": "SOL", "quote": "USDT"},
+            {"symbol": "XRPUSDT", "base": "XRP", "quote": "USDT"},
+        ]
+    }

@@ -12,9 +12,9 @@ export default function ChartPage({
   const { symbol } = use(params);
 
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col h-screen">
       <ChartToolbar symbol={symbol} />
-      <div className="flex-1">
+      <div className="flex-1 min-h-0">
         <TradingChart symbol={symbol} />
       </div>
     </div>

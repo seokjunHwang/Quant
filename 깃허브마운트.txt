@@ -5,3 +5,8 @@ ada0004@naver.com
 현재 main 메인과, dev 브랜치가있음
 dev에서 커밋푸시 후 검수 후 main에 pull request하는 구조.
 깃허브설명서 이미지참고 
+
+작업 시작 전엔 항상 git checkout dev # 데브 브랜치로 이동
+git pull origin dev # 최신걸로 업데이트하여 가져오기
+
+이렇게해야 다른작업자랑 충돌안남.

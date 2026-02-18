@@ -12,10 +12,15 @@ from app.core.websocket_manager import manager
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     settings = get_settings()
-    app.state.dynamodb = await init_dynamodb(settings)
+    # DynamoDB is optional — skip if not configured
+    try:
+        app.state.dynamodb = await init_dynamodb(settings)
+    except Exception:
+        app.state.dynamodb = None
     app.state.ws_manager = manager
     yield
-    await close_dynamodb(app.state.dynamodb)
+    if app.state.dynamodb:
+        await close_dynamodb(app.state.dynamodb)
 
 
 def create_app() -> FastAPI:

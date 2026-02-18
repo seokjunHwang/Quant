@@ -1,0 +1,25 @@
+//@version=5
+indicator("RSI Crossover Strategy", overlay=false)
+
+// Inputs
+rsi_length = input.int(14, "RSI Length", minval=1)
+overbought = input.int(70, "Overbought Level")
+oversold = input.int(30, "Oversold Level")
+
+// RSI Calculation
+rsi_value = ta.rsi(close, rsi_length)
+
+// Plot RSI
+plot(rsi_value, "RSI", color=color.blue)
+hline(overbought, "Overbought", color=color.red)
+hline(oversold, "Oversold", color=color.green)
+
+// Signals
+buy_signal = ta.crossover(rsi_value, oversold)
+sell_signal = ta.crossunder(rsi_value, overbought)
+
+plotshape(buy_signal, style=shape.triangleup, location=location.bottom, color=color.green, title="Buy")
+plotshape(sell_signal, style=shape.triangledown, location=location.top, color=color.red, title="Sell")
+
+alertcondition(buy_signal, title="RSI Buy", message="RSI crossed above oversold")
+alertcondition(sell_signal, title="RSI Sell", message="RSI crossed below overbought")
