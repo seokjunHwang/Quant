@@ -1,0 +1,53 @@
+# Pipeline Global Settings
+
+collector:
+  tradingview:
+    max_scripts: 500
+    categories:
+      - momentum
+      - trend
+      - volume
+      - volatility
+      - oscillators
+    delay_range: [3, 8]  # seconds between requests
+  github:
+    query: "tradingview pine script indicator"
+    max_repos: 200
+
+analyzer:
+  llm_model: "claude-sonnet-4-20250514"
+  max_concurrent: 5
+  batch_size: 50
+
+filter:
+  hard:
+    min_lines_of_code: 5
+    require_signals: true
+  soft:
+    min_overall_score: 50
+    min_signal_clarity: 5
+    min_combination_potential: 4
+
+combiner:
+  max_strategies: 1000
+  strategy_size: [2, 4]
+  parameter_variants: 3
+
+backtest:
+  assets:
+    crypto: ["BTCUSDT", "ETHUSDT"]
+    stocks: ["SPY", "QQQ"]
+  periods:
+    bull_market: ["2020-04-01", "2021-11-01"]
+    bear_market: ["2022-01-01", "2022-12-31"]
+    sideways: ["2023-06-01", "2024-02-01"]
+    full_cycle: ["2020-01-01", "2025-01-01"]
+  timeframe: "1d"
+  commission_pct: 0.1
+  slippage_pct: 0.1
+  scoring_weights:
+    sharpe: 0.3
+    excess_return: 0.2
+    win_rate: 0.2
+    consistency: 0.15
+    mdd_inverse: 0.15

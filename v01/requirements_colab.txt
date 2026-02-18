@@ -1,0 +1,17 @@
+# =============================================================================
+# Coin Trading AI Project - Google Colab Requirements
+# Colab에 이미 설치된 패키지는 제외
+# =============================================================================
+
+# Financial Data (Colab에 없음)
+yfinance>=0.2.28
+
+# XGBoost (Colab 버전이 낮을 수 있음)
+xgboost>=2.0.0
+
+# Hyperparameter Optimization (Colab에 없음)
+optuna>=3.4.0
+
+# HTML table parsing (yfinance 웹 스크래핑용)
+lxml>=4.9.0
+html5lib>=1.1
