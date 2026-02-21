@@ -1,0 +1,118 @@
+//@version=5
+strategy("테스타 배열 추세매매", shorttitle="Testa_Align", overlay=true,
+     default_qty_type=strategy.percent_of_equity, default_qty_value=100,
+     initial_capital=10000000, commission_type=strategy.commission.percent,
+     commission_value=0.015, slippage=1, calc_on_every_tick=true)
+
+// ── Inputs ──────────────────────────────────────────────────────────────────
+shortLen     = input.int(5,    "단기 SMA", minval=1)
+midLen       = input.int(25,   "중기 SMA", minval=1)
+longLen      = input.int(75,   "장기 SMA", minval=1)
+convergePct  = input.float(0.3,"수렴 청산 괴리율 (%)", minval=0.05, step=0.05, tooltip="SMA5-25 간격이 이 % 이하로 좁혀지면 청산")
+minHoldBars  = input.int(10,   "최소 보유 봉수", minval=1, tooltip="진입 후 최소 이 봉수는 무조건 보유")
+peakMult     = input.float(2.0,"최소 벌어짐 배수", minval=1.5, step=0.5, tooltip="괴리율이 청산기준의 이 배수 이상 벌어져야 청산 자격 부여")
+minProfitPct = input.float(0.5,"익절 최소 수익률 (%)", minval=0.1, step=0.1, tooltip="수익이 이 % 이하면 더 들고감")
+showLong     = input.bool(true, "롱 시그널 표시")
+showShort    = input.bool(true, "숏 시그널 표시")
+
+// ── SMA ─────────────────────────────────────────────────────────────────────
+smaShort = ta.sma(close, shortLen)
+smaMid   = ta.sma(close, midLen)
+smaLong  = ta.sma(close, longLen)
+
+// ── 글로벌 스코프 크로스 (Pine Script 필수) ──────────────────────────────────
+crossAboveSMA5 = ta.crossover(close, smaShort)
+crossBelowSMA5 = ta.crossunder(close, smaShort)
+
+// ── 정배열 / 역배열 ────────────────────────────────────────────────────────
+longRising  = smaLong > smaLong[1]
+longFalling = smaLong < smaLong[1]
+
+isBullish = smaShort > smaMid and smaMid > smaLong and longRising
+isBearish = smaShort < smaMid and smaMid < smaLong and longFalling
+
+// ── 배경색 ──────────────────────────────────────────────────────────────────
+bgCol = isBullish ? color.new(color.green, 90) : isBearish ? color.new(color.red, 90) : color.new(color.gray, 95)
+bgcolor(bgCol)
+
+// ── 진입 조건 ───────────────────────────────────────────────────────────────
+// 1) 배열 전환 시 신규 진입
+goLong  = isBullish and not isBullish[1]
+goShort = isBearish and not isBearish[1]
+
+// 2) 배열 유지 중 포지션 없을 때 재진입 (SMA5 눌림목 돌파)
+reEntryLong  = isBullish and strategy.position_size == 0 and crossAboveSMA5
+reEntryShort = isBearish and strategy.position_size == 0 and crossBelowSMA5
+
+enterLong  = goLong or reEntryLong
+enterShort = goShort or reEntryShort
+
+// ── 괴리율 계산 (5선 vs 25선) ───────────────────────────────────────────────
+gapPct = math.abs(smaShort - smaMid) / smaMid * 100
+
+// ── 상태 추적 ───────────────────────────────────────────────────────────────
+var int   entryBar = 0
+var float peakGap  = 0.0
+
+if enterLong or enterShort
+    entryBar := bar_index
+    peakGap  := gapPct
+
+if strategy.position_size != 0 and gapPct > peakGap
+    peakGap := gapPct
+
+// ── 수익률 계산 ─────────────────────────────────────────────────────────────
+entryPrice = strategy.position_avg_price
+profitPct = entryPrice > 0 and strategy.position_size > 0 ? (close - entryPrice) / entryPrice * 100 : entryPrice > 0 and strategy.position_size < 0 ? (entryPrice - close) / entryPrice * 100 : 0.0
+isLosing = profitPct < 0
+
+// ── 청산 조건 ───────────────────────────────────────────────────────────────
+holdEnough  = bar_index >= entryBar + minHoldBars
+converging  = gapPct < gapPct[1]
+gapSmall    = gapPct < convergePct
+gapExpanded = peakGap > convergePct * peakMult
+
+// 배열 이탈 감지 (롱인데 정배열 아님 / 숏인데 역배열 아님)
+alignLost = (strategy.position_size > 0 and not isBullish) or (strategy.position_size < 0 and not isBearish)
+
+// 수렴 손절: 최소 보유 + 벌어졌다 좁아짐
+lossCut = isLosing and holdEnough and gapExpanded and converging and gapSmall
+
+// 수렴 익절: 최소 수익률 + 최소 보유 + 벌어졌다 좁아짐
+profitExit = not isLosing and profitPct >= minProfitPct and holdEnough and gapExpanded and converging and gapSmall
+
+// 배열 이탈 청산: 배열 깨지면 최소 보유 후 청산
+alignExit = alignLost and holdEnough
+
+// 진입 시그널 있으면 청산 무시
+exitLong  = strategy.position_size > 0 and not enterLong and not enterShort and (lossCut or profitExit or alignExit)
+exitShort = strategy.position_size < 0 and not enterLong and not enterShort and (lossCut or profitExit or alignExit)
+
+// ── 전략 실행 ───────────────────────────────────────────────────────────────
+if enterLong
+    if strategy.position_size < 0
+        strategy.close_all(comment="롱전환")
+    strategy.entry("롱", strategy.long)
+
+if enterShort
+    if strategy.position_size > 0
+        strategy.close_all(comment="숏전환")
+    strategy.entry("숏", strategy.short)
+
+if exitLong
+    strategy.close_all(comment=alignLost ? "배열이탈" : isLosing ? "손절" : "익절")
+
+if exitShort
+    strategy.close_all(comment=alignLost ? "배열이탈" : isLosing ? "손절" : "익절")
+
+if strategy.position_size == 0 and strategy.position_size[1] != 0
+    peakGap := 0.0
+
+// ── 시그널 표시 ─────────────────────────────────────────────────────────────
+plotshape(showLong and enterLong, "롱", shape.triangleup, location.belowbar, color=color.green, size=size.normal, text="LONG")
+plotshape(showShort and enterShort, "숏", shape.triangledown, location.abovebar, color=color.red, size=size.normal, text="SHORT")
+
+// ── SMA 플롯 ────────────────────────────────────────────────────────────────
+plot(smaShort, "SMA5",  color=color.blue,   linewidth=2)
+plot(smaMid,   "SMA25", color=color.orange,  linewidth=2)
+plot(smaLong,  "SMA75", color=color.black,   linewidth=2)

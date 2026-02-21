@@ -1,0 +1,19 @@
+////////////////////////////////////////////////////////////
+//  Copyright by Matt v1.0 14-12-2017
+// This study plots the Simple MA indicator as a set of three.
+////////////////////////////////////////////////////////////
+
+study(title="Triple MA", shorttitle="TMA", overlay = true )
+
+Length1 = input(50, minval=1)
+Length2 = input(100, minval=1)
+Length3 = input(200, minval=1)
+xPrice = close
+
+SMA1 = sma(xPrice, Length1)
+SMA2 = sma(xPrice, Length2)
+SMA3 = sma(xPrice, Length3)
+
+plot(SMA1, color=red, title="SMA1")
+plot(SMA2, color=yellow, title="SMA2")
+plot(SMA3, color=lime, title="SMA3")

@@ -1,0 +1,83 @@
+//@version=5
+// ============================================================================
+// Triple SMA 정배열 돌파 시그널 (기본형)
+// - 정배열 감지 + 가격이 SMA5 위로 돌파하면 매수
+// - SMA25 하향 돌파 또는 SMA5/25 데드크로스 시 매도
+// - 배경색: 정배열(녹색) / 역배열(적색) / 꼬임(회색)
+// ============================================================================
+strategy("Triple SMA 정배열 돌파 (기본형)", shorttitle="TriSMA_Basic", overlay=true,
+     default_qty_type=strategy.percent_of_equity, default_qty_value=100,
+     initial_capital=10000000, commission_type=strategy.commission.percent,
+     commission_value=0.015, slippage=1)
+
+// ── Inputs ──────────────────────────────────────────────────────────────────
+shortLen  = input.int(5,   "단기 SMA 길이", minval=1)
+midLen    = input.int(25,  "중기 SMA 길이", minval=1)
+longLen   = input.int(75,  "장기 SMA 길이", minval=1)
+
+// ── SMA 계산 ────────────────────────────────────────────────────────────────
+smaShort = ta.sma(close, shortLen)
+smaMid   = ta.sma(close, midLen)
+smaLong  = ta.sma(close, longLen)
+
+// ── 정배열 / 역배열 판별 ────────────────────────────────────────────────────
+// 정배열: SMA5 > SMA25 > SMA75, 장기 이평 상승 중
+longRising  = smaLong > smaLong[1]
+longFalling = smaLong < smaLong[1]
+
+isBullishAlign = smaShort > smaMid and smaMid > smaLong and longRising
+isBearishAlign = smaShort < smaMid and smaMid < smaLong and longFalling
+
+// ── 배경색 ──────────────────────────────────────────────────────────────────
+bgColor = isBullishAlign ? color.new(color.green, 90) :
+          isBearishAlign ? color.new(color.red, 90) :
+          color.new(color.gray, 95)
+bgcolor(bgColor, title="배열 배경")
+
+// ── 매수 조건 ───────────────────────────────────────────────────────────────
+// 정배열 상태에서 가격이 SMA5 위로 돌파
+priceCrossAboveSMA5 = ta.crossover(close, smaShort)
+buySignal = isBullishAlign and priceCrossAboveSMA5
+
+// ── 매도 조건 ───────────────────────────────────────────────────────────────
+// 조건1: 음봉 몸통이 SMA25 하향 돌파
+bearishBreakMid = close < smaMid and close < open
+
+// 조건2: SMA5가 SMA25 아래로 데드크로스
+deathCross = ta.crossunder(smaShort, smaMid)
+
+sellSignal = bearishBreakMid or deathCross
+
+// ── 손절: 진입 캔들 최저점 ──────────────────────────────────────────────────
+var float stopLossPrice = na
+if buySignal and strategy.position_size == 0
+    stopLossPrice := low
+
+// ── 전략 실행 ───────────────────────────────────────────────────────────────
+if buySignal and strategy.position_size == 0
+    strategy.entry("매수", strategy.long)
+
+if strategy.position_size > 0
+    // 손절
+    strategy.exit("손절", from_entry="매수", stop=stopLossPrice)
+    // 시그널 매도
+    if sellSignal
+        strategy.close("매수", comment="청산")
+
+// ── 시그널 표시 ─────────────────────────────────────────────────────────────
+plotshape(buySignal and strategy.position_size == 0, title="매수",
+     style=shape.triangleup, location=location.belowbar,
+     color=color.green, size=size.small, text="BUY")
+
+plotshape(sellSignal and strategy.position_size > 0, title="매도",
+     style=shape.triangledown, location=location.abovebar,
+     color=color.red, size=size.small, text="SELL")
+
+// ── SMA 플롯 ────────────────────────────────────────────────────────────────
+plot(smaShort, "SMA 5",  color=color.blue,   linewidth=2)
+plot(smaMid,   "SMA 25", color=color.orange,  linewidth=2)
+plot(smaLong,  "SMA 75", color=color.black,   linewidth=2)
+
+// ── 손절 라인 표시 ──────────────────────────────────────────────────────────
+plot(strategy.position_size > 0 ? stopLossPrice : na, "손절라인",
+     color=color.red, style=plot.style_linebr, linewidth=1)
