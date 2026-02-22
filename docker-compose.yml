@@ -1,0 +1,27 @@
+services:
+  backend:
+    build: ./v03_종목추천/backend
+    container_name: v03-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ..:/workspace
+    working_dir: /workspace/Quant/v03_종목추천/backend
+    environment:
+      - V03_DEBUG=true
+      - V03_CORS_ORIGINS=["http://localhost:3000"]
+      - PYTHONPATH=/workspace/Quant/v03_종목추천/backend:/workspace/Quant
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    restart: unless-stopped
+
+  frontend:
+    build: ./v03_종목추천/frontend
+    container_name: v03-frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ..:/workspace
+    working_dir: /workspace/Quant/v03_종목추천/frontend
+    depends_on:
+      - backend
+    restart: unless-stopped
