@@ -146,18 +146,55 @@ def resample_to_4h_session(df_1h: pd.DataFrame) -> pd.DataFrame:
     return result
 
 
+def _has_eth_data(df_1h: pd.DataFrame) -> bool:
+    """Check if 1h data contains electronic trading hours (outside 9-17)."""
+    hours = df_1h.index.hour
+    return bool((hours < 9).any() or (hours >= 17).any())
+
+
+def resample_to_4h_eth(df_1h: pd.DataFrame) -> pd.DataFrame:
+    """
+    Resample 1h to 4h for futures with Electronic Trading Hours.
+    CME session: 18:00 ET → 17:00 ET next day (halt 17:00-18:00).
+    4H blocks: 18-22, 22-02, 02-06, 06-10, 10-14, 14-18.
+    Produces ~6 candles per trading day.
+
+    Uses +6h time shift so 18:00 session open aligns with midnight,
+    then standard pandas 4h resample, then shift back.
+    """
+    tmp = df_1h[["open", "high", "low", "close", "volume"]].copy()
+    tmp.index = tmp.index + pd.Timedelta(hours=6)
+
+    result = tmp.resample("4h").agg({
+        "open": "first",
+        "high": "max",
+        "low": "min",
+        "close": "last",
+        "volume": "sum",
+    }).dropna(subset=["open", "close"])
+
+    result.index = result.index - pd.Timedelta(hours=6)
+    return result
+
+
 def fetch_4h_candles_session(ticker: str, days: int = 730) -> pd.DataFrame | None:
     """
     Fetch session-based 4H candles (matches TradingView alignment).
-    Uses AM/PM session boundaries instead of UTC-based resample.
+    Auto-detects ETH (futures) vs RTH (stocks) and uses appropriate resampling.
     """
     df_1h = fetch_1h_candles(ticker, days)
     if df_1h is None or len(df_1h) < 20:
         return None
 
-    df_4h = resample_to_4h_session(df_1h)
+    if _has_eth_data(df_1h):
+        df_4h = resample_to_4h_eth(df_1h)
+        logger.info(f"[{ticker}] ETH detected → {len(df_4h)} 4h candles (~6/day)")
+    else:
+        df_4h = resample_to_4h_session(df_1h)
+        logger.info(f"[{ticker}] RTH only → {len(df_4h)} 4h candles (2/day)")
+
     if len(df_4h) < 30:
-        logger.warning(f"[{ticker}] Too few session-4h candles: {len(df_4h)}")
+        logger.warning(f"[{ticker}] Too few 4h candles: {len(df_4h)}")
         return None
 
     return df_4h

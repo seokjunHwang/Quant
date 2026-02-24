@@ -32,6 +32,7 @@ _COLORS = {
 
 # TradingView ticker -> yfinance ticker mapping
 _TV_TO_YF: dict[str, str] = {
+    # Futures
     "NQ1!": "NQ=F",
     "ES1!": "ES=F",
     "YM1!": "YM=F",
@@ -45,6 +46,28 @@ _TV_TO_YF: dict[str, str] = {
     "6J1!": "JPY=X",
     "BTC1!": "BTC-USD",
     "ETH1!": "ETH-USD",
+    # Common name aliases
+    "NASDAQ": "^NDX",
+    "NASDAQ100": "^NDX",
+    "NDX": "^NDX",
+    "SP500": "^GSPC",
+    "S&P500": "^GSPC",
+    "SPX": "^GSPC",
+    "DOW": "^DJI",
+    "DOWJONES": "^DJI",
+    "DJI": "^DJI",
+    "RUSSELL": "^RUT",
+    "RUSSELL2000": "^RUT",
+    "VIX": "^VIX",
+    "GOLD": "GC=F",
+    "OIL": "CL=F",
+    "SILVER": "SI=F",
+    "BITCOIN": "BTC-USD",
+    "BTC": "BTC-USD",
+    "ETH": "ETH-USD",
+    "ETHEREUM": "ETH-USD",
+    "EURUSD": "EURUSD=X",
+    "USDJPY": "JPY=X",
 }
 
 ET = ZoneInfo("US/Eastern")
