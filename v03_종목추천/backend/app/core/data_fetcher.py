@@ -117,6 +117,52 @@ def fetch_batch(
     return results
 
 
+def resample_to_4h_session(df_1h: pd.DataFrame) -> pd.DataFrame:
+    """
+    Resample 1h candles to 4h using US trading session boundaries.
+    AM session: 09:30-13:30 ET (4 x 1h candles)
+    PM session: 13:30-16:00 ET (3 x 1h candles)
+    Produces 2 candles per trading day, matching TradingView 4H.
+    """
+    hours = df_1h.index.hour + df_1h.index.minute / 60.0
+    tmp = df_1h.copy()
+    tmp["_date"] = tmp.index.date
+    tmp["_sess"] = (hours >= 13.5).astype(int)
+
+    result = tmp.groupby(["_date", "_sess"]).agg({
+        "open": "first",
+        "high": "max",
+        "low": "min",
+        "close": "last",
+        "volume": "sum",
+    }).reset_index()
+
+    result.index = pd.DatetimeIndex([
+        pd.Timestamp(r["_date"].year, r["_date"].month, r["_date"].day,
+                     9 if r["_sess"] == 0 else 13, 30)
+        for _, r in result.iterrows()
+    ])
+    result = result[["open", "high", "low", "close", "volume"]]
+    return result
+
+
+def fetch_4h_candles_session(ticker: str, days: int = 730) -> pd.DataFrame | None:
+    """
+    Fetch session-based 4H candles (matches TradingView alignment).
+    Uses AM/PM session boundaries instead of UTC-based resample.
+    """
+    df_1h = fetch_1h_candles(ticker, days)
+    if df_1h is None or len(df_1h) < 20:
+        return None
+
+    df_4h = resample_to_4h_session(df_1h)
+    if len(df_4h) < 30:
+        logger.warning(f"[{ticker}] Too few session-4h candles: {len(df_4h)}")
+        return None
+
+    return df_4h
+
+
 def get_current_price(ticker: str) -> float | None:
     """Get the latest price for a ticker."""
     try:

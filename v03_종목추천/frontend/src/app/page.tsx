@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Link from "next/link";
 import { useSignals } from "@/hooks/useSignals";
 import MarketTabs from "@/components/MarketTabs";
 import FilterBar from "@/components/FilterBar";
@@ -61,6 +62,12 @@ export default function Home() {
           </h1>
           <p className="text-sm text-zinc-500 mt-1">
             4H timeframe | 140 stocks (US 70 + KR 70)
+            <Link
+              href="/chart"
+              className="ml-3 text-zinc-400 hover:text-zinc-200 transition-colors"
+            >
+              Chart View &rarr;
+            </Link>
           </p>
         </div>
         <ScanButton

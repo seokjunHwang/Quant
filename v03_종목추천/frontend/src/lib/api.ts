@@ -1,4 +1,5 @@
 import type { ScanResult, ScanStatus, StockPoolResponse } from "./types";
+import type { ChartData, ChartParams } from "./chart-types";
 
 const API_BASE = "/api/v1";
 
@@ -44,5 +45,39 @@ export async function getStocks(params?: {
   if (params?.category) query.set("category", params.category);
   return fetchJSON<StockPoolResponse>(
     `${API_BASE}/stocks?${query.toString()}`
+  );
+}
+
+export interface TickerValidation {
+  valid: boolean;
+  ticker: string;    // resolved yfinance ticker
+  original: string;  // user input
+  name: string | null;
+}
+
+export async function validateTicker(
+  ticker: string,
+): Promise<TickerValidation> {
+  return fetchJSON<TickerValidation>(
+    `${API_BASE}/chart/validate/${encodeURIComponent(ticker)}`,
+  );
+}
+
+export async function getChartData(
+  ticker: string,
+  params?: ChartParams,
+): Promise<ChartData> {
+  const query = new URLSearchParams();
+  if (params?.days) query.set("days", String(params.days));
+  if (params?.rsi_period) query.set("rsi_period", String(params.rsi_period));
+  if (params?.lb_left) query.set("lb_left", String(params.lb_left));
+  if (params?.lb_right) query.set("lb_right", String(params.lb_right));
+  if (params?.range_lower) query.set("range_lower", String(params.range_lower));
+  if (params?.range_upper) query.set("range_upper", String(params.range_upper));
+  if (params?.lookback) query.set("lookback", String(params.lookback));
+
+  const qs = query.toString();
+  return fetchJSON<ChartData>(
+    `${API_BASE}/chart/${encodeURIComponent(ticker)}${qs ? `?${qs}` : ""}`,
   );
 }

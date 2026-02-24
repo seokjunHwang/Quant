@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Link from "next/link";
 import type { DivergenceSignal } from "@/lib/types";
 import StatusBadge from "./StatusBadge";
 
@@ -137,8 +138,13 @@ export default function SignalTable({ signals }: SignalTableProps) {
               <td className="px-4 py-3 text-sm text-zinc-500">
                 {idx + 1}
               </td>
-              <td className="px-4 py-3 text-sm font-mono font-semibold text-zinc-200">
-                {signal.ticker}
+              <td className="px-4 py-3 text-sm font-mono font-semibold">
+                <Link
+                  href={`/chart/${signal.ticker}`}
+                  className="text-zinc-200 hover:text-blue-400 transition-colors"
+                >
+                  {signal.ticker}
+                </Link>
               </td>
               <td className="px-4 py-3 text-sm text-zinc-300 max-w-[160px] truncate">
                 {signal.name}

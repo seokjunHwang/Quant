@@ -310,3 +310,127 @@ def detect_divergences(
     # Sort newest first
     results.sort(key=lambda x: x.timestamp, reverse=True)
     return results
+
+
+# ============================================================
+# v2: Enhanced detection with lookback parameter (for chart API)
+# Ported from indicator_test_chart/functions/engine.py
+# ============================================================
+
+@dataclass
+class ChartDivergence:
+    """Divergence signal with both current and previous pivot info for line drawing."""
+    signal_type: str       # regular_bullish / hidden_bullish / regular_bearish / hidden_bearish
+    signal_label: str      # Bull / H.Bull / Bear / H.Bear
+    idx: int               # current pivot bar index
+    prev_idx: int          # previous pivot bar index
+    price: float
+    rsi: float
+    prev_price: float
+    prev_rsi: float
+
+
+def find_pivots_indexed(
+    series: pd.Series, lb_left: int, lb_right: int, mode: str,
+) -> dict[int, int]:
+    """
+    Find RSI pivots. Returns: {confirm_bar: pivot_bar}
+    mode: "low" or "high"
+    """
+    out: dict[int, int] = {}
+    v = series.values
+    for i in range(lb_left, len(v) - lb_right):
+        if np.isnan(v[i]):
+            continue
+        L = v[i - lb_left:i]
+        R = v[i + 1:i + 1 + lb_right]
+        if len(L) < lb_left or len(R) < lb_right:
+            continue
+        if np.any(np.isnan(L)) or np.any(np.isnan(R)):
+            continue
+        if mode == "low":
+            ok = np.all(v[i] <= L) and np.all(v[i] < R)
+        else:
+            ok = np.all(v[i] >= L) and np.all(v[i] > R)
+        if ok:
+            out[i + lb_right] = i
+    return out
+
+
+def detect_divergences_v2(
+    df: pd.DataFrame,
+    rsi_period: int = 14,
+    lb_left: int = 5,
+    lb_right: int = 5,
+    range_lower: int = 5,
+    range_upper: int = 60,
+    lookback: int = 2,
+) -> tuple[list[ChartDivergence], pd.Series, dict[int, int], dict[int, int]]:
+    """
+    Enhanced RSI divergence detection with lookback parameter.
+    Compares each pivot with previous N pivots (not just consecutive).
+
+    Returns:
+        (signals, rsi_series, pivot_lows_dict, pivot_highs_dict)
+    """
+    d = df.copy()
+    d.columns = [c.lower() for c in d.columns]
+
+    if len(d) < rsi_period + lb_left + lb_right + 10:
+        return [], pd.Series(dtype=float), {}, {}
+
+    rsi = calc_rsi(d["close"], rsi_period)
+    pl = find_pivots_indexed(rsi, lb_left, lb_right, "low")
+    ph = find_pivots_indexed(rsi, lb_left, lb_right, "high")
+    sigs: list[ChartDivergence] = []
+
+    # Bullish divergences (pivot low comparisons)
+    spl = sorted(pl.items())  # sorted by confirm_bar
+    for i in range(1, len(spl)):
+        cc, cp = spl[i]       # current: (confirm_bar, pivot_bar)
+        for back in range(1, min(lookback + 1, i + 1)):
+            pc, pp = spl[i - back]  # previous
+            gap = cc - pc
+            if gap < range_lower:
+                continue
+            if gap > range_upper:
+                break
+            c_p, p_p = d["low"].iloc[cp], d["low"].iloc[pp]
+            c_r, p_r = rsi.iloc[cp], rsi.iloc[pp]
+            if c_p < p_p and c_r > p_r:
+                sigs.append(ChartDivergence(
+                    "regular_bullish", "Bull", cp, pp, c_p, c_r, p_p, p_r,
+                ))
+                break
+            elif c_p > p_p and c_r < p_r:
+                sigs.append(ChartDivergence(
+                    "hidden_bullish", "H.Bull", cp, pp, c_p, c_r, p_p, p_r,
+                ))
+                break
+
+    # Bearish divergences (pivot high comparisons)
+    sph = sorted(ph.items())
+    for i in range(1, len(sph)):
+        cc, cp = sph[i]
+        for back in range(1, min(lookback + 1, i + 1)):
+            pc, pp = sph[i - back]
+            gap = cc - pc
+            if gap < range_lower:
+                continue
+            if gap > range_upper:
+                break
+            c_p, p_p = d["high"].iloc[cp], d["high"].iloc[pp]
+            c_r, p_r = rsi.iloc[cp], rsi.iloc[pp]
+            if c_p > p_p and c_r < p_r:
+                sigs.append(ChartDivergence(
+                    "regular_bearish", "Bear", cp, pp, c_p, c_r, p_p, p_r,
+                ))
+                break
+            elif c_p < p_p and c_r > p_r:
+                sigs.append(ChartDivergence(
+                    "hidden_bearish", "H.Bear", cp, pp, c_p, c_r, p_p, p_r,
+                ))
+                break
+
+    sigs.sort(key=lambda s: s.idx)
+    return sigs, rsi, pl, ph
