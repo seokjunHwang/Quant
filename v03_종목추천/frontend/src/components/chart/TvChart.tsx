@@ -15,7 +15,9 @@ import {
   type Time,
 } from "lightweight-charts";
 import { TrendLinePrimitive } from "./plugins/trend-line";
-import type { ChartData } from "@/lib/chart-types";
+import { BoxPrimitive } from "./plugins/box-primitive";
+import type { ChartData, TsrData } from "@/lib/chart-types";
+import type { IndicatorId, IndicatorState } from "@/lib/indicator-types";
 
 const COLORS: Record<string, string> = {
   regular_bullish: "#26a69a",
@@ -24,13 +26,35 @@ const COLORS: Record<string, string> = {
   hidden_bearish: "#ff8a65",
 };
 
+const TSR_COLORS = {
+  uptrend: "#2962ff",
+  uptrend_violated: "rgba(41, 98, 255, 0.3)",
+  downtrend: "#ef5350",
+  downtrend_violated: "rgba(239, 83, 80, 0.3)",
+  support_fill: "rgba(38, 166, 154, 0.15)",
+  support_border: "rgba(38, 166, 154, 0.5)",
+  resistance_fill: "rgba(239, 83, 80, 0.15)",
+  resistance_border: "rgba(239, 83, 80, 0.5)",
+};
+
 interface TvChartProps {
   data: ChartData;
+  tsrData?: TsrData | null;
+  indicators: Record<IndicatorId, IndicatorState>;
 }
 
-export default function TvChart({ data }: TvChartProps) {
+/** Deduplicate and ensure ascending time order (keep last for duplicate times). */
+function dedup<T extends { time: number }>(arr: T[]): T[] {
+  const sorted = [...arr].sort((a, b) => a.time - b.time);
+  return sorted.filter((item, i) => i === 0 || item.time !== sorted[i - 1].time);
+}
+
+export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<IChartApi | null>(null);
+
+  const rsiVisible = indicators["rsi-divergence"]?.visible ?? true;
+  const tsrVisible = indicators["tsr"]?.visible ?? true;
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -65,7 +89,7 @@ export default function TvChart({ data }: TvChartProps) {
     });
 
     candleSeries.setData(
-      data.candles.map((c) => ({
+      dedup(data.candles).map((c) => ({
         time: c.time as UTCTimestamp,
         open: c.open,
         high: c.high,
@@ -74,109 +98,183 @@ export default function TvChart({ data }: TvChartProps) {
       })),
     );
 
-    // Signal markers on candles
-    const candleMarkers: SeriesMarker<Time>[] = data.signals
-      .map((s) => ({
-        time: s.time as UTCTimestamp as Time,
-        position: s.position as "belowBar" | "aboveBar",
-        color: s.color,
-        shape: s.shape as "arrowUp" | "arrowDown",
-        text: s.text,
-      }))
-      .sort((a, b) => (a.time as number) - (b.time as number));
+    // ─── Candle markers (merge RSI signals + TSR pivots) ───
+    const candleMarkers: SeriesMarker<Time>[] = [];
+
+    // RSI divergence signal markers
+    if (rsiVisible) {
+      for (const s of data.signals) {
+        candleMarkers.push({
+          time: s.time as UTCTimestamp as Time,
+          position: s.position as "belowBar" | "aboveBar",
+          color: s.color,
+          shape: s.shape as "arrowUp" | "arrowDown",
+          text: s.text,
+        });
+      }
+    }
+
+    // TSR pivot markers on candle pane
+    if (tsrVisible && tsrData) {
+      for (const p of tsrData.pivot_markers) {
+        candleMarkers.push({
+          time: p.time as UTCTimestamp as Time,
+          position: p.pivot_type === "high" ? "aboveBar" : "belowBar",
+          color: p.pivot_type === "high" ? "rgba(239, 83, 80, 0.5)" : "rgba(38, 166, 154, 0.5)",
+          shape: "circle" as const,
+          text: "",
+        });
+      }
+    }
 
     if (candleMarkers.length > 0) {
+      candleMarkers.sort((a, b) => (a.time as number) - (b.time as number));
       createSeriesMarkers(candleSeries, candleMarkers);
     }
 
-    // ─── Pane 1: RSI ───
-    const rsiSeries = chart.addSeries(
-      LineSeries,
-      {
-        color: "#bb86fc",
-        lineWidth: 2,
-        lastValueVisible: true,
-        priceFormat: {
-          type: "custom",
-          formatter: (v: number) => v.toFixed(1),
+    // ─── TSR: Trend Lines + S/R Zones (overlay on price pane) ───
+    if (tsrVisible && tsrData) {
+      // Trend lines
+      for (const tl of tsrData.trend_lines) {
+        const isUp = tl.direction === "up";
+        const baseColor = isUp
+          ? (tl.is_violated ? TSR_COLORS.uptrend_violated : TSR_COLORS.uptrend)
+          : (tl.is_violated ? TSR_COLORS.downtrend_violated : TSR_COLORS.downtrend);
+
+        // Main segment: start → end
+        const mainLine = new TrendLinePrimitive(
+          { time: tl.start_time as UTCTimestamp as Time, value: tl.start_price },
+          { time: tl.end_time as UTCTimestamp as Time, value: tl.end_price },
+          { lineColor: baseColor, lineWidth: 2, lineStyle: "solid" },
+        );
+        candleSeries.attachPrimitive(mainLine);
+
+        // Extension segment: end → ext (dashed, dimmer)
+        if (tl.ext_time != null && tl.ext_price != null) {
+          const extLine = new TrendLinePrimitive(
+            { time: tl.end_time as UTCTimestamp as Time, value: tl.end_price },
+            { time: tl.ext_time as UTCTimestamp as Time, value: tl.ext_price },
+            { lineColor: baseColor, lineWidth: 1, lineStyle: "dashed" },
+          );
+          candleSeries.attachPrimitive(extLine);
+        }
+      }
+
+      // S/R zones
+      for (const zone of tsrData.sr_zones) {
+        const isSupport = zone.zone_type === "support";
+        const box = new BoxPrimitive(
+          zone.start_time as UTCTimestamp as Time,
+          zone.end_time as UTCTimestamp as Time,
+          zone.top,
+          zone.bottom,
+          {
+            fillColor: isSupport ? TSR_COLORS.support_fill : TSR_COLORS.resistance_fill,
+            borderColor: isSupport ? TSR_COLORS.support_border : TSR_COLORS.resistance_border,
+            borderWidth: 1,
+          },
+        );
+        candleSeries.attachPrimitive(box);
+      }
+    }
+
+    // ─── RSI Divergence: lines on price pane ───
+    if (rsiVisible) {
+      for (const line of data.divergence_lines) {
+        const isRegular = line.signal_type.includes("regular");
+        const color = COLORS[line.signal_type] ?? "#ffffff";
+        const style = isRegular ? "solid" : ("dashed" as const);
+
+        const priceLine = new TrendLinePrimitive(
+          { time: line.prev_time as UTCTimestamp as Time, value: line.prev_price },
+          { time: line.curr_time as UTCTimestamp as Time, value: line.curr_price },
+          { lineColor: color, lineWidth: 2, lineStyle: style },
+        );
+        candleSeries.attachPrimitive(priceLine);
+      }
+    }
+
+    // ─── Pane 1: RSI (only when RSI indicator is visible) ───
+    if (rsiVisible) {
+      const rsiSeries = chart.addSeries(
+        LineSeries,
+        {
+          color: "#bb86fc",
+          lineWidth: 2,
+          lastValueVisible: true,
+          priceFormat: {
+            type: "custom",
+            formatter: (v: number) => v.toFixed(1),
+          },
         },
-      },
-      1,
-    );
-
-    rsiSeries.setData(
-      data.rsi.map((r) => ({
-        time: r.time as UTCTimestamp,
-        value: r.value,
-      })),
-    );
-
-    // RSI 30/70 level lines
-    rsiSeries.createPriceLine({
-      price: 70,
-      color: "rgba(239, 83, 80, 0.5)",
-      lineWidth: 1,
-      lineStyle: LineStyle.Dashed,
-      axisLabelVisible: true,
-    });
-    rsiSeries.createPriceLine({
-      price: 30,
-      color: "rgba(38, 166, 154, 0.5)",
-      lineWidth: 1,
-      lineStyle: LineStyle.Dashed,
-      axisLabelVisible: true,
-    });
-
-    // RSI pane height
-    const panes = chart.panes();
-    if (panes.length > 1) {
-      panes[0].setHeight(480);
-      panes[1].setHeight(180);
-    }
-
-    // Pivot markers on RSI
-    const pivotMarkers: SeriesMarker<Time>[] = [
-      ...data.pivot_lows.map((p) => ({
-        time: p.time as UTCTimestamp as Time,
-        position: "belowBar" as const,
-        color: "rgba(38, 166, 154, 0.4)",
-        shape: "circle" as const,
-        text: "",
-      })),
-      ...data.pivot_highs.map((p) => ({
-        time: p.time as UTCTimestamp as Time,
-        position: "aboveBar" as const,
-        color: "rgba(239, 83, 80, 0.4)",
-        shape: "circle" as const,
-        text: "",
-      })),
-    ].sort((a, b) => (a.time as number) - (b.time as number));
-
-    if (pivotMarkers.length > 0) {
-      createSeriesMarkers(rsiSeries, pivotMarkers);
-    }
-
-    // ─── Divergence lines on both panes ───
-    for (const line of data.divergence_lines) {
-      const isRegular = line.signal_type.includes("regular");
-      const color = COLORS[line.signal_type] ?? "#ffffff";
-      const style = isRegular ? "solid" : ("dashed" as const);
-
-      // Price pane divergence line
-      const priceLine = new TrendLinePrimitive(
-        { time: line.prev_time as UTCTimestamp as Time, value: line.prev_price },
-        { time: line.curr_time as UTCTimestamp as Time, value: line.curr_price },
-        { lineColor: color, lineWidth: 2, lineStyle: style },
+        1,
       );
-      candleSeries.attachPrimitive(priceLine);
 
-      // RSI pane divergence line
-      const rsiLine = new TrendLinePrimitive(
-        { time: line.prev_time as UTCTimestamp as Time, value: line.prev_rsi },
-        { time: line.curr_time as UTCTimestamp as Time, value: line.curr_rsi },
-        { lineColor: color, lineWidth: 2, lineStyle: style },
+      rsiSeries.setData(
+        dedup(data.rsi).map((r) => ({
+          time: r.time as UTCTimestamp,
+          value: r.value,
+        })),
       );
-      rsiSeries.attachPrimitive(rsiLine);
+
+      // RSI 30/70 level lines
+      rsiSeries.createPriceLine({
+        price: 70,
+        color: "rgba(239, 83, 80, 0.5)",
+        lineWidth: 1,
+        lineStyle: LineStyle.Dashed,
+        axisLabelVisible: true,
+      });
+      rsiSeries.createPriceLine({
+        price: 30,
+        color: "rgba(38, 166, 154, 0.5)",
+        lineWidth: 1,
+        lineStyle: LineStyle.Dashed,
+        axisLabelVisible: true,
+      });
+
+      // Pane sizing
+      const panes = chart.panes();
+      if (panes.length > 1) {
+        panes[0].setHeight(480);
+        panes[1].setHeight(180);
+      }
+
+      // Pivot markers on RSI
+      const pivotMarkers: SeriesMarker<Time>[] = [
+        ...data.pivot_lows.map((p) => ({
+          time: p.time as UTCTimestamp as Time,
+          position: "belowBar" as const,
+          color: "rgba(38, 166, 154, 0.4)",
+          shape: "circle" as const,
+          text: "",
+        })),
+        ...data.pivot_highs.map((p) => ({
+          time: p.time as UTCTimestamp as Time,
+          position: "aboveBar" as const,
+          color: "rgba(239, 83, 80, 0.4)",
+          shape: "circle" as const,
+          text: "",
+        })),
+      ].sort((a, b) => (a.time as number) - (b.time as number));
+
+      if (pivotMarkers.length > 0) {
+        createSeriesMarkers(rsiSeries, pivotMarkers);
+      }
+
+      // Divergence lines on RSI pane
+      for (const line of data.divergence_lines) {
+        const isRegular = line.signal_type.includes("regular");
+        const color = COLORS[line.signal_type] ?? "#ffffff";
+        const style = isRegular ? "solid" : ("dashed" as const);
+
+        const rsiLine = new TrendLinePrimitive(
+          { time: line.prev_time as UTCTimestamp as Time, value: line.prev_rsi },
+          { time: line.curr_time as UTCTimestamp as Time, value: line.curr_rsi },
+          { lineColor: color, lineWidth: 2, lineStyle: style },
+        );
+        rsiSeries.attachPrimitive(rsiLine);
+      }
     }
 
     // Fit content
@@ -196,13 +294,13 @@ export default function TvChart({ data }: TvChartProps) {
       chart.remove();
       chartRef.current = null;
     };
-  }, [data]);
+  }, [data, tsrData, rsiVisible, tsrVisible]);
 
   return (
     <div
       ref={containerRef}
       className="w-full rounded-lg overflow-hidden"
-      style={{ height: "700px" }}
+      style={{ height: rsiVisible ? "700px" : "520px" }}
     />
   );
 }

@@ -1,5 +1,5 @@
 import type { ScanResult, ScanStatus, StockPoolResponse } from "./types";
-import type { ChartData, ChartParams } from "./chart-types";
+import type { ChartData, ChartParams, TsrData, TsrParams } from "./chart-types";
 
 const API_BASE = "/api/v1";
 
@@ -68,6 +68,7 @@ export async function getChartData(
   params?: ChartParams,
 ): Promise<ChartData> {
   const query = new URLSearchParams();
+  if (params?.interval) query.set("interval", params.interval);
   if (params?.days) query.set("days", String(params.days));
   if (params?.rsi_period) query.set("rsi_period", String(params.rsi_period));
   if (params?.lb_left) query.set("lb_left", String(params.lb_left));
@@ -79,5 +80,26 @@ export async function getChartData(
   const qs = query.toString();
   return fetchJSON<ChartData>(
     `${API_BASE}/chart/${encodeURIComponent(ticker)}${qs ? `?${qs}` : ""}`,
+  );
+}
+
+export async function getTsrData(
+  ticker: string,
+  params?: TsrParams,
+): Promise<TsrData> {
+  const query = new URLSearchParams();
+  if (params?.interval) query.set("interval", params.interval);
+  if (params?.days) query.set("days", String(params.days));
+  if (params?.pvt_length) query.set("pvt_length", String(params.pvt_length));
+  if (params?.tl_points_to_check) query.set("tl_points_to_check", String(params.tl_points_to_check));
+  if (params?.tl_max_violation !== undefined) query.set("tl_max_violation", String(params.tl_max_violation));
+  if (params?.tl_except_bars) query.set("tl_except_bars", String(params.tl_except_bars));
+  if (params?.sr_points_to_check) query.set("sr_points_to_check", String(params.sr_points_to_check));
+  if (params?.sr_max_violation !== undefined) query.set("sr_max_violation", String(params.sr_max_violation));
+  if (params?.sr_except_bars) query.set("sr_except_bars", String(params.sr_except_bars));
+
+  const qs = query.toString();
+  return fetchJSON<TsrData>(
+    `${API_BASE}/chart/${encodeURIComponent(ticker)}/tsr${qs ? `?${qs}` : ""}`,
   );
 }

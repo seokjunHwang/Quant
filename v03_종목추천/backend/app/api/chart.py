@@ -9,8 +9,9 @@ import yfinance as yf
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
 
-from app.core.data_fetcher import fetch_4h_candles_session
+from app.core.data_fetcher import fetch_candles
 from app.core.rsi_divergence import detect_divergences_v2
+from app.core.tsr import compute_tsr
 from app.models.schemas import (
     CandleData,
     ChartDataResponse,
@@ -18,6 +19,10 @@ from app.models.schemas import (
     PivotPoint,
     RsiPoint,
     SignalMarker,
+    TsrDataResponse,
+    TsrPivotMarkerResp,
+    TsrSrZoneResp,
+    TsrTrendLineResp,
 )
 
 logger = logging.getLogger(__name__)
@@ -77,9 +82,10 @@ def _to_epoch(ts: pd.Timestamp) -> int:
     """Convert a pandas Timestamp to UNIX epoch seconds (UTC).
 
     If the timestamp is tz-naive, localize to US/Eastern first.
+    nonexistent/ambiguous handles DST transitions (e.g. BTC 24/7 data).
     """
     if ts.tzinfo is None:
-        ts = ts.tz_localize(ET)
+        ts = ts.tz_localize(ET, nonexistent="shift_forward", ambiguous=False)
     return int(ts.timestamp())
 
 
@@ -112,20 +118,26 @@ async def validate_ticker(ticker: str):
         return TickerValidation(valid=False, ticker=resolved, original=ticker)
 
 
+_VALID_INTERVALS = {"1h", "4h", "1d"}
+
+
 @router.get("/{ticker}", response_model=ChartDataResponse)
 async def get_chart_data(
     ticker: str,
+    interval: str = Query("4h", description="Candle interval: 1h, 4h, 1d"),
     days: int = Query(730, ge=1, le=730),
     rsi_period: int = Query(14, ge=2, le=50),
     lb_left: int = Query(5, ge=1, le=20),
     lb_right: int = Query(5, ge=1, le=20),
     range_lower: int = Query(5, ge=1, le=50),
     range_upper: int = Query(60, ge=10, le=200),
-    lookback: int = Query(2, ge=1, le=10),
+    lookback: int = Query(1, ge=1, le=10),
 ):
     """Get chart data: OHLC candles, RSI, pivots, divergence signals & lines."""
+    if interval not in _VALID_INTERVALS:
+        raise HTTPException(status_code=400, detail=f"Invalid interval: {interval}. Use: {_VALID_INTERVALS}")
     ticker = _resolve_ticker(ticker)
-    df = fetch_4h_candles_session(ticker, days)
+    df = fetch_candles(ticker, interval=interval, days=days)
     if df is None or df.empty:
         raise HTTPException(status_code=404, detail=f"No data found for {ticker}")
 
@@ -213,4 +225,97 @@ async def get_chart_data(
         pivot_highs=pivot_highs,
         signals=markers,
         divergence_lines=div_lines,
+    )
+
+
+@router.get("/{ticker}/tsr", response_model=TsrDataResponse)
+async def get_tsr_data(
+    ticker: str,
+    interval: str = Query("4h", description="Candle interval: 1h, 4h, 1d"),
+    days: int = Query(730, ge=1, le=730),
+    pvt_length: int = Query(5, ge=1, le=50),
+    tl_points_to_check: int = Query(3, ge=2, le=20),
+    tl_max_violation: int = Query(0, ge=0, le=10),
+    tl_except_bars: int = Query(3, ge=0, le=20),
+    sr_points_to_check: int = Query(3, ge=1, le=20),
+    sr_max_violation: int = Query(0, ge=0, le=10),
+    sr_except_bars: int = Query(3, ge=0, le=20),
+):
+    """Get TSR indicator data: trend lines, support/resistance zones, pivot markers."""
+    if interval not in _VALID_INTERVALS:
+        raise HTTPException(status_code=400, detail=f"Invalid interval: {interval}. Use: {_VALID_INTERVALS}")
+    ticker = _resolve_ticker(ticker)
+    df = fetch_candles(ticker, interval=interval, days=days)
+    if df is None or df.empty:
+        raise HTTPException(status_code=404, detail=f"No data found for {ticker}")
+
+    result = compute_tsr(
+        df,
+        pvt_length=pvt_length,
+        tl_points_to_check=tl_points_to_check,
+        tl_max_violation=tl_max_violation,
+        tl_except_bars=tl_except_bars,
+        sr_points_to_check=sr_points_to_check,
+        sr_max_violation=sr_max_violation,
+        sr_except_bars=sr_except_bars,
+    )
+
+    # Build candles
+    candles = [
+        CandleData(
+            time=_to_epoch(df.index[i]),
+            open=round(df["open"].iloc[i], 4),
+            high=round(df["high"].iloc[i], 4),
+            low=round(df["low"].iloc[i], 4),
+            close=round(df["close"].iloc[i], 4),
+        )
+        for i in range(len(df))
+    ]
+
+    # Convert trend lines (idx -> epoch time)
+    trend_lines = [
+        TsrTrendLineResp(
+            start_time=_to_epoch(df.index[tl.start_idx]),
+            start_price=round(tl.start_price, 4),
+            end_time=_to_epoch(df.index[tl.end_idx]),
+            end_price=round(tl.end_price, 4),
+            direction=tl.direction,
+            is_violated=tl.is_violated,
+            ext_time=_to_epoch(df.index[tl.ext_idx]) if tl.ext_idx is not None else None,
+            ext_price=round(tl.ext_price, 4) if tl.ext_price is not None else None,
+        )
+        for tl in result.trend_lines
+        if tl.start_idx < len(df) and tl.end_idx < len(df)
+    ]
+
+    # Convert S/R zones
+    sr_zones = [
+        TsrSrZoneResp(
+            zone_type=z.zone_type,
+            start_time=_to_epoch(df.index[z.start_idx]),
+            end_time=_to_epoch(df.index[min(z.end_idx, len(df) - 1)]),
+            top=round(z.top, 4),
+            bottom=round(z.bottom, 4),
+            price=round(z.price, 4),
+        )
+        for z in result.sr_zones
+    ]
+
+    # Convert pivot markers
+    pivot_markers = [
+        TsrPivotMarkerResp(
+            time=_to_epoch(df.index[p.idx]),
+            price=round(p.price, 4),
+            pivot_type=p.pivot_type,
+        )
+        for p in result.pivot_markers
+        if p.idx < len(df)
+    ]
+
+    return TsrDataResponse(
+        ticker=ticker,
+        candles=candles,
+        trend_lines=trend_lines,
+        sr_zones=sr_zones,
+        pivot_markers=pivot_markers,
     )

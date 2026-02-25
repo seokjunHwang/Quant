@@ -28,7 +28,7 @@ METADATA = {
         "lb_right": 5,
         "range_lower": 5,
         "range_upper": 60,
-        "lookback": 2,
+        "lookback": 1,
     },
     "description": "RSI 피봇 기반 다이버전스 탐지 (Regular/Hidden, Bull/Bear)",
 }
@@ -299,7 +299,7 @@ def detect_divergences(
 
 
 # ============================================================
-# v2: Enhanced detection with lookback parameter (for chart API)
+# v2: Pine Script 1:1 port (for chart API)
 # ============================================================
 
 def detect_divergences_v2(
@@ -309,11 +309,17 @@ def detect_divergences_v2(
     lb_right: int = 5,
     range_lower: int = 5,
     range_upper: int = 60,
-    lookback: int = 2,
+    lookback: int = 1,
 ) -> tuple[list[ChartDivergence], pd.Series, dict[int, int], dict[int, int]]:
     """
-    Enhanced RSI divergence detection with lookback parameter.
-    Compares each pivot with previous N pivots (not just consecutive).
+    RSI divergence detection — 1:1 port of Pine Script logic.
+
+    Pine Script key lines:
+        plFound = na(ta.pivotlow(osc, lbL, lbR)) ? false : true
+        inRangePl = _inRange(plFound[1])          // barssince(plFound shifted by 1)
+        oscHL = osc[lbR] > ta.valuewhen(plFound, osc[lbR], 1) and inRangePl
+        priceLL = low[lbR] < ta.valuewhen(plFound, low[lbR], 1)
+        bullCondAlert = priceLL and oscHL and plFound
 
     Returns:
         (signals, rsi_series, pivot_lows_dict, pivot_highs_dict)
@@ -324,58 +330,141 @@ def detect_divergences_v2(
     if len(d) < rsi_period + lb_left + lb_right + 10:
         return [], pd.Series(dtype=float), {}, {}
 
-    rsi = calc_rsi(d["close"], rsi_period)
-    pl = find_pivots_indexed(rsi, lb_left, lb_right, "low")
-    ph = find_pivots_indexed(rsi, lb_left, lb_right, "high")
+    osc = calc_rsi(d["close"], rsi_period)
+
+    # --- Pivot detection (same as Pine: ta.pivotlow/high on RSI) ---
+    pl_found = find_pivot_lows(osc, lb_left, lb_right)
+    ph_found = find_pivot_highs(osc, lb_left, lb_right)
+
+    # Build pivot dicts for chart display: {confirm_bar: pivot_bar}
+    pl_dict: dict[int, int] = {}
+    ph_dict: dict[int, int] = {}
+    for i in range(len(d)):
+        if pl_found.iloc[i]:
+            pl_dict[i] = i - lb_right
+        if ph_found.iloc[i]:
+            ph_dict[i] = i - lb_right
+
+    # --- Pine: osc[lbR] and low[lbR] / high[lbR] at confirm bar ---
+    # At confirm bar i, the actual pivot bar is i - lb_right
+    # Pine's osc[lbR] at bar i = osc at bar i - lbR = osc at pivot bar
+
+    # --- Pine: _inRange(plFound[1]) ---
+    # barssince(plFound shifted by 1), then rangeLower <= bars <= rangeUpper
+    bs_pl = barssince(pl_found.shift(1, fill_value=False))
+    bs_ph = barssince(ph_found.shift(1, fill_value=False))
+
+    # --- Pine: valuewhen(plFound, osc[lbR], N) ---
+    # We need osc and price values at pivot bars, indexed at confirm bars
+    osc_at_pl = pd.Series(np.nan, index=d.index)
+    price_at_pl = pd.Series(np.nan, index=d.index)
+    osc_at_ph = pd.Series(np.nan, index=d.index)
+    price_at_ph = pd.Series(np.nan, index=d.index)
+
+    for i in range(lb_right, len(d)):
+        if pl_found.iloc[i]:
+            osc_at_pl.iloc[i] = osc.iloc[i - lb_right]
+            price_at_pl.iloc[i] = d["low"].iloc[i - lb_right]
+        if ph_found.iloc[i]:
+            osc_at_ph.iloc[i] = osc.iloc[i - lb_right]
+            price_at_ph.iloc[i] = d["high"].iloc[i - lb_right]
+
+    # Track pivot history for prev_idx lookups (needed for line drawing)
+    # pl_history[n] = list of (confirm_bar, pivot_bar) in order
     sigs: list[ChartDivergence] = []
 
-    # Bullish divergences (pivot low comparisons)
-    spl = sorted(pl.items())
-    for i in range(1, len(spl)):
-        cc, cp = spl[i]
-        for back in range(1, min(lookback + 1, i + 1)):
-            pc, pp = spl[i - back]
-            gap = cc - pc
-            if gap < range_lower:
-                continue
-            if gap > range_upper:
-                break
-            c_p, p_p = d["low"].iloc[cp], d["low"].iloc[pp]
-            c_r, p_r = rsi.iloc[cp], rsi.iloc[pp]
-            if c_p < p_p and c_r > p_r:
-                sigs.append(ChartDivergence(
-                    "regular_bullish", "Bull", cp, pp, c_p, c_r, p_p, p_r,
-                ))
-                break
-            elif c_p > p_p and c_r < p_r:
-                sigs.append(ChartDivergence(
-                    "hidden_bullish", "H.Bull", cp, pp, c_p, c_r, p_p, p_r,
-                ))
-                break
+    # --- Bullish divergences ---
+    pl_history: list[tuple[int, int]] = []  # (confirm_bar, pivot_bar)
 
-    # Bearish divergences (pivot high comparisons)
-    sph = sorted(ph.items())
-    for i in range(1, len(sph)):
-        cc, cp = sph[i]
-        for back in range(1, min(lookback + 1, i + 1)):
-            pc, pp = sph[i - back]
-            gap = cc - pc
-            if gap < range_lower:
-                continue
-            if gap > range_upper:
-                break
-            c_p, p_p = d["high"].iloc[cp], d["high"].iloc[pp]
-            c_r, p_r = rsi.iloc[cp], rsi.iloc[pp]
-            if c_p > p_p and c_r < p_r:
-                sigs.append(ChartDivergence(
-                    "regular_bearish", "Bear", cp, pp, c_p, c_r, p_p, p_r,
-                ))
-                break
-            elif c_p < p_p and c_r > p_r:
-                sigs.append(ChartDivergence(
-                    "hidden_bearish", "H.Bear", cp, pp, c_p, c_r, p_p, p_r,
-                ))
-                break
+    for i in range(len(d)):
+        if not pl_found.iloc[i]:
+            continue
+        pivot_bar = i - lb_right
+
+        # Pine: _inRange(plFound[1]) — check distance to PREVIOUS pivot
+        in_range = (
+            not np.isnan(bs_pl.iloc[i])
+            and range_lower <= bs_pl.iloc[i] <= range_upper
+        )
+
+        if in_range and len(pl_history) >= 1:
+            # Compare with previous N pivots (lookback parameter)
+            for back in range(1, min(lookback + 1, len(pl_history) + 1)):
+                prev_confirm, prev_pivot = pl_history[-back]
+
+                # Re-check range for non-consecutive pivots
+                bars_gap = i - prev_confirm - 1  # matches Pine's plFound[1] shift
+                if bars_gap < range_lower or bars_gap > range_upper:
+                    continue
+
+                curr_osc = osc.iloc[pivot_bar]
+                prev_osc = osc.iloc[prev_pivot]
+                curr_price = d["low"].iloc[pivot_bar]
+                prev_price = d["low"].iloc[prev_pivot]
+
+                # Pine: priceLL and oscHL (Regular Bullish)
+                if curr_price < prev_price and curr_osc > prev_osc:
+                    sigs.append(ChartDivergence(
+                        "regular_bullish", "Bull",
+                        pivot_bar, prev_pivot,
+                        curr_price, curr_osc, prev_price, prev_osc,
+                    ))
+                    break
+                # Pine: priceHL and oscLL (Hidden Bullish)
+                elif curr_price > prev_price and curr_osc < prev_osc:
+                    sigs.append(ChartDivergence(
+                        "hidden_bullish", "H.Bull",
+                        pivot_bar, prev_pivot,
+                        curr_price, curr_osc, prev_price, prev_osc,
+                    ))
+                    break
+
+        pl_history.append((i, pivot_bar))
+
+    # --- Bearish divergences ---
+    ph_history: list[tuple[int, int]] = []
+
+    for i in range(len(d)):
+        if not ph_found.iloc[i]:
+            continue
+        pivot_bar = i - lb_right
+
+        in_range = (
+            not np.isnan(bs_ph.iloc[i])
+            and range_lower <= bs_ph.iloc[i] <= range_upper
+        )
+
+        if in_range and len(ph_history) >= 1:
+            for back in range(1, min(lookback + 1, len(ph_history) + 1)):
+                prev_confirm, prev_pivot = ph_history[-back]
+
+                bars_gap = i - prev_confirm - 1
+                if bars_gap < range_lower or bars_gap > range_upper:
+                    continue
+
+                curr_osc = osc.iloc[pivot_bar]
+                prev_osc = osc.iloc[prev_pivot]
+                curr_price = d["high"].iloc[pivot_bar]
+                prev_price = d["high"].iloc[prev_pivot]
+
+                # Pine: priceHH and oscLH (Regular Bearish)
+                if curr_price > prev_price and curr_osc < prev_osc:
+                    sigs.append(ChartDivergence(
+                        "regular_bearish", "Bear",
+                        pivot_bar, prev_pivot,
+                        curr_price, curr_osc, prev_price, prev_osc,
+                    ))
+                    break
+                # Pine: priceLH and oscHH (Hidden Bearish)
+                elif curr_price < prev_price and curr_osc > prev_osc:
+                    sigs.append(ChartDivergence(
+                        "hidden_bearish", "H.Bear",
+                        pivot_bar, prev_pivot,
+                        curr_price, curr_osc, prev_price, prev_osc,
+                    ))
+                    break
+
+        ph_history.append((i, pivot_bar))
 
     sigs.sort(key=lambda s: s.idx)
-    return sigs, rsi, pl, ph
+    return sigs, osc, pl_dict, ph_dict

@@ -89,3 +89,38 @@ class ChartDataResponse(BaseModel):
     pivot_highs: list[PivotPoint]
     signals: list[SignalMarker]
     divergence_lines: list[DivergenceLine]
+
+
+# ============================================================
+# TSR (Trend Lines, Supports, Resistances) response models
+# ============================================================
+
+class TsrTrendLineResp(BaseModel):
+    start_time: int
+    start_price: float
+    end_time: int
+    end_price: float
+    direction: str        # "up" or "down"
+    is_violated: bool
+    ext_time: int | None = None
+    ext_price: float | None = None
+
+class TsrSrZoneResp(BaseModel):
+    zone_type: str        # "support" or "resistance"
+    start_time: int
+    end_time: int
+    top: float
+    bottom: float
+    price: float
+
+class TsrPivotMarkerResp(BaseModel):
+    time: int
+    price: float
+    pivot_type: str       # "high" or "low"
+
+class TsrDataResponse(BaseModel):
+    ticker: str
+    candles: list[CandleData]
+    trend_lines: list[TsrTrendLineResp]
+    sr_zones: list[TsrSrZoneResp]
+    pivot_markers: list[TsrPivotMarkerResp]

@@ -42,6 +42,9 @@ def fetch_1h_candles(ticker: str, days: int | None = None) -> pd.DataFrame | Non
         if df.index.tz is not None:
             df.index = df.index.tz_localize(None)
 
+        # Remove duplicate timestamps (DST transitions can cause duplicates)
+        df = df[~df.index.duplicated(keep="last")].sort_index()
+
         return df
 
     except Exception as e:
@@ -198,6 +201,43 @@ def fetch_4h_candles_session(ticker: str, days: int = 730) -> pd.DataFrame | Non
         return None
 
     return df_4h
+
+
+def fetch_daily_candles(ticker: str, days: int = 730) -> pd.DataFrame | None:
+    """Fetch daily candles from yfinance."""
+    try:
+        t = yf.Ticker(ticker)
+        df = t.history(period=f"{days}d", interval="1d")
+        if df.empty:
+            return None
+        df.columns = [c.lower() for c in df.columns]
+        df = df[["open", "high", "low", "close", "volume"]].copy()
+        df.index = pd.to_datetime(df.index)
+        if df.index.tz is not None:
+            df.index = df.index.tz_localize(None)
+        # Remove duplicate timestamps
+        df = df[~df.index.duplicated(keep="last")].sort_index()
+        return df
+    except Exception as e:
+        logger.error(f"[{ticker}] Failed to fetch daily data: {e}")
+        return None
+
+
+def fetch_candles(ticker: str, interval: str = "4h", days: int = 730) -> pd.DataFrame | None:
+    """
+    Fetch candles at the given interval.
+    Supported: '1h', '4h', '1d'
+    """
+    if interval == "1d":
+        df = fetch_daily_candles(ticker, days)
+    elif interval == "1h":
+        df = fetch_1h_candles(ticker, days)
+    else:  # 4h (default)
+        df = fetch_4h_candles_session(ticker, days)
+
+    if df is None or len(df) < 20:
+        return None
+    return df
 
 
 def get_current_price(ticker: str) -> float | None:

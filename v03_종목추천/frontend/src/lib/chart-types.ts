@@ -46,7 +46,10 @@ export interface ChartData {
   divergence_lines: DivergenceLine[];
 }
 
+export type Interval = "1h" | "4h" | "1d";
+
 export interface ChartParams {
+  interval?: Interval;
   days?: number;
   rsi_period?: number;
   lb_left?: number;
@@ -54,4 +57,52 @@ export interface ChartParams {
   range_lower?: number;
   range_upper?: number;
   lookback?: number;
+}
+
+// ─── TSR types ───
+
+export interface TsrTrendLine {
+  start_time: number;
+  start_price: number;
+  end_time: number;
+  end_price: number;
+  direction: "up" | "down";
+  is_violated: boolean;
+  ext_time: number | null;
+  ext_price: number | null;
+}
+
+export interface TsrSrZone {
+  zone_type: "support" | "resistance";
+  start_time: number;
+  end_time: number;
+  top: number;
+  bottom: number;
+  price: number;
+}
+
+export interface TsrPivotMarker {
+  time: number;
+  price: number;
+  pivot_type: "high" | "low";
+}
+
+export interface TsrData {
+  ticker: string;
+  candles: CandleData[];
+  trend_lines: TsrTrendLine[];
+  sr_zones: TsrSrZone[];
+  pivot_markers: TsrPivotMarker[];
+}
+
+export interface TsrParams {
+  interval?: Interval;
+  days?: number;
+  pvt_length?: number;
+  tl_points_to_check?: number;
+  tl_max_violation?: number;
+  tl_except_bars?: number;
+  sr_points_to_check?: number;
+  sr_max_violation?: number;
+  sr_except_bars?: number;
 }
