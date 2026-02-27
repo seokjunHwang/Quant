@@ -27,7 +27,8 @@ function timeAgo(dateStr: string): string {
   return `${days}d ago`;
 }
 
-function formatPrice(price: number, market: string): string {
+function formatPrice(price: number | null | undefined, market: string): string {
+  if (price == null) return "—";
   if (market === "KR") {
     return price >= 1000
       ? `${Math.round(price).toLocaleString()}`
@@ -140,7 +141,7 @@ export default function SignalTable({ signals }: SignalTableProps) {
               </td>
               <td className="px-4 py-3 text-sm font-mono font-semibold">
                 <Link
-                  href={`/chart/${signal.ticker}`}
+                  href={`/chart/${encodeURIComponent(signal.ticker)}`}
                   className="text-zinc-200 hover:text-blue-400 transition-colors"
                 >
                   {signal.ticker}
@@ -156,7 +157,7 @@ export default function SignalTable({ signals }: SignalTableProps) {
                 />
               </td>
               <td className="px-4 py-3 text-sm font-mono text-zinc-300">
-                {signal.rsi_at_signal.toFixed(1)}
+                {signal.rsi_at_signal?.toFixed(1) ?? "—"}
               </td>
               <td className="px-4 py-3 text-sm text-zinc-400">
                 {timeAgo(signal.detected_at)}
@@ -167,13 +168,14 @@ export default function SignalTable({ signals }: SignalTableProps) {
               <td className="px-4 py-3 text-sm font-mono">
                 <span
                   className={
-                    signal.price_change_pct >= 0
+                    (signal.price_change_pct ?? 0) >= 0
                       ? "text-emerald-400"
                       : "text-red-400"
                   }
                 >
-                  {signal.price_change_pct >= 0 ? "+" : ""}
-                  {signal.price_change_pct.toFixed(2)}%
+                  {signal.price_change_pct != null
+                    ? `${signal.price_change_pct >= 0 ? "+" : ""}${signal.price_change_pct.toFixed(2)}%`
+                    : "—"}
                 </span>
               </td>
               <td className="px-4 py-3 text-xs text-zinc-500">

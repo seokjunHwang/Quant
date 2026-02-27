@@ -249,18 +249,16 @@ def detect_divergences(
 
                 if not any(np.isnan(v) for v in [curr_osc, prev_osc, curr_price, prev_price]):
                     if curr_price < prev_price and curr_osc > prev_osc:
-                        ts = df.index[i - lb_right]
                         results.append(RawDivergence(
                             signal_type="regular_bullish", signal_label="Bull",
-                            bar_index=i, timestamp=pd.Timestamp(ts),
+                            bar_index=i, timestamp=pd.Timestamp(df.index[i]),
                             price=float(df["close"].iloc[i - lb_right]),
                             rsi=float(osc.iloc[i - lb_right]),
                         ))
                     if curr_price > prev_price and curr_osc < prev_osc:
-                        ts = df.index[i - lb_right]
                         results.append(RawDivergence(
                             signal_type="hidden_bullish", signal_label="H Bull",
-                            bar_index=i, timestamp=pd.Timestamp(ts),
+                            bar_index=i, timestamp=pd.Timestamp(df.index[i]),
                             price=float(df["close"].iloc[i - lb_right]),
                             rsi=float(osc.iloc[i - lb_right]),
                         ))
@@ -278,18 +276,16 @@ def detect_divergences(
 
                 if not any(np.isnan(v) for v in [curr_osc, prev_osc, curr_price, prev_price]):
                     if curr_price > prev_price and curr_osc < prev_osc:
-                        ts = df.index[i - lb_right]
                         results.append(RawDivergence(
                             signal_type="regular_bearish", signal_label="Bear",
-                            bar_index=i, timestamp=pd.Timestamp(ts),
+                            bar_index=i, timestamp=pd.Timestamp(df.index[i]),
                             price=float(df["close"].iloc[i - lb_right]),
                             rsi=float(osc.iloc[i - lb_right]),
                         ))
                     if curr_price < prev_price and curr_osc > prev_osc:
-                        ts = df.index[i - lb_right]
                         results.append(RawDivergence(
                             signal_type="hidden_bearish", signal_label="H Bear",
-                            bar_index=i, timestamp=pd.Timestamp(ts),
+                            bar_index=i, timestamp=pd.Timestamp(df.index[i]),
                             price=float(df["close"].iloc[i - lb_right]),
                             rsi=float(osc.iloc[i - lb_right]),
                         ))

@@ -2,6 +2,7 @@
 
 import useSWR from "swr";
 import { getScanResults, triggerScan } from "@/lib/api";
+import type { ScanParams } from "@/lib/api";
 import type { ScanResult } from "@/lib/types";
 import { useCallback, useState } from "react";
 
@@ -23,10 +24,10 @@ export function useSignals(params?: {
   const [isTriggering, setIsTriggering] = useState(false);
 
   const trigger = useCallback(
-    async (market?: string) => {
+    async (market?: string, interval?: string, scanParams?: ScanParams) => {
       setIsTriggering(true);
       try {
-        const result = await triggerScan(market);
+        const result = await triggerScan(market, interval, scanParams);
         mutate(result, false);
         return result;
       } finally {

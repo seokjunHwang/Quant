@@ -4,7 +4,7 @@ import type { ChartData, ChartParams, TsrData, TsrParams } from "./chart-types";
 const API_BASE = "/api/v1";
 
 async function fetchJSON<T>(url: string, init?: RequestInit): Promise<T> {
-  const res = await fetch(url, init);
+  const res = await fetch(url, { cache: "no-store", ...init });
   if (!res.ok) throw new Error(`API error: ${res.status}`);
   return res.json();
 }
@@ -25,9 +25,30 @@ export async function getScanResults(params?: {
   );
 }
 
-export async function triggerScan(market?: string): Promise<ScanResult> {
-  const query = market ? `?market=${market}` : "";
-  return fetchJSON<ScanResult>(`${API_BASE}/scan/trigger${query}`, {
+export interface ScanParams {
+  rsi_period?: number;
+  lb_left?: number;
+  lb_right?: number;
+  range_lower?: number;
+  range_upper?: number;
+}
+
+export async function triggerScan(
+  market?: string,
+  interval?: string,
+  scanParams?: ScanParams,
+): Promise<ScanResult> {
+  const query = new URLSearchParams();
+  if (market) query.set("market", market);
+  if (interval) query.set("interval", interval);
+  if (scanParams?.rsi_period) query.set("rsi_period", String(scanParams.rsi_period));
+  if (scanParams?.lb_left) query.set("lb_left", String(scanParams.lb_left));
+  if (scanParams?.lb_right) query.set("lb_right", String(scanParams.lb_right));
+  if (scanParams?.range_lower) query.set("range_lower", String(scanParams.range_lower));
+  if (scanParams?.range_upper) query.set("range_upper", String(scanParams.range_upper));
+
+  const qs = query.toString();
+  return fetchJSON<ScanResult>(`${API_BASE}/scan/trigger${qs ? `?${qs}` : ""}`, {
     method: "POST",
   });
 }

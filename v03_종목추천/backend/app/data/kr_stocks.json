@@ -25,6 +25,7 @@
     {"ticker": "361610.KQ", "name": "SK아이이테크놀로지", "category": "2차전지 / 소재", "pool_type": "trending"},
     {"ticker": "298040.KS", "name": "효성중공업", "category": "2차전지 / 소재", "pool_type": "trending"},
     {"ticker": "108320.KQ", "name": "LX세미콘", "category": "2차전지 / 소재", "pool_type": "trending"},
+    {"ticker": "336260.KS", "name": "두산퓨얼셀", "category": "2차전지 / 소재", "pool_type": "trending"},
 
     {"ticker": "207940.KS", "name": "삼성바이오로직스", "category": "바이오 / 제약", "pool_type": "core"},
     {"ticker": "068270.KS", "name": "셀트리온", "category": "바이오 / 제약", "pool_type": "core"},

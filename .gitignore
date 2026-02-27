@@ -19,6 +19,7 @@ out/
 *.db
 *.sqlite3
 *.csv
+krx_name_cache.json
 
 # OS
 .DS_Store

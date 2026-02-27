@@ -16,8 +16,12 @@ import {
 } from "lightweight-charts";
 import { TrendLinePrimitive } from "./plugins/trend-line";
 import { BoxPrimitive } from "./plugins/box-primitive";
-import type { ChartData, TsrData } from "@/lib/chart-types";
+import { FibonacciPrimitive } from "./plugins/fibonacci-primitive";
+import { PriceRangePrimitive } from "./plugins/price-range-primitive";
+import type { ChartData, TsrData, Timezone } from "@/lib/chart-types";
 import type { IndicatorId, IndicatorState } from "@/lib/indicator-types";
+import type { Drawing, DrawingToolId } from "@/lib/drawing-types";
+import { shiftChartData, shiftTsrData, applyTzOffset, reverseTzOffset } from "@/lib/tz-utils";
 
 const COLORS: Record<string, string> = {
   regular_bullish: "#26a69a",
@@ -41,6 +45,10 @@ interface TvChartProps {
   data: ChartData;
   tsrData?: TsrData | null;
   indicators: Record<IndicatorId, IndicatorState>;
+  timezone: Timezone;
+  drawings: Drawing[];
+  activeTool: DrawingToolId;
+  onChartClick?: (point: { time: number; price: number }) => void;
 }
 
 /** Deduplicate and ensure ascending time order (keep last for duplicate times). */
@@ -49,7 +57,15 @@ function dedup<T extends { time: number }>(arr: T[]): T[] {
   return sorted.filter((item, i) => i === 0 || item.time !== sorted[i - 1].time);
 }
 
-export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
+export default function TvChart({
+  data,
+  tsrData,
+  indicators,
+  timezone,
+  drawings,
+  activeTool,
+  onChartClick,
+}: TvChartProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<IChartApi | null>(null);
 
@@ -58,6 +74,10 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
 
   useEffect(() => {
     if (!containerRef.current) return;
+
+    // Apply timezone shift to data
+    const chartData = shiftChartData(data, timezone);
+    const tsrShifted = tsrData ? shiftTsrData(tsrData, timezone) : null;
 
     // Create chart
     const chart = createChart(containerRef.current, {
@@ -89,13 +109,15 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
     });
 
     candleSeries.setData(
-      dedup(data.candles).map((c) => ({
-        time: c.time as UTCTimestamp,
-        open: c.open,
-        high: c.high,
-        low: c.low,
-        close: c.close,
-      })),
+      dedup(chartData.candles)
+        .filter((c) => c.open != null && c.high != null && c.low != null && c.close != null)
+        .map((c) => ({
+          time: c.time as UTCTimestamp,
+          open: c.open,
+          high: c.high,
+          low: c.low,
+          close: c.close,
+        })),
     );
 
     // ─── Candle markers (merge RSI signals + TSR pivots) ───
@@ -103,7 +125,7 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
 
     // RSI divergence signal markers
     if (rsiVisible) {
-      for (const s of data.signals) {
+      for (const s of chartData.signals) {
         candleMarkers.push({
           time: s.time as UTCTimestamp as Time,
           position: s.position as "belowBar" | "aboveBar",
@@ -115,8 +137,8 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
     }
 
     // TSR pivot markers on candle pane
-    if (tsrVisible && tsrData) {
-      for (const p of tsrData.pivot_markers) {
+    if (tsrVisible && tsrShifted) {
+      for (const p of tsrShifted.pivot_markers) {
         candleMarkers.push({
           time: p.time as UTCTimestamp as Time,
           position: p.pivot_type === "high" ? "aboveBar" : "belowBar",
@@ -133,9 +155,9 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
     }
 
     // ─── TSR: Trend Lines + S/R Zones (overlay on price pane) ───
-    if (tsrVisible && tsrData) {
+    if (tsrVisible && tsrShifted) {
       // Trend lines
-      for (const tl of tsrData.trend_lines) {
+      for (const tl of tsrShifted.trend_lines) {
         const isUp = tl.direction === "up";
         const baseColor = isUp
           ? (tl.is_violated ? TSR_COLORS.uptrend_violated : TSR_COLORS.uptrend)
@@ -161,7 +183,7 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
       }
 
       // S/R zones
-      for (const zone of tsrData.sr_zones) {
+      for (const zone of tsrShifted.sr_zones) {
         const isSupport = zone.zone_type === "support";
         const box = new BoxPrimitive(
           zone.start_time as UTCTimestamp as Time,
@@ -180,7 +202,7 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
 
     // ─── RSI Divergence: lines on price pane ───
     if (rsiVisible) {
-      for (const line of data.divergence_lines) {
+      for (const line of chartData.divergence_lines) {
         const isRegular = line.signal_type.includes("regular");
         const color = COLORS[line.signal_type] ?? "#ffffff";
         const style = isRegular ? "solid" : ("dashed" as const);
@@ -191,6 +213,48 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
           { lineColor: color, lineWidth: 2, lineStyle: style },
         );
         candleSeries.attachPrimitive(priceLine);
+      }
+    }
+
+    // ─── User Drawings ───
+    for (const d of drawings) {
+      switch (d.tool) {
+        case "hline": {
+          candleSeries.createPriceLine({
+            price: d.price,
+            color: "#fbbf24",
+            lineWidth: 1,
+            lineStyle: LineStyle.Dashed,
+            axisLabelVisible: true,
+            title: "",
+          });
+          break;
+        }
+        case "trendline": {
+          const tl = new TrendLinePrimitive(
+            { time: applyTzOffset(d.p1.time, timezone) as UTCTimestamp as Time, value: d.p1.price },
+            { time: applyTzOffset(d.p2.time, timezone) as UTCTimestamp as Time, value: d.p2.price },
+            { lineColor: "#fbbf24", lineWidth: 2, lineStyle: "solid" },
+          );
+          candleSeries.attachPrimitive(tl);
+          break;
+        }
+        case "fibonacci": {
+          const fib = new FibonacciPrimitive(
+            { time: applyTzOffset(d.p1.time, timezone) as UTCTimestamp as Time, value: d.p1.price },
+            { time: applyTzOffset(d.p2.time, timezone) as UTCTimestamp as Time, value: d.p2.price },
+          );
+          candleSeries.attachPrimitive(fib);
+          break;
+        }
+        case "price-range": {
+          const pr = new PriceRangePrimitive(
+            { time: applyTzOffset(d.p1.time, timezone) as UTCTimestamp as Time, value: d.p1.price },
+            { time: applyTzOffset(d.p2.time, timezone) as UTCTimestamp as Time, value: d.p2.price },
+          );
+          candleSeries.attachPrimitive(pr);
+          break;
+        }
       }
     }
 
@@ -211,7 +275,7 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
       );
 
       rsiSeries.setData(
-        dedup(data.rsi).map((r) => ({
+        dedup(chartData.rsi).map((r) => ({
           time: r.time as UTCTimestamp,
           value: r.value,
         })),
@@ -242,14 +306,14 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
 
       // Pivot markers on RSI
       const pivotMarkers: SeriesMarker<Time>[] = [
-        ...data.pivot_lows.map((p) => ({
+        ...chartData.pivot_lows.map((p) => ({
           time: p.time as UTCTimestamp as Time,
           position: "belowBar" as const,
           color: "rgba(38, 166, 154, 0.4)",
           shape: "circle" as const,
           text: "",
         })),
-        ...data.pivot_highs.map((p) => ({
+        ...chartData.pivot_highs.map((p) => ({
           time: p.time as UTCTimestamp as Time,
           position: "aboveBar" as const,
           color: "rgba(239, 83, 80, 0.4)",
@@ -263,7 +327,7 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
       }
 
       // Divergence lines on RSI pane
-      for (const line of data.divergence_lines) {
+      for (const line of chartData.divergence_lines) {
         const isRegular = line.signal_type.includes("regular");
         const color = COLORS[line.signal_type] ?? "#ffffff";
         const style = isRegular ? "solid" : ("dashed" as const);
@@ -280,6 +344,22 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
     // Fit content
     chart.timeScale().fitContent();
 
+    // ─── Click handler for drawings ───
+    const clickHandler = (param: { time?: Time; point?: { x: number; y: number } }) => {
+      if (!onChartClick || activeTool === "cursor") return;
+      if (!param.time || !param.point) return;
+
+      const price = candleSeries.coordinateToPrice(param.point.y as number);
+      if (price === null) return;
+
+      // Convert shifted time back to raw epoch
+      const shiftedTime = param.time as number;
+      const rawTime = reverseTzOffset(shiftedTime, timezone);
+
+      onChartClick({ time: rawTime, price });
+    };
+    chart.subscribeClick(clickHandler);
+
     // Resize observer
     const ro = new ResizeObserver((entries) => {
       for (const entry of entries) {
@@ -290,17 +370,21 @@ export default function TvChart({ data, tsrData, indicators }: TvChartProps) {
     ro.observe(containerRef.current);
 
     return () => {
+      chart.unsubscribeClick(clickHandler);
       ro.disconnect();
       chart.remove();
       chartRef.current = null;
     };
-  }, [data, tsrData, rsiVisible, tsrVisible]);
+  }, [data, tsrData, rsiVisible, tsrVisible, timezone, drawings, activeTool, onChartClick]);
 
   return (
     <div
       ref={containerRef}
       className="w-full rounded-lg overflow-hidden"
-      style={{ height: rsiVisible ? "700px" : "520px" }}
+      style={{
+        height: rsiVisible ? "700px" : "520px",
+        cursor: activeTool !== "cursor" ? "crosshair" : undefined,
+      }}
     />
   );
 }

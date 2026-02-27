@@ -14,7 +14,18 @@ export function useChartData(ticker: string | null, params?: ChartParams) {
   const { data, error, isLoading, mutate } = useSWR<ChartData>(
     key,
     () => (ticker ? getChartData(ticker, params) : Promise.reject()),
-    { revalidateOnFocus: false, dedupingInterval: 30_000 },
+    {
+      revalidateOnFocus: false,
+      dedupingInterval: 30_000,
+      refreshInterval: 5 * 60 * 1000, // auto-refresh every 5 minutes
+      errorRetryCount: 2,
+      errorRetryInterval: 3000,
+      shouldRetryOnError: (err) => {
+        // Don't retry on 400 (bad request), only retry on 404/5xx (may be transient)
+        if (err?.message?.includes("400")) return false;
+        return true;
+      },
+    },
   );
 
   /** Clear all SWR cache entries and re-fetch current key. */

@@ -83,6 +83,7 @@ class DivergenceLine(BaseModel):
 
 class ChartDataResponse(BaseModel):
     ticker: str
+    name: str | None = None
     candles: list[CandleData]
     rsi: list[RsiPoint]
     pivot_lows: list[PivotPoint]

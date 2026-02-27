@@ -1,6 +1,7 @@
 """Chart data API: returns OHLCV, RSI, pivots, and divergence signals for Lightweight Charts."""
 
 import logging
+import re
 from zoneinfo import ZoneInfo
 
 import numpy as np
@@ -10,6 +11,7 @@ from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
 
 from app.core.data_fetcher import fetch_candles
+from app.core.krx_lookup import get_name_by_ticker, preload_async, resolve_korean_name, resolve_korean_number
 from app.core.rsi_divergence import detect_divergences_v2
 from app.core.tsr import compute_tsr
 from app.models.schemas import (
@@ -75,24 +77,92 @@ _TV_TO_YF: dict[str, str] = {
     "USDJPY": "JPY=X",
 }
 
+# Start KRX lookup cache loading in background (so first request is fast)
+preload_async()
+
 ET = ZoneInfo("US/Eastern")
+KST = ZoneInfo("Asia/Seoul")
+
+# Regex: 6-digit Korean stock number (with optional .KS/.KQ)
+_KR_NUM_RE = re.compile(r"^\d{6}$")
+# Regex: contains Korean characters
+_KR_CHAR_RE = re.compile(r"[\uac00-\ud7a3]")
 
 
-def _to_epoch(ts: pd.Timestamp) -> int:
+_UTC = ZoneInfo("UTC")
+
+
+def _ticker_tz(ticker: str) -> ZoneInfo:
+    """Return the native timezone for a ticker (used for naive timestamps).
+
+    data_fetcher strips tz info, so naive timestamps are in the exchange's local time.
+    yfinance returns different timezones per asset class:
+      Korean stocks (.KS/.KQ) → KST
+      Crypto (-USD like BTC-USD) → UTC
+      Forex (=X like EURUSD=X) → UTC
+      US stocks, futures (=F), indices (^) → US/Eastern
+    """
+    if ticker.endswith((".KS", ".KQ")):
+        return KST
+    if ticker.endswith("-USD") or ticker.endswith("=X"):
+        return _UTC
+    return ET
+
+
+def _to_epoch(ts: pd.Timestamp, tz: ZoneInfo = ET) -> int:
     """Convert a pandas Timestamp to UNIX epoch seconds (UTC).
 
-    If the timestamp is tz-naive, localize to US/Eastern first.
+    If the timestamp is tz-naive, localize to the given timezone first.
     nonexistent/ambiguous handles DST transitions (e.g. BTC 24/7 data).
     """
     if ts.tzinfo is None:
-        ts = ts.tz_localize(ET, nonexistent="shift_forward", ambiguous=False)
+        ts = ts.tz_localize(tz, nonexistent="shift_forward", ambiguous=False)
     return int(ts.timestamp())
 
 
+def _get_stock_name(yf_ticker: str) -> str | None:
+    """Get display name for a ticker. Korean → KRX lookup, others → yfinance info."""
+    if yf_ticker.endswith((".KS", ".KQ")):
+        return get_name_by_ticker(yf_ticker)
+    try:
+        info = yf.Ticker(yf_ticker).info or {}
+        return info.get("shortName") or info.get("longName")
+    except Exception:
+        return None
+
+
 def _resolve_ticker(raw: str) -> str:
-    """Resolve TradingView-style tickers to yfinance equivalents."""
-    upper = raw.upper()
-    return _TV_TO_YF.get(upper, raw)
+    """Resolve TradingView-style tickers, Korean names, and stock numbers to yfinance.
+
+    Uses dynamic KRX lookup (pykrx) covering ALL ~2800 KOSPI/KOSDAQ stocks.
+    """
+    stripped = raw.strip()
+    upper = stripped.upper()
+
+    # 1. TradingView mapping
+    if upper in _TV_TO_YF:
+        return _TV_TO_YF[upper]
+
+    # 2. Korean name → dynamic KRX lookup (all KOSPI + KOSDAQ)
+    if _KR_CHAR_RE.search(stripped):
+        resolved = resolve_korean_name(stripped)
+        if resolved:
+            return resolved
+        raise HTTPException(
+            status_code=404,
+            detail=f"'{stripped}' 종목을 찾을 수 없습니다. "
+                   f"종목번호 6자리(예: 005930)를 입력해주세요.",
+        )
+
+    # 3. 6-digit Korean stock number → dynamic KRX lookup (auto .KS/.KQ)
+    if _KR_NUM_RE.match(stripped):
+        resolved = resolve_korean_number(stripped)
+        if resolved:
+            return resolved
+        # Not in KRX cache, try .KS first (validate_ticker will try .KQ fallback)
+        return f"{stripped}.KS"
+
+    return stripped
 
 
 class TickerValidation(BaseModel):
@@ -104,12 +174,23 @@ class TickerValidation(BaseModel):
 
 @router.get("/validate/{ticker}", response_model=TickerValidation)
 async def validate_ticker(ticker: str):
-    """Quick check if a ticker exists in yfinance. Also resolves TradingView tickers."""
+    """Quick check if a ticker exists in yfinance.
+    Resolves TradingView tickers, Korean names (삼성전자), and stock numbers (005930).
+    """
     resolved = _resolve_ticker(ticker)
     try:
         t = yf.Ticker(resolved)
         hist = t.history(period="5d", interval="1d")
         if hist.empty:
+            # If resolved to .KS and failed, try .KQ
+            if resolved.endswith(".KS"):
+                alt = resolved.replace(".KS", ".KQ")
+                t2 = yf.Ticker(alt)
+                hist2 = t2.history(period="5d", interval="1d")
+                if not hist2.empty:
+                    info = t2.info or {}
+                    name = info.get("shortName") or info.get("longName")
+                    return TickerValidation(valid=True, ticker=alt, original=ticker, name=name)
             return TickerValidation(valid=False, ticker=resolved, original=ticker)
         info = t.info or {}
         name = info.get("shortName") or info.get("longName")
@@ -118,7 +199,7 @@ async def validate_ticker(ticker: str):
         return TickerValidation(valid=False, ticker=resolved, original=ticker)
 
 
-_VALID_INTERVALS = {"1h", "4h", "1d"}
+_VALID_INTERVALS = {"15m", "1h", "4h", "1d", "1w"}
 
 
 @router.get("/{ticker}", response_model=ChartDataResponse)
@@ -128,18 +209,28 @@ async def get_chart_data(
     days: int = Query(730, ge=1, le=730),
     rsi_period: int = Query(14, ge=2, le=50),
     lb_left: int = Query(5, ge=1, le=20),
-    lb_right: int = Query(5, ge=1, le=20),
+    lb_right: int = Query(3, ge=1, le=20),
     range_lower: int = Query(5, ge=1, le=50),
-    range_upper: int = Query(60, ge=10, le=200),
+    range_upper: int = Query(50, ge=10, le=200),
     lookback: int = Query(1, ge=1, le=10),
 ):
     """Get chart data: OHLC candles, RSI, pivots, divergence signals & lines."""
     if interval not in _VALID_INTERVALS:
         raise HTTPException(status_code=400, detail=f"Invalid interval: {interval}. Use: {_VALID_INTERVALS}")
     ticker = _resolve_ticker(ticker)
+    tz = _ticker_tz(ticker)
     df = fetch_candles(ticker, interval=interval, days=days)
     if df is None or df.empty:
-        raise HTTPException(status_code=404, detail=f"No data found for {ticker}")
+        raise HTTPException(
+            status_code=404,
+            detail=f"No data found for {ticker}. Tried {days}d and fallbacks (500/300/180d). "
+                   f"The ticker may be invalid or too recently listed.",
+        )
+
+    # Drop rows with NaN OHLC values (prevents null in JSON response)
+    df = df.dropna(subset=["open", "high", "low", "close"]).copy()
+    if df.empty:
+        raise HTTPException(status_code=404, detail=f"No valid candle data for {ticker}")
 
     signals, rsi_series, pl_dict, ph_dict = detect_divergences_v2(
         df,
@@ -154,7 +245,7 @@ async def get_chart_data(
     # Build candles
     candles = [
         CandleData(
-            time=_to_epoch(df.index[i]),
+            time=_to_epoch(df.index[i], tz),
             open=round(df["open"].iloc[i], 4),
             high=round(df["high"].iloc[i], 4),
             low=round(df["low"].iloc[i], 4),
@@ -165,7 +256,7 @@ async def get_chart_data(
 
     # Build RSI points
     rsi_points = [
-        RsiPoint(time=_to_epoch(df.index[i]), value=round(float(rsi_series.iloc[i]), 2))
+        RsiPoint(time=_to_epoch(df.index[i], tz), value=round(float(rsi_series.iloc[i]), 2))
         for i in range(len(rsi_series))
         if not np.isnan(rsi_series.iloc[i])
     ]
@@ -173,7 +264,7 @@ async def get_chart_data(
     # Build pivot points
     pivot_lows = [
         PivotPoint(
-            time=_to_epoch(df.index[pv]),
+            time=_to_epoch(df.index[pv], tz),
             value=round(float(rsi_series.iloc[pv]), 2),
             price=round(float(df["low"].iloc[pv]), 4),
         )
@@ -182,7 +273,7 @@ async def get_chart_data(
     ]
     pivot_highs = [
         PivotPoint(
-            time=_to_epoch(df.index[pv]),
+            time=_to_epoch(df.index[pv], tz),
             value=round(float(rsi_series.iloc[pv]), 2),
             price=round(float(df["high"].iloc[pv]), 4),
         )
@@ -195,7 +286,7 @@ async def get_chart_data(
     div_lines = []
     for s in signals:
         is_bull = "bullish" in s.signal_type
-        ts = _to_epoch(df.index[s.idx])
+        ts = _to_epoch(df.index[s.idx], tz)
         color = _COLORS.get(s.signal_type, "#ffffff")
 
         markers.append(SignalMarker(
@@ -212,13 +303,14 @@ async def get_chart_data(
             curr_time=ts,
             curr_price=round(float(df["low"].iloc[s.idx] if is_bull else df["high"].iloc[s.idx]), 4),
             curr_rsi=round(float(rsi_series.iloc[s.idx]), 2),
-            prev_time=_to_epoch(df.index[s.prev_idx]),
+            prev_time=_to_epoch(df.index[s.prev_idx], tz),
             prev_price=round(float(df["low"].iloc[s.prev_idx] if is_bull else df["high"].iloc[s.prev_idx]), 4),
             prev_rsi=round(float(rsi_series.iloc[s.prev_idx]), 2),
         ))
 
     return ChartDataResponse(
         ticker=ticker,
+        name=_get_stock_name(ticker),
         candles=candles,
         rsi=rsi_points,
         pivot_lows=pivot_lows,
@@ -245,9 +337,18 @@ async def get_tsr_data(
     if interval not in _VALID_INTERVALS:
         raise HTTPException(status_code=400, detail=f"Invalid interval: {interval}. Use: {_VALID_INTERVALS}")
     ticker = _resolve_ticker(ticker)
+    tz = _ticker_tz(ticker)
     df = fetch_candles(ticker, interval=interval, days=days)
     if df is None or df.empty:
-        raise HTTPException(status_code=404, detail=f"No data found for {ticker}")
+        raise HTTPException(
+            status_code=404,
+            detail=f"No data found for {ticker}. Tried {days}d and fallbacks (500/300/180d). "
+                   f"The ticker may be invalid or too recently listed.",
+        )
+
+    df = df.dropna(subset=["open", "high", "low", "close"]).copy()
+    if df.empty:
+        raise HTTPException(status_code=404, detail=f"No valid candle data for {ticker}")
 
     result = compute_tsr(
         df,
@@ -263,7 +364,7 @@ async def get_tsr_data(
     # Build candles
     candles = [
         CandleData(
-            time=_to_epoch(df.index[i]),
+            time=_to_epoch(df.index[i], tz),
             open=round(df["open"].iloc[i], 4),
             high=round(df["high"].iloc[i], 4),
             low=round(df["low"].iloc[i], 4),
@@ -275,13 +376,13 @@ async def get_tsr_data(
     # Convert trend lines (idx -> epoch time)
     trend_lines = [
         TsrTrendLineResp(
-            start_time=_to_epoch(df.index[tl.start_idx]),
+            start_time=_to_epoch(df.index[tl.start_idx], tz),
             start_price=round(tl.start_price, 4),
-            end_time=_to_epoch(df.index[tl.end_idx]),
+            end_time=_to_epoch(df.index[tl.end_idx], tz),
             end_price=round(tl.end_price, 4),
             direction=tl.direction,
             is_violated=tl.is_violated,
-            ext_time=_to_epoch(df.index[tl.ext_idx]) if tl.ext_idx is not None else None,
+            ext_time=_to_epoch(df.index[tl.ext_idx], tz) if tl.ext_idx is not None else None,
             ext_price=round(tl.ext_price, 4) if tl.ext_price is not None else None,
         )
         for tl in result.trend_lines
@@ -292,8 +393,8 @@ async def get_tsr_data(
     sr_zones = [
         TsrSrZoneResp(
             zone_type=z.zone_type,
-            start_time=_to_epoch(df.index[z.start_idx]),
-            end_time=_to_epoch(df.index[min(z.end_idx, len(df) - 1)]),
+            start_time=_to_epoch(df.index[z.start_idx], tz),
+            end_time=_to_epoch(df.index[min(z.end_idx, len(df) - 1)], tz),
             top=round(z.top, 4),
             bottom=round(z.bottom, 4),
             price=round(z.price, 4),
@@ -304,7 +405,7 @@ async def get_tsr_data(
     # Convert pivot markers
     pivot_markers = [
         TsrPivotMarkerResp(
-            time=_to_epoch(df.index[p.idx]),
+            time=_to_epoch(df.index[p.idx], tz),
             price=round(p.price, 4),
             pivot_type=p.pivot_type,
         )

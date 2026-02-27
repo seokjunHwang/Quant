@@ -1,15 +1,17 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { useChartData } from "@/hooks/useChartData";
 import { useTsrData } from "@/hooks/useTsrData";
 import { validateTicker } from "@/lib/api";
-import type { ChartParams, Interval, TsrParams } from "@/lib/chart-types";
+import type { ChartParams, Interval, TsrParams, Timezone } from "@/lib/chart-types";
 import type { IndicatorId, IndicatorState } from "@/lib/indicator-types";
 import { INDICATOR_REGISTRY, getDefaultIndicatorStates } from "@/lib/indicator-types";
+import type { Drawing, DrawingToolId, DrawingPoint } from "@/lib/drawing-types";
+import { generateDrawingId } from "@/lib/drawing-types";
 
 // Dynamic imports to avoid SSR issues with canvas/DOM
 const TvChart = dynamic(() => import("@/components/chart/TvChart"), {
@@ -26,6 +28,9 @@ const IndicatorPanel = dynamic(
   { ssr: false },
 );
 
+// DrawingToolbar is a pure React component — no canvas/DOM, regular import
+import DrawingToolbar from "@/components/chart/DrawingToolbar";
+
 const LEGEND = [
   { label: "Regular Bull", color: "#26a69a", dashed: false },
   { label: "Hidden Bull", color: "#4dd0e1", dashed: true },
@@ -34,15 +39,19 @@ const LEGEND = [
 ] as const;
 
 const INTERVALS: { value: Interval; label: string }[] = [
+  { value: "15m", label: "15M" },
   { value: "1h", label: "1H" },
   { value: "4h", label: "4H" },
   { value: "1d", label: "1D" },
+  { value: "1w", label: "1W" },
 ];
 
 const INTERVAL_LABELS: Record<Interval, string> = {
+  "15m": "15M",
   "1h": "1H",
   "4h": "4H",
   "1d": "1D",
+  "1w": "1W",
 };
 
 export default function ChartPage() {
@@ -57,6 +66,9 @@ export default function ChartPage() {
   // Interval
   const [interval, setInterval] = useState<Interval>("4h");
 
+  // Timezone (default KST)
+  const [timezone, setTimezone] = useState<Timezone>("KST");
+
   // Multi-indicator state
   const [indicators, setIndicators] = useState<Record<IndicatorId, IndicatorState>>(
     getDefaultIndicatorStates,
@@ -68,6 +80,71 @@ export default function ChartPage() {
     },
     [],
   );
+
+  // ─── Drawing state ───
+  const [activeTool, setActiveTool] = useState<DrawingToolId>("cursor");
+  const [drawings, setDrawings] = useState<Drawing[]>([]);
+  const [pendingPoint, setPendingPoint] = useState<DrawingPoint | null>(null);
+
+  // ESC key handler
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setPendingPoint(null);
+        setActiveTool("cursor");
+      }
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, []);
+
+  const handleChartClick = useCallback(
+    (point: { time: number; price: number }) => {
+      if (activeTool === "cursor") return;
+
+      if (activeTool === "hline") {
+        // 1-click tool
+        setDrawings((prev) => [
+          ...prev,
+          { id: generateDrawingId(), tool: "hline", price: point.price },
+        ]);
+        return;
+      }
+
+      // 2-click tools: trendline, fibonacci, price-range
+      if (!pendingPoint) {
+        setPendingPoint(point);
+        return;
+      }
+
+      const p1 = pendingPoint;
+      const p2 = point;
+      setPendingPoint(null);
+
+      if (activeTool === "trendline") {
+        setDrawings((prev) => [
+          ...prev,
+          { id: generateDrawingId(), tool: "trendline", p1, p2 },
+        ]);
+      } else if (activeTool === "fibonacci") {
+        setDrawings((prev) => [
+          ...prev,
+          { id: generateDrawingId(), tool: "fibonacci", p1, p2 },
+        ]);
+      } else if (activeTool === "price-range") {
+        setDrawings((prev) => [
+          ...prev,
+          { id: generateDrawingId(), tool: "price-range", p1, p2 },
+        ]);
+      }
+    },
+    [activeTool, pendingPoint],
+  );
+
+  const handleClearAllDrawings = useCallback(() => {
+    setDrawings([]);
+    setPendingPoint(null);
+  }, []);
 
   // Build RSI divergence params from indicator state
   const rsiMeta = INDICATOR_REGISTRY["rsi-divergence"];
@@ -138,7 +215,12 @@ export default function ChartPage() {
             &larr; Screener
           </Link>
           <h1 className="text-xl font-bold text-zinc-100">
-            {ticker} — {INTERVAL_LABELS[interval]}
+            {data?.name ? (
+              <>{data.name}<span className="text-zinc-500 font-normal text-base ml-1.5">({ticker})</span></>
+            ) : (
+              ticker
+            )}
+            <span className="text-zinc-500 font-normal text-base ml-2">— {INTERVAL_LABELS[interval]}</span>
           </h1>
 
           {/* Timeframe buttons */}
@@ -157,6 +239,15 @@ export default function ChartPage() {
               </button>
             ))}
           </div>
+
+          {/* Timezone toggle */}
+          <button
+            onClick={() => setTimezone((prev) => (prev === "KST" ? "UTC" : "KST"))}
+            className="px-3 py-1 rounded-lg text-sm font-medium bg-zinc-800 border border-zinc-700 text-zinc-300 hover:bg-zinc-700 transition-colors"
+            title={`Currently ${timezone}. Click to switch.`}
+          >
+            {timezone}
+          </button>
         </div>
 
         <div className="flex items-center gap-2">
@@ -202,27 +293,51 @@ export default function ChartPage() {
         <IndicatorPanel indicators={indicators} onChange={handleIndicatorChange} />
 
         <div className="flex-1 min-w-0">
-          <div className="bg-zinc-900 rounded-xl border border-zinc-800 p-2">
-            {isLoading && (
-              <div className="flex items-center justify-center h-[700px] text-zinc-500">
-                Loading {INTERVAL_LABELS[interval]} chart data for {ticker}...
-              </div>
-            )}
-            {error && (
-              <div className="flex flex-col items-center justify-center h-[700px] text-red-400 gap-2">
-                <span>Failed to load data for {ticker}</span>
-                <span className="text-xs text-zinc-500">
-                  Check if the ticker is valid or try: AAPL, MSFT, ^NDX, NQ1!
-                </span>
-              </div>
-            )}
-            {data && (
-              <TvChart
-                data={data}
-                tsrData={indicators["tsr"].visible ? tsrData ?? null : null}
-                indicators={indicators}
-              />
-            )}
+          <div className="bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden">
+            {/* Drawing toolbar */}
+            <DrawingToolbar
+              activeTool={activeTool}
+              onToolChange={(tool) => {
+                setActiveTool(tool);
+                setPendingPoint(null);
+              }}
+              pendingPoint={pendingPoint}
+              hasDrawings={drawings.length > 0}
+              onClearAll={handleClearAllDrawings}
+            />
+
+            <div className="p-2">
+              {isLoading && (
+                <div className="flex items-center justify-center h-[700px] text-zinc-500">
+                  Loading {INTERVAL_LABELS[interval]} chart data for {ticker}...
+                </div>
+              )}
+              {error && !isLoading && (
+                <div className="flex flex-col items-center justify-center h-[700px] text-red-400 gap-2">
+                  <span>Failed to load data for {ticker}</span>
+                  <span className="text-xs text-zinc-500">
+                    Ticker not found or insufficient data. Try: AAPL, MSFT, ^NDX, NQ1!
+                  </span>
+                  <button
+                    onClick={clearAndRefresh}
+                    className="mt-2 bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-zinc-300 px-4 py-1.5 rounded-lg text-sm transition-colors"
+                  >
+                    Retry
+                  </button>
+                </div>
+              )}
+              {data && (
+                <TvChart
+                  data={data}
+                  tsrData={indicators["tsr"].visible ? tsrData ?? null : null}
+                  indicators={indicators}
+                  timezone={timezone}
+                  drawings={drawings}
+                  activeTool={activeTool}
+                  onChartClick={handleChartClick}
+                />
+              )}
+            </div>
           </div>
 
           {/* Legend & stats */}
@@ -274,6 +389,15 @@ export default function ChartPage() {
                 Candles:{" "}
                 <strong className="text-zinc-200">{data.candles.length}</strong>
               </span>
+              {drawings.length > 0 && (
+                <>
+                  <span className="text-zinc-600">|</span>
+                  <span>
+                    Drawings:{" "}
+                    <strong className="text-zinc-200">{drawings.length}</strong>
+                  </span>
+                </>
+              )}
             </div>
           )}
         </div>

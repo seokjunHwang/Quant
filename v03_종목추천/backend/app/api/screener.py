@@ -1,7 +1,12 @@
+import logging
+from datetime import datetime
+
 from fastapi import APIRouter, BackgroundTasks, Query
 
 from app.core.scanner import get_last_scan, is_scanning, run_scan
 from app.models.schemas import ScanResult, ScanStatus
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/scan", tags=["screener"])
 
@@ -38,26 +43,56 @@ async def get_scan_results(
     )
 
 
+_VALID_SCAN_INTERVALS = {"15m", "1h", "4h", "1d", "1w"}
+
+
 @router.post("/trigger", response_model=ScanResult)
 async def trigger_scan(
     background_tasks: BackgroundTasks,
     market: str | None = Query(None, description="US or KR"),
+    interval: str = Query("4h", description="Candle interval: 15m, 1h, 4h, 1d, 1w"),
+    rsi_period: int | None = Query(None, ge=2, le=50),
+    lb_left: int | None = Query(None, ge=1, le=20),
+    lb_right: int | None = Query(None, ge=1, le=20),
+    range_lower: int | None = Query(None, ge=1, le=50),
+    range_upper: int | None = Query(None, ge=10, le=200),
 ):
-    """Trigger a new scan immediately."""
+    """Trigger a new scan immediately with optional RSI divergence parameters."""
+    if interval not in _VALID_SCAN_INTERVALS:
+        interval = "4h"
+
     if is_scanning():
         last = get_last_scan()
         if last:
             return last
         return ScanResult(
-            scanned_at=__import__("datetime").datetime.now(),
+            scanned_at=datetime.now(),
             total_stocks=0,
             signals_found=0,
             scan_duration_sec=0.0,
             signals=[],
         )
 
-    result = run_scan(market)
-    return result
+    try:
+        result = run_scan(
+            market,
+            interval=interval,
+            rsi_period=rsi_period,
+            lb_left=lb_left,
+            lb_right=lb_right,
+            range_lower=range_lower,
+            range_upper=range_upper,
+        )
+        return result
+    except Exception as e:
+        logger.exception(f"Scan failed: {e}")
+        return ScanResult(
+            scanned_at=datetime.now(),
+            total_stocks=0,
+            signals_found=0,
+            scan_duration_sec=0.0,
+            signals=[],
+        )
 
 
 @router.get("/status", response_model=ScanStatus)

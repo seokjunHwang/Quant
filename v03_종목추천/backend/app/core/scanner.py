@@ -14,6 +14,16 @@ from app.core.data_fetcher import fetch_batch
 from app.core.rsi_divergence import detect_divergences
 from app.models.schemas import DivergenceSignal, ScanResult, StockPool
 
+# Appropriate fetch days per interval for scanning
+# (enough for RSI warmup + divergence detection without overloading yfinance)
+_SCAN_DAYS: dict[str, int] = {
+    "15m": 60,   # yfinance max for 15m
+    "1h": 180,   # ~1400 candles
+    "4h": 180,   # ~360 candles
+    "1d": 365,   # ~250 candles
+    "1w": 730,   # ~104 candles
+}
+
 logger = logging.getLogger(__name__)
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -51,11 +61,19 @@ def load_stock_pool(market: str | None = None) -> list[dict]:
     return stocks
 
 
-def run_scan(market: str | None = None) -> ScanResult:
+def run_scan(
+    market: str | None = None,
+    interval: str = "4h",
+    rsi_period: int | None = None,
+    lb_left: int | None = None,
+    lb_right: int | None = None,
+    range_lower: int | None = None,
+    range_upper: int | None = None,
+) -> ScanResult:
     """
     Execute full scan pipeline:
     1. Load stock pool
-    2. Fetch 4h candles in batch
+    2. Fetch candles in batch (any interval)
     3. Detect RSI divergences per ticker
     4. Sort by newest signal first
     5. Cache and return result
@@ -79,17 +97,25 @@ def run_scan(market: str | None = None) -> ScanResult:
         tickers = [s["ticker"] for s in pool]
         ticker_info = {s["ticker"]: s for s in pool}
 
-        logger.info(f"Starting scan for {len(tickers)} tickers (market={market})")
+        days = _SCAN_DAYS.get(interval, 180)
+        logger.info(f"Starting scan for {len(tickers)} tickers (market={market}, interval={interval}, days={days})")
 
-        # 2. Fetch 4h candles
-        candles = fetch_batch(tickers)
+        # 2. Fetch candles
+        candles = fetch_batch(tickers, interval=interval, days=days)
 
         # 3. Detect divergences
         all_signals: list[DivergenceSignal] = []
 
         for ticker, df in candles.items():
             info = ticker_info.get(ticker, {})
-            divergences = detect_divergences(df)
+            divergences = detect_divergences(
+                df,
+                rsi_period=rsi_period,
+                lb_left=lb_left,
+                lb_right=lb_right,
+                range_lower=range_lower,
+                range_upper=range_upper,
+            )
 
             current_price = float(df["close"].iloc[-1]) if not df.empty else 0.0
 

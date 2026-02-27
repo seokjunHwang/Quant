@@ -17,7 +17,11 @@ export function useTsrData(
   const { data, error, isLoading, mutate } = useSWR<TsrData>(
     key,
     () => (ticker ? getTsrData(ticker, params) : Promise.reject()),
-    { revalidateOnFocus: false, dedupingInterval: 30_000 },
+    {
+      revalidateOnFocus: false,
+      dedupingInterval: 30_000,
+      refreshInterval: 5 * 60 * 1000, // auto-refresh every 5 minutes
+    },
   );
 
   return { data, error, isLoading, refresh: mutate };

@@ -38,6 +38,7 @@ export interface SignalMarker {
 
 export interface ChartData {
   ticker: string;
+  name?: string | null;
   candles: CandleData[];
   rsi: RsiPoint[];
   pivot_lows: PivotPoint[];
@@ -46,7 +47,7 @@ export interface ChartData {
   divergence_lines: DivergenceLine[];
 }
 
-export type Interval = "1h" | "4h" | "1d";
+export type Interval = "15m" | "1h" | "4h" | "1d" | "1w";
 
 export interface ChartParams {
   interval?: Interval;
@@ -94,6 +95,8 @@ export interface TsrData {
   sr_zones: TsrSrZone[];
   pivot_markers: TsrPivotMarker[];
 }
+
+export type Timezone = "UTC" | "KST";
 
 export interface TsrParams {
   interval?: Interval;

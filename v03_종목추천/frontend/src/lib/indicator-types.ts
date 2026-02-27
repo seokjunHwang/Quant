@@ -31,9 +31,9 @@ export const INDICATOR_REGISTRY: Record<IndicatorId, IndicatorMeta> = {
     defaultParams: {
       rsi_period: 14,
       lb_left: 5,
-      lb_right: 5,
+      lb_right: 3,
       range_lower: 5,
-      range_upper: 60,
+      range_upper: 50,
       lookback: 1,
       days: 730,
     },
