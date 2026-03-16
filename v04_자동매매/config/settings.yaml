@@ -1,0 +1,42 @@
+system:
+  mode: "paper"  # paper | live
+  max_positions: 5
+  min_score_to_enter: 60
+
+collection:
+  intervals:
+    options_flow: 300        # 5min (sec)
+    macro_data: 900          # 15min
+    insider_data: 3600       # 1hr
+    news: 300                # 5min
+
+scoring:
+  weights:
+    logic_chain: 30
+    smart_money: 20
+    volume: 20
+    chart: 20
+    vix_bonus_max: 10
+    risk_penalty_max: -10
+
+vix_bonus:
+  ranges:
+    - max: 20
+      bonus: 0
+    - max: 30
+      bonus: 3
+    - max: 50
+      bonus: 7
+    - max: 999
+      bonus: 10
+
+filters:
+  market_cap_min: 500000000    # $500M
+  market_cap_max: 10000000000  # $10B
+  volume_surge_threshold: 1.5  # 150% of avg
+  max_recent_gain: 0.30        # exclude 30%+ recent gainers
+
+risk:
+  kelly_fraction: 0.5
+  max_loss_per_trade: 0.07     # 7% stop loss
+  trailing_stop_pct: 0.05      # 5% trailing stop
