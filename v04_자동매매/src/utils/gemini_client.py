@@ -1,8 +1,9 @@
+from __future__ import annotations
 """
-Gemini AI Client — Primary + Fallback 모델 자동 전환.
+Gemini AI Client — Primary 3회 재시도 + Fallback 자동 전환.
 
-Primary:  gemini-2.5-flash-preview-05-20
-Fallback: gemini-2.0-flash-lite
+Primary:  gemini-3.1-pro-preview (최대 3회 시도)
+Fallback: gemini-3.1-flash-lite-preview (1회)
 """
 
 import json
@@ -54,8 +55,16 @@ def generate(
     if json_mode:
         config.response_mime_type = "application/json"
 
-    # Try primary, then fallback
-    for model_name in [GEMINI_PRIMARY_MODEL, GEMINI_FALLBACK_MODEL]:
+    # Try primary up to 3 times, then fallback once
+    attempts = [
+        (GEMINI_PRIMARY_MODEL, 1),
+        (GEMINI_PRIMARY_MODEL, 2),
+        (GEMINI_PRIMARY_MODEL, 3),
+        (GEMINI_FALLBACK_MODEL, 1),
+    ]
+
+    for model_name, attempt in attempts:
+        is_last = model_name == GEMINI_FALLBACK_MODEL
         try:
             response = client.models.generate_content(
                 model=model_name,
@@ -67,15 +76,18 @@ def generate(
                 logger.debug(f"[{model_name}] Response: {len(text)} chars")
                 return text.strip()
 
-            logger.warning(f"[{model_name}] Empty response, trying fallback...")
+            logger.warning(f"[{model_name}] Empty response (attempt {attempt})")
 
         except Exception as e:
-            logger.warning(f"[{model_name}] Error: {e}")
-            if model_name == GEMINI_FALLBACK_MODEL:
+            logger.warning(f"[{model_name}] Error (attempt {attempt}): {e}")
+            if is_last:
                 raise
-            time.sleep(1)
 
-    raise RuntimeError("Both Gemini models failed")
+        wait = 2 ** attempt if not is_last else 0
+        if wait:
+            time.sleep(wait)
+
+    raise RuntimeError("All Gemini attempts failed (Pro x3 + Flash-Lite x1)")
 
 
 def generate_json(

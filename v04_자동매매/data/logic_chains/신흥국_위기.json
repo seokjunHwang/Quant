@@ -1,0 +1,630 @@
+[
+  {
+    "chain_id": "LC-0201",
+    "category": "신흥국_위기",
+    "event": "중국 에버그란데(헝다) 공식 디폴트 선언",
+    "causal_path": "디폴트 선언 → 중국 부동산 연쇄 도산 공포 → 글로벌 원자재 수요 급감 전망 → 안전자산 선호 및 산업금속 폭락",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "US Treasuries ETFs"
+    ],
+    "victim_sectors": [
+      "Copper Miners",
+      "Steel Producers",
+      "Heavy Machinery Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "역외 달러 채권 이자 지급 유예 공시",
+      "홍콩 증시 내 중국 부동산 개발사 주가 연쇄 급락",
+      "중국 철광석 선물 가격 3일 연속 하락",
+      "중국 내 미분양 주택 및 공사 중단 현장 증가 보도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0202",
+    "category": "신흥국_위기",
+    "event": "터키 리라화 하루 10% 이상 폭락 (통화위기)",
+    "causal_path": "리라화 폭락 → 유럽 은행들의 터키 익스포저 손실 우려 → 글로벌 금융주 동반 하락 및 달러 초강세",
+    "beneficiary_sectors": [
+      "Dollar Index ETFs",
+      "Domestic Focused Small Caps"
+    ],
+    "victim_sectors": [
+      "Global Universal Banks",
+      "European Exposed Equities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "터키 중앙은행의 인플레이션 역행적 금리 인하 발표",
+      "터키 대통령의 중앙은행 총재 돌연 경질",
+      "터키 5년물 CDS 프리미엄 600bp 돌파",
+      "터키 내 달러 사재기 현상 심화 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0203",
+    "category": "신흥국_위기",
+    "event": "아르헨티나 국가 디폴트 선언",
+    "causal_path": "디폴트 선언 → 중남미 채무 위기 전염 공포 → 중남미 매출 비중 높은 미국 기업 타격",
+    "beneficiary_sectors": [
+      "Safe Haven Consumer Staples",
+      "US Domestic Utilities"
+    ],
+    "victim_sectors": [
+      "LatAm Exposed E-commerce",
+      "Agricultural Chemicals"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "아르헨티나 외환보유고 고갈 임박 경고",
+      "암시장 환율(블루달러)과 공식 환율 간의 괴리율 100% 돌파",
+      "IMF와의 채무 재조정 협상 결렬 루머 확산"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0204",
+    "category": "신흥국_위기",
+    "event": "신흥국 주식 펀드에서 대규모 자본 유출 (Capital Flight)",
+    "causal_path": "신흥국 자산 투매 → 미국 상장 신흥국 ADR 청산 → 미국 대형 기술주로의 피난 자금 유입",
+    "beneficiary_sectors": [
+      "Mega Cap Tech",
+      "US Large Cap Growth"
+    ],
+    "victim_sectors": [
+      "Emerging Market ETFs",
+      "Chinese ADRs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 10년물 국채 금리 급등 및 강달러 지속",
+      "신흥국 통화 인덱스(JPM EMCI) 연중 최저치 경신",
+      "글로벌 펀드 매니저 서베이에서 신흥국 비중 축소 응답 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0205",
+    "category": "신흥국_위기",
+    "event": "주요 프론티어 국가(예: 이집트, 파키스탄)의 IMF 구제금융 공식 요청",
+    "causal_path": "구제금융 요청 → 국가 부도 위험 프리미엄 급등 → 프론티어/신흥국 인프라 투자 심리 냉각",
+    "beneficiary_sectors": [
+      "US Defense",
+      "US Domestic Telecom"
+    ],
+    "victim_sectors": [
+      "Frontier Market ETFs",
+      "Global Infrastructure Builders"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "해당 국가의 필수 수입품(밀, 에너지) 결제 대금 연체 발생",
+      "해당 국가 국채 수익률 20% 돌파",
+      "외국인 직접투자(FDI) 급감 및 다국적 기업 철수 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0206",
+    "category": "신흥국_위기",
+    "event": "중국 인민은행(PBOC)의 긴급 대폭 금리 인하",
+    "causal_path": "긴급 금리 인하 → 위안화 가치 급락 → 중국의 디플레이션 수출 우려 → 미국 내 제조업 가격 경쟁력 약화",
+    "beneficiary_sectors": [
+      "Discount Retailers",
+      "Dollar Index ETFs"
+    ],
+    "victim_sectors": [
+      "US Export-Driven Manufacturers",
+      "Luxury Goods"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 주요 경제지표(소매판매, 산업생산) 예상치 대폭 하회",
+      "중국 내 그림자 금융 상품 연쇄 디폴트 루머",
+      "역외 위안화(CNH) 환율 심리적 저항선 돌파"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0207",
+    "category": "신흥국_위기",
+    "event": "신흥국 현지통화 표시 채권 금리 10% 일제 돌파",
+    "causal_path": "채권 금리 폭등 → 부채 상환 위기 현실화 → 글로벌 신용 경색 우려 → 하이일드 채권 투매",
+    "beneficiary_sectors": [
+      "Short-Term US Treasuries",
+      "Volatility ETFs (VIX)"
+    ],
+    "victim_sectors": [
+      "High Yield Corporate Bonds",
+      "Emerging Market Debt ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 연준의 매파적 발언으로 인한 글로벌 달러 유동성 축소",
+      "신흥국 채권형 펀드에서 3주 연속 순유출 발생",
+      "신흥국 중앙은행들의 외환시장 개입 한계 도달"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0208",
+    "category": "신흥국_위기",
+    "event": "중국 지방정부 자금조달용 특수법인(LGFV) 연쇄 디폴트",
+    "causal_path": "LGFV 디폴트 → 중국 내 인프라 투자 전면 중단 → 글로벌 산업금속 및 건설장비 수요 붕괴",
+    "beneficiary_sectors": [
+      "Inverse Commodity ETFs",
+      "US Domestic Software"
+    ],
+    "victim_sectors": [
+      "Iron Ore Miners",
+      "Heavy Machinery Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 지방정부 공무원 임금 체불 사태 보도",
+      "중국 내 주요 인프라 프로젝트 무기한 연기 발표",
+      "LGFV 발행 채권의 유통시장 거래 금리 비정상적 급등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0209",
+    "category": "신흥국_위기",
+    "event": "달러 페그제 신흥국(예: 중동/아시아 일부)의 페그제 돌연 포기",
+    "causal_path": "페그제 붕괴 → 환율 변동성 폭발 → 캐리 트레이드 청산 → 글로벌 위험자산 전반의 매도세",
+    "beneficiary_sectors": [
+      "Volatility ETFs (VIX)",
+      "Japanese Yen ETFs"
+    ],
+    "victim_sectors": [
+      "Global Carry Trade Banks",
+      "Risk-On Tech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 국가의 외환보유고 급감 통계 발표",
+      "헤지펀드들의 해당 통화에 대한 대규모 숏 포지션 구축",
+      "암시장에서의 달러 환전 프리미엄 20% 이상 형성"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0210",
+    "category": "신흥국_위기",
+    "event": "주요 중남미 국가의 외환보유고 완전 고갈 선언",
+    "causal_path": "외환보유고 고갈 → 수입 대금 결제 불능 → 특정 농산물/원자재 수출 차질 → 미국 내 대체 공급자 반사이익",
+    "beneficiary_sectors": [
+      "US Domestic Agriculture",
+      "Fertilizer Producers"
+    ],
+    "victim_sectors": [
+      "Global Food Processors",
+      "LatAm Airlines"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "해당 국가 중앙은행의 수입업체 달러 배정 중단",
+      "글로벌 해운사들의 해당 국가 기항 취소",
+      "해당 국가 내 생필품 사재기 및 폭동 발생"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0211",
+    "category": "신흥국_위기",
+    "event": "미국 대형 은행의 신흥국 부실 채권 익스포저 대규모 상각 발표",
+    "causal_path": "상각 발표 → 금융권 전반의 신용 위험 재평가 → 대형 은행주 급락 및 지역은행으로의 자금 이동",
+    "beneficiary_sectors": [
+      "Regional Banks",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Money Center Banks",
+      "Investment Banks"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "신흥국 기업들의 연쇄 달러채 디폴트 발생",
+      "월가 애널리스트들의 대형 은행 신흥국 리스크 경고 리포트 발간",
+      "해당 은행의 장외 파생상품 스프레드 확대"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0212",
+    "category": "신흥국_위기",
+    "event": "중국 신규 주택 판매량 전년 동기 대비 30% 이상 급감 발표",
+    "causal_path": "판매량 급감 → 부동산 개발사 유동성 위기 심화 → 글로벌 구리 및 건축자재 수요 절벽",
+    "beneficiary_sectors": [
+      "US Domestic Housing Builders",
+      "Treasury Bond ETFs"
+    ],
+    "victim_sectors": [
+      "Copper Miners",
+      "Industrial Metals ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "중국 주요 100대 부동산 개발사 실적 악화 경고",
+      "중국 1, 2선 도시 주택 가격 지수 하락 전환",
+      "중국 내 모기지 대출 상환 거부 운동 확산 조짐"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0213",
+    "category": "신흥국_위기",
+    "event": "신흥국 중앙은행의 500bp 이상 기습적 금리 인상 (환율 방어 목적)",
+    "causal_path": "금리 쇼크 → 신흥국 내수 경제 심각한 침체 → 미국 소비재 및 스마트폰의 신흥국 수출 타격",
+    "beneficiary_sectors": [
+      "US Domestic Consumer Staples",
+      "Healthcare Providers"
+    ],
+    "victim_sectors": [
+      "Global Consumer Discretionary",
+      "Smartphones & Devices"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 국가 통화 가치의 통제 불능 상태 진입",
+      "외국인 자금의 대규모 국채 매도",
+      "정부 고위급의 환기 투기 세력에 대한 강력한 경고 발언"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0214",
+    "category": "신흥국_위기",
+    "event": "브릭스(BRICS) 주요 국가의 전면적 자본통제(Capital Control) 실시",
+    "causal_path": "자본통제 → 다국적 기업의 현지 이익금 본국 송금 차단 → 미국 다국적 기업 실적 하향 조정 공포",
+    "beneficiary_sectors": [
+      "US Domestic Software",
+      "Utilities"
+    ],
+    "victim_sectors": [
+      "Multinational Consumer Brands",
+      "Global Payment Processors"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 국가의 외환보유고 급감 및 환율 방어 실패",
+      "외국계 기업들의 현지 자산 매각 및 철수 움직임",
+      "정부의 외화 반출 한도 축소 조치 사전 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0215",
+    "category": "신흥국_위기",
+    "event": "IMF, 특정 신흥국의 구제금융 조건 거절 및 협상 결렬",
+    "causal_path": "협상 결렬 → 하드 디폴트 임박 → 신흥국 채권 시장 패닉 셀링 → 글로벌 신용 스프레드 확대",
+    "beneficiary_sectors": [
+      "Credit Default Swap (CDS) ETFs",
+      "US Treasuries ETFs"
+    ],
+    "victim_sectors": [
+      "Emerging Market Sovereign Debt ETFs",
+      "Global Asset Managers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 국가 정부의 IMF 구조조정 요구안 공개적 거부",
+      "해당 국가 재무장관 돌연 사임",
+      "글로벌 신용평가사들의 선제적 국가 신용등급 강등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0216",
+    "category": "신흥국_위기",
+    "event": "미국 달러 인덱스(DXY) 110 돌파 (초강달러 쇼크)",
+    "causal_path": "초강달러 → 신흥국 달러 표시 부채 상환 부담 폭발 → 신흥국 기업 연쇄 디폴트 우려",
+    "beneficiary_sectors": [
+      "Dollar Index ETFs",
+      "US Domestic Small Caps"
+    ],
+    "victim_sectors": [
+      "Multinational Industrials",
+      "Gold Miners"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 연준의 점도표 상향 조정 및 매파적 기조 강화",
+      "유로화 및 엔화의 동반 약세 심화",
+      "신흥국 기업들의 달러 채권 차환 발행 실패 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0217",
+    "category": "신흥국_위기",
+    "event": "중국 대형 그림자 금융(신탁회사) 상품 대규모 디폴트 (예: 중즈계 위기)",
+    "causal_path": "신탁 디폴트 → 중국 고액 자산가들의 부의 파괴 → 글로벌 명품 및 카지노 소비 급감",
+    "beneficiary_sectors": [
+      "US Domestic Discount Retailers",
+      "Fast Food Chains"
+    ],
+    "victim_sectors": [
+      "Luxury Goods",
+      "Casino & Gaming"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 신탁회사의 투자자 대상 원금 지급 지연 통보",
+      "중국 소셜미디어 내 신탁회사 본사 앞 항의 시위 영상 유포",
+      "중국 부동산 시장 침체 장기화 지표 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0218",
+    "category": "신흥국_위기",
+    "event": "주요 신흥국 원유 수입국의 에너지 보조금 폐지 발표",
+    "causal_path": "보조금 폐지 → 초인플레이션 발생 → 대규모 반정부 시위 및 사회 불안 → 지정학적 리스크 고조",
+    "beneficiary_sectors": [
+      "Defense Contractors",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "Global Travel & Leisure",
+      "Emerging Market Consumer ETFs"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "국제 유가의 가파른 상승세 지속",
+      "해당 국가 정부의 재정 적자 심화 및 IMF 압박",
+      "주유소 앞 대규모 대기 행렬 및 연료 배급제 실시 루머"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0219",
+    "category": "신흥국_위기",
+    "event": "주요 신흥국 국가 신용등급 투기등급(Junk)으로 강등",
+    "causal_path": "투기등급 강등 → 기관 투자자들의 의무적 포트폴리오 청산 → 신흥국 채권 시장 유동성 증발",
+    "beneficiary_sectors": [
+      "US Government Bond ETFs",
+      "Volatility ETFs (VIX)"
+    ],
+    "victim_sectors": [
+      "Global Fixed Income Funds",
+      "Emerging Market Corporate Bonds"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "신용평가사들의 '부정적 관찰 대상' 지정 공시",
+      "해당 국가의 정치적 스캔들 또는 포퓰리즘 정책 발표",
+      "해당 국가 국채의 외국인 보유 비중 급감"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0220",
+    "category": "신흥국_위기",
+    "event": "신흥국 거래 상대방 리스크로 인한 글로벌 원자재 트레이딩 업체 파산",
+    "causal_path": "트레이더 파산 → 마진콜 사태 → 원자재 시장 거래 마비 및 유동성 경색 → 에너지/농산물 변동성 폭발",
+    "beneficiary_sectors": [
+      "Commodity Exchange Operators",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Agricultural Trading Houses",
+      "Energy Exploration & Production"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "신흥국 원자재 구매자들의 대규모 계약 파기 루머",
+      "원자재 거래소의 증거금 대폭 인상 조치",
+      "해당 트레이딩 업체의 신용등급 하향 조정"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0221",
+    "category": "신흥국_위기",
+    "event": "홍콩 법원의 중국 에버그란데(헝다) 청산 명령 공식화",
+    "causal_path": "청산 명령 → 역외 자산 헐값 매각(Fire Sale) → 아시아 부동산 시장 투매 및 글로벌 금융주 투자심리 악화",
+    "beneficiary_sectors": [
+      "US Treasuries ETFs",
+      "Inverse Real Estate ETFs"
+    ],
+    "victim_sectors": [
+      "Global Real Estate Services",
+      "Asian Exposed Financials"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "에버그란데의 구조조정안 채권자 동의 확보 실패",
+      "홍콩 법원의 최후 통첩 기한 만료 임박",
+      "에버그란데 창업자 체포 및 자산 동결 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0222",
+    "category": "신흥국_위기",
+    "event": "인플레이션으로 인한 주요 자원 보유 신흥국(예: 칠레, 페루) 대규모 광산 파업 및 시위",
+    "causal_path": "광산 파업 → 핵심 광물(리튬, 구리) 공급망 마비 → 전기차 및 배터리 생산 차질",
+    "beneficiary_sectors": [
+      "US Domestic Lithium Miners",
+      "Recycling Companies"
+    ],
+    "victim_sectors": [
+      "EV Manufacturers",
+      "Battery Producers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "해당 국가의 소비자 물가지수(CPI) 두 자릿수 급등",
+      "광산 노조의 임금 인상 협상 결렬 선언",
+      "현지 도로 봉쇄 및 물류 차질 보도 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0223",
+    "category": "신흥국_위기",
+    "event": "신흥국 대형 기술주의 미국 거래소 상장 폐지 리스크 부각",
+    "causal_path": "규제 갈등 격화 → ADR 상장 폐지 공포 → 신흥국 기술주에서 대규모 자금 이탈 및 미국 기술주로 쏠림",
+    "beneficiary_sectors": [
+      "US Mega Cap Tech",
+      "US Domestic E-commerce"
+    ],
+    "victim_sectors": [
+      "Chinese ADRs",
+      "Emerging Market Internet ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 SEC의 외국회사문책법(HFCAA) 관련 강력한 경고 발언",
+      "신흥국 정부의 자국 데이터 해외 반출 금지법 강화",
+      "해당 기업의 자진 상장 폐지 검토 루머 유포"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0224",
+    "category": "신흥국_위기",
+    "event": "글로벌 경기 침체로 인한 신흥국 송금액(Remittances) 급감 발표",
+    "causal_path": "송금액 급감 → 신흥국 내수 소비 붕괴 → 글로벌 소비재 기업들의 신흥국 매출 타격",
+    "beneficiary_sectors": [
+      "US Domestic Healthcare",
+      "US Utilities"
+    ],
+    "victim_sectors": [
+      "Global Money Transfer Services",
+      "Emerging Market Consumer Discretionary"
+    ],
+    "intensity": "low",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "선진국(미국, 유럽)의 이민자 고용 지표 악화",
+      "세계은행(World Bank)의 글로벌 송금액 전망치 하향 조정",
+      "주요 송금업체들의 분기 실적 가이던스 하향"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0225",
+    "category": "신흥국_위기",
+    "event": "중남미 경제 위기 전이: 미국 내 히스패닉 소비자 심리지수 급락",
+    "causal_path": "중남미 경제 붕괴 → 본국 송금 부담 증가로 미국 내 이민자 가처분 소득 감소 → 관련 재량 소비재 타격",
+    "beneficiary_sectors": [
+      "Dollar Stores",
+      "Auto Parts Retailers"
+    ],
+    "victim_sectors": [
+      "Hispanic-focused Broadcasters",
+      "Money Transfer Services"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "중남미 주요 국가들의 연쇄 환율 폭락",
+      "미국 내 저소득층 신용카드 연체율 상승 데이터 발표",
+      "미국 소매업체들의 하위 소득 계층 소비 둔화 경고"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

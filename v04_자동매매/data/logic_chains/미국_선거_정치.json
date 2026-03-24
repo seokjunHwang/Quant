@@ -1,0 +1,642 @@
+[
+  {
+    "chain_id": "LC-0101",
+    "category": "미국_선거_정치",
+    "event": "연방정부 셧다운 임박",
+    "causal_path": "예산안 협상 결렬 → 연방정부 기능 일부 정지 우려 → 정부 계약 지연 및 불확실성 증가 → 방산 및 정부 IT 수주 기업 타격, 안전자산 선호",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Consumer Staples"
+    ],
+    "victim_sectors": [
+      "Defense Contractors",
+      "Government IT Contractors"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "여야 예산안 협상 결렬 뉴스 보도 급증",
+      "정부 부처의 셧다운 대비 비상계획 수립 지시 유출",
+      "단기 국채(T-bill) 금리의 비정상적 스파이크",
+      "방산 및 정부 계약 의존도가 높은 기업들의 주가 선제 하락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0102",
+    "category": "미국_선거_정치",
+    "event": "막판 셧다운 타결 (임시예산안 통과)",
+    "causal_path": "데드라인 직전 극적 합의 → 정부 지출 중단 리스크 해소 → 이연된 정부 발주 기대감 회복 → 피해 섹터 급반등 및 시장 전반 안도 랠리",
+    "beneficiary_sectors": [
+      "Defense Contractors",
+      "Government IT Contractors",
+      "Large Cap Banks"
+    ],
+    "victim_sectors": [
+      "Gold Miners",
+      "Volatility ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "막판 양당 지도부의 비공개 회동 소식",
+      "임시 예산안(CR) 초안의 의회 제출",
+      "VIX 지수의 장중 급격한 하락세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0103",
+    "category": "미국_선거_정치",
+    "event": "부채한도 위기 고조 (X-date 임박)",
+    "causal_path": "부채한도 상향 지연 → 미국 기술적 디폴트 우려 증폭 → 국채 금리 급등 및 신용 경색 우려 → 위험자산 투매 및 초단기 안전자산 쏠림",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Short-term Treasuries"
+    ],
+    "victim_sectors": [
+      "High Yield Bonds",
+      "Regional Banks",
+      "High Beta Tech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "재무부의 특별조치 소진 예상일(X-date) 임박 공식 발표",
+      "1개월물 국채 금리의 급등 및 수익률 곡선 왜곡",
+      "미국 국채 CDS(신용디폴트스왑) 프리미엄의 가파른 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0104",
+    "category": "미국_선거_정치",
+    "event": "부채한도 협상 극적 타결",
+    "causal_path": "부채한도 상향/유예 법안 통과 → 디폴트 리스크 완전 해소 → 억눌렸던 투자 심리 폭발 → 낙폭 과대 위험자산 및 금융주 급반등",
+    "beneficiary_sectors": [
+      "High Beta Tech",
+      "Regional Banks",
+      "Consumer Discretionary"
+    ],
+    "victim_sectors": [
+      "Gold Miners",
+      "Short-term Treasuries"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대통령과 하원의장의 공동 기자회견 예고",
+      "양당 강경파의 반대에도 중도파 중심의 표결 합의 루머",
+      "장전 시간외 거래에서 S&P 500 선물 급등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0105",
+    "category": "미국_선거_정치",
+    "event": "선거 결과 의회 교착상태(Gridlock) 확정",
+    "causal_path": "상하원 다수당 분리 확정 → 급격한 세금 인상 및 규제 법안 통과 불가 → 현상 유지(Status Quo)에 대한 시장 안도감 → 대형 기술주 및 헬스케어 랠리",
+    "beneficiary_sectors": [
+      "Large Cap Tech",
+      "Large Cap Pharmaceuticals"
+    ],
+    "victim_sectors": [
+      "Infrastructure",
+      "Renewable Energy"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "경합주(Swing state) 출구조사에서 양당 의석수 팽팽함 확인",
+      "정치 베팅 사이트에서 분점정부(Divided Government) 확률 80% 이상 돌파",
+      "선거 당일 빅테크 및 헬스케어 섹터의 선제적 강세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0106",
+    "category": "미국_선거_정치",
+    "event": "대선 결과 불복 및 확정 지연",
+    "causal_path": "초박빙 결과로 재검표 요구 및 소송전 돌입 → 차기 행정부 정책 불확실성 극대화 → 투자 심리 냉각 및 변동성 폭발 → 안전자산 선호 및 주식시장 전반 하락",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Defense Contractors"
+    ],
+    "victim_sectors": [
+      "Large Cap Banks",
+      "Consumer Discretionary",
+      "Broad Market Indices"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "우편투표 개표 지연 및 핵심 경합주 표차 0.5% 이내 뉴스",
+      "특정 후보의 조기 승리 선언 및 상대방의 법적 소송 예고",
+      "VIX 선물 곡선의 단기물 급등(백워데이션 발생)"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0107",
+    "category": "미국_선거_정치",
+    "event": "특정 정당의 상하원 싹쓸이 (통합정부 출범)",
+    "causal_path": "백악관 및 의회 양원 단일 정당 장악 → 대규모 재정 지출 및 세제 개편 법안 통과 용이 → 국채 발행 증가 우려 및 인프라 투자 기대감 → 중소형주 및 인프라 강세, 대형 기술주 약세",
+    "beneficiary_sectors": [
+      "Infrastructure",
+      "Small Cap Equities",
+      "Construction Materials"
+    ],
+    "victim_sectors": [
+      "Large Cap Tech",
+      "Long-term Treasuries"
+    ],
+    "intensity": "high",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "선거 직전 여론조사에서 특정 정당의 압승(Wave) 가능성 급부상",
+      "국채 금리의 점진적 상승세 (재정 적자 확대 우려 반영)",
+      "러셀 2000 지수의 나스닥 대비 상대적 강세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0108",
+    "category": "미국_선거_정치",
+    "event": "빅테크 반독점 청문회 소집",
+    "causal_path": "의회의 대형 기술기업 반독점 조사 강화 → 기업 분할 또는 강력한 규제 법안 발의 우려 → 빅테크 투자 심리 위축 → 대형 기술주 하락 및 중소형 경쟁사 반사이익",
+    "beneficiary_sectors": [
+      "Small Cap Tech",
+      "Value Stocks"
+    ],
+    "victim_sectors": [
+      "Large Cap Tech",
+      "Social Media"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "법무부(DOJ) 또는 FTC의 주요 빅테크 기업 내사 소식 보도",
+      "양당 주요 의원들의 빅테크 규제 필요성 공동 성명 발표",
+      "해당 빅테크 기업의 내부 고발자 폭로 뉴스 등장"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0109",
+    "category": "미국_선거_정치",
+    "event": "강력한 약가 인하 법안 발의",
+    "causal_path": "정부의 처방약 가격 통제 권한 강화 법안 추진 → 대형 제약사 및 바이오텍의 미래 수익성 악화 우려 → 헬스케어 섹터 내 자금 이동 → 대형 제약사 하락, 제네릭 및 병원 수혜",
+    "beneficiary_sectors": [
+      "Health Care Providers",
+      "Generic Pharmaceuticals"
+    ],
+    "victim_sectors": [
+      "Large Cap Pharmaceuticals",
+      "Biotech"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대통령의 약가 인하 관련 대국민 연설 예고",
+      "의회 보건위원회 소속 의원들의 법안 초안 언론 유출",
+      "주요 제약사들의 로비 자금 급증 및 반대 성명 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0110",
+    "category": "미국_선거_정치",
+    "event": "친환경 에너지 보조금 철회 논의",
+    "causal_path": "정치권의 기존 친환경 세액공제(IRA 등) 축소/폐지 추진 → 태양광, 풍력 등 신재생 에너지 프로젝트 수익성 급감 → 전통 에너지원 반사이익 → 화석연료 강세, 신재생 약세",
+    "beneficiary_sectors": [
+      "Oil & Gas Exploration",
+      "Coal Producers"
+    ],
+    "victim_sectors": [
+      "Solar Energy",
+      "Wind Energy",
+      "Electric Vehicles"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "유력 정치인의 유세 중 친환경 정책 강도 높은 비판 발언",
+      "의회 예산국(CBO)의 보조금 축소 시 재정 절감 효과 보고서 발간",
+      "태양광 및 풍력 관련 ETF의 비정상적 공매도 잔고 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0111",
+    "category": "미국_선거_정치",
+    "event": "대규모 법인세 인상안 유력",
+    "causal_path": "법인세율 인상 및 자사주 매입 과세 강화 추진 → 상장사 EPS(주당순이익) 전망치 하향 조정 → 고마진 기업 중심의 매도세 → 증시 전반 하락 및 비과세 자산 선호",
+    "beneficiary_sectors": [
+      "Municipal Bonds",
+      "Real Estate Investment Trusts (REITs)"
+    ],
+    "victim_sectors": [
+      "High Margin Tech",
+      "Consumer Discretionary"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "행정부의 차기 연도 예산안 세부 항목에 증세안 포함",
+      "재무장관의 공정 과세 관련 강경 발언",
+      "월가 주요 IB들의 증세 시 S&P 500 이익 감소분 추정 리포트 발간"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0112",
+    "category": "미국_선거_정치",
+    "event": "금융 규제 완화 법안 발의",
+    "causal_path": "은행 자본 확충 요건 완화 및 스트레스 테스트 기준 완화 추진 → 은행권 대출 여력 확대 및 주주 환원 증가 기대감 → 금융주 전반의 강세",
+    "beneficiary_sectors": [
+      "Regional Banks",
+      "Large Cap Banks",
+      "Consumer Finance"
+    ],
+    "victim_sectors": [
+      "Compliance Software"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "상원 금융위원회의 규제 완화 청문회 일정 발표",
+      "주요 은행 CEO들의 백악관/의회 연쇄 방문 소식",
+      "금융 섹터 ETF(XLF 등)로의 대규모 자금 유입"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0113",
+    "category": "미국_선거_정치",
+    "event": "선거 유세 중 대규모 보편 관세 부과 발언",
+    "causal_path": "수입품 전반에 대한 고율 관세 부과 공약 → 글로벌 무역 전쟁 우려 및 수입 물가 상승 예상 → 글로벌 공급망 의존 기업 타격, 내수 제조기업 수혜",
+    "beneficiary_sectors": [
+      "Domestic Steel Producers",
+      "Domestic Manufacturing"
+    ],
+    "victim_sectors": [
+      "Semiconductor Equipment",
+      "Apparel Retailers",
+      "Auto Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "유세 현장에서 특정 국가/산업에 대한 고율 관세 직접 언급",
+      "무역대표부(USTR) 출신 강경파 인사의 캠프 합류 소식",
+      "타겟 국가의 환율(예: 위안화, 페소화) 약세 전환"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0114",
+    "category": "미국_선거_정치",
+    "event": "전략비축유(SPR) 대규모 방출 발표",
+    "causal_path": "유가 안정을 위한 정치적 목적의 비축유 방출 → 단기 원유 공급 증가 → 국제 유가 하락 → 정유주 하락 및 유류비 비중 높은 운송주 수혜",
+    "beneficiary_sectors": [
+      "Airlines",
+      "Logistics & Trucking",
+      "Consumer Discretionary"
+    ],
+    "victim_sectors": [
+      "Oil & Gas Exploration",
+      "Oilfield Services"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "에너지부(DOE) 장관의 유가 안정화 조치 시사 발언",
+      "정치권의 고유가로 인한 인플레이션 비판 여론 고조",
+      "WTI 원유 선물의 장중 갑작스러운 하락 반전"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0115",
+    "category": "미국_선거_정치",
+    "event": "국경 및 이민 통제 강화 정책 발표",
+    "causal_path": "불법 이민자 단속 강화 및 국경 장벽 예산 증액 → 민간 교도소 및 보안 업체 수요 증가, 저임금 노동력 공급 축소 우려 → 보안주 수혜, 노동집약 산업 타격",
+    "beneficiary_sectors": [
+      "Private Prisons",
+      "Security & Alarm Services"
+    ],
+    "victim_sectors": [
+      "Agricultural Producers",
+      "Hospitality & Hotels"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "국토안보부(DHS)의 국경 순찰 강화 지침 언론 유출",
+      "이민 정책 관련 행정명령 서명 일정 발표",
+      "농업 및 숙박업계의 구인난 심화 관련 경제 지표 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0116",
+    "category": "미국_선거_정치",
+    "event": "대통령/주요인사 탄핵 조사 공식 개시",
+    "causal_path": "하원의 탄핵 조사 결의안 통과 → 정치적 불확실성 극대화 및 주요 국정과제 올스톱 → 시장 변동성 확대 및 위험자산 회피 심리 발동",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Volatility ETFs",
+      "Consumer Staples"
+    ],
+    "victim_sectors": [
+      "High Beta Tech",
+      "Large Cap Banks",
+      "Broad Market Indices"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "하원 법사위원회의 핵심 증인 소환장 발부",
+      "여당 내 일부 이탈표 발생 가능성 보도",
+      "VIX 지수의 3일 연속 상승세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0117",
+    "category": "미국_선거_정치",
+    "event": "탄핵안 기각 및 정치적 불확실성 해소",
+    "causal_path": "상원 표결에서 탄핵안 부결 → 리더십 공백 우려 소멸 및 정책 추진 동력 회복 → 억눌렸던 투자 심리 회복 → 증시 전반의 안도 랠리",
+    "beneficiary_sectors": [
+      "High Beta Tech",
+      "Large Cap Banks",
+      "Consumer Discretionary"
+    ],
+    "victim_sectors": [
+      "Gold Miners",
+      "Volatility ETFs"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "상원 표결 전 주요 중도파 의원들의 반대 성명 발표",
+      "탄핵 찬성 여론의 급격한 하락세 여론조사 결과",
+      "장전 시간외 거래에서 S&P 500 선물의 강세 전환"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0118",
+    "category": "미국_선거_정치",
+    "event": "초당적 대규모 인프라 투자 법안 통과",
+    "causal_path": "도로, 교량, 브로드밴드 등 대규모 예산 투입 확정 → 관련 장비 및 자재 수요 폭발적 증가 전망 → 건설 기계 및 자재 섹터 급등",
+    "beneficiary_sectors": [
+      "Construction Materials",
+      "Heavy Machinery",
+      "Engineering & Construction"
+    ],
+    "victim_sectors": [
+      "Long-term Treasuries"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "양당 실무 협상단의 최종 합의안 도출 뉴스",
+      "대통령의 법안 서명식 일정 공식 발표",
+      "캐터필러(CAT) 등 주요 인프라 관련주의 거래량 동반 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0119",
+    "category": "미국_선거_정치",
+    "event": "학자금 대출 탕감 대법원 제동",
+    "causal_path": "대법원의 학자금 대출 탕감 행정명령 위헌 판결 → 청년층의 가처분 소득 감소 및 대출 상환 재개 → 소비재 타격 및 대출 서비스 업체 수혜",
+    "beneficiary_sectors": [
+      "Student Loan Servicers",
+      "Consumer Finance"
+    ],
+    "victim_sectors": [
+      "Apparel Retailers",
+      "Restaurants",
+      "E-commerce"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대법원 판결일 임박 및 보수 성향 대법관들의 부정적 구두 변론 내용 재조명",
+      "학자금 대출 서비스 업체들의 주가 바닥 다지기",
+      "소매 유통 업체들의 하반기 가이던스 하향 조정 루머"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0120",
+    "category": "미국_선거_정치",
+    "event": "국방 예산 대폭 증액안 발표",
+    "causal_path": "지정학적 긴장 또는 정치적 공약 이행을 위한 국방 수권 법안(NDAA) 예산 증액 → 무기 체계 및 항공우주 발주 증가 기대감 → 방산주 랠리",
+    "beneficiary_sectors": [
+      "Defense Contractors",
+      "Aerospace",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "Consumer Staples"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "국방부 장관의 의회 청문회에서 예산 증액 강력 요청",
+      "주요 방산 기업 CEO들과 국방부 고위급의 비공개 회동",
+      "록히드마틴, RTX 등 주요 방산주의 콜옵션 거래량 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0121",
+    "category": "미국_선거_정치",
+    "event": "깜짝 현금 지급/재난지원금 발표",
+    "causal_path": "선거를 앞둔 정치적 목적의 직접 현금 지급안 발표 → 저소득층 가처분 소득 즉각 증가 → 할인점 및 필수소비재 매출 급증 기대감",
+    "beneficiary_sectors": [
+      "Discount Retailers",
+      "E-commerce",
+      "Payment Processors"
+    ],
+    "victim_sectors": [
+      "Short-term Treasuries"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "행정부 고위 관계자의 '가계 직접 지원' 검토 발언 유출",
+      "소비 심리 지표의 급격한 악화로 인한 부양책 명분 형성",
+      "월마트, 달러제너럴 등 할인점 주가의 장중 튀어오름"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0122",
+    "category": "미국_선거_정치",
+    "event": "중간선거 여당 패배로 하원 권력 교체",
+    "causal_path": "중간선거 결과 야당이 하원 다수당 차지 → 현 행정부의 주요 입법 추진 제동(Gridlock 형성) → 규제 리스크 감소로 대형주 안도 랠리",
+    "beneficiary_sectors": [
+      "Large Cap Pharmaceuticals",
+      "Large Cap Tech"
+    ],
+    "victim_sectors": [
+      "Renewable Energy",
+      "Infrastructure"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "대통령 지지율의 40% 이하 지속 하락",
+      "핵심 경합구(Swing district) 여론조사에서 야당 후보 우세 지속",
+      "선거 전날 헬스케어 및 빅테크 섹터로의 기관 자금 유입"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0123",
+    "category": "미국_선거_정치",
+    "event": "주요 내각 인사(재무/상무장관) 돌연 사임",
+    "causal_path": "핵심 경제 부처 장관의 돌연 사임 또는 경질 → 행정부 내부 갈등 및 경제 정책 일관성 훼손 우려 → 단기적 시장 충격 및 안전자산 선호",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Short-term Treasuries"
+    ],
+    "victim_sectors": [
+      "Large Cap Banks",
+      "Broad Market Indices"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대통령과 해당 장관 간의 정책 이견 관련 익명 보도",
+      "해당 장관의 주요 공식 일정 돌연 취소",
+      "외환 시장에서 달러화의 단기적 약세 흐름"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0124",
+    "category": "미국_선거_정치",
+    "event": "정치적 갈등으로 인한 미국 국가신용등급 강등",
+    "causal_path": "부채한도 및 예산안 관련 정치적 기능 마비 심화 → 주요 신용평가사의 미국 국가신용등급 강등(예: AAA → AA+) → 글로벌 자본시장 충격 및 금리 발작",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Volatility ETFs"
+    ],
+    "victim_sectors": [
+      "Large Cap Banks",
+      "Real Estate Investment Trusts (REITs)",
+      "Broad Market Indices"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "신용평가사의 '부정적 관찰 대상(Credit Watch Negative)' 사전 지정",
+      "정치권의 극단적 대립 지속 및 타결 실마리 부재 뉴스",
+      "장기 국채 금리의 비정상적 급등 및 주식시장 투매 조짐"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0125",
+    "category": "미국_선거_정치",
+    "event": "대만/중국 관련 초당적 강경 제재 법안 발의",
+    "causal_path": "선거를 앞두고 대중국 강경 여론 의식한 초당적 제재 법안 발의 → 미중 갈등 격화 및 반도체/IT 공급망 훼손 우려 → 글로벌 노출 기업 타격, 미국 내 생산 기업 수혜",
+    "beneficiary_sectors": [
+      "Defense Contractors",
+      "Domestic Semiconductors"
+    ],
+    "victim_sectors": [
+      "Semiconductor Equipment",
+      "Consumer Electronics",
+      "Apparel Retailers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "의회 내 대중국 강경파 의원들의 초당적 법안 발의 기자회견 예고",
+      "대만 해협 인근의 군사적 긴장 고조 및 중국 외교부의 강력 반발 성명",
+      "미국 상무부의 수출 통제 리스트(Entity List) 추가 검토 루머 확산"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

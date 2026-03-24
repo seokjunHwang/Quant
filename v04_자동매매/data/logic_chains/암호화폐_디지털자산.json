@@ -1,0 +1,652 @@
+[
+  {
+    "chain_id": "LC-0326",
+    "category": "암호화폐_디지털자산",
+    "event": "비트코인 현물 ETF 최종 승인",
+    "causal_path": "SEC 현물 ETF 승인 → 기관 자금 대규모 유입 기대감 → 비트코인 가격 급등 및 거래량 폭증 → 관련 기업 수익성 개선",
+    "beneficiary_sectors": [
+      "Asset Management",
+      "Crypto Exchanges",
+      "Bitcoin Miners"
+    ],
+    "victim_sectors": [
+      "Short Bitcoin ETFs",
+      "Gold Miners"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "자산운용사들의 S-1 서류 최종 수정본 연쇄 제출",
+      "SEC 위원장 및 관계자의 긍정적 인터뷰 또는 트윗",
+      "DTCC(미국 중앙예탁결제기관) 웹사이트에 해당 ETF 티커 사전 등재",
+      "그레이스케일(Grayscale) 소송 등에서 SEC 패소 판결"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0327",
+    "category": "암호화폐_디지털자산",
+    "event": "대형 암호화폐 거래소 파산 (FTX 사태 재현)",
+    "causal_path": "대형 거래소 유동성 위기 및 뱅크런 → 고객 자금 동결 및 파산 신청 → 암호화폐 시장 전반의 신뢰 붕괴 및 투매 → 관련 주식 폭락",
+    "beneficiary_sectors": [
+      "Traditional Exchanges",
+      "Short Crypto ETFs",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Crypto Exchanges",
+      "Bitcoin Miners",
+      "Fintech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 거래소의 자체 발행 토큰 가격 급락",
+      "온체인 데이터 상 대규모 자금 이탈(Withdrawal) 발생",
+      "거래소 CEO의 출금 지연에 대한 변명성 트윗",
+      "경쟁 거래소 CEO의 공개적인 재무 건전성 저격"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0328",
+    "category": "암호화폐_디지털자산",
+    "event": "주요 스테이블코인(USDT/USDC) 디페깅 위기",
+    "causal_path": "준비금 부족 루머 또는 규제 철퇴 → 1달러 페깅 붕괴 → 암호화폐 시장 내 기축통화 신뢰 상실 → 디파이 연쇄 청산 및 패닉 셀",
+    "beneficiary_sectors": [
+      "Traditional Banks",
+      "Short Crypto ETFs"
+    ],
+    "victim_sectors": [
+      "Crypto Exchanges",
+      "DeFi Platforms",
+      "Fintech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "커브(Curve) 등 주요 탈중앙화 거래소(DEX) 내 유동성 풀 불균형 심화",
+      "스테이블코인 발행사의 준비금 감사 보고서 제출 지연",
+      "특정 스테이블코인의 대규모 상환(Redemption) 요청 발생",
+      "미국 규제 당국의 스테이블코인 발행사 조사 착수 루머"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0329",
+    "category": "암호화폐_디지털자산",
+    "event": "SEC의 대형 거래소(Coinbase 등) 기소",
+    "causal_path": "미등록 증권 판매 혐의로 기소 → 거래소 운영 차질 및 벌금 우려 → 기관 투자자 이탈 → 거래소 주가 및 알트코인 급락",
+    "beneficiary_sectors": [
+      "Traditional Exchanges",
+      "Traditional Asset Managers"
+    ],
+    "victim_sectors": [
+      "Crypto Exchanges",
+      "Blockchain Equities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "SEC의 웰스 노티스(Wells Notice, 사전 기소 통보) 발송",
+      "해당 거래소 임원진의 대규모 자사주 매도",
+      "SEC 의장의 암호화폐 거래소 규제 필요성 강조 연설",
+      "일부 알트코인의 사전 상장 폐지 조치"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0330",
+    "category": "암호화폐_디지털자산",
+    "event": "빅테크 기업의 비트코인 대규모 매수 및 대차대조표 편입",
+    "causal_path": "빅테크의 BTC 매수 공시 → 기업 자산가치 상승 및 비트코인 랠리 촉발 → 암호화폐 시장 전반의 투자 심리 급반전 → 관련주 동반 상승",
+    "beneficiary_sectors": [
+      "Enterprise Software",
+      "Crypto Miners",
+      "Crypto Exchanges"
+    ],
+    "victim_sectors": [
+      "Short Bitcoin ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 기업 CEO의 비트코인 관련 긍정적 트윗 (예: 레이저 눈 프로필)",
+      "기업의 재무 정책(Treasury Policy) 변경 공시",
+      "코인베이스 등 기관 전용 OTC 창구의 대규모 거래량 발생",
+      "해당 기업의 암호화폐 관련 인력 채용 공고"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0331",
+    "category": "암호화폐_디지털자산",
+    "event": "비트코인 반감기(Halving) 도래",
+    "causal_path": "블록 보상 절반 감소 → 신규 공급량 축소 및 채굴 단가 상승 → 비효율 채굴자 도태 및 비트코인 희소성 부각 → 대형 채굴자 시장 장악",
+    "beneficiary_sectors": [
+      "Large Cap Bitcoin Miners",
+      "Semiconductors"
+    ],
+    "victim_sectors": [
+      "Small Cap Bitcoin Miners"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "비트코인 네트워크 해시레이트(Hashrate) 사상 최고치 경신",
+      "채굴 기업들의 최신 ASIC 채굴기 대규모 구매 계약 공시",
+      "반감기 카운트다운 사이트의 트래픽 급증",
+      "중소형 채굴 기업들의 운영 자금 확보를 위한 유상증자"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0332",
+    "category": "암호화폐_디지털자산",
+    "event": "연준(Fed)의 디지털 달러(CBDC) 파일럿 공식 발표",
+    "causal_path": "미국 정부 주도 디지털 화폐 실험 → 민간 암호화폐 및 스테이블코인 위협 → 결제 인프라 및 보안 기술 수요 증가 → 관련 IT 기업 수혜",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "IT Consulting",
+      "Payment Processors"
+    ],
+    "victim_sectors": [
+      "Regional Banks",
+      "Crypto Exchanges"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "연준의 CBDC 관련 백서(Whitepaper) 발간",
+      "미 의회에서 디지털 달러 도입 관련 청문회 개최",
+      "보스턴 연은 등 지역 연준의 CBDC 연구원 대규모 채용",
+      "주요 결제 네트워크 기업(Visa, Mastercard)의 CBDC 호환성 테스트 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0333",
+    "category": "암호화폐_디지털자산",
+    "event": "글로벌 결제 대기업의 스테이블코인 결제 전면 도입",
+    "causal_path": "Visa/Mastercard 등에서 USDC/USDT 결제 지원 → 가맹점 수수료 절감 및 국경 간 결제 혁신 → 블록체인 상용화 기대감 폭발 → 결제 및 핀테크 주가 상승",
+    "beneficiary_sectors": [
+      "Payment Processors",
+      "Blockchain Equities",
+      "Fintech"
+    ],
+    "victim_sectors": [
+      "Traditional Remittance Services"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "결제 대기업의 이더리움/솔라나 네트워크 테스트 트랜잭션 포착",
+      "웹3 및 블록체인 개발자 대규모 채용 공고",
+      "스테이블코인 발행사와의 전략적 파트너십 루머 보도",
+      "관련 특허(블록체인 결제 라우팅 등) 출원 공개"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0334",
+    "category": "암호화폐_디지털자산",
+    "event": "미국 정부 지갑의 대규모 비트코인 거래소 이체",
+    "causal_path": "실크로드 압수 물량 등 대규모 BTC 거래소 입금 → 대규모 매도 오버행(Overhang) 우려 발생 → 비트코인 가격 급락 → 암호화폐 관련주 하락",
+    "beneficiary_sectors": [
+      "Short Bitcoin ETFs"
+    ],
+    "victim_sectors": [
+      "Bitcoin Miners",
+      "Crypto Exchanges",
+      "Enterprise Software"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "Arkham 등 온체인 분석 플랫폼에서 미 법무부 지갑의 소액 테스트 전송 포착",
+      "미국 정부의 압수 자산 매각 관련 법원 승인 서류 공개",
+      "코인베이스 프라임 지갑으로의 대규모 트랜잭션 알림 발생",
+      "시장 내 기관 투자자들의 풋옵션 매수세 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0335",
+    "category": "암호화폐_디지털자산",
+    "event": "SEC의 비트코인 현물 ETF 일괄 반려(Reject)",
+    "causal_path": "ETF 승인 기대감 소멸 → 실망 매물 대거 출회 → 비트코인 가격 폭락 및 거래량 급감 → 암호화폐 관련 기업 주가 폭락",
+    "beneficiary_sectors": [
+      "Short Bitcoin ETFs",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Asset Management",
+      "Crypto Exchanges",
+      "Bitcoin Miners"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "SEC 위원장의 암호화폐 시장 조작 위험성 강조 발언",
+      "ETF 신청사들의 S-1 서류 업데이트 중단",
+      "월스트리트저널(WSJ) 등 주요 언론의 '승인 비관론' 단독 보도",
+      "비트코인 선물 시장에서 대규모 숏 포지션 구축"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0336",
+    "category": "암호화폐_디지털자산",
+    "event": "FASB(미 재무회계기준심의회) 암호화폐 공정가치 회계기준 도입",
+    "causal_path": "암호화폐 보유 자산의 공정가치 평가 허용 → 기업들의 손상차손 리스크 감소 → S&P500 기업들의 비트코인 매수 진입 장벽 해소 → 소프트웨어 및 핀테크 기업 수혜",
+    "beneficiary_sectors": [
+      "Enterprise Software",
+      "Fintech",
+      "Crypto Exchanges"
+    ],
+    "victim_sectors": [
+      "Short Bitcoin ETFs"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "FASB의 회계기준 개정안(Exposure Draft) 공개 및 의견 수렴",
+      "마이크로스트레티지 등 암호화폐 보유 기업들의 강력한 로비 활동",
+      "주요 회계법인(Big 4)의 암호화폐 가치평가 가이드라인 배포",
+      "FASB 이사회의 최종 투표 일정 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0337",
+    "category": "암호화폐_디지털자산",
+    "event": "미국 에너지 규제 당국의 채굴 전력 사용 제한 조치",
+    "causal_path": "전력망 과부하 및 환경 문제로 채굴장 전력 차단/과세 → 미국 내 채굴 기업 가동 중단 → 해시레이트 하락 및 채굴 기업 매출 타격 → 친환경 에너지 전환 가속",
+    "beneficiary_sectors": [
+      "Renewable Energy",
+      "Nuclear Power"
+    ],
+    "victim_sectors": [
+      "Bitcoin Miners",
+      "Fossil Fuel Utilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "텍사스 ERCOT 등 전력망 운영 기관의 전력 수급 비상 경보 발령",
+      "환경 단체들의 비트코인 채굴 반대 대규모 시위 및 소송",
+      "백악관 과학기술정책국의 암호화폐 기후 영향 보고서 발간",
+      "일부 주 정부의 채굴장 신규 허가 모라토리엄 선언"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0338",
+    "category": "암호화폐_디지털자산",
+    "event": "초대형 디파이(DeFi) 프로토콜 해킹 및 자금 탈취",
+    "causal_path": "스마트 컨트랙트 취약점 공격으로 수억 달러 탈취 → 디파이 생태계 신뢰도 추락 및 TVL 급감 → 규제 당국의 보안 규제 강화 명분 제공 → 사이버보안 기업 부각",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "Traditional Banks"
+    ],
+    "victim_sectors": [
+      "Blockchain Equities",
+      "Crypto Exchanges"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 프로토콜의 비정상적인 대규모 자금 유출 트랜잭션 발생",
+      "프로토콜 공식 트위터의 '입출금 일시 중단' 공지",
+      "보안 감사 업체(CertiK 등)의 취약점 경고 리포트 사전 발행",
+      "거버넌스 토큰 가격의 이유 없는 급락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0339",
+    "category": "암호화폐_디지털자산",
+    "event": "SEC의 주요 알트코인 무더기 증권(Security) 분류",
+    "causal_path": "솔라나, 카르다노 등 주요 알트코인을 증권으로 규정 → 미국 내 거래소에서 상장 폐지 연쇄 발생 → 알트코인 폭락 및 비트코인 도미넌스 상승 → 비트코인 채굴자 상대적 수혜",
+    "beneficiary_sectors": [
+      "Bitcoin Miners",
+      "Traditional Exchanges"
+    ],
+    "victim_sectors": [
+      "Crypto Exchanges",
+      "Fintech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "SEC의 특정 암호화폐 프로젝트에 대한 소환장(Subpoena) 발부",
+      "로빈후드 등 소매 브로커리지의 선제적인 알트코인 상장 폐지",
+      "SEC 의장의 '비트코인 외에는 모두 증권'이라는 공개 발언",
+      "알트코인 재단 임원들의 돌연 사임"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0340",
+    "category": "암호화폐_디지털자산",
+    "event": "미 의회 친(親)암호화폐 법안(FIT21 등) 통과",
+    "causal_path": "암호화폐 규제 관할권 명확화(CFTC 권한 강화) → 규제 불확실성 해소 및 기관 자금 유입 가속 → 암호화폐 거래소 및 핀테크 기업의 합법적 사업 확장 → 관련주 급등",
+    "beneficiary_sectors": [
+      "Crypto Exchanges",
+      "Fintech",
+      "Asset Management"
+    ],
+    "victim_sectors": [
+      "Traditional Remittance Services"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "하원/상원 위원회에서의 압도적 찬성 표결",
+      "암호화폐 슈퍼팩(Super PAC)의 대규모 정치 후원금 집행",
+      "양당 주요 의원들의 초당적 법안 공동 발의",
+      "전통 금융권 로비스트들의 암호화폐 법안 지지 성명"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0341",
+    "category": "암호화폐_디지털자산",
+    "event": "미국 대형 은행의 암호화폐 수탁(Custody) 서비스 공식 출시",
+    "causal_path": "전통 은행의 암호화폐 시장 진출 → 기관 투자자의 안전한 보관처 확보 → 암호화폐의 제도권 자산 편입 완료 → 대형 은행 및 수탁 은행 수익원 다각화",
+    "beneficiary_sectors": [
+      "Large Cap Banks",
+      "Custody Banks"
+    ],
+    "victim_sectors": [
+      "Crypto Exchanges"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "통화감독청(OCC)의 은행 암호화폐 수탁 관련 긍정적 해석 서한 발표",
+      "대형 은행의 디지털 자산 전담 부서 신설 및 임원 영입",
+      "은행권의 암호화폐 보안 기술 스타트업 인수합병(M&A)",
+      "기관 투자자 대상 디지털 자산 수요 설문조사 결과 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0342",
+    "category": "암호화폐_디지털자산",
+    "event": "이더리움 현물 ETF 승인",
+    "causal_path": "알트코인 최초의 현물 ETF 승인 → 이더리움 생태계 자금 유입 및 스마트 컨트랙트 플랫폼 가치 재평가 → 블록체인 인프라 및 자산운용사 수혜",
+    "beneficiary_sectors": [
+      "Asset Management",
+      "Crypto Exchanges",
+      "Blockchain Equities"
+    ],
+    "victim_sectors": [
+      "Short Ethereum ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "SEC의 이더리움 선물 ETF 선제적 승인",
+      "자산운용사들의 19b-4 서류에 대한 SEC의 수정 요청",
+      "이더리움의 증권성 여부에 대한 CFTC 위원장의 상품(Commodity) 분류 발언",
+      "그레이스케일 이더리움 트러스트(ETHE)의 마이너스 프리미엄 축소"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0343",
+    "category": "암호화폐_디지털자산",
+    "event": "리테일 주도 밈코인(Meme Coin) 투기 광풍",
+    "causal_path": "소셜 미디어 바이럴 및 밈코인 폭등 → 개인 투자자들의 거래소 유입 폭증 → 거래소 수수료 수익 극대화 → 소매 브로커리지 및 거래소 주가 상승",
+    "beneficiary_sectors": [
+      "Retail Brokerages",
+      "Crypto Exchanges"
+    ],
+    "victim_sectors": [
+      "Traditional Asset Managers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "이더리움 또는 솔라나 네트워크의 가스비(수수료) 폭등",
+      "X(트위터) 및 틱톡에서 특정 강아지/고양이 코인 트렌딩 1위 달성",
+      "탈중앙화 거래소(DEX)의 일일 거래량이 중앙화 거래소(CEX)를 일시 추월",
+      "코인베이스 앱스토어 다운로드 순위 1위 탈환"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0344",
+    "category": "암호화폐_디지털자산",
+    "event": "비트코인 현물 ETF 대규모 순유출(Net Outflow) 지속",
+    "causal_path": "거시경제 악화 또는 차익 실현으로 ETF 자금 이탈 → 비트코인 현물 대규모 매도 압력 → 코인 가격 하락 및 채굴자 수익성 악화 → 숏 ETF 및 금광주 수혜",
+    "beneficiary_sectors": [
+      "Short Bitcoin ETFs",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Asset Management",
+      "Bitcoin Miners"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "블룸버그 ETF 애널리스트들의 일일 자금 유출 데이터 연속 발표",
+      "기관 투자자들의 13F 공시에서 비트코인 ETF 비중 축소 확인",
+      "거시경제 지표(CPI 등) 예상치 상회로 인한 금리 인하 기대감 후퇴",
+      "GBTC(그레이스케일)의 비정상적인 대규모 매도 물량 출회"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0345",
+    "category": "암호화폐_디지털자산",
+    "event": "중소형 암호화폐 채굴 기업 연쇄 파산 (Capitulation)",
+    "causal_path": "채굴 단가 상승 및 코인 가격 하락으로 한계 기업 파산 → 중고 채굴기 시장 덤핑 → 살아남은 대형 채굴 기업의 해시레이트 점유율 독식 → 대형 채굴주 중장기 수혜",
+    "beneficiary_sectors": [
+      "Large Cap Bitcoin Miners"
+    ],
+    "victim_sectors": [
+      "Small Cap Bitcoin Miners",
+      "Semiconductors"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "해시프라이스(Hashprice, 채굴 수익성 지표) 사상 최저치 기록",
+      "중소형 채굴 기업들의 보유 비트코인 전량 매도(Capitulation) 온체인 포착",
+      "채굴기 담보 대출업체들의 마진콜 및 디폴트 루머 확산",
+      "채굴 기업들의 챕터 11 파산 보호 신청 준비 보도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0346",
+    "category": "암호화폐_디지털자산",
+    "event": "월가 주도 기관 전용 암호화폐 거래소(EDX 등) 본격 가동",
+    "causal_path": "피델리티, 시타델 등 전통 금융권 주도 거래소 출범 → 규제 준수 기관 자금의 안전한 거래처 확보 → 기존 크립토 네이티브 거래소 점유율 하락 → 전통 브로커리지 수혜",
+    "beneficiary_sectors": [
+      "Traditional Brokerages",
+      "Market Makers"
+    ],
+    "victim_sectors": [
+      "Crypto Exchanges"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "월가 대형 금융사들의 합작 법인 설립 및 자금 조달 발표",
+      "SEC 규제를 완벽히 준수하는 비수탁형(Non-custodial) 모델 특허 공개",
+      "전통 금융권 출신 임원들의 대거 합류 뉴스",
+      "기존 암호화폐 거래소들의 기관 고객 이탈 징후"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0347",
+    "category": "암호화폐_디지털자산",
+    "event": "대형 자산운용사의 솔라나(Solana) 현물 ETF 신청",
+    "causal_path": "블랙록/반에크 등 대형사의 알트코인 ETF 신청 → 비트코인/이더리움 외 생태계로의 기관 자금 유입 기대감 → 솔라나 및 관련 블록체인 주가 급등",
+    "beneficiary_sectors": [
+      "Asset Management",
+      "Blockchain Equities"
+    ],
+    "victim_sectors": [
+      "Short Crypto ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "법원에서 솔라나의 비증권성(Non-security)을 시사하는 판결 도출",
+      "CME(시카고상품거래소)의 솔라나 선물 상품 거래량 급증",
+      "자산운용사 CEO의 솔라나 네트워크 효율성 극찬 인터뷰",
+      "델라웨어 주 정부 웹사이트에 솔라나 신탁(Trust) 법인 등록"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0348",
+    "category": "암호화폐_디지털자산",
+    "event": "글로벌 공조 암호화폐 탈세 대대적 단속",
+    "causal_path": "미국 IRS 및 글로벌 과세 당국의 거래소 데이터 강제 징수 → 미신고 자산가들의 패닉 셀 및 자금 이탈 → 암호화폐 시장 위축 및 세무 컴플라이언스 소프트웨어 수요 급증",
+    "beneficiary_sectors": [
+      "Tax Compliance Software",
+      "Traditional Banks"
+    ],
+    "victim_sectors": [
+      "Crypto Exchanges",
+      "Fintech"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "OECD의 암호화폐 자산 보고 프레임워크(CARF) 최종안 발표",
+      "미국 국세청(IRS)의 암호화폐 전문 추적 요원 수천 명 채용",
+      "해외 거래소에 대한 미국 법무부의 고객 데이터 제출 명령(John Doe Summons)",
+      "암호화폐 세금 신고 기한 직전의 대규모 매도세 포착"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0349",
+    "category": "암호화폐_디지털자산",
+    "event": "미 재무부의 대형 암호화폐 믹서(Tornado Cash 등) 제재",
+    "causal_path": "자금 세탁 방지를 위한 믹서 프로토콜 OFAC 제재 명단 추가 → 익명성 코인 및 디파이 규제 리스크 부각 → 규제 준수 거래소 및 블록체인 분석 기업 반사이익",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "Traditional Exchanges"
+    ],
+    "victim_sectors": [
+      "DeFi Platforms",
+      "Crypto Exchanges"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "북한 해커 그룹(라자루스 등)의 대규모 믹서 사용 정황 보도",
+      "미 재무부 산하 OFAC의 자금 세탁 관련 경고 성명 발표",
+      "해당 믹서 개발자의 해외 체포 뉴스",
+      "주요 거래소들의 믹서 연관 지갑 주소 블랙리스트 등재 시작"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0350",
+    "category": "암호화폐_디지털자산",
+    "event": "중국의 암호화폐 채굴 및 거래 전면 금지 (재강조)",
+    "causal_path": "중국 정부의 강력한 단속으로 아시아계 자본 이탈 및 채굴장 폐쇄 → 일시적 해시레이트 급락 및 가격 하락 → 미국 본토 채굴 기업들의 글로벌 점유율 반사이익 확대로 종가 반등",
+    "beneficiary_sectors": [
+      "US Domestic Crypto Miners",
+      "Short Bitcoin ETFs"
+    ],
+    "victim_sectors": [
+      "Global Crypto Exchanges",
+      "Semiconductors"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 인민은행(PBOC)의 암호화폐 불법성 강조 성명서 재배포",
+      "쓰촨성 등 주요 채굴 지역의 인터넷 및 전력 공급 돌연 차단",
+      "관영 매체(신화통신 등)의 암호화폐 투기 경고 사설 게재",
+      "아시아 시간대 비트코인 거래량의 비정상적인 급감"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

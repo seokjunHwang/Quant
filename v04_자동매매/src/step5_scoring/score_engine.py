@@ -18,19 +18,38 @@ from src.utils.config import VIX_BONUS_RANGES
 logger = logging.getLogger(__name__)
 
 
+def _sector_matches(ticker_sector: str, beneficiary_sectors: list[str]) -> bool:
+    """
+    종목 섹터가 수혜 섹터 목록에 포함되는지 유연하게 매칭.
+    대소문자 무시, 부분 문자열 허용.
+    예: "Utilities" ↔ ["Utilities", "Electric Utilities"] → True
+    """
+    if not ticker_sector or not beneficiary_sectors:
+        return False
+    ts = ticker_sector.lower()
+    for bs in beneficiary_sectors:
+        bs_lower = bs.lower()
+        if ts in bs_lower or bs_lower in ts:
+            return True
+    return False
+
+
 def calc_logic_chain_score(
     matched_chains: list[dict],
     scenarios: list[dict],
+    ticker_sector: str = "",
 ) -> float:
     """
     로직체인 매칭 강도 (0~30점).
 
-    = 최고 유사도 × 체인 intensity × historical_accuracy
+    기본: 최고 유사도 × intensity × historical_accuracy
+    보너스: 종목 섹터가 수혜 섹터와 일치하면 +15 (체인 매칭) / +10 (시나리오만)
     """
     if not matched_chains and not scenarios:
         return 0.0
 
-    score = 0.0
+    base = 0.0
+    sector_bonus = 0.0
 
     if matched_chains:
         best = matched_chains[0]
@@ -39,16 +58,27 @@ def calc_logic_chain_score(
             best.get("intensity", "medium"), 0.7
         )
         accuracy = best.get("historical_accuracy", 0.5) or 0.5
+        base = similarity * intensity_mult * accuracy * 15  # 기본 절반
 
-        score = similarity * intensity_mult * accuracy * 30
+        # 섹터 매칭 보너스: 매칭된 체인들 중 하나라도 수혜섹터에 포함되면
+        for chain in matched_chains:
+            if _sector_matches(ticker_sector, chain.get("beneficiary_sectors", [])):
+                sector_bonus = max(sector_bonus, 15)
+                break
 
     elif scenarios:
-        # No chain match, but AI scenarios exist → lower score
         best = scenarios[0]
         probability = best.get("probability", 0.3)
-        score = probability * 15  # Max 15 if no DB match
+        base = probability * 8  # Max ~8 if no DB match
 
-    return round(min(score, 30), 2)
+    # 시나리오 수혜 섹터와도 매칭
+    if not sector_bonus:
+        for sc in scenarios:
+            if _sector_matches(ticker_sector, sc.get("beneficiary_sectors", [])):
+                sector_bonus = max(sector_bonus, 10)
+                break
+
+    return round(min(base + sector_bonus, 30), 2)
 
 
 def calc_smart_money_score(smart_money_result: dict, ticker: str) -> float:
@@ -182,7 +212,8 @@ def score_stock(
             "recommendation": str,
         }
     """
-    logic = calc_logic_chain_score(matched_chains, scenarios)
+    ticker_sector = stock_info.get("sector", "")
+    logic = calc_logic_chain_score(matched_chains, scenarios, ticker_sector)
     smart = calc_smart_money_score(smart_money_result, ticker)
     volume = calc_volume_score(stock_info)
     chart = calc_chart_score(technical_result, pattern_result)

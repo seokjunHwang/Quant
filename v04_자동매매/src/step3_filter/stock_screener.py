@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 Step 3: 종목 1차 필터링.
 

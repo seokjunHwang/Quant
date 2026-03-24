@@ -1,0 +1,611 @@
+[
+  {
+    "chain_id": "LC-0451",
+    "category": "ESG_기후변화",
+    "event": "EPA 내연기관 배출가스 기준 대폭 강화 발표",
+    "causal_path": "배출가스 규제 강화 → 내연기관차 생산 비용 급증 및 벌금 리스크 → 전기차 전환 가속화 → 전기차 및 충전 인프라 수요 폭증",
+    "beneficiary_sectors": [
+      "EV Manufacturers",
+      "EV Charging Networks"
+    ],
+    "victim_sectors": [
+      "Legacy Automakers",
+      "Auto Parts"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "EPA 내부 초안 유출 보도",
+      "환경 단체들의 강력한 로비 활동 증가",
+      "전통 완성차 업체들의 규제 완화 촉구 성명 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0452",
+    "category": "ESG_기후변화",
+    "event": "IRA 태양광 세액공제(ITC) 추가 확대 및 세부지침 확정",
+    "causal_path": "세액공제 불확실성 해소 및 혜택 증가 → 대기 중이던 태양광 프로젝트 재개 및 신규 수주 급증 → 태양광 패널 및 인버터 매출 증가",
+    "beneficiary_sectors": [
+      "Solar Energy",
+      "Solar Inverters"
+    ],
+    "victim_sectors": [
+      "Natural Gas Utilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미 재무부의 세부지침 발표 임박 루머",
+      "태양광 관련 협회의 긍정적 논평 사전 배포",
+      "태양광 인버터 기업들의 실적 가이던스 상향 조정"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0453",
+    "category": "ESG_기후변화",
+    "event": "재무부, 우려국가(FEOC) 배터리 광물 포함 시 EV 보조금 전면 제외",
+    "causal_path": "중국산 광물 의존도 높은 EV 보조금 탈락 → 북미/FTA 체결국 광물 수요 폭증 → 미국 내 리튬 채굴 및 탈중국 배터리 밸류체인 프리미엄 형성",
+    "beneficiary_sectors": [
+      "US Lithium Miners",
+      "Non-Chinese Battery Makers"
+    ],
+    "victim_sectors": [
+      "EV Manufacturers (High China Exposure)"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미 의회 대중국 강경파 의원들의 서한 발송",
+      "중국 배터리 소재 기업들의 우회 수출 시도 적발 뉴스",
+      "미국 내 리튬/니켈 광산 업체들의 주가 바닥권 반등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0454",
+    "category": "ESG_기후변화",
+    "event": "SEC 기후 공시 의무화(Scope 3 포함) 최종안 깜짝 발표",
+    "causal_path": "상장사 탄소 배출량 공시 의무화 → 탄소 회계 및 ESG 컨설팅 수요 급증 → 고탄소 배출 기업의 규제 준수 비용 증가 및 투자 심리 악화",
+    "beneficiary_sectors": [
+      "ESG Consulting",
+      "Carbon Accounting Software"
+    ],
+    "victim_sectors": [
+      "Oil & Gas Exploration",
+      "Coal Miners"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "SEC 위원장의 기후 공시 관련 공개 발언",
+      "주요 회계법인들의 ESG 인력 대규모 채용",
+      "기업들의 선제적 탄소 배출량 보고서 발간 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0455",
+    "category": "ESG_기후변화",
+    "event": "미국 내 주요 탄소배출권(CCA, RGGI) 가격 사상 최고치 경신",
+    "causal_path": "탄소배출권 가격 급등 → 탄소 포집 기술(CCUS) 및 저탄소 공정의 경제성 확보 → 관련 기술 기업 수주 증가 및 고탄소 산업 마진 압박",
+    "beneficiary_sectors": [
+      "Carbon Capture Tech",
+      "Clean Energy"
+    ],
+    "victim_sectors": [
+      "Steel Producers",
+      "Cement Manufacturers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "탄소배출권 경매에서 입찰 경쟁률 상승",
+      "유럽 탄소배출권(EUA) 가격의 선행 급등",
+      "탄소 포집 프로젝트에 대한 사모펀드 투자 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0456",
+    "category": "ESG_기후변화",
+    "event": "에너지부(DOE), 청정 수소 허브(Hydrogen Hub) 대규모 자금 지원 확정",
+    "causal_path": "정부의 막대한 보조금 투입 → 수소 인프라 구축 및 연료전지 프로젝트 본격화 → 수소 밸류체인 전반의 단기 모멘텀 폭발",
+    "beneficiary_sectors": [
+      "Hydrogen Fuel Cells",
+      "Industrial Gases"
+    ],
+    "victim_sectors": [
+      "Coal Utilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "각 주정부의 수소 허브 유치 경쟁 과열 보도",
+      "수소 관련 기업들의 유상증자 완료 및 자금 확보",
+      "DOE 장관의 수소 경제 관련 중대 발표 예고"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0457",
+    "category": "ESG_기후변화",
+    "event": "EPA, 노후 석탄화력발전소 조기 폐쇄 의무화 규정 발표",
+    "causal_path": "석탄 발전소 강제 퇴출 → 기저발전 공백 발생 → 재생에너지 및 천연가스 발전 수요 증가 → 석탄 산업 붕괴 가속",
+    "beneficiary_sectors": [
+      "Renewable Utilities",
+      "Natural Gas Utilities"
+    ],
+    "victim_sectors": [
+      "Coal Miners",
+      "Coal Utilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "환경 단체들의 석탄 발전소 소송 승소 뉴스",
+      "대형 유틸리티 기업들의 자발적 석탄 폐쇄 계획 발표",
+      "석탄 채굴 기업들의 채권 수익률 급등(위험 신호)"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0458",
+    "category": "ESG_기후변화",
+    "event": "석유/가스 시추업체 대상 강력한 메탄 배출 벌금(Methane Fee) 부과안 통과",
+    "causal_path": "메탄 배출에 대한 직접적 징벌적 과세 → 중소형 시추업체들의 비용 부담 급증 → 메탄 포집 및 누출 감지 기술 수요 폭발",
+    "beneficiary_sectors": [
+      "Methane Capture Tech",
+      "Environmental Services"
+    ],
+    "victim_sectors": [
+      "Independent Oil & Gas"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "인공위성 기반 메탄 누출 데이터 언론 대대적 보도",
+      "의회 내 환경위원회에서 메탄 규제 법안 논의 활성화",
+      "환경 모니터링 장비 업체들의 수주 잔고 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0459",
+    "category": "ESG_기후변화",
+    "event": "공화당 우세 주(Red States) 연합, 강력한 반(Anti) ESG 투자 금지법 통과",
+    "causal_path": "주정부 연기금의 ESG 펀드 자금 회수 → ESG 펀드 자금 이탈 및 화석연료/방산 기업으로의 자본 재배치 → 전통 에너지 및 방산주 수급 개선",
+    "beneficiary_sectors": [
+      "Oil & Gas",
+      "Defense"
+    ],
+    "victim_sectors": [
+      "Asset Managers",
+      "ESG Focused Funds"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "텍사스/플로리다 주지사의 ESG 비판 성명",
+      "보수 성향 싱크탱크의 ESG 투자 수익률 저하 보고서 발간",
+      "대형 자산운용사들의 ESG 마케팅 축소 동향"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0460",
+    "category": "ESG_기후변화",
+    "event": "미국판 탄소국경조정제도(CBAM) 도입 법안 전격 발의",
+    "causal_path": "고탄소 수입품에 대한 관세 부과 예고 → 수입산 철강/알루미늄 가격 경쟁력 상실 → 미국 내 저탄소 생산 설비 갖춘 철강/제조업체 반사이익",
+    "beneficiary_sectors": [
+      "US Domestic Steel",
+      "Clean Manufacturing"
+    ],
+    "victim_sectors": [
+      "Heavy Machinery",
+      "Importers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "유럽연합(EU)의 CBAM 본격 시행 뉴스",
+      "미국 철강 노조의 수입산 규제 강화 로비",
+      "초당파 의원들의 무역 및 기후 연계 법안 초안 작성 루머"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0461",
+    "category": "ESG_기후변화",
+    "event": "미국 동부 연안 해상풍력 임대 경매에서 예상 밖의 대규모 입찰 성공",
+    "causal_path": "해상풍력 프로젝트 불확실성 해소 및 대규모 투자금 유입 확인 → 터빈 제조사 및 해상 인프라 기업들의 장기 수주 확보 → 관련주 급등",
+    "beneficiary_sectors": [
+      "Offshore Wind",
+      "Wind Turbine Manufacturers"
+    ],
+    "victim_sectors": [
+      "Fossil Fuel Utilities"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "유럽계 대형 에너지 기업들의 경매 참여 선언",
+      "해상풍력 공급망 관련 세액공제 추가 발표",
+      "인허가 절차 간소화 법안 통과"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0462",
+    "category": "ESG_기후변화",
+    "event": "연방 전기차 충전 인프라(NEVI) 자금, 각 주정부로 대규모 방출 시작",
+    "causal_path": "대기 중이던 연방 자금의 실물 경제 유입 → 고속도로 충전소 건설 프로젝트 즉각 착공 → 충전기 제조사 및 전기 설비 업체 실적 직결",
+    "beneficiary_sectors": [
+      "EV Charging Networks",
+      "Electrical Equipment"
+    ],
+    "victim_sectors": [
+      "Gas Stations"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "교통부(DOT)의 자금 집행 승인 발표",
+      "주정부들의 충전소 사업자 선정 입찰 공고 급증",
+      "충전기 제조사들의 공장 증설 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0463",
+    "category": "ESG_기후변화",
+    "event": "미국 전역의 극심한 폭염으로 전력망 블랙아웃 위기 및 스마트그리드 긴급 투자 발표",
+    "causal_path": "기후변화로 인한 전력망 붕괴 위기 현실화 → 노후 전력망 현대화 및 ESS(에너지저장장치) 필요성 대두 → 스마트그리드 및 ESS 관련주 매수세 유입",
+    "beneficiary_sectors": [
+      "Smart Grid Tech",
+      "Energy Storage"
+    ],
+    "victim_sectors": [
+      "Traditional Utilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "기상청의 이례적인 장기 폭염 경보 발령",
+      "텍사스(ERCOT) 등 주요 전력망 운영기관의 비상사태 선포",
+      "에너지부의 전력망 복원력 강화 보고서 긴급 배포"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0464",
+    "category": "ESG_기후변화",
+    "event": "연방정부, 우체국(USPS) 등 관용차량 100% 전기차 전환 대규모 발주 발표",
+    "causal_path": "정부 주도의 대규모 상용 전기차 확정 수요 발생 → 상용 EV 제조사 및 플릿(Fleet) 관리 소프트웨어 기업 수주 잭팟 → 주가 즉각 급등",
+    "beneficiary_sectors": [
+      "Commercial EV Makers",
+      "Fleet Management Software"
+    ],
+    "victim_sectors": [
+      "Traditional Fleet Automakers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "정부 조달청(GSA)의 친환경 차량 구매 가이드라인 변경",
+      "상용 EV 스타트업들의 정부 로비 자금 증가",
+      "기존 내연기관 배달 차량의 노후화 문제 언론 부각"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0465",
+    "category": "ESG_기후변화",
+    "event": "연방대법원, EPA의 광범위한 온실가스 규제 권한 축소 판결",
+    "causal_path": "환경 규제 기관의 권한 약화 → 화석연료 기업들의 환경 규제 준수 비용 및 소송 리스크 감소 → 석탄 및 석유/가스 탐사 기업 안도 랠리",
+    "beneficiary_sectors": [
+      "Coal Miners",
+      "Oil & Gas Exploration"
+    ],
+    "victim_sectors": [
+      "Renewable Energy"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대법원 구두 변론에서 보수 성향 대법관들의 회의적 발언",
+      "화석연료 로비 단체들의 대규모 여론전 전개",
+      "재생에너지 관련주들의 선제적 약세 흐름"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0466",
+    "category": "ESG_기후변화",
+    "event": "세관국경보호국(CBP), 강제노동방지법(UFLPA) 근거 중국산 태양광 패널 수입 전면 차단",
+    "causal_path": "저가 중국산 패널 공급망 붕괴 → 미국 내 태양광 프로젝트 지연 및 패널 가격 상승 → 미국 본토 생산 태양광 기업(First Solar 등) 반사이익",
+    "beneficiary_sectors": [
+      "US Domestic Solar",
+      "Solar Panel Manufacturers"
+    ],
+    "victim_sectors": [
+      "Solar Installers",
+      "Chinese Solar Importers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "신장 위구르 지역 인권 문제에 대한 의회 청문회 개최",
+      "미국 항구에서 태양광 패널 통관 지연 사례 보고 증가",
+      "미국 내 태양광 설치 업체들의 재고 확보 비상 동향"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0467",
+    "category": "ESG_기후변화",
+    "event": "미국 주요 항공사 연합, 대규모 지속가능항공유(SAF) 장기 의무 구매 계약 체결",
+    "causal_path": "항공업계의 넷제로 달성을 위한 SAF 수요 확정 → 바이오연료 및 SAF 생산 설비 투자 가속화 → 관련 정제 기술 및 바이오연료 기업 수혜",
+    "beneficiary_sectors": [
+      "Biofuels",
+      "SAF Producers"
+    ],
+    "victim_sectors": [
+      "Traditional Refiners"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "항공사들의 탄소 배출 감축 로드맵 연쇄 발표",
+      "정부의 SAF 생산에 대한 추가 세액공제 논의",
+      "농업 기업(원료 공급)과 에너지 기업 간의 조인트 벤처 설립 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0468",
+    "category": "ESG_기후변화",
+    "event": "에너지부(DOE), 전고체 배터리 상용화 혁신 프로젝트에 막대한 지원금 발표",
+    "causal_path": "차세대 배터리 기술에 대한 국가적 지원 → 전고체 기술 스타트업 및 핵심 소재(리튬 메탈 등) 기업 재평가 → 기존 리튬이온 밸류체인 일부 타격",
+    "beneficiary_sectors": [
+      "Battery Tech Startups",
+      "Lithium Miners"
+    ],
+    "victim_sectors": [
+      "Traditional Li-ion Battery Makers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "전고체 배터리 관련 특허 출원 급증 뉴스",
+      "완성차 업체들의 전고체 스타트업 지분 투자 공시",
+      "DOE 산하 국립연구소의 배터리 기술 돌파구 논문 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0469",
+    "category": "ESG_기후변화",
+    "event": "원자력 발전을 IRA '청정에너지(Clean Energy)' 세액공제 최고 등급에 공식 포함",
+    "causal_path": "원전의 친환경 지위 격상 및 막대한 세제 혜택 → 소형모듈원전(SMR) 개발 가속 및 우라늄 수요 증가 → 우라늄 채굴 및 원전 유틸리티 급등",
+    "beneficiary_sectors": [
+      "Uranium Miners",
+      "Nuclear Utilities"
+    ],
+    "victim_sectors": [
+      "Natural Gas Utilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "유럽연합(EU) 택소노미에 원전 포함 확정 뉴스",
+      "초당파 의원들의 원자력 지원 법안 발의",
+      "우라늄 현물 가격의 꾸준한 상승세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0470",
+    "category": "ESG_기후변화",
+    "event": "캘리포니아주, 2036년 신규 디젤 트럭 판매 전면 금지 법안 통과",
+    "causal_path": "미국 최대 상용차 시장의 디젤 퇴출 → 전기 트럭 및 수소 트럭으로의 강제 전환 → 친환경 상용차 제조사 및 수소 연료전지 기업 수혜",
+    "beneficiary_sectors": [
+      "Electric Truck Makers",
+      "Hydrogen Fuel Cells"
+    ],
+    "victim_sectors": [
+      "Diesel Engine Manufacturers",
+      "Trucking Companies"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "캘리포니아 대기자원위원회(CARB)의 공청회 개최",
+      "환경 단체들의 디젤 트럭 배기가스 유해성 캠페인",
+      "물류 기업들의 선제적 전기 트럭 시범 도입 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0471",
+    "category": "ESG_기후변화",
+    "event": "연방정부, 재생에너지 연결을 위한 장거리 송전선로 건설 인허가 패스트트랙 도입",
+    "causal_path": "송전망 건설의 최대 걸림돌(인허가 지연) 해소 → 대규모 전력망 프로젝트 즉각 착공 → 전선, 변압기, 구리 채굴 기업 수요 폭발",
+    "beneficiary_sectors": [
+      "Electrical Infrastructure",
+      "Copper Miners"
+    ],
+    "victim_sectors": [
+      "Coal Utilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "재생에너지 발전소들의 전력망 접속 대기(Queue) 적체 심화 보도",
+      "에너지부 장관의 송전망 병목 현상 해결 의지 표명",
+      "구리 선물 가격의 바닥권 탈출 조짐"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0472",
+    "category": "ESG_기후변화",
+    "event": "글로벌 플라스틱 협약 타결 및 미국 내 일회용 플라스틱 강력 규제 임박",
+    "causal_path": "석유화학 기반 플라스틱 사용 제한 → 대체 포장재 및 생분해성 플라스틱 수요 급증 → 바이오 플라스틱 및 제지/포장재 기업 수혜",
+    "beneficiary_sectors": [
+      "Bioplastics",
+      "Paper Packaging"
+    ],
+    "victim_sectors": [
+      "Petrochemicals",
+      "Plastic Packaging"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "UN 환경계획(UNEP) 주관 플라스틱 협약 최종 회의 개최",
+      "주요 소비재 기업(FMCG)들의 플라스틱 제로 선언",
+      "일부 주정부의 비닐봉투 및 플라스틱 빨대 전면 금지 시행"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0473",
+    "category": "ESG_기후변화",
+    "event": "주요 빅테크 기업 연합, 100% 24/7 무탄소 에너지(CFE) 사용 달성 선언",
+    "causal_path": "단순 연간 상쇄(RE100)를 넘어 실시간 무탄소 전력 요구 → 기저발전 역할을 할 지열 발전 및 장주기 ESS 수요 급증 → 관련 혁신 기술 기업 수혜",
+    "beneficiary_sectors": [
+      "Geothermal Energy",
+      "Long-duration Energy Storage"
+    ],
+    "victim_sectors": [
+      "Fossil Fuel Peaker Plants"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "구글, 마이크로소프트의 CFE 관련 백서 발간",
+      "데이터센터 전력 소비 급증에 따른 탄소 배출량 증가 논란",
+      "빅테크들의 차세대 지열 발전 스타트업 투자 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0474",
+    "category": "ESG_기후변화",
+    "event": "재무부, 리스 전기차(Leased EV)에 대한 상업용 보조금 우회 혜택 전격 축소",
+    "causal_path": "리스를 통한 보조금 수령 루프홀 차단 → 신규 전기차 리스 수요 급감 및 판매량 타격 → 중고차 시장으로 수요 이동 및 완성차/금융사 타격",
+    "beneficiary_sectors": [
+      "Used Car Dealers"
+    ],
+    "victim_sectors": [
+      "EV Manufacturers",
+      "Auto Finance"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "전기차 리스 비율의 비정상적 급증 데이터 발표",
+      "의회 내에서 IRA 보조금 루프홀에 대한 비판 청문회",
+      "완성차 업체들의 리스 프로모션 대대적 축소 조짐"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0475",
+    "category": "ESG_기후변화",
+    "event": "주거용 히트펌프(Heat Pump) 설치에 대한 파격적 연방 세제 혜택 및 리베이트 발표",
+    "causal_path": "가스 보일러를 대체하는 전기 히트펌프 설치 비용 대폭 하락 → 주거용 냉난방 시스템 교체 수요 폭발 → HVAC 제조사 및 건물 효율화 기업 실적 급증",
+    "beneficiary_sectors": [
+      "HVAC Manufacturers",
+      "Building Efficiency"
+    ],
+    "victim_sectors": [
+      "Residential Gas Suppliers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "천연가스 가격 급등으로 인한 겨울철 난방비 대란 우려",
+      "유럽의 히트펌프 의무화 정책 성공 사례 언론 보도",
+      "에너지부의 가정용 에너지 효율화 프로그램 예산 증액"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

@@ -1,0 +1,622 @@
+[
+  {
+    "chain_id": "LC-0176",
+    "category": "공급망_물류",
+    "event": "수에즈 운하 초대형 선박 좌초 및 전면 봉쇄",
+    "causal_path": "수에즈 운하 봉쇄 → 아시아-유럽 해상 물류 마비 → 해상 운임 단기 급등 및 선복량 부족 → 해운사 수익성 극대화 및 소매업체 재고 부족",
+    "beneficiary_sectors": [
+      "Marine Shipping",
+      "Air Freight & Logistics"
+    ],
+    "victim_sectors": [
+      "Apparel Retail",
+      "Auto Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "수에즈 운하 통항량 감소 관련 현지 뉴스 보도",
+      "유럽행 컨테이너선 도착 지연 보고 증가",
+      "해운 전문 매체의 병목 현상 및 체선 증가 경고"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0177",
+    "category": "공급망_물류",
+    "event": "홍해 후티 반군 상선 공격 및 운항 중단",
+    "causal_path": "홍해 항로 폐쇄 → 희망봉 우회로 운항일수 10~14일 증가 → 글로벌 선복량 흡수 및 운임 폭등 → 해운주 및 방산주 급등",
+    "beneficiary_sectors": [
+      "Marine Shipping",
+      "Aerospace & Defense"
+    ],
+    "victim_sectors": [
+      "Consumer Electronics",
+      "Discount Stores"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중동 지정학적 긴장 고조 및 반군의 해협 봉쇄 위협",
+      "일부 대형 선사들의 홍해 우회 검토 루머 확산",
+      "해상 적하보험료의 비정상적인 급등 조짐"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0178",
+    "category": "공급망_물류",
+    "event": "미국 서안 항만 노조(ILWU) 전면 파업",
+    "causal_path": "서안 항만 물류 마비 → 아시아발 수입품 하역 중단 → 내륙 운송 차질 및 공급망 붕괴 → 항공 화물 및 내륙 트럭 운송 수요 급증",
+    "beneficiary_sectors": [
+      "Air Freight & Logistics",
+      "Trucking"
+    ],
+    "victim_sectors": [
+      "Broadline Retail",
+      "Home Improvement Retail"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "항만 노사 임금 협상 결렬 및 파업 찬반투표 가결",
+      "소매업체들의 태평양 횡단 화물 조기 선적 움직임(Front-loading)",
+      "LA/롱비치 항만 앞바다 대기 선박 수 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0179",
+    "category": "공급망_물류",
+    "event": "미국 동안 및 걸프만 항만 노조(ILA) 파업",
+    "causal_path": "동안 항만 폐쇄 → 유럽/남미발 화물 및 에너지 수출입 차질 → 서안 항만으로 물동량 집중 → 내륙 철도 및 물류비용 급등",
+    "beneficiary_sectors": [
+      "Railroads",
+      "Air Freight & Logistics"
+    ],
+    "victim_sectors": [
+      "Auto Parts",
+      "Industrial Machinery"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "ILA 노조 지도부의 강경한 파업 경고 발언 연일 보도",
+      "동안 항만 화물 처리량 비정상적 급증(사전 밀어내기 물량)",
+      "제조업체들의 부품 재고 확보 비상 계획 가동"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0180",
+    "category": "공급망_물류",
+    "event": "대만 강진으로 인한 TSMC 생산라인 가동 중단",
+    "causal_path": "대만 파운드리 셧다운 → 글로벌 첨단 반도체 공급 중단 우려 → 반도체 현물 가격 급등 → 경쟁 파운드리 및 반도체 장비주 반사이익",
+    "beneficiary_sectors": [
+      "Semiconductor Equipment",
+      "Semiconductors"
+    ],
+    "victim_sectors": [
+      "Consumer Electronics",
+      "Auto Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대만 기상청의 대규모 지진 경보 발령",
+      "TSMC 공장 인력 대피 및 라인 정지 관련 SNS 속보",
+      "반도체 현물 시장(DRAMeXchange 등)의 호가 공백 현상"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0181",
+    "category": "공급망_물류",
+    "event": "중국 정부의 희토류 전면 수출 통제",
+    "causal_path": "희토류 수출 금지 → 전기차 모터 및 첨단 무기 부품 생산 차질 → 서방 국가의 대체 공급망 확보 비상 → 북미/호주 희토류 광산 기업 가치 폭등",
+    "beneficiary_sectors": [
+      "Rare Earth & Strategic Metals",
+      "Copper Miners"
+    ],
+    "victim_sectors": [
+      "Electric Vehicle Manufacturers",
+      "Aerospace & Defense"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 관영 매체의 자원 무기화 시사 칼럼 게재",
+      "중국 내 희토류 비축량 증가 및 수출 쿼터 축소 데이터",
+      "미국과 중국 간의 무역 및 첨단기술 갈등 격화 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0182",
+    "category": "공급망_물류",
+    "event": "중국의 갈륨 및 게르마늄 수출 통제 발표",
+    "causal_path": "핵심 광물 수출 통제 → 차세대 반도체 및 통신 장비 원가 상승 → 대체 소재 개발 및 재활용 기업 부각 → 첨단 반도체 생산 차질 우려",
+    "beneficiary_sectors": [
+      "Specialty Mining",
+      "Electronic Components"
+    ],
+    "victim_sectors": [
+      "Semiconductors",
+      "Communications Equipment"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 상무부의 특정 광물 수출 통제 법안 예고",
+      "갈륨/게르마늄 국제 현물 가격의 점진적 상승세",
+      "미국의 대중국 반도체 장비 수출 통제 강화 조치 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0183",
+    "category": "공급망_물류",
+    "event": "중국 상하이 전면 봉쇄 (제로코로나 회귀)",
+    "causal_path": "상하이항 및 푸둥공항 마비 → 글로벌 IT 부품 및 소비재 공급망 단절 → 인플레이션 압력 가중 및 다국적 기업 실적 악화 우려",
+    "beneficiary_sectors": [
+      "Air Freight & Logistics",
+      "Domestic Manufacturing"
+    ],
+    "victim_sectors": [
+      "Consumer Electronics",
+      "Apparel Retail"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "상하이 지역 전염병 확진자 기하급수적 급증",
+      "일부 구역의 부분 통제 및 대중교통 운행 중단 시작",
+      "상하이발 항공 화물 취소 사례 급증 및 운임 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0184",
+    "category": "공급망_물류",
+    "event": "폭스콘 정저우 공장 봉쇄 및 노동자 대규모 이탈",
+    "causal_path": "아이폰 최대 생산기지 마비 → 애플 신제품 출하량 대폭 감소 → 애플 밸류체인 실적 타격 → 경쟁 스마트폰 제조사 반사이익",
+    "beneficiary_sectors": [
+      "Alternative Consumer Electronics"
+    ],
+    "victim_sectors": [
+      "Consumer Electronics",
+      "Electronic Components"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "정저우 지역 방역 강화 조치 및 공장 폐쇄 루머",
+      "폭스콘 공장 내 식량 부족 및 노동자 탈출 영상 SNS 확산",
+      "애플의 아시아 부품 공급사에 대한 주문량 축소 징후"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0185",
+    "category": "공급망_물류",
+    "event": "미국 철도 노조 전면 파업 돌입",
+    "causal_path": "미국 내륙 철도 운송 마비 → 곡물, 석탄, 화학제품 운송 중단 → 물류 대란 및 원자재 가격 급등 → 트럭 운송 수요 폭발",
+    "beneficiary_sectors": [
+      "Trucking",
+      "Air Freight & Logistics"
+    ],
+    "victim_sectors": [
+      "Agricultural Chemicals",
+      "Coal Miners"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "철도 노사 임금 협상 데드라인 임박 및 결렬 선언",
+      "백악관의 중재 노력 실패 보도",
+      "화학 및 농업 기업들의 비상 트럭 운송망 확보 동향"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0186",
+    "category": "공급망_물류",
+    "event": "파나마 운하 가뭄으로 인한 통항 선박 수 대폭 제한",
+    "causal_path": "파나마 운하 수위 저하 → 대형 컨테이너선 및 LNG선 통항 제한 → 미국 동안-아시아 물류 지연 및 운임 상승 → 해운 및 철도 반사이익",
+    "beneficiary_sectors": [
+      "Marine Shipping",
+      "Railroads"
+    ],
+    "victim_sectors": [
+      "LNG Exporters",
+      "Broadline Retail"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "파나마 지역 강수량 역대 최저치 기록 뉴스",
+      "가툰 호수(Gatun Lake) 수위 지속 하락 데이터 발표",
+      "파나마 운하청의 흘수(Draft) 제한 및 일일 통항량 축소 예고"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0187",
+    "category": "공급망_물류",
+    "event": "글로벌 대형 메모리 반도체 팹(Fab) 정전 사고",
+    "causal_path": "정전으로 인한 웨이퍼 대량 폐기 → D램/낸드 단기 공급 부족 발생 → 메모리 반도체 현물가 급등 → 경쟁사 및 장비주 수혜",
+    "beneficiary_sectors": [
+      "Semiconductors",
+      "Semiconductor Equipment"
+    ],
+    "victim_sectors": [
+      "Computer Hardware",
+      "Consumer Electronics"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 팹 소재 지역의 전력망 불안정 및 블랙아웃 뉴스",
+      "공장 인근 변전소 화재 등 현지 SNS 제보",
+      "메모리 반도체 채널 재고 수준이 이미 낮다는 분석 보고서"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0188",
+    "category": "공급망_물류",
+    "event": "발틱운임지수(BDI) 단기 폭등",
+    "causal_path": "철광석/석탄 등 원자재 물동량 급증 및 선박 부족 → 벌크선 운임 폭등 → 벌크 해운사 수익성 급개선 → 원자재 수입국 비용 증가",
+    "beneficiary_sectors": [
+      "Marine Shipping"
+    ],
+    "victim_sectors": [
+      "Steel",
+      "Construction Materials"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "중국 정부의 대규모 인프라 부양책 발표",
+      "호주/브라질 주요 원자재 수출 항만의 선박 체선(대기) 증가",
+      "FFA(운임선도거래) 시장의 투기적 매수세 유입"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0189",
+    "category": "공급망_물류",
+    "event": "글로벌 클라우드 마비로 인한 주요 항만/물류 IT 시스템 다운",
+    "causal_path": "클라우드 서비스 장애 → 세관 통관 및 터미널 운영 시스템 마비 → 전 세계적 물류 병목 현상 발생 → 사이버 보안 및 백업 솔루션 부각",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "IT Consulting & Other Services"
+    ],
+    "victim_sectors": [
+      "Air Freight & Logistics",
+      "Marine Shipping"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "AWS/Azure 등 주요 클라우드 서비스의 국지적 오류 보고 급증",
+      "물류 소프트웨어 제공업체의 긴급 시스템 점검 공지",
+      "다크웹 내 물류 인프라 타겟 랜섬웨어 활동 증가 경고"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0190",
+    "category": "공급망_물류",
+    "event": "우크라이나/러시아 전쟁 격화로 네온가스 등 희귀가스 수출 전면 중단",
+    "causal_path": "반도체 노광공정용 핵심 가스 공급 단절 → 반도체 생산 차질 우려 → 가스 재고 확보 경쟁 및 가격 급등 → 특수 가스 생산업체 수혜",
+    "beneficiary_sectors": [
+      "Specialty Chemicals",
+      "Industrial Gases"
+    ],
+    "victim_sectors": [
+      "Semiconductors"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "동유럽 지정학적 긴장 재고조 및 군사 충돌 격화",
+      "주요 네온가스 정제 공장 인근 교전 소식",
+      "반도체 기업들의 선제적 원자재 재고 축적 움직임"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0191",
+    "category": "공급망_물류",
+    "event": "글로벌 Top Tier 자동차 부품사의 갑작스러운 파산 보호 신청",
+    "causal_path": "핵심 부품 공급 중단 → 주요 완성차 업체의 생산 라인 가동 중단 → 자동차 출하량 감소 및 딜러망 재고 부족 → 중고차 가격 상승",
+    "beneficiary_sectors": [
+      "Used Car Dealers",
+      "Auto Parts"
+    ],
+    "victim_sectors": [
+      "Auto Manufacturers",
+      "Auto Dealerships"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 부품사의 신용등급 강등 및 유동성 위기설",
+      "하청업체에 대한 납품 대금 지불 지연 루머",
+      "완성차 업체들의 긴급 대체 공급선 물색 동향"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0192",
+    "category": "공급망_물류",
+    "event": "미국-캐나다 국경 화물차 트럭 운전사 대규모 시위 및 국경 봉쇄",
+    "causal_path": "주요 국경 다리 봉쇄 → 북미 자동차 및 농산물 공급망 단절 → 공장 가동 중단 및 물류비 상승 → 철도 및 항공 운송 대체 수요 증가",
+    "beneficiary_sectors": [
+      "Railroads",
+      "Air Freight & Logistics"
+    ],
+    "victim_sectors": [
+      "Auto Manufacturers",
+      "Packaged Foods & Meats"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "트럭 운전사 노조의 파업 찬반 투표 가결",
+      "SNS를 통한 시위대 결집 및 국경 점거 예고 동향",
+      "국경 인근 고속도로 교통 체증 심화 데이터"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0193",
+    "category": "공급망_물류",
+    "event": "여객기 운항 대규모 취소로 인한 항공 화물 공급 급감 및 운임 폭등",
+    "causal_path": "전염병/화산폭발 등으로 여객기 운항 중단 → 여객기 하부 화물칸(Belly Cargo) 공급 증발 → 순수 화물기 수요 폭발 및 운임 급등 → 화물 전용 항공사 수익 급증",
+    "beneficiary_sectors": [
+      "Air Freight & Logistics"
+    ],
+    "victim_sectors": [
+      "Consumer Electronics",
+      "Apparel Retail"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "글로벌 전염병 확산 또는 대형 화산 폭발 조짐",
+      "주요 항공사들의 대규모 여객 노선 운휴 발표",
+      "항공 화물 포워더들의 스페이스 확보 비상 및 할증료 부과"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0194",
+    "category": "공급망_물류",
+    "event": "아시아 주요 항만의 극심한 빈 컨테이너 부족 사태",
+    "causal_path": "북미/유럽발 빈 컨테이너 회수 지연 → 아시아 수출 기업들의 선적 불가 → 해상 운임 프리미엄 급등 및 컨테이너 제조사 수혜",
+    "beneficiary_sectors": [
+      "Marine Shipping",
+      "Industrial Machinery"
+    ],
+    "victim_sectors": [
+      "Household Products",
+      "Leisure Products"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미국 주요 항만의 빈 컨테이너 적체 현상 보도",
+      "컨테이너 임대료의 가파른 상승세",
+      "중국 수출 기업들의 선적 지연 불만 및 위약금 발생 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0195",
+    "category": "공급망_물류",
+    "event": "남미 '리튬 삼각지대' 국가들의 리튬 국유화 및 수출 통제 전격 발표",
+    "causal_path": "리튬 공급망 불확실성 증대 → 탄산리튬/수산화리튬 가격 폭등 → 배터리 셀 제조사 원가 부담 가중 → 북미/호주 리튬 광산 기업 프리미엄 부여",
+    "beneficiary_sectors": [
+      "Lithium Miners",
+      "Commodity Chemicals"
+    ],
+    "victim_sectors": [
+      "Electric Vehicle Manufacturers",
+      "Electrical Components & Equipment"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "남미 주요국 좌파 정권의 자원 민족주의 발언 강화",
+      "리튬 광산 인근 지역 주민들의 대규모 환경 시위",
+      "글로벌 배터리 기업들의 리튬 장기 공급 계약 체결 러시"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0196",
+    "category": "공급망_물류",
+    "event": "칠레 세계 최대 구리 광산 전면 파업",
+    "causal_path": "글로벌 구리 공급량 급감 우려 → 런던금속거래소(LME) 구리 가격 급등 → 구리 채굴 기업 수익성 개선 → 전선/전기차 등 전방산업 원가 압박",
+    "beneficiary_sectors": [
+      "Copper Miners",
+      "Diversified Metals & Mining"
+    ],
+    "victim_sectors": [
+      "Building Products",
+      "Electric Vehicle Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "광산 노사 단체협약(CBA) 만료 임박 뉴스",
+      "노조의 파업 찬반투표 압도적 가결",
+      "구리 재고량(LME/SHFE)의 지속적 감소 추세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0197",
+    "category": "공급망_물류",
+    "event": "ASML 주요 부품 공급사 대형 화재 발생",
+    "causal_path": "EUV 노광장비 핵심 부품 조달 차질 → ASML 장비 출하 지연 → 파운드리 및 메모리 업체의 미세공정 전환 지연 → 기존 반도체 장비 및 구형 공정 가치 상승",
+    "beneficiary_sectors": [
+      "Semiconductor Equipment",
+      "Semiconductors"
+    ],
+    "victim_sectors": [
+      "Semiconductor Equipment",
+      "Semiconductors"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "독일/네덜란드 등 주요 부품사 소재지 화재 속보",
+      "ASML의 긴급 공급망 점검 회의 소식",
+      "반도체 장비 업종의 장중 변동성 비정상적 확대"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0198",
+    "category": "공급망_물류",
+    "event": "이란의 호르무즈 해협 전면 봉쇄 및 유조선 나포",
+    "causal_path": "글로벌 원유 물동량의 20% 차단 → 국제 유가(WTI/Brent) 단기 폭등 → 에너지 기업 수익 급증 및 운송/항공업계 연료비 폭탄 → 인플레이션 공포 확산",
+    "beneficiary_sectors": [
+      "Oil & Gas Exploration & Production",
+      "Aerospace & Defense"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Marine Shipping"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국-이란 간 군사적 충돌 위기 최고조",
+      "이란 혁명수비대의 해협 봉쇄 위협 성명 발표",
+      "중동 지역 해상 보험료의 기하급수적 인상"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0199",
+    "category": "공급망_물류",
+    "event": "미국 최대 특송업체(UPS/FedEx) 노조 전면 파업",
+    "causal_path": "미국 내 소화물 및 B2B 택배 운송 마비 → 이커머스 배송 대란 및 소매업체 매출 타격 → 경쟁 특송업체 및 지역 배송업체로 수요 폭발",
+    "beneficiary_sectors": [
+      "Air Freight & Logistics",
+      "Trucking"
+    ],
+    "victim_sectors": [
+      "Internet & Direct Marketing Retail",
+      "Broadline Retail"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "팀스터스(Teamsters) 노조의 협상 결렬 선언",
+      "아마존 등 대형 화주들의 선제적 물량 분산 움직임",
+      "특송업체들의 신규 화물 접수 중단 공지"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0200",
+    "category": "공급망_물류",
+    "event": "중국 닝보-저우산 항구 돌발적 전면 폐쇄",
+    "causal_path": "세계 최대 수준의 컨테이너 항구 마비 → 수출 화물 적체 및 선박 대기 시간 급증 → 태평양 노선 해상 운임 재급등 → 해운주 단기 슈팅",
+    "beneficiary_sectors": [
+      "Marine Shipping"
+    ],
+    "victim_sectors": [
+      "Household Durables",
+      "Apparel Retail"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 항구 지역의 비상 사태(전염병/대형 사고) 발생 뉴스",
+      "터미널 운영사의 게이트 반입 중단 긴급 공지",
+      "글로벌 선사들의 기항 취소(Blank Sailing) 통보 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

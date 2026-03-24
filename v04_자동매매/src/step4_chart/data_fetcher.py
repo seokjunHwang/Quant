@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 Step 4 Data Fetcher — v03의 data_fetcher.py를 직접 import.
 

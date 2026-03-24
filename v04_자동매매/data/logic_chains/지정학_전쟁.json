@@ -1,0 +1,691 @@
+[
+  {
+    "chain_id": "LC-0076",
+    "category": "지정학_전쟁",
+    "event": "이란의 호르무즈 해협 전면 봉쇄",
+    "causal_path": "해협 봉쇄 선언 → 글로벌 원유 물동량 20% 차단 → 국제 유가 폭등 및 인플레이션 우려 점화 → 에너지 섹터 급등 및 운송/소비재 타격",
+    "beneficiary_sectors": [
+      "Oil & Gas Exploration",
+      "Oilfield Services",
+      "Marine Shipping"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Cruise Lines",
+      "Consumer Discretionary"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "이란 혁명수비대의 해상 기동 훈련 빈도 급증",
+      "중동 해역 선박의 전쟁위험보험료(War Risk Premium) 급등",
+      "미 해군 5함대의 경계 태세 격상 및 상선 호위 발표",
+      "원유 옵션 시장에서 콜옵션(상방 베팅) 미결제약정 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0077",
+    "category": "지정학_전쟁",
+    "event": "이스라엘의 이란 핵시설 선제 타격",
+    "causal_path": "핵시설 공습 → 이란의 즉각적인 보복 선언 및 중동 전면전 공포 → 글로벌 안전자산 선호 현상 극대화 → 방산주 및 금 관련주 급등",
+    "beneficiary_sectors": [
+      "Aerospace & Defense",
+      "Gold Miners",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "High Beta Tech",
+      "Semiconductors",
+      "Regional Banks"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "이스라엘 전시 내각의 강경 발언 및 비상 회의 소집",
+      "미국 고위 관료의 중동 긴급 순방 취소",
+      "이스라엘 통화(셰켈) 가치의 급격한 하락",
+      "VIX(변동성 지수)의 뚜렷한 상승세 지속"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0078",
+    "category": "지정학_전쟁",
+    "event": "후티 반군의 홍해 대형 유조선 격침",
+    "causal_path": "유조선 격침 → 수에즈 운하 통항 전면 중단 및 희망봉 우회 장기화 → 해상 운임 폭등 및 공급망 병목 현상 → 해운주 급등",
+    "beneficiary_sectors": [
+      "Marine Shipping",
+      "Logistics & Freight",
+      "Oil & Gas Refining"
+    ],
+    "victim_sectors": [
+      "Retailers",
+      "Auto Manufacturers",
+      "Apparel & Luxury Goods"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "홍해 인근에서 드론 및 미사일 요격 횟수 증가",
+      "글로벌 주요 해운사들의 홍해 운항 잠정 중단 발표",
+      "상하이컨테이너운임지수(SCFI)의 단기 급등",
+      "후티 반군의 서방 선박 타격 경고 성명 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0079",
+    "category": "지정학_전쟁",
+    "event": "중동(가자/레바논) 전면 휴전 협정 타결",
+    "causal_path": "휴전 공식 발표 → 지정학적 리스크 프리미엄 소멸 → 유가 하락 및 인플레이션 우려 완화 → 여행/항공주 급등 및 에너지주 하락",
+    "beneficiary_sectors": [
+      "Airlines",
+      "Travel & Leisure",
+      "Consumer Discretionary"
+    ],
+    "victim_sectors": [
+      "Oil & Gas Exploration",
+      "Aerospace & Defense",
+      "Marine Shipping"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국, 카타르, 이집트 중재단의 긍정적 협상 진행 브리핑",
+      "국제 유가(WTI/Brent)의 선제적 하락세",
+      "이스라엘 및 하마스/헤즈볼라 측의 유화적 메시지 발표",
+      "항공주 및 여행주에 대한 기관의 숏커버링 유입"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0080",
+    "category": "지정학_전쟁",
+    "event": "미군의 이란 대리군(이라크/시리아) 기지 대규모 공습",
+    "causal_path": "미군 직접 개입 → 확전 우려로 인한 단기 리스크 오프 → 사이버 보복 우려 증대 → 사이버보안 및 방산주 단기 수혜",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "Aerospace & Defense",
+      "Government IT Contractors"
+    ],
+    "victim_sectors": [
+      "Broad Market ETFs",
+      "High Growth Tech"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미군 기지에 대한 드론 공격으로 미군 사상자 발생 보도",
+      "미국 대통령의 '강력한 보복' 대국민 성명 발표",
+      "미국 국방부의 중동 지역 추가 병력 배치",
+      "방산주 옵션 시장의 콜옵션 거래량 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0081",
+    "category": "지정학_전쟁",
+    "event": "러시아의 우크라이나 전술핵 사용",
+    "causal_path": "전술핵 투하 → 제2차 세계대전 이후 첫 핵무기 사용으로 인한 글로벌 패닉 셀링 → 모든 위험자산 투매 및 초안전자산 쏠림 → VIX 및 금광주 폭등",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Volatility ETFs",
+      "Aerospace & Defense"
+    ],
+    "victim_sectors": [
+      "Mega Cap Tech",
+      "Financials",
+      "Consumer Discretionary"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "러시아 고위층의 핵 교리 변경 및 구체적 타격 위협 발언",
+      "미국 및 NATO의 우크라이나 내 자국민 긴급 대피령",
+      "러시아 전술핵 부대의 이례적인 이동 위성 포착",
+      "스위스 프랑 및 달러화 등 안전통화의 급격한 강세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0082",
+    "category": "지정학_전쟁",
+    "event": "우크라이나의 러시아 핵심 정유시설 대규모 파괴",
+    "causal_path": "러시아 정유시설 파괴 → 글로벌 정제품(디젤, 가솔린) 공급 충격 → 정제마진(Crack Spread) 폭등 → 미국 정유주 반사이익",
+    "beneficiary_sectors": [
+      "Oil & Gas Refining",
+      "Coal Operations",
+      "Alternative Energy"
+    ],
+    "victim_sectors": [
+      "Chemical Manufacturing",
+      "Airlines",
+      "Trucking"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "우크라이나 장거리 드론 부대의 활동 증가 첩보",
+      "러시아 내륙 지역의 방공망 가동 빈도 증가",
+      "유럽 디젤 선물 가격의 비정상적 상승",
+      "미국 정유사들의 가동률 상향 조정 움직임"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0083",
+    "category": "지정학_전쟁",
+    "event": "러시아-우크라이나 공식 평화협정 체결",
+    "causal_path": "종전 선언 → 유럽 경제 회복 기대감 및 재건 사업 본격화 → 인프라 및 산업기계 수요 폭발 → 미국 중장비 및 건설주 급등",
+    "beneficiary_sectors": [
+      "Industrial Machinery",
+      "Construction Materials",
+      "European Banks (ADRs)"
+    ],
+    "victim_sectors": [
+      "Aerospace & Defense",
+      "US LNG Exporters",
+      "Agricultural Chemicals"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "양국 정상의 제3국 비밀 회동 보도",
+      "전선에서의 실질적인 교전 횟수 급감",
+      "미국 및 EU의 대러시아 제재 일부 완화 검토 소식",
+      "유럽 주요 증시(DAX, CAC)의 선제적 랠리"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0084",
+    "category": "지정학_전쟁",
+    "event": "러시아의 대미 우라늄 수출 전면 중단",
+    "causal_path": "수출 중단 조치 → 미국 원전 연료 공급망 차질 우려 → 글로벌 우라늄 현물 가격 폭등 → 북미 우라늄 채굴 기업 수혜",
+    "beneficiary_sectors": [
+      "Uranium Miners",
+      "Nuclear Energy Providers"
+    ],
+    "victim_sectors": [
+      "Electric Utilities (Heavy Nuclear)"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미국 의회의 러시아산 우라늄 수입 금지 법안 통과 임박",
+      "러시아 국영 원전기업(로사톰)의 계약 이행 지연 발생",
+      "우라늄 현물 시장(Sprott Physical Uranium Trust)의 프리미엄 상승",
+      "북미 우라늄 광산 기업들의 내부자 매수 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0085",
+    "category": "지정학_전쟁",
+    "event": "NATO 정규군의 우크라이나 공식 파병",
+    "causal_path": "파병 공식화 → 제3차 세계대전 확전 공포 극대화 → 글로벌 증시 폭락 및 국방 예산 무제한 증액 전망 → 방산주 초강세",
+    "beneficiary_sectors": [
+      "Aerospace & Defense",
+      "Military Shipbuilding",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "European Consumer Goods",
+      "Airlines",
+      "Broad Market ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "프랑스, 폴란드 등 주요 NATO 회원국의 파병 찬성 여론 조성",
+      "우크라이나 전선 붕괴 위기 관련 서방 정보기관의 긴급 보고서",
+      "NATO 신속대응군의 동유럽 국경 대규모 전진 배치",
+      "유로화 가치의 급락 및 방산주 ETF(ITA) 자금 유입"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0086",
+    "category": "지정학_전쟁",
+    "event": "중국의 대만 전면 해상 봉쇄 선언",
+    "causal_path": "봉쇄 선언 → 대만 해협 물류 및 TSMC 수출 전면 중단 → 글로벌 첨단 반도체 공급망 붕괴 → 미국 내 파운드리 및 안보 관련주 급등",
+    "beneficiary_sectors": [
+      "US Domestic Foundries",
+      "Aerospace & Defense",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "Fabless Semiconductors",
+      "Consumer Electronics",
+      "Auto Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 동부전구의 대규모 해군/공군 병력 집결 위성 사진 포착",
+      "중국 관영 매체의 대만 무력 통일 정당화 보도 급증",
+      "대만 주변 해역의 민간 상선 및 유조선 통행량 급감",
+      "대만 가권 지수의 폭락 및 대만 달러 약세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0087",
+    "category": "지정학_전쟁",
+    "event": "중국군의 대만 해협 중간선 대규모 실탄 사격 훈련",
+    "causal_path": "중간선 침범 훈련 → 대만해협 군사적 긴장 최고조 → 단기 지정학적 리스크 부각 → 아시아 노출도 높은 기업 매도 및 방산주 매수",
+    "beneficiary_sectors": [
+      "Aerospace & Defense",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "Asian Emerging Market ETFs",
+      "Semiconductors",
+      "Apparel & Luxury Goods"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 고위급 인사의 대만 방문 발표",
+      "대만 독립 성향 총통의 강경 발언",
+      "중국 해사국의 특정 해역 항행 금지 구역 설정 공지",
+      "중국 관련 ETF(FXI, KWEB)의 공매도 잔고 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0088",
+    "category": "지정학_전쟁",
+    "event": "사이버 공격으로 인한 TSMC 생산 시설 전면 가동 중단",
+    "causal_path": "TSMC 셧다운 → 글로벌 AI 및 모바일 칩 공급 중단 패닉 → 대체 공급사 및 메모리 반도체 단기 수혜, 빅테크 타격",
+    "beneficiary_sectors": [
+      "Memory Semiconductors",
+      "US Domestic Foundries",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "Mega Cap Tech",
+      "Fabless Semiconductors",
+      "Consumer Electronics"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대만 주요 정부 기관에 대한 디도스(DDoS) 공격 선행",
+      "중국발 해킹 그룹의 대만 인프라 타격 경고 성명",
+      "대만 전력망의 원인 불명 국지적 정전 발생",
+      "반도체 장비주들의 주가 변동성 확대"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0089",
+    "category": "지정학_전쟁",
+    "event": "미국의 대만 긴급 대규모 무기 지원 패키지 승인",
+    "causal_path": "무기 지원 승인 → 미 방산업체들의 수주 잔고 급증 및 실적 가시성 확보 → 방산주 랠리 및 미중 관계 악화 우려",
+    "beneficiary_sectors": [
+      "Aerospace & Defense",
+      "Military Shipbuilding"
+    ],
+    "victim_sectors": [
+      "Companies with High China Revenue",
+      "Agricultural Products"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미국 의회 내 대만 안보 지원 법안 초당적 발의",
+      "중국 외교부의 '레드라인' 언급 및 강력한 보복 경고",
+      "미국 주요 방산업체 CEO들의 펜타곤 연쇄 회동",
+      "록히드마틴, RTX 등 주요 방산주의 기관 매수세 유입"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0090",
+    "category": "지정학_전쟁",
+    "event": "중국의 대미 희토류 전면 수출 금지 조치",
+    "causal_path": "수출 금지 → 미국 내 첨단 무기 및 전기차 모터 생산 차질 우려 → 비중국 희토류 및 대체 광물 기업 주가 폭등",
+    "beneficiary_sectors": [
+      "Rare Earth Miners (ex-China)",
+      "Lithium & Copper Miners",
+      "Materials Recycling"
+    ],
+    "victim_sectors": [
+      "Electric Vehicles",
+      "Clean Energy",
+      "Consumer Electronics"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미국의 대중국 첨단 반도체 장비 수출 통제 강화 발표",
+      "중국 상무부의 희토류 수출 통제 관련 행정명령 예고",
+      "글로벌 희토류 현물 가격의 점진적 상승세",
+      "미국 국방부의 전략 광물 비축량 확대 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0091",
+    "category": "지정학_전쟁",
+    "event": "NATO 지휘 통제망에 대한 대규모 사이버 공격",
+    "causal_path": "지휘망 마비 → 러시아 배후 지목 및 사이버 전면전 공포 확산 → 민간 인프라 공격 우려로 사이버보안 섹터 폭등",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "Government IT Contractors"
+    ],
+    "victim_sectors": [
+      "Financial Exchanges",
+      "Regional Banks",
+      "Utilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "유럽 주요국 정부 웹사이트 연쇄 다운 사태 발생",
+      "러시아 연계 해커 그룹(Killnet 등)의 서방 타격 예고",
+      "미국 CISA(사이버보안인프라보안국)의 최고 수준 경보 발령",
+      "사이버보안 ETF(CIBR, HACK)의 거래량 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0092",
+    "category": "지정학_전쟁",
+    "event": "NATO 전 회원국 국방비 GDP 3% 의무화 합의",
+    "causal_path": "국방비 증액 합의 → 유럽 국가들의 미국산 첨단 무기 대규모 구매 사이클 도래 → 미국 방산업체 장기 실적 상향 조정",
+    "beneficiary_sectors": [
+      "Aerospace & Defense",
+      "Industrial Machinery",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "Consumer Staples",
+      "Utilities"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미국 대통령의 NATO 동맹국 방위비 분담금 압박 발언",
+      "독일, 프랑스 등 주요국의 국방 예산 대폭 증액 예산안 제출",
+      "NATO 정상회의 안건으로 '방위비 3%' 공식 채택 보도",
+      "유럽 방산주(라인메탈, BAE시스템즈)의 신고가 경신"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0093",
+    "category": "지정학_전쟁",
+    "event": "러시아 미사일의 폴란드(NATO 영토) 오폭 사태",
+    "causal_path": "NATO 영토 피격 → NATO 집단방위조약(Article 5) 발동 우려 → 순간적인 시장 패닉 및 안전자산 급등 → 방산주 즉각 랠리",
+    "beneficiary_sectors": [
+      "Aerospace & Defense",
+      "Gold Miners",
+      "Volatility ETFs"
+    ],
+    "victim_sectors": [
+      "European Equities (ADRs)",
+      "Travel & Leisure",
+      "Broad Market ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "러시아의 우크라이나 서부(폴란드 국경 인근) 대규모 공습",
+      "폴란드 군의 방공망 비상 가동 및 전투기 출격",
+      "SNS를 통한 국경 지역 폭발 영상 급속 유포",
+      "S&P 500 선물의 장중 급락 현상"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0094",
+    "category": "지정학_전쟁",
+    "event": "북한의 제7차 지하 핵실험 단행",
+    "causal_path": "핵실험 강행 → 한반도 및 동북아 지정학적 리스크 급등 → 한국/아시아 증시 외국인 자금 이탈 및 미국 방산주 단기 모멘텀 형성",
+    "beneficiary_sectors": [
+      "Aerospace & Defense",
+      "Volatility ETFs"
+    ],
+    "victim_sectors": [
+      "South Korean ADRs",
+      "Semiconductors",
+      "Asian Emerging Market ETFs"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "함경북도 풍계리 핵실험장 갱도 복구 및 차량 이동 위성 포착",
+      "한미 정보당국의 '핵실험 임박' 공동 성명 발표",
+      "북한 고위층의 대미/대남 초강경 핵 위협 담화",
+      "원/달러 환율의 비정상적인 단기 급등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0095",
+    "category": "지정학_전쟁",
+    "event": "미국 국방부의 DEFCON(방어준비태세) 단계 격상",
+    "causal_path": "DEFCON 격상 발표 → 임박한 군사적 충돌 기정사실화 → 기관 투자자들의 기계적 리스크 관리 매도 물량 출회 → 국채 및 금 쏠림",
+    "beneficiary_sectors": [
+      "Treasury Bond ETFs",
+      "Gold Miners",
+      "Aerospace & Defense"
+    ],
+    "victim_sectors": [
+      "High Growth Tech",
+      "Consumer Discretionary",
+      "Real Estate"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "글로벌 다발적 지정학 위기(중동, 동유럽, 대만) 동시 악화",
+      "미국 전략폭격기 및 핵잠수함의 이례적 전진 배치",
+      "백악관 국가안전보장회의(NSC) 긴급 소집",
+      "미국 장기 국채 금리의 급격한 하락(가격 상승)"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0096",
+    "category": "지정학_전쟁",
+    "event": "미국의 대러시아 지원 중국 대형은행 세컨더리 보이콧 발동",
+    "causal_path": "제재 발동 → 미중 금융 디커플링 본격화 및 중국계 자금 동결 우려 → 글로벌 은행주 타격 및 미국 내수 중심 은행 반사이익",
+    "beneficiary_sectors": [
+      "US Domestic Regional Banks",
+      "Cryptocurrency Miners"
+    ],
+    "victim_sectors": [
+      "Large Cap Banks (Global)",
+      "Chinese ADRs",
+      "Payment Processors"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미국 재무부의 중국 은행들에 대한 경고 서한 발송 보도",
+      "중국 상업은행들의 러시아 관련 결제망 조용히 차단 시도",
+      "미중 고위급 경제 회담 결렬",
+      "비트코인 등 암호화폐로의 중국 자금 도피 정황 포착"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0097",
+    "category": "지정학_전쟁",
+    "event": "대서양/태평양 주요 해저 인터넷 케이블 고의 절단 사태",
+    "causal_path": "케이블 절단 → 대륙 간 데이터 전송 지연 및 금융 거래 마비 우려 → 위성 통신망 수요 폭발 및 사이버/인프라 보안주 급등",
+    "beneficiary_sectors": [
+      "Satellite Communications",
+      "Cybersecurity",
+      "Telecom Infrastructure"
+    ],
+    "victim_sectors": [
+      "Cloud Computing",
+      "E-commerce",
+      "Financial Exchanges"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "러시아/중국 해양 조사선의 주요 해저 케이블 경로 배회",
+      "특정 지역의 원인 불명 인터넷 트래픽 급감 현상 발생",
+      "서방 정보기관의 해저 인프라 테러 경고 보고서 발간",
+      "위성 통신 관련주(스타링크 관련 밸류체인)의 이상 급등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0098",
+    "category": "지정학_전쟁",
+    "event": "전쟁 발발로 인한 미국 전략비축유(SPR) 역대 최대 규모 방출",
+    "causal_path": "SPR 대규모 방출 → 단기적인 원유 공급 과잉 유발 → 국제 유가 급락 → 에너지주 하락 및 운송/소비재 마진 개선",
+    "beneficiary_sectors": [
+      "Airlines",
+      "Logistics & Freight",
+      "Consumer Discretionary"
+    ],
+    "victim_sectors": [
+      "Oil & Gas Exploration",
+      "Oilfield Services",
+      "Energy Equipment"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "지정학적 위기로 인한 WTI 유가 100달러 돌파",
+      "미국 에너지부(DOE) 장관의 유가 안정화 조치 예고 발언",
+      "미국 내 가솔린 소매 가격의 정치적 부담 수준 도달(갤런당 4달러 이상)",
+      "원유 선물 시장의 백워데이션(현물 고평가) 극대화"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0099",
+    "category": "지정학_전쟁",
+    "event": "미국 본토 전력망에 대한 적대국 테러/사이버 공격",
+    "causal_path": "전력망 마비 → 대규모 블랙아웃 발생 및 경제 활동 올스톱 우려 → 비상 발전기, 그리드 인프라 복구 및 보안 기업 폭등",
+    "beneficiary_sectors": [
+      "Backup Power Generators",
+      "Grid Infrastructure",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "Electric Utilities",
+      "Broad Market ETFs",
+      "Manufacturing"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 주요 변전소 주변에서 드론 불법 비행 적발 증가",
+      "FBI의 본토 인프라 테러 가능성 경고 지침 하달",
+      "일부 지역 전력망의 소규모 원인 불명 트립(차단) 발생",
+      "전력 인프라 장비 기업들의 수주 잔고 비정상적 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0100",
+    "category": "지정학_전쟁",
+    "event": "베네수엘라의 가이아나(에세키보 지역) 무력 침공",
+    "causal_path": "무력 침공 → 남미 주요 산유국 간 전쟁으로 인한 역내 원유 생산 차질 → 미국 셰일 및 해양 시추 기업들의 반사이익",
+    "beneficiary_sectors": [
+      "US Oil & Gas Exploration",
+      "Offshore Drilling",
+      "Aerospace & Defense"
+    ],
+    "victim_sectors": [
+      "Oil & Gas Refining (Heavy Crude Reliant)",
+      "Airlines"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "베네수엘라 군의 가이아나 국경 지대 병력 및 장갑차 집결",
+      "베네수엘라 정부의 에세키보 합병 국민투표 강행 및 선포",
+      "엑슨모빌 등 가이아나 해상 광구 운영사들의 직원 철수 동향",
+      "미국 남부사령부의 가이아나 연합 군사 훈련 실시"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

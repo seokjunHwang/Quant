@@ -1,0 +1,676 @@
+[
+  {
+    "chain_id": "LC-0376",
+    "category": "노동시장_고용",
+    "event": "비농업 고용(NFP) 대규모 서프라이즈",
+    "causal_path": "NFP 예상치 대폭 상회 → 고용시장 과열 및 연준 금리 인하 기대 후퇴 → 국채 금리 급등 및 달러 강세 → 성장주 밸류에이션 압박 및 예대마진 확대 기대",
+    "beneficiary_sectors": [
+      "Large Cap Banks",
+      "Life Insurance",
+      "Energy"
+    ],
+    "victim_sectors": [
+      "Software",
+      "Real Estate Investment Trusts (REITs)",
+      "Gold Miners"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "발표 이틀 전 ADP 민간고용 지표 예상치 상회",
+      "ISM 서비스업 PMI 내 고용지수(Employment Index) 확장세",
+      "주간 신규 실업수당 청구건수 지속적인 하락세",
+      "구글 트렌드 내 '구직' 관련 검색량 감소"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0377",
+    "category": "노동시장_고용",
+    "event": "비농업 고용(NFP) 어닝 쇼크",
+    "causal_path": "NFP 예상치 대폭 하회 → 고용 둔화 확인으로 연준 비둘기파적 전환(Pivot) 기대감 폭발 → 국채 금리 급락 및 할인율 하락 → 기술주 및 배당주 랠리",
+    "beneficiary_sectors": [
+      "Software",
+      "Semiconductors",
+      "Real Estate Investment Trusts (REITs)"
+    ],
+    "victim_sectors": [
+      "Large Cap Banks",
+      "Regional Banks"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "Challenger 해고 보고서(Job Cuts) 수치 급증",
+      "임시직(Temporary Help Services) 고용 연속 감소",
+      "ISM 제조업 PMI 고용지수 50 하회",
+      "기업들의 실적 발표 중 'Hiring Freeze(채용 동결)' 언급 횟수 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0378",
+    "category": "노동시장_고용",
+    "event": "실업률 급등 (샴 법칙 발동)",
+    "causal_path": "실업률 예상 밖 급등(Sahm Rule 트리거) → 경기 침체(Recession) 공포 시장 전이 → 위험자산 투매 및 안전자산(채권, 금) 쏠림 → 경기민감주 폭락 및 방어주 선호",
+    "beneficiary_sectors": [
+      "Consumer Staples",
+      "Utilities",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Hotels & Resorts",
+      "Industrial Machinery"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "연속 실업수당 청구건수(Continuing Claims)의 가파른 상승",
+      "WARN Act(대규모 해고 사전 통보) 접수 건수 급증",
+      "소비자신뢰지수 내 '일자리 구하기 어려움' 응답 비율 상승",
+      "장단기 금리차(10Y-2Y)의 급격한 정상화(Bull Steepening)"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0379",
+    "category": "노동시장_고용",
+    "event": "시간당 평균 임금(AHE) 예상치 상회",
+    "causal_path": "임금 상승률 급등 → 서비스 인플레이션 고착화 우려 확산 → 연준 매파적 스탠스 강화 및 장기 금리 상승 → 노동 집약적 산업 마진 압박",
+    "beneficiary_sectors": [
+      "Energy",
+      "Commodity Chemicals"
+    ],
+    "victim_sectors": [
+      "Restaurants",
+      "Apparel Retail",
+      "Leisure Facilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "NFIB 소기업 낙관지수 내 '임금 인상 계획' 비율 상승",
+      "고용비용지수(ECI)의 선제적 상승",
+      "노동조합 파업 및 임금 협상 타결 뉴스 증가",
+      "외식업계 메뉴 가격 인상 발표 러시"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0380",
+    "category": "노동시장_고용",
+    "event": "빅테크(Big Tech) 대규모 레이오프 발표",
+    "causal_path": "대형 기술주 대규모 구조조정 발표 → 인건비 대폭 절감 및 잉여현금흐름(FCF) 개선 기대 → 자사주 매입 여력 확대 전망 → 해당 기업 및 섹터 주가 급등",
+    "beneficiary_sectors": [
+      "Mega Cap Tech",
+      "Software",
+      "Interactive Media"
+    ],
+    "victim_sectors": [
+      "Staffing & Employment Services",
+      "Office REITs"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "행동주의 펀드의 비용 절감 요구 서한 발송",
+      "전 분기 실적 발표에서 CEO의 '효율성의 해(Year of Efficiency)' 언급",
+      "사내 신규 프로젝트 중단 및 비핵심 부서 예산 삭감 루머",
+      "블라인드(Blind) 등 직장인 커뮤니티 내 해고설 확산"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0381",
+    "category": "노동시장_고용",
+    "event": "JOLTs 구인건수 예상치 대폭 하회",
+    "causal_path": "구인건수 급감 및 퇴직율(Quit Rate) 하락 → 노동시장 초과수요 해소 및 임금 상승 압력 완화 → 금리 인하 기대감 상승 → 성장주 및 중소형주 랠리",
+    "beneficiary_sectors": [
+      "Small Cap Equities",
+      "Biotechnology",
+      "Homebuilders"
+    ],
+    "victim_sectors": [
+      "Large Cap Banks",
+      "Life Insurance"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "링크드인(LinkedIn) 및 인디드(Indeed) 신규 채용 공고 수 감소",
+      "기업들의 채용 소요 기간(Time-to-fill) 연장",
+      "중소기업 구인난 호소 비율 하락",
+      "이전 달 NFP 지표의 하향 조정(Revision)"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0382",
+    "category": "노동시장_고용",
+    "event": "주간 신규 실업수당 청구건수 급증",
+    "causal_path": "실업수당 청구 급증 → 단기 고용 한파 확인 및 가계 소득 감소 우려 → 소매 판매 둔화 전망 → 임의소비재 타격 및 채권 대용주(방어주) 강세",
+    "beneficiary_sectors": [
+      "Utilities",
+      "Telecom Services",
+      "Consumer Staples"
+    ],
+    "victim_sectors": [
+      "Apparel Retail",
+      "Casinos & Gaming",
+      "Department Stores"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "특정 주(State)의 기상 악화 또는 자연재해 발생",
+      "자동차 및 제조업 공장의 일시적 가동 중단(Furlough) 뉴스",
+      "지역 연은 제조업 지수 내 고용 항목 급락",
+      "소매업체들의 파트타임 근무 시간 단축 보도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0383",
+    "category": "노동시장_고용",
+    "event": "전미자동차노조(UAW) 대규모 파업 돌입",
+    "causal_path": "파업 돌입 및 협상 결렬 → 자동차 생산 차질 및 신차 재고 부족 우려 → 완성차 업체 매출 타격 및 부품사 연쇄 타격 → 대체재인 중고차 가격 상승",
+    "beneficiary_sectors": [
+      "Used Car Dealers",
+      "Auto Parts Retailers"
+    ],
+    "victim_sectors": [
+      "Auto Manufacturers",
+      "Auto Parts Suppliers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "기존 노사 단체협약(CBA) 만료일 임접",
+      "노조 측의 파업 찬반투표 압도적 가결",
+      "완성차 업체의 파업 대비 재고 축적 움직임",
+      "노조 지도부의 강경 발언 및 언론 플레이 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0384",
+    "category": "노동시장_고용",
+    "event": "대형 물류/택배 노조(UPS 등) 파업",
+    "causal_path": "물류망 마비 → 배송 지연 및 긴급 운송비 급등 → 이커머스 업체 매출 타격 및 물류비용 증가 → 대체 운송사 및 경쟁사 반사이익",
+    "beneficiary_sectors": [
+      "Air Freight & Logistics (Competitors)",
+      "Railroads"
+    ],
+    "victim_sectors": [
+      "E-commerce",
+      "Consumer Electronics",
+      "Apparel Retail"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "물류 노조 임금 협상 데드라인 임박",
+      "소매업체들의 선제적 화물 분산(Diversion) 조치",
+      "FedEx 등 경쟁사의 물동량 일시적 증가",
+      "운송 운임 지수의 비정상적 단기 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0385",
+    "category": "노동시장_고용",
+    "event": "주요 항공사 조종사 노조 파업",
+    "causal_path": "항공편 대규모 결항 사태 → 여객 매출 급감 및 대규모 환불/보상 발생 → 항공사 수익성 악화 → 대체 교통수단 및 렌터카 수요 급증",
+    "beneficiary_sectors": [
+      "Railroads",
+      "Rental Cars",
+      "Video Conferencing"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Travel Agencies",
+      "Hotels & Resorts"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "조종사 노조의 피켓 시위(Informational Picketing) 시작",
+      "항공사 경영진의 비상 컨틴전시 플랜 가동 발표",
+      "경쟁 항공사들의 해당 노선 항공권 가격 인상",
+      "연방조정위원회(NMB) 중재 실패 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0386",
+    "category": "노동시장_고용",
+    "event": "미국 서부/동부 항만 노조 대규모 파업",
+    "causal_path": "항만 하역 작업 중단 → 수입품 공급망 붕괴 및 컨테이너 적체 → 소매업체 재고 부족 및 해운 운임 급등 → 해운사/항공화물 수혜, 유통업 타격",
+    "beneficiary_sectors": [
+      "Marine Shipping",
+      "Air Freight & Logistics"
+    ],
+    "victim_sectors": [
+      "Broadline Retail",
+      "Home Furnishing Retail",
+      "Auto Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "항만 노사 협상 장기화 및 슬로우다운(태업) 징후",
+      "아시아 출발 미주향 해상 운임(SCFI 등)의 선제적 급등",
+      "대형 유통업체들의 홀리데이 시즌 재고 조기 확보 움직임",
+      "항만 인근 트럭 운송 대기 시간 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0387",
+    "category": "노동시장_고용",
+    "event": "대형 유통/소비재 기업 연쇄 해고 발표",
+    "causal_path": "유통업계 매장 폐쇄 및 해고 러시 → 소비 침체 본격화 시그널로 시장 해석 → 임의소비재 투매 및 필수소비재 선호도 증가 → 경기방어주 수혜",
+    "beneficiary_sectors": [
+      "Discount Stores",
+      "Consumer Staples"
+    ],
+    "victim_sectors": [
+      "Luxury Goods",
+      "Department Stores",
+      "Apparel Retail"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "신용카드 결제 데이터 상의 소매 판매 급감",
+      "유통업체들의 대규모 재고 상각(Inventory Write-down) 발표",
+      "쇼핑몰 트래픽(Foot traffic) 데이터 하락세 지속",
+      "소비자 대출 연체율 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0388",
+    "category": "노동시장_고용",
+    "event": "ADP 민간고용 예상치 대폭 상회",
+    "causal_path": "민간고용 호조 → 이틀 뒤 발표될 NFP 호조 선반영 심리 발동 → 단기 국채 금리 상승 및 기술주 선제적 차익실현 → 금융/에너지 단기 강세",
+    "beneficiary_sectors": [
+      "Regional Banks",
+      "Oil & Gas Exploration"
+    ],
+    "victim_sectors": [
+      "Semiconductors",
+      "Biotechnology",
+      "Homebuilders"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중소기업들의 고용 유지율 상승 데이터",
+      "서비스업종(레저, 객실 등)의 구인 공고 증가",
+      "급여 처리 업체(Paychex 등)의 실적 호조",
+      "지역 연은 서베이의 고용 전망치 개선"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0389",
+    "category": "노동시장_고용",
+    "event": "긱 워커(Gig Worker) 정규직 전환 의무화 판결",
+    "causal_path": "플랫폼 노동자 정규직화 법안/판결 통과 → 4대 보험 및 최저임금 적용으로 플랫폼 기업 인건비 폭등 → 비즈니스 모델 훼손 및 마진 급감 → 관련주 폭락",
+    "beneficiary_sectors": [
+      "Staffing & Employment Services",
+      "Public Transit Systems"
+    ],
+    "victim_sectors": [
+      "Ride Sharing",
+      "Food Delivery Platforms"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "캘리포니아 등 주요 주의 관련 법안(AB5 등) 발의 및 논의 격화",
+      "노동부(DOL)의 독립 계약자 분류 기준 강화 가이드라인 발표",
+      "플랫폼 노동자들의 대규모 처우 개선 시위",
+      "관련 기업들의 로비 자금 지출 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0390",
+    "category": "노동시장_고용",
+    "event": "연방/주요 주 최저임금 대폭 인상 법안 통과",
+    "causal_path": "최저임금 인상 확정 → 저임금 노동자 의존도 높은 산업 인건비 부담 가중 → 외식업, 소매업 마진 축소 → 무인화/자동화 기기 수요 급증",
+    "beneficiary_sectors": [
+      "Industrial Automation",
+      "Restaurant Technology"
+    ],
+    "victim_sectors": [
+      "Restaurants",
+      "Discount Stores",
+      "Leisure Facilities"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "정치권의 최저임금 인상 공약 및 여론조사 지지율 상승",
+      "패스트푸드 업계의 키오스크 도입 가속화 발표",
+      "소매업계 이익 단체들의 법안 반대 성명 발표",
+      "인플레이션에 따른 실질 임금 하락 불만 고조"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0391",
+    "category": "노동시장_고용",
+    "event": "경제활동참가율(LFPR) 예상 밖 급락",
+    "causal_path": "경제활동참가율 하락 → 노동 공급 구조적 감소 확인 → 구인난 심화 및 장기 임금 상승 우려 → 인플레이션 장기화 베팅 → 원자재 강세",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Commodity Chemicals",
+      "Energy"
+    ],
+    "victim_sectors": [
+      "Restaurants",
+      "Apparel Retail",
+      "Hospitals"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "베이비부머 세대의 조기 은퇴율 급증 데이터",
+      "장기 실업자들의 구직 단념자(Marginally attached) 전환 증가",
+      "보육 비용 급등으로 인한 여성 경제활동 참가율 둔화",
+      "인구통계학적 노령화 지수 악화"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0392",
+    "category": "노동시장_고용",
+    "event": "대규모 간호사/의료 종사자 파업",
+    "causal_path": "의료진 파업 돌입 → 병원 운영 차질 및 선택적 수술(Elective Surgery) 대거 연기 → 병원 매출 감소 및 의료기기 납품 차질 → 원격의료 수요 증가",
+    "beneficiary_sectors": [
+      "Telehealth",
+      "Healthcare Staffing"
+    ],
+    "victim_sectors": [
+      "Hospital Operators",
+      "Medical Devices"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "대형 병원 체인 노조의 임금 협상 결렬",
+      "간호사 번아웃 및 인력 부족 관련 언론 보도 급증",
+      "의료 인력 파견 업체(Travel Nurse)의 단가 급등",
+      "병원들의 수술 예약 일정 지연 발생"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0393",
+    "category": "노동시장_고용",
+    "event": "합법적 이민 및 취업 비자(H-1B 등) 쿼터 대폭 확대",
+    "causal_path": "이민 정책 완화 → 외국인 노동자 유입 증가로 노동 공급 확대 → IT, 건설, 농업 분야 인력난 해소 및 임금 안정화 → 관련 산업 마진 개선",
+    "beneficiary_sectors": [
+      "Homebuilders",
+      "IT Consulting",
+      "Agricultural Products"
+    ],
+    "victim_sectors": [
+      "Staffing & Employment Services"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "행정부의 이민 개혁 행정명령 초안 유출",
+      "테크 기업 CEO들의 H-1B 비자 확대 촉구 공동 성명",
+      "국경 수비대 및 이민국 업무 처리 속도 개선",
+      "건설업계의 외국인 노동자 채용 로비 강화"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0394",
+    "category": "노동시장_고용",
+    "event": "월가(Wall Street) 대형 IB 대규모 감원 발표",
+    "causal_path": "금융권 대규모 감원 → 딜 메이킹(M&A, IPO) 시장 극심한 침체 확인 → 보너스 삭감에 따른 뉴욕 소비 위축 및 상업용 부동산 수요 감소",
+    "beneficiary_sectors": [
+      "Consumer Staples",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Investment Banking & Brokerage",
+      "Office REITs",
+      "Luxury Goods"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "글로벌 M&A 거래 대금 및 IPO 건수 급감",
+      "대형 은행들의 분기 실적 중 IB 부문 수수료 수익 쇼크",
+      "금융권 연말 보너스 풀(Pool) 대폭 축소 루머",
+      "맨해튼 상업용 부동산 공실률 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0395",
+    "category": "노동시장_고용",
+    "event": "JOLTs 구인건수 예상치 대폭 상회",
+    "causal_path": "구인건수 급증 → 노동시장 과열 재확인 및 연준 긴축 장기화(Higher for Longer) 우려 → 채권 금리 급등 → 주식시장 전반 밸류에이션 압박",
+    "beneficiary_sectors": [
+      "Large Cap Banks",
+      "Insurance"
+    ],
+    "victim_sectors": [
+      "Real Estate Investment Trusts (REITs)",
+      "Utilities",
+      "Software"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "인디드(Indeed) 구인 공고 인덱스의 반등",
+      "서비스업(레저/접객) 부문의 채용 재개 움직임",
+      "퇴직율(Quit Rate)의 동반 상승",
+      "중소기업 낙관지수 내 '채용 계획' 항목 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0396",
+    "category": "노동시장_고용",
+    "event": "주간 신규 실업수당 청구건수 역사적 최저치 기록",
+    "causal_path": "실업수당 청구 급감 → 고용시장 극강의 탄력성 증명 → 소비 여력 유지로 경기 연착륙/무착륙(No Landing) 기대감 → 임의소비재 및 경기민감주 랠리",
+    "beneficiary_sectors": [
+      "Airlines",
+      "Hotels & Resorts",
+      "Broadline Retail"
+    ],
+    "victim_sectors": [
+      "Consumer Staples",
+      "Utilities",
+      "Gold Miners"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "신용카드 소비 데이터의 견조한 증가세",
+      "기업 파산 신청 건수 감소",
+      "소비자 심리지수(미시간대)의 급격한 개선",
+      "임시직 고용 지표의 반등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0397",
+    "category": "노동시장_고용",
+    "event": "자동차 노조(UAW) 임금 협상 극적 타결",
+    "causal_path": "파업 종료 및 협상 타결 → 공장 가동 정상화로 생산 불확실성 해소 → 완성차 및 부품사 안도 랠리 (단, 인건비 상승은 장기 부담)",
+    "beneficiary_sectors": [
+      "Auto Manufacturers",
+      "Auto Parts Suppliers"
+    ],
+    "victim_sectors": [
+      "Used Car Dealers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "노사 양측의 막바지 마라톤 협상 돌입 뉴스",
+      "대통령 또는 고위 관료의 중재 개입",
+      "잠정 합의안(Tentative Agreement) 도출 루머",
+      "파업 기금 고갈에 따른 노조 측의 유연한 태도 변화"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0398",
+    "category": "노동시장_고용",
+    "event": "건설업계 심각한 인력난 및 임금 급등 보도",
+    "causal_path": "건설 인건비 폭등 → 신규 주택 착공 지연 및 건설사 마진 악화 → 주택 공급 부족 심화로 기존 주택 임대료 상승 → 임대형 리츠 수혜, 주택건설사 타격",
+    "beneficiary_sectors": [
+      "Residential REITs",
+      "Building Materials"
+    ],
+    "victim_sectors": [
+      "Homebuilders",
+      "Home Improvement Retail"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "NAHB 주택시장지수 내 '인력 확보 어려움' 응답 최고치",
+      "건설 현장 공기 지연(Delay) 사례 급증",
+      "목수, 배관공 등 숙련공 임금 상승률 급등",
+      "신규 주택 착공 건수(Housing Starts)의 예상 밖 감소"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0399",
+    "category": "노동시장_고용",
+    "event": "기업들의 AI 도입으로 인한 대규모 사무직 대체 해고 발표",
+    "causal_path": "AI로 인한 화이트칼라 인력 감축 발표 → 생산성 향상 및 장기 구조적 비용 절감 기대 → AI 소프트웨어 수요 폭발 및 도입 기업 주가 상승",
+    "beneficiary_sectors": [
+      "AI Software",
+      "IT Consulting",
+      "Mega Cap Tech"
+    ],
+    "victim_sectors": [
+      "Business Process Outsourcing",
+      "Staffing & Employment Services"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "기업들의 생성형 AI 엔터프라이즈 라이선스 대규모 계약 공시",
+      "고객센터(CS) 및 데이터 입력 부서의 채용 동결",
+      "경영진의 실적 발표 중 'AI를 통한 워크플로우 자동화' 언급 급증",
+      "BPO(업무위탁) 업체들의 실적 가이던스 하향"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0400",
+    "category": "노동시장_고용",
+    "event": "할리우드 작가/배우 노조(WGA/SAG-AFTRA) 대규모 파업",
+    "causal_path": "파업 돌입 → 신규 영화/드라마 제작 전면 중단 → 미디어사 단기 제작비는 절감되나 장기 신규 콘텐츠 부족으로 가입자 이탈 우려 → 대체 엔터테인먼트 수혜",
+    "beneficiary_sectors": [
+      "Video Games",
+      "Interactive Media",
+      "Broadcasting (News/Sports)"
+    ],
+    "victim_sectors": [
+      "Movies & Entertainment",
+      "Cable & Satellite"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "스트리밍 재방송료(Residuals) 관련 노사 갈등 심화 보도",
+      "주요 심야 토크쇼 제작 중단 사태 발생",
+      "스튜디오들의 파업 대비 대본 선확보 움직임",
+      "배우 및 작가들의 소셜 미디어 내 파업 지지 해시태그 확산"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

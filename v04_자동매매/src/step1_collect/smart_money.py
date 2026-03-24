@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 Step 1-1: 스마트머니 흔적 수집.
 

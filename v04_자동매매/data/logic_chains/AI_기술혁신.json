@@ -1,0 +1,613 @@
+[
+  {
+    "chain_id": "LC-0301",
+    "category": "AI_기술혁신",
+    "event": "OpenAI 차세대 플래그십 모델(GPT-5 등) 기습 발표",
+    "causal_path": "신규 모델 발표 → AI 성능 한계 돌파 및 AGI 기대감 증폭 → 관련 밸류체인 매수세 유입 → AI 주도주 및 소프트웨어 급등",
+    "beneficiary_sectors": [
+      "Mega-cap Tech",
+      "AI Software"
+    ],
+    "victim_sectors": [
+      "EdTech",
+      "Customer Service Outsourcing"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "OpenAI CEO의 의미심장한 소셜 미디어 트윗",
+      "실리콘밸리 기술 블로그 및 커뮤니티의 벤치마크 루머 확산",
+      "주요 파트너사(마이크로소프트 등) 주가의 선제적 강세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0302",
+    "category": "AI_기술혁신",
+    "event": "엔비디아 차세대 AI GPU 조기 출시 및 스펙 공개",
+    "causal_path": "스펙 공개 → AI 연산력 급증 및 전력 효율 개선 확인 → 반도체 장비 및 부품 수요 폭발 전망 → 반도체 섹터 전반 랠리",
+    "beneficiary_sectors": [
+      "AI Semiconductors",
+      "Semiconductor Equipment"
+    ],
+    "victim_sectors": [
+      "Legacy Hardware"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대만 주요 공급망(TSMC 등)의 가동률 상승 보도",
+      "엔비디아 경영진의 컨퍼런스콜 내 힌트 발언",
+      "HBM 및 기판 관련주들의 사전 급등세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0303",
+    "category": "AI_기술혁신",
+    "event": "미국 상무부, 대중국 AI 반도체 수출 통제 전면 강화",
+    "causal_path": "규제 발표 → 중국 매출 비중 높은 기업 타격 우려 → 반도체 섹터 투심 악화 → 관련 하드웨어주 급락",
+    "beneficiary_sectors": [
+      "Domestic AI Foundries",
+      "Defense Tech"
+    ],
+    "victim_sectors": [
+      "AI Semiconductors",
+      "Semiconductor Equipment"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 정치권의 대중국 강경 발언 및 법안 발의 증가",
+      "중국 기술기업들의 AI 칩 사재기 정황 포착",
+      "상무부 고위 관료의 언론 인터뷰를 통한 규제 시사"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0304",
+    "category": "AI_기술혁신",
+    "event": "테슬라 FSD(완전 자율주행) 주요 주(State) 규제 당국 승인",
+    "causal_path": "승인 발표 → 자율주행 상용화 가시화 → 로보택시 사업 기대감 폭발 → 자율주행 밸류체인 급등",
+    "beneficiary_sectors": [
+      "Autonomous Driving Tech",
+      "EV Manufacturers"
+    ],
+    "victim_sectors": [
+      "Ride-hailing",
+      "Traditional Auto"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 주 교통당국의 긍정적 검토 보고서 유출",
+      "테슬라 FSD 베타 버전의 획기적 업데이트 배포",
+      "일론 머스크의 로보택시 관련 중대 발표 예고"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0305",
+    "category": "AI_기술혁신",
+    "event": "구글/IBM 양자컴퓨팅 오류 정정(Error Correction) 중대 돌파구 발표",
+    "causal_path": "발표 → 양자컴퓨터 상용화 시기 대폭 단축 전망 → 기존 암호체계 위협 및 신기술 기대감 → 양자 관련주 급등",
+    "beneficiary_sectors": [
+      "Quantum Computing",
+      "Cloud Providers"
+    ],
+    "victim_sectors": [
+      "Legacy Cybersecurity"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "관련 최고 권위 학술지(Nature 등) 논문 게재 루머",
+      "빅테크의 양자컴퓨팅 연구소 대규모 인력 채용",
+      "순수 양자 스타트업들의 대규모 펀딩 소식"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0306",
+    "category": "AI_기술혁신",
+    "event": "AI 데이터센터 전력 부족 사태 심화 및 제한 송전 뉴스",
+    "causal_path": "전력 부족 보도 → 데이터센터 증설 차질 우려 → 전력 인프라 및 원전 수요 급증 전망 → 전력 기기 및 원전주 폭등",
+    "beneficiary_sectors": [
+      "Nuclear Energy",
+      "Electrical Equipment",
+      "Utility Companies"
+    ],
+    "victim_sectors": [
+      "Cloud Providers",
+      "Bitcoin Miners"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "주요 전력망 운영자(PJM 등)의 전력 경고 발령",
+      "빅테크 기업들의 원전 기업 SMR 투자 소식",
+      "구리 가격 상승 및 변압기 수출입 데이터 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0307",
+    "category": "AI_기술혁신",
+    "event": "애플, 온디바이스 AI(Apple Intelligence) 전면 도입 및 킬러 앱 공개",
+    "causal_path": "발표 → 아이폰 교체 슈퍼 사이클 기대감 → 부품주 및 엣지 AI 칩 수요 폭발 → 모바일 밸류체인 강세",
+    "beneficiary_sectors": [
+      "Consumer Electronics",
+      "Edge AI Chips",
+      "Smartphone Components"
+    ],
+    "victim_sectors": [
+      "Cloud-only AI Software"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "애플 개발자 회의(WWDC) 초청장 발송 및 슬로건 유출",
+      "대만 폭스콘 등 주요 조립업체의 채용 급증",
+      "온디바이스 AI 관련 특허 대거 등록"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0308",
+    "category": "AI_기술혁신",
+    "event": "생성형 AI 기업 대상 대규모 저작권 침해 소송 패소 판결",
+    "causal_path": "판결 → AI 학습 데이터 확보 비용 급증 우려 → AI 모델 개발 속도 지연 전망 → AI 소프트웨어주 조정 및 미디어주 반사이익",
+    "beneficiary_sectors": [
+      "Media & Entertainment",
+      "Publishing"
+    ],
+    "victim_sectors": [
+      "Generative AI Software"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "법원의 원고(언론사 등) 측에 유리한 예비 판결",
+      "AI 기업들의 데이터 라이선스 계약 체결 급증",
+      "저작권 관련 규제 당국의 가이드라인 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0309",
+    "category": "AI_기술혁신",
+    "event": "휴머노이드 로봇의 공장 완전 자율 투입 성공 영상 공개",
+    "causal_path": "영상 공개 → 노동력 대체 현실화 기대감 → 로봇 부품 및 자동화 솔루션 수요 폭발 → 로봇 섹터 랠리",
+    "beneficiary_sectors": [
+      "Robotics & Automation",
+      "Machine Vision"
+    ],
+    "victim_sectors": [
+      "Labor-intensive Manufacturing",
+      "Staffing Agencies"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "로봇 기업들의 주요 자동차 공장 테스트 진행 루머",
+      "액추에이터 및 감속기 기업들의 수주 공시",
+      "빅테크 CEO의 로봇 생산 라인 방문 소셜 미디어 포스팅"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0310",
+    "category": "AI_기술혁신",
+    "event": "AI 서버용 액침 냉각(Liquid Cooling) 신기술 표준 채택",
+    "causal_path": "표준 채택 → 기존 공랭식 한계 극복 → 열관리 솔루션 기업 수주 폭발 → 냉각 인프라 관련주 급등",
+    "beneficiary_sectors": [
+      "Thermal Management",
+      "Data Center Infrastructure"
+    ],
+    "victim_sectors": [
+      "Traditional Air Cooling Tech"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "엔비디아의 차세대 칩 발열 문제 대두",
+      "슈퍼마이크로 등 서버 조립업체의 액침 냉각 전면 도입 시사",
+      "냉각수 및 배관 관련 기업들의 실적 가이던스 상향"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0311",
+    "category": "AI_기술혁신",
+    "event": "AI 수요 폭발로 인한 HBM(고대역폭 메모리) 공급 부족 심화 및 가격 폭등",
+    "causal_path": "가격 폭등 → 메모리 반도체 기업 이익률 급상승 → 반도체 소재/장비 낙수효과 → 메모리 밸류체인 강세",
+    "beneficiary_sectors": [
+      "Memory Semiconductors",
+      "Semiconductor Materials"
+    ],
+    "victim_sectors": [
+      "AI Server Assemblers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "DRAM 현물 가격의 가파른 상승세 지속",
+      "마이크론 등 주요 메모리 기업의 설비투자 확대 발표",
+      "시장조사기관의 HBM 공급 부족 리포트 발간"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0312",
+    "category": "AI_기술혁신",
+    "event": "미국 FTC, 빅테크 AI 파트너십 반독점 조사 공식 착수",
+    "causal_path": "조사 착수 → 빅테크의 AI M&A 및 투자 위축 우려 → 대형 기술주 투심 악화 → 오픈소스 및 중소형 AI 반사이익",
+    "beneficiary_sectors": [
+      "Open Source AI",
+      "Mid-cap Tech"
+    ],
+    "victim_sectors": [
+      "Mega-cap Tech"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "FTC 위원장의 빅테크 독점 경고 발언",
+      "유럽연합(EU)의 유사한 반독점 예비 조사 개시",
+      "정치권의 AI 독점 방지 청문회 개최"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0313",
+    "category": "AI_기술혁신",
+    "event": "중동 국부펀드의 초대형 소버린 AI(Sovereign AI) 인프라 구축 프로젝트 발표",
+    "causal_path": "발표 → 글로벌 AI 서버 및 네트워크 장비 대규모 발주 기대감 → 인프라 구축 기업 수주 급증 → 관련 하드웨어 섹터 랠리",
+    "beneficiary_sectors": [
+      "AI Server Assemblers",
+      "Enterprise Networking"
+    ],
+    "victim_sectors": [
+      "Short Sellers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "중동 고위급 인사의 실리콘밸리 방문",
+      "엔비디아 CEO의 중동 지역 투어",
+      "현지 데이터센터 합작법인 설립 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0314",
+    "category": "AI_기술혁신",
+    "event": "무인 로보택시의 대형 인명 사고 발생 및 운행 전면 중단",
+    "causal_path": "사고 발생 → 자율주행 안전성 논란 점화 → 규제 당국의 운행 허가 취소 → 자율주행 섹터 급락 및 전통 운송 반사이익",
+    "beneficiary_sectors": [
+      "Ride-hailing",
+      "Traditional Auto"
+    ],
+    "victim_sectors": [
+      "Autonomous Driving Tech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "소셜 미디어에 자율주행차 오작동 영상 확산",
+      "지역 주민들의 로보택시 반대 시위 격화",
+      "소규모 접촉 사고 증가에 따른 언론의 비판적 보도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0315",
+    "category": "AI_기술혁신",
+    "event": "B2B AI 소프트웨어 기업의 어닝 서프라이즈 (AI 수익화 입증)",
+    "causal_path": "실적 발표 → AI 도입에 따른 기업 생산성 향상 및 마진 개선 확인 → 엔터프라이즈 AI 수요 폭발 → AI 소프트웨어 섹터 동반 랠리",
+    "beneficiary_sectors": [
+      "Enterprise Software",
+      "IT Consulting"
+    ],
+    "victim_sectors": [
+      "Traditional BPO"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "소프트웨어 기업들의 AI 제품 가격 인상 발표",
+      "IT 지출 관련 설문조사에서 AI 예산 급증 확인",
+      "경쟁사들의 긍정적인 사전 실적 가이던스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0316",
+    "category": "AI_기술혁신",
+    "event": "정교한 AI 딥페이크로 인한 지정학적 가짜뉴스 유포 및 증시 플래시 크래시 발생",
+    "causal_path": "가짜뉴스 유포 → 시장 일시적 패닉 → AI 신뢰성 문제 대두 및 판별 기술 수요 급증 → 사이버보안 및 인증 섹터 급등",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "Identity Verification"
+    ],
+    "victim_sectors": [
+      "Broad Market",
+      "Social Media"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "다크웹 내 딥페이크 생성 툴 거래 급증",
+      "선거철 등 정치적 민감기 도래",
+      "유명인 사칭 딥페이크 사기 사건의 언론 보도 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0317",
+    "category": "AI_기술혁신",
+    "event": "AI 신약 개발 플랫폼을 통한 블록버스터급 신약 후보물질 조기 발견",
+    "causal_path": "발견 발표 → 신약 개발 기간 및 비용 획기적 단축 입증 → 제약사들의 AI 플랫폼 도입 러시 → AI 헬스케어 및 바이오텍 급등",
+    "beneficiary_sectors": [
+      "Biotech",
+      "AI Healthcare"
+    ],
+    "victim_sectors": [
+      "Traditional CROs"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대형 제약사와 AI 스타트업 간의 파트너십 체결 증가",
+      "AI 신약 임상 1상 성공 소식",
+      "의학 저널에 AI 단백질 구조 예측 관련 획기적 논문 게재"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0318",
+    "category": "AI_기술혁신",
+    "event": "미국 상원, 포괄적 AI 안전 및 라이선스 법안(AI Safety Act) 통과",
+    "causal_path": "법안 통과 → AI 모델 개발에 막대한 규제 준수 비용 발생 → 자본력 있는 빅테크 독점 심화 및 스타트업 타격 → 규제 준수 소프트웨어 수혜",
+    "beneficiary_sectors": [
+      "AI Compliance Software",
+      "Mega-cap Tech"
+    ],
+    "victim_sectors": [
+      "AI Startups",
+      "Open Source AI"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "상원 AI 청문회에서 초당적 규제 공감대 형성",
+      "빅테크 CEO들의 자발적 규제 촉구 발언",
+      "법안 초안의 언론 유출"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0319",
+    "category": "AI_기술혁신",
+    "event": "AI 워크로드 과부하로 인한 주요 클라우드 대규모 장애 발생",
+    "causal_path": "장애 발생 → 단일 클라우드 의존도 리스크 부각 → 멀티 클라우드 및 온프레미스 회귀 수요 증가 → 관련 인프라 기업 수혜",
+    "beneficiary_sectors": [
+      "Multi-cloud Management",
+      "On-premise Infrastructure"
+    ],
+    "victim_sectors": [
+      "Cloud Providers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "클라우드 서비스의 간헐적 지연 현상 보고 증가",
+      "클라우드 기업들의 데이터센터 긴급 증설 공시",
+      "다운타임 추적 사이트의 에러 리포트 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0320",
+    "category": "AI_기술혁신",
+    "event": "완전 자율 AI 코딩 에이전트의 상용화 및 대규모 도입 성공 사례 발표",
+    "causal_path": "발표 → 개발자 생산성 기하급수적 향상 → IT 외주 개발 수요 급감 및 소프트웨어 마진 극대화 → AI 소프트웨어 급등",
+    "beneficiary_sectors": [
+      "AI Software",
+      "Cloud Providers"
+    ],
+    "victim_sectors": [
+      "IT Outsourcing",
+      "Freelance Platforms"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "기존 AI 코딩 어시스턴트 툴의 사용량 폭증 데이터",
+      "IT 외주 기업들의 실적 가이던스 하향",
+      "AI 코딩 에이전트 스타트업의 유니콘 등극"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0321",
+    "category": "AI_기술혁신",
+    "event": "NPU 탑재 차세대 AI PC의 글로벌 판매량 예상치 대폭 상회",
+    "causal_path": "판매 호조 → PC 교체 슈퍼 사이클 진입 확인 → PC 하드웨어 및 관련 칩셋 수요 폭발 → PC 밸류체인 랠리",
+    "beneficiary_sectors": [
+      "PC Hardware",
+      "Edge AI Chips"
+    ],
+    "victim_sectors": [
+      "Legacy PC Makers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대만 PC ODM 업체들의 월별 매출 급증",
+      "마이크로소프트의 코파일럿+ PC 대대적 마케팅",
+      "반도체 기업들의 PC용 칩 출하량 가이던스 상향"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0322",
+    "category": "AI_기술혁신",
+    "event": "AI 로봇 및 드론용 고효율 전고체 배터리 상용화 돌파구 발표",
+    "causal_path": "발표 → 로봇 가동 시간 및 안전성 문제 해결 → 로보틱스 상용화 가속 → 차세대 배터리 및 로봇 섹터 동반 강세",
+    "beneficiary_sectors": [
+      "Battery Materials",
+      "Robotics & Automation"
+    ],
+    "victim_sectors": [
+      "Traditional Lithium-ion Battery Makers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "배터리 스타트업의 주요 기술 특허 등록",
+      "완성차 및 로봇 기업의 전고체 배터리 기업 지분 투자",
+      "관련 학회의 전고체 배터리 성능 테스트 결과 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0323",
+    "category": "AI_기술혁신",
+    "event": "대형 노조(UAW 등)의 AI/로봇 자동화 반대 대규모 파업 돌입",
+    "causal_path": "파업 돌입 → 생산 차질 및 인건비 상승 압박 → 기업들의 자동화 전환 의지 역설적 강화 → 로봇 및 자동화 섹터 장기 수혜",
+    "beneficiary_sectors": [
+      "Robotics & Automation",
+      "Machine Vision"
+    ],
+    "victim_sectors": [
+      "Traditional Auto",
+      "Logistics"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "노사 임단협에서 'AI 도입 제한' 조항 갈등 표출",
+      "노조 지도부의 강경 발언 및 파업 찬반투표 가결",
+      "물류 및 제조 기업들의 로봇 선제 도입 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0324",
+    "category": "AI_기술혁신",
+    "event": "글로벌 대기업, AI 음성 에이전트 도입으로 콜센터 인력 50% 감축 발표",
+    "causal_path": "발표 → AI의 화이트칼라/서비스직 대체 현실화 → AI 커뮤니케이션 솔루션 수요 폭발 → 관련 엔터프라이즈 AI 급등",
+    "beneficiary_sectors": [
+      "AI Communications",
+      "Enterprise Software"
+    ],
+    "victim_sectors": [
+      "Customer Service Outsourcing"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 대기업의 콜센터 외주 계약 해지 루머",
+      "AI 음성 인식 기술의 오류율 제로 근접 연구 결과",
+      "고객 서비스 플랫폼 기업들의 AI 기능 전면 개편"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0325",
+    "category": "AI_기술혁신",
+    "event": "미국 정부, 국가 안보를 위해 양자 내성 암호(PQC) 표준 전면 의무화 행정명령 발동",
+    "causal_path": "행정명령 → 정부 기관 및 금융권의 암호 체계 전면 교체 불가피 → 양자 보안 솔루션 수주 폭발 → 사이버보안 내 양자 테마 급등",
+    "beneficiary_sectors": [
+      "Quantum Cybersecurity",
+      "Defense Tech"
+    ],
+    "victim_sectors": [
+      "Legacy Cybersecurity"
+    ],
+    "intensity": "high",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "NIST(미국 국립표준기술연구소)의 최종 양자 암호 표준 발표",
+      "중국의 양자 해킹 기술 진전 관련 국방부 경고",
+      "주요 국방 벤더들의 양자 보안 기업 인수합병"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

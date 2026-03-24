@@ -32,6 +32,7 @@ Thumbs.db
 # Environment / Secrets
 .env
 .env.local
+api_keys.env
 *.key
 binance/
 

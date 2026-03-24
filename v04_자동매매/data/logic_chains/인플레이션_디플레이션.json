@@ -1,0 +1,625 @@
+[
+  {
+    "chain_id": "LC-0051",
+    "category": "인플레이션_디플레이션",
+    "event": "헤드라인 CPI 서프라이즈 (에너지 가격 급등 주도)",
+    "causal_path": "유가 등 에너지 가격 상승 → 헤드라인 CPI 예상치 상회 → 국채 금리 급등 → 성장주 밸류에이션 압박 및 에너지 섹터 부각",
+    "beneficiary_sectors": [
+      "Oil & Gas Exploration",
+      "Energy Equipment"
+    ],
+    "victim_sectors": [
+      "Software",
+      "Homebuilders"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "WTI/브렌트유 선물 가격의 최근 2주간 가파른 상승세",
+      "가솔린 소매 가격(AAA 데이터) 연속 상승",
+      "클리블랜드 연은 인플레이션 나우캐스팅(Nowcast)의 헤드라인 수치 상향 조정"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0052",
+    "category": "인플레이션_디플레이션",
+    "event": "근원 CPI 고착화 (주거비/Shelter 상승 지속)",
+    "causal_path": "주거비 하락 지연 → 근원 CPI 예상치 상회 → 연준 금리인하 기대감 후퇴 → 금리 민감 부동산 섹터 타격 및 은행 예대마진 기대 유지",
+    "beneficiary_sectors": [
+      "Large Cap Banks",
+      "Insurance"
+    ],
+    "victim_sectors": [
+      "REITs",
+      "Homebuilders"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "Zillow 임대료 지수 하락세 둔화 또는 반등",
+      "단기 국채(2년물) 금리의 CPI 발표 전 슬금슬금 상승",
+      "OER(소유자 등가 임대료) 선행 지표들의 하방 경직성 확인"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0053",
+    "category": "인플레이션_디플레이션",
+    "event": "PCE 물가지수 서프라이즈 (연준 선호 지표)",
+    "causal_path": "PCE 물가 예상치 상회 → 연준 매파적 스탠스 강화 우려 → 달러 인덱스 급등 → 다국적 기술주 및 귀금속 타격, 내수 가치주 방어",
+    "beneficiary_sectors": [
+      "Domestic Value",
+      "Defense"
+    ],
+    "victim_sectors": [
+      "Large Cap Tech",
+      "Precious Metals"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "이전 주 발표된 CPI 및 PPI 데이터를 통한 PCE 상방 리스크 선반영 리포트 증가",
+      "달러 인덱스(DXY)의 단기 바닥 다지기 및 반등",
+      "연방기금 금리 선물 시장의 연내 금리인하 횟수 축소 베팅"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0054",
+    "category": "인플레이션_디플레이션",
+    "event": "CPI 하회 (디스인플레이션 가속)",
+    "causal_path": "CPI 예상치 하회 → 국채 금리 급락 → 연준 조기 피봇(Pivot) 환호 → 할인율 하락으로 인한 투기적 성장주 급등",
+    "beneficiary_sectors": [
+      "Unprofitable Tech",
+      "Biotech",
+      "Solar"
+    ],
+    "victim_sectors": [
+      "Large Cap Banks",
+      "Insurance"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중고차 가격 지수(Manheim)의 급락세 지속",
+      "ISM 비제조업 지수 내 '지불가격(Prices Paid)' 항목의 큰 폭 하락",
+      "CPI 발표 전날 숏커버링 성격의 나스닥 반등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0055",
+    "category": "인플레이션_디플레이션",
+    "event": "임금-물가 스파이럴 우려 (NFP 시간당 평균 임금 급등)",
+    "causal_path": "시간당 임금 상승률 서프라이즈 → 기업 마진 압박 및 서비스 물가 상승 우려 → 노동 집약적 섹터 타격, 자동화/B2B 소프트웨어 수요 기대",
+    "beneficiary_sectors": [
+      "Industrial Automation",
+      "Enterprise Software"
+    ],
+    "victim_sectors": [
+      "Restaurants",
+      "Retailers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "JOLTs 구인건수 예상치 상회 및 퇴직율(Quit rate) 상승",
+      "ADP 민간 고용 보고서의 임금 상승률 데이터 급등",
+      "주요 외식/소매 기업들의 실적발표 중 인건비 부담 언급 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0056",
+    "category": "인플레이션_디플레이션",
+    "event": "스태그플레이션 공포 (GDP 부진 + PCE 급등 동시 발생)",
+    "causal_path": "저성장/고물가 지표 동시 확인 → 스태그플레이션 트레이드 가동 → 필수소비재/금광주 방어력 부각, 경기민감 소비재 급락",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Consumer Staples"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Casinos & Gaming"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "애틀랜타 연은 GDPNow 추정치 지속 하락",
+      "원자재 가격은 오르는데 제조업 PMI는 수축 국면 진입",
+      "장단기 금리차 역전 심화 및 소비자 심리지수 급락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0057",
+    "category": "인플레이션_디플레이션",
+    "event": "PPI 하방 서프라이즈 (도매물가 디플레이션)",
+    "causal_path": "생산자 물가 하락 → 소매 기업들의 향후 이익 마진 개선 기대감 → 소비재 및 유통 업체 주가 상승",
+    "beneficiary_sectors": [
+      "Discount Stores",
+      "Apparel Retail"
+    ],
+    "victim_sectors": [
+      "Basic Materials",
+      "Steel"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "글로벌 해운 운임 지수(SCFI 등)의 지속적인 하락",
+      "중국 PPI의 마이너스 폭 확대 (디플레이션 수출)",
+      "원자재(구리, 철광석 등) 선물의 단기 급락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0058",
+    "category": "인플레이션_디플레이션",
+    "event": "슈퍼코어 인플레이션 급등 (주거비 제외 서비스 물가)",
+    "causal_path": "슈퍼코어 물가 상승 → 연준의 서비스 물가 통제 실패 우려 → 단기채 금리 발작적 상승 → 고부채 중소형주 및 지역은행 투매",
+    "beneficiary_sectors": [
+      "Cash-rich Tech",
+      "Asset Managers"
+    ],
+    "victim_sectors": [
+      "Highly Leveraged Small Caps",
+      "Regional Banks"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "의료, 운송, 보험 등 핵심 서비스 부문 가격 인상 뉴스 증가",
+      "ISM 비제조업 고용 지수 및 가격 지수 동반 상승",
+      "단기 기대인플레이션(1년) 지표의 반등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0059",
+    "category": "인플레이션_디플레이션",
+    "event": "원자재 디플레이션 (유가 및 구리 동반 폭락)",
+    "causal_path": "글로벌 수요 둔화 우려로 원자재 폭락 → 투입 비용 감소 → 운송/항공주 마진 개선 기대로 랠리, 원자재 생산자는 타격",
+    "beneficiary_sectors": [
+      "Airlines",
+      "Trucking",
+      "Cruise Lines"
+    ],
+    "victim_sectors": [
+      "Oil & Gas Producers",
+      "Copper Miners"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 거시 경제 지표(소매판매, 산업생산) 대규모 쇼크",
+      "OPEC+ 감산 합의 실패 또는 균열 조짐 뉴스",
+      "구리/금 비율(Copper/Gold Ratio)의 급격한 하락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0060",
+    "category": "인플레이션_디플레이션",
+    "event": "중국발 디플레이션 수출 (중국 물가 마이너스 심화)",
+    "causal_path": "중국 내수 부진으로 저가 밀어내기 수출 → 미국 수입물가 하락 → 미국 내 이커머스 및 소매업체 원가 절감 혜택, 국내 제조업체는 가격 경쟁력 상실",
+    "beneficiary_sectors": [
+      "E-commerce",
+      "Auto Parts Retailers"
+    ],
+    "victim_sectors": [
+      "Domestic Manufacturing",
+      "Steel"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "중국 국가통계국 CPI/PPI 연속 마이너스 발표",
+      "알리익스프레스, 테무 등 중국 직구 플랫폼의 미국 내 점유율 급증 데이터",
+      "미국 항만의 중국발 컨테이너 수입 단가 하락 리포트"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0061",
+    "category": "인플레이션_디플레이션",
+    "event": "중고차 가격 재반등 (상품 인플레이션 재점화)",
+    "causal_path": "만하임 중고차 지수 급반등 → 상품 물가 하락세 종료 우려 → 자동차 딜러사 수익성 개선, 금리 민감 핀테크 타격",
+    "beneficiary_sectors": [
+      "Auto Dealerships",
+      "Auto Parts"
+    ],
+    "victim_sectors": [
+      "Fintech",
+      "Consumer Finance"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "만하임(Manheim) 중고차 가치 지수 월간 업데이트에서 서프라이즈 반등",
+      "신차 재고 부족 또는 자동차 노조 파업 장기화 뉴스",
+      "렌터카 업체들의 중고차 매각 단가 상승 실적 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0062",
+    "category": "인플레이션_디플레이션",
+    "event": "주거비(Rent) 디스인플레이션 본격 반영",
+    "causal_path": "실시간 임대료 하락분이 후행적으로 CPI에 반영 시작 → 근원 물가 하락 가속화 확신 → 금리 하락 및 부동산/건설주 급등",
+    "beneficiary_sectors": [
+      "Residential REITs",
+      "Homebuilders"
+    ],
+    "victim_sectors": [
+      "Short-term Treasuries (TLT inverse)",
+      "Volatility ETNs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "Apartment List, Zillow 등 민간 임대료 지표의 지속적 마이너스 전환",
+      "연준 위원들의 '주거비 하락이 조만간 지표에 반영될 것'이라는 비둘기파적 발언 증가",
+      "주택담보대출(모기지) 금리의 고점 통과 및 하락 반전"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0063",
+    "category": "인플레이션_디플레이션",
+    "event": "의료 서비스 물가(Medical Care) 급등",
+    "causal_path": "병원비 및 의료 서비스 단가 상승 → 건강보험사들의 손해율(MLR) 상승 압박 → 보험사 주가 하락 및 의료기기/병원 주가 상승",
+    "beneficiary_sectors": [
+      "Hospitals",
+      "Medical Devices"
+    ],
+    "victim_sectors": [
+      "Managed Healthcare (Insurers)"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "메디케어(Medicare) 요율 조정안 발표 시 병원 측에 유리한 단가 인상",
+      "대형 건강보험사(UNH 등)의 실적 가이던스에서 의료비 지출 증가 경고",
+      "간호사 등 의료 종사자 임금 상승 데이터 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0064",
+    "category": "인플레이션_디플레이션",
+    "event": "애그플레이션 (농산물 가격 급등)",
+    "causal_path": "기상이변/지정학적 리스크로 곡물가 급등 → 식품 인플레이션 발생 → 농기계/비료 업체 수혜, 원가 부담 커진 가공식품/외식업체 타격",
+    "beneficiary_sectors": [
+      "Agricultural Chemicals",
+      "Farm Machinery"
+    ],
+    "victim_sectors": [
+      "Packaged Foods",
+      "Restaurants"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "엘니뇨/라니냐 등 기상이변에 따른 주요 곡창지대 작황 부진 뉴스",
+      "시카고상품거래소(CBOT) 밀, 옥수수, 대두 선물 가격의 주간 10% 이상 급등",
+      "흑해 곡물 협정 파기 등 지정학적 공급망 차단 이슈 발생"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0065",
+    "category": "인플레이션_디플레이션",
+    "event": "해상 운임 급등 (공급망 병목 인플레이션)",
+    "causal_path": "운하 가뭄 또는 홍해 사태로 해상 운임 폭등 → 상품 물가 재상승 우려 → 해운사 단기 급등, 수입 의존도 높은 소매업체 타격",
+    "beneficiary_sectors": [
+      "Marine Shipping",
+      "Logistics"
+    ],
+    "victim_sectors": [
+      "Specialty Retail",
+      "Consumer Electronics"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "상하이컨테이너운임지수(SCFI) 또는 발틱운임지수(BDI)의 연속 급등",
+      "파나마 운하 수위 저하 또는 중동 지정학적 리스크(후티 반군 등) 뉴스 헤드라인 장악",
+      "글로벌 물류 업체들의 운임 할증료(Surcharge) 부과 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0066",
+    "category": "인플레이션_디플레이션",
+    "event": "디플레이션 소용돌이 공포 (광범위한 물가 하락 + 대량 해고)",
+    "causal_path": "물가 급락이 경기 침체와 동반됨 → 디플레이션 공포로 안전자산 쏠림 현상 → 장기 국채 및 유틸리티 상승, 경기민감 산업재 폭락",
+    "beneficiary_sectors": [
+      "Utilities",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Semiconductors",
+      "Industrial Machinery"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "신규 실업수당 청구건수의 4주 연속 가파른 증가",
+      "기업들의 연이은 대규모 구조조정 및 가이던스 하향 발표",
+      "하이일드 채권 스프레드의 급격한 확대 (신용 경색 조짐)"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0067",
+    "category": "인플레이션_디플레이션",
+    "event": "자동차 보험료 인플레이션 고착화",
+    "causal_path": "차량 수리비 및 중고차 가격 상승 여파로 보험료 급등 → 근원 CPI 상방 압력 작용 → 손해보험사 실적 호조, 자동차 제조사 판매 둔화 우려",
+    "beneficiary_sectors": [
+      "Property & Casualty Insurance"
+    ],
+    "victim_sectors": [
+      "Auto Manufacturers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "CPI 세부 항목 중 'Motor vehicle insurance' 항목의 전월비 급등 지속",
+      "주요 손해보험사(Progressive, Allstate 등)의 보험료 인상 규제 승인 뉴스",
+      "차량 부품 및 정비 임금 상승 데이터 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0068",
+    "category": "인플레이션_디플레이션",
+    "event": "수입물가지수 급등 (강달러 기조 약화 또는 수입원가 상승)",
+    "causal_path": "수입물가 상승 → 수입품 가격 인상으로 수입 인플레이션 발생 → 수입 의존 유통업체 마진 축소, 미국 내수 생산 기업의 가격 경쟁력 부각",
+    "beneficiary_sectors": [
+      "Domestic Steel",
+      "Domestic Manufacturing"
+    ],
+    "victim_sectors": [
+      "Apparel Retail",
+      "Discount Stores"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "달러 인덱스의 단기 급락세 지속",
+      "미국 노동부 수입물가지수(Import Price Index) 예상치 상회",
+      "주요 수입국(중국, 멕시코 등)의 생산자 물가 상승 전환"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0069",
+    "category": "인플레이션_디플레이션",
+    "event": "5년 기대인플레이션(Breakeven) 저항선 돌파",
+    "causal_path": "기대인플레이션 통제력 상실 우려 → 물가연동국채(TIPS) 수요 급증 및 명목 국채 매도 → 장기 듀레이션 성장주 밸류에이션 디레이팅",
+    "beneficiary_sectors": [
+      "Energy Exploration",
+      "Precious Metals"
+    ],
+    "victim_sectors": [
+      "High Growth Tech",
+      "Biotech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미시간대 5년 장기 기대인플레이션 수치의 3%대 돌파",
+      "유가와 구리 등 핵심 원자재의 동반 랠리",
+      "TIPS(물가연동국채) ETF로의 대규모 자금 유입 데이터"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0070",
+    "category": "인플레이션_디플레이션",
+    "event": "소매업체 재고 과잉 및 대규모 할인 (디플레이션 신호)",
+    "causal_path": "대형 마트 재고 경고 → 대규모 재고 떨이(Markdown) 진행 → 상품 물가 하락 압력 증가 및 유통 마진 붕괴 → 오프프라이스 업체 반사이익",
+    "beneficiary_sectors": [
+      "Off-Price Retailers"
+    ],
+    "victim_sectors": [
+      "Department Stores",
+      "Apparel Brands"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "타겟(Target) 또는 월마트(Walmart)의 분기 실적에서 재고(Inventory) 레벨 급증 발표",
+      "블랙프라이데이 등 주요 쇼핑 시즌 전 이례적인 조기 대규모 할인 프로모션",
+      "의류 및 가전 섹터의 재고/매출 비율(Inventory-to-Sales ratio) 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0071",
+    "category": "인플레이션_디플레이션",
+    "event": "에너지 디플레이션 (가솔린 가격 폭락)",
+    "causal_path": "주유소 가솔린 가격 하락 → 소비자들의 실질 가처분 소득 증가 → 재량 소비재 및 여행/레저 지출 증가 → 정유주 하락, 소비재 랠리",
+    "beneficiary_sectors": [
+      "Restaurants",
+      "Travel & Leisure"
+    ],
+    "victim_sectors": [
+      "Refiners",
+      "Oil & Gas Integrated"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 에너지정보청(EIA) 주간 가솔린 재고 대폭 증가 발표",
+      "정제마진(Crack Spread)의 가파른 하락세",
+      "전미자동차협회(AAA) 전국 평균 휘발유 가격의 1개월 연속 하락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0072",
+    "category": "인플레이션_디플레이션",
+    "event": "미시간대 1년 단기 기대인플레이션 급등",
+    "causal_path": "소비자들의 단기 물가 상승 우려 확산 → 연준의 매파적 발언 유발 → 수익률 곡선 약세 평탄화(Bear Flattener) → 대형 은행 예대마진 수혜, 유틸리티 타격",
+    "beneficiary_sectors": [
+      "Large Cap Banks",
+      "Brokerages"
+    ],
+    "victim_sectors": [
+      "Regional Banks",
+      "Utilities"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "설문조사 직전 주간의 휘발유 가격 및 식료품 가격 급등",
+      "소비자 신뢰지수(CB) 내 '현재 상황' 대비 '기대 지수'의 하락",
+      "연준 인사들의 '인플레이션 기대 심리 통제' 강조 발언 빈도 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0073",
+    "category": "인플레이션_디플레이션",
+    "event": "기업 가격 결정력 상실 (Pricing Power Loss)",
+    "causal_path": "디스인플레이션 환경 진입 → 소비 침체로 기업들이 원가 상승분을 판가로 전가 실패 → 이익 마진 압축 우려로 경기민감주 매도, 방어주 매수",
+    "beneficiary_sectors": [
+      "Consumer Staples",
+      "Healthcare Providers"
+    ],
+    "victim_sectors": [
+      "Consumer Discretionary",
+      "Industrial Conglomerates"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "S&P 500 주요 기업 어닝콜에서 'Promotional environment(할인 경쟁 환경)' 언급 횟수 급증",
+      "PPI 하락 속도보다 CPI 하락 속도가 더 빨라지는 현상 관찰",
+      "신용카드 연체율 상승 및 소매판매 지표의 예상치 하회"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0074",
+    "category": "인플레이션_디플레이션",
+    "event": "서비스 물가 고착화 (주거비 제외, 타이트한 고용 기반)",
+    "causal_path": "서비스업 고용 호조로 임금 상승 지속 → 서비스 물가 하락 지연 → 인력 파견 및 페이롤 업체 실적 호조, 인건비 비중 높은 레저 업종 타격",
+    "beneficiary_sectors": [
+      "Staffing & Employment Services",
+      "Payroll Processors"
+    ],
+    "victim_sectors": [
+      "Hospitality",
+      "Leisure"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "비농업고용(NFP) 중 서비스업 부문 신규 고용의 서프라이즈",
+      "NFIB 소기업 낙관지수 중 '임금 인상 계획' 항목 상승",
+      "호텔, 식당 등 서비스 업종의 구인난 관련 언론 보도 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0075",
+    "category": "인플레이션_디플레이션",
+    "event": "글로벌 공급망 완전 정상화 (구조적 디플레이션 압력)",
+    "causal_path": "공급망 병목 해소 및 운송비 정상화 → 하드웨어 및 제조업체들의 부품 조달 비용 급감 → IT 하드웨어 및 자동차 마진 확대, 물류 업체 프리미엄 소멸",
+    "beneficiary_sectors": [
+      "Consumer Electronics",
+      "Auto Manufacturers"
+    ],
+    "victim_sectors": [
+      "Marine Shipping",
+      "Air Freight"
+    ],
+    "intensity": "low",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "뉴욕 연은 글로벌 공급망 압력 지수(GSCPI)의 역사적 평균치 하회",
+      "반도체 리드타임(주문 후 납품까지 걸리는 시간)의 정상 수준 회복",
+      "항공 화물 및 해상 운임의 코로나 이전 수준 회귀"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

@@ -1,0 +1,470 @@
+{
+  "timestamp": "2026-03-23T06:48:06.417402",
+  "duration_sec": 304.53,
+  "vix": {
+    "vix": 26.78,
+    "prev_close": 24.07,
+    "change_pct": 11.26,
+    "zone": "긴장",
+    "bonus": 3,
+    "timestamp": "2026-03-23T06:43:07.204250"
+  },
+  "anomaly_count": 1,
+  "scenarios": [
+    {
+      "scenario": "예상치 못한 매크로 지표 충격 (인플레이션 반등 또는 고용 서프라이즈)",
+      "probability": 0.65,
+      "reasoning": "VIX가 10%대 중반으로 급등하는 현상은 주로 시장이 예상치 못한 거시경제 데이터를 마주했을 때 발생합니다. 특히 인플레이션 지표(CPI/PCE)가 예상치를 상회하거나 고용이 너무 강하게 나와 연준(Fed)의 금리 인하 기대감이 급격히 후퇴할 때, 기관 투자자들이 포트폴리오 하방 위험을 방어하기 위해 풋옵션을 대거 매수하면서 VIX가 11.3% 수준의 의미 있는 급등세를 보입니다.",
+      "expected_event": "예상치를 상회하는 CPI/PPI 발표 또는 매파적인 FOMC 성명 발표",
+      "time_horizon": "1~3일",
+      "beneficiary_sectors": [
+        "Energy",
+        "Financials",
+        "Consumer Staples"
+      ],
+      "victim_sectors": [
+        "Real Estate",
+        "Technology",
+        "Consumer Discretionary"
+      ],
+      "key_signals_used": [
+        "[MEDIUM] vix 급등 (+11.3%)"
+      ]
+    },
+    {
+      "scenario": "돌발적인 지정학적 리스크 고조",
+      "probability": 0.55,
+      "reasoning": "특별한 경제 지표 발표가 없는 상황에서 VIX가 11% 이상 급등했다면, 중동이나 동유럽 등에서의 무력 충돌 격화, 혹은 미중 무역 갈등과 같은 돌발적인 지정학적 뉴스가 시장에 전해졌을 가능성이 높습니다. 이러한 불확실성은 즉각적인 'Risk-off(위험 회피)' 심리를 자극하여 주가지수 옵션 시장의 내재변동성을 단기적으로 크게 끌어올립니다.",
+      "expected_event": "중동 지역의 확전 뉴스 또는 주요국의 기습적인 무역 제재 발표",
+      "time_horizon": "즉각",
+      "beneficiary_sectors": [
+        "Defense",
+        "Gold Miners",
+        "Energy"
+      ],
+      "victim_sectors": [
+        "Airlines",
+        "Consumer Discretionary",
+        "Semiconductors"
+      ],
+      "key_signals_used": [
+        "[MEDIUM] vix 급등 (+11.3%)"
+      ]
+    },
+    {
+      "scenario": "메가캡(Magnificent 7) 실적 쇼크 및 기관의 디리스킹(De-risking)",
+      "probability": 0.45,
+      "reasoning": "현재 S&P 500 지수는 소수의 빅테크 기업에 대한 의존도가 매우 높습니다. 만약 시장 주도주(예: 엔비디아, 애플 등)의 실적 가이던스가 시장의 높은 기대치를 하회할 경우, 지수 전체의 변동성이 확대될 것이라는 우려가 커집니다. 이는 마켓 메이커들의 옵션 프리미엄 재평가로 이어져 VIX의 두 자릿수 상승을 유발할 수 있습니다.",
+      "expected_event": "주요 빅테크 기업의 어닝 미스 또는 부정적인 향후 가이던스 발표",
+      "time_horizon": "1~3일",
+      "beneficiary_sectors": [
+        "Utilities",
+        "Healthcare",
+        "Consumer Staples"
+      ],
+      "victim_sectors": [
+        "Semiconductors",
+        "Software",
+        "Communication Services"
+      ],
+      "key_signals_used": [
+        "[MEDIUM] vix 급등 (+11.3%)"
+      ]
+    }
+  ],
+  "matched_chains": 2,
+  "beneficiary_sectors": [
+    "Consumer Staples",
+    "Defense",
+    "Energy",
+    "Financials",
+    "Gold Miners",
+    "Healthcare",
+    "Market Makers",
+    "Treasury ETFs",
+    "Utilities",
+    "Volatility ETFs"
+  ],
+  "rankings": [
+    {
+      "ticker": "IDA",
+      "name": "IDACORP, Inc.",
+      "total_score": 49.48,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 10.0,
+        "volume_score": 20.0,
+        "chart_score": 11,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Utilities",
+      "market_cap": 7437720576.0,
+      "current_price": 135.48,
+      "timestamp": "2026-03-23T06:48:06.415273",
+      "rank": 1
+    },
+    {
+      "ticker": "OR",
+      "name": "OR Royalties Inc.",
+      "total_score": 47.48,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 7.0,
+        "volume_score": 20.0,
+        "chart_score": 12,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Basic Materials",
+      "market_cap": 6207046656.0,
+      "current_price": 32.87,
+      "timestamp": "2026-03-23T06:48:06.415170",
+      "rank": 2
+    },
+    {
+      "ticker": "CENT",
+      "name": "Central Garden & Pet Company",
+      "total_score": 47.48,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 10.0,
+        "volume_score": 20.0,
+        "chart_score": 9,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Consumer Defensive",
+      "market_cap": 2191191040.0,
+      "current_price": 35.19,
+      "timestamp": "2026-03-23T06:48:06.415405",
+      "rank": 3
+    },
+    {
+      "ticker": "VSEC",
+      "name": "VSE Corporation",
+      "total_score": 46.48,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 10.0,
+        "volume_score": 20.0,
+        "chart_score": 8,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Industrials",
+      "market_cap": 4963649024.0,
+      "current_price": 177.33,
+      "timestamp": "2026-03-23T06:48:06.414803",
+      "rank": 4
+    },
+    {
+      "ticker": "NWE",
+      "name": "NorthWestern Energy Group, Inc.",
+      "total_score": 46.48,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 10.0,
+        "volume_score": 20.0,
+        "chart_score": 8,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Utilities",
+      "market_cap": 3923640320.0,
+      "current_price": 63.8,
+      "timestamp": "2026-03-23T06:48:06.415141",
+      "rank": 5
+    },
+    {
+      "ticker": "GCMG",
+      "name": "GCM Grosvenor Inc.",
+      "total_score": 43.48,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 12.0,
+        "volume_score": 20.0,
+        "chart_score": 3,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Financial Services",
+      "market_cap": 1810867072.0,
+      "current_price": 9.69,
+      "timestamp": "2026-03-23T06:48:06.415518",
+      "rank": 6
+    },
+    {
+      "ticker": "MGEE",
+      "name": "MGE Energy Inc.",
+      "total_score": 42.48,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 12.0,
+        "volume_score": 18.0,
+        "chart_score": 4,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Utilities",
+      "market_cap": 2710481920.0,
+      "current_price": 74.13,
+      "timestamp": "2026-03-23T06:48:06.415151",
+      "rank": 7
+    },
+    {
+      "ticker": "CALM",
+      "name": "Cal-Maine Foods, Inc.",
+      "total_score": 42.48,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 8.0,
+        "volume_score": 20.0,
+        "chart_score": 6,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Consumer Defensive",
+      "market_cap": 3733694464.0,
+      "current_price": 78.35,
+      "timestamp": "2026-03-23T06:48:06.415280",
+      "rank": 8
+    },
+    {
+      "ticker": "WTFC",
+      "name": "Wintrust Financial Corporation",
+      "total_score": 40.78,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 11.3,
+        "volume_score": 15.0,
+        "chart_score": 6,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Financial Services",
+      "market_cap": 8915357696.0,
+      "current_price": 132.53,
+      "timestamp": "2026-03-23T06:48:06.415266",
+      "rank": 9
+    },
+    {
+      "ticker": "CHRD",
+      "name": "Chord Energy Corporation",
+      "total_score": 40.19,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 6.71,
+        "volume_score": 15.0,
+        "chart_score": 10,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Energy",
+      "market_cap": 7501102080.0,
+      "current_price": 131.91,
+      "timestamp": "2026-03-23T06:48:06.414901",
+      "rank": 10
+    },
+    {
+      "ticker": "OSIS",
+      "name": "OSI Systems, Inc.",
+      "total_score": 39.04,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 5.56,
+        "volume_score": 15.0,
+        "chart_score": 10,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Technology",
+      "market_cap": 4659577856.0,
+      "current_price": 274.45,
+      "timestamp": "2026-03-23T06:48:06.414915",
+      "rank": 11
+    },
+    {
+      "ticker": "VLY",
+      "name": "Valley National Bancorp",
+      "total_score": 37.38,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 7.9,
+        "volume_score": 15.0,
+        "chart_score": 6,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Financial Services",
+      "market_cap": 6541065216.0,
+      "current_price": 11.73,
+      "timestamp": "2026-03-23T06:48:06.415107",
+      "rank": 12
+    },
+    {
+      "ticker": "MUR",
+      "name": "Murphy Oil Corporation",
+      "total_score": 34.72,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 5.24,
+        "volume_score": 15.0,
+        "chart_score": 6,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Energy",
+      "market_cap": 5531819520.0,
+      "current_price": 38.73,
+      "timestamp": "2026-03-23T06:48:06.415424",
+      "rank": 13
+    },
+    {
+      "ticker": "MC",
+      "name": "Moelis & Company",
+      "total_score": 34.44,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 6.96,
+        "volume_score": 15.0,
+        "chart_score": 4,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Financial Services",
+      "market_cap": 3994450944.0,
+      "current_price": 53.98,
+      "timestamp": "2026-03-23T06:48:06.415024",
+      "rank": 14
+    },
+    {
+      "ticker": "HALO",
+      "name": "Halozyme Therapeutics, Inc.",
+      "total_score": 34.06,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 4.58,
+        "volume_score": 15.0,
+        "chart_score": 6,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Healthcare",
+      "market_cap": 7485818368.0,
+      "current_price": 63.43,
+      "timestamp": "2026-03-23T06:48:06.415498",
+      "rank": 15
+    },
+    {
+      "ticker": "SMPL",
+      "name": "The Simply Good Foods Company",
+      "total_score": 32.5,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 9.02,
+        "volume_score": 15.0,
+        "chart_score": 0,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Consumer Defensive",
+      "market_cap": 1342338304.0,
+      "current_price": 14.13,
+      "timestamp": "2026-03-23T06:48:06.415119",
+      "rank": 16
+    },
+    {
+      "ticker": "ATRO",
+      "name": "Astronics Corporation",
+      "total_score": 32.05,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 4.57,
+        "volume_score": 15.0,
+        "chart_score": 4,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Industrials",
+      "market_cap": 2275312384.0,
+      "current_price": 63.75,
+      "timestamp": "2026-03-23T06:48:06.415292",
+      "rank": 17
+    },
+    {
+      "ticker": "ARWR",
+      "name": "Arrowhead Pharmaceuticals, Inc.",
+      "total_score": 31.9,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 6.42,
+        "volume_score": 15.0,
+        "chart_score": 2,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Healthcare",
+      "market_cap": 7888013824.0,
+      "current_price": 56.33,
+      "timestamp": "2026-03-23T06:48:06.415254",
+      "rank": 18
+    },
+    {
+      "ticker": "ALKS",
+      "name": "Alkermes plc",
+      "total_score": 31.54,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 4.06,
+        "volume_score": 15.0,
+        "chart_score": 4,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Healthcare",
+      "market_cap": 4691195392.0,
+      "current_price": 28.15,
+      "timestamp": "2026-03-23T06:48:06.415364",
+      "rank": 19
+    },
+    {
+      "ticker": "NJR",
+      "name": "NewJersey Resources Corporation",
+      "total_score": 31.48,
+      "breakdown": {
+        "logic_chain_score": 5.48,
+        "smart_money_score": 5.0,
+        "volume_score": 6.0,
+        "chart_score": 12,
+        "vix_bonus": 3.0,
+        "risk_penalty": 0.0
+      },
+      "confidence": "low",
+      "sector": "Utilities",
+      "market_cap": 5330676736.0,
+      "current_price": 52.86,
+      "timestamp": "2026-03-23T06:48:06.414969",
+      "rank": 20
+    }
+  ]
+}

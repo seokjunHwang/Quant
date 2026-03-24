@@ -1,0 +1,628 @@
+[
+  {
+    "chain_id": "LC-0276",
+    "category": "기술_규제",
+    "event": "DOJ(법무부) 빅테크 검색/광고 반독점 소송 제기",
+    "causal_path": "소송 제기 → 독점 사업부 강제 분할 리스크 부각 → 해당 빅테크 주가 급락 및 경쟁사 반사이익 → 중소형 검색/광고 플랫폼 수혜",
+    "beneficiary_sectors": [
+      "Small Cap Internet",
+      "Ad-Tech",
+      "Alternative Search Engines"
+    ],
+    "victim_sectors": [
+      "Large Cap Tech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "법무부 내부 반독점 조사 인력 대규모 충원 보도",
+      "경쟁사들의 불공정 행위 관련 의회 증언 증가",
+      "주요 언론의 소송 임박 단독 기사 보도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0277",
+    "category": "기술_규제",
+    "event": "FDA 혁신 비만치료제(GLP-1) 신약 승인",
+    "causal_path": "FDA 승인 → 상용화 및 매출 급증 기대감 → 제약사 주가 폭등 및 위탁생산 밸류체인 동반 상승 → 기존 다이어트/식품 산업 타격",
+    "beneficiary_sectors": [
+      "Large Cap Pharma",
+      "CDMO",
+      "Life Sciences Tools"
+    ],
+    "victim_sectors": [
+      "Packaged Foods",
+      "Fitness Centers",
+      "Medical Devices (Bariatric)"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "임상 3상 데이터의 성공적인 학회 발표",
+      "FDA 자문위원회(AdCom)의 만장일치 승인 권고",
+      "해당 제약사의 생산 설비 선제적 증설 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0278",
+    "category": "기술_규제",
+    "event": "FTC 대형 반도체 기업 간 인수합병(M&A) 불허",
+    "causal_path": "합병 무산 발표 → 피인수 기업의 프리미엄 반납 및 주가 폭락 → 인수 기업은 불확실성 해소로 단기 반등 → 경쟁 반도체 기업들의 점유율 방어 성공",
+    "beneficiary_sectors": [
+      "Semiconductor Competitors",
+      "Mid Cap Semiconductors"
+    ],
+    "victim_sectors": [
+      "Target Semiconductor Company",
+      "Merger Arbitrage Funds"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "FTC 위원장의 독점 우려 관련 강경 발언",
+      "유럽(EU) 및 영국(CMA) 규제 당국의 심사 지연",
+      "합병 기한 연장 및 위약금 조항 수정 공시"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0279",
+    "category": "기술_규제",
+    "event": "EU, 소셜미디어 기업에 GDPR 위반 역대급 과징금 부과",
+    "causal_path": "과징금 부과 및 데이터 전송 제한 명령 → 유럽 내 맞춤형 광고 타격 우려 → 해당 빅테크 실적 전망치 하향 → 개인정보 보호 기술 기업 수혜",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "Data Privacy Software"
+    ],
+    "victim_sectors": [
+      "Social Media",
+      "Digital Advertising"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "아일랜드 데이터보호위원회(DPC)의 예비 판결 유출",
+      "유럽 사법재판소(CJEU)의 데이터 전송 협정 무효화 판결",
+      "해당 기업의 실적 발표 중 규제 리스크 충당금 설정"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0280",
+    "category": "기술_규제",
+    "event": "미국 국제무역위원회(ITC), 핵심 IT 기기 수입 금지 판결 (특허 침해)",
+    "causal_path": "수입 금지 판결 → 연말 성수기 판매 차질 우려 → 제조사 주가 하락 및 특허권자 주가 급등 → 대체품 제조사 반사이익",
+    "beneficiary_sectors": [
+      "Patent Holding Companies",
+      "Consumer Electronics Competitors"
+    ],
+    "victim_sectors": [
+      "Large Cap Consumer Electronics",
+      "Electronic Components"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "ITC 행정판사의 예비 결정(Initial Determination)에서 침해 인정",
+      "대통령의 거부권(Veto) 행사 기한 임박 및 침묵",
+      "해당 기기의 온라인 스토어 판매 일시 중단 조치"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0281",
+    "category": "기술_규제",
+    "event": "상무부, 대중국 첨단 AI 반도체 수출 통제 강화",
+    "causal_path": "수출 통제 발표 → 중국향 매출 비중 높은 팹리스 및 장비주 실적 타격 → 반도체 섹터 전반의 투자 심리 악화 → 미국 내 파운드리 및 레거시 칩 수혜",
+    "beneficiary_sectors": [
+      "US Domestic Foundries",
+      "Defense Electronics"
+    ],
+    "victim_sectors": [
+      "AI Semiconductors",
+      "Semiconductor Equipment"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "상무부 장관의 국가 안보 관련 강경 발언",
+      "중국 테크 기업들의 AI 칩 사재기 현상 보도",
+      "반도체 장비 업계의 대중국 수출 라이선스 발급 지연"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0282",
+    "category": "기술_규제",
+    "event": "FDA, 기대감 높던 바이오 신약에 보완요구서(CRL) 발행",
+    "causal_path": "CRL 발행(승인 거부) → 추가 임상 비용 발생 및 출시 지연 → 해당 바이오텍 주가 폭락(-30% 이상) → 경쟁 약물 보유 제약사 반사이익",
+    "beneficiary_sectors": [
+      "Competing Biotech",
+      "Large Cap Pharma"
+    ],
+    "victim_sectors": [
+      "Clinical-stage Biotech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "임상 데이터의 2차 평가지표 미달성 논란",
+      "FDA의 제조 시설(CMC) 실사 지연 또는 문제 발견 루머",
+      "승인 결정일(PDUFA date) 직전 내부자 주식 대량 매도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0283",
+    "category": "기술_규제",
+    "event": "미 의회, 생성형 AI 저작권 보호 및 학습 데이터 규제 법안 통과",
+    "causal_path": "법안 통과 → AI 모델 학습 비용 급증 및 저작권료 지불 의무화 → AI 파운데이션 모델 기업 수익성 악화 → 전통 미디어 및 콘텐츠 IP 보유 기업 수혜",
+    "beneficiary_sectors": [
+      "Traditional Media",
+      "Publishing",
+      "Music & Entertainment"
+    ],
+    "victim_sectors": [
+      "Generative AI Software",
+      "Large Cap Tech"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "뉴욕타임스 등 대형 언론사의 AI 기업 대상 저작권 소송 제기",
+      "의회 청문회에서 작가/예술가 조합의 강력한 로비",
+      "초당적 AI 규제 법안 초안 공개"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0284",
+    "category": "기술_규제",
+    "event": "SEC, 비트코인/이더리움 현물 ETF 최종 승인",
+    "causal_path": "ETF 승인 → 기관 자금 대규모 유입 기대감 → 암호화폐 가격 급등 및 관련 주식 폭등 → 전통 금융사의 크립토 사업 확장 가속",
+    "beneficiary_sectors": [
+      "Crypto Miners",
+      "Crypto Exchanges",
+      "Asset Managers"
+    ],
+    "victim_sectors": [
+      "Gold Miners",
+      "Traditional Safe Haven Assets"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "SEC와 자산운용사 간의 S-1 수정안 지속 제출",
+      "법원의 SEC 기존 반려 결정 취소 판결 (그레이스케일 소송 등)",
+      "DTCC(예탁결제원) 목록에 해당 ETF 티커 사전 등록"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0285",
+    "category": "기술_규제",
+    "event": "연방법원, 모바일 앱스토어 인앱결제 강제 반독점 위법 판결",
+    "causal_path": "위법 판결 → 제3자 결제 허용 및 수수료 인하 불가피 → 플랫폼 기업 서비스 매출 타격 → 모바일 게임 및 앱 개발사 마진율 급증",
+    "beneficiary_sectors": [
+      "Mobile Gaming",
+      "Dating Apps",
+      "Software Application"
+    ],
+    "victim_sectors": [
+      "Mobile Platform Operators (Large Cap Tech)"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "에픽게임즈 등 개발사들의 대규모 연합 소송 진행",
+      "유럽(DMA) 및 한국 등 타 국가의 인앱결제 강제 금지법 선행 도입",
+      "재판 과정에서 플랫폼 기업의 과도한 이익률 내부 문건 폭로"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0286",
+    "category": "기술_규제",
+    "event": "미 상원, 틱톡(TikTok) 미국 내 전면 금지 또는 강제 매각 법안 통과",
+    "causal_path": "법안 통과 → 틱톡 사용자 이탈 및 광고 예산 이동 기대감 → 경쟁 숏폼 플랫폼(릴스, 쇼츠) 보유 빅테크 및 스냅챗 주가 급등 → 중국 보복 우려로 중국 진출 소비재 타격",
+    "beneficiary_sectors": [
+      "Social Media",
+      "Digital Advertising"
+    ],
+    "victim_sectors": [
+      "US Consumer Brands in China"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "하원에서의 압도적 찬성표로 법안 통과",
+      "틱톡 CEO의 의회 청문회 출석 및 부정적 여론 확산",
+      "정부 기관 및 주 정부 기기에서 틱톡 사용 금지 조치 확대"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0287",
+    "category": "기술_규제",
+    "event": "블록버스터 의약품 특허 무효 소송에서 제네릭 제약사 승소",
+    "causal_path": "특허 무효 판결 → 조기 제네릭 진입 가능성 확보 → 오리지널 제약사 매출 급감 우려로 주가 하락 → 제네릭 제약사 주가 급등",
+    "beneficiary_sectors": [
+      "Generic Pharmaceuticals"
+    ],
+    "victim_sectors": [
+      "Large Cap Pharma (Original Patent Holder)"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "PTAB(특허심판원)의 특허 무효 심판(IPR) 개시 결정",
+      "오리지널 제약사의 무리한 특허 에버그리닝에 대한 비판 기사",
+      "제네릭 제약사의 FDA 잠정 승인(Tentative Approval) 획득"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0288",
+    "category": "기술_규제",
+    "event": "FTC, 빅테크의 유망 AI 스타트업 투자에 대한 전면 반독점 조사 착수",
+    "causal_path": "조사 착수 → 빅테크의 AI 파트너십 및 클라우드 크레딧 제공 제동 → AI 스타트업 자금줄 경색 우려 → 독립형 AI 소프트웨어 기업 및 오픈소스 진영 반사이익",
+    "beneficiary_sectors": [
+      "Independent AI Software",
+      "IT Consulting"
+    ],
+    "victim_sectors": [
+      "Large Cap Tech",
+      "Cloud Infrastructure Providers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "빅테크와 AI 스타트업 간의 수십억 달러 규모 투자 발표",
+      "영국 CMA 등 타국 규제 당국의 유사 파트너십 조사 개시",
+      "FTC 위원장의 '우회적 인수합병' 경고 발언"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0289",
+    "category": "기술_규제",
+    "event": "FDA, 유망 유전자 치료제 임상시험 전면 중단(Clinical Hold) 명령",
+    "causal_path": "중단 명령 → 환자 사망 또는 심각한 부작용 발생 확인 → 해당 바이오텍 주가 폭락 및 유전자 치료제 섹터 전반 투자 심리 냉각 → 기존 표준 치료제 제약사 수혜",
+    "beneficiary_sectors": [
+      "Traditional Pharma",
+      "Medical Devices"
+    ],
+    "victim_sectors": [
+      "Gene Therapy Biotech",
+      "Genomics Tools"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "임상 참여 환자의 원인 불명 입원 루머 확산",
+      "해당 기업의 갑작스러운 IR 행사 취소",
+      "경쟁 유전자 치료제 기업의 유사 부작용 보고 사례"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0290",
+    "category": "기술_규제",
+    "event": "EU 디지털시장법(DMA) '게이트키퍼' 확정 및 강력한 규제 발효",
+    "causal_path": "규제 발효 → 자사 서비스 우대 금지 및 상호운용성 강제 → 빅테크 유럽 매출 및 이익률 하락 → 유럽 현지 로컬 플랫폼 및 중소형 앱 개발사 수혜",
+    "beneficiary_sectors": [
+      "European Tech ADRs",
+      "Small Cap Software",
+      "Alternative App Stores"
+    ],
+    "victim_sectors": [
+      "Large Cap Tech (Gatekeepers)"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "EU 집행위원회의 게이트키퍼 예비 명단 발표",
+      "빅테크 기업들의 유럽 서비스 일부 축소 또는 유료화 전환 테스트",
+      "법안 발효 전 규제 준수를 위한 대규모 시스템 개편 공시"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0291",
+    "category": "기술_규제",
+    "event": "미 연방거래위원회(FTC), 타겟팅 광고용 데이터 수집 전면 제한 조치 발표",
+    "causal_path": "제한 조치 발표 → 서드파티 데이터 의존도 높은 애드테크 기업 직격탄 → 광고 단가 하락 및 매출 감소 → 퍼스트파티 데이터 보유 대형 이커머스 수혜",
+    "beneficiary_sectors": [
+      "E-commerce",
+      "Retail Media Networks"
+    ],
+    "victim_sectors": [
+      "Ad-Tech",
+      "Social Media"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "애플의 ATT(앱 추적 투명성) 정책 도입 이후 애드테크 실적 악화",
+      "FTC의 상업적 감시(Commercial Surveillance) 관련 규칙 제정 예고",
+      "주요 브라우저의 서드파티 쿠키 지원 중단 일정 확정"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0292",
+    "category": "기술_규제",
+    "event": "SEC, 최대 암호화폐 거래소에 웰스 노티스(Wells Notice) 발송 및 기소",
+    "causal_path": "기소 발표 → 미등록 증권 판매 혐의로 거래소 자산 동결 우려 → 크립토 시장 전반 패닉 셀링 → 전통 금융사 및 규제 준수 대체 거래소로 자금 이동",
+    "beneficiary_sectors": [
+      "Traditional Brokers",
+      "Regulated Financial Exchanges"
+    ],
+    "victim_sectors": [
+      "Crypto Exchanges",
+      "Crypto Miners",
+      "Blockchain Tech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "SEC 위원장의 '대부분의 토큰은 증권'이라는 반복적 발언",
+      "해당 거래소의 스테이킹 서비스 중단 등 자발적 사업 축소",
+      "경쟁 소규모 거래소들에 대한 선행 기소 및 벌금 부과"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0293",
+    "category": "기술_규제",
+    "event": "미 대법원, 통신품위법 230조(Section 230) 면책 특권 제한 판결",
+    "causal_path": "판결 발표 → 사용자 게시물에 대한 플랫폼의 법적 책임 증가 → 콘텐츠 모더레이션 비용 급증 및 알고리즘 추천 위축 → 소셜미디어 수익성 악화 및 AI 필터링 기업 수혜",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "AI Content Moderation Software"
+    ],
+    "victim_sectors": [
+      "Social Media",
+      "User Generated Content Platforms"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대법원 구두 변론(Oral Argument)에서 대법관들의 회의적 질문 쏟아짐",
+      "하급심에서 플랫폼 책임을 묻는 이례적 판결 등장",
+      "양당 정치인들의 230조 폐지/개정 촉구 성명 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0294",
+    "category": "기술_규제",
+    "event": "FDA, 알츠하이머 신약 가속 승인(Accelerated Approval) 부여",
+    "causal_path": "가속 승인 → 미충족 의료 수요가 큰 시장 선점 기대감 → 해당 제약사 및 파트너사 주가 폭등 → 뇌 영상 진단 기기 및 바이오마커 기업 동반 수혜",
+    "beneficiary_sectors": [
+      "Large Cap Pharma",
+      "Medical Imaging",
+      "Diagnostics"
+    ],
+    "victim_sectors": [
+      "Short Sellers in Biotech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "초기 임상에서 아밀로이드 플라크 감소 유의미한 데이터 발표",
+      "FDA의 신속 심사(Fast Track) 지정 획득",
+      "메디케어(CMS)의 알츠하이머 치료제 보험 급여 확대 논의"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0295",
+    "category": "기술_규제",
+    "event": "미 재무부, IRA 전기차 세액공제 배터리 부품/광물 요건 대폭 강화 (FEOC 규제)",
+    "causal_path": "규제 발표 → 중국산 배터리 부품 사용 EV의 보조금 탈락 → 해당 EV 제조사 판매 타격 및 주가 하락 → 북미/FTA 체결국 배터리 밸류체인 수혜",
+    "beneficiary_sectors": [
+      "US Domestic Lithium Miners",
+      "Non-Chinese Battery Makers"
+    ],
+    "victim_sectors": [
+      "EV Manufacturers (High China Exposure)",
+      "Auto Parts"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "재무부의 FEOC(우려국가) 세부 지침 초안 발표",
+      "주요 자동차 제조사들의 중국 배터리 기업과의 합작법인 재검토",
+      "미국 내 리튬/니켈 광산 프로젝트에 대한 정부 보조금 지급"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0296",
+    "category": "기술_규제",
+    "event": "미 연방정부, 제로 트러스트(Zero Trust) 보안 아키텍처 의무화 계약 대규모 발주",
+    "causal_path": "계약 발주 → 연방 기관의 레거시 보안 시스템 전면 교체 → 제로 트러스트 특화 사이버보안 기업 대규모 수주 → 해당 기업 실적 가이던스 상향 및 주가 급등",
+    "beneficiary_sectors": [
+      "Cybersecurity (Zero Trust)",
+      "Government IT Contractors"
+    ],
+    "victim_sectors": [
+      "Legacy Network Security"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "백악관의 국가 사이버보안 전략 행정명령 발표",
+      "주요 정부 기관의 대규모 해킹 피해 사례 보도",
+      "CISA(사이버보안 및 인프라 보안국)의 예산 대폭 증액 통과"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0297",
+    "category": "기술_규제",
+    "event": "OECD 글로벌 최저한세(15%) 미국 및 주요국 본격 시행",
+    "causal_path": "세제 시행 → 조세회피처를 활용하던 다국적 빅테크의 실효세율 급등 → EPS(주당순이익) 전망치 하향 조정 → 빅테크 주가 하락 및 내수 중심 중소형주 상대적 강세",
+    "beneficiary_sectors": [
+      "Domestic Small Caps",
+      "Value Stocks"
+    ],
+    "victim_sectors": [
+      "Multinational Large Cap Tech",
+      "Global Pharma"
+    ],
+    "intensity": "low",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "EU의 글로벌 최저한세 지침(Pillar 2) 만장일치 채택",
+      "미 의회에서 관련 세법 개정안 논의 본격화",
+      "빅테크 기업들의 분기 실적 발표 시 세금 리스크 경고"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0298",
+    "category": "기술_규제",
+    "event": "캘리포니아 주정부, 선두 자율주행(Robotaxi) 기업의 운행 허가 전격 취소",
+    "causal_path": "허가 취소 → 자율주행 상용화 일정 무기한 연기 및 신뢰도 추락 → 해당 기업 및 라이다(LiDAR) 등 부품주 폭락 → 전통 우버/리프트 등 승차공유 기업 안도 랠리",
+    "beneficiary_sectors": [
+      "Ride Hailing",
+      "Traditional Auto"
+    ],
+    "victim_sectors": [
+      "Autonomous Driving Tech",
+      "LiDAR Sensors"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "로보택시의 보행자 인명 사고 발생 및 영상 확산",
+      "NHTSA(도로교통안전국)의 자율주행 소프트웨어 결함 특별 조사 착수",
+      "시민 단체 및 노조의 자율주행 반대 시위 격화"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0299",
+    "category": "기술_규제",
+    "event": "미 정부, 광대역 인프라 법안(BEAD) 수백억 달러 자금 집행 승인",
+    "causal_path": "자금 집행 승인 → 농어촌 지역 초고속 인터넷망 구축 본격화 → 통신 장비 및 광케이블 제조사 수주 급증 → 지역 통신사 및 인프라 기업 주가 상승",
+    "beneficiary_sectors": [
+      "Telecom Equipment",
+      "Fiber Optics",
+      "Regional Telecom"
+    ],
+    "victim_sectors": [
+      "Satellite Internet Providers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "상무부의 주별 광대역 인프라 예산 할당액 발표",
+      "통신 장비 기업들의 'Buy America' 규정 충족을 위한 미국 내 공장 증설",
+      "FCC(연방통신위원회)의 농어촌 인터넷 보급률 저조 보고서 발간"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0300",
+    "category": "기술_규제",
+    "event": "미 상무부, 제재 대상 중국 기업에 대한 레거시 반도체 수출 라이선스 전격 취소",
+    "causal_path": "라이선스 취소 → 화웨이 등 중국 기업에 납품하던 미국 칩메이커 매출 즉각 증발 → PC/스마트폰용 범용 반도체 기업 주가 하락 → 중국 현지 반도체 자립화 가속 우려",
+    "beneficiary_sectors": [
+      "Defense",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "Legacy Semiconductors",
+      "PC Hardware",
+      "Smartphone Components"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 제재 기업의 최신 스마트폰에 미국산 칩 탑재 논란",
+      "의회 대중국 강경파 의원들의 상무부 압박 서한 발송",
+      "해당 반도체 기업의 중국 매출 비중 축소 경고 공시"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

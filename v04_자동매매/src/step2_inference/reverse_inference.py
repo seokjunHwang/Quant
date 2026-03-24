@@ -95,29 +95,18 @@ def run_reverse_inference(
             "victim_sectors": [...],       # 최종 피해 섹터
         }
     """
-    # 1. Aggregate anomalies
+    # 1. Aggregate anomalies (레벨 기반 컨텍스트 포함이라 항상 1개 이상)
     anomalies = aggregate_anomalies(macro_result, smart_money_result)
 
-    if not anomalies:
-        logger.info("No anomalies detected, skipping inference")
-        return {
-            "scenarios": [],
-            "matched_chains": [],
-            "new_chains_added": 0,
-            "beneficiary_sectors": [],
-            "victim_sectors": [],
-        }
-
     summary = build_anomaly_summary(anomalies)
-    search_query = build_search_query(anomalies)
 
     logger.info(f"Detected {len(anomalies)} anomalies, running inference...")
 
     # 2. AI reverse inference
     scenarios = _infer_scenarios(summary)
 
-    # 3. Vector search in ChromaDB
-    matched_chains = _search_matching_chains(search_query)
+    # 3. Vector search — 시나리오 텍스트로 검색 (원시 신호보다 의미 매칭 훨씬 좋음)
+    matched_chains = _search_matching_chains_from_scenarios(scenarios, anomalies)
 
     # 4. Generate new chains if no good match
     new_count = 0
@@ -169,24 +158,60 @@ def _infer_scenarios(anomaly_summary: str) -> list[dict]:
         return []
 
 
-def _search_matching_chains(query: str) -> list[dict]:
-    """ChromaDB에서 pre_signals 매칭."""
+def _search_matching_chains_from_scenarios(
+    scenarios: list[dict],
+    anomalies: list[dict],
+) -> list[dict]:
+    """
+    시나리오 + 이상신호 텍스트로 ChromaDB 다중 검색 후 머지.
+
+    - 시나리오별로 "이벤트 설명 + 수혜섹터" 쿼리를 만들어 검색
+    - 원시 이상신호 쿼리도 보조로 검색
+    - 중복 제거 후 유사도 기준 정렬
+    """
+    seen_ids: set[str] = set()
+    all_results: list[dict] = []
+
+    queries = []
+
+    # 시나리오 기반 쿼리 (의미 매칭에 훨씬 효과적)
+    for sc in scenarios[:3]:
+        scenario_name = sc.get("scenario", "")
+        expected = sc.get("expected_event", "")
+        beneficiary = ", ".join(sc.get("beneficiary_sectors", []))
+        reasoning_snippet = sc.get("reasoning", "")[:200]
+        q = f"{scenario_name}. {expected}. 수혜: {beneficiary}. {reasoning_snippet}"
+        queries.append(q.strip())
+
+    # 보조: 원시 이상신호 쿼리
+    raw_terms = [a.get("description", "") for a in anomalies if a.get("description")]
+    if raw_terms:
+        queries.append(", ".join(raw_terms[:5]))
+
     try:
-        # Search without reaction_speed filter first for broader results
-        results = search_chains(query, n_results=5, reaction_speed=None)
+        for query in queries:
+            if not query:
+                continue
+            results = search_chains(query, n_results=5, reaction_speed=None)
+            for r in results:
+                cid = r.get("chain_id", "")
+                if cid not in seen_ids and r["similarity"] >= MIN_SIMILARITY:
+                    seen_ids.add(cid)
+                    all_results.append(r)
 
-        # Filter by minimum similarity
-        good_matches = [r for r in results if r["similarity"] >= MIN_SIMILARITY]
+        # 유사도 기준 내림차순 정렬
+        all_results.sort(key=lambda x: x["similarity"], reverse=True)
+        good = all_results[:10]  # 상위 10개
 
-        if good_matches:
+        if good:
             logger.info(
-                f"Found {len(good_matches)} matching chains "
-                f"(best: {good_matches[0]['similarity']:.3f})"
+                f"Found {len(good)} matching chains "
+                f"(best: {good[0]['similarity']:.3f})"
             )
         else:
             logger.info(f"No chains above similarity threshold ({MIN_SIMILARITY})")
 
-        return good_matches
+        return good
 
     except Exception as e:
         logger.warning(f"Chain search failed: {e}")

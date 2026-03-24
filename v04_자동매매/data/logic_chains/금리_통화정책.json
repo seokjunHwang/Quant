@@ -1,0 +1,652 @@
+[
+  {
+    "chain_id": "LC-0001",
+    "category": "금리_통화정책",
+    "event": "Fed 깜짝 50bp 금리 인하",
+    "causal_path": "금리 인하 → 차입 비용 급감 및 유동성 확대 → 부동산 및 중소형주 투자 심리 개선 → 관련 섹터 주가 급등",
+    "beneficiary_sectors": [
+      "Homebuilders",
+      "Small Cap Equities",
+      "Regional Banks"
+    ],
+    "victim_sectors": [
+      "Life Insurance",
+      "Money Center Banks"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "Fed Funds 선물 시장의 금리 인하 확률 급등",
+      "미국 2년물 국채 금리의 가파른 하락",
+      "금(Gold) 가격의 사전 랠리"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0002",
+    "category": "금리_통화정책",
+    "event": "예상치 못한 Fed 금리 인상 (또는 동결 유지)",
+    "causal_path": "금리 인상 → 할인율 상승 및 밸류에이션 부담 증가 → 성장주 매도 및 예대마진 확대 기대감 → 금융주 상승 및 기술주 하락",
+    "beneficiary_sectors": [
+      "Money Center Banks",
+      "Brokerages"
+    ],
+    "victim_sectors": [
+      "Real Estate Investment Trusts (REITs)",
+      "High Growth Tech",
+      "Utilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "끈적한(Sticky) 근원 인플레이션 지표 발표",
+      "강력한 고용 지표(NFP) 연속 발표",
+      "연준 위원들의 매파적 발언 빈도 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0003",
+    "category": "금리_통화정책",
+    "event": "매파적 FOMC 점도표 수정 (연내 인하 횟수 축소)",
+    "causal_path": "점도표 상향 → 고금리 장기화(Higher for Longer) 우려 → 자본 조달 비용 증가 및 무위험 수익률 상승 → 배당주/성장주 타격 및 현금부자 기업 부각",
+    "beneficiary_sectors": [
+      "Property & Casualty Insurance",
+      "Cash-Rich Mega Cap Tech"
+    ],
+    "victim_sectors": [
+      "Clean Energy",
+      "Biotech",
+      "Homebuilders"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "WSJ 등 주요 언론의 매파적 사전 보도(Fed Whisperer)",
+      "미국 10년물 국채 금리의 점진적 상승",
+      "달러 인덱스(DXY)의 강세 전환"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0004",
+    "category": "금리_통화정책",
+    "event": "비둘기파적 FOMC 점도표 수정 (연내 인하 횟수 확대)",
+    "causal_path": "점도표 하향 → 조기 금리 인하 기대감 폭발 → 달러 약세 및 위험자산 선호 심리 회복 → 금광주 및 낙폭과대 성장주 급등",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Biotech",
+      "Solar Energy"
+    ],
+    "victim_sectors": [
+      "Regional Banks",
+      "Life Insurance"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "PMI 등 주요 거시 경제 지표의 둔화",
+      "지역 연은 총재들의 비둘기파적 코멘트 증가",
+      "달러 인덱스(DXY)의 하락 추세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0005",
+    "category": "금리_통화정책",
+    "event": "예상치를 상회하는 CPI (인플레이션 스파이크)",
+    "causal_path": "CPI 서프라이즈 → 연준 긴축 강화 우려 → 국채 금리 급등 및 원자재 가격 상승 반영 → 에너지주 상승 및 소비재/성장주 하락",
+    "beneficiary_sectors": [
+      "Energy Exploration & Production",
+      "Agricultural Commodities"
+    ],
+    "victim_sectors": [
+      "Consumer Discretionary",
+      "Homebuilders",
+      "High Growth Tech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "휘발유 가격의 월간 급등세",
+      "만하임 중고차 지수(Manheim Index)의 반등",
+      "고용 보고서 내 시간당 평균 임금 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0006",
+    "category": "금리_통화정책",
+    "event": "예상치를 하회하는 CPI (디스인플레이션)",
+    "causal_path": "CPI 쇼크(하회) → 인플레이션 둔화 확인 → 국채 금리 급락 및 금리 인하 기대감 → 밸류에이션 부담 완화로 기술주 및 리츠 급등",
+    "beneficiary_sectors": [
+      "High Growth Tech",
+      "Consumer Discretionary",
+      "Real Estate Investment Trusts (REITs)"
+    ],
+    "victim_sectors": [
+      "Energy Exploration & Production",
+      "Basic Materials"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "질로우(Zillow) 등 선행 임대료 지수의 하락",
+      "주요 원자재(구리, 유가 등) 가격 하락",
+      "소매판매 지표의 부진"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0007",
+    "category": "금리_통화정책",
+    "event": "미국 10년물 국채 금리 4.5% 돌파 (급등)",
+    "causal_path": "장기물 금리 급등 → 배당 매력도 하락 및 자산 듀레이션 리스크 부각 → 유틸리티/리츠 매도 및 보험주 이자수익 기대감 상승",
+    "beneficiary_sectors": [
+      "Life Insurance",
+      "Money Center Banks"
+    ],
+    "victim_sectors": [
+      "Utilities",
+      "Real Estate Investment Trusts (REITs)",
+      "Dividend Aristocrats"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미국 재무부 국채 입찰에서의 수요 부진(응찰률 하락)",
+      "예상보다 강한 소매판매 및 GDP 성장률",
+      "기대 인플레이션(BEI) 지표의 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0008",
+    "category": "금리_통화정책",
+    "event": "미국 10년물 국채 금리 3.8% 하향 이탈 (급락)",
+    "causal_path": "장기물 금리 급락 → 채권 대비 주식(특히 배당주) 매력도 상승 및 할인율 하락 → 유틸리티/리츠 및 장기 성장주 수혜",
+    "beneficiary_sectors": [
+      "Utilities",
+      "Real Estate Investment Trusts (REITs)",
+      "High Growth Tech"
+    ],
+    "victim_sectors": [
+      "Life Insurance",
+      "Regional Banks"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "지정학적 리스크 부각으로 인한 안전자산 선호 현상",
+      "ISM 제조업 PMI의 기준선(50) 대폭 하회",
+      "연준 핵심 인사들의 금리 인하 시사 발언"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0009",
+    "category": "금리_통화정책",
+    "event": "Fed 양적긴축(QT) 조기 종료 발표",
+    "causal_path": "QT 종료 → 시중 유동성 흡수 중단 및 금융환경 완화 → 위험자산(크립토, 소형주) 투기적 수요 증가 → 관련 섹터 급등",
+    "beneficiary_sectors": [
+      "Cryptocurrency Miners",
+      "High Growth Tech",
+      "Small Cap Equities"
+    ],
+    "victim_sectors": [
+      "Inverse ETFs",
+      "Volatility ETPs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "레포(Repo) 시장 금리(SOFR)의 일시적 스파이크",
+      "역레포(RRP) 잔고의 급격한 고갈",
+      "연준 회의록 내 대차대조표 축소 속도 조절 논의"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0010",
+    "category": "금리_통화정책",
+    "event": "예상치를 상회하는 근원 PCE 발표",
+    "causal_path": "PCE 상회 → 연준이 가장 선호하는 물가지표 악화 → 금리 인하 기대감 후퇴 및 원자재 인플레 헤지 수요 증가 → 화학/에너지 수혜 및 금리민감주 타격",
+    "beneficiary_sectors": [
+      "Commodity Chemicals",
+      "Oil & Gas Equipment & Services"
+    ],
+    "victim_sectors": [
+      "Biotech",
+      "Clean Energy",
+      "Homebuilders"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "동월 발표된 CPI 및 PPI의 선행적 상승",
+      "개인 소득(Personal Income) 지표의 강세",
+      "의료비 및 서비스 물가의 지속적 상승세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0011",
+    "category": "금리_통화정책",
+    "event": "예상치를 하회하는 근원 PCE 발표",
+    "causal_path": "PCE 하회 → 연준 물가 목표 달성 가시화 → 안도 랠리 및 소프트웨어/소비재 밸류에이션 리레이팅 → 기술주 및 주택주 상승",
+    "beneficiary_sectors": [
+      "Software-as-a-Service (SaaS)",
+      "Homebuilders",
+      "Consumer Electronics"
+    ],
+    "victim_sectors": [
+      "Precious Metals",
+      "Oil & Gas Integrated"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "동월 발표된 CPI 및 PPI의 둔화",
+      "신규 실업수당 청구건수의 점진적 증가",
+      "대형 유통업체들의 대규모 할인 행사 및 실적 가이던스 하향"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0012",
+    "category": "금리_통화정책",
+    "event": "파월 의장의 강력한 매파적 연설 (잭슨홀 등)",
+    "causal_path": "매파적 발언 → 시장의 조기 완화 기대감 차단 → 위험자산 회피 및 방어주 선호 심리 강화 → 대형 은행 및 방산주 선호, 투기적 자산 급락",
+    "beneficiary_sectors": [
+      "Money Center Banks",
+      "Defense"
+    ],
+    "victim_sectors": [
+      "High Growth Tech",
+      "Cryptocurrency Miners",
+      "Real Estate Investment Trusts (REITs)"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "물가 지표의 하락세 정체(Sticky Inflation)",
+      "주식 시장 랠리로 인한 금융환경지수(FCI) 완화",
+      "강력한 소비 지출 데이터 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0013",
+    "category": "금리_통화정책",
+    "event": "파월 의장의 비둘기파적 연설",
+    "causal_path": "비둘기파적 발언 → 고용 시장 둔화 우려 인정 및 금리 인하 시사 → 위험 선호 심리 폭발 → 중소형주 및 친환경/바이오 섹터 급등",
+    "beneficiary_sectors": [
+      "Small Cap Equities",
+      "Biotech",
+      "Solar Energy"
+    ],
+    "victim_sectors": [
+      "Life Insurance",
+      "Money Center Banks"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "금융환경의 과도한 긴축 우려 제기",
+      "실업률의 예상 밖 상승(Sahm Rule 발동 우려)",
+      "상업용 부동산 또는 지역은행 연쇄 부실 우려 대두"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0014",
+    "category": "금리_통화정책",
+    "event": "2년/10년물 장단기 금리차 정상화 (Bull Steepening)",
+    "causal_path": "단기 금리 급락에 따른 스티프닝 → 연준의 공격적 금리 인하 임박 신호 → 예대마진 개선 기대 및 모기지 금리 하락 → 지역은행 및 주택주 수혜",
+    "beneficiary_sectors": [
+      "Regional Banks",
+      "Mortgage Finance",
+      "Homebuilders"
+    ],
+    "victim_sectors": [
+      "Money Center Banks",
+      "Life Insurance"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "연준의 긴급 금리 인하 가능성 대두",
+      "단기 경제 지표(제조업 지수 등)의 급격한 악화",
+      "2년물 국채 금리의 수일 연속 폭락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0015",
+    "category": "금리_통화정책",
+    "event": "2년/10년물 장단기 금리차 정상화 (Bear Steepening)",
+    "causal_path": "장기 금리 급등에 따른 스티프닝 → 장기 인플레이션 및 국채 발행 증가 우려 → 듀레이션 리스크 부각 → 유틸리티/리츠 타격 및 생보사 수혜",
+    "beneficiary_sectors": [
+      "Life Insurance",
+      "Money Center Banks",
+      "Asset Management"
+    ],
+    "victim_sectors": [
+      "Utilities",
+      "Real Estate Investment Trusts (REITs)",
+      "High Growth Tech"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "장기 경제 성장률 전망치 상향 조정",
+      "기간 프리미엄(Term Premium)의 가파른 상승",
+      "미 재무부의 대규모 장기물 국채 발행 계획 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0016",
+    "category": "금리_통화정책",
+    "event": "강력한 비농업 고용지표(NFP) 발표",
+    "causal_path": "고용 서프라이즈 → 임금 인플레 우려 및 금리 인하 기대 소멸 → 국채 금리 상승 및 방어적 포트폴리오 전환 → 필수소비재 상승 및 중소형주 하락",
+    "beneficiary_sectors": [
+      "Consumer Staples",
+      "Healthcare Providers"
+    ],
+    "victim_sectors": [
+      "Small Cap Equities",
+      "Real Estate Investment Trusts (REITs)",
+      "Homebuilders"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "주간 신규 실업수당 청구건수의 지속적 감소",
+      "ADP 민간 고용 보고서의 서프라이즈",
+      "JOLTS 구인건수의 예상치 상회"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0017",
+    "category": "금리_통화정책",
+    "event": "부진한 비농업 고용지표(NFP) 발표",
+    "causal_path": "고용 쇼크 → 경기 둔화 우려 및 연준 조기 금리 인하 베팅 증가 → 국채 금리 하락 및 달러 약세 → 금광주 및 성장주 수혜",
+    "beneficiary_sectors": [
+      "High Growth Tech",
+      "Gold Miners",
+      "Small Cap Equities"
+    ],
+    "victim_sectors": [
+      "Money Center Banks",
+      "Life Insurance"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "주간 신규 실업수당 청구건수의 급증",
+      "ADP 민간 고용 보고서의 부진",
+      "대기업들의 대규모 구조조정 및 해고 발표 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0018",
+    "category": "금리_통화정책",
+    "event": "예상치를 상회하는 PPI (생산자물가지수)",
+    "causal_path": "PPI 상회 → 기업 생산 비용 증가 및 향후 CPI 전가 우려 → 인플레 헤지 자산 선호 및 소비재 마진 압박 → 원자재 상승 및 소매업 타격",
+    "beneficiary_sectors": [
+      "Industrial Metals & Minerals",
+      "Oil & Gas Exploration & Production"
+    ],
+    "victim_sectors": [
+      "Consumer Staples",
+      "Restaurants",
+      "Retailers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "국제 유가 및 천연가스 가격의 상승세",
+      "해운 운임 지수(SCFI 등)의 급등",
+      "ISM 제조업 PMI 내 지불가격 지수 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0019",
+    "category": "금리_통화정책",
+    "event": "예상치를 하회하는 PPI (생산자물가지수)",
+    "causal_path": "PPI 하회 → 생산 비용 감소 및 마진 개선 기대감 → 인플레이션 압력 완화로 인한 소비재/소매업종 랠리 및 원자재 약세",
+    "beneficiary_sectors": [
+      "Consumer Staples",
+      "Restaurants",
+      "Retailers"
+    ],
+    "victim_sectors": [
+      "Industrial Metals & Minerals",
+      "Basic Materials"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "구리, 철광석 등 주요 산업용 금속 가격 하락",
+      "공급망 병목 현상 완화 지표 확인",
+      "ISM 제조업 PMI 내 지불가격 지수 하락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0020",
+    "category": "금리_통화정책",
+    "event": "Fed 긴급 유동성 지원 프로그램 발표 (예: BTFP 재가동)",
+    "causal_path": "긴급 유동성 투입 → 금융 시스템 리스크 차단 및 달러 유동성 팽창 → 뱅크런 우려 완화 및 대체자산 급등 → 지역은행 및 크립토/금광주 수혜",
+    "beneficiary_sectors": [
+      "Regional Banks",
+      "Cryptocurrency Miners",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Short Sellers",
+      "Volatility ETPs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "특정 지역은행의 대규모 예금 인출(Bank Run) 사태 발생",
+      "지역은행들의 CDS 프리미엄 급등",
+      "은행주 전반의 패닉 셀링 및 주가 폭락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0021",
+    "category": "금리_통화정책",
+    "event": "미시간대 소비자심리지수 내 기대 인플레이션 급등",
+    "causal_path": "기대 인플레 상승 → 연준의 인플레 고착화 우려 자극 → 긴축 장기화 베팅 증가 → 소비 심리 위축 및 에너지주 인플레 헤지 수요 유입",
+    "beneficiary_sectors": [
+      "Energy Exploration & Production",
+      "Agricultural Commodities"
+    ],
+    "victim_sectors": [
+      "Consumer Discretionary",
+      "High Growth Tech"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "주유소 휘발유 가격의 체감적 급등",
+      "식료품 가격의 하방 경직성 유지",
+      "인플레이션 관련 언론 보도량의 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0022",
+    "category": "금리_통화정책",
+    "event": "미시간대 소비자심리지수 내 기대 인플레이션 급락",
+    "causal_path": "기대 인플레 하락 → 소비자의 물가 안정 신뢰 회복 → 실질 구매력 상승 기대 및 연준 완화 명분 제공 → 임의소비재 및 항공주 수혜",
+    "beneficiary_sectors": [
+      "Consumer Discretionary",
+      "Homebuilders",
+      "Airlines"
+    ],
+    "victim_sectors": [
+      "Energy Exploration & Production",
+      "Basic Materials"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "휘발유 가격의 지속적 하락세",
+      "소매업체들의 대대적인 가격 인하 마케팅",
+      "임금 상승률의 둔화 조짐"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0023",
+    "category": "금리_통화정책",
+    "event": "Fed 양적긴축(QT) 속도 가속화 발표",
+    "causal_path": "QT 가속화 → 시중 유동성 급격한 흡수 및 장기물 국채 수급 악화 → 금리 상승 및 밸류에이션 압박 → 대형 은행 수혜 및 고퍼주/소형주 타격",
+    "beneficiary_sectors": [
+      "Money Center Banks",
+      "Value Stocks"
+    ],
+    "victim_sectors": [
+      "High Growth Tech",
+      "Small Cap Equities",
+      "Cryptocurrency Miners"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "예상보다 강한 경제 성장률 및 고용 지표",
+      "인플레이션 지표의 재반등 조짐",
+      "연준 위원들의 비대해진 대차대조표에 대한 우려 발언"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0024",
+    "category": "금리_통화정책",
+    "event": "미국 2년물 국채 금리 5% 재돌파 (급등)",
+    "causal_path": "단기물 금리 급등 → 기준금리 인하 기대감 완전 소멸 및 단기 자금 조달 비용 급증 → 중소형주 자금 경색 우려 및 브로커리지 이자 수익 증가",
+    "beneficiary_sectors": [
+      "Brokerages",
+      "Money Center Banks"
+    ],
+    "victim_sectors": [
+      "Small Cap Equities",
+      "Biotech",
+      "Clean Energy"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "연준 인사들의 연속적인 매파적 발언 릴레이",
+      "단기 인플레이션 지표(Core CPI 등)의 서프라이즈",
+      "Fed Funds 선물 시장의 최종 금리(Terminal Rate) 전망치 상향"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0025",
+    "category": "금리_통화정책",
+    "event": "미국 2년물 국채 금리 급락",
+    "causal_path": "단기물 금리 급락 → 조기 금리 인하 베팅 집중 → 단기 차입 비중이 높은 기업들의 이자 비용 감소 기대 → 중소형주 및 바이오 급등",
+    "beneficiary_sectors": [
+      "Small Cap Equities",
+      "Biotech",
+      "Regional Banks"
+    ],
+    "victim_sectors": [
+      "Money Center Banks",
+      "Brokerages"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "연준 인사들의 비둘기파적 스탠스 전환",
+      "고용 지표의 예상 밖 부진",
+      "Fed Funds 선물 시장 내 단기 금리 인하 확률 급등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

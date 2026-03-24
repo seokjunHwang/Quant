@@ -1,0 +1,673 @@
+[
+  {
+    "chain_id": "LC-0351",
+    "category": "팬데믹_전염병",
+    "event": "WHO 새로운 바이러스에 대해 국제적 공중보건 비상사태(PHEIC) 선포",
+    "causal_path": "비상사태 선포 → 글로벌 공포 심리 확산 및 국경 통제 우려 → 안전자산 선호 및 헬스케어/백신주 수급 집중 → 관련주 급등 및 여행/레저주 급락",
+    "beneficiary_sectors": [
+      "Biotechnology",
+      "Pharmaceuticals",
+      "Diagnostics & Research"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Cruise Lines",
+      "Hotels & Resorts"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "특정 국가의 원인 불명 폐렴/질환 환자 급증 로컬 보도",
+      "주변국으로의 감염 의심 사례 전파 및 국경 검역 강화 뉴스",
+      "WHO 긴급 위원회(Emergency Committee) 소집 공식 발표",
+      "소셜 미디어를 통한 현지 병원 포화 상태 영상 확산"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0352",
+    "category": "팬데믹_전염병",
+    "event": "미국 내 조류독감(H5N1) 인체 감염 첫 사례 보고",
+    "causal_path": "인체 감염 확인 → 새로운 팬데믹 발발 우려 점화 → 가금류 살처분에 따른 육류 공급망 차질 우려 및 백신주 부각 → 대체육 및 백신 개발사 급등",
+    "beneficiary_sectors": [
+      "Biotechnology",
+      "Packaged Foods",
+      "Agricultural Inputs"
+    ],
+    "victim_sectors": [
+      "Restaurants",
+      "Food Distributors"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 내 가금류 및 낙농장 대규모 조류독감 발병 및 살처분 뉴스",
+      "농장 근로자의 독감 유사 증상 발현 및 격리 루머",
+      "유럽/아시아 지역의 H5N1 인체 감염 사례 선행 보도",
+      "CDC의 가금류 농장 작업자 대상 보호장구 착용 권고 강화"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0353",
+    "category": "팬데믹_전염병",
+    "event": "FDA, 신종 바이러스 백신 긴급사용승인(EUA) 발동",
+    "causal_path": "백신 승인 → 대규모 접종 개시 기대감 → 백신 제조사 및 유통 약국 체인 매출 급증 전망 → 관련 제약사 및 소매 약국 주가 상승",
+    "beneficiary_sectors": [
+      "Biotechnology",
+      "Pharmaceutical Retailers",
+      "Life Sciences Tools & Services"
+    ],
+    "victim_sectors": [
+      "Gold Miners",
+      "Volatility ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "제약사의 FDA 긴급사용승인(EUA) 신청서 공식 제출",
+      "FDA 산하 백신자문위원회(VRBPAC)의 만장일치 승인 권고",
+      "연방정부의 백신 선구매 계약 체결 공시",
+      "주요 언론의 '이번 주말 승인 유력' 익명 소스 보도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0354",
+    "category": "팬데믹_전염병",
+    "event": "미국 주요 주(State) 전면 봉쇄령(Lockdown) 발표",
+    "causal_path": "봉쇄령 발동 → 오프라인 경제 활동 올스톱 및 재택근무/홈엔터테인먼트 수요 폭증 → 비대면 관련 기술주 급등, 오프라인 소매점 급락",
+    "beneficiary_sectors": [
+      "Cloud Computing",
+      "Video Gaming",
+      "E-Commerce Discretionary"
+    ],
+    "victim_sectors": [
+      "Department Stores",
+      "Apparel Retail",
+      "Casinos & Gaming"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 주(State)의 일일 신규 확진자 수 기하급수적 증가",
+      "주지사의 '중대 발표' 기자회견 일정 긴급 공지",
+      "인근 주(State)들의 부분적 영업 제한 조치 선행 도입",
+      "대형 마트 생필품 사재기(Panic Buying) 현상 발생"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0355",
+    "category": "팬데믹_전염병",
+    "event": "기존 백신 회피 가능성이 높은 고도 변이 바이러스 발견",
+    "causal_path": "변이 발견 → 기존 방역 체계 무력화 및 경제 재개 지연 우려 → 시장 전반의 패닉 셀링 및 진단키트/마스크 관련주 숏스퀴즈 → 진단업체 급등",
+    "beneficiary_sectors": [
+      "Diagnostics & Research",
+      "Medical Instruments & Supplies"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Travel Services",
+      "Oil & Gas Exploration & Production"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "특정 국가에서 스파이크 단백질 돌연변이가 다수 발견되었다는 연구 논문 게재",
+      "해당 국가 발 항공편에 대한 주요국들의 입국 제한 조치 시작",
+      "기존 백신 접종자들의 대규모 돌파 감염 사례 보고",
+      "WHO의 '우려 변이(VOC)' 지정 검토 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0356",
+    "category": "팬데믹_전염병",
+    "event": "미국 내 원숭이두창(Mpox) 다수 주에서 동시다발적 확산",
+    "causal_path": "확산세 증가 → 천연두/원숭이두창 관련 기존 백신 및 치료제 비축 수요 증가 → 특화 바이오텍 및 제약사 주가 급등",
+    "beneficiary_sectors": [
+      "Biotechnology",
+      "Specialty Pharmaceuticals"
+    ],
+    "victim_sectors": [
+      "Hotels & Resorts",
+      "Live Entertainment"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "유럽 지역에서의 Mpox 이례적 확산 뉴스",
+      "미국 동부 대도시에서 첫 의심 환자 발생 보고",
+      "성소수자 커뮤니티 중심의 감염 경고 보도 증가",
+      "CDC의 Mpox 여행 경보 단계 격상"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0357",
+    "category": "팬데믹_전염병",
+    "event": "팬데믹 치료용 경구용 항바이러스제 임상 3상 성공 발표",
+    "causal_path": "임상 성공 → 중증 입원율 및 사망률 급감 기대 → 경제 정상화(Reopening) 기대감 폭발 → 여행/레저/항공주 급등, 비대면 수혜주 하락",
+    "beneficiary_sectors": [
+      "Airlines",
+      "Cruise Lines",
+      "Hotels & Resorts",
+      "Casinos & Gaming"
+    ],
+    "victim_sectors": [
+      "Video Gaming",
+      "Diagnostics & Research",
+      "Application Software"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 제약사의 임상 데이터 발표 임박 공시",
+      "초기 임상(2상)에서의 압도적인 바이러스 감소 효과 논문 발표",
+      "경쟁사 치료제 임상 실패로 인한 해당 기업에 대한 기대감 집중",
+      "옵션 시장에서 해당 제약사의 콜옵션 거래량 비정상적 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0358",
+    "category": "팬데믹_전염병",
+    "event": "연방정부의 대규모 개인보호장비(PPE) 비축 행정명령 발표",
+    "causal_path": "행정명령 발표 → 마스크, 장갑, 방호복 등 의료 소모품 대규모 정부 조달 계약 기대 → 관련 제조업체 매출 급증 전망",
+    "beneficiary_sectors": [
+      "Medical Instruments & Supplies",
+      "Industrial Conglomerates"
+    ],
+    "victim_sectors": [
+      "Broad Market Index ETFs"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "일선 병원들의 N95 마스크 및 라텍스 장갑 재고 고갈 호소",
+      "의료 종사자 노조의 정부 대책 촉구 시위",
+      "대통령의 국방물자생산법(DPA) 발동 검토 시사 발언",
+      "주요 PPE 수입국(중국 등)의 수출 통제 조치 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0359",
+    "category": "팬데믹_전염병",
+    "event": "주요 항공사들의 전염병 진원지 발착 국제선 전면 운항 중단",
+    "causal_path": "운항 중단 → 여객 매출 직격탄 및 여객기 벨리 카고(Belly Cargo) 감소로 글로벌 물류 차질 → 항공주 급락 및 해운/항공 화물 전업사 운임 상승 기대",
+    "beneficiary_sectors": [
+      "Air Freight & Logistics",
+      "Marine Shipping"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Aerospace & Defense"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "승무원 노조의 특정 국가 비행 거부 성명 발표",
+      "해당 국가의 공항 내 방역 통제 강화로 인한 대규모 지연 사태",
+      "국무부의 해당 국가에 대한 여행 경보 최고 단계(Level 4) 격상",
+      "일부 저가항공사(LCC)들의 선제적 노선 감편 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0360",
+    "category": "팬데믹_전염병",
+    "event": "선두권 백신 개발사의 임상 시험 전면 중단 (심각한 부작용 발생)",
+    "causal_path": "임상 중단 → 백신 상용화 지연 우려 → 팬데믹 장기화 공포 확산 → 해당 제약사 주가 폭락 및 경쟁사 주가 반사이익 급등",
+    "beneficiary_sectors": [
+      "Biotechnology",
+      "Diagnostics & Research"
+    ],
+    "victim_sectors": [
+      "Pharmaceuticals",
+      "Airlines",
+      "Hotels & Resorts"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "임상 참가자 중 원인 불명의 중증 질환 발생 루머 유포",
+      "독립적 데이터 모니터링 위원회(DSMB)의 긴급 회의 소집",
+      "해당 제약사 내부자들의 대규모 자사주 매도 공시",
+      "의학 전문 매체에서 부작용 가능성 제기 기사 보도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0361",
+    "category": "팬데믹_전염병",
+    "event": "전염병 확산으로 인한 전국적인 학교 폐쇄 및 온라인 수업 전환",
+    "causal_path": "학교 폐쇄 → 에듀테크, 화상회의 솔루션, PC/태블릿 수요 급증 → 관련 소프트웨어 및 하드웨어 기업 주가 상승",
+    "beneficiary_sectors": [
+      "Application Software",
+      "Computer Hardware",
+      "Education & Training Services"
+    ],
+    "victim_sectors": [
+      "Real Estate Services",
+      "Apparel Retail"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "교원 노조의 대면 수업 거부 및 파업 위협",
+      "소아/청소년 확진자 비율의 급격한 상승 데이터 발표",
+      "뉴욕, LA 등 대도시 교육구의 선제적 휴교 조치 발표",
+      "크롬북 및 교육용 태블릿 PC 품귀 현상 보도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0362",
+    "category": "팬데믹_전염병",
+    "event": "연방정부 및 주요 대기업의 전면 재택근무(WFH) 의무화 발표",
+    "causal_path": "재택 의무화 → 원격 근무 인프라 및 사이버 보안 수요 폭증 → 클라우드, 사이버보안, 화상회의 섹터 급등",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "Cloud Computing",
+      "Communication Equipment"
+    ],
+    "victim_sectors": [
+      "Office REITs",
+      "Commercial Real Estate",
+      "Restaurants"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "실리콘밸리 빅테크 기업들의 자발적 재택근무 전환 선행 발표",
+      "대중교통 내 마스크 착용 의무화 및 운행 감축",
+      "기업 인사팀(HR) 대상 원격근무 가이드라인 배포 급증",
+      "VPN 및 화상회의 앱 다운로드 순위 급상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0363",
+    "category": "팬데믹_전염병",
+    "event": "주요 대도시 병원 중환자실(ICU) 수용 능력 100% 초과 도달",
+    "causal_path": "의료 붕괴 가시화 → 야전 병원 건립 및 산소호흡기/의료기기 긴급 수요 발생 → 중증 치료 기기 및 원격의료 관련주 상승",
+    "beneficiary_sectors": [
+      "Medical Devices",
+      "Health Information Services",
+      "Healthcare Facilities"
+    ],
+    "victim_sectors": [
+      "Life & Health Insurance",
+      "Broad Market Index ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "응급실 대기 시간 폭증 및 구급차 우회(Diversion) 사례 증가",
+      "주지사의 연방재난관리청(FEMA) 의료진 지원 요청",
+      "비응급 수술(Elective Surgery) 전면 취소 권고",
+      "산소통 및 인공호흡기 제조업체의 가동률 100% 도달 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0364",
+    "category": "팬데믹_전염병",
+    "event": "백신 접종 완료자 대상 돌파감염률 급증 데이터 발표",
+    "causal_path": "돌파감염 급증 → 부스터샷(추가 접종) 필요성 대두 → 백신 제조사의 구조적 추가 매출 기대감 상승 → 백신 관련주 재급등",
+    "beneficiary_sectors": [
+      "Biotechnology",
+      "Pharmaceuticals"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Cruise Lines"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "이스라엘 등 백신 선도 접종 국가에서의 확진자 재반등 뉴스",
+      "백신 항체 역가가 6개월 후 급감한다는 연구 결과 발표",
+      "제약사 CEO의 '연례 부스터샷 필요' 언론 인터뷰",
+      "CDC의 돌파감염 추적 데이터 공개"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0365",
+    "category": "팬데믹_전염병",
+    "event": "FDA, 처방전 필요 없는 가정용 신속 항원 진단키트 대규모 승인",
+    "causal_path": "승인 및 판매 개시 → 약국 체인 및 진단키트 제조사의 B2C 매출 폭발적 증가 → 관련 진단업체 및 소매약국 주가 상승",
+    "beneficiary_sectors": [
+      "Diagnostics & Research",
+      "Pharmaceutical Retailers"
+    ],
+    "victim_sectors": [
+      "Healthcare Facilities"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "PCR 검사소의 대기줄이 수 킬로미터에 달한다는 보도",
+      "정부의 검사 역량 확대(Testing Capacity) 압박 심화",
+      "유럽 등 타 국가에서의 자가진단키트 보편화 선행",
+      "진단업체들의 FDA 승인 신청 공시"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0366",
+    "category": "팬데믹_전염병",
+    "event": "전염병 확산으로 인한 글로벌 핵심 항만(예: 옌톈항 등) 일시 폐쇄",
+    "causal_path": "항만 폐쇄 → 글로벌 공급망 병목 현상 심화 및 해상 운임 폭등 → 해운주 수익성 급증 및 소매업체 재고 부족 우려",
+    "beneficiary_sectors": [
+      "Marine Shipping",
+      "Air Freight & Logistics"
+    ],
+    "victim_sectors": [
+      "Apparel Retail",
+      "Consumer Electronics",
+      "Auto Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 항만 도시의 전면 봉쇄령(Lockdown) 발표",
+      "항만 근로자 중 무더기 확진자 발생 뉴스",
+      "글로벌 선사들의 해당 항만 기항 취소(Blank Sailing) 통보",
+      "상하이컨테이너운임지수(SCFI)의 비정상적 급등 조짐"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0367",
+    "category": "팬데믹_전염병",
+    "event": "대규모 집단 감염으로 인한 주요 육가공 공장 연쇄 셧다운",
+    "causal_path": "공장 셧다운 → 육류 공급 부족 및 가격 폭등 → 대체육(Plant-based meat) 수요 급증 및 관련 기업 주가 상승",
+    "beneficiary_sectors": [
+      "Packaged Foods",
+      "Grocery Stores"
+    ],
+    "victim_sectors": [
+      "Restaurants",
+      "Food Distributors"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "육가공 공장 밀집 지역의 지역사회 감염률 급증",
+      "육가공 노조의 안전 조치 미흡 규탄 및 조업 거부",
+      "도매 시장에서의 돈육/우육 선물 가격 급등",
+      "대형 마트의 1인당 육류 구매 제한 조치 시작"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0368",
+    "category": "팬데믹_전염병",
+    "event": "정부의 전 국민 대상 N95 마스크 및 진단키트 무상 배포 계획 발표",
+    "causal_path": "무상 배포 발표 → 정부의 대규모 조달 계약 체결 → 마스크 생산업체 및 진단키트 제조사 대규모 수주 공시 → 주가 급등",
+    "beneficiary_sectors": [
+      "Medical Instruments & Supplies",
+      "Diagnostics & Research"
+    ],
+    "victim_sectors": [
+      "Leisure Facilities"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "시중 약국에서의 진단키트 품귀 및 가격 폭리 논란",
+      "정치권의 방역 물품 공공 지원 촉구 결의안 발의",
+      "대통령의 대국민 방역 연설 일정 공지",
+      "우체국(USPS)을 통한 배송 물류망 점검 정황 포착"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0369",
+    "category": "팬데믹_전염병",
+    "event": "선내 대규모 집단 감염 발생으로 크루즈선 운항 전면 중단 발표",
+    "causal_path": "운항 중단 → 환불 사태 및 막대한 영업손실 발생 → 크루즈 선사 유동성 위기 부각 및 주가 폭락",
+    "beneficiary_sectors": [
+      "Video Gaming",
+      "Broad Market Index ETFs"
+    ],
+    "victim_sectors": [
+      "Cruise Lines",
+      "Travel Services"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "특정 크루즈선의 입항 거부 사태 연일 보도",
+      "탑승객들의 선내 격리 상황 SNS 실시간 중계",
+      "CDC의 크루즈 여행 자제 권고(Level 4) 발령",
+      "크루즈 선사들의 단기 채권 금리(Yield) 급등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0370",
+    "category": "팬데믹_전염병",
+    "event": "미 의회, 수조 달러 규모의 팬데믹 긴급 구제 법안(Stimulus Bill) 통과",
+    "causal_path": "법안 통과 → 개인 재난지원금 지급 및 기업 구제금융 실행 → 소비 심리 회복 및 증시 전반의 유동성 랠리, 특히 소매/핀테크 수혜",
+    "beneficiary_sectors": [
+      "E-Commerce Discretionary",
+      "Consumer Finance",
+      "Broad Market Index ETFs"
+    ],
+    "victim_sectors": [
+      "Gold Miners",
+      "Volatility ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "여야 지도부의 부양책 규모 극적 합의 뉴스",
+      "실업수당 청구 건수의 역사적 최고치 경신으로 인한 정치권 압박",
+      "재무장관의 '즉각적 조치 필요성' 의회 증언",
+      "법안의 상원/하원 표결 일정 확정 공시"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0371",
+    "category": "팬데믹_전염병",
+    "event": "WHO, 팬데믹 비상사태 종료 및 엔데믹(풍토병) 전환 선언",
+    "causal_path": "엔데믹 선언 → 완전한 일상 회복 및 보복 소비 폭발 → 여행, 항공, 오프라인 유통, 화장품 섹터 강력한 랠리",
+    "beneficiary_sectors": [
+      "Airlines",
+      "Hotels & Resorts",
+      "Apparel Retail",
+      "Personal Care Products"
+    ],
+    "victim_sectors": [
+      "Diagnostics & Research",
+      "Video Gaming",
+      "Application Software"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "글로벌 주간 사망자 수의 역사적 최저치 기록",
+      "주요 선진국들의 실내 마스크 의무화 전면 해제",
+      "WHO 사무총장의 '터널의 끝이 보인다' 긍정적 발언",
+      "미국 연방정부의 공중보건 비상사태(PHE) 종료 예고"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0372",
+    "category": "팬데믹_전염병",
+    "event": "빅테크 기업들, 전염병 사태 이후 영구적 재택근무(Permanent WFH) 정책 발표",
+    "causal_path": "영구 재택 발표 → 도심 오피스 수요 구조적 감소 및 교외 주택/홈오피스 수요 증가 → 오피스 리츠 하락, 주택 건설 및 인테리어 상승",
+    "beneficiary_sectors": [
+      "Homebuilding",
+      "Home Improvement Retail",
+      "Cloud Computing"
+    ],
+    "victim_sectors": [
+      "Office REITs",
+      "Commercial Real Estate"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "주요 테크 기업들의 도심 대형 오피스 임대 계약 파기 뉴스",
+      "직원 대상 '근무지 자율 선택제' 설문조사 실시",
+      "교외 지역(Suburbs) 주택 거래량 및 가격 급등 데이터",
+      "홈디포(Home Depot) 등 인테리어 소매점의 어닝 서프라이즈"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0373",
+    "category": "팬데믹_전염병",
+    "event": "미국 하수도 감시 시스템(Wastewater Surveillance)에서 바이러스 농도 폭증 데이터 공개",
+    "causal_path": "하수도 데이터 폭증 → 1~2주 내 실제 확진자 수 폭증 선행 지표로 인식 → 스마트 머니의 진단키트 및 백신주 선취매 유입",
+    "beneficiary_sectors": [
+      "Diagnostics & Research",
+      "Biotechnology"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Restaurants"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "CDC 하수도 감시 대시보드의 특정 지역 붉은색(위험) 표시 점등",
+      "지역 보건 당국의 하수도 데이터 기반 선제적 경고 발령",
+      "해당 지역 내 감기약 및 해열제 판매량 급증 데이터",
+      "의료 전문가들의 트위터(X)를 통한 경고 확산"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0374",
+    "category": "팬데믹_전염병",
+    "event": "조류독감(H5N1)의 인간 간 전염(Human-to-Human) 공식 확인",
+    "causal_path": "인간 간 전염 확인 → 치사율 높은 새로운 팬데믹 공포 극대화 → 증시 전반 패닉 셀링, VIX 폭등 및 백신/치료제 개발사 상한가",
+    "beneficiary_sectors": [
+      "Volatility ETFs",
+      "Biotechnology",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Broad Market Index ETFs",
+      "Airlines",
+      "Banks"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "동일 가족 또는 병원 내 의료진의 2차 감염 의심 사례 보고",
+      "가금류 접촉 이력이 없는 환자의 확진 판정",
+      "WHO의 긴급 역학조사팀 현지 파견",
+      "주식 시장 내 백신 관련주들의 이유 없는 급등(정보 선반영)"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0375",
+    "category": "팬데믹_전염병",
+    "event": "CDC, 확진자 급증으로 실내 마스크 착용 의무화 재권고",
+    "causal_path": "마스크 의무화 재권고 → 오프라인 경제 활동 위축 우려 및 마스크/방역 물품 수요 단기 급증 → 리오프닝주 하락, 방역 관련주 반등",
+    "beneficiary_sectors": [
+      "Medical Instruments & Supplies",
+      "E-Commerce Discretionary"
+    ],
+    "victim_sectors": [
+      "Restaurants",
+      "Leisure Facilities",
+      "Department Stores"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "겨울철 진입과 함께 호흡기 세포융합 바이러스(RSV) 및 독감 동시 유행(트리플데믹) 보도",
+      "일부 진보 성향 주(State)들의 선제적 마스크 의무화 부활",
+      "CDC 국장의 언론 브리핑 일정 긴급 편성",
+      "병원 입원율의 임계치(Threshold) 돌파 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

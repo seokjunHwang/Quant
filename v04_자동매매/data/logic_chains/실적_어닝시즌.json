@@ -1,0 +1,624 @@
+[
+  {
+    "chain_id": "LC-0401",
+    "category": "실적_어닝시즌",
+    "event": "엔비디아(Nvidia) 어닝 서프라이즈 및 가이던스 상향",
+    "causal_path": "AI 칩 수요 폭증 재확인 → 데이터센터 및 인프라 투자 확대 전망 → AI 밸류체인 전반의 숏스퀴즈 및 매수세 유입 → 반도체 섹터 급등",
+    "beneficiary_sectors": [
+      "Semiconductors",
+      "Semiconductor Equipment",
+      "Data Center REITs"
+    ],
+    "victim_sectors": [
+      "Consumer Staples",
+      "Utilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "TSMC 월간 매출 가이던스 상회",
+      "서버 ODM 업체(슈퍼마이크로 등)의 실적 호조 및 긍정적 코멘트",
+      "옵션 시장에서 엔비디아 외가격(OTM) 콜옵션 미결제약정 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0402",
+    "category": "실적_어닝시즌",
+    "event": "애플(Apple) 아이폰 판매량 쇼크 및 가이던스 하향",
+    "causal_path": "글로벌 IT 기기 수요 둔화 우려 → 애플 부품 공급사 실적 추정치 하향 → 하드웨어 테크 섹터 전반의 투자심리 악화 → 방어주로의 자금 이동",
+    "beneficiary_sectors": [
+      "Consumer Staples",
+      "Healthcare"
+    ],
+    "victim_sectors": [
+      "Consumer Electronics",
+      "Electronic Components"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 시장 내 아이폰 할인 판매 뉴스 보도",
+      "폭스콘(Foxconn) 등 주요 조립 업체의 월간 매출 감소",
+      "통신사들의 스마트폰 업그레이드 율(Upgrade rate) 하락 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0403",
+    "category": "실적_어닝시즌",
+    "event": "마이크로소프트(MSFT) 애저(Azure) 클라우드 성장률 서프라이즈",
+    "causal_path": "기업들의 AI 및 클라우드 지출 견조함 확인 → 엔터프라이즈 소프트웨어 수요 우려 불식 → SaaS 및 클라우드 인프라 주가 동반 상승",
+    "beneficiary_sectors": [
+      "Cloud Infrastructure",
+      "Enterprise SaaS",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "Legacy IT Services"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "IT CIO 대상 설문조사에서 클라우드 예산 집행률 상승",
+      "중소형 클라우드 모니터링 업체들의 양호한 선행 실적",
+      "마이크로소프트 코파일럿(Copilot) 채택률 증가 관련 언론 보도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0404",
+    "category": "실적_어닝시즌",
+    "event": "테슬라(Tesla) 자동차 부문 마진율 급감 (어닝 쇼크)",
+    "causal_path": "가격 인하 정책으로 인한 수익성 훼손 확인 → 전기차 산업 전반의 치킨게임 우려 확산 → EV 완성차 및 배터리 밸류체인 동반 급락",
+    "beneficiary_sectors": [
+      "Traditional Automakers",
+      "Auto Parts"
+    ],
+    "victim_sectors": [
+      "Electric Vehicles",
+      "Lithium Miners",
+      "Battery Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국/중국 시장 내 테슬라 모델Y/3 가격 인하 공지",
+      "글로벌 전기차 재고 일수(Days of Inventory) 증가",
+      "렌터카 업체(허츠 등)의 전기차 중고 매각 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0405",
+    "category": "실적_어닝시즌",
+    "event": "메타(Meta) 디지털 광고 매출 서프라이즈",
+    "causal_path": "AI 타겟팅 효율 개선 및 광고 단가 상승 확인 → 디지털 광고 시장 회복 기대감 → 소셜 미디어 및 애드테크(Ad-Tech) 섹터 랠리",
+    "beneficiary_sectors": [
+      "Interactive Media & Services",
+      "Advertising Agencies"
+    ],
+    "victim_sectors": [
+      "Traditional Media",
+      "Broadcasting"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "광고 대행사들의 분기별 디지털 광고 예산 집행액 증가 리포트",
+      "핀터레스트, 스냅 등 중소형 SNS의 광고 단가(CPM) 바닥 통과 신호",
+      "메타의 릴스(Reels) 수익화 지표 개선 관련 애널리스트 코멘트"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0406",
+    "category": "실적_어닝시즌",
+    "event": "아마존(Amazon) AWS 매출 성장률 둔화",
+    "causal_path": "기업들의 클라우드 비용 최적화(Cost Optimization) 지속 확인 → 클라우드 인프라 성장 피크아웃 우려 → 데이터센터 및 서버 관련주 차익실현",
+    "beneficiary_sectors": [
+      "Value Tech",
+      "Telecommunications"
+    ],
+    "victim_sectors": [
+      "Cloud Infrastructure",
+      "Data Center REITs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "스타트업 펀딩 감소로 인한 중소형 고객사들의 클라우드 지출 축소",
+      "아마존의 대규모 인력 구조조정 발표",
+      "경쟁사(MSFT, GOOGL) 대비 AWS 시장 점유율 하락 리포트"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0407",
+    "category": "실적_어닝시즌",
+    "event": "알파벳(Alphabet) AI 자본적지출(CAPEX) 대폭 상향",
+    "causal_path": "빅테크 간 AI 인프라 군비 경쟁 심화 → 잉여현금흐름(FCF) 감소 우려로 본진 주가 하락 → 반면 전력, 냉각, 서버 장비 공급망은 수혜",
+    "beneficiary_sectors": [
+      "Electrical Equipment",
+      "Cooling Technology",
+      "Semiconductor Equipment"
+    ],
+    "victim_sectors": [
+      "Mega Cap Tech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "구글의 자체 AI 칩(TPU) 발주량 급증 데이터",
+      "데이터센터 전력망 연결 대기 시간(Queue) 역대 최고치 경신",
+      "알파벳 경영진의 컨퍼런스콜 전 'AI 투자 최우선' 발언"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0408",
+    "category": "실적_어닝시즌",
+    "event": "JP모건(JPM) 등 대형 은행 순이자마진(NIM) 서프라이즈",
+    "causal_path": "고금리 환경 하 대형 은행의 예금 방어력 및 대출 수익성 입증 → 금융주 전반의 실적 기대감 상승 → 대형 은행주 및 금융 ETF 강세",
+    "beneficiary_sectors": [
+      "Large Cap Banks",
+      "Asset Management"
+    ],
+    "victim_sectors": [
+      "Real Estate Management"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "연준(Fed) 스트레스 테스트 결과 대형 은행 자본 건전성 부각",
+      "중소형 은행에서 대형 은행으로의 예금 이동(Flight to Quality) 데이터",
+      "신용카드 연체율 상승세 둔화 지표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0409",
+    "category": "실적_어닝시즌",
+    "event": "지역은행(Regional Bank) 뱅크런 징후 및 예금 급감 쇼크",
+    "causal_path": "상업용 부동산(CRE) 부실 및 예금 이탈로 인한 유동성 위기 부각 → 중소형 은행 연쇄 도산 우려 → 안전자산 선호 심리 발동",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Large Cap Banks"
+    ],
+    "victim_sectors": [
+      "Regional Banks",
+      "Commercial REITs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "특정 지역은행의 긴급 자금 조달(증자) 발표",
+      "상업용 부동산 연체율 급등 뉴스",
+      "연준 재할인창구(Discount Window) 대출액 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0410",
+    "category": "실적_어닝시즌",
+    "event": "월마트(Walmart) 어닝 서프라이즈 및 가이던스 상향",
+    "causal_path": "인플레이션 압력 속 저소득/중산층의 가성비 소비 집중 확인 → 할인점 및 필수소비재 실적 호조 → 반면 재량소비재 및 명품은 타격",
+    "beneficiary_sectors": [
+      "Discount Retailers",
+      "Consumer Staples"
+    ],
+    "victim_sectors": [
+      "Luxury Goods",
+      "Department Stores"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "신용카드 결제 데이터 상 할인점 트래픽 증가",
+      "소비자 심리지수 하락 속에서도 식료품 지출 유지",
+      "타겟(Target) 등 경쟁사들의 프라이빗 라벨(PB) 상품 매출 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0411",
+    "category": "실적_어닝시즌",
+    "event": "홈디포(Home Depot) 가이던스 하향 (주택시장 침체 반영)",
+    "causal_path": "모기지 금리 급등으로 인한 기존 주택 거래량 급감 → 인테리어 및 리모델링 수요 증발 → 주택 건설 및 건축 자재 섹터 하락",
+    "beneficiary_sectors": [
+      "Apartment REITs"
+    ],
+    "victim_sectors": [
+      "Home Improvement Retail",
+      "Homebuilders",
+      "Building Materials"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 기존주택판매(Existing Home Sales) 지표 연속 하락",
+      "30년물 모기지 금리 7% 돌파 및 유지",
+      "목재(Lumber) 선물 가격 급락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0412",
+    "category": "실적_어닝시즌",
+    "event": "엑슨모빌(Exxon) 기록적 잉여현금흐름(FCF) 및 자사주 매입 확대",
+    "causal_path": "고유가 환경 하 전통 에너지 기업의 막대한 현금 창출력 입증 → 주주환원 확대 기대감 → 정유 및 E&P 섹터로의 가치주 자금 유입",
+    "beneficiary_sectors": [
+      "Oil & Gas E&P",
+      "Integrated Oil & Gas"
+    ],
+    "victim_sectors": [
+      "Renewable Energy",
+      "Airlines"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "WTI 및 브렌트유 선물 가격의 견조한 상승세",
+      "OPEC+의 기습적인 감산 연장 발표",
+      "에너지 섹터 내 M&A(인수합병) 루머 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0413",
+    "category": "실적_어닝시즌",
+    "event": "일라이릴리(Eli Lilly) 비만치료제(GLP-1) 매출 폭발적 성장",
+    "causal_path": "GLP-1 치료제 수요가 공급을 초과하는 현상 지속 → 제약/바이오 섹터 주도주 랠리 → 반면 식음료 및 비만 관련 의료기기 수요 감소 우려",
+    "beneficiary_sectors": [
+      "Pharmaceuticals",
+      "Biotechnology"
+    ],
+    "victim_sectors": [
+      "Packaged Foods",
+      "Medical Devices"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "약국 체인 데이터 상 젭바운드/위고비 처방 건수 급증",
+      "경쟁사 노보노디스크의 긍정적인 임상 데이터 선발표",
+      "가공식품 업체 CEO들의 '비만약으로 인한 스낵 소비 감소' 언급"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0414",
+    "category": "실적_어닝시즌",
+    "event": "ASML/AMAT 반도체 장비 수주 잔고(Backlog) 급증",
+    "causal_path": "파운드리 및 메모리 업체의 선단 공정 투자 재개 확인 → 반도체 장비 출하량 증가 전망 → 반도체 소부장(장비/소재) 섹터 급등",
+    "beneficiary_sectors": [
+      "Semiconductor Equipment",
+      "Semiconductor Materials"
+    ],
+    "victim_sectors": [
+      "None"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "TSMC 및 삼성전자의 CAPEX 상향 조정 발표",
+      "미국 칩스법(CHIPS Act) 보조금 지급 확정 뉴스",
+      "메모리 반도체(DRAM/NAND) 현물 가격 반등"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0415",
+    "category": "실적_어닝시즌",
+    "event": "대어급 AI/테크 기업의 성공적인 IPO (상장 첫날 폭등)",
+    "causal_path": "신규 상장 테크 기업에 대한 시장의 뜨거운 수요 확인 → IPO 시장 빙하기 종료 기대감 → 투자은행(IB) 및 벤처캐피탈, IPO ETF 수혜",
+    "beneficiary_sectors": [
+      "Investment Banks",
+      "Private Equity",
+      "Financial Exchanges"
+    ],
+    "victim_sectors": [
+      "Legacy Tech"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "해당 IPO의 기관 수요예측 경쟁률 역대급 기록",
+      "공모가 밴드 상단 초과 확정 뉴스",
+      "VIX 지수 하락 및 전반적인 위험자산 선호(Risk-on) 심리"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0416",
+    "category": "실적_어닝시즌",
+    "event": "기대받던 유니콘 기업의 IPO 실패 (상장 직후 공모가 하회)",
+    "causal_path": "고평가 논란 및 시장 유동성 부족 확인 → 대기 중인 타 기업들의 IPO 연기 속출 → 투자은행 실적 악화 및 벤처 생태계 냉각",
+    "beneficiary_sectors": [
+      "Safe Haven Assets",
+      "Large Cap Tech"
+    ],
+    "victim_sectors": [
+      "Investment Banks",
+      "Pre-IPO Tech"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "상장 전 장외 시장(Private Market)에서의 기업가치 하향 조정",
+      "주요 앵커 투자자들의 보호예수(Lock-up) 완화 요구",
+      "금리 인상 우려로 인한 성장주 밸류에이션 압박"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0417",
+    "category": "실적_어닝시즌",
+    "event": "팔로알토/크라우드스트라이크 사이버보안 어닝 서프라이즈",
+    "causal_path": "해킹 위협 증가로 인한 기업들의 보안 예산 삭감 면제 확인 → 차세대 엔드포인트 및 클라우드 보안 수요 급증 → 사이버보안 섹터 랠리",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "victim_sectors": [
+      "Legacy Network Security"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "대형 랜섬웨어 공격 및 데이터 유출 사건 언론 보도",
+      "미국 연방정부의 사이버보안 예산 증액 발표",
+      "IT 보안 책임자(CISO) 대상 설문조사에서 예산 1순위 지목"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0418",
+    "category": "실적_어닝시즌",
+    "event": "주요 SaaS 기업들의 청구액(Billings) 성장률 둔화",
+    "causal_path": "소프트웨어 신규 계약 지연 및 고객 이탈 증가 → SaaS 섹터의 고멀티플 정당화 실패 → 고평가 성장주 전반의 밸류에이션 조정",
+    "beneficiary_sectors": [
+      "Value Tech",
+      "Dividend Yielders"
+    ],
+    "victim_sectors": [
+      "Enterprise SaaS",
+      "High Growth Tech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "세일즈포스 등 선도 업체의 영업 사이클 장기화 언급",
+      "소프트웨어 업계의 대규모 인력 감축 지속",
+      "매크로 불확실성으로 인한 기업들의 IT 지출 동결"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0419",
+    "category": "실적_어닝시즌",
+    "event": "델타항공(Delta) 등 주요 항공사 가이던스 하향 (비용 상승)",
+    "causal_path": "제트유 가격 상승 및 조종사 임금 인상으로 인한 마진 압박 → 항공권 가격 인상 한계 도달 → 항공 및 여행 레저 섹터 투심 악화",
+    "beneficiary_sectors": [
+      "Video Conferencing",
+      "Auto Travel"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Hotels & Resorts"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "국제 유가(WTI) 및 제트유(Jet Fuel) 크랙 스프레드 급등",
+      "항공사 노조의 파업 결의 및 대규모 임금 인상 타결",
+      "TSA(교통보안청) 일일 검색대 통과 여객 수 증가세 둔화"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0420",
+    "category": "실적_어닝시즌",
+    "event": "러셀 2000 (중소형주) 전반의 예상 밖 어닝 서프라이즈",
+    "causal_path": "미국 내수 경제의 강력한 연착륙(Soft Landing) 확인 → 빅테크에 쏠렸던 자금이 소외주로 이동 → 섹터 로테이션 발생 (가치주/중소형주 강세)",
+    "beneficiary_sectors": [
+      "Small Cap Value",
+      "Regional Banks",
+      "Industrials"
+    ],
+    "victim_sectors": [
+      "Mega Cap Tech"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미국 ISM 비제조업 PMI의 견조한 확장세 유지",
+      "빅테크 기업들의 밸류에이션 부담에 따른 공매도 잔고 증가",
+      "미국 GDP 성장률 속보치의 예상치 상회"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0421",
+    "category": "실적_어닝시즌",
+    "event": "LVMH / 에스티로더 등 명품 및 하이엔드 소비재 실적 쇼크",
+    "causal_path": "중국 경기 침체 및 미국 부유층의 소비 둔화 현실화 → 글로벌 명품 수요 급감 → 럭셔리 브랜드 및 고급 백화점 주가 급락",
+    "beneficiary_sectors": [
+      "Discount Retailers",
+      "Fast Fashion"
+    ],
+    "victim_sectors": [
+      "Luxury Goods",
+      "High-end Department Stores"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 소매판매 지표의 지속적인 부진",
+      "스위스 시계 수출 데이터의 급격한 감소",
+      "명품 2차 시장(리셀 마켓)에서의 롤렉스 등 가격 하락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0422",
+    "category": "실적_어닝시즌",
+    "event": "록히드마틴(LMT) 등 방산업체 수주 잔고(Backlog) 역대 최고치 경신",
+    "causal_path": "지정학적 긴장 고조로 인한 글로벌 국방비 지출 급증 확인 → 무기 체계 및 항공우주 방산 수요 장기화 전망 → 방산주 랠리",
+    "beneficiary_sectors": [
+      "Defense Aerospace",
+      "Military Shipbuilding"
+    ],
+    "victim_sectors": [
+      "Commercial Aerospace"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "중동 및 동유럽 지역의 무력 충돌 격화 뉴스",
+      "미국 국방수권법(NDAA) 예산 증액 통과",
+      "유럽 주요국(독일, 폴란드 등)의 국방비 GDP 2% 달성 선언"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0423",
+    "category": "실적_어닝시즌",
+    "event": "엔페이즈(Enphase) 등 태양광 인버터 업체 어닝 쇼크",
+    "causal_path": "고금리로 인한 주택용 태양광 설치 수요 급감 및 캘리포니아 정책(NEM 3.0) 여파 확인 → 태양광 밸류체인 재고 과잉 우려 → 신재생에너지 섹터 폭락",
+    "beneficiary_sectors": [
+      "Traditional Utilities",
+      "Fossil Fuels"
+    ],
+    "victim_sectors": [
+      "Solar Energy",
+      "Clean Energy"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 주택담보대출(모기지) 금리의 가파른 상승",
+      "유럽 지역의 전력 가격 안정화로 인한 태양광 수요 감소",
+      "태양광 패널 유통 채널의 재고 누적 리포트"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0424",
+    "category": "실적_어닝시즌",
+    "event": "비자(Visa)/아멕스(Amex) 실적 발표 중 신용카드 연체율 상승 경고",
+    "causal_path": "초과 저축 고갈 및 고금리 장기화로 인한 소비자 신용 리스크 부각 → 소비 위축 우려 확산 → 소비자 금융 및 재량소비재 타격",
+    "beneficiary_sectors": [
+      "Consumer Staples",
+      "Discount Retailers"
+    ],
+    "victim_sectors": [
+      "Consumer Finance",
+      "Consumer Discretionary"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미국 자동차 대출(Auto Loan) 연체율의 선행적 상승",
+      "학자금 대출 상환 재개로 인한 가처분 소득 감소",
+      "서브프라임 타겟 핀테크 업체들의 실적 악화 선발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0425",
+    "category": "실적_어닝시즌",
+    "event": "프리포트 맥모란(FCX) 등 구리 광산 업체 어닝 서프라이즈",
+    "causal_path": "AI 데이터센터 전력망 확충 및 전기차 전환으로 인한 구리 구조적 공급 부족 확인 → 구리 가격 상승 전망 → 비철금속 광산주 강세",
+    "beneficiary_sectors": [
+      "Copper Miners",
+      "Industrial Metals"
+    ],
+    "victim_sectors": [
+      "Electrical Equipment Manufacturers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "LME(런던금속거래소) 구리 재고량 급감",
+      "파나마 등 주요 구리 광산의 조업 중단 및 파업 사태",
+      "중국의 전력망 인프라 투자 확대 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

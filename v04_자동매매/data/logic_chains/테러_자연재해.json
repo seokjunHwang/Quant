@@ -1,0 +1,697 @@
+[
+  {
+    "chain_id": "LC-0126",
+    "category": "테러_자연재해",
+    "event": "미국 본토 내 대형 테러 발생 (9/11 수준)",
+    "causal_path": "대형 테러 발생 → 국가 비상사태 선포 및 항공/교통 전면 통제 → 안전자산 선호 및 국방 예산 증액 기대감 → 방산/보안주 급등 및 여행/항공주 폭락",
+    "beneficiary_sectors": [
+      "Defense",
+      "Cybersecurity",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Hotels & Resorts",
+      "Cruise Lines"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "국토안보부(DHS)의 국가 테러 경보 단계 격상",
+      "다크웹 내 극단주의 테러 그룹의 활동 및 통신 트래픽 급증",
+      "특정 항공사나 랜드마크 관련 풋옵션 거래량의 비정상적 폭증",
+      "주요 도시 내 경찰 및 대테러 부대의 경계 태세 강화 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0127",
+    "category": "테러_자연재해",
+    "event": "미국 주요 금융 인프라 대상 대규모 사이버 테러",
+    "causal_path": "금융망 해킹 공격 → 결제 시스템 마비 및 뱅크런 우려 확산 → 사이버 보안 수요 폭증 및 전통 금융주 매도세 → 보안주 수혜 및 대형 은행주 타격",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "Gold Miners",
+      "IT Consulting & Other Services"
+    ],
+    "victim_sectors": [
+      "Large Cap Banks",
+      "Payment Processors",
+      "Investment Banking & Brokerage"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "소규모 지역 은행들의 원인 불명 전산 장애 연쇄 발생",
+      "CISA(사이버보안 및 인프라 보안국)의 금융권 타겟 랜섬웨어 경고 발령",
+      "주요 해킹 그룹의 소셜 미디어를 통한 대규모 공격 예고",
+      "금융권 IT 보안 책임자들의 긴급 회동 소식"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0128",
+    "category": "테러_자연재해",
+    "event": "미국 주요 송유관 대상 사이버 테러 (콜로니얼 파이프라인 사태 재발)",
+    "causal_path": "송유관 시스템 랜섬웨어 감염 → 가동 전면 중단 및 동부 지역 연료 공급 차질 → 유가 급등 및 대체 운송 수단 수요 증가 → 에너지/철도 수혜 및 운송/항공 타격",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "Oil & Gas Exploration & Production",
+      "Railroads"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Trucking",
+      "Auto Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "에너지 인프라 기업들의 내부망 접속 지연 등 이상 징후 보고",
+      "에너지부(DOE)의 인프라 보안 취약점 관련 비공개 브리핑 유출",
+      "다크웹에서 주요 송유관 업체의 시스템 접근 권한 거래 정황 포착",
+      "주유소 휘발유 재고 감소 및 도매가 선제적 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0129",
+    "category": "테러_자연재해",
+    "event": "중동 주요 석유 시설 대상 대규모 드론/미사일 테러",
+    "causal_path": "핵심 정유/채굴 시설 파괴 → 글로벌 원유 공급망 일시 마비 및 유가 폭등 → 미국 내 셰일가스 및 원유 생산업체 반사이익 → 미 에너지주 급등",
+    "beneficiary_sectors": [
+      "Oil & Gas Exploration & Production",
+      "Defense",
+      "Oil & Gas Equipment & Services"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Auto Manufacturers",
+      "Specialty Chemicals"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중동 지역 내 친이란 무장단체의 군사 훈련 및 위협 성명 발표",
+      "미국 정찰위성의 중동 주요 석유 시설 주변 이상 징후 포착",
+      "원유 선물 시장(WTI, Brent)의 단기 변동성 지수(OVX) 급등",
+      "해당 지역 내 미국 대사관의 자국민 대피 권고 발령"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0130",
+    "category": "테러_자연재해",
+    "event": "글로벌 해상 물류 요충지(홍해/수에즈) 민간 선박 연쇄 테러",
+    "causal_path": "해협 통항 불가 및 희망봉 우회 결정 → 해상 운임 폭등 및 물류 병목 현상 발생 → 해운사 수익성 개선 및 소매업체 마진 축소 → 해운주 급등",
+    "beneficiary_sectors": [
+      "Marine Shipping",
+      "Air Freight & Logistics",
+      "Defense"
+    ],
+    "victim_sectors": [
+      "Broadline Retail",
+      "Auto Parts & Equipment",
+      "Apparel Retail"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 해협 인근에서 소형 무장 선박의 민간 상선 접근 사례 증가",
+      "글로벌 해상 보험사들의 해당 지역 통항 선박에 대한 전쟁보험료 인상",
+      "미 해군의 해당 수역 순찰 강화 및 호위 작전 준비 소식",
+      "상하이컨테이너운임지수(SCFI)의 비정상적 반등 조짐"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0131",
+    "category": "테러_자연재해",
+    "event": "미국 대도시 내 생화학 무기 테러 또는 심각한 위협",
+    "causal_path": "생화학 테러 발생/위협 → 대규모 인명 피해 우려 및 도시 봉쇄 → 백신/치료제 수요 폭증 및 오프라인 경제 활동 마비 → 바이오주 수혜 및 리츠/오프라인 타격",
+    "beneficiary_sectors": [
+      "Biotechnology",
+      "Pharmaceuticals",
+      "Healthcare Providers & Services"
+    ],
+    "victim_sectors": [
+      "Retail REITs",
+      "Airlines",
+      "Restaurants"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "질병통제예방센터(CDC)의 특정 지역 내 원인 불명 호흡기 환자 급증 보고",
+      "대도시 수자원 및 지하철 공조 시스템에 대한 보안 점검 강화 지시",
+      "정부의 방독면 및 해독제 전략 비축 물자 이동 정황 포착",
+      "특정 극단주의 그룹의 생화학 무기 제조 관련 다크웹 매뉴얼 유포"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0132",
+    "category": "테러_자연재해",
+    "event": "해외 주둔 미군 기지 대상 대규모 기습 테러",
+    "causal_path": "미군 대규모 사상자 발생 → 미국의 즉각적인 군사적 보복 공격 개시 → 지정학적 리스크 최고조 및 국방 예산 즉각 집행 → 방산주 급등",
+    "beneficiary_sectors": [
+      "Defense",
+      "Aerospace & Defense",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Consumer Discretionary",
+      "Hotels & Resorts"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 지역 내 미군 기지의 경계 태세(FPCON) 최고 단계 격상",
+      "미 국방부의 해당 지역 내 정찰기 출격 횟수 급증",
+      "현지 무장 세력의 통신 암호화 수준 격상 및 트래픽 증가",
+      "미국 정치권의 해당 지역 철수 또는 증원 관련 논쟁 격화"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0133",
+    "category": "테러_자연재해",
+    "event": "라스베이거스 등 대형 카지노/리조트 밀집 지역 총기 난사 테러",
+    "causal_path": "대형 공공장소 테러 발생 → 관광객 급감 및 예약 대규모 취소 → 보안 검색 강화 및 감시 장비 수요 증가 → 보안업체 수혜 및 카지노/호텔 타격",
+    "beneficiary_sectors": [
+      "Security & Protection Services",
+      "Electronic Equipment & Instruments"
+    ],
+    "victim_sectors": [
+      "Casinos & Gaming",
+      "Hotels & Resorts",
+      "Airlines"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "총기 규제 완화 관련 정치적 논쟁 및 시위 격화",
+      "온라인 커뮤니티 내 특정 장소 타겟 범죄 예고글 게시",
+      "지역 경찰의 대규모 행사 앞두고 테러 대비 모의 훈련 실시",
+      "총기 및 탄약 판매량의 단기적 급증 현상"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0134",
+    "category": "테러_자연재해",
+    "event": "카테고리 5급 초대형 허리케인 멕시코만(Gulf Coast) 상륙",
+    "causal_path": "초대형 허리케인 상륙 → 멕시코만 해상 유전 및 텍사스/루이지애나 정유시설 가동 중단 → 정제마진 급등 및 휘발유 가격 상승 → 정유주 수혜 및 손해보험주 타격",
+    "beneficiary_sectors": [
+      "Oil & Gas Refining & Marketing",
+      "Homebuilders",
+      "Building Products"
+    ],
+    "victim_sectors": [
+      "Property & Casualty Insurance",
+      "Offshore Drilling",
+      "Airlines"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "국립허리케인센터(NHC)의 열대성 폭풍 발달 및 카테고리 격상 경고",
+      "멕시코만 해수면 온도의 평년 대비 비정상적 상승 데이터 발표",
+      "주요 에너지 기업들의 해상 플랫폼 인력 철수 및 가동 중단(Shut-in) 발표",
+      "천연가스 및 휘발유 선물 가격의 선제적 상승 랠리"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0135",
+    "category": "테러_자연재해",
+    "event": "카테고리 5급 초대형 허리케인 플로리다 관통",
+    "causal_path": "플로리다 주거지 및 인프라 초토화 → 대규모 재건 사업 필요성 대두 및 막대한 보험금 청구 → 주택 개조/건자재 수요 폭증 → 홈디포 등 건자재 수혜 및 보험주 급락",
+    "beneficiary_sectors": [
+      "Home Improvement Retail",
+      "Building Products",
+      "Electrical Equipment"
+    ],
+    "victim_sectors": [
+      "Property & Casualty Insurance",
+      "Leisure Facilities",
+      "Regional Banks"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "플로리다 주지사의 비상사태 선포 및 해안가 주민 대피령 발령",
+      "NHC의 허리케인 예상 경로 모델(스파게티 모델) 플로리다 집중",
+      "플로리다 지역 대형 마트의 생수, 발전기, 합판 등 재난 대비 물품 품절 사태",
+      "재보험사(Reinsurance) 주가의 선제적 하락세 출현"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0136",
+    "category": "테러_자연재해",
+    "event": "캘리포니아(실리콘밸리) 규모 8.0 이상 대지진 발생",
+    "causal_path": "대지진으로 인한 IT 인프라 및 반도체 팹 파괴 → 글로벌 테크 공급망 마비 및 데이터 손실 우려 → 클라우드 백업 수요 증가 및 반도체 생산 차질 → 클라우드/건설 수혜 및 반도체 타격",
+    "beneficiary_sectors": [
+      "Construction & Engineering",
+      "Data Center REITs",
+      "IT Consulting & Other Services"
+    ],
+    "victim_sectors": [
+      "Semiconductors",
+      "Property & Casualty Insurance",
+      "Regional Banks"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "캘리포니아 단층대 인근 미세 지진(전진) 빈도의 급격한 증가",
+      "지진 조기 경보 시스템(EEW)의 잦은 경고 알림 발생",
+      "미국 지질조사국(USGS)의 샌안드레아스 단층 응력 누적 경고 리포트 발간",
+      "해당 지역 내 동물들의 이상 행동 및 지하수 수위 급변 보고"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0137",
+    "category": "테러_자연재해",
+    "event": "캘리포니아 역대급 대형 산불(Wildfires) 확산",
+    "causal_path": "고온 건조 기후 속 산불 통제 불능 → 전력망 차단(PSPS) 및 대규모 주택 전소 → 비상 발전기 수요 증가 및 유틸리티 기업 배상 책임 부각 → 발전기/환경 수혜 및 유틸리티 타격",
+    "beneficiary_sectors": [
+      "Electrical Equipment",
+      "Environmental & Facilities Services",
+      "Homebuilders"
+    ],
+    "victim_sectors": [
+      "Electric Utilities",
+      "Property & Casualty Insurance",
+      "Timber REITs"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 기상청의 캘리포니아 전역 '적색 경보(Red Flag Warning)' 발령",
+      "장기 가뭄 지속 및 산림 내 건조 연료(Dry Fuel) 지수 최고치 경신",
+      "강력한 산타아나 강풍(Santa Ana winds) 예보",
+      "지역 전력 회사들의 예방적 전력 차단(PSPS) 계획 사전 공지"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0138",
+    "category": "테러_자연재해",
+    "event": "미국 서해안 또는 하와이 대형 쓰나미 강타",
+    "causal_path": "환태평양 지진대 강진에 따른 쓰나미 발생 → 해안가 관광지 및 항만 인프라 침수 → 관광 산업 마비 및 항만 복구 수요 발생 → 건설/건자재 수혜 및 호텔/항공 타격",
+    "beneficiary_sectors": [
+      "Construction & Engineering",
+      "Building Products",
+      "Heavy Electrical Equipment"
+    ],
+    "victim_sectors": [
+      "Hotels & Resorts",
+      "Airlines",
+      "Marine Ports & Services"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "알래스카 또는 일본 앞바다 등 환태평양 조산대에서의 규모 8.0 이상 강진 발생",
+      "태평양 쓰나미 경보 센터(PTWC)의 쓰나미 경보 발령 및 해수면 이상 변동 관측",
+      "하와이 및 서해안 해안가 주민 대상 긴급 대피 사이렌 작동",
+      "해안가 위치 주요 정유/항만 시설의 긴급 가동 중단 조치"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0139",
+    "category": "테러_자연재해",
+    "event": "텍사스 기록적 한파 및 전력망(ERCOT) 대규모 붕괴",
+    "causal_path": "극단적 북극 한파 남하 → 난방 수요 폭증 및 발전 시설 동파로 인한 블랙아웃 → 천연가스 가격 폭등 및 텍사스 내 반도체/정유 공장 셧다운 → 가스/발전기 수혜 및 반도체 타격",
+    "beneficiary_sectors": [
+      "Natural Gas Producers",
+      "Electrical Equipment",
+      "Independent Power and Renewable Electricity Producers"
+    ],
+    "victim_sectors": [
+      "Electric Utilities",
+      "Semiconductors",
+      "Oil & Gas Refining & Marketing"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "기상청의 이례적인 북극 소용돌이(Polar Vortex) 남하 예보",
+      "텍사스 전력망 위원회(ERCOT)의 전력 예비율 급감 경고 및 절전 호소",
+      "천연가스 현물 가격(Henry Hub)의 단기 폭등 현상",
+      "텍사스 내 주요 반도체 팹들의 전력 공급 중단 대비 비상 체제 돌입"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0140",
+    "category": "테러_자연재해",
+    "event": "미국 중서부(Corn Belt) 대규모 홍수 발생",
+    "causal_path": "기록적 폭우로 인한 미시시피강 범람 → 농경지 침수 및 파종 지연/작황 부진 → 곡물 가격 급등 및 비료/농기계 수요 증가 → 농업 관련주 수혜 및 식품가공주 타격",
+    "beneficiary_sectors": [
+      "Fertilizers & Agricultural Chemicals",
+      "Agricultural Machinery",
+      "Agricultural Products"
+    ],
+    "victim_sectors": [
+      "Packaged Foods & Meats",
+      "Restaurants"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미 중서부 지역의 봄철 기록적인 폭우 및 적설 융해 예보",
+      "미국 국립기상청(NWS)의 미시시피강 유역 홍수 경보 발령",
+      "미국 농무부(USDA)의 주간 작황 보고서상 파종 진행률 급감 발표",
+      "시카고상품거래소(CBOT) 옥수수/대두 선물 가격의 상승 반전"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0141",
+    "category": "테러_자연재해",
+    "event": "미시시피강 극심한 가뭄으로 인한 수위 최저치 경신",
+    "causal_path": "가뭄으로 인한 내륙 수운 마비 → 바지선 운항 중단에 따른 곡물 및 원자재 운송 차질 → 육상 운송(철도/트럭) 대체 수요 폭증 → 철도/트럭 수혜 및 내륙 해운 타격",
+    "beneficiary_sectors": [
+      "Railroads",
+      "Trucking",
+      "Air Freight & Logistics"
+    ],
+    "victim_sectors": [
+      "Marine Shipping",
+      "Agricultural Products",
+      "Coal Operations"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "미국 가뭄 모니터(US Drought Monitor)의 중서부 지역 '극심한 가뭄' 단계 격상",
+      "미 육군 공병대의 미시시피강 수위 저하에 따른 바지선 적재량 제한 조치 발표",
+      "바지선 운임 지수의 비정상적인 급등",
+      "걸프만 수출 항구의 곡물 재고 부족 현상 가시화"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0142",
+    "category": "테러_자연재해",
+    "event": "대형 화산 폭발로 인한 화산재 구름 확산 (글로벌 항공 마비)",
+    "causal_path": "화산재로 인한 제트 엔진 손상 우려 → 북미/대서양 횡단 항공편 전면 결항 → 여객 및 항공 화물 운송 마비 → 화상회의/대체운송 수혜 및 항공/여행 타격",
+    "beneficiary_sectors": [
+      "Application Software",
+      "Railroads",
+      "Marine Shipping"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Air Freight & Logistics",
+      "Travel & Tourism"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "알래스카, 아이슬란드 등 주요 화산 지대의 지진 활동 급증(군발지진)",
+      "화산재 주의보 센터(VAAC)의 항공 기상 적색 경보 발령",
+      "인근 상공을 지나는 항공기들의 화산재 조우 및 긴급 회항 보고",
+      "화산 분화구 인근 지표면 팽창 및 가스 방출량 급증 관측"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0143",
+    "category": "테러_자연재해",
+    "event": "초대형 태양풍(Solar Flare) 및 EMP 현상 지구 강타",
+    "causal_path": "강력한 지자기 폭풍 발생 → 인공위성 고장 및 GPS/통신망 대규모 교란 → 지상 광케이블 및 유선 통신망 의존도 급증 → 유선통신/케이블 수혜 및 위성/항공 타격",
+    "beneficiary_sectors": [
+      "Communications Equipment",
+      "Alternative Carriers",
+      "IT Consulting & Other Services"
+    ],
+    "victim_sectors": [
+      "Satellite Communications",
+      "Airlines",
+      "Broadcasting"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 해양대기청(NOAA) 우주날씨예측센터의 G5(극심) 등급 지자기 폭풍 경보 발령",
+      "태양 표면의 대규모 흑점 폭발(X급 플레어) 관측 뉴스 보도",
+      "일부 고위도 지역 위성 통신 및 단파 라디오 통신 장애 발생 보고",
+      "저궤도 위성(스타링크 등)의 궤도 유지 이상 현상 감지"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0144",
+    "category": "테러_자연재해",
+    "event": "미국 주요 항구 핵심 교량 붕괴 (볼티모어 브릿지 사태 유사)",
+    "causal_path": "대형 선박 충돌 등으로 교량 붕괴 → 항구 진출입로 전면 봉쇄 및 물류망 마비 → 대체 항구 이용 및 육상 운송 수요 증가 → 트럭/철도/건설 수혜 및 해운/자동차 타격",
+    "beneficiary_sectors": [
+      "Trucking",
+      "Railroads",
+      "Construction & Engineering"
+    ],
+    "victim_sectors": [
+      "Marine Ports & Services",
+      "Auto Manufacturers",
+      "Coal Operations"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 교량 인근 해상 교통 관제 센터(VTS)의 선박 조향 상실 긴급 무선 수신",
+      "현지 언론의 교량 붕괴 및 차량 추락 속보 타전",
+      "해당 항구를 주로 이용하는 자동차/석탄 업체의 물류 지연 공지",
+      "인근 대체 항구의 하역 대기 선박 수 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0145",
+    "category": "테러_자연재해",
+    "event": "대형 허리케인 미국 동부 해안(NYC/DC) 직격",
+    "causal_path": "인구 밀집 지역 허리케인 상륙 → 대규모 정전 및 지하철/공항 침수 → 복구 장비 및 비상 전력 수요 폭증 → 발전기/건자재 수혜 및 대중교통/보험 타격",
+    "beneficiary_sectors": [
+      "Electrical Equipment",
+      "Home Improvement Retail",
+      "Water Utilities"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Property & Casualty Insurance",
+      "Passenger Airlines"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "허리케인 경로가 북상하며 뉴욕/워싱턴DC를 관통할 것이라는 기상 모델 일치",
+      "뉴욕 지하철(MTA) 및 주요 공항의 사전 폐쇄 조치 발표",
+      "동부 해안 저지대 주민 대상 강제 대피령 발령",
+      "월스트리트 주요 금융사들의 재택근무 전환 및 비상 가동 체제 돌입"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0146",
+    "category": "테러_자연재해",
+    "event": "미국 남부/중서부 대규모 토네이도 아웃브레이크",
+    "causal_path": "수십 개의 강력한 토네이도 동시다발적 발생 → 주택가 및 공장 지대 초토화 → 주택 재건축 및 자동차 교체 수요 발생 → 주택건설/자동차부품 수혜 및 보험/모바일홈 타격",
+    "beneficiary_sectors": [
+      "Homebuilders",
+      "Building Products",
+      "Auto Parts & Equipment"
+    ],
+    "victim_sectors": [
+      "Property & Casualty Insurance",
+      "Residential REITs",
+      "Broadline Retail"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "기상청 폭풍예측센터(SPC)의 'High Risk' 토네이도 경보 발령",
+      "대기 불안정 지수(CAPE)의 극단적 상승 및 강력한 슈퍼셀 형성 관측",
+      "현지 뉴스 및 소셜 미디어를 통한 대형 토네이도(EF4 이상) 터치다운 속보",
+      "아마존 등 주요 물류 업체의 해당 지역 배송 센터 긴급 폐쇄"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0147",
+    "category": "테러_자연재해",
+    "event": "플로리다 이례적 한파로 인한 감귤/농작물 대규모 냉해",
+    "causal_path": "겨울철 기습 한파 플로리다 남하 → 오렌지 등 주요 농작물 동사 → 오렌지 주스 및 농산물 선물 가격 폭등 → 농산물/비료 수혜 및 음료/식품 타격",
+    "beneficiary_sectors": [
+      "Agricultural Products",
+      "Fertilizers & Agricultural Chemicals"
+    ],
+    "victim_sectors": [
+      "Soft Drinks",
+      "Packaged Foods & Meats"
+    ],
+    "intensity": "low",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "플로리다 지역에 영하권 기온을 예보하는 기상청의 서리 경보(Frost Advisory) 발령",
+      "농가들의 작물 보호를 위한 대규모 살수 및 방한 덮개 설치 뉴스",
+      "ICE(미국대륙거래소) 냉동 농축 오렌지 주스(FCOJ) 선물 가격의 급등 조짐",
+      "음료 기업들의 원가 상승 우려를 담은 증권사 리포트 발간"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0148",
+    "category": "테러_자연재해",
+    "event": "대규모 산사태로 인한 주요 고속도로/철도망 장기 차단",
+    "causal_path": "폭우/지진 후 대형 산사태 발생 → 핵심 물류 동맥(예: I-5 고속도로 등) 유실 → 우회 운송 및 항공 화물 수요 증가 → 항공화물/건설 수혜 및 트럭/철도 타격",
+    "beneficiary_sectors": [
+      "Air Freight & Logistics",
+      "Construction & Engineering",
+      "Heavy Construction"
+    ],
+    "victim_sectors": [
+      "Trucking",
+      "Railroads",
+      "Broadline Retail"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "산악 지역의 기록적인 연속 강우량 경신",
+      "지질조사국의 해당 지역 지반 약화 및 산사태 위험 경고",
+      "일부 도로의 균열 및 소규모 낙석 발생으로 인한 부분 통제 시작",
+      "주요 물류 업체들의 배송 지연 가능성 사전 고객 공지"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0149",
+    "category": "테러_자연재해",
+    "event": "대도시 중심부 초대형 싱크홀 발생 및 인프라 붕괴",
+    "causal_path": "노후 상하수도 파열 등으로 도심 초대형 싱크홀 발생 → 주변 건물 붕괴 위험 및 도로 통제 → 노후 인프라 교체 여론 비등 및 건설 장비 수요 증가 → 건설/중장비 수혜 및 도심 리츠 타격",
+    "beneficiary_sectors": [
+      "Construction & Engineering",
+      "Construction Machinery & Heavy Trucks",
+      "Water Utilities"
+    ],
+    "victim_sectors": [
+      "Office REITs",
+      "Retail REITs",
+      "Regional Banks"
+    ],
+    "intensity": "low",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "해당 도심 도로의 지속적인 침하 및 균열 민원 급증",
+      "지하 상수도관 파열로 인한 도로 침수 사고 빈발",
+      "인근 건물들의 벽면 균열 및 기울어짐 현상 보고",
+      "시 당국의 긴급 지반 조사 및 일부 구간 차량 통제 실시"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0150",
+    "category": "테러_자연재해",
+    "event": "글로벌 주요 지정학적 인물 암살 사건 발생",
+    "causal_path": "주요 국가 원수 또는 핵심 인사 암살 → 정치적 불확실성 극대화 및 전쟁 발발 우려 → 안전자산 쏠림 현상 및 국방력 강화 기조 → 방산/금 채굴 수혜 및 소비재/금융 타격",
+    "beneficiary_sectors": [
+      "Defense",
+      "Gold Miners",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "Consumer Discretionary",
+      "Investment Banking & Brokerage",
+      "Broadline Retail"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 국가 내 심각한 정치적 양극화 및 폭력 시위 격화",
+      "정보 기관의 주요 인사 대상 테러 첩보 입수 및 경호 인력 대폭 증원",
+      "소셜 미디어 상의 암살 모의 또는 가짜 뉴스 유포 급증",
+      "해당 인물의 공개 일정 돌연 취소 및 비공개 행보 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

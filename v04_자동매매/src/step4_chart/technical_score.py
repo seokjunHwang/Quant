@@ -22,7 +22,7 @@ if str(_INDICATORS_DIR.parent) not in sys.path:
 try:
     from indicators.converted.rsi_divergence import compute_signals as compute_rsi_signals
 except ImportError:
-    logger.warning("Could not import RSI divergence engine from v03")
+    logger.debug("Could not import RSI divergence engine from v03")
     compute_rsi_signals = None
 
 

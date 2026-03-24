@@ -1,0 +1,672 @@
+[
+  {
+    "chain_id": "LC-0026",
+    "category": "금융위기_신용경색",
+    "event": "중소형 은행 뱅크런 발생 및 예금 인출 사태",
+    "causal_path": "뱅크런 발생 → 예금 이탈 및 유동성 고갈 → 자산(MBS/국채) 매각 손실 확정 → 중소형 은행 연쇄 파산 우려",
+    "beneficiary_sectors": [
+      "Large Cap Banks",
+      "Gold Miners",
+      "Treasury ETFs"
+    ],
+    "victim_sectors": [
+      "Regional Banks",
+      "Small Cap Equities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "지역 은행 주가 급락 및 공매도 잔고 급증",
+      "연준 할인창구(Discount Window) 대출 급증",
+      "특정 은행의 대규모 자본 확충(유상증자) 기습 발표"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0027",
+    "category": "금융위기_신용경색",
+    "event": "하이일드 신용스프레드 급등 (정크본드 투매)",
+    "causal_path": "기업 부도 우려 증가 → 하이일드 채권 투매 → 자금 조달 시장 경색 → 한계 기업 연쇄 부도 공포",
+    "beneficiary_sectors": [
+      "Treasury ETFs",
+      "Consumer Staples",
+      "Utilities"
+    ],
+    "victim_sectors": [
+      "High Yield Bond ETFs",
+      "Highly Leveraged Tech",
+      "Airlines"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "하이일드 채권 ETF(HYG, JNK) 대규모 자금 유출",
+      "VIX 지수 25 이상 상승 및 변동성 확대",
+      "기업 어음(CP) 금리 상승 및 발행 물량 감소"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0028",
+    "category": "금융위기_신용경색",
+    "event": "상업용 부동산(CRE) 대규모 디폴트 발생",
+    "causal_path": "오피스 공실률 급등 → CRE 대출 상환 불능 → CRE 익스포저가 큰 지역은행 건전성 악화 → 대출 축소(신용경색)",
+    "beneficiary_sectors": [
+      "Data Center REITs",
+      "Gold Miners",
+      "Short Real Estate ETFs"
+    ],
+    "victim_sectors": [
+      "Office REITs",
+      "Regional Banks",
+      "Mortgage REITs"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "주요 오피스 리츠의 배당 컷(삭감) 발표",
+      "상업용 부동산 거래량 급감 및 감정가 하향 조정",
+      "CMBS(상업용 모기지 담보부 증권) 연체율 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0029",
+    "category": "금융위기_신용경색",
+    "event": "레포(Repo) 시장 금리 발작적 급등",
+    "causal_path": "단기 자금 시장 유동성 고갈 → 금융기관 간 자금 대출 기피 → 레버리지 청산(마진콜) → 주식시장 전반 투매",
+    "beneficiary_sectors": [
+      "Cash Equivalents",
+      "Treasury ETFs",
+      "Market Makers"
+    ],
+    "victim_sectors": [
+      "Hedge Funds",
+      "Investment Banks",
+      "Highly Leveraged Equities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "SOFR(담보부 익일물 금리) 급등",
+      "연준의 역레포(RRP) 잔고 급감",
+      "장마감 직전 단기자금 금리 변동성 극대화"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0030",
+    "category": "금융위기_신용경색",
+    "event": "대형 투자은행(IB) 파산 또는 구제금융 신청",
+    "causal_path": "대형 IB 파산 → 파생상품 거래 상대방 위험(Counterparty Risk) 현실화 → 글로벌 금융 시스템 마비 우려 → 전방위적 패닉 셀링",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Volatility ETFs",
+      "Treasury ETFs"
+    ],
+    "victim_sectors": [
+      "Investment Banks",
+      "Asset Managers",
+      "Brokerage Firms"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 투자은행의 CDS 프리미엄 사상 최고치 경신",
+      "임원진의 대규모 자사주 매도 공시",
+      "주요 신용평가사의 신용등급 강등 조치"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0031",
+    "category": "금융위기_신용경색",
+    "event": "연준의 긴급 금리 인하 (정례회의 외)",
+    "causal_path": "시스템 리스크 인지 → 연준 긴급 금리 인하 → 시장은 이를 '심각한 위기'로 해석 → 위험자산 투매 및 안전자산 쏠림",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Treasury ETFs",
+      "Utilities"
+    ],
+    "victim_sectors": [
+      "Broad Market Equities",
+      "Consumer Discretionary",
+      "Industrials"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "주말 간 주요 금융기관 파산 루머 확산",
+      "연방기금금리 선물 시장의 급격한 프라이싱 변화(100bp 이상 인하 반영)",
+      "재무장관 및 연준의장의 긴급 비공개 회동"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0032",
+    "category": "금융위기_신용경색",
+    "event": "머니마켓펀드(MMF) 원금 손실(Breaking the Buck) 발생",
+    "causal_path": "단기 우량채 디폴트 → MMF 순자산가치 1달러 하회 → 기업 및 가계의 MMF 대규모 뱅크런 → 단기 자금시장 완전 마비",
+    "beneficiary_sectors": [
+      "Physical Gold ETFs",
+      "Short-term Treasury ETFs"
+    ],
+    "victim_sectors": [
+      "Asset Managers",
+      "Commercial Paper Issuers",
+      "Large Cap Tech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "특정 대기업의 기업어음(CP) 디폴트 발생",
+      "MMF 자금 유출입 변동성 급증",
+      "단기 국채 금리 마이너스 진입 시도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0033",
+    "category": "금융위기_신용경색",
+    "event": "모기지 채권(MBS) 시장 대규모 투매",
+    "causal_path": "금리 급등 또는 부동산 침체 → MBS 가치 폭락 → 보유 기관의 마진콜 및 강제 청산 → 주택담보대출 금리 급등 및 주택시장 붕괴",
+    "beneficiary_sectors": [
+      "Apartment REITs",
+      "Short Mortgage ETFs",
+      "Treasury ETFs"
+    ],
+    "victim_sectors": [
+      "Homebuilders",
+      "Mortgage REITs",
+      "Real Estate Services"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "국채 대비 주택담보대출 금리 스프레드 급격한 확대",
+      "주요 모기지 대출업체 파산 보호 신청",
+      "기존 주택 거래량 사상 최저치 근접"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0034",
+    "category": "금융위기_신용경색",
+    "event": "사모신용(Private Credit) 및 그림자 금융 연쇄 디폴트",
+    "causal_path": "고금리 장기화 → 비상장 기업 이자 상환 불능 → 사모펀드/BDC 자산 부실화 → 대체투자 시장 자금 동결",
+    "beneficiary_sectors": [
+      "Large Cap Banks",
+      "Treasury ETFs",
+      "Consumer Staples"
+    ],
+    "victim_sectors": [
+      "Business Development Companies",
+      "Private Equity Firms",
+      "Mid-Cap Equities"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "BDC(기업개발회사) 주가 하락 및 배당 삭감",
+      "비상장 중소기업 파산 신청 건수 급증",
+      "레버리지론 유통 가격 하락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0035",
+    "category": "금융위기_신용경색",
+    "event": "미국 국가 신용등급 강등",
+    "causal_path": "신용등급 강등 → 미 국채 매도세 촉발 및 금리 급등 → 글로벌 벤치마크 금리 상승으로 인한 주식 밸류에이션 압박 → 증시 급락",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Swiss Franc ETFs",
+      "Defense"
+    ],
+    "victim_sectors": [
+      "Long-duration Treasuries",
+      "Growth Tech",
+      "Renewable Energy"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 부채한도 협상 장기 교착 및 디폴트 시한 임박",
+      "미국 의회 내 정치적 양극화 심화 뉴스 도배",
+      "주요 신용평가사의 '부정적 관찰 대상(Credit Watch Negative)' 지정"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0036",
+    "category": "금융위기_신용경색",
+    "event": "대형 헤지펀드 마진콜 및 블록딜 사태",
+    "causal_path": "특정 자산 가격 급락 → 고레버리지 헤지펀드 마진콜 발생 → 프라임 브로커(은행)의 담보 주식 강제 반대매매(블록딜) → 관련 주식 폭락",
+    "beneficiary_sectors": [
+      "Volatility ETFs",
+      "Market Makers"
+    ],
+    "victim_sectors": [
+      "Prime Brokerage Banks",
+      "Media & Entertainment",
+      "Chinese ADRs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "장전/장후 시간외 거래에서 대규모 블록딜 포착",
+      "특정 테마주들의 펀더멘털과 무관한 이유 없는 급락",
+      "대형 은행 프라임 브로커리지 부서의 리스크 경고 리포트 발간"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0037",
+    "category": "금융위기_신용경색",
+    "event": "서브프라임 오토론 연체율 사상 최고치 경신",
+    "causal_path": "경기 침체 및 실업률 상승 → 자동차 할부금 연체 급증 → 오토론 유동화 증권(ABS) 가격 하락 → 자동차 금융사 및 중고차 시장 타격",
+    "beneficiary_sectors": [
+      "Auto Repair & Parts",
+      "Discount Retailers"
+    ],
+    "victim_sectors": [
+      "Auto Manufacturers",
+      "Consumer Finance",
+      "Used Car Retailers"
+    ],
+    "intensity": "low",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "중고차 가격 지수(Manheim) 급락",
+      "서브프라임 대출 비중이 높은 금융사 실적 악화",
+      "자동차 딜러십 재고 일수 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0038",
+    "category": "금융위기_신용경색",
+    "event": "신용카드 연체율 및 상각률 급등 발표",
+    "causal_path": "소비자 구매력 고갈 → 신용카드 대금 미납 증가 → 카드사 대손충당금 적립 급증 → 소비 위축 및 소매업체 타격",
+    "beneficiary_sectors": [
+      "Discount Retailers",
+      "Dollar Stores",
+      "Debt Collection Agencies"
+    ],
+    "victim_sectors": [
+      "Credit Card Issuers",
+      "Luxury Goods",
+      "Consumer Discretionary"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "소매판매 지표 예상치 하회 지속",
+      "신용카드 리볼빙 잔액 사상 최고치 경신",
+      "주요 카드사의 실적 가이던스 하향 조정"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0039",
+    "category": "금융위기_신용경색",
+    "event": "우량 기업(IG) 회사채 발행 수요 미달 사태",
+    "causal_path": "시장 내 현금 확보 심리 팽배 → 우량 회사채조차 투자자 모집 실패 → 기업 자금조달 창구 완전 봉쇄 → 연쇄 흑자 부도 우려",
+    "beneficiary_sectors": [
+      "Treasury ETFs",
+      "Gold Miners",
+      "Cash Equivalents"
+    ],
+    "victim_sectors": [
+      "Investment Grade Corporate Bond ETFs",
+      "Capital Markets",
+      "Industrials"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "회사채 발행 스프레드 지속 확대",
+      "신규 발행 시장(Primary market) 거래량 급감",
+      "기업들의 채권 발행 연기(Delay) 발표 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0040",
+    "category": "금융위기_신용경색",
+    "event": "유럽 대형 은행 위기설 및 미국 전이 우려",
+    "causal_path": "유럽 주요 은행 CDS 급등 및 뱅크런 → 글로벌 은행 간 대출(Interbank lending) 축소 → 미국 금융기관의 유럽 익스포저 손실 우려 → 미 금융주 동반 하락",
+    "beneficiary_sectors": [
+      "US Dollar ETFs",
+      "Gold Miners",
+      "Domestic Focused Utilities"
+    ],
+    "victim_sectors": [
+      "Global Investment Banks",
+      "European Equities ADRs",
+      "Asset Managers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "유로화/달러 환율 급락",
+      "유럽 은행들의 코코본드(AT1) 가격 폭락",
+      "미국 은행들의 유럽 익스포저 관련 리스크 보고서 발간"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0041",
+    "category": "금융위기_신용경색",
+    "event": "대형 암호화폐 거래소 파산 및 연관 은행 뱅크런",
+    "causal_path": "암호화폐 시장 붕괴 → 거래소 파산 → 암호화폐 기업 예치금이 많은 특수 목적 은행 뱅크런 → 크립토-전통금융 연결고리 붕괴",
+    "beneficiary_sectors": [
+      "Traditional Large Cap Banks",
+      "Gold Miners",
+      "Cybersecurity"
+    ],
+    "victim_sectors": [
+      "Crypto-friendly Banks",
+      "Bitcoin Miners",
+      "Fintech"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "비트코인 등 주요 암호화폐 가격 폭락",
+      "해당 거래소의 고객 출금 지연 사태 발생",
+      "규제 당국의 암호화폐 연관 은행 집중 조사 착수"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0042",
+    "category": "금융위기_신용경색",
+    "event": "미국 장기 국채 입찰 대규모 미달 (Tail 발생)",
+    "causal_path": "국채 공급 과잉 및 수요 부족 → 입찰 금리 급등(Tail) → 벤치마크 금리 발작적 상승 → 주식 밸류에이션 붕괴 및 자본조달 비용 급등",
+    "beneficiary_sectors": [
+      "Short Treasury ETFs",
+      "Value Stocks",
+      "Insurance"
+    ],
+    "victim_sectors": [
+      "Long-duration Treasuries",
+      "High Growth Tech",
+      "Utilities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "외국인(중국/일본 등)의 미 국채 매도세 지속",
+      "재무부의 분기 국채 발행 규모 대폭 확대 발표",
+      "국채 변동성 지수(MOVE) 가파른 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0043",
+    "category": "금융위기_신용경색",
+    "event": "주요 청산소(Clearinghouse)의 증거금 대폭 인상",
+    "causal_path": "시장 변동성 극대화 → 청산소가 파생상품 및 주식 거래 증거금 기습 인상 → 기관 및 개인의 강제 디레버리징(매도) → 증시 폭락",
+    "beneficiary_sectors": [
+      "Volatility ETFs",
+      "Cash Equivalents"
+    ],
+    "victim_sectors": [
+      "Brokerage Firms",
+      "Highly Shorted Stocks",
+      "Commodity Producers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "VIX 지수 30 이상 돌파 및 유지",
+      "특정 자산(원자재, 밈주식 등)의 롤러코스터 장세",
+      "브로커리지 앱 접속 지연 및 일부 종목 거래 제한 조치"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0044",
+    "category": "금융위기_신용경색",
+    "event": "대형 부동산 펀드(BREIT 등) 환매 연기 선언",
+    "causal_path": "상업용 부동산 가치 하락 우려 → 투자자 대규모 환매 요청 → 펀드 유동성 부족으로 환매 중단 → 부동산 시장 패닉 및 리츠 투매",
+    "beneficiary_sectors": [
+      "Short Real Estate ETFs",
+      "Treasury ETFs",
+      "Gold Miners"
+    ],
+    "victim_sectors": [
+      "Real Estate Asset Managers",
+      "Commercial REITs",
+      "Private Equity"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "상업용 부동산 감정평가액 하향 조정 뉴스",
+      "사모 부동산 펀드 수익률 마이너스 전환",
+      "부유층 자산관리(WM) 채널에서 부동산 펀드 자금 이탈"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0045",
+    "category": "금융위기_신용경색",
+    "event": "TED 스프레드 및 FRA-OIS 스프레드 급등",
+    "causal_path": "은행 간 불신 팽배 → 무위험 이자율 대비 은행 간 대출 금리 급등 → 단기 유동성 경색 → 기업 어음 발행 차질 및 단기 자금난",
+    "beneficiary_sectors": [
+      "Treasury ETFs",
+      "Large Cap Banks",
+      "Consumer Staples"
+    ],
+    "victim_sectors": [
+      "Regional Banks",
+      "Small Cap Equities",
+      "Highly Leveraged Industrials"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "리보(LIBOR) 또는 SOFR 금리의 비정상적 상승",
+      "은행권 스트레스 테스트 결과 부진 루머 확산",
+      "연준의 단기 유동성 공급(레포) 입찰액 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0046",
+    "category": "금융위기_신용경색",
+    "event": "레버리지론 및 CLO(대출채권담보부증권) 시장 거래 중단",
+    "causal_path": "금리 급등으로 한계기업 이자 부담 가중 → 레버리지론 부도율 상승 → CLO 등급 강등 및 투자자 매수 실종 → M&A 및 LBO 시장 마비",
+    "beneficiary_sectors": [
+      "Treasury ETFs",
+      "Restructuring Consulting Firms",
+      "Large Cap Tech"
+    ],
+    "victim_sectors": [
+      "Private Equity",
+      "Investment Banks",
+      "Mid-Cap Industrials"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "CLO AAA등급 스프레드 확대",
+      "대형 LBO(차입매수) 딜 자금 조달 실패 및 취소 속출",
+      "레버리지론 펀드 대규모 자금 유출"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0047",
+    "category": "금융위기_신용경색",
+    "event": "주말 간 연방예금보험공사(FDIC)의 중견 은행 전격 인수",
+    "causal_path": "금요일 장 마감 후 은행 폐쇄 및 FDIC 개입 → 월요일 개장 전 뱅크런 공포 확산 → 금융주 전반의 갭하락 및 패닉 셀링",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Volatility ETFs",
+      "Large Cap Banks"
+    ],
+    "victim_sectors": [
+      "Regional Banks",
+      "Financial Services",
+      "Small Cap Equities"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해당 은행 주가의 일주일간 반토막 하락",
+      "예금자들의 지점 앞 줄서기 사진 SNS 확산",
+      "금요일 오후 해당 은행 주식 거래 정지(Halt)"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0048",
+    "category": "금융위기_신용경색",
+    "event": "글로벌 달러 유동성 경색 및 달러 인덱스(DXY) 폭등",
+    "causal_path": "위기 발생으로 기축통화(달러) 수요 폭발 → 신흥국 및 유럽의 달러 조달 비용 급등 → 글로벌 자산 매각 후 달러 현금화 → 미 증시 동반 하락",
+    "beneficiary_sectors": [
+      "US Dollar ETFs",
+      "Domestic Focused Consumer Staples",
+      "Defense"
+    ],
+    "victim_sectors": [
+      "Multinational Tech",
+      "Materials",
+      "Emerging Market ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "통화 스왑(Cross-currency basis swap) 스프레드 급격한 마이너스 확대",
+      "신흥국 환율 급락 및 외환보유고 고갈 우려",
+      "연준의 글로벌 통화스왑 라인 가동 루머"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0049",
+    "category": "금융위기_신용경색",
+    "event": "공포지수(VIX) 40 이상 돌파 및 변동성 폭발",
+    "causal_path": "불확실성 극대화로 풋옵션 수요 폭발 → 옵션 마켓 메이커들의 델타 헤징(주식 매도) → 기계적 매도 프로그램(CTA) 가동 → 증시 수직 낙하",
+    "beneficiary_sectors": [
+      "Volatility ETFs",
+      "Market Makers",
+      "Treasury ETFs"
+    ],
+    "victim_sectors": [
+      "Broad Market Equities",
+      "High Beta Tech",
+      "Consumer Discretionary"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "S&P 500 지수의 주요 지지선(200일 이평선 등) 붕괴",
+      "풋/콜 비율(Put/Call Ratio) 사상 최고치 경신",
+      "VIX 선물 곡선의 백워데이션(단기물 급등) 진입"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0050",
+    "category": "금융위기_신용경색",
+    "event": "주식 폭락 속 금(Gold) 가격의 발작적 급등 (Flight to Safety)",
+    "causal_path": "신용 화폐 및 금융 시스템에 대한 근본적 신뢰 상실 → 기관 및 중앙은행의 실물 금 매집 → 주식/채권 동반 매도 및 금 쏠림 현상",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Physical Gold ETFs",
+      "Silver Miners"
+    ],
+    "victim_sectors": [
+      "Broad Market Equities",
+      "Financials",
+      "Real Estate"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "비트코인 등 대체 자산의 선제적 변동성 확대",
+      "각국 중앙은행의 금 매입량 급증 뉴스 보도",
+      "실질 금리 하락세 지속 및 인플레이션 기대 심리 불안"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

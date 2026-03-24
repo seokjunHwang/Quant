@@ -1,0 +1,609 @@
+[
+  {
+    "chain_id": "LC-0226",
+    "category": "원자재_에너지",
+    "event": "OPEC+ 깜짝 대규모 감산 발표",
+    "causal_path": "감산 발표 → 글로벌 원유 공급 축소 우려 부각 → WTI/브렌트유 가격 급등 → 에너지 기업 정제마진 및 수익성 확대",
+    "beneficiary_sectors": [
+      "Exploration & Production (E&P)",
+      "Oilfield Services"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Cruise Lines"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "사우디 에너지 장관의 공매도 세력 경고 발언",
+      "OPEC+ 정례회의 전 긴급 비공개 회의 소집 루머",
+      "주요 산유국들의 자발적 감산 관련 언론(WSJ, Reuters) 유출 보도"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0227",
+    "category": "원자재_에너지",
+    "event": "OPEC+ 감산 합의 결렬 및 증산 선언",
+    "causal_path": "합의 결렬 → 산유국 간 시장 점유율 확보 경쟁 촉발 → 글로벌 원유 공급 과잉 우려 → 유가 폭락 및 에너지 섹터 투매",
+    "beneficiary_sectors": [
+      "Airlines",
+      "Consumer Discretionary"
+    ],
+    "victim_sectors": [
+      "Exploration & Production (E&P)",
+      "Integrated Oil & Gas"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "OPEC+ 회의 중 회원국 간 쿼터 불만 관련 파열음 보도",
+      "UAE 또는 아프리카 회원국들의 독자적 생산량 증가 데이터 포착",
+      "사우디의 아시아 향 원유 공식판매가격(OSP) 기습 인하"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0228",
+    "category": "원자재_에너지",
+    "event": "중동 지정학적 분쟁 격화 (호르무즈 해협 봉쇄 우려)",
+    "causal_path": "무력 충돌 발생 → 핵심 원유 수송로 차질 우려 → 유가 및 해상 운임 리스크 프리미엄 반영 급등 → 방산 및 에너지주 급등",
+    "beneficiary_sectors": [
+      "Defense",
+      "Oil & Gas",
+      "Marine Shipping"
+    ],
+    "victim_sectors": [
+      "Airlines",
+      "Logistics & Transportation"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중동 지역 내 친이란 반군 세력의 유조선 나포 또는 드론 공격 시도 증가",
+      "미 해군 5함대의 역내 경계태세 격상 발표",
+      "해상 보험사들의 중동 항로 선박 보험료(War Risk Premium) 인상"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0229",
+    "category": "원자재_에너지",
+    "event": "미국 전략비축유(SPR) 대규모 방출 발표",
+    "causal_path": "SPR 방출 → 단기 원유 시장 공급량 증가 → 유가 상승 모멘텀 둔화 및 하락 압력 → 에너지 기업 단기 마진 축소",
+    "beneficiary_sectors": [
+      "Auto Manufacturers",
+      "Retailers"
+    ],
+    "victim_sectors": [
+      "Exploration & Production (E&P)"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 전국 평균 가솔린 가격 갤런당 4달러 돌파",
+      "백악관 대변인의 유가 안정화 조치 검토 발언",
+      "에너지부(DOE) 관계자의 SPR 방출 가능성 시사 언론 인터뷰"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0230",
+    "category": "원자재_에너지",
+    "event": "미국 북극 한파(Polar Vortex) 내습",
+    "causal_path": "한파 발생 → 난방용 천연가스 및 전력 수요 폭증 → 천연가스 선물 가격 급등 → 가스 생산 기업 및 유틸리티 수익성 개선",
+    "beneficiary_sectors": [
+      "Natural Gas Producers",
+      "Utility Companies"
+    ],
+    "victim_sectors": [
+      "Chemical Manufacturing"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "NOAA(미국 해양대기청)의 북극 진동 지수(AO) 급락 예보",
+      "미국 중북부 및 동부 지역 기온 평년 대비 대폭 강하 예보",
+      "천연가스 선물 시장의 콘탱고 축소 및 백워데이션 전환 조짐"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0231",
+    "category": "원자재_에너지",
+    "event": "유럽행 주요 천연가스 파이프라인 가동 중단",
+    "causal_path": "파이프라인 중단 → 유럽 내 가스 재고 부족 우려 → 미국산 LNG 대체 수요 급증 → 미국 LNG 수출 기업 및 인프라 수혜",
+    "beneficiary_sectors": [
+      "LNG Exporters",
+      "Energy Infrastructure"
+    ],
+    "victim_sectors": [
+      "European Industrials (ADRs)"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "러시아 또는 주요 가스 공급국의 유지보수 핑계 가스관 송출량 감축",
+      "유럽 천연가스 지표(TTF) 가격의 비정상적 급등세",
+      "유럽 주요국 정부의 겨울철 에너지 배급제 검토 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0232",
+    "category": "원자재_에너지",
+    "event": "미국 주요 LNG 수출 터미널(Freeport 등) 가동 중단",
+    "causal_path": "수출 차질 발생 → 수출 예정이던 가스가 미국 내수 시장에 체화 → 미국 천연가스 가격 폭락 → 가스 생산업체 타격 및 내수 화학업체 수혜",
+    "beneficiary_sectors": [
+      "Domestic Chemical Manufacturers"
+    ],
+    "victim_sectors": [
+      "Natural Gas Producers",
+      "LNG Exporters"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "터미널 인근 지역 소방서 출동 무전 감지",
+      "해당 터미널로 향하는 가스 파이프라인 유량의 실시간 급감 데이터",
+      "현지 언론 및 SNS를 통한 폭발음/화재 발생 제보"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0233",
+    "category": "원자재_에너지",
+    "event": "멕시코만 초강력 허리케인 상륙",
+    "causal_path": "허리케인 상륙 → 해상 시추 시설 대피 및 정유소 가동 중단 → 가솔린 및 원유 공급 차질 → 정제마진(Crack Spread) 급등",
+    "beneficiary_sectors": [
+      "Independent Refiners",
+      "Oilfield Services"
+    ],
+    "victim_sectors": [
+      "Property & Casualty Insurance",
+      "Offshore Drilling"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "국립허리케인센터(NHC)의 카테고리 3 이상 허리케인 멕시코만 경로 예보",
+      "주요 석유 기업들의 해상 플랫폼 인력 철수(Evacuation) 발표",
+      "걸프 코스트 지역 정유사들의 예방적 가동 중단(Shut-in) 공시"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0234",
+    "category": "원자재_에너지",
+    "event": "중국 정부 대규모 인프라 부양책 발표",
+    "causal_path": "부양책 발표 → 글로벌 최대 소비국의 산업용 금속 및 에너지 수요 회복 기대 → 구리, 철광석 등 원자재 가격 급등 → 광산주 수혜",
+    "beneficiary_sectors": [
+      "Copper Miners",
+      "Diversified Metals & Mining"
+    ],
+    "victim_sectors": [
+      "Consumer Staples"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 인민은행의 지준율(RRR) 및 LPR 금리 깜짝 인하",
+      "중국 관영매체의 대규모 지방정부 특수채 발행 승인 보도",
+      "LME(런던금속거래소) 구리 재고량의 지속적인 감소세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0235",
+    "category": "원자재_에너지",
+    "event": "EIA 주간 원유 재고 예상치 대폭 상회 (깜짝 증가)",
+    "causal_path": "재고 증가 발표 → 원유 수요 둔화 및 공급 과잉 우려 부각 → 유가 장중 급락 → 에너지 주식 단기 매도세 출회",
+    "beneficiary_sectors": [
+      "Airlines",
+      "Trucking"
+    ],
+    "victim_sectors": [
+      "Exploration & Production (E&P)"
+    ],
+    "intensity": "low",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "전일 발표된 API(미국석유협회) 주간 원유 재고의 큰 폭 증가",
+      "미국 내 정유소 가동률(Refinery Utilization) 하락 데이터",
+      "원유 선물 시장의 거래량 감소 및 매도 호가 잔량 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0236",
+    "category": "원자재_에너지",
+    "event": "EIA 주간 원유 재고 예상치 대폭 하회 (깜짝 감소)",
+    "causal_path": "재고 감소 발표 → 타이트한 수급 상황 재확인 → 유가 장중 급등 → 에너지 주식 단기 매수세 유입",
+    "beneficiary_sectors": [
+      "Exploration & Production (E&P)",
+      "Integrated Oil & Gas"
+    ],
+    "victim_sectors": [
+      "Airlines"
+    ],
+    "intensity": "low",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "전일 발표된 API 주간 원유 재고의 큰 폭 감소",
+      "미국 원유 수출량(Exports)의 주간 단위 급증 데이터",
+      "쿠싱(Cushing) 지역 원유 재고의 지속적인 바닥권 근접"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0237",
+    "category": "원자재_에너지",
+    "event": "미국 신재생에너지(IRA) 보조금 추가 확대 법안 통과",
+    "causal_path": "보조금 확대 → 태양광/풍력 프로젝트의 경제성(ROI) 대폭 개선 → 관련 기업 수주 증가 기대 → 신재생 섹터 랠리",
+    "beneficiary_sectors": [
+      "Solar Equipment",
+      "Wind Energy"
+    ],
+    "victim_sectors": [
+      "Coal Miners"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 상/하원 에너지 위원회에서의 긍정적 법안 심사 통과",
+      "주요 친환경 로비 단체들의 의회 지지 성명 발표",
+      "친환경 ETF(ICLN, TAN 등)로의 비정상적 기관 자금 유입"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0238",
+    "category": "원자재_에너지",
+    "event": "미국 정부 신재생에너지 세액 공제 축소/폐지 발표",
+    "causal_path": "지원금 축소 → 신규 프로젝트 지연 및 취소 우려 확산 → 태양광/풍력 기업 실적 악화 전망 → 신재생 섹터 폭락",
+    "beneficiary_sectors": [
+      "Traditional Utilities",
+      "Coal Miners"
+    ],
+    "victim_sectors": [
+      "Solar Equipment",
+      "Clean Energy ETFs"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "공화당 주도의 IRA 폐지/축소 법안 하원 발의",
+      "보수 성향 씽크탱크의 신재생 보조금 재정 부담 비판 보고서 발간",
+      "주요 태양광 인버터 기업들의 가이던스 사전 하향 조정"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0239",
+    "category": "원자재_에너지",
+    "event": "세계 최대 우라늄 생산기업 생산 목표치 대폭 하향",
+    "causal_path": "생산 하향 발표 → 글로벌 우라늄 공급 부족 심화 우려 → 우라늄 현물 가격 급등 → 우라늄 채굴주 급등",
+    "beneficiary_sectors": [
+      "Uranium Miners",
+      "Nuclear Energy"
+    ],
+    "victim_sectors": [
+      "Fossil Fuel Utilities"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "카자톰프롬(Kazatomprom) 등 주요 광산의 황산(Sulfuric Acid) 조달 차질 루머",
+      "우라늄 현물 투자 펀드(Sput)의 대규모 시장 매집 동향",
+      "니제르 등 주요 우라늄 생산국의 정치적 쿠데타 및 수출 통제"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0240",
+    "category": "원자재_에너지",
+    "event": "연준(Fed) 깜짝 비둘기파적 발언으로 인한 달러 급락",
+    "causal_path": "달러 약세 및 실질금리 하락 → 무수익 자산인 금의 상대적 매력도 상승 → 금값 전고점 돌파 → 금광주 레버리지 효과로 급등",
+    "beneficiary_sectors": [
+      "Gold Miners",
+      "Silver Miners"
+    ],
+    "victim_sectors": [
+      "Life Insurance"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 CPI/PPI 지표의 시장 예상치 하회",
+      "연준 위원들의 금리 인하 지지 발언 빈도 증가",
+      "미 국채 10년물 금리의 핵심 지지선 이탈 및 하락 추세 전환"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0241",
+    "category": "원자재_에너지",
+    "event": "주요 전기차 기업들의 배터리 주문 대규모 삭감",
+    "causal_path": "주문 삭감 → 리튬 수요 둔화 및 공급 과잉 우려 현실화 → 탄산리튬 가격 폭락 → 리튬 채굴 및 정제 기업 타격",
+    "beneficiary_sectors": [
+      "Auto Manufacturers (ICE)"
+    ],
+    "victim_sectors": [
+      "Lithium Miners",
+      "Battery Manufacturers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "테슬라, 포드 등 주요 EV 업체의 생산 목표치 하향 조정",
+      "중국 내 탄산리튬 현물 가격의 주간 단위 연속 하락",
+      "배터리 셀 제조업체들의 재고 일수(Days of Inventory) 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0242",
+    "category": "원자재_에너지",
+    "event": "칠레 에스콘디다 등 세계 최대 구리 광산 파업 돌입",
+    "causal_path": "파업 돌입 → 단기 글로벌 구리 공급망 마비 우려 → 구리 선물 가격 랠리 → 파업 무관 대체 구리 광산 기업 반사이익",
+    "beneficiary_sectors": [
+      "Copper Miners",
+      "Base Metals"
+    ],
+    "victim_sectors": [
+      "Electrical Components & Equipment"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "광산 노조와 사측의 임금 협상 결렬 소식",
+      "노조원들의 파업 찬반 투표 가결 뉴스",
+      "LME 구리 선물 시장에서의 단기 콜옵션 미결제약정 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0243",
+    "category": "원자재_에너지",
+    "event": "미국 정부의 러시아산 농축 우라늄 수입 전면 금지 조치 발효",
+    "causal_path": "수입 금지 → 미국 내 원전 연료 수급 비상 → 북미 소재 우라늄 농축 및 채굴 기업으로 수요 집중 → 관련주 급등",
+    "beneficiary_sectors": [
+      "Uranium Miners",
+      "Nuclear Fuel Processors"
+    ],
+    "victim_sectors": [
+      "Unregulated Power Producers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미 의회의 러시아산 우라늄 수입 금지 법안(Prohibiting Russian Uranium Imports Act) 상원 통과",
+      "미국 에너지부(DOE)의 자국 내 우라늄 농축 시설 투자 계획 발표",
+      "유틸리티 기업들의 장기 우라늄 계약(Term Contracting) 체결 급증"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0244",
+    "category": "원자재_에너지",
+    "event": "미국 의회, 대형 정유사 대상 횡재세(Windfall Tax) 부과 법안 발의",
+    "causal_path": "횡재세 발의 → 정유사 잉여현금흐름(FCF) 감소 우려 → 자사주 매입 및 배당 축소 전망 → 정유주 하락 및 친환경주 반사이익",
+    "beneficiary_sectors": [
+      "Clean Energy ETFs"
+    ],
+    "victim_sectors": [
+      "Integrated Oil & Gas",
+      "Independent Refiners"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "대형 정유사들의 사상 최대 분기 실적 발표 직후 정치권의 비판 성명",
+      "유가 급등으로 인한 소비자 물가 지수(CPI) 쇼크 발생",
+      "민주당 유력 의원들의 정유사 초과 이익 환수 관련 기자회견"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0245",
+    "category": "원자재_에너지",
+    "event": "전고체 배터리 상용화 앞당기는 혁신 기술 발표",
+    "causal_path": "신기술 발표 → 기존 리튬이온/흑연 의존도 하락 전망 → 기존 배터리 소재주 하락 및 신소재/전고체 관련주 상승",
+    "beneficiary_sectors": [
+      "Next-Gen Battery Tech",
+      "Specialty Chemicals"
+    ],
+    "victim_sectors": [
+      "Graphite Miners",
+      "Traditional Lithium-ion Battery Makers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "도요타, 퀀텀스케이프 등 주요 기업의 중대 발표 예고",
+      "전고체 관련 스타트업에 대한 글로벌 완성차 업체의 대규모 지분 투자 공시",
+      "관련 학술지(Nature 등)에 획기적 고체 전해질 논문 게재 루머"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0246",
+    "category": "원자재_에너지",
+    "event": "파나마 운하 극심한 가뭄으로 인한 통항 선박 수 대폭 제한",
+    "causal_path": "통항 제한 → 미국산 LNG 및 농산물 아시아 수출 지연 → 우회 항로 이용으로 톤마일(Ton-mile) 증가 → 해상 운임 상승 및 해운주 수혜",
+    "beneficiary_sectors": [
+      "Marine Shipping",
+      "LNG Carriers"
+    ],
+    "victim_sectors": [
+      "Agricultural Commodities",
+      "LNG Exporters"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "파나마 운하청(ACP)의 가툰 호수(Gatun Lake) 수위 경고 발표",
+      "운하 대기 선박 수의 비정상적 증가(100척 이상 대기)",
+      "해운사들의 파나마 운하 할증료(Surcharge) 부과 공지"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0247",
+    "category": "원자재_에너지",
+    "event": "동남아시아 우회 수출 태양광 패널에 대한 관세 면제 조치 종료",
+    "causal_path": "관세 부과 재개 → 미국 내 저가 태양광 패널 수입 단가 상승 → 태양광 설치 업체 마진 압박 및 미국 내 제조사 반사이익",
+    "beneficiary_sectors": [
+      "Domestic Solar Manufacturers"
+    ],
+    "victim_sectors": [
+      "Solar Installers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미국 상무부의 동남아 4개국 우회 수출 혐의 예비 판정 결과 발표",
+      "백악관의 관세 유예 연장 거부 시사 발언",
+      "미국 내 태양광 제조사 연합의 강력한 로비 활동 및 청원서 제출"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0248",
+    "category": "원자재_에너지",
+    "event": "멕시코만 또는 알래스카 해상 대형 원유 유출 사고 발생",
+    "causal_path": "유출 사고 → 환경 규제 강화 및 시추 중단 명령 → 해당 기업 천문학적 벌금 및 E&P 섹터 전반 투자 심리 악화",
+    "beneficiary_sectors": [
+      "Environmental Services",
+      "Clean Energy"
+    ],
+    "victim_sectors": [
+      "Offshore Drilling",
+      "Exploration & Production (E&P)"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "해안 경비대(USCG)의 긴급 방제 작업 출동 무전 감지",
+      "해양 시추 플랫폼의 비상 신호(Mayday) 발송",
+      "지역 언론의 해안가 기름띠 발견 속보"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0249",
+    "category": "원자재_에너지",
+    "event": "미국 국립연구소 핵융합 발전 순에너지 생산(Net Energy Gain) 공식 발표",
+    "causal_path": "핵융합 성공 발표 → 장기적 화석연료 대체 가능성 부각 → 초전도체 및 첨단 에너지 기술주 테마 형성 및 단기 급등",
+    "beneficiary_sectors": [
+      "Advanced Materials",
+      "Superconductor Tech"
+    ],
+    "victim_sectors": [
+      "Coal Miners"
+    ],
+    "intensity": "low",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "로렌스 리버모어 국립연구소(LLNL)의 중대 기자회견 예고",
+      "에너지부 장관의 '역사적 과학 성과' 발표 티저 트윗",
+      "과학계 내부의 점화(Ignition) 성공 루머 확산"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0250",
+    "category": "원자재_에너지",
+    "event": "미국 에너지부(DOE) 전략비축유(SPR) 대규모 재매입 입찰 공고",
+    "causal_path": "재매입 발표 → 원유 시장 하방 경직성 확보 및 추가 수요 발생 → 유가 지지선 형성 → 중소형 E&P 기업 반등",
+    "beneficiary_sectors": [
+      "Exploration & Production (E&P)"
+    ],
+    "victim_sectors": [
+      "Airlines"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "WTI 원유 가격이 배럴당 67~72달러 타겟 밴드 진입",
+      "에너지부 장관의 SPR 보충 의지 재확인 인터뷰",
+      "이전 SPR 매입 입찰의 성공적 낙찰 및 인도 완료 소식"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

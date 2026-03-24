@@ -1,0 +1,643 @@
+[
+  {
+    "chain_id": "LC-0151",
+    "category": "무역_관세",
+    "event": "미국, 중국산 수입품에 60% 관세 부과 발표",
+    "causal_path": "관세 부과 발표 → 수입 단가 급등 및 공급망 충격 → 소매업체 마진 축소 및 미국 내 제조업체 반사이익 → 소비재 하락, 내수 철강/제조업 상승",
+    "beneficiary_sectors": [
+      "Domestic Steel Producers",
+      "US Domestic Manufacturing"
+    ],
+    "victim_sectors": [
+      "Consumer Electronics",
+      "Discount Retailers",
+      "Apparel Retailers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 정치권의 대중국 강경 발언 빈도 증가",
+      "중국 위안화(CNY)의 가파른 약세 진행",
+      "미국 주요 소매업체들의 선제적 재고 축적(Front-loading) 움직임",
+      "무역대표부(USTR)의 중국 불공정 무역 관행 조사 착수"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0152",
+    "category": "무역_관세",
+    "event": "중국, 희토류 및 핵심 광물 수출 전면 통제",
+    "causal_path": "수출 통제 발표 → 글로벌 희토류 현물 가격 폭등 → 전기차/방산 부품 생산 차질 우려 → 비중국 희토류 광산 및 대체재 기업 급등",
+    "beneficiary_sectors": [
+      "Rare Earth Miners",
+      "Domestic Lithium Miners"
+    ],
+    "victim_sectors": [
+      "EV Manufacturers",
+      "Defense Contractors",
+      "Wind Turbine Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 관영매체의 자원 무기화 시사 사설 보도",
+      "중국 상무부의 특정 광물 수출 허가제 도입 예고",
+      "글로벌 희토류 현물 시장의 비정상적 매집 정황 포착",
+      "미국 국방부의 공급망 취약성 경고 보고서 발간"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0153",
+    "category": "무역_관세",
+    "event": "미국 상무부, 첨단 AI 반도체 대중국 수출 전면 금지",
+    "causal_path": "수출 금지 발표 → 미국 반도체 기업의 중국 매출 증발 우려 → 반도체 섹터 전반의 투자 심리 악화 → AI 하드웨어 주가 급락",
+    "beneficiary_sectors": [
+      "Cybersecurity",
+      "Defense"
+    ],
+    "victim_sectors": [
+      "AI Semiconductors",
+      "Semiconductor Equipment"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 상무부의 반도체 수출 통제 규정(EAR) 개정 루머 확산",
+      "중국 빅테크 기업들의 AI 칩 사재기 현상",
+      "미국 의회 내 대중국 기술 유출 방지 청문회 개최",
+      "반도체 장비 업체들의 실적 발표 중 중국 매출 비중 축소 가이던스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0154",
+    "category": "무역_관세",
+    "event": "중국, 미국산 농산물(대두, 옥수수 등) 보복 관세 부과",
+    "causal_path": "보복 관세 부과 → 미국 농산물 수출 급감 및 농가 소득 하락 → 농기계 및 비료 수요 감소 → 농업 관련 인프라 주가 하락",
+    "beneficiary_sectors": [
+      "Agricultural Processors",
+      "Packaged Foods"
+    ],
+    "victim_sectors": [
+      "Agricultural Machinery",
+      "Fertilizer Producers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국의 대중국 관세 부과에 대한 중국 외교부의 강력한 경고",
+      "시카고상품거래소(CBOT) 대두 선물의 비정상적 숏포지션 증가",
+      "중국 국영 기업들의 미국산 농산물 구매 주문 취소 소식",
+      "브라질산 대두의 프리미엄 상승"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0155",
+    "category": "무역_관세",
+    "event": "미국, 멕시코산 자동차 및 부품에 고율 관세 부과",
+    "causal_path": "관세 부과 → 북미 국경 간 공급망 비용 급증 → 멕시코 공장 의존도 높은 완성차 업체 타격 → 미국 내수 전용 부품사 반사이익",
+    "beneficiary_sectors": [
+      "US Domestic Auto Parts",
+      "Industrial Automation"
+    ],
+    "victim_sectors": [
+      "Legacy Automakers",
+      "Auto Dealerships"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 정치권의 USMCA 재협상 또는 국경 통제 강화 발언",
+      "멕시코 페소화(MXN)의 급격한 약세",
+      "완성차 업체들의 멕시코 공장 증설 계획 보류 뉴스",
+      "미국 자동차 노조(UAW)의 멕시코 아웃소싱 비판 성명"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0156",
+    "category": "무역_관세",
+    "event": "EU, 미국 빅테크 기업 대상 디지털세 및 보복 관세 시행",
+    "causal_path": "디지털세 시행 → 미국 빅테크의 유럽 내 이익률 훼손 → 메가캡 기술주 실적 우려 점화 → 나스닥 대형주 중심의 매도세",
+    "beneficiary_sectors": [
+      "Domestic Small Cap Tech",
+      "Value Stocks"
+    ],
+    "victim_sectors": [
+      "Mega Cap Tech",
+      "Internet Retail"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "유럽연합 집행위원회(EC)의 반독점 조사 결과 발표 임박",
+      "미국 무역대표부(USTR)의 EU 디지털세에 대한 보복 조치 검토 뉴스",
+      "유럽 내 주요 국가들의 독자적인 디지털세 법안 통과",
+      "빅테크 기업들의 유럽 지역 규제 리스크 공시 강화"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0157",
+    "category": "무역_관세",
+    "event": "미국, 중국산 배터리 부품 탑재 전기차 보조금 전면 배제 (IRA 강화)",
+    "causal_path": "보조금 배제 → 다수의 전기차 모델 가격 경쟁력 상실 → 전기차 수요 둔화 및 미국 내 배터리 생산 기업 독점력 강화 → 내수 배터리주 상승",
+    "beneficiary_sectors": [
+      "US Domestic Battery Manufacturers",
+      "Lithium Miners"
+    ],
+    "victim_sectors": [
+      "EV Manufacturers",
+      "Auto Importers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 재무부의 IRA 해외우려집단(FEOC) 세부 규정 발표 예고",
+      "완성차 업체들의 배터리 공급망 다변화 긴급 발표",
+      "중국 배터리 기업들의 미국 내 합작법인(JV) 설립 난항 뉴스",
+      "미국 내 리튬/배터리 소재 기업들의 로비 자금 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0158",
+    "category": "무역_관세",
+    "event": "중국, 갈륨 및 게르마늄 수출 전면 통제",
+    "causal_path": "수출 통제 → 반도체 및 통신장비 핵심 원자재 공급 부족 → 칩 생산 단가 상승 및 생산 차질 → 대체 소재 및 특수 화학 기업 급등",
+    "beneficiary_sectors": [
+      "Specialty Chemicals",
+      "Non-China Mining"
+    ],
+    "victim_sectors": [
+      "Semiconductor Manufacturers",
+      "Telecom Equipment"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국의 대중국 반도체 장비 수출 규제 추가 발표",
+      "중국 상무부의 희소 금속 수출 동향 조사 착수",
+      "글로벌 갈륨/게르마늄 현물 가격의 단기 급등세",
+      "방산업체들의 원자재 재고 확보 움직임 포착"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0159",
+    "category": "무역_관세",
+    "event": "미국 생물보안법(Biosecure Act) 의회 통과",
+    "causal_path": "법안 통과 → 중국 바이오 위탁생산(CDMO) 기업과 거래 금지 → 미국 제약사들의 공급망 재편 비용 발생 → 미국 및 동맹국 CDMO 수주 폭발",
+    "beneficiary_sectors": [
+      "US Domestic CDMOs",
+      "Life Sciences Tools"
+    ],
+    "victim_sectors": [
+      "Biotech"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 하원 상임위원회에서 생물보안법 압도적 찬성 통과",
+      "글로벌 제약사들의 중국 CDMO 계약 해지 루머",
+      "미국 내 CDMO 기업들의 대규모 시설 투자(Capex) 발표",
+      "중국 대형 바이오 기업들의 주가 급락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0160",
+    "category": "무역_관세",
+    "event": "미국, 동남아 우회 수출 중국산 태양광 패널에 고율 관세 부과",
+    "causal_path": "관세 부과 → 저가 태양광 패널 수입 차단 → 미국 내 태양광 설치 단가 상승 → 설치 수요 둔화 및 내수 패널 제조사 마진 확대",
+    "beneficiary_sectors": [
+      "US Domestic Solar Manufacturers"
+    ],
+    "victim_sectors": [
+      "Solar Installers",
+      "Renewable Utility Companies"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 상무부의 우회 수출(Anti-circumvention) 예비 판정 결과 유출",
+      "미국 내 태양광 제조사들의 강력한 반덤핑 제소",
+      "동남아시아 발 태양광 패널 수입 물량의 일시적 급증(밀어내기)",
+      "태양광 설치 업체들의 실적 가이던스 하향 조정"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0161",
+    "category": "무역_관세",
+    "event": "중국, 공공기관 및 국영기업 내 애플/테슬라 사용 전면 금지",
+    "causal_path": "사용 금지 발표 → 중국 시장 점유율 하락 공포 확산 → 메가캡 소비재 기술주 급락 → 나스닥 지수 하락 및 방어주 로테이션",
+    "beneficiary_sectors": [
+      "Domestic Telecom",
+      "Consumer Staples"
+    ],
+    "victim_sectors": [
+      "Consumer Electronics",
+      "EV Manufacturers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 소셜 미디어(웨이보 등)에서 외국산 제품 불매 운동 조짐",
+      "일부 지방 정부의 외국산 스마트폰 청사 반입 제한 루머",
+      "중국 로컬 브랜드(화웨이, BYD 등)의 애국 마케팅 강화",
+      "미중 고위급 회담 결렬 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0162",
+    "category": "무역_관세",
+    "event": "미국, 중국의 항구적 정상무역관계(PNTR) 지위 박탈",
+    "causal_path": "지위 박탈 → 중국산 소비재에 대한 기본 관세율 폭등 → 수입 물가 급등 및 유통업체 마진 붕괴 → 소매/장난감/의류 섹터 투매",
+    "beneficiary_sectors": [
+      "US Domestic Manufacturing",
+      "Logistics & Shipping"
+    ],
+    "victim_sectors": [
+      "Apparel Retailers",
+      "Toy Manufacturers",
+      "Consumer Electronics"
+    ],
+    "intensity": "high",
+    "time_horizon": "1~3일",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 의회 초당파 위원회의 PNTR 철회 권고안 채택",
+      "대형 유통업체들의 로비 자금 급증 및 반대 성명 발표",
+      "중국 외교부의 최악의 보복 조치 경고",
+      "해상 운임 지수의 비정상적 변동성 확대"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0163",
+    "category": "무역_관세",
+    "event": "미국 정부, 대규모 리쇼어링(Reshoring) 보조금 패키지 발표",
+    "causal_path": "보조금 발표 → 미국 내 공장 건설 및 설비 투자 붐 → 건설, 엔지니어링, 산업 기계 수요 폭발 → 산업재 섹터 강력한 랠리",
+    "beneficiary_sectors": [
+      "Engineering & Construction",
+      "Industrial Machinery",
+      "Commercial Real Estate"
+    ],
+    "victim_sectors": [
+      "Offshore Outsourcing Services"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "대통령의 국정연설(State of the Union)에서 제조업 부흥 강조",
+      "주요 기업들의 해외 공장 철수 및 미국 내 부지 매입 뉴스",
+      "미국 상무부의 제조업 인센티브 예산 증액 요청",
+      "산업용 부동산 공실률의 급격한 하락"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0164",
+    "category": "무역_관세",
+    "event": "중국, 레거시 반도체 글로벌 덤핑 수출 본격화",
+    "causal_path": "덤핑 수출 → 글로벌 레거시 칩 가격 폭락 → 미국/유럽 아날로그 반도체 기업 마진 붕괴 → 자동차/산업용 반도체 주가 하락",
+    "beneficiary_sectors": [
+      "Legacy Automakers",
+      "Industrial Machinery"
+    ],
+    "victim_sectors": [
+      "Analog Semiconductors",
+      "Microcontroller Manufacturers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "중국 내 파운드리 가동률 100% 초과 및 재고 급증 뉴스",
+      "글로벌 아날로그 반도체 현물 가격의 지속적 하락세",
+      "미국 반도체 산업 협회(SIA)의 중국 덤핑 우려 성명",
+      "유럽 자동차 업체들의 중국산 칩 채택 비율 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0165",
+    "category": "무역_관세",
+    "event": "미국, 대중국 첨단기술(AI/양자) 아웃바운드 투자 전면 제한",
+    "causal_path": "투자 제한 행정명령 → 미국 벤처캐피탈/사모펀드의 중국 투자 자금 회수 → 대체 투자처로 미국 내 스타트업 자금 쏠림 → 내수 기술 생태계 수혜",
+    "beneficiary_sectors": [
+      "Venture Capital Backed Tech",
+      "Defense Tech"
+    ],
+    "victim_sectors": [
+      "Alternative Asset Managers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "미국 재무부의 아웃바운드 투자 심사 위원회 신설 루머",
+      "대형 사모펀드(PE)들의 아시아 펀드 비중 축소 발표",
+      "미국 의회의 자본 유출 통제 관련 청문회 개최",
+      "중국 AI 스타트업들의 자금 조달 난항 뉴스"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0166",
+    "category": "무역_관세",
+    "event": "미국, 유럽산 철강 및 알루미늄에 무역확장법 232조 관세 재부과",
+    "causal_path": "관세 재부과 → 수입 철강재 가격 상승 → 미국 내 철강사들의 판매 단가 인상 → 내수 철강/알루미늄 기업 실적 개선 및 주가 상승",
+    "beneficiary_sectors": [
+      "Domestic Steel Producers",
+      "Aluminum Producers"
+    ],
+    "victim_sectors": [
+      "Auto Parts Manufacturers",
+      "Beverage Cans Manufacturers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국-EU 간 글로벌 철강 및 알루미늄 협정(GSA) 협상 결렬",
+      "미국 철강 노조(USW)의 유럽산 덤핑 항의 시위",
+      "미국 내수 열연강판 가격의 바닥 다지기 및 반등 조짐",
+      "유럽 철강사들의 대미 수출 물량 급증(관세 전 밀어내기)"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0167",
+    "category": "무역_관세",
+    "event": "중국, 보잉(Boeing) 항공기 대규모 주문 취소 및 에어버스 전환",
+    "causal_path": "주문 취소 → 보잉의 수주 잔고 급감 및 현금흐름 악화 → 미국 상업용 항공우주 공급망 타격 → 상업용 항공 하락, 방산주로 수급 이동",
+    "beneficiary_sectors": [
+      "Defense Contractors"
+    ],
+    "victim_sectors": [
+      "Commercial Aerospace",
+      "Aerospace Parts Suppliers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 항공국(CAAC)의 보잉 기종 안전성 문제 제기",
+      "미중 고위급 외교 갈등 심화 및 보복 조치 예고",
+      "유럽 에어버스(Airbus) CEO의 중국 방문 및 대규모 투자 발표",
+      "보잉의 중국 인도 물량 지연 공시"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0168",
+    "category": "무역_관세",
+    "event": "미국, 국가안보 위협 이유로 중국산 커넥티드 카 및 소프트웨어 수입 금지",
+    "causal_path": "수입 금지 → 저가 중국산 전기차의 미국 시장 진입 원천 차단 → 미국 전통 완성차 업체의 내수 점유율 방어 성공 → 디트로이트 3사 주가 반등",
+    "beneficiary_sectors": [
+      "Legacy Automakers",
+      "Automotive Software"
+    ],
+    "victim_sectors": [
+      "Auto Importers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "상무부의 커넥티드 카 데이터 보안 조사 결과 발표 임박",
+      "미국 자동차 협회의 중국산 전기차 위협 경고 보고서",
+      "유럽 내 중국산 전기차 점유율 급증에 따른 미국 내 위기감 고조",
+      "사이버 보안 업체들의 자동차 해킹 위험성 경고"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0169",
+    "category": "무역_관세",
+    "event": "WTO, 미국의 반도체/친환경 보조금에 대해 규정 위반 패소 판결",
+    "causal_path": "패소 판결 → EU/중국의 합법적 보복 관세 권한 획득 → 미국 수출 주도 기술주에 대한 불확실성 증대 → 기술주 매도 및 방어주 로테이션",
+    "beneficiary_sectors": [
+      "Domestic Utilities",
+      "Consumer Staples"
+    ],
+    "victim_sectors": [
+      "Mega Cap Tech",
+      "Semiconductors"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "WTO 패널의 예비 판정 결과 언론 유출",
+      "미국 무역대표부(USTR)의 WTO 무용론 발언 강도 증가",
+      "EU와 중국의 공동 보복 관세 리스트 작성 루머",
+      "글로벌 무역 분쟁 관련 법률 자문사들의 활동 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0170",
+    "category": "무역_관세",
+    "event": "미국 정부, 외국 자본의 핵심 인프라(철강 등) 인수 전면 불허",
+    "causal_path": "인수 불허 → 보호무역주의 강화 확인 및 M&A 프리미엄 소멸 → 피인수 대상 기업 주가 폭락 및 내수 독과점 기업의 시장 지배력 강화",
+    "beneficiary_sectors": [
+      "Domestic Steel Consolidators"
+    ],
+    "victim_sectors": [
+      "Mid Cap Steel Producers"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "외국인투자심의위원회(CFIUS)의 심사 기한 연장 발표",
+      "미국 정치권(여야 불문)의 인수 반대 성명 릴레이",
+      "해당 산업 노조의 강력한 파업 예고 및 반대 로비",
+      "피인수 기업 주가의 M&A 차익거래 스프레드 확대"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0171",
+    "category": "무역_관세",
+    "event": "미국, 러시아/중국산 우라늄 및 핵연료 수입 전면 금지",
+    "causal_path": "수입 금지 → 북미 원전의 핵연료 공급망 차질 우려 → 글로벌 우라늄 현물 가격 폭등 → 미국 및 동맹국 우라늄 채굴 기업 주가 급등",
+    "beneficiary_sectors": [
+      "Uranium Miners",
+      "Nuclear Energy Tech"
+    ],
+    "victim_sectors": [
+      "Nuclear Utility Companies"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국 의회의 러시아산 우라늄 수입 금지 법안 상정",
+      "미국 에너지부(DOE)의 내수 우라늄 농축 시설 투자 발표",
+      "우라늄 현물 시장(Spot Market)의 거래량 급증 및 가격 상승",
+      "원력 발전소들의 선제적 핵연료 재고 확보 움직임"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0172",
+    "category": "무역_관세",
+    "event": "EU, 탄소국경조정제도(CBAM) 강력 시행 및 미국산 제품에 탄소세 부과",
+    "causal_path": "CBAM 시행 → 탄소 집약적인 미국산 철강/화학 제품의 유럽 수출 단가 급등 → 수출 경쟁력 상실 → 친환경/탄소포집 기술주 반사이익",
+    "beneficiary_sectors": [
+      "Renewable Energy",
+      "Carbon Capture Tech"
+    ],
+    "victim_sectors": [
+      "Commodity Chemicals",
+      "Oil & Gas Exploration"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1주일+",
+    "reaction_speed": "1주일+",
+    "pre_signals": [
+      "EU 집행위원회의 CBAM 전환 기간 종료 및 본격 과세 예고",
+      "미국 철강/화학 업계의 탄소 배출량 인증 비용 증가 불만",
+      "미국 정부의 EU 탄소세에 대한 WTO 제소 검토",
+      "글로벌 탄소 배출권 가격의 상승세"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0173",
+    "category": "무역_관세",
+    "event": "중국, 자국 반도체 장비 업체에 초대형 보조금 지급 발표",
+    "causal_path": "보조금 발표 → 중국 파운드리들의 자국산 장비 채택률 급증 → 미국 반도체 장비 업체의 중국 매출 타격 현실화 → 반도체 장비주 매도세",
+    "beneficiary_sectors": [
+      "Domestic Foundry Services"
+    ],
+    "victim_sectors": [
+      "Semiconductor Equipment"
+    ],
+    "intensity": "high",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "중국 국가집적회로산업투자기금(빅펀드) 3기 조성 완료 뉴스",
+      "중국 내 주요 파운드리의 미국산 장비 발주 취소 루머",
+      "중국 로컬 반도체 장비 업체들의 실적 서프라이즈",
+      "미국 반도체 장비 업체들의 실적 발표 중 중국 리스크 언급 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0174",
+    "category": "무역_관세",
+    "event": "미국, USMCA 자동차 원산지 규정(Rules of Origin) 엄격 적용 발표",
+    "causal_path": "규정 강화 → 완성차 업체들의 역내 부품 조달 의무율 상승 → 공급망 재편에 따른 비용 증가 → 완성차 마진 압박 및 북미 내수 부품사 수주 증가",
+    "beneficiary_sectors": [
+      "US Domestic Auto Parts",
+      "Industrial Automation"
+    ],
+    "victim_sectors": [
+      "Legacy Automakers"
+    ],
+    "intensity": "medium",
+    "time_horizon": "1~3일",
+    "reaction_speed": "1~3일",
+    "pre_signals": [
+      "미국 무역대표부(USTR)의 USMCA 원산지 규정 위반 조사 착수",
+      "자동차 부품 수입 통관 지연 사태 발생",
+      "미국 자동차 노조(UAW)의 멕시코/아시아 부품 사용 비판",
+      "완성차 업체들의 부품 공급사 변경 입찰(RFP) 증가"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  },
+  {
+    "chain_id": "LC-0175",
+    "category": "무역_관세",
+    "event": "미국, 프렌드쇼어링(Friendshoring) 일환으로 특정 동맹국 관세 전면 철폐",
+    "causal_path": "관세 철폐 → 동맹국으로부터의 수입 단가 하락 → 공급망 다변화 가속 및 물류량 증가 → 해운/물류 및 수입 의존 유통업체 마진 개선",
+    "beneficiary_sectors": [
+      "Logistics & Shipping",
+      "Apparel Retailers"
+    ],
+    "victim_sectors": [
+      "US Domestic Manufacturing"
+    ],
+    "intensity": "medium",
+    "time_horizon": "즉각",
+    "reaction_speed": "즉각반응",
+    "pre_signals": [
+      "미국과 주요 동맹국(인도, 베트남 등) 간의 전략적 경제 동반자 협정 체결 임박",
+      "미국 상무부 장관의 우방국 공급망 구축 강조 연설",
+      "특정 국가 발 해상 물동량의 선행적 증가세",
+      "보호무역 수혜를 받던 내수 제조업체들의 주가 고점 징후"
+    ],
+    "historical_accuracy": null,
+    "created_at": "2026-03-19",
+    "source": "gemini_generated"
+  }
+]

@@ -197,11 +197,78 @@ def detect_macro_anomalies(macro_data: dict[str, dict]) -> list[dict]:
     return anomalies
 
 
+def build_market_context(macro_data: dict, vix: dict) -> list[dict]:
+    """
+    당일 변동과 무관하게 현재 시장 수준(레벨) 기반 컨텍스트 시그널 생성.
+    VIX가 높거나, 금리/달러가 특정 수준이면 그 자체로 시장 환경 신호.
+    이상신호가 없어도 항상 기본 컨텍스트를 제공하여 Step 2가 동작하게 함.
+    """
+    ctx = []
+
+    # VIX 레벨
+    vix_val = vix.get("vix", 0)
+    if vix_val >= 30:
+        ctx.append({
+            "signal_type": "macro_anomaly", "source": "vix_level",
+            "description": f"VIX 공포 수준 ({vix_val:.1f}) — 극단적 변동성 환경",
+            "value": vix_val, "change_pct": vix.get("change_pct", 0),
+            "severity": "high", "timestamp": datetime.now().isoformat(),
+        })
+    elif vix_val >= 20:
+        ctx.append({
+            "signal_type": "macro_anomaly", "source": "vix_level",
+            "description": f"VIX 긴장 수준 ({vix_val:.1f}) — 시장 불확실성 확대",
+            "value": vix_val, "change_pct": vix.get("change_pct", 0),
+            "severity": "medium", "timestamp": datetime.now().isoformat(),
+        })
+
+    # 금리 수준
+    us10y_val = macro_data.get("us10y_yield", {}).get("price", 0)
+    if us10y_val >= 4.5:
+        ctx.append({
+            "signal_type": "macro_anomaly", "source": "us10y_level",
+            "description": f"미국 10년물 금리 고수준 ({us10y_val:.2f}%) — 성장주 압박",
+            "value": us10y_val, "change_pct": 0,
+            "severity": "medium", "timestamp": datetime.now().isoformat(),
+        })
+
+    # 달러 강세 수준
+    dxy_val = macro_data.get("dollar_index", {}).get("price", 0)
+    if dxy_val >= 104:
+        ctx.append({
+            "signal_type": "macro_anomaly", "source": "dxy_level",
+            "description": f"달러 강세 ({dxy_val:.1f}) — 신흥국/원자재 압박",
+            "value": dxy_val, "change_pct": 0,
+            "severity": "low", "timestamp": datetime.now().isoformat(),
+        })
+
+    # 아무 시그널도 없으면 기본 컨텍스트라도 반환
+    if not ctx:
+        ctx.append({
+            "signal_type": "macro_anomaly", "source": "market_context",
+            "description": f"현재 시장 환경: VIX={vix_val:.1f}, 10Y={us10y_val:.2f}%",
+            "value": vix_val, "change_pct": 0,
+            "severity": "low", "timestamp": datetime.now().isoformat(),
+        })
+
+    return ctx
+
+
 def collect_all_macro() -> dict:
     """매크로 데이터 전체 수집 + 이상 신호 감지."""
     macro = fetch_realtime_macro()
     vix = get_vix()
-    anomalies = detect_macro_anomalies(macro)
+
+    # 당일 변동 기반 이상신호
+    change_anomalies = detect_macro_anomalies(macro)
+
+    # 레벨 기반 컨텍스트 시그널 (변동 없어도 항상 생성)
+    context_signals = build_market_context(macro, vix)
+
+    # 합치되 중복 source는 change_anomalies 우선
+    change_sources = {a["source"] for a in change_anomalies}
+    extra = [c for c in context_signals if c["source"] not in change_sources]
+    anomalies = change_anomalies + extra
 
     return {
         "macro_data": macro,

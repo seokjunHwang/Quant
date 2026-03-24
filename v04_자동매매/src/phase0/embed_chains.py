@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 Phase 0: 로직체인을 벡터화하여 ChromaDB에 저장.
 
@@ -8,6 +9,7 @@ Vector DB: ChromaDB — 로컬, 무료
 import json
 import logging
 from pathlib import Path
+from typing import Optional
 
 import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
@@ -31,7 +33,7 @@ def get_chroma_client() -> chromadb.PersistentClient:
     return chromadb.PersistentClient(path=str(CHROMA_DIR))
 
 
-def get_collection(client: chromadb.PersistentClient | None = None):
+def get_collection(client: Optional[chromadb.PersistentClient] = None):
     """로직체인 컬렉션 가져오기 (없으면 생성)."""
     if client is None:
         client = get_chroma_client()
@@ -44,7 +46,7 @@ def get_collection(client: chromadb.PersistentClient | None = None):
     )
 
 
-def load_chains_from_json(path: Path | None = None) -> list[LogicChain]:
+def load_chains_from_json(path: Optional[Path] = None) -> list[LogicChain]:
     """JSON 파일에서 로직체인 로드."""
     if path is None:
         path = CHAINS_DIR / "all_chains.json"
@@ -59,7 +61,7 @@ def load_chains_from_json(path: Path | None = None) -> list[LogicChain]:
     return [LogicChain.from_dict(item) for item in raw]
 
 
-def embed_and_store(chains: list[LogicChain] | None = None) -> int:
+def embed_and_store(chains: Optional[list] = None) -> int:
     """
     로직체인을 벡터화하여 ChromaDB에 저장.
 
@@ -114,8 +116,8 @@ def embed_and_store(chains: list[LogicChain] | None = None) -> int:
 def search_chains(
     query: str,
     n_results: int = 5,
-    reaction_speed: str | None = "즉각반응",
-    category: str | None = None,
+    reaction_speed: Optional[str] = "즉각반응",
+    category: Optional[str] = None,
 ) -> list[dict]:
     """
     벡터 유사도 기반 로직체인 검색.
