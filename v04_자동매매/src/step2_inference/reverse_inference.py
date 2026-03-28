@@ -145,6 +145,8 @@ def _infer_scenarios(anomaly_summary: str) -> list[dict]:
             prompt,
             system_instruction=REVERSE_INFERENCE_SYSTEM,
             temperature=0.3,
+            use_search=True,
+            search_context="step2_reverse_inference",
         )
 
         if isinstance(scenarios, list):

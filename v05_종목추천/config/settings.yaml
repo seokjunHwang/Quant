@@ -1,0 +1,39 @@
+system:
+  run_time: "06:30"           # KST 실행 시각
+  market: "all"               # kr | us | all
+  timezone: "Asia/Seoul"
+
+universe:
+  kr:
+    indices: ["KOSPI200", "KOSDAQ150"]
+    min_market_cap_billion: 300    # 억원 기준
+  us:
+    indices: ["SP500", "NASDAQ100"]
+    min_market_cap_billion: 1      # 십억달러 기준
+
+filtering:
+  max_candidates: 15              # 최종 추천 종목 수
+  large_cap_count: 5              # 대형주
+  small_mid_cap_count: 10         # 중소형주
+  exclude_lockup_within_days: 30  # 보호예수 해제 30일 이내 제외
+  exclude_rights_offering: true   # 유상증자 결정 공시 있으면 제외
+
+scoring:
+  weights:
+    theme_relevance: 30
+    chart_score: 30
+    supply_demand: 20
+    financial: 20
+  penalty:
+    rights_offering: -30
+    lockup_release: -20
+    high_short_interest: -10
+
+gemini:
+  primary_model: "gemini-3.1-pro-preview"
+  fallback_model: "gemini-3.1-flash-lite-preview"
+  search_context_limit: 5000     # 무료 월 한도
+
+claude:
+  model: "claude-opus-4-6"
+  timeout_sec: 120

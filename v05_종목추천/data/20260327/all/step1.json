@@ -1,0 +1,2543 @@
+{
+  "macro": {
+    "vix": {
+      "price": 27.44,
+      "prev_close": 25.35,
+      "change_pct": 8.24
+    },
+    "sp500": {
+      "price": 6477.1602,
+      "prev_close": 6591.9,
+      "change_pct": -1.74
+    },
+    "nasdaq": {
+      "price": 21408.0801,
+      "prev_close": 21929.826,
+      "change_pct": -2.38
+    },
+    "us10y_yield": {
+      "price": 4.416,
+      "prev_close": 4.328,
+      "change_pct": 2.03
+    },
+    "us2y_yield": {
+      "price": 3.62,
+      "prev_close": 3.62,
+      "change_pct": 0.0
+    },
+    "dollar_index": {
+      "price": 99.817,
+      "prev_close": 99.883,
+      "change_pct": -0.07
+    },
+    "gold": {
+      "price": 4462.2002,
+      "prev_close": 4387.6001,
+      "change_pct": 1.7
+    },
+    "oil_wti": {
+      "price": 93.86,
+      "prev_close": 93.47,
+      "change_pct": 0.42
+    },
+    "bitcoin": {
+      "price": 68698.5391,
+      "prev_close": 68772.9375,
+      "change_pct": -0.11
+    },
+    "kospi": {
+      "price": 5418.1699,
+      "prev_close": 5460.46,
+      "change_pct": -0.77
+    },
+    "kosdaq": {
+      "price": 1138.42,
+      "prev_close": 1136.64,
+      "change_pct": 0.16
+    },
+    "usdkrw": {
+      "price": 1509.1801,
+      "prev_close": 1509.16,
+      "change_pct": 0.0
+    },
+    "vix_zone": "긴장"
+  },
+  "news": {
+    "kr": {
+      "market": "kr",
+      "date": "2026-03-27",
+      "macro_environment": {
+        "summary": "중동 지정학적 리스크 고조와 구글 '터보퀀트' 발 반도체 수요 둔화 우려로 외국인의 대규모 매도세가 출회되며 양 시장이 큰 폭의 조정을 겪는 극단적 공포 국면입니다.",
+        "key_indicators": [
+          {
+            "name": "KOSPI",
+            "value": "5,460.46",
+            "trend": "하락",
+            "impact": "투자 심리 위축 및 대형주 중심의 매도세 강화"
+          },
+          {
+            "name": "KOSDAQ",
+            "value": "1,136.64",
+            "trend": "하락",
+            "impact": "바이오 등 일부 테마를 제외한 전반적인 중소형주 약세"
+          },
+          {
+            "name": "원/달러 환율",
+            "value": "1,500원 돌파",
+            "trend": "상승",
+            "impact": "외국인 자금 이탈 가속화 및 수입 물가 상승 우려"
+          },
+          {
+            "name": "미 국채 10년물",
+            "value": "4.41%",
+            "trend": "상승",
+            "impact": "글로벌 위험자산 선호 심리 급격한 둔화"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "2026 상반기 신규상장",
+          "reason": "시장 변동성이 커진 가운데 신규 상장 종목들로 단기 수급이 쏠리며 엔비알모션, 카나프테라퓨틱스 등이 급등세를 주도함",
+          "trading_type": "단타",
+          "sectors": [
+            "신규상장",
+            "제약/바이오",
+            "로봇"
+          ]
+        },
+        {
+          "theme": "원자재 및 산업재",
+          "reason": "중동 사태 장기화로 나프타, PE, 요소수 등의 공급 차질이 발생하며 제품 단가 인상 도미노 수혜 기대감 부각",
+          "trading_type": "스윙",
+          "sectors": [
+            "화학",
+            "페인트",
+            "제지"
+          ]
+        },
+        {
+          "theme": "방산 및 우주항공",
+          "reason": "미국-이란 갈등 고조로 인한 방공망 수요 증가 및 천궁-II 중동 추가 수출 기대, 스페이스X IPO 모멘텀 겹침",
+          "trading_type": "스윙",
+          "sectors": [
+            "방위산업",
+            "우주항공"
+          ]
+        },
+        {
+          "theme": "제약/바이오",
+          "reason": "정부의 '글로벌 5대 의약품 강국' 비전(11조 펀드 조성) 발표 및 주요 기업의 대규모 기술이전(L/O) 성과 부각",
+          "trading_type": "둘다",
+          "sectors": [
+            "제약",
+            "바이오",
+            "헬스케어"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "반도체",
+          "direction": "bearish",
+          "key_news": "구글 '터보퀀트' 발표 및 미 반도체 보안법 통과로 투매 발생",
+          "reason": "AI 구동 메모리 사용량을 최대 6배 줄이는 기술 발표로 메모리 수요 둔화 우려가 커지며 삼성전자, SK하이닉스 등에서 외국인 대규모 매도 출회"
+        },
+        {
+          "sector": "제약/바이오",
+          "direction": "bullish",
+          "key_news": "정부 11조원 규모 국민성장펀드 투자 및 알테오젠 등 기술수출 잭팟",
+          "reason": "정책적 지원 모멘텀과 함께 개별 기업들의 굵직한 글로벌 기술이전 성과가 이어지며 하락장 속에서도 강한 방어력과 상승세 시현"
+        },
+        {
+          "sector": "화학/소재",
+          "direction": "bullish",
+          "key_news": "중동발 물류 대란 및 유가 급등으로 주요 원자재 가격 인상",
+          "reason": "PE 단가 톤당 80만원 인상 등 원가 상승분을 제품 가격에 전가할 수 있는 기업들을 중심으로 실적 개선 기대감 유입"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "중동 지정학적 리스크 확전 우려",
+          "severity": "high",
+          "description": "미국과 이란의 휴전 협상이 교착 상태에 빠지고, 미국의 에너지 시설 타격 유예 시한이 임박함에 따라 글로벌 유가 급등 및 매크로 불확실성 극대화"
+        },
+        {
+          "factor": "외국인 대규모 이탈 및 환율 급등",
+          "severity": "high",
+          "description": "원/달러 환율이 1,500원을 재돌파하면서 외국인이 코스피 현물을 6거래일 연속(누적 10조원 이상) 순매도하는 등 수급 붕괴 현상 발생"
+        },
+        {
+          "factor": "AI 메모리 반도체 수요 피크아웃 우려",
+          "severity": "medium",
+          "description": "구글의 AI 압축 알고리즘 도입으로 HBM 등 고성능 메모리 수요가 예상보다 빠르게 감소할 수 있다는 공포 심리가 국내 증시 주도주인 반도체 섹터 억압"
+        }
+      ]
+    },
+    "us": {
+      "market": "us",
+      "date": "2026-03-27",
+      "macro_environment": {
+        "summary": "이란 전쟁 장기화 우려와 국제 유가 급등으로 인플레이션 공포가 커지며 나스닥이 조정장에 진입하는 등 3대 지수가 일제히 큰 폭으로 하락했습니다.",
+        "key_indicators": [
+          {
+            "name": "국제 유가 (Brent)",
+            "value": "$102~$108",
+            "trend": "상승",
+            "impact": "인플레이션 우려 자극 및 금리 인하 기대감 축소"
+          },
+          {
+            "name": "미 국채 10년물 금리",
+            "value": "4.38%",
+            "trend": "상승",
+            "impact": "기술주 및 성장주 밸류에이션 압박"
+          },
+          {
+            "name": "VIX (공포지수)",
+            "value": "28.0 이상",
+            "trend": "상승",
+            "impact": "투자 심리 위축 및 시장 변동성 극대화"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "에너지 및 방산",
+          "reason": "이란과의 지정학적 갈등 심화 및 호르무즈 해협 봉쇄 우려로 인한 유가 급등과 국방비 증가 기대감",
+          "trading_type": "스윙",
+          "sectors": [
+            "에너지",
+            "방위산업"
+          ]
+        },
+        {
+          "theme": "우주항공",
+          "reason": "스페이스X의 IPO(기업공개) 투자설명서 제출 임박 보도에 따른 관련주 동반 강세",
+          "trading_type": "단타/스윙",
+          "sectors": [
+            "우주항공"
+          ]
+        },
+        {
+          "theme": "렌터카",
+          "reason": "공항 대기 시간 증가 및 지연 사태로 인해 렌터카 수요가 급증하며 에이비스 버짓 그룹(CAR) 등 관련주 급등",
+          "trading_type": "단타",
+          "sectors": [
+            "렌터카",
+            "여행"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "빅테크 및 소셜미디어",
+          "direction": "bearish",
+          "key_news": "메타(META), 소셜미디어 중독 관련 소송 패소로 약 8% 급락",
+          "reason": "청소년 보호 실패에 대한 법적 책임 인정으로 인한 규제 리스크 부각"
+        },
+        {
+          "sector": "반도체 (메모리)",
+          "direction": "bearish",
+          "key_news": "구글의 '터보퀀트' 알고리즘 발표로 마이크론 등 메모리 반도체주 급락",
+          "reason": "AI 모델 구동에 필요한 메모리 사용량을 대폭 줄이는 기술 발표로 수요 감소 우려 확산"
+        },
+        {
+          "sector": "에너지",
+          "direction": "bullish",
+          "key_news": "옥시덴탈 페트롤리움(OXY) 등 에너지주 강세",
+          "reason": "국제 유가 급등 및 CEO 승계 계획 발표에 따른 기대감"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "중동 지정학적 리스크 (이란 전쟁)",
+          "severity": "high",
+          "description": "트럼프 대통령의 이란 에너지 시설 타격 유예(4월 6일까지)에도 불구하고 휴전 협상 난항 및 호르무즈 해협 봉쇄 우려 지속"
+        },
+        {
+          "factor": "인플레이션 재점화 및 고금리 장기화",
+          "severity": "high",
+          "description": "유가 급등으로 인해 연준(Fed) 및 유럽중앙은행(ECB)의 금리 인하 기대감이 후퇴하고 국채 금리가 급등"
+        },
+        {
+          "factor": "AI 및 반도체 피크아웃 우려",
+          "severity": "medium",
+          "description": "구글의 메모리 절감 기술(터보퀀트) 발표로 AI 인프라 투자에 대한 수요 둔화 우려 발생"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "premarket_movers": [
+      {
+        "ticker": "CCL",
+        "name": "Carnival Corp",
+        "change_pct": -1.75,
+        "reason": "Q1 2026 실적 발표 대기 및 지정학적 리스크에 따른 비용 압박 우려"
+      },
+      {
+        "ticker": "JBLU",
+        "name": "JetBlue Airways",
+        "change_pct": 3.1,
+        "reason": "개장 전 콜옵션 거래량 급증 및 높은 내재 변동성(IV) 반영"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "change_pct": 0.8,
+        "reason": "최근 뉴스 헤드라인 및 활발한 옵션 거래(콜/풋 비율 1.5)에 따른 시장 관심 집중"
+      }
+    ],
+    "earnings_today": [
+      {
+        "ticker": "CCL",
+        "name": "Carnival Corp",
+        "expectation": "$0.18",
+        "impact": "강한 예약 수요와 지정학적 비용 압박 사이의 가이던스에 따라 9.5% 수준의 큰 변동성 예상"
+      },
+      {
+        "ticker": "TMC",
+        "name": "TMC the metals company",
+        "expectation": "N/A",
+        "impact": "개장 전 실적 발표로 인한 광물/소재 섹터 내 국지적 변동성 예상"
+      },
+      {
+        "ticker": "AUTL",
+        "name": "Autolus Therapeutics",
+        "expectation": "N/A",
+        "impact": "파이프라인 업데이트 및 임상 결과에 따른 바이오 섹터 내 주가 급등락 가능성"
+      }
+    ],
+    "economic_events": [
+      {
+        "time_et": "07:30 AM",
+        "event": "미국 4분기 GDP (최종치)",
+        "forecast": "2.4%",
+        "importance": "high"
+      },
+      {
+        "time_et": "07:30 AM",
+        "event": "미국 2월 개인소비지출(PCE) 물가지수",
+        "forecast": "2.8% (YoY)",
+        "importance": "high"
+      },
+      {
+        "time_et": "10:00 AM",
+        "event": "미시간대 소비자심리지수 (확정치)",
+        "forecast": "N/A",
+        "importance": "medium"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 4월 28일 - 29일",
+      "cut_probability": "10.5"
+    }
+  },
+  "dart": {
+    "rights_offerings": [
+      {
+        "corp_name": "아이마켓코리아",
+        "corp_code": "00360142",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "에스엘",
+        "corp_code": "00125521",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "드림텍",
+        "corp_code": "00415646",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한국종합기술",
+        "corp_code": "00159500",
+        "report_nm": "단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한국내화",
+        "corp_code": "00160205",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "메타랩스",
+        "corp_code": "00442835",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "차AI헬스케어",
+        "corp_code": "00136776",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "삼화콘덴서공업",
+        "corp_code": "00129350",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "고려제강",
+        "corp_code": "00103006",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "신흥",
+        "corp_code": "00173795",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한농화성",
+        "corp_code": "00160861",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "팬오션",
+        "corp_code": "00122737",
+        "report_nm": "신규시설투자등(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "고려제강",
+        "corp_code": "00103006",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "유엔젤",
+        "corp_code": "00416654",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "유니퀘스트",
+        "corp_code": "00414601",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "명인제약",
+        "corp_code": "00179489",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "대덕전자",
+        "corp_code": "01478712",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "엠씨넥스",
+        "corp_code": "00564562",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "HMM",
+        "corp_code": "00164645",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "미원홀딩스",
+        "corp_code": "00706715",
+        "report_nm": "대표이사(대표집행임원)변경(안내공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "미원홀딩스",
+        "corp_code": "00706715",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "광전자",
+        "corp_code": "00152729",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "팬오션",
+        "corp_code": "00122737",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "삼화콘덴서공업",
+        "corp_code": "00129350",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "이화산업",
+        "corp_code": "00145686",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "깨끗한나라",
+        "corp_code": "00113492",
+        "report_nm": "대표이사(대표집행임원)변경(안내공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "혜인",
+        "corp_code": "00165343",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "JW생명과학",
+        "corp_code": "00225706",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "깨끗한나라",
+        "corp_code": "00113492",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "백산",
+        "corp_code": "00122551",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "덕성",
+        "corp_code": "00114093",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "텔코웨어",
+        "corp_code": "00361488",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "하이트진로",
+        "corp_code": "00150244",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "삼화전자공업",
+        "corp_code": "00129280",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "광전자",
+        "corp_code": "00152729",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "삼화왕관",
+        "corp_code": "00129235",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "신흥",
+        "corp_code": "00173795",
+        "report_nm": "[기재정정]현금ㆍ현물배당결정              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "DSR",
+        "corp_code": "00110608",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "솔루스첨단소재",
+        "corp_code": "01412822",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "JW홀딩스",
+        "corp_code": "00632304",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "삼일씨엔에스",
+        "corp_code": "00109806",
+        "report_nm": "[기재정정]단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "스틱인베스트먼트",
+        "corp_code": "00117498",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "DSR",
+        "corp_code": "00110608",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "동성제약",
+        "corp_code": "00116268",
+        "report_nm": "소송등의판결ㆍ결정              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "휴스틸",
+        "corp_code": "00156488",
+        "report_nm": "[기재정정]유형자산취득결정(종속회사의주요경영사항)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "오뚜기",
+        "corp_code": "00141529",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "세이브존I&C",
+        "corp_code": "00422895",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "롯데지주",
+        "corp_code": "00120562",
+        "report_nm": "생산중단(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "원림",
+        "corp_code": "00143794",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "백산",
+        "corp_code": "00122551",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "아시아나IDT",
+        "corp_code": "00458234",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "롯데케미칼",
+        "corp_code": "00165413",
+        "report_nm": "생산중단              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "KISCO홀딩스",
+        "corp_code": "00159740",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한국철강",
+        "corp_code": "00687711",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "유니온",
+        "corp_code": "00144252",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "삼영무역",
+        "corp_code": "00127167",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "태림포장",
+        "corp_code": "00153524",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "신원",
+        "corp_code": "00136864",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "대성홀딩스",
+        "corp_code": "00108940",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한전산업",
+        "corp_code": "00194947",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "경인양행",
+        "corp_code": "00102113",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "삼성출판사",
+        "corp_code": "00423690",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "무학",
+        "corp_code": "00121543",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한국전력공사",
+        "corp_code": "00159193",
+        "report_nm": "주주명부폐쇄기간또는기준일설정              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한전산업",
+        "corp_code": "00194947",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "부산산업",
+        "corp_code": "00124027",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "서울식품공업",
+        "corp_code": "00130879",
+        "report_nm": "대표이사(대표집행임원)변경(안내공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "DSR제강",
+        "corp_code": "00151298",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한국주강",
+        "corp_code": "00159564",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "현대로템",
+        "corp_code": "00302926",
+        "report_nm": "공정거래자율준수프로그램운영현황(안내공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한전산업",
+        "corp_code": "00194947",
+        "report_nm": "[기재정정]단일판매ㆍ공급계약체결(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "현대로템",
+        "corp_code": "00302926",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "STX그린로지스",
+        "corp_code": "01784394",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한화시스템",
+        "corp_code": "00339391",
+        "report_nm": "단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "iM금융지주",
+        "corp_code": "00878915",
+        "report_nm": "기업가치제고계획(자율공시)              (2026년 이행현황)",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "부국철강",
+        "corp_code": "00123781",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "전방",
+        "corp_code": "00147222",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한국석유공업",
+        "corp_code": "00157991",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "동성제약",
+        "corp_code": "00116268",
+        "report_nm": "대표이사(대표집행임원)변경(안내공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "동성제약",
+        "corp_code": "00116268",
+        "report_nm": "회생계획인가              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "주연테크",
+        "corp_code": "00269241",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "부산주공",
+        "corp_code": "00124151",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "대림바스",
+        "corp_code": "00109754",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "서울식품공업",
+        "corp_code": "00130879",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "효성 ITX",
+        "corp_code": "00414850",
+        "report_nm": "기업가치제고계획(자율공시)              (기업가치 제고 계획(자율공시)(2026년))",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "인디에프",
+        "corp_code": "00106881",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "케이티앤지",
+        "corp_code": "00244455",
+        "report_nm": "기업가치제고계획(자율공시)              (고배당기업 표시를 위한 재공시)",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "대현",
+        "corp_code": "00113614",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "WISCOM",
+        "corp_code": "00142865",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "삼성출판사",
+        "corp_code": "00423690",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한세실업",
+        "corp_code": "00728638",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "NH투자증권",
+        "corp_code": "00120182",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "잇츠한불",
+        "corp_code": "00911955",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한국앤컴퍼니",
+        "corp_code": "00160047",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "카카오뱅크",
+        "corp_code": "01133217",
+        "report_nm": "기업가치제고계획(자율공시)              (고배당기업 표시를 위한 재공시)",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "잇츠한불",
+        "corp_code": "00911955",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "대상홀딩스",
+        "corp_code": "00539274",
+        "report_nm": "감사보고서제출(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "HL홀딩스",
+        "corp_code": "00299002",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한국타이어앤테크놀로지",
+        "corp_code": "00937324",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "SK",
+        "corp_code": "00181712",
+        "report_nm": "[첨부정정]주요사항보고서(주식교환ㆍ이전결정)(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "플라즈맵",
+        "corp_code": "01575839",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "원익홀딩스",
+        "corp_code": "00216647",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "에이루트",
+        "corp_code": "00608839",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "엑셀세라퓨틱스",
+        "corp_code": "01492217",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "우원개발",
+        "corp_code": "00363246",
+        "report_nm": "[기재정정]단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "알에프텍",
+        "corp_code": "00309831",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "민테크",
+        "corp_code": "01689035",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "오브젠",
+        "corp_code": "01472930",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "동신건설",
+        "corp_code": "00116408",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "아이패밀리에스씨",
+        "corp_code": "00692254",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "메가스터디",
+        "corp_code": "00422284",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "메가스터디",
+        "corp_code": "00422284",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "인터플렉스",
+        "corp_code": "00369170",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "텔콘RF제약",
+        "corp_code": "00608802",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "바이오솔루션",
+        "corp_code": "00560982",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "미래반도체",
+        "corp_code": "00299844",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "미래반도체",
+        "corp_code": "00299844",
+        "report_nm": "단기차입금증가결정              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "동원개발",
+        "corp_code": "00117966",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "케이피티유",
+        "corp_code": "00357607",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "파로스아이바이오",
+        "corp_code": "01495180",
+        "report_nm": "본점소재지변경              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "성도이엔지",
+        "corp_code": "00216498",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "에이테크솔루션",
+        "corp_code": "00384887",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "메디톡스",
+        "corp_code": "00580199",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "대한과학",
+        "corp_code": "00608316",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "케어랩스",
+        "corp_code": "01187148",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "아주IB투자",
+        "corp_code": "00156895",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "제이에스티나",
+        "corp_code": "00120289",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "유신",
+        "corp_code": "00144650",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "퀄리타스반도체",
+        "corp_code": "01584183",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "지슨",
+        "corp_code": "01693922",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "제이엘케이",
+        "corp_code": "01153293",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "휴림에이텍",
+        "corp_code": "00230814",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "액트로",
+        "corp_code": "01141942",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "윈팩",
+        "corp_code": "00536286",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "플레이디",
+        "corp_code": "00862853",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "서울반도체",
+        "corp_code": "00130763",
+        "report_nm": "[기재정정]금전대여결정              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "모비릭스",
+        "corp_code": "01210190",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "GST",
+        "corp_code": "00540863",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "비투엔",
+        "corp_code": "01326792",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "셀바스AI",
+        "corp_code": "00666064",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "스마트레이더시스템",
+        "corp_code": "01555215",
+        "report_nm": "본점소재지변경              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "동원개발",
+        "corp_code": "00117966",
+        "report_nm": "단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "다날",
+        "corp_code": "00389970",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "엘엠에스",
+        "corp_code": "00494218",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "스마트레이더시스템",
+        "corp_code": "01555215",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "엔바이오니아",
+        "corp_code": "00964595",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "동우팜투테이블",
+        "corp_code": "00228712",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "툴젠",
+        "corp_code": "00547510",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "동양에스텍",
+        "corp_code": "00178851",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "삼진",
+        "corp_code": "00173351",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "성우",
+        "corp_code": "00319272",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "디이엔티",
+        "corp_code": "00445160",
+        "report_nm": "상호변경안내              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "파로스아이바이오",
+        "corp_code": "01495180",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "코칩",
+        "corp_code": "00446901",
+        "report_nm": "[첨부정정]감사보고서제출              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "SOOP",
+        "corp_code": "00399694",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "대동기어",
+        "corp_code": "00109310",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "CS",
+        "corp_code": "00303703",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "세화피앤씨",
+        "corp_code": "01169267",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "디이엔티",
+        "corp_code": "00445160",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "더블유에스아이",
+        "corp_code": "01318261",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "엘엠에스",
+        "corp_code": "00494218",
+        "report_nm": "[기재정정]현금ㆍ현물배당결정              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "엠투엔",
+        "corp_code": "00143226",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "캠시스",
+        "corp_code": "00330044",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "오픈베이스",
+        "corp_code": "00335076",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "에코글로우",
+        "corp_code": "00896753",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "온코크로스",
+        "corp_code": "01423916",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "SOOP",
+        "corp_code": "00399694",
+        "report_nm": "대표이사변경              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "진로발효",
+        "corp_code": "00170877",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "베뉴지",
+        "corp_code": "00267906",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "경창산업",
+        "corp_code": "00102353",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "대모",
+        "corp_code": "00450995",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "휴네시온",
+        "corp_code": "01251577",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "금강철강",
+        "corp_code": "00105475",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "우진엔텍",
+        "corp_code": "01030503",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "SOOP",
+        "corp_code": "00399694",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한국기업평가",
+        "corp_code": "00156956",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "티비씨",
+        "corp_code": "00204642",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "YBM넷",
+        "corp_code": "00307222",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "파마리서치",
+        "corp_code": "00970453",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "와이제이링크",
+        "corp_code": "01023211",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "에이직랜드",
+        "corp_code": "01540453",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "이지스",
+        "corp_code": "01211889",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "씨어스테크놀로지",
+        "corp_code": "01514227",
+        "report_nm": "상호변경안내              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "오스템",
+        "corp_code": "00175173",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한국정보공학",
+        "corp_code": "00261957",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "지오엘리먼트",
+        "corp_code": "00668965",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "케이웨더",
+        "corp_code": "00426828",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "DGI",
+        "corp_code": "00627029",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "제이투케이바이오",
+        "corp_code": "01553129",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "화인써키트",
+        "corp_code": "00527002",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "그리티",
+        "corp_code": "00671978",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "한켐",
+        "corp_code": "01016309",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "그리티",
+        "corp_code": "00671978",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "나래나노텍",
+        "corp_code": "00362122",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "지니틱스",
+        "corp_code": "01318933",
+        "report_nm": "증권발행결과(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "메가엠디",
+        "corp_code": "00807555",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "DSC인베스트먼트",
+        "corp_code": "01109715",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "메가엠디",
+        "corp_code": "00807555",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "에코프로",
+        "corp_code": "00536541",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      },
+      {
+        "corp_name": "에스와이",
+        "corp_code": "00535481",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "risk": "유상증자"
+      }
+    ],
+    "lockup_releases": [
+      {
+        "corp_name": "KC그린홀딩스",
+        "corp_code": "00159971",
+        "report_nm": "[기재정정]주요사항보고서(채권은행등의관리절차개시)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "동성제약",
+        "corp_code": "00116268",
+        "report_nm": "주요사항보고서(유상증자결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "SK텔레콤",
+        "corp_code": "00159023",
+        "report_nm": "[첨부정정]주요사항보고서(주식교환ㆍ이전결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "미래에셋생명",
+        "corp_code": "00112332",
+        "report_nm": "[첨부정정]주요사항보고서(감자결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "미래에셋생명",
+        "corp_code": "00112332",
+        "report_nm": "[첨부정정]주요사항보고서(감자결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "코아스",
+        "corp_code": "00210856",
+        "report_nm": "[기재정정]주요사항보고서(자기신주인수권부사채매도결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "코아스",
+        "corp_code": "00210856",
+        "report_nm": "[기재정정]주요사항보고서(자기전환사채매도결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "토비스",
+        "corp_code": "00390365",
+        "report_nm": "[기재정정]주요사항보고서(회사분할결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "아이비김영",
+        "corp_code": "01414422",
+        "report_nm": "[첨부정정]주요사항보고서(회사합병결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "아나패스",
+        "corp_code": "00761952",
+        "report_nm": "주요사항보고서(자기주식취득결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "모다이노칩",
+        "corp_code": "00480048",
+        "report_nm": "[기재정정]주요사항보고서(회사합병결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "케이이엠텍",
+        "corp_code": "00542898",
+        "report_nm": "[기재정정]주요사항보고서(전환사채권발행결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "HEM파마",
+        "corp_code": "01480708",
+        "report_nm": "[기재정정]주요사항보고서(회사분할결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      },
+      {
+        "corp_name": "피노",
+        "corp_code": "00276083",
+        "report_nm": "주요사항보고서(유상증자결정)",
+        "release_date": "20260327",
+        "risk": "보호예수해제"
+      }
+    ],
+    "today_disclosures": [
+      {
+        "corp_name": "유니퀘스트",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00414601",
+        "rcept_no": "20260327001109"
+      },
+      {
+        "corp_name": "아이마켓코리아",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00360142",
+        "rcept_no": "20260327801484"
+      },
+      {
+        "corp_name": "에스엘",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00125521",
+        "rcept_no": "20260327801560"
+      },
+      {
+        "corp_name": "드림텍",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00415646",
+        "rcept_no": "20260327801575"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "일괄신고추가서류(기타파생결합사채)",
+        "rcept_dt": "20260327",
+        "corp_code": "00148610",
+        "rcept_no": "20260327001104"
+      },
+      {
+        "corp_name": "키움증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260327",
+        "corp_code": "00296290",
+        "rcept_no": "20260327001101"
+      },
+      {
+        "corp_name": "코리안리",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00113191",
+        "rcept_no": "20260327001100"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260327",
+        "corp_code": "00148610",
+        "rcept_no": "20260327001099"
+      },
+      {
+        "corp_name": "한국종합기술",
+        "report_nm": "단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00159500",
+        "rcept_no": "20260327801491"
+      },
+      {
+        "corp_name": "대신증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260327",
+        "corp_code": "00110893",
+        "rcept_no": "20260327001098"
+      },
+      {
+        "corp_name": "영풍",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260327",
+        "corp_code": "00141307",
+        "rcept_no": "20260327001096"
+      },
+      {
+        "corp_name": "메타랩스",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00442835",
+        "rcept_no": "20260327001095"
+      },
+      {
+        "corp_name": "대신증권",
+        "report_nm": "일괄신고추가서류(기타파생결합사채)",
+        "rcept_dt": "20260327",
+        "corp_code": "00110893",
+        "rcept_no": "20260327001093"
+      },
+      {
+        "corp_name": "한국내화",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00160205",
+        "rcept_no": "20260327801520"
+      },
+      {
+        "corp_name": "메타랩스",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00442835",
+        "rcept_no": "20260327801472"
+      },
+      {
+        "corp_name": "신흥",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00173795",
+        "rcept_no": "20260327001087"
+      },
+      {
+        "corp_name": "대신증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00110893",
+        "rcept_no": "20260327001086"
+      },
+      {
+        "corp_name": "차AI헬스케어",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00136776",
+        "rcept_no": "20260327801528"
+      },
+      {
+        "corp_name": "한농화성",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00160861",
+        "rcept_no": "20260327001081"
+      },
+      {
+        "corp_name": "엠씨넥스",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00564562",
+        "rcept_no": "20260327001080"
+      },
+      {
+        "corp_name": "DSR",
+        "report_nm": "[기재정정]사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00110608",
+        "rcept_no": "20260327001077"
+      },
+      {
+        "corp_name": "한화솔루션",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00162461",
+        "rcept_no": "20260327801515"
+      },
+      {
+        "corp_name": "삼화콘덴서공업",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00129350",
+        "rcept_no": "20260327801523"
+      },
+      {
+        "corp_name": "고려제강",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00103006",
+        "rcept_no": "20260327801526"
+      },
+      {
+        "corp_name": "웅진",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00143651",
+        "rcept_no": "20260327001070"
+      },
+      {
+        "corp_name": "신흥",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00173795",
+        "rcept_no": "20260327801385"
+      },
+      {
+        "corp_name": "유엔젤",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00416654",
+        "rcept_no": "20260327001063"
+      },
+      {
+        "corp_name": "삼화콘덴서공업",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00129350",
+        "rcept_no": "20260327001059"
+      },
+      {
+        "corp_name": "고려제강",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00103006",
+        "rcept_no": "20260327001056"
+      },
+      {
+        "corp_name": "한농화성",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00160861",
+        "rcept_no": "20260327801333"
+      },
+      {
+        "corp_name": "팬오션",
+        "report_nm": "신규시설투자등(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00122737",
+        "rcept_no": "20260327801485"
+      },
+      {
+        "corp_name": "NH투자증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00120182",
+        "rcept_no": "20260327001053"
+      },
+      {
+        "corp_name": "미원홀딩스",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00706715",
+        "rcept_no": "20260327001046"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00113359",
+        "rcept_no": "20260327001045"
+      },
+      {
+        "corp_name": "고려제강",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00103006",
+        "rcept_no": "20260327801427"
+      },
+      {
+        "corp_name": "유엔젤",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00416654",
+        "rcept_no": "20260327801361"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00113359",
+        "rcept_no": "20260327001039"
+      },
+      {
+        "corp_name": "유니퀘스트",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00414601",
+        "rcept_no": "20260327801302"
+      },
+      {
+        "corp_name": "명인제약",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00179489",
+        "rcept_no": "20260327801429"
+      },
+      {
+        "corp_name": "대덕전자",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "01478712",
+        "rcept_no": "20260327801436"
+      },
+      {
+        "corp_name": "엠씨넥스",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00564562",
+        "rcept_no": "20260327801419"
+      },
+      {
+        "corp_name": "한양증권",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00162416",
+        "rcept_no": "20260327001025"
+      },
+      {
+        "corp_name": "코오롱",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260327",
+        "corp_code": "00152862",
+        "rcept_no": "20260327001018"
+      },
+      {
+        "corp_name": "HMM",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00164645",
+        "rcept_no": "20260327801384"
+      },
+      {
+        "corp_name": "미원홀딩스",
+        "report_nm": "대표이사(대표집행임원)변경(안내공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00706715",
+        "rcept_no": "20260327801414"
+      },
+      {
+        "corp_name": "팬오션",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00122737",
+        "rcept_no": "20260327001005"
+      },
+      {
+        "corp_name": "미원홀딩스",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00706715",
+        "rcept_no": "20260327801357"
+      },
+      {
+        "corp_name": "광전자",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00152729",
+        "rcept_no": "20260327801386"
+      },
+      {
+        "corp_name": "팬오션",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00122737",
+        "rcept_no": "20260327801255"
+      },
+      {
+        "corp_name": "삼화콘덴서공업",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00129350",
+        "rcept_no": "20260327801318"
+      },
+      {
+        "corp_name": "이화산업",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00145686",
+        "rcept_no": "20260327801325"
+      },
+      {
+        "corp_name": "NH투자증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00120182",
+        "rcept_no": "20260327000990"
+      },
+      {
+        "corp_name": "깨끗한나라",
+        "report_nm": "대표이사(대표집행임원)변경(안내공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00113492",
+        "rcept_no": "20260327801372"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00113359",
+        "rcept_no": "20260327000985"
+      },
+      {
+        "corp_name": "미래에셋증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00111722",
+        "rcept_no": "20260327000984"
+      },
+      {
+        "corp_name": "혜인",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00165343",
+        "rcept_no": "20260327801276"
+      },
+      {
+        "corp_name": "삼화전자공업",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00129280",
+        "rcept_no": "20260327000979"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260327",
+        "corp_code": "00113359",
+        "rcept_no": "20260327000978"
+      },
+      {
+        "corp_name": "KC그린홀딩스",
+        "report_nm": "[기재정정]주요사항보고서(채권은행등의관리절차개시)",
+        "rcept_dt": "20260327",
+        "corp_code": "00159971",
+        "rcept_no": "20260327000928"
+      },
+      {
+        "corp_name": "JW생명과학",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00225706",
+        "rcept_no": "20260327801269"
+      },
+      {
+        "corp_name": "깨끗한나라",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00113492",
+        "rcept_no": "20260327801286"
+      },
+      {
+        "corp_name": "백산",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00122551",
+        "rcept_no": "20260327801235"
+      },
+      {
+        "corp_name": "롯데웰푸드",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260327",
+        "corp_code": "01258507",
+        "rcept_no": "20260327801330"
+      },
+      {
+        "corp_name": "태림포장",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00153524",
+        "rcept_no": "20260327000965"
+      },
+      {
+        "corp_name": "덕성",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00114093",
+        "rcept_no": "20260327801232"
+      },
+      {
+        "corp_name": "텔코웨어",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00361488",
+        "rcept_no": "20260327801212"
+      },
+      {
+        "corp_name": "미래에셋증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260327",
+        "corp_code": "00111722",
+        "rcept_no": "20260327000957"
+      },
+      {
+        "corp_name": "스틱인베스트먼트",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00117498",
+        "rcept_no": "20260327000955"
+      },
+      {
+        "corp_name": "삼성증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00104856",
+        "rcept_no": "20260327000948"
+      },
+      {
+        "corp_name": "하이트진로",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00150244",
+        "rcept_no": "20260327801254"
+      },
+      {
+        "corp_name": "삼화전자공업",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00129280",
+        "rcept_no": "20260327801204"
+      },
+      {
+        "corp_name": "광전자",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00152729",
+        "rcept_no": "20260327801186"
+      },
+      {
+        "corp_name": "삼화왕관",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00129235",
+        "rcept_no": "20260327801225"
+      },
+      {
+        "corp_name": "대상",
+        "report_nm": "[기재정정]사업보고서 (2025.12)",
+        "rcept_dt": "20260327",
+        "corp_code": "00121941",
+        "rcept_no": "20260327000936"
+      },
+      {
+        "corp_name": "미래에셋증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260327",
+        "corp_code": "00111722",
+        "rcept_no": "20260327000935"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260327",
+        "corp_code": "00148610",
+        "rcept_no": "20260327000932"
+      },
+      {
+        "corp_name": "신흥",
+        "report_nm": "[기재정정]현금ㆍ현물배당결정              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00173795",
+        "rcept_no": "20260327801248"
+      },
+      {
+        "corp_name": "DB증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00115694",
+        "rcept_no": "20260327000926"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260327",
+        "corp_code": "00148610",
+        "rcept_no": "20260327000922"
+      },
+      {
+        "corp_name": "솔루스첨단소재",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "01412822",
+        "rcept_no": "20260327000921"
+      },
+      {
+        "corp_name": "DSR",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00110608",
+        "rcept_no": "20260327801197"
+      },
+      {
+        "corp_name": "솔루스첨단소재",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "01412822",
+        "rcept_no": "20260327801069"
+      },
+      {
+        "corp_name": "JW홀딩스",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00632304",
+        "rcept_no": "20260327801126"
+      },
+      {
+        "corp_name": "미래에셋증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260327",
+        "corp_code": "00111722",
+        "rcept_no": "20260327000895"
+      },
+      {
+        "corp_name": "삼일씨엔에스",
+        "report_nm": "[기재정정]단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00109806",
+        "rcept_no": "20260327801131"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "일괄신고추가서류(기타파생결합사채)",
+        "rcept_dt": "20260327",
+        "corp_code": "00148610",
+        "rcept_no": "20260327000890"
+      },
+      {
+        "corp_name": "현대차증권",
+        "report_nm": "일괄신고서(기타파생결합사채)",
+        "rcept_dt": "20260327",
+        "corp_code": "00137997",
+        "rcept_no": "20260327000236"
+      },
+      {
+        "corp_name": "DSR",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260327",
+        "corp_code": "00110608",
+        "rcept_no": "20260327000882"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260327",
+        "corp_code": "00148610",
+        "rcept_no": "20260327000881"
+      },
+      {
+        "corp_name": "스틱인베스트먼트",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00117498",
+        "rcept_no": "20260327801044"
+      },
+      {
+        "corp_name": "미래에셋증권",
+        "report_nm": "일괄신고추가서류(파생결합증권-주가연계증권)",
+        "rcept_dt": "20260327",
+        "corp_code": "00111722",
+        "rcept_no": "20260327000871"
+      },
+      {
+        "corp_name": "DSR",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00110608",
+        "rcept_no": "20260327801112"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00113359",
+        "rcept_no": "20260327000866"
+      },
+      {
+        "corp_name": "NH투자증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00120182",
+        "rcept_no": "20260327000863"
+      },
+      {
+        "corp_name": "동성제약",
+        "report_nm": "소송등의판결ㆍ결정              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00116268",
+        "rcept_no": "20260327801054"
+      },
+      {
+        "corp_name": "한진",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00163512",
+        "rcept_no": "20260327801096"
+      },
+      {
+        "corp_name": "휴스틸",
+        "report_nm": "[기재정정]유형자산취득결정(종속회사의주요경영사항)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00156488",
+        "rcept_no": "20260327800979"
+      },
+      {
+        "corp_name": "오뚜기",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00141529",
+        "rcept_no": "20260327800893"
+      },
+      {
+        "corp_name": "한진",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260327",
+        "corp_code": "00163512",
+        "rcept_no": "20260327000839"
+      },
+      {
+        "corp_name": "세이브존I&C",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260327",
+        "corp_code": "00422895",
+        "rcept_no": "20260327800906"
+      }
+    ]
+  }
+}

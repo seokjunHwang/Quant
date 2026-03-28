@@ -206,8 +206,16 @@ def run_pipeline():
         logger.info(f"\n  최소 점수({MIN_SCORE}) 미달 종목 없음.")
 
     duration = time.time() - start
+
+    from src.utils.gemini_client import get_search_usage_summary
+    su = get_search_usage_summary()
     logger.info(f"\n{'═'*50}")
     logger.info(f"  완료  {duration:.0f}초")
+    logger.info(
+        f"  검색쿼리  이번달 {su['this_month']}회"
+        f" / 무료잔여 {su['free_remaining']}회"
+        + (f"  ⚠ 초과 {su['overage_queries']}회 (${su['overage_cost_usd']})" if su['overage_queries'] else "")
+    )
     logger.info(f"{'═'*50}\n")
 
     _save_run_result(ranked, macro_result, inference_result, duration)

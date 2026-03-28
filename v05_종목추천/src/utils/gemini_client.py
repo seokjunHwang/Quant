@@ -1,12 +1,8 @@
 from __future__ import annotations
 """
-Gemini AI Client — Primary 3회 재시도 + Fallback 자동 전환.
-
-Primary:  gemini-3.1-pro-preview (최대 3회 시도)
-Fallback: gemini-3.1-flash-lite-preview (1회)
-
-Google Search grounding 지원 (use_search=True).
-검색 쿼리 수는 data/search_usage.jsonl 에 누적 기록.
+Gemini AI Client — Primary 3회 재시도 + Fallback.
+Google Search grounding 지원.
+검색 쿼리 수 → data/logs/search_usage.jsonl 기록.
 """
 
 import json
@@ -23,43 +19,34 @@ from src.utils.config import DATA_DIR, GEMINI_API_KEY, GEMINI_FALLBACK_MODEL, GE
 logger = logging.getLogger(__name__)
 
 _client: genai.Client | None = None
-
-# 검색 사용량 로그 파일
-SEARCH_LOG = DATA_DIR / "search_usage.jsonl"
+SEARCH_LOG = DATA_DIR / "logs" / "search_usage.jsonl"
 
 
 def _get_client() -> genai.Client:
     global _client
     if _client is None:
         if not GEMINI_API_KEY:
-            raise RuntimeError("GEMINI_API_KEY is not set")
+            raise RuntimeError("GEMINI_API_KEY not set")
         _client = genai.Client(api_key=GEMINI_API_KEY)
     return _client
 
 
-def _log_search_usage(model: str, query_count: int, context: str = "") -> None:
-    """Google Search 쿼리 사용량을 JSONL에 누적 기록."""
+def _log_search(model: str, query_count: int, context: str) -> None:
     SEARCH_LOG.parent.mkdir(parents=True, exist_ok=True)
-    entry = {
-        "timestamp": datetime.now().isoformat(),
-        "model": model,
-        "search_queries": query_count,
-        "context": context,
-    }
     with open(SEARCH_LOG, "a", encoding="utf-8") as f:
-        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+        f.write(json.dumps({
+            "timestamp": datetime.now().isoformat(),
+            "model": model,
+            "search_queries": query_count,
+            "context": context,
+        }, ensure_ascii=False) + "\n")
 
 
-def get_search_usage_summary() -> dict:
-    """누적 검색 쿼리 수 요약 반환."""
+def get_search_usage() -> dict:
     if not SEARCH_LOG.exists():
-        return {"total_queries": 0, "this_month": 0, "free_remaining": 5000}
-
-    total = 0
-    this_month = 0
-    now = datetime.now()
-    month_prefix = now.strftime("%Y-%m")
-
+        return {"total": 0, "this_month": 0, "free_remaining": 5000}
+    total = this_month = 0
+    month_prefix = datetime.now().strftime("%Y-%m")
     with open(SEARCH_LOG, encoding="utf-8") as f:
         for line in f:
             try:
@@ -70,14 +57,12 @@ def get_search_usage_summary() -> dict:
                     this_month += q
             except Exception:
                 pass
-
-    free_limit = 5000
     return {
-        "total_queries": total,
+        "total": total,
         "this_month": this_month,
-        "free_remaining": max(0, free_limit - this_month),
-        "overage_queries": max(0, this_month - free_limit),
-        "overage_cost_usd": round(max(0, this_month - free_limit) / 1000 * 14, 4),
+        "free_remaining": max(0, 5000 - this_month),
+        "overage": max(0, this_month - 5000),
+        "overage_cost_usd": round(max(0, this_month - 5000) / 1000 * 14, 4),
     }
 
 
@@ -91,15 +76,7 @@ def generate(
     use_search: bool = False,
     search_context: str = "",
 ) -> str:
-    """
-    Gemini API 호출. Primary 실패 시 Fallback 자동 전환.
-
-    Args:
-        use_search: True면 Google Search grounding 활성화
-        search_context: 로그용 컨텍스트 (어떤 목적으로 검색했는지)
-    """
     client = _get_client()
-
     config = types.GenerateContentConfig(
         temperature=temperature,
         max_output_tokens=max_tokens,
@@ -122,41 +99,27 @@ def generate(
         is_last = model_name == GEMINI_FALLBACK_MODEL
         try:
             response = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-                config=config,
+                model=model_name, contents=prompt, config=config,
             )
             text = response.text
             if text:
-                # 검색 사용량 기록
                 if use_search:
-                    # grounding_metadata에서 실제 검색 쿼리 수 추출
-                    query_count = 0
                     try:
                         meta = response.candidates[0].grounding_metadata
-                        if meta and meta.search_entry_point:
-                            query_count = len(meta.web_search_queries or []) or 1
-                        else:
-                            query_count = 1  # 최소 1회로 보수적 추정
+                        q = len(meta.web_search_queries or []) if meta else 1
                     except Exception:
-                        query_count = 1
-                    _log_search_usage(model_name, query_count, search_context)
-
-                logger.debug(f"[{model_name}] Response: {len(text)} chars")
+                        q = 1
+                    _log_search(model_name, q, search_context)
                 return text.strip()
-
             logger.warning(f"[{model_name}] Empty response (attempt {attempt})")
-
         except Exception as e:
             logger.warning(f"[{model_name}] Error (attempt {attempt}): {e}")
             if is_last:
                 raise
+        if not is_last:
+            time.sleep(2 ** attempt)
 
-        wait = 2 ** attempt if not is_last else 0
-        if wait:
-            time.sleep(wait)
-
-    raise RuntimeError("All Gemini attempts failed (Pro x3 + Flash-Lite x1)")
+    raise RuntimeError("All Gemini attempts failed")
 
 
 def generate_json(
@@ -168,7 +131,6 @@ def generate_json(
     use_search: bool = False,
     search_context: str = "",
 ) -> list | dict:
-    """Gemini 호출 후 JSON 파싱까지 처리."""
     text = generate(
         prompt,
         system_instruction=system_instruction,
@@ -178,11 +140,9 @@ def generate_json(
         use_search=use_search,
         search_context=search_context,
     )
-
     if "```" in text:
         start = text.find("[") if "[" in text else text.find("{")
         end = max(text.rfind("]"), text.rfind("}")) + 1
         if start != -1 and end > start:
             text = text[start:end]
-
     return json.loads(text)
