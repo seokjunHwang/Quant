@@ -12,9 +12,17 @@ universe:
     min_market_cap_billion: 1      # 십억달러 기준
 
 filtering:
-  max_candidates: 15              # 최종 추천 종목 수
-  large_cap_count: 5              # 대형주
-  small_mid_cap_count: 10         # 중소형주
+  kr:
+    max_report: 7                 # 국장 최종 리포트 종목 수
+    large_cap_count: 2            # 대형주
+    small_mid_cap_count: 5        # 중소형주
+    max_research: 12              # Step3 국장 리서치 최대
+  us:
+    max_report: 20                # 미장 최종 리포트 종목 수
+    large_cap_count: 8            # 대형주
+    small_mid_cap_count: 12       # 중소형주
+    max_research: 25              # Step3 미장 리서치 최대
+  max_chart_analysis: 40          # Step4 차트 분석 최대 종목 수
   exclude_lockup_within_days: 30  # 보호예수 해제 30일 이내 제외
   exclude_rights_offering: true   # 유상증자 결정 공시 있으면 제외
 

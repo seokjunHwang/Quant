@@ -16,9 +16,9 @@
           ╠═════════════════════════════════╣
           ║  🔍 Gemini Google Search         ║  국장/미장 뉴스
           ║  📈 yfinance                     ║  VIX, S&P500, 환율, 금, 유가
-          ║  🏛  DART API                    ║  유상증자 · 보호예수 공시
+          ║  🏛  DART API                    ║  오늘 공시 (참고용)
           ╚════════════════╤════════════════╝
-                           │ news_data + macro_data + dart_data
+                           │ news_data + macro_data
           ╔════════════════▼════════════════╗
           ║  STEP 2   테마 분석              ║
           ╠═════════════════════════════════╣
@@ -29,7 +29,7 @@
           ╔════════════════▼════════════════╗
           ║  STEP 3   종목 리서치 + 필터링   ║
           ╠═════════════════════════════════╣
-          ║  ✂️  DART 리스크 제외            ║  유상증자(-30) · 보호예수(-20)
+          ║  🏛  DART 리스크 개별 체크        ║  후보 종목만 유상증자/보호예수 조회
           ║  🔍 Gemini Google Search         ║  종목별 호재/악재/뉴스 (최대 40종목)
           ║  🏛  DART 재무 (국장만)          ║  부채비율 · 영업이익률 · 현금
           ╚════════════════╤════════════════╝
@@ -103,15 +103,26 @@ v05_종목추천/
 │       ├── scorer.py              # 🐍 종합 점수 계산
 │       └── report_claude.py       # 🤖 Claude CLI — 리포트 생성
 └── data/
-    └── YYYYMMDD/
-        └── all/                   # (또는 kr/ us/)
-            ├── step1~5.json       # 단계별 캐시
-            ├── step3_filter.md    # 제외 종목 사유
-            ├── final_report.json
-            ├── final_report.md    # ← 최종 리포트
-            └── logs/
-                ├── search_usage.jsonl   # Gemini 검색 횟수 추적
-                └── claude_usage.jsonl   # Claude 비용 추적
+    ├── YYYYMMDD/
+    │   └── all/                          # (또는 kr/ us/)
+    │       ├── step1_데이터수집/
+    │       │   ├── step1.json            # 캐시
+    │       │   └── step1_summary.md
+    │       ├── step2_테마분석/
+    │       │   ├── step2.json
+    │       │   └── step2_themes.md
+    │       ├── step3_종목필터링/
+    │       │   ├── step3.json
+    │       │   ├── step3_filter.json
+    │       │   └── step3_filter.md       # 제외 종목 사유
+    │       ├── step4_차트분석/
+    │       │   └── step4.json
+    │       └── step5_리포트/
+    │           ├── final_report_*.json
+    │           └── final_report_*.md     # ← 최종 리포트
+    └── logs/
+        ├── search_usage.jsonl            # Gemini 검색 횟수 추적
+        └── claude_usage.jsonl            # Claude 사용 추적
 ```
 
 ---
@@ -151,14 +162,14 @@ python main_schedule.py --market kr
          - DART 패널티 (유상증자 -30 / 보호예수 -20)
 ```
 
-## 최종 출력 — 15종목
+## 최종 출력 — 최대 30종목 (국장 10 + 미장 20)
 
 ```
-대형주  5개  (시총 5조↑, 점수 순)
-중소형 10개  (시총 5조↓, 점수 순)
+국장:  대형  3개 + 중소형  7개 = 10개
+미장:  대형  8개 + 중소형 12개 = 20개
 ```
 
-각 종목마다: 진입 조건 · 손절 기준 · 목표가 · 주요 리스크
+각 종목마다: 진입 조건 · 손절 기준 · 목표가 · 주요 리스크 · 향후 일정
 
 ---
 

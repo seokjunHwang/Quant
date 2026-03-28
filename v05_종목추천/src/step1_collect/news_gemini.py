@@ -5,7 +5,7 @@ Step 1-1: Gemini Google Search로 뉴스 수집.
 """
 
 import logging
-from datetime import datetime
+from src.utils.config import now_kst
 
 from src.utils.gemini_client import generate_json
 
@@ -30,7 +30,7 @@ def fetch_market_news(market: str) -> dict:
             "risk_factors": [...],
         }
     """
-    today = datetime.now().strftime("%Y년 %m월 %d일")
+    today = now_kst().strftime("%Y년 %m월 %d일")
     market_name = "미국" if market == "us" else "한국"
     exchange = "NYSE/NASDAQ" if market == "us" else "KOSPI/KOSDAQ"
 
@@ -85,7 +85,7 @@ def fetch_market_news(market: str) -> dict:
 
 def fetch_us_premarket() -> dict:
     """미장 프리마켓 + 전날 종가 기준 주요 이슈."""
-    today = datetime.now().strftime("%Y년 %m월 %d일")
+    today = now_kst().strftime("%Y년 %m월 %d일")
 
     prompt = f"""오늘({today}) 미국 주식 프리마켓 및 전날 종가 기준 주요 이슈를 검색해서 JSON으로 반환해줘.
 

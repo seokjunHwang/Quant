@@ -2,10 +2,19 @@ from __future__ import annotations
 """글로벌 설정 로더."""
 
 import os
+from datetime import datetime
 from pathlib import Path
 
+import pytz
 import yaml
 from dotenv import load_dotenv
+
+KST = pytz.timezone("Asia/Seoul")
+
+
+def now_kst() -> datetime:
+    """한국 시간 기준 현재 시각."""
+    return datetime.now(KST)
 
 ROOT_DIR = Path(__file__).parent.parent.parent
 CONFIG_DIR = ROOT_DIR / "config"
@@ -28,6 +37,14 @@ GEMINI_FALLBACK_MODEL = SETTINGS["gemini"]["fallback_model"]
 FILTERING = SETTINGS["filtering"]
 SCORING = SETTINGS["scoring"]
 UNIVERSE = SETTINGS["universe"]
-MAX_CANDIDATES = FILTERING["max_candidates"]
-LARGE_CAP_COUNT = FILTERING["large_cap_count"]
-SMALL_MID_CAP_COUNT = FILTERING["small_mid_cap_count"]
+
+# 시장별 리포트 종목 수
+MAX_REPORT_KR = FILTERING["kr"]["max_report"]
+MAX_REPORT_US = FILTERING["us"]["max_report"]
+LARGE_CAP_KR = FILTERING["kr"]["large_cap_count"]
+SMALL_MID_KR = FILTERING["kr"]["small_mid_cap_count"]
+LARGE_CAP_US = FILTERING["us"]["large_cap_count"]
+SMALL_MID_US = FILTERING["us"]["small_mid_cap_count"]
+MAX_CHART = FILTERING["max_chart_analysis"]
+MAX_RESEARCH_KR = FILTERING["kr"]["max_research"]
+MAX_RESEARCH_US = FILTERING["us"]["max_research"]

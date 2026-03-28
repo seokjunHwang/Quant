@@ -37,9 +37,9 @@ def get_financial_summary(corp_code: str, year: int | None = None) -> dict:
     DART 단일회사 주요재무지표 조회.
     Returns: {"revenue": ..., "op_income": ..., "net_income": ..., "debt_ratio": ..., "cash": ...}
     """
-    import datetime
+    from src.utils.config import now_kst
     if year is None:
-        year = datetime.datetime.now().year - 1  # 전년도 사업보고서
+        year = now_kst().year - 1  # 전년도 사업보고서
 
     try:
         data = _get("fnlttSinglAcntAll.json", {
@@ -143,32 +143,25 @@ def get_financial_score(financials: dict) -> int:
 
 def enrich_kr_stocks(
     stocks: list[dict],
-    rights_list: list[dict],
-    lockup_list: list[dict],
 ) -> list[dict]:
     """
     국장 종목 리스트에 DART 재무/리스크 데이터 추가.
 
     Args:
         stocks: [{"ticker": ..., "name": ..., ...}, ...]
-        rights_list: get_rights_offerings() 결과
-        lockup_list: get_lockup_releases() 결과
 
     Returns:
         enriched stocks with financial_score, dart_risk added
     """
     from src.step1_collect.dart import check_risk
 
-    rights_names = {r["corp_name"] for r in rights_list}
-    lockup_names = {l["corp_name"] for l in lockup_list}
-
     enriched = []
     for stock in stocks:
         name = stock.get("name", "")
         corp_name = name.split("(")[0].strip()  # 괄호 있으면 제거
 
-        # DART 리스크
-        dart_risk = check_risk(corp_name, rights_list, lockup_list)
+        # DART 리스크 (개별 종목 API 조회)
+        dart_risk = check_risk(corp_name)
 
         # 재무 (corp_code 필요)
         financials = {}

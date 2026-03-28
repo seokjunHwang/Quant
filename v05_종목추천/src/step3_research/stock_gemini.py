@@ -5,7 +5,7 @@ Step 3-1: Gemini Google Search로 개별 종목 리서치.
 """
 
 import logging
-from datetime import datetime
+from src.utils.config import now_kst
 
 from src.utils.gemini_client import generate_json
 
@@ -34,7 +34,7 @@ def research_stock(ticker: str, name: str, theme: str, market: str) -> dict:
             "score_hint": 0~100,
         }
     """
-    today = datetime.now().strftime("%Y년 %m월 %d일")
+    today = now_kst().strftime("%Y년 %m월 %d일")
     market_name = "한국" if market == "kr" else "미국"
     exchange = "KOSPI/KOSDAQ" if market == "kr" else "NYSE/NASDAQ"
 

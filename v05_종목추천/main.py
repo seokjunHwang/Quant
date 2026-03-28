@@ -14,7 +14,6 @@ import argparse
 import json
 import logging
 import sys
-from datetime import datetime
 from pathlib import Path
 
 # ── 로깅 설정 ────────────────────────────────────────────────────────────────
@@ -29,15 +28,37 @@ for noisy in ["httpx", "httpcore", "yfinance", "urllib3", "requests"]:
 
 logger = logging.getLogger(__name__)
 
-from src.utils.config import DATA_DIR
+from src.utils.config import (
+    DATA_DIR, now_kst,
+    MAX_REPORT_KR, MAX_REPORT_US, MAX_CHART,
+    MAX_RESEARCH_KR, MAX_RESEARCH_US,
+)
 from src.utils.gemini_client import get_search_usage
 from src.utils.claude_cli import get_claude_usage
+
+
+# ── 스텝 디렉토리 매핑 ────────────────────────────────────────────────────────
+
+STEP_DIRS = {
+    "step1": "step1_데이터수집",
+    "step2": "step2_테마분석",
+    "step3": "step3_종목필터링",
+    "step4": "step4_차트분석",
+    "step5": "step5_리포트",
+}
+
+
+def _step_dir(today: str, market: str, step: str) -> Path:
+    """step별 저장 디렉토리 반환 + 생성."""
+    d = DATA_DIR / today / market / STEP_DIRS.get(step, step)
+    d.mkdir(parents=True, exist_ok=True)
+    return d
 
 
 # ── 헬퍼 ─────────────────────────────────────────────────────────────────────
 
 def _load_cache(today: str, market: str, step: str) -> dict | None:
-    path = DATA_DIR / today / market / f"{step}.json"
+    path = _step_dir(today, market, step) / f"{step}.json"
     if path.exists():
         with open(path, encoding="utf-8") as f:
             return json.load(f)
@@ -45,8 +66,7 @@ def _load_cache(today: str, market: str, step: str) -> dict | None:
 
 
 def _save_cache(data: dict | list, today: str, market: str, step: str) -> None:
-    out_dir = DATA_DIR / today / market
-    out_dir.mkdir(parents=True, exist_ok=True)
+    out_dir = _step_dir(today, market, step)
     path = out_dir / f"{step}.json"
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -55,7 +75,7 @@ def _save_cache(data: dict | list, today: str, market: str, step: str) -> None:
 
 def _save_step1_md(data: dict, today: str, market: str) -> None:
     """Step 1 수집 결과를 사람이 읽기 좋은 MD로 저장."""
-    out_dir = DATA_DIR / today / market
+    out_dir = _step_dir(today, market, "step1")
     path = out_dir / "step1_summary.md"
 
     lines = [f"# Step 1 수집 결과 — {today} ({market.upper()})", ""]
@@ -115,22 +135,15 @@ def _save_step1_md(data: dict, today: str, market: str) -> None:
             elif imp == "medium":
                 lines.append(f"- 🟡 {e.get('event','')} ({e.get('time_et','')})")
 
-    # DART
+    # DART (오늘 공시만 — 리스크 체크는 Step 3에서 후보 종목별 수행)
     dart = data.get("dart", {})
-    rights = dart.get("rights_offerings", [])
-    lockup = dart.get("lockup_releases", [])
-    if rights or lockup:
-        lines += ["", "## DART 리스크 공시", ""]
-        if rights:
-            lines.append(f"### 유상증자 결정 ({len(rights)}건)")
-            for r in rights[:10]:
-                lines.append(f"- {r.get('corp_name','')} ({r.get('rcept_dt','')})")
-            if len(rights) > 10:
-                lines.append(f"- ... 외 {len(rights)-10}건")
-        if lockup:
-            lines += ["", f"### 보호예수 해제 예정 ({len(lockup)}건)"]
-            for l in lockup:
-                lines.append(f"- {l.get('corp_name','')} (해제일: {l.get('release_date','')})")
+    today_disc = dart.get("today_disclosures", [])
+    if today_disc:
+        lines += ["", f"## DART 오늘 공시 ({len(today_disc)}건)", ""]
+        for d in today_disc[:15]:
+            lines.append(f"- {d.get('corp_name','')} — {d.get('report_nm','')}")
+        if len(today_disc) > 15:
+            lines.append(f"- ... 외 {len(today_disc)-15}건")
 
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
@@ -139,7 +152,7 @@ def _save_step1_md(data: dict, today: str, market: str) -> None:
 
 def _save_step2_md(data: dict, today: str, market: str) -> None:
     """Step 2 테마 분석 결과 MD 저장."""
-    out_dir = DATA_DIR / today / market
+    out_dir = _step_dir(today, market, "step2")
     path = out_dir / "step2_themes.md"
 
     lines = [f"# Step 2 테마 분석 — {today} ({market.upper()})", ""]
@@ -190,7 +203,7 @@ def run_step1(market: str, today: str, dry_run: bool) -> dict:
 
     from src.step1_collect.news_gemini import fetch_market_news, fetch_us_premarket
     from src.step1_collect.market_data import fetch_macro
-    from src.step1_collect.dart import get_rights_offerings, get_lockup_releases, get_today_disclosures
+    from src.step1_collect.dart import get_today_disclosures
 
     result = {}
 
@@ -218,16 +231,12 @@ def run_step1(market: str, today: str, dry_run: bool) -> dict:
             print("  [US] 프리마켓 데이터 수집...")
             result["premarket"] = fetch_us_premarket()
 
-    # DART (국장만)
+    # DART 오늘 공시 (참고용)
     if market in ("kr", "all"):
-        print("  DART 공시 수집...")
+        print("  DART 오늘 공시 수집...")
         result["dart"] = {
-            "rights_offerings": get_rights_offerings(days_back=30),
-            "lockup_releases": get_lockup_releases(days_ahead=30),
             "today_disclosures": get_today_disclosures(),
         }
-        print(f"  유상증자: {len(result['dart']['rights_offerings'])}건, "
-              f"보호예수: {len(result['dart']['lockup_releases'])}건")
 
     _save_cache(result, today, market, "step1")
     _save_step1_md(result, today, market)
@@ -289,10 +298,8 @@ def run_step3(
     candidates = build_candidate_pool(step2_data, market=market)
     print(f"  후보 풀: {len(candidates)}개")
 
-    # DART 필터 (국장)
-    rights_list = step1_data.get("dart", {}).get("rights_offerings", [])
-    lockup_list = step1_data.get("dart", {}).get("lockup_releases", [])
-    passed, dart_excluded = apply_dart_filter(candidates, rights_list, lockup_list)
+    # DART 필터 (국장 후보 종목만 개별 체크)
+    passed, dart_excluded = apply_dart_filter(candidates)
     if dart_excluded:
         print(f"  DART 제외: {len(dart_excluded)}개")
 
@@ -305,12 +312,12 @@ def run_step3(
         us_stocks = [s for s in passed if s.get("market") == "us"]
 
         if kr_stocks:
-            print(f"\n  [KR] {len(kr_stocks)}개 종목 리서치...")
-            research_results += research_stocks_batch(kr_stocks, "kr", max_stocks=20)
+            print(f"\n  [KR] {len(kr_stocks)}개 종목 리서치 (최대 {MAX_RESEARCH_KR}개)...")
+            research_results += research_stocks_batch(kr_stocks, "kr", max_stocks=MAX_RESEARCH_KR)
 
         if us_stocks:
-            print(f"\n  [US] {len(us_stocks)}개 종목 리서치...")
-            research_results += research_stocks_batch(us_stocks, "us", max_stocks=20)
+            print(f"\n  [US] {len(us_stocks)}개 종목 리서치 (최대 {MAX_RESEARCH_US}개)...")
+            research_results += research_stocks_batch(us_stocks, "us", max_stocks=MAX_RESEARCH_US)
 
     # 재무 데이터 (국장)
     if not dry_run and market in ("kr", "all"):
@@ -318,7 +325,7 @@ def run_step3(
         if kr_passed:
             print(f"\n  [KR] 재무 데이터 수집...")
             from src.step3_research.financial import enrich_kr_stocks
-            enriched_kr = enrich_kr_stocks(kr_passed, rights_list, lockup_list)
+            enriched_kr = enrich_kr_stocks(kr_passed)
             # passed 업데이트
             kr_tickers = {s.get("ticker") for s in kr_passed}
             passed = [s for s in passed if s.get("ticker") not in kr_tickers] + enriched_kr
@@ -333,7 +340,7 @@ def run_step3(
         "research": research_results,
     }
 
-    save_filter_results(scored, dart_excluded, market, step="step3")
+    save_filter_results(scored, dart_excluded, market, step="step3", today=today)
     _save_cache(result, today, market, "step3")
     print(f"\n  → 통과: {len(scored)}개, 제외: {len(dart_excluded)}개")
     return result
@@ -356,7 +363,7 @@ def run_step4(step3_data: dict, market: str, today: str, dry_run: bool) -> dict:
     from src.step4_chart.chart_claude import analyze_charts_batch
 
     passed = step3_data.get("passed", [])
-    top_stocks = passed[:30]  # 상위 30개만 차트 분석
+    top_stocks = passed[:MAX_CHART]  # 상위 N개만 차트 분석
 
     # OHLCV 수집
     print(f"  OHLCV 수집 ({len(top_stocks)}개)...")
@@ -409,23 +416,35 @@ def run_step5(
     # 최종 순위
     ranked = rank_stocks(stocks)
 
-    # 상위 15개 출력
+    # 국장/미장 분리 후 시장별 상위 N개 선정
+    ranked_kr = [s for s in ranked if s.get("market") == "kr"][:MAX_REPORT_KR]
+    ranked_us = [s for s in ranked if s.get("market") != "kr"][:MAX_REPORT_US]
+    top_ranked = sorted(ranked_kr + ranked_us, key=lambda x: x.get("final_score", 0), reverse=True)
+
+    # 순위 재부여
+    for i, s in enumerate(top_ranked):
+        s["rank"] = i + 1
+
+    # 출력
     print(f"\n  {'순위':>4} {'종목':12} {'티커':8} {'점수':>6} {'타이밍':8} {'테마'}")
-    print(f"  {'-'*60}")
-    for s in ranked[:15]:
+    print(f"  {'-'*70}")
+    for s in top_ranked:
         timing = s.get("chart_result", {}).get("timing", "-")
+        mkt = "KR" if s.get("market") == "kr" else "US"
         print(
-            f"  {s['rank']:>4}위 {s.get('name','?')[:10]:12} "
+            f"  {s['rank']:>4}위 [{mkt}] {s.get('name','?')[:10]:12} "
             f"{s.get('ticker','?'):8} {s.get('final_score',0):>6.1f} "
             f"{timing:8} {s.get('theme','')[:15]}"
         )
 
+    print(f"\n  → 국장 {len(ranked_kr)}개 + 미장 {len(ranked_us)}개 = {len(top_ranked)}개")
+
     # Claude 리포트
     print("\n  최종 리포트 생성 중...")
-    report = generate_report(step2_data, ranked[:15], macro_data, market)
+    report = generate_report(step2_data, top_ranked, macro_data, market)
 
     # 저장
-    md_path = save_report(report, ranked[:15], step2_data, macro_data, market)
+    md_path = save_report(report, top_ranked, step2_data, macro_data, market)
     print(f"\n  리포트 저장 → {md_path}")
 
     return {"ranked": ranked, "report": report}
@@ -444,7 +463,7 @@ def main():
 
     market = args.market
     dry_run = args.dry_run
-    today = datetime.now().strftime("%Y%m%d")
+    today = now_kst().strftime("%Y%m%d")
 
     STEPS = ["step1", "step2", "step3", "step4", "step5"]
     start_idx = STEPS.index(args.from_step)
@@ -488,12 +507,29 @@ def main():
         logger.error(f"파이프라인 오류: {e}", exc_info=True)
         sys.exit(1)
 
+    # 웹 대시보드 데이터 빌드
+    try:
+        from build_web import build_web_data, save_web_json, build_dates_index, WEB_DATA_DIR
+        print(f"\n{'─'*60}")
+        print("  웹 대시보드 데이터 빌드...")
+        web_data = build_web_data(today)
+        if web_data:
+            save_web_json(web_data, f"{today}.json")
+            idx = build_dates_index()
+            web_dates = [d for d in idx["dates"] if (WEB_DATA_DIR / f"{d}.json").exists()]
+            idx["dates"] = web_dates
+            idx["latest"] = web_dates[0] if web_dates else ""
+            save_web_json(idx, "dates.json")
+            print("  웹 데이터 빌드 완료")
+    except Exception as e:
+        logger.warning(f"웹 빌드 스킵: {e}")
+
     # 사용량 요약
     print(f"\n{'─'*60}")
     search = get_search_usage()
     claude = get_claude_usage()
-    print(f"  Gemini 검색: {search.get('this_month_queries', 0)}회 (이번 달)")
-    print(f"  Claude 호출: {claude.get('total_calls', 0)}회 | ${claude.get('this_month_cost_usd', 0):.4f}")
+    print(f"  Gemini 검색: {search.get('this_month', 0)}회 (이번 달)")
+    print(f"  Claude 호출: {claude.get('total_calls', 0)}회 (Max 구독 — 추가 과금 없음)")
     print(f"{'='*60}\n")
 
 

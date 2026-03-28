@@ -123,7 +123,7 @@ def analyze_chart_claude(
 def analyze_charts_batch(
     candidates: list[dict],
     ohlcv_map: dict,
-    max_stocks: int = 30,
+    max_stocks: int = 40,
 ) -> list[dict]:
     """
     후보 종목 차트 일괄 분석.

@@ -1,0 +1,345 @@
+{
+  "macro": {
+    "vix": {
+      "price": 31.05,
+      "prev_close": 27.4,
+      "change_pct": 13.32
+    },
+    "sp500": {
+      "price": 6368.8501,
+      "prev_close": 6477.16,
+      "change_pct": -1.67
+    },
+    "nasdaq": {
+      "price": 20948.3594,
+      "prev_close": 21408.08,
+      "change_pct": -2.15
+    },
+    "us10y_yield": {
+      "price": 4.44,
+      "prev_close": 4.416,
+      "change_pct": 0.54
+    },
+    "us2y_yield": {
+      "price": 3.607,
+      "prev_close": 3.62,
+      "change_pct": -0.36
+    },
+    "dollar_index": {
+      "price": 100.15,
+      "prev_close": 99.858,
+      "change_pct": 0.29
+    },
+    "gold": {
+      "price": 4492.0,
+      "prev_close": 4432.0,
+      "change_pct": 1.35
+    },
+    "oil_wti": {
+      "price": 99.64,
+      "prev_close": 93.46,
+      "change_pct": 6.61
+    },
+    "bitcoin": {
+      "price": 66674.0156,
+      "prev_close": 66351.5703,
+      "change_pct": 0.49
+    },
+    "kospi": {
+      "price": 5438.8701,
+      "prev_close": 5460.46,
+      "change_pct": -0.4
+    },
+    "kosdaq": {
+      "price": 1141.51,
+      "prev_close": 1136.64,
+      "change_pct": 0.43
+    },
+    "usdkrw": {
+      "price": 1508.36,
+      "prev_close": 1509.16,
+      "change_pct": -0.05
+    },
+    "vix_zone": "공포"
+  },
+  "news": {
+    "kr": {
+      "market": "kr",
+      "date": "2026-03-28",
+      "macro_environment": {
+        "summary": "중동 지정학적 리스크와 구글 '터보퀀트' 쇼크로 장 초반 급락했으나, 개인의 대규모 저가 매수세와 트럼프의 이란 공격 유예 발언으로 낙폭을 만회하며 전약후강 장세 연출",
+        "key_indicators": [
+          {
+            "name": "KOSPI",
+            "value": "5,438.87",
+            "trend": "하락",
+            "impact": "외국인의 대규모 매도세로 하락했으나 개인 매수세로 5,400선 방어"
+          },
+          {
+            "name": "KOSDAQ",
+            "value": "1,141.51",
+            "trend": "상승",
+            "impact": "장 초반 하락을 딛고 반등에 성공하며 투자 심리 일부 회복"
+          },
+          {
+            "name": "원/달러 환율",
+            "value": "1,508.9원",
+            "trend": "상승",
+            "impact": "1,500원을 돌파하며 외국인 수급 악화 및 수입 물가 상승 우려 가중"
+          },
+          {
+            "name": "국고채 3년물 금리",
+            "value": "3.582%",
+            "trend": "상승",
+            "impact": "미국 국채 금리 상승 및 인플레이션 우려로 국내 시장 금리도 동반 상승"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "반도체 (메모리/AI)",
+          "reason": "구글의 AI 메모리 효율 극대화 알고리즘 '터보퀀트' 공개로 수요 둔화 우려가 부각되며 급락했으나, 과도한 우려라는 분석에 저가 매수 유입",
+          "trading_type": "스윙",
+          "sectors": [
+            "메모리 반도체",
+            "AI 반도체"
+          ]
+        },
+        {
+          "theme": "에너지 및 방산",
+          "reason": "중동 전쟁 장기화 우려 및 국제 유가 급등세로 인해 실적 기반의 방어주로 부각",
+          "trading_type": "단타",
+          "sectors": [
+            "에너지",
+            "석유화학",
+            "방위산업"
+          ]
+        },
+        {
+          "theme": "화장품 및 수출주",
+          "reason": "원/달러 환율 1,500원 돌파에 따른 수출 마진 개선 기대감 및 저가 매수세 유입",
+          "trading_type": "스윙",
+          "sectors": [
+            "화장품",
+            "미용기기"
+          ]
+        },
+        {
+          "theme": "제약/바이오",
+          "reason": "식약처의 바이오시밀러 임상 3상 완화 사전 검토 착수 소식 및 개별 기업의 임상 호조 모멘텀",
+          "trading_type": "스윙",
+          "sectors": [
+            "바이오시밀러",
+            "유전자 치료제"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "반도체",
+          "direction": "neutral",
+          "key_news": "구글 '터보퀀트' 쇼크로 삼성전자·SK하이닉스 장 초반 급락 후 낙폭 축소",
+          "reason": "AI 메모리 사용량을 줄이는 알고리즘 발표로 단기 심리적 충격이 컸으나, 구조적 수요 둔화로 이어질 가능성은 낮다는 분석에 반등"
+        },
+        {
+          "sector": "에너지/화학",
+          "direction": "bullish",
+          "key_news": "국제 유가 급등 및 중동 전쟁 리스크에 관련주 변동성 확대 및 강세",
+          "reason": "이란 전쟁 관련 불확실성 지속과 유가 배럴당 100달러 상회 우려로 매수세 몰림"
+        },
+        {
+          "sector": "증권",
+          "direction": "bullish",
+          "key_news": "높은 시장 거래대금 유지에 따른 호실적 기대감으로 증권주 상승",
+          "reason": "개인 투자자들의 대규모 매수세(코스피 2.7조 순매수) 등 증시 변동성 속 거래 활성화"
+        },
+        {
+          "sector": "게임",
+          "direction": "bullish",
+          "key_news": "펄어비스 '붉은사막' 흥행 기대감 등에 힘입어 게임주 일부 강세",
+          "reason": "개별 신작 모멘텀 부각 및 저점 매수세 유입"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "중동 지정학적 리스크",
+          "severity": "high",
+          "description": "미국-이란 전쟁 관련 불확실성 및 트럼프 대통령의 발언에 따른 글로벌 증시 변동성 확대. 유가 급등 촉발 요인."
+        },
+        {
+          "factor": "고환율 및 고금리 장기화",
+          "severity": "high",
+          "description": "원/달러 환율 1,500원 돌파 및 국고채 금리 고공행진으로 인해 외국인 자금 이탈 가속화 및 국내 기업 부담 증가."
+        },
+        {
+          "factor": "외국인 대규모 순매도",
+          "severity": "medium",
+          "description": "코스피 시장에서 외국인이 7거래일 연속 대규모 매도(약 3.8조 원)를 이어가며 수급 불균형 심화. 개인 매수세의 방어력 지속 여부가 관건."
+        }
+      ]
+    },
+    "us": {
+      "market": "us",
+      "date": "2026년 03월 28일",
+      "macro_environment": {
+        "summary": "이란과의 전쟁 격화 및 호르무즈 해협 봉쇄 우려로 유가가 폭등하며, 인플레이션 재점화 및 고금리 장기화 공포에 3대 지수가 일제히 급락하여 조정 국면에 진입했습니다.",
+        "key_indicators": [
+          {
+            "name": "나스닥 종합지수 (NASDAQ)",
+            "value": "20,948.36",
+            "trend": "하락",
+            "impact": "고점 대비 10% 이상 하락하며 공식적인 조정 국면(Correction)에 진입, 기술주 전반의 투자 심리 급랭 [1.10]"
+          },
+          {
+            "name": "미국 10년물 국채금리",
+            "value": "4.48%",
+            "trend": "상승",
+            "impact": "유가 급등에 따른 인플레이션 우려로 연중 최고치 경신, 주식 시장의 밸류에이션 압박 심화"
+          },
+          {
+            "name": "브렌트유 (Brent Crude)",
+            "value": "$112.57",
+            "trend": "상승",
+            "impact": "중동 지정학적 리스크로 배럴당 112달러를 돌파하며 에너지 섹터 상승 및 스태그플레이션 우려 자극"
+          },
+          {
+            "name": "VIX (변동성 지수)",
+            "value": "31.05",
+            "trend": "상승",
+            "impact": "시장의 공포 심리가 극대화되며 위험 자산 회피 현상 가속화"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "에너지및정유(Energy&Oil)",
+          "reason": "이란의호르무즈해협봉쇄위협과중동전쟁격화로국제유가가배럴당112달러를돌파하며급등[1.10]",
+          "trading_type": "단타/스윙",
+          "sectors": [
+            "에너지",
+            "원유 생산 및 정제"
+          ]
+        },
+        {
+          "theme": "안전자산 (Safe Haven)",
+          "reason": "증시 급락과 지정학적 불안감 확산으로 금, 은 등 귀금속과 방산주로의 자금 도피 현상 발생",
+          "trading_type": "스윙",
+          "sectors": [
+            "귀금속",
+            "방위산업"
+          ]
+        },
+        {
+          "theme": "빅테크 및 반도체 숏 (Big Tech & Semi Short)",
+          "reason": "국채 금리 급등과 밸류에이션 부담으로 인해 기술주 중심의 강한 매도세 출회 (엔비디아, 메타, 아마존 등 급락)",
+          "trading_type": "단타",
+          "sectors": [
+            "IT",
+            "반도체"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "에너지 (Energy)",
+          "direction": "bullish",
+          "key_news": "에너지 섹터(XLE) 1.6% 상승, 유가 폭등에 따른 수혜 기대감 [1.3]",
+          "reason": "이란-미국/이스라엘 갈등 심화 및 호르무즈 해협 봉쇄 우려로 글로벌 원유 공급 차질이 가시화됨"
+        },
+        {
+          "sector": "기술주 (Technology)",
+          "direction": "bearish",
+          "key_news": "나스닥 2.15% 급락하며 조정 국면 진입, 매그니피센트 7 동반 하락",
+          "reason": "고금리 장기화 전망이 미래 현금흐름에 의존하는 기술주들의 밸류에이션을 강하게 압박함"
+        },
+        {
+          "sector": "소비재 및 여행 (Consumer Discretionary & Travel)",
+          "direction": "bearish",
+          "key_news": "노르웨이지안 크루즈(-6.9%), 스타벅스(-4.8%) 등 폭락",
+          "reason": "유가 급등으로 인한 운송/운영 비용 증가 우려와 미시간대 소비자심리지수 하락(53.3)에 따른 소비 위축 공포"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "중동 지정학적 리스크 (미국/이스라엘 vs 이란)",
+          "severity": "high",
+          "description": "이란의 호르무즈 해협 봉쇄 위협 및 에너지 시설 타격 가능성으로 글로벌 원유 공급망 붕괴 우려가 최고조에 달함 [1.13]"
+        },
+        {
+          "factor": "인플레이션 재점화 및 고금리 장기화",
+          "severity": "high",
+          "description": "유가 폭등이 물가 상승을 부추겨 연준(Fed)의 금리 인하 기대감을 소멸시키고 국채 금리를 급등시킴"
+        },
+        {
+          "factor": "스태그플레이션 진입 우려",
+          "severity": "medium",
+          "description": "물가는 오르는 반면, 소비자 심리지수 하락 등 경제 지표가 악화되며 경기 침체와 인플레이션이 동반될 가능성 대두"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "premarket_movers": [
+      {
+        "ticker": "VLO",
+        "name": "발레로 에너지",
+        "change_pct": 5.8,
+        "reason": "Raymond James 및 BofA의 목표가 상향 조정"
+      },
+      {
+        "ticker": "OXY",
+        "name": "옥시덴탈 페트롤리움",
+        "change_pct": 4.06,
+        "reason": "Vicki Hollub CEO 은퇴 준비 보도"
+      },
+      {
+        "ticker": "LITE",
+        "name": "루멘텀 홀딩스",
+        "change_pct": -11.37,
+        "reason": "미국 내 대규모 신규 제조 시설 투자 발표"
+      }
+    ],
+    "earnings_today": [
+      {
+        "ticker": "CCL",
+        "name": "카니발",
+        "expectation": "1분기 실적 발표 (예상치 미정)",
+        "impact": "크루즈 가격 책정 및 비용 통제력에 따른 주가 변동성 확대 예상"
+      },
+      {
+        "ticker": "KOPN",
+        "name": "코핀",
+        "expectation": "N/A",
+        "impact": "실적 발표 후 옵션 시장 변동성 확대 예상"
+      }
+    ],
+    "economic_events": [
+      {
+        "time_et": "07:30",
+        "event": "미국 4분기 GDP (최종치)",
+        "forecast": "N/A",
+        "importance": "high"
+      },
+      {
+        "time_et": "07:30",
+        "event": "미국 개인소비지출(PCE) 물가지수",
+        "forecast": "N/A",
+        "importance": "high"
+      },
+      {
+        "time_et": "10:30",
+        "event": "제롬 파월 연준 의장 연설",
+        "forecast": "N/A",
+        "importance": "high"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 4월 29일 - 30일",
+      "cut_probability": "약 2.6%"
+    }
+  },
+  "dart": {
+    "today_disclosures": []
+  }
+}

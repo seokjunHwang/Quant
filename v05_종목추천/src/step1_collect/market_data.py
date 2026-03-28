@@ -5,7 +5,9 @@ yfinance(미장) + pykrx(국장) + 매크로 지표.
 """
 
 import logging
-from datetime import datetime, timedelta
+from datetime import timedelta
+
+from src.utils.config import now_kst
 
 import pandas as pd
 import yfinance as yf
@@ -89,7 +91,7 @@ def get_kr_universe() -> pd.DataFrame:
     try:
         from pykrx import stock
 
-        today = datetime.now().strftime("%Y%m%d")
+        today = now_kst().strftime("%Y%m%d")
 
         rows = []
         for market in ["KOSPI", "KOSDAQ"]:
@@ -116,8 +118,8 @@ def fetch_ohlcv(ticker: str, days: int = 90, market: str = "us") -> pd.DataFrame
     try:
         if market == "kr":
             from pykrx import stock
-            end = datetime.now().strftime("%Y%m%d")
-            start = (datetime.now() - timedelta(days=days)).strftime("%Y%m%d")
+            end = now_kst().strftime("%Y%m%d")
+            start = (now_kst() - timedelta(days=days)).strftime("%Y%m%d")
             df = stock.get_market_ohlcv_by_date(start, end, ticker)
             df.columns = ["open", "high", "low", "close", "volume", "trading_value", "price_change", "change_pct"]
             df.index = pd.to_datetime(df.index)
@@ -147,7 +149,7 @@ def fetch_stock_info(ticker: str, market: str = "us") -> dict:
             }
         else:
             from pykrx import stock
-            today = datetime.now().strftime("%Y%m%d")
+            today = now_kst().strftime("%Y%m%d")
             df = stock.get_market_cap_by_ticker(today, market="ALL")
             if ticker in df.index:
                 row = df.loc[ticker]

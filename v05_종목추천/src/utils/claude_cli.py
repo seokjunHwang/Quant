@@ -7,7 +7,7 @@ claude -p "..." --output-format json --allowedTools WebSearch
 import json
 import logging
 import subprocess
-from datetime import datetime
+from src.utils.config import now_kst
 from pathlib import Path
 
 from src.utils.config import DATA_DIR
@@ -117,7 +117,7 @@ def _log_usage(raw: dict, context: str) -> None:
     usage = raw.get("usage", {})
     cost = raw.get("total_cost_usd", 0)
     entry = {
-        "timestamp": datetime.now().isoformat(),
+        "timestamp": now_kst().isoformat(),
         "context": context,
         "cost_usd": cost,
         "input_tokens": usage.get("input_tokens", 0),
@@ -134,7 +134,7 @@ def get_claude_usage() -> dict:
         return {"total_cost_usd": 0, "this_month_cost_usd": 0, "total_calls": 0}
 
     total_cost = month_cost = total_calls = 0
-    month_prefix = datetime.now().strftime("%Y-%m")
+    month_prefix = now_kst().strftime("%Y-%m")
 
     with open(CLAUDE_LOG, encoding="utf-8") as f:
         for line in f:

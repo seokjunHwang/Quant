@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>v05 종목추천</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-950 text-gray-200 font-sans min-h-screen">
+
+  <!-- Header -->
+  <header id="header" class="sticky top-0 z-50 border-b border-gray-800 bg-gray-950/95 backdrop-blur">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <h1 class="text-lg font-semibold tracking-tight">v05 종목추천</h1>
+        <span id="badge-market" class="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-400"></span>
+      </div>
+      <div class="flex items-center gap-3">
+        <!-- Date navigator -->
+        <button id="btn-prev-date" class="p-1.5 rounded hover:bg-gray-800 transition" title="이전 날짜">
+          <i data-lucide="chevron-left" class="w-4 h-4"></i>
+        </button>
+        <select id="select-date" class="bg-gray-800 border border-gray-700 rounded px-3 py-1.5 text-sm font-mono"></select>
+        <button id="btn-next-date" class="p-1.5 rounded hover:bg-gray-800 transition" title="다음 날짜">
+          <i data-lucide="chevron-right" class="w-4 h-4"></i>
+        </button>
+        <!-- Theme toggle -->
+        <button id="btn-theme" class="p-1.5 rounded hover:bg-gray-800 transition" title="테마 전환">
+          <i data-lucide="moon" class="w-4 h-4" id="icon-theme"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="max-w-7xl mx-auto px-4 py-6 space-y-6">
+
+    <!-- Loading state -->
+    <div id="loading" class="flex items-center justify-center py-20">
+      <div class="animate-spin w-8 h-8 border-2 border-gray-600 border-t-blue-500 rounded-full"></div>
+    </div>
+
+    <!-- Error state -->
+    <div id="error" class="hidden text-center py-20">
+      <i data-lucide="alert-triangle" class="w-12 h-12 mx-auto text-red-500 mb-4"></i>
+      <p class="text-gray-400" id="error-message">데이터를 불러올 수 없습니다</p>
+    </div>
+
+    <!-- Dashboard content (hidden until data loads) -->
+    <div id="dashboard" class="hidden space-y-6">
+
+      <!-- Page tabs -->
+      <nav id="page-tabs" class="flex gap-1 border-b border-gray-800 pb-0">
+        <button class="page-tab active" data-page="overview">시장 개요</button>
+        <button class="page-tab" data-page="picks">종목 추천</button>
+      </nav>
+
+      <!-- PAGE: 시장 개요 -->
+      <div id="page-overview" class="space-y-6">
+
+        <!-- Macro indicators -->
+        <section id="section-macro">
+          <div id="macro-cards" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3"></div>
+        </section>
+
+        <!-- Strategy banner -->
+        <section id="section-strategy" class="rounded-lg border border-gray-800 bg-gray-900/50 p-4">
+          <div class="flex items-start gap-3">
+            <i data-lucide="target" class="w-5 h-5 text-blue-400 mt-0.5 shrink-0"></i>
+            <div>
+              <p id="txt-strategy" class="text-sm leading-relaxed"></p>
+              <p id="txt-market-view" class="text-xs text-gray-500 mt-2"></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Market summary (tabbed) -->
+        <section id="section-summary">
+          <div class="flex items-center justify-between mb-3">
+            <h2 class="text-sm font-semibold text-gray-400 flex items-center gap-2">
+              <i data-lucide="newspaper" class="w-4 h-4"></i> 시장 상세
+            </h2>
+            <div class="flex gap-1 text-xs">
+              <button class="news-tab px-2.5 py-1 rounded active" data-market="all">전체</button>
+              <button class="news-tab px-2.5 py-1 rounded" data-market="us">미장</button>
+              <button class="news-tab px-2.5 py-1 rounded" data-market="kr">국장</button>
+            </div>
+          </div>
+          <div id="news-content" class="space-y-3"></div>
+        </section>
+
+        <!-- Themes (collapsible) -->
+        <section id="section-themes">
+          <div class="flex items-center justify-between mb-3">
+            <button id="btn-toggle-themes" class="text-sm font-semibold text-gray-400 flex items-center gap-2 hover:text-gray-200 transition">
+              <i data-lucide="flame" class="w-4 h-4"></i> 유효 테마
+              <span id="theme-count" class="text-xs text-gray-500"></span>
+              <i data-lucide="chevron-down" class="w-4 h-4 transition-transform" id="icon-themes-toggle"></i>
+            </button>
+            <div id="theme-tabs" class="flex gap-1 text-xs">
+              <button class="theme-tab px-2.5 py-1 rounded" data-filter="all">전체</button>
+              <button class="theme-tab px-2.5 py-1 rounded" data-filter="강">강</button>
+              <button class="theme-tab px-2.5 py-1 rounded" data-filter="중">중</button>
+              <button class="theme-tab px-2.5 py-1 rounded" data-filter="약">약</button>
+            </div>
+          </div>
+          <div id="theme-list" class="grid gap-2 collapsible"></div>
+        </section>
+
+        <!-- Avoid / Excluded -->
+        <section id="section-avoid" class="rounded-lg border border-gray-800 bg-gray-900/50 p-4">
+          <h2 class="text-sm font-semibold text-gray-400 mb-2 flex items-center gap-2">
+            <i data-lucide="shield-alert" class="w-4 h-4"></i> 주의 종목
+          </h2>
+          <p id="txt-avoid" class="text-sm text-gray-400"></p>
+        </section>
+
+      </div>
+
+      <!-- PAGE: 종목 추천 -->
+      <div id="page-picks" class="space-y-6 hidden">
+
+        <!-- Recommendations -->
+        <section id="section-recs">
+          <div class="flex items-center justify-between mb-3">
+            <h2 class="text-sm font-semibold text-gray-400 flex items-center gap-2">
+              <i data-lucide="bar-chart-3" class="w-4 h-4"></i> 추천 종목
+              <span id="rec-count" class="text-xs text-gray-500"></span>
+            </h2>
+            <div id="rec-tabs" class="flex gap-1 text-xs">
+              <button class="rec-tab px-2.5 py-1 rounded" data-filter="all">전체</button>
+              <button class="rec-tab px-2.5 py-1 rounded" data-filter="us">미장</button>
+              <button class="rec-tab px-2.5 py-1 rounded" data-filter="kr">국장</button>
+            </div>
+          </div>
+
+          <!-- Table -->
+          <div class="overflow-x-auto rounded-lg border border-gray-800">
+            <table class="w-full text-sm">
+              <thead class="bg-gray-900/80 text-gray-500 text-xs uppercase tracking-wider">
+                <tr>
+                  <th class="px-3 py-2.5 text-left w-10">#</th>
+                  <th class="px-3 py-2.5 text-left">종목명</th>
+                  <th class="px-3 py-2.5 text-left">티커</th>
+                  <th class="px-3 py-2.5 text-left hidden md:table-cell">테마</th>
+                  <th class="px-3 py-2.5 text-right font-mono w-16">점수</th>
+                  <th class="px-3 py-2.5 text-center w-16">과열</th>
+                  <th class="px-3 py-2.5 text-center w-20">타이밍</th>
+                  <th class="px-3 py-2.5 text-center hidden lg:table-cell w-16">변동</th>
+                  <th class="px-3 py-2.5 text-left hidden lg:table-cell">향후 일정</th>
+                </tr>
+              </thead>
+              <tbody id="rec-table-body" class="divide-y divide-gray-800/50"></tbody>
+            </table>
+          </div>
+        </section>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-800 mt-8">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between text-xs text-gray-600">
+      <span id="footer-generated"></span>
+      <span id="footer-counts"></span>
+    </div>
+  </footer>
+
+  <!-- TradingView Chart Modal -->
+  <div id="tv-overlay" class="fixed inset-0 bg-black/70 z-50 hidden" onclick="closeTVChart()"></div>
+  <div id="tv-modal" class="fixed inset-4 md:inset-10 bg-gray-900 border border-gray-700 rounded-lg z-50 hidden flex flex-col">
+    <div class="flex items-center justify-between px-4 py-2 border-b border-gray-800">
+      <div class="flex items-center gap-3">
+        <span id="tv-title" class="text-sm font-semibold"></span>
+        <div class="flex gap-1 text-xs">
+          <button class="tv-tf-btn px-2 py-1 rounded" data-tf="W" onclick="setTVTimeframe('W')">주봉</button>
+          <button class="tv-tf-btn px-2 py-1 rounded active" data-tf="D" onclick="setTVTimeframe('D')">일봉</button>
+          <button class="tv-tf-btn px-2 py-1 rounded" data-tf="240" onclick="setTVTimeframe('240')">4H</button>
+          <button class="tv-tf-btn px-2 py-1 rounded" data-tf="60" onclick="setTVTimeframe('60')">1H</button>
+          <button class="tv-tf-btn px-2 py-1 rounded" data-tf="15" onclick="setTVTimeframe('15')">15m</button>
+        </div>
+      </div>
+      <button onclick="closeTVChart()" class="p-1.5 rounded hover:bg-gray-800">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+    <div id="tv-chart-container" class="flex-1"></div>
+  </div>
+
+  <!-- Expanded row detail modal/panel (hidden) -->
+  <div id="detail-overlay" class="fixed inset-0 bg-black/60 z-50 hidden" onclick="closeDetail()"></div>
+  <div id="detail-panel" class="fixed right-0 top-0 h-full w-full md:w-[480px] bg-gray-900 border-l border-gray-800 z-50 hidden overflow-y-auto transform translate-x-full transition-transform duration-300">
+    <div class="p-5">
+      <div class="flex items-center justify-between mb-4">
+        <h3 id="detail-title" class="text-lg font-semibold"></h3>
+        <button onclick="closeDetail()" class="p-1.5 rounded hover:bg-gray-800">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div id="detail-content"></div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

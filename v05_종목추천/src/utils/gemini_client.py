@@ -8,7 +8,7 @@ Google Search grounding 지원.
 import json
 import logging
 import time
-from datetime import datetime
+from src.utils.config import now_kst
 from pathlib import Path
 
 from google import genai
@@ -35,7 +35,7 @@ def _log_search(model: str, query_count: int, context: str) -> None:
     SEARCH_LOG.parent.mkdir(parents=True, exist_ok=True)
     with open(SEARCH_LOG, "a", encoding="utf-8") as f:
         f.write(json.dumps({
-            "timestamp": datetime.now().isoformat(),
+            "timestamp": now_kst().isoformat(),
             "model": model,
             "search_queries": query_count,
             "context": context,
@@ -46,7 +46,7 @@ def get_search_usage() -> dict:
     if not SEARCH_LOG.exists():
         return {"total": 0, "this_month": 0, "free_remaining": 5000}
     total = this_month = 0
-    month_prefix = datetime.now().strftime("%Y-%m")
+    month_prefix = now_kst().strftime("%Y-%m")
     with open(SEARCH_LOG, encoding="utf-8") as f:
         for line in f:
             try:
