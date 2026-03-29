@@ -138,8 +138,8 @@
             </div>
           </div>
 
-          <!-- Table -->
-          <div class="overflow-x-auto rounded-lg border border-gray-800">
+          <!-- Desktop Table -->
+          <div class="rec-table-desktop overflow-x-auto rounded-lg border border-gray-800">
             <table class="w-full text-sm">
               <thead class="bg-gray-900/80 text-gray-500 text-xs uppercase tracking-wider">
                 <tr>
@@ -157,6 +157,9 @@
               <tbody id="rec-table-body" class="divide-y divide-gray-800/50"></tbody>
             </table>
           </div>
+
+          <!-- Mobile Card List -->
+          <div id="rec-card-list" class="rec-card-list"></div>
         </section>
 
       </div>
@@ -174,7 +177,7 @@
 
   <!-- TradingView Chart Modal -->
   <div id="tv-overlay" class="fixed inset-0 bg-black/70 z-50 hidden" onclick="closeTVChart()"></div>
-  <div id="tv-modal" class="fixed inset-4 md:inset-10 bg-gray-900 border border-gray-700 rounded-lg z-50 hidden flex flex-col">
+  <div id="tv-modal" class="fixed inset-1 md:inset-10 bg-gray-900 border border-gray-700 rounded-lg z-50 hidden flex flex-col">
     <div class="flex items-center justify-between px-4 py-2 border-b border-gray-800">
       <div class="flex items-center gap-3">
         <span id="tv-title" class="text-sm font-semibold"></span>
@@ -195,8 +198,12 @@
 
   <!-- Expanded row detail modal/panel (hidden) -->
   <div id="detail-overlay" class="fixed inset-0 bg-black/60 z-50 hidden" onclick="closeDetail()"></div>
-  <div id="detail-panel" class="fixed right-0 top-0 h-full w-full md:w-[480px] bg-gray-900 border-l border-gray-800 z-50 hidden overflow-y-auto transform translate-x-full transition-transform duration-300">
+  <div id="detail-panel" class="fixed right-0 top-0 h-full w-full md:w-[480px] bg-gray-900 border-l border-gray-800 z-50 hidden overflow-y-auto transition-transform duration-300">
     <div class="p-5">
+      <!-- Mobile drag handle -->
+      <div class="detail-handle" onclick="closeDetail()">
+        <div class="detail-handle-bar"></div>
+      </div>
       <div class="flex items-center justify-between mb-4">
         <h3 id="detail-title" class="text-lg font-semibold"></h3>
         <button onclick="closeDetail()" class="p-1.5 rounded hover:bg-gray-800">

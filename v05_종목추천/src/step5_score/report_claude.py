@@ -10,20 +10,19 @@ from pathlib import Path
 
 from src.utils.claude_cli import ask_claude
 from src.utils.config import DATA_DIR, now_kst
-from src.utils.gemini_client import generate_json
 
 logger = logging.getLogger(__name__)
 
 
-# ── 일정 검색 (Gemini Search) ─────────────────────────────────────────────────
+# ── 일정 검색 (Claude CLI + WebSearch) ────────────────────────────────────────
 
 def fetch_upcoming_events(stocks: list[dict], batch_size: int = 5) -> dict:
     """
     추천 종목들의 향후 일정 (실적발표, 배당, 컨퍼런스 등) 검색.
-    5종목씩 배치로 Gemini Search 호출하여 쿼리 절약.
+    5종목씩 배치로 Claude CLI + WebSearch 호출 (Max 구독 — 추가 비용 없음).
 
     Returns:
-        {ticker: {"earnings": ..., "events": [...], "summary": ...}, ...}
+        {ticker: [{"date": ..., "event": ..., "impact": ..., "detail": ...}, ...], ...}
     """
     today = now_kst().strftime("%Y년 %m월 %d일")
     result = {}
@@ -34,12 +33,14 @@ def fetch_upcoming_events(stocks: list[dict], batch_size: int = 5) -> dict:
             f"{s.get('name','')}({s.get('ticker','')})" for s in batch
         )
         tickers = [s.get("ticker", "") for s in batch]
+        batch_num = i // batch_size + 1
 
-        prompt = f"""오늘({today}) 기준 아래 종목들의 향후 1개월 주요 일정을 검색해서 JSON으로 반환해줘.
+        prompt = f"""오늘({today}) 기준 아래 종목들의 향후 1개월 주요 일정을 웹 검색해서 JSON으로 반환해줘.
 실적발표, 배당락일, IR/컨퍼런스, FDA 승인, 주주총회, 지수편입/편출, 분할 등 주가에 영향 주는 이벤트만.
 
 종목: {stock_list}
 
+아래 JSON 형식으로만 반환 (설명 없이 JSON만):
 {{
   "events": [
     {{
@@ -52,32 +53,34 @@ def fetch_upcoming_events(stocks: list[dict], batch_size: int = 5) -> dict:
 }}
 
 규칙:
-- 확인된 일정만 포함 (추측 금지)
+- 반드시 웹 검색해서 확인된 일정만 포함 (추측 금지)
 - 날짜 모르면 "미정" 또는 "Q2 예정" 등으로
 - 일정 없으면 upcoming을 빈 배열 []"""
 
-        for attempt in range(2):  # 1회 재시도
-            try:
-                data = generate_json(
-                    prompt,
-                    temperature=0.1,
-                    use_search=True,
-                    search_context=f"step5_events_batch{i // batch_size + 1}",
-                )
+        try:
+            data = ask_claude(
+                prompt,
+                expect_json=True,
+                allow_search=True,
+                timeout=180,
+                context=f"step5_events_batch{batch_num}",
+            )
+            if isinstance(data, dict):
                 for item in data.get("events", []):
                     ticker = item.get("ticker", "")
                     if ticker:
                         result[ticker] = item.get("upcoming", [])
-                break  # 성공 시 재시도 안 함
-            except Exception as e:
-                if attempt == 0:
-                    logger.warning(f"Event search retry (batch {i // batch_size + 1}): {e}")
-                else:
-                    logger.warning(f"Event search failed (batch {i // batch_size + 1}): {e}")
-                    for t in tickers:
-                        result.setdefault(t, [])
+            elif isinstance(data, list):
+                for item in data:
+                    ticker = item.get("ticker", "")
+                    if ticker:
+                        result[ticker] = item.get("upcoming", [])
+        except Exception as e:
+            logger.warning(f"Event search failed (batch {batch_num}): {e}")
+            for t in tickers:
+                result.setdefault(t, [])
 
-    logger.info(f"Upcoming events fetched for {len(result)} stocks")
+    logger.info(f"Upcoming events fetched for {len(result)} stocks via Claude CLI")
     return result
 
 REPORT_PROMPT = """당신은 주식시장 분석 전문가입니다.

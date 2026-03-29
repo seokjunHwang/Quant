@@ -75,7 +75,15 @@ def generate(
     json_mode: bool = False,
     use_search: bool = False,
     search_context: str = "",
+    model: str | None = None,
 ) -> str:
+    """
+    Gemini API 호출.
+
+    Args:
+        model: 명시하면 해당 모델만 사용 (재시도 시에도 동일 모델).
+               None이면 기존 Primary → Fallback 순서.
+    """
     client = _get_client()
     config = types.GenerateContentConfig(
         temperature=temperature,
@@ -88,12 +96,20 @@ def generate(
     if use_search:
         config.tools = [types.Tool(google_search=types.GoogleSearch())]
 
-    attempts = [
-        (GEMINI_PRIMARY_MODEL, 1),
-        (GEMINI_PRIMARY_MODEL, 2),
-        (GEMINI_PRIMARY_MODEL, 3),
-        (GEMINI_FALLBACK_MODEL, 1),
-    ]
+    if model:
+        # 명시적 모델 지정 시 해당 모델로만 재시도
+        attempts = [
+            (model, 1),
+            (model, 2),
+            (model, 3),
+        ]
+    else:
+        attempts = [
+            (GEMINI_PRIMARY_MODEL, 1),
+            (GEMINI_PRIMARY_MODEL, 2),
+            (GEMINI_PRIMARY_MODEL, 3),
+            (GEMINI_FALLBACK_MODEL, 1),
+        ]
 
     for model_name, attempt in attempts:
         is_last = model_name == GEMINI_FALLBACK_MODEL
@@ -130,6 +146,7 @@ def generate_json(
     max_tokens: int = 8192,
     use_search: bool = False,
     search_context: str = "",
+    model: str | None = None,
 ) -> list | dict:
     text = generate(
         prompt,
@@ -139,6 +156,7 @@ def generate_json(
         json_mode=True,
         use_search=use_search,
         search_context=search_context,
+        model=model,
     )
     if "```" in text:
         start = text.find("[") if "[" in text else text.find("{")

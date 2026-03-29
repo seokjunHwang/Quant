@@ -511,6 +511,10 @@ function renderThemes() {
   container.innerHTML = html;
 }
 
+function isMobile() {
+  return window.innerWidth <= 768;
+}
+
 function renderRecommendations() {
   var recs = state.data.recommendations || [];
   var filtered = recs.filter(function (r) {
@@ -522,10 +526,17 @@ function renderRecommendations() {
   var countEl = document.getElementById('rec-count');
   if (countEl) countEl.textContent = '(' + filtered.length + '\uAC1C)';
 
+  // Desktop table
   var tbody = document.getElementById('rec-table-body');
-  if (!tbody) return;
-  var html = '';
+  // Mobile card list
+  var cardList = document.getElementById('rec-card-list');
 
+  if (tbody) renderRecTable(filtered, tbody);
+  if (cardList) renderRecCards(filtered, cardList);
+}
+
+function renderRecTable(filtered, tbody) {
+  var html = '';
   for (var idx = 0; idx < filtered.length; idx++) {
     var rec = filtered[idx];
     var scoreColor = getScoreColor(rec.final_score);
@@ -537,7 +548,7 @@ function renderRecommendations() {
     var heat = rec.heat || {};
     var rsi = heat.rsi || 50;
     var heatLevel = rsi >= 70 ? 'overheat' : rsi <= 30 ? 'oversold' : 'neutral';
-    var heatLabel = rsi >= 70 ? '과열' : rsi <= 30 ? '과매도' : '보통';
+    var heatLabel = rsi >= 70 ? '\uACFC\uC5F4' : rsi <= 30 ? '\uACFC\uB9E4\uB3C4' : '\uBCF4\uD1B5';
 
     html +=
       '<tr class="fade-in" onclick="openDetail(' +
@@ -555,7 +566,7 @@ function renderRecommendations() {
       '</div>' +
       '</td>' +
       '<td class="col-ticker">' +
-      '<span class="ticker-copy" onclick="event.stopPropagation();copyTicker(\'' + escapeHtml(rec.ticker) + '\',\'' + (rec.market || 'us') + '\',this)" title="클릭 → 복사 + 토스/트뷰">' +
+      '<span class="ticker-copy" onclick="event.stopPropagation();copyTicker(\'' + escapeHtml(rec.ticker) + '\',\'' + (rec.market || 'us') + '\',this)" title="\uD074\uB9AD \u2192 \uBCF5\uC0AC + \uD1A0\uC2A4/\uD2B8\uBDF0">' +
       escapeHtml(rec.ticker) +
       '</span>' +
       '</td>' +
@@ -586,8 +597,72 @@ function renderRecommendations() {
       '</td>' +
       '</tr>';
   }
-
   tbody.innerHTML = html;
+}
+
+function renderRecCards(filtered, container) {
+  var html = '';
+  for (var idx = 0; idx < filtered.length; idx++) {
+    var rec = filtered[idx];
+    var scoreColor = getScoreColor(rec.final_score);
+    var timingClass = getTimingClass(rec.timing);
+    var change = getRankChange(rec.ticker);
+    var mktBadge = rec.market === 'kr' ? 'kr' : 'us';
+    var mktLabel = rec.market === 'kr' ? 'KR' : 'US';
+
+    var heat = rec.heat || {};
+    var rsi = heat.rsi || 50;
+    var heatLevel = rsi >= 70 ? 'overheat' : rsi <= 30 ? 'oversold' : 'neutral';
+    var heatLabel = rsi >= 70 ? '\uACFC\uC5F4' : rsi <= 30 ? '\uACFC\uB9E4\uB3C4' : '\uBCF4\uD1B5';
+
+    var chg5d = heat.price_change_5d || 0;
+    var chg5dSign = chg5d >= 0 ? '+' : '';
+    var chg5dColor = chg5d > 0 ? 'var(--green)' : chg5d < 0 ? 'var(--red)' : 'var(--text-muted)';
+    var chg5dArrow = chg5d > 0 ? '\u25B2' : chg5d < 0 ? '\u25BC' : '';
+
+    var changeHtml = renderRankChange(change);
+
+    var eventsText = rec.upcoming_events || '';
+    var eventsHtml = eventsText && eventsText !== '-'
+      ? '<div class="rec-card-events">' + escapeHtml(eventsText) + '</div>'
+      : '';
+
+    html +=
+      '<div class="rec-card fade-in" onclick="openDetail(' + idx + ')" style="animation-delay:' + idx * 20 + 'ms">' +
+        '<div class="rec-card-top">' +
+          '<div class="rec-card-left">' +
+            '<div class="rec-card-rank">' + rec.rank + '</div>' +
+            '<div class="rec-card-info">' +
+              '<div class="rec-card-name">' +
+                '<span class="market-badge ' + mktBadge + '">' + mktLabel + '</span>' +
+                escapeHtml(rec.name) +
+              '</div>' +
+              '<div class="rec-card-sub">' +
+                '<span class="ticker-copy" onclick="event.stopPropagation();copyTicker(\'' + escapeHtml(rec.ticker) + '\',\'' + (rec.market || 'us') + '\',this)">' +
+                  escapeHtml(rec.ticker) +
+                '</span>' +
+                ' · <span class="heat-label ' + heatLevel + '">' + heatLabel + '</span>' +
+              '</div>' +
+            '</div>' +
+          '</div>' +
+          '<div class="rec-card-right">' +
+            '<div class="rec-card-badges">' +
+              '<span class="timing-badge ' + timingClass + '">' + escapeHtml(rec.timing) + '</span>' +
+            '</div>' +
+            '<div class="rec-card-score" style="color:' + scoreColor + '">' + rec.final_score.toFixed(1) + '</div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="rec-card-bottom">' +
+          '<div class="rec-card-theme">' + escapeHtml(rec.theme) + '</div>' +
+          '<div class="rec-card-meta">' +
+            '<span class="rec-card-change" style="color:' + chg5dColor + '">' + chg5dArrow + chg5dSign + Math.abs(chg5d).toFixed(0) + '%</span>' +
+            changeHtml +
+          '</div>' +
+        '</div>' +
+        eventsHtml +
+      '</div>';
+  }
+  container.innerHTML = html;
 }
 
 function renderAvoid() {
@@ -667,133 +742,123 @@ function openDetail(index) {
   var mktClass = rec.market === 'kr' ? 'kr' : 'us';
   var mktLabel = rec.market === 'kr' ? 'KR' : 'US';
 
+  // Chart links
+  var tossUrl = rec.market === 'kr'
+    ? 'https://tossinvest.com/stocks/A' + rec.ticker
+    : 'https://tossinvest.com/stocks/' + rec.ticker;
+  var tvSymbol = rec.market === 'kr' ? 'KRX:' + rec.ticker : rec.ticker;
+
+  // ── Header: badge row
   var html =
     '<div class="detail-header-row">' +
-    '<span class="market-badge ' +
-    mktClass +
-    '">' +
-    mktLabel +
-    '</span>' +
-    '<span class="score-value" style="color:' +
-    getScoreColor(rec.final_score) +
-    '">' +
-    rec.final_score.toFixed(1) +
-    '</span>' +
-    '<span class="timing-badge ' +
-    getTimingClass(rec.timing) +
-    '">' +
-    escapeHtml(rec.timing) +
-    '</span>' +
+    '<span class="market-badge ' + mktClass + '">' + mktLabel + '</span>' +
+    '<span class="detail-score" style="color:' + getScoreColor(rec.final_score) + '">' + rec.final_score.toFixed(1) + '<small>/100</small></span>' +
+    '<span class="timing-badge ' + getTimingClass(rec.timing) + '">' + escapeHtml(rec.timing) + '</span>' +
     '</div>';
 
+  // ── Chart action buttons
   html +=
-    '<p class="detail-why">' + escapeHtml(rec.why || '') + '</p>';
-
-  html +=
-    '<div class="detail-section">' +
-    '<dl class="detail-grid">' +
-    '<dt>\uD14C\uB9C8</dt><dd>' +
-    escapeHtml(rec.theme) +
-    '</dd>' +
-    '<dt>\uC720\uD615</dt><dd>' +
-    escapeHtml(rec.trading_type) +
-    '</dd>' +
-    '<dt>\uC9C4\uC785</dt><dd>' +
-    escapeHtml(rec.entry || '-') +
-    '</dd>' +
-    '<dt>\uC190\uC808</dt><dd>' +
-    escapeHtml(rec.stop_loss || '-') +
-    '</dd>' +
-    '<dt>\uBAA9\uD45C</dt><dd>' +
-    escapeHtml(rec.target || '-') +
-    '</dd>' +
-    '<dt>\uB9AC\uC2A4\uD06C</dt><dd>' +
-    escapeHtml(rec.risk || '-') +
-    '</dd>' +
-    '</dl>' +
+    '<div class="detail-chart-actions">' +
+    '<a href="' + tossUrl + '" target="_blank" rel="noopener" class="detail-chart-btn toss">' +
+    '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>' +
+    '\uD1A0\uC2A4\uC99D\uAD8C</a>' +
+    '<button onclick="event.stopPropagation();closeDetail();openTVChart(\'' + escapeHtml(tvSymbol) + '\',\'' + escapeHtml(rec.name) + '\')" class="detail-chart-btn tv">' +
+    '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>' +
+    '\uD2B8\uB808\uC774\uB529\uBDF0</button>' +
     '</div>';
 
+  // ── 향후 일정 (맨 위 강조 카드)
+  var evtText = rec.upcoming_events || '';
+  var hasEvents = evtText && evtText !== '-' && evtText.indexOf('\uC608\uC815\uB41C \uC77C\uC815 \uC5C6\uC74C') === -1 && evtText.indexOf('\uC5C6\uC74C') === -1;
+  html +=
+    '<div class="detail-events-card ' + (hasEvents ? 'has-events' : 'no-events') + '">' +
+    '<div class="detail-events-header">' +
+    '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>' +
+    '<span>\uD5A5\uD6C4 \uC77C\uC815</span>' +
+    '</div>' +
+    '<p class="detail-events-body">' +
+    (hasEvents ? escapeHtml(evtText) : '\uD655\uC778\uB41C \uC608\uC815 \uC77C\uC815 \uC5C6\uC74C') +
+    '</p></div>';
+
+  // ── Why 분석
+  html += '<div class="detail-why-card"><p class="detail-why">' + escapeHtml(rec.why || '') + '</p></div>';
+
+  // ── 매매 전략 카드
+  html +=
+    '<div class="detail-trade-card">' +
+    '<p class="detail-section-label">\uB9E4\uB9E4 \uC804\uB7B5</p>' +
+    '<div class="detail-trade-grid">' +
+    '<div class="detail-trade-item"><span class="detail-trade-label">\uD14C\uB9C8</span><span class="detail-trade-value">' + escapeHtml(rec.theme) + '</span></div>' +
+    '<div class="detail-trade-item"><span class="detail-trade-label">\uC720\uD615</span><span class="detail-trade-value type">' + escapeHtml(rec.trading_type) + '</span></div>' +
+    '<div class="detail-trade-item entry"><span class="detail-trade-label">\uC9C4\uC785</span><span class="detail-trade-value">' + escapeHtml(rec.entry || '-') + '</span></div>' +
+    '<div class="detail-trade-item stop"><span class="detail-trade-label">\uC190\uC808</span><span class="detail-trade-value">' + escapeHtml(rec.stop_loss || '-') + '</span></div>' +
+    '<div class="detail-trade-item target"><span class="detail-trade-label">\uBAA9\uD45C</span><span class="detail-trade-value">' + escapeHtml(rec.target || '-') + '</span></div>' +
+    '<div class="detail-trade-item risk"><span class="detail-trade-label">\uB9AC\uC2A4\uD06C</span><span class="detail-trade-value">' + escapeHtml(rec.risk || '-') + '</span></div>' +
+    '</div></div>';
+
+  // ── 점수 구성
   html +=
     '<div class="detail-section">' +
     '<p class="detail-section-label">\uC810\uC218 \uAD6C\uC131</p>' +
     '<div class="score-bar-container">' +
-    '<div class="score-bar-segment" style="width:' +
-    ((wTheme / safeTotal) * 100).toFixed(1) +
-    '%;background:#3b82f6" title="\uD14C\uB9C8 ' +
-    (detail.theme || 0) +
-    '"></div>' +
-    '<div class="score-bar-segment" style="width:' +
-    ((wChart / safeTotal) * 100).toFixed(1) +
-    '%;background:#8b5cf6" title="\uCC28\uD2B8 ' +
-    (detail.chart || 0) +
-    '"></div>' +
-    '<div class="score-bar-segment" style="width:' +
-    ((wSupply / safeTotal) * 100).toFixed(1) +
-    '%;background:#06b6d4" title="\uC218\uAE09 ' +
-    (detail.supply_demand || 0) +
-    '"></div>' +
-    '<div class="score-bar-segment" style="width:' +
-    ((wFinancial / safeTotal) * 100).toFixed(1) +
-    '%;background:#22c55e" title="\uC7AC\uBB34 ' +
-    (detail.financial || 0) +
-    '"></div>' +
+    '<div class="score-bar-segment" style="width:' + ((wTheme / safeTotal) * 100).toFixed(1) + '%;background:#3b82f6"></div>' +
+    '<div class="score-bar-segment" style="width:' + ((wChart / safeTotal) * 100).toFixed(1) + '%;background:#8b5cf6"></div>' +
+    '<div class="score-bar-segment" style="width:' + ((wSupply / safeTotal) * 100).toFixed(1) + '%;background:#06b6d4"></div>' +
+    '<div class="score-bar-segment" style="width:' + ((wFinancial / safeTotal) * 100).toFixed(1) + '%;background:#22c55e"></div>' +
     '</div>' +
     '<div class="score-bar-labels">' +
-    '<span style="color:#3b82f6">\uD14C\uB9C8 ' +
-    (detail.theme || 0) +
-    '</span>' +
-    '<span style="color:#8b5cf6">\uCC28\uD2B8 ' +
-    (detail.chart || 0) +
-    '</span>' +
-    '<span style="color:#06b6d4">\uC218\uAE09 ' +
-    (detail.supply_demand || 0) +
-    '</span>' +
-    '<span style="color:#22c55e">\uC7AC\uBB34 ' +
-    (detail.financial || 0) +
-    '</span>' +
-    (detail.dart_penalty
-      ? '<span style="color:var(--red)">\uD328\uB110\uD2F0 ' +
-        detail.dart_penalty +
-        '</span>'
-      : '') +
-    '</div>' +
-    '</div>';
+    '<span style="color:#3b82f6">\uD14C\uB9C8 ' + (detail.theme || 0) + '</span>' +
+    '<span style="color:#8b5cf6">\uCC28\uD2B8 ' + (detail.chart || 0) + '</span>' +
+    '<span style="color:#06b6d4">\uC218\uAE09 ' + (detail.supply_demand || 0) + '</span>' +
+    '<span style="color:#22c55e">\uC7AC\uBB34 ' + (detail.financial || 0) + '</span>' +
+    (detail.dart_penalty ? '<span style="color:var(--red)">\uD328\uB110\uD2F0 ' + detail.dart_penalty + '</span>' : '') +
+    '</div></div>';
 
-  // 과열 지표
+  // ── 과열 지표 (비주얼)
   var heat = rec.heat || {};
   if (heat.rsi) {
     var rsi = heat.rsi;
-    var heatLevel = rsi >= 70 ? 'overheat' : rsi <= 30 ? 'oversold' : 'neutral';
+    var rsiPct = Math.min(rsi, 100);
+    var rsiColor = rsi >= 70 ? 'var(--red)' : rsi <= 30 ? 'var(--green)' : 'var(--text-muted)';
+    var bbPct = ((heat.bb_pct || 0) * 100);
+    var volR = (heat.volume_ratio || 1);
+    var chg5 = heat.price_change_5d || 0;
+    var chg20 = heat.price_change_20d || 0;
+
     html +=
       '<div class="detail-section">' +
-      '<p class="detail-section-label">과열 지표</p>' +
-      '<dl class="detail-grid">' +
-      '<dt>RSI(14)</dt><dd><span class="heat-label ' + heatLevel + '">' + rsi.toFixed(1) + '</span></dd>' +
-      '<dt>볼린저 위치</dt><dd>' + ((heat.bb_pct || 0) * 100).toFixed(0) + '% (0=하단, 100=상단)</dd>' +
-      '<dt>추세</dt><dd>' + escapeHtml(heat.trend || '-') + '</dd>' +
-      '<dt>거래량 비율</dt><dd>' + (heat.volume_ratio || 1).toFixed(1) + 'x (20일 대비)</dd>' +
-      '<dt>5일 등락</dt><dd style="color:' + ((heat.price_change_5d || 0) >= 0 ? 'var(--green)' : 'var(--red)') + '">' + (heat.price_change_5d >= 0 ? '+' : '') + (heat.price_change_5d || 0).toFixed(1) + '%</dd>' +
-      '<dt>20일 등락</dt><dd style="color:' + ((heat.price_change_20d || 0) >= 0 ? 'var(--green)' : 'var(--red)') + '">' + (heat.price_change_20d >= 0 ? '+' : '') + (heat.price_change_20d || 0).toFixed(1) + '%</dd>' +
-      '</dl></div>';
+      '<p class="detail-section-label">\uACFC\uC5F4 \uC9C0\uD45C</p>' +
+      '<div class="detail-heat-grid">' +
+      '<div class="detail-heat-item">' +
+        '<div class="detail-heat-gauge"><svg viewBox="0 0 48 28" class="detail-gauge-svg">' +
+        '<path d="M4 24 A20 20 0 0 1 44 24" fill="none" stroke="var(--border)" stroke-width="4" stroke-linecap="round"/>' +
+        '<path d="M4 24 A20 20 0 0 1 44 24" fill="none" stroke="' + rsiColor + '" stroke-width="4" stroke-linecap="round" stroke-dasharray="' + (rsiPct * 0.628).toFixed(1) + ' 62.8" opacity="0.8"/>' +
+        '</svg><span class="detail-gauge-val" style="color:' + rsiColor + '">' + rsi.toFixed(0) + '</span></div>' +
+        '<span class="detail-heat-name">RSI(14)</span></div>' +
+      '<div class="detail-heat-item">' +
+        '<div class="detail-heat-num" style="color:' + (bbPct > 80 ? 'var(--red)' : bbPct < 20 ? 'var(--green)' : 'var(--text-secondary)') + '">' + bbPct.toFixed(0) + '<small>%</small></div>' +
+        '<span class="detail-heat-name">\uBCFC\uB9B0\uC800</span></div>' +
+      '<div class="detail-heat-item">' +
+        '<div class="detail-heat-num" style="color:' + (volR > 2 ? 'var(--yellow)' : 'var(--text-secondary)') + '">' + volR.toFixed(1) + '<small>x</small></div>' +
+        '<span class="detail-heat-name">\uAC70\uB798\uB7C9</span></div>' +
+      '<div class="detail-heat-item">' +
+        '<div class="detail-heat-num" style="color:' + (chg5 >= 0 ? 'var(--green)' : 'var(--red)') + '">' + (chg5 >= 0 ? '+' : '') + chg5.toFixed(1) + '<small>%</small></div>' +
+        '<span class="detail-heat-name">5\uC77C</span></div>' +
+      '<div class="detail-heat-item">' +
+        '<div class="detail-heat-num" style="color:' + (chg20 >= 0 ? 'var(--green)' : 'var(--red)') + '">' + (chg20 >= 0 ? '+' : '') + chg20.toFixed(1) + '<small>%</small></div>' +
+        '<span class="detail-heat-name">20\uC77C</span></div>' +
+      '<div class="detail-heat-item">' +
+        '<div class="detail-heat-num trend">' + escapeHtml(heat.trend || '-') + '</div>' +
+        '<span class="detail-heat-name">\uCD94\uC138</span></div>' +
+      '</div></div>';
   }
 
-  // 애널리스트 목표주가
+  // ── 애널리스트 의견
   if (rec.analyst_view) {
     html +=
       '<div class="detail-section">' +
-      '<p class="detail-section-label">애널리스트 의견</p>' +
+      '<p class="detail-section-label">\uC560\uB110\uB9AC\uC2A4\uD2B8 \uC758\uACAC</p>' +
       '<p class="detail-events-text">' + escapeHtml(rec.analyst_view) + '</p>' +
-      '</div>';
-  }
-
-  // 향후 일정
-  if (rec.upcoming_events) {
-    html +=
-      '<div class="detail-section">' +
-      '<p class="detail-section-label">향후 일정</p>' +
-      '<p class="detail-events-text">' +
-      escapeHtml(rec.upcoming_events) +
-      '</p>' +
       '</div>';
   }
 

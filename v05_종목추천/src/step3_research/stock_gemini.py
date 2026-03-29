@@ -8,6 +8,7 @@ import logging
 from src.utils.config import now_kst
 
 from src.utils.gemini_client import generate_json
+from src.utils.config import GEMINI_FALLBACK_MODEL
 
 logger = logging.getLogger(__name__)
 
@@ -67,6 +68,7 @@ def research_stock(ticker: str, name: str, theme: str, market: str) -> dict:
         temperature=0.1,
         use_search=True,
         search_context=f"step3_{market}_{ticker}",
+        model=GEMINI_FALLBACK_MODEL,  # 단순 검색이므로 Flash로 비용 절감
     )
 
     # 필드 보정
