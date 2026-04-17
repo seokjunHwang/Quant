@@ -1,0 +1,535 @@
+{
+  "macro": {
+    "vix": {
+      "price": 18.17,
+      "prev_close": 18.36,
+      "change_pct": -1.03
+    },
+    "sp500": {
+      "price": 7022.9502,
+      "prev_close": 6967.38,
+      "change_pct": 0.8
+    },
+    "nasdaq": {
+      "price": 24016.0176,
+      "prev_close": 23639.084,
+      "change_pct": 1.59
+    },
+    "us10y_yield": {
+      "price": 4.282,
+      "prev_close": 4.256,
+      "change_pct": 0.61
+    },
+    "us2y_yield": {
+      "price": 3.612,
+      "prev_close": 3.612,
+      "change_pct": 0.0
+    },
+    "dollar_index": {
+      "price": 98.017,
+      "prev_close": 98.165,
+      "change_pct": -0.15
+    },
+    "gold": {
+      "price": 4843.2002,
+      "prev_close": 4849.6001,
+      "change_pct": -0.13
+    },
+    "oil_wti": {
+      "price": 91.24,
+      "prev_close": 90.94,
+      "change_pct": 0.33
+    },
+    "bitcoin": {
+      "price": 74653.8594,
+      "prev_close": 74810.6484,
+      "change_pct": -0.21
+    },
+    "kospi": {
+      "price": 6198.1299,
+      "prev_close": 6103.6899,
+      "change_pct": 1.55
+    },
+    "kosdaq": {
+      "price": 1165.51,
+      "prev_close": 1148.0601,
+      "change_pct": 1.52
+    },
+    "usdkrw": {
+      "price": 1472.6801,
+      "prev_close": 1475.01,
+      "change_pct": -0.16
+    },
+    "vix_zone": "평시"
+  },
+  "news": {
+    "kr": {
+      "market": "kr",
+      "date": "2026년 04월 16일",
+      "macro_environment": {
+        "summary": "미국-이란 전쟁 종전 협상 기대감이 시장 전반의 위험 선호 심리를 자극하며 코스피가 6,100선 위에서 강세를 이어가고 있으나, 신임 한국은행 총재 후보자의 물가 안정 강조 발언으로 금리 인상 경계감이 상존함.",
+        "key_indicators": [
+          {
+            "name": "KOSPI",
+            "value": "6,151.40",
+            "trend": "상승",
+            "impact": "종전 협상 기대감에 따른 3거래일 연속 상승세"
+          },
+          {
+            "name": "원/달러 환율",
+            "value": "변동성 확대",
+            "trend": "상승",
+            "impact": "중동발 유가 급등 및 수입 물가 상승 압력으로 인한 원화 약세 압력 지속"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "반도체 및 AI 인프라",
+          "reason": "한국이 ASML의 1분기 최대 고객으로 부상하며 삼성전자·SK하이닉스의 장비 주문 급증 확인 (연합뉴스)",
+          "trading_type": "스윙",
+          "sectors": [
+            "반도체 장비",
+            "HBM 관련주"
+          ]
+        },
+        {
+          "theme": "중동 재건 및 건설",
+          "reason": "미-이란 종전 협상 가시화에 따른 전후 복구 및 인프라 사업 수주 기대감 (머니투데이)",
+          "trading_type": "단타",
+          "sectors": [
+            "건설",
+            "엔지니어링"
+          ]
+        },
+        {
+          "theme": "전력기기",
+          "reason": "AI 데이터센터 확장에 따른 전력 수요 폭증 및 변압기 등 전력 설비 공급 부족 지속 (유튜브 성공투자오후증시)",
+          "trading_type": "스윙",
+          "sectors": [
+            "전력설비",
+            "변압기"
+          ]
+        },
+        {
+          "theme": "제약/바이오",
+          "reason": "AACR(미국암연구학회) 개최 및 주요 기업들의 임상 결과 발표 기대감 (네이버 프리미엄콘텐츠)",
+          "trading_type": "스윙",
+          "sectors": [
+            "바이오",
+            "줄기세포"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "반도체",
+          "direction": "bullish",
+          "key_news": "한국, 1분기 중국 제치고 ASML 최대 고객 부상 (연합뉴스)",
+          "reason": "삼성전자와 SK하이닉스의 첨단 노광장비 주문 급증으로 인한 실적 개선 기대"
+        },
+        {
+          "sector": "건설",
+          "direction": "bullish",
+          "key_news": "미-이란 종전 협상 기대감에 건설주 강세 (머니투데이)",
+          "reason": "중동 지역 재건 사업 참여 및 해외 프로젝트 수주 모멘텀 부각"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "통화정책 불확실성",
+          "severity": "high",
+          "description": "신현송 한국은행 총재 후보자가 물가와 성장이 상충할 경우 물가 안정을 우선하겠다고 밝혀 조기 금리 인상 가능성 대두 (동아일보)"
+        },
+        {
+          "factor": "중동 지정학적 리스크",
+          "severity": "medium",
+          "description": "종전 협상 기대감에도 불구하고 미군 항공모함 추가 배치 등 군사적 긴장감은 여전히 잔존 (네이버 프리미엄콘텐츠)"
+        },
+        {
+          "factor": "중복상장 규제",
+          "severity": "medium",
+          "description": "금융위와 거래소가 중복상장 제도 개선을 통해 '원칙 금지' 심사체계 도입을 추진하며 지배구조 관련 불확실성 증대 (전자신문)"
+        }
+      ]
+    },
+    "us": {
+      "market": "us",
+      "date": "2026년 04월 16일",
+      "macro_environment": {
+        "summary": "미국-이란 전쟁 종식 기대감과 주요 은행들의 호실적에 힘입어 S&P 500과 나스닥이 사상 최고치를 경신하며 강세 흐름을 이어가고 있습니다.",
+        "key_indicators": [
+          {
+            "name": "S&P 500",
+            "value": "7,033",
+            "trend": "상승",
+            "impact": "시장 전반의 투자 심리 개선 및 강세장 지속"
+          },
+          {
+            "name": "연방기금금리(FFR)",
+            "value": "3.5%~3.75%",
+            "trend": "보합",
+            "impact": "연준의 관망세 유지로 인한 정책 불확실성 지속"
+          },
+          {
+            "name": "브렌트유",
+            "value": "$91~92",
+            "trend": "보합",
+            "impact": "지정학적 리스크 완화 기대감으로 유가 급등세 진정"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "금융주 실적 랠리",
+          "reason": "뱅크오브아메리카, 모건스탠리 등 대형 은행들이 시장 예상치를 상회하는 실적을 발표하며 주가 견인 (Bloomberg)",
+          "trading_type": "스윙",
+          "sectors": [
+            "은행",
+            "금융 서비스"
+          ]
+        },
+        {
+          "theme": "AI 및 기술주 반등",
+          "reason": "마이크로소프트, 오라클 등 대형 기술주가 강세를 보이며 나스닥 지수 상승 주도 (NDTV Profit)",
+          "trading_type": "둘다",
+          "sectors": [
+            "소프트웨어",
+            "반도체"
+          ]
+        },
+        {
+          "theme": "지정학적 평화 기대감",
+          "reason": "미국-이란 간 평화 협상 및 휴전 연장 가능성이 부각되며 시장 리스크 완화 (Sharecafe)",
+          "trading_type": "스윙",
+          "sectors": [
+            "에너지",
+            "항공/방산"
+          ]
+        },
+        {
+          "theme": "반도체 파트너십",
+          "reason": "브로드컴과 메타 플랫폼의 AI 칩 파트너십 확대 소식으로 관련주 강세 (Sharecafe)",
+          "trading_type": "단타",
+          "sectors": [
+            "반도체",
+            "AI 인프라"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "금융",
+          "direction": "bullish",
+          "key_news": "대형 은행들, 1분기 호실적 발표로 주가 상승 (The Guardian)",
+          "reason": "시장 변동성 확대에 따른 트레이딩 수익 증가 및 견조한 소비자 지출 확인"
+        },
+        {
+          "sector": "기술",
+          "direction": "bullish",
+          "key_news": "나스닥 11일 연속 상승하며 사상 최고치 경신 (Trading Economics)",
+          "reason": "AI 관련 대형주 중심의 매수세 유입"
+        },
+        {
+          "sector": "에너지",
+          "direction": "neutral",
+          "key_news": "호르무즈 해협 통행 재개 조짐에 유가 안정세 (Schwab)",
+          "reason": "전쟁 리스크 완화로 인한 공급 우려 감소"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "지정학적 불확실성",
+          "severity": "medium",
+          "description": "미국-이란 전쟁의 완전한 종식 여부가 여전히 불투명하며, 에너지 가격 변동성 잠재 (Economic Times)"
+        },
+        {
+          "factor": "인플레이션 압력",
+          "severity": "high",
+          "description": "연준의 금리 인하 지연 가능성과 에너지 가격 상승이 물가에 미치는 영향 지속 (Fed Beige Book)"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "premarket_movers": [
+      {
+        "ticker": "IMMP",
+        "name": "Immutep Limited",
+        "change_pct": 214.39,
+        "reason": "기업 관련 주요 뉴스 및 거래량 급증에 따른 변동성 확대"
+      },
+      {
+        "ticker": "BIRD",
+        "name": "Allbirds, Inc.",
+        "change_pct": 168.27,
+        "reason": "시장 내 매수세 유입 및 기술적 반등"
+      },
+      {
+        "ticker": "SNAL",
+        "name": "Snail, Inc.",
+        "change_pct": -48.82,
+        "reason": "기업 내부 이슈 및 매도세 강화"
+      },
+      {
+        "ticker": "MIMI",
+        "name": "Mint Incorporation Limited",
+        "change_pct": -39.03,
+        "reason": "전일 급등에 따른 차익 실현 매물 출회"
+      }
+    ],
+    "earnings_today": [
+      {
+        "ticker": "SCHW",
+        "name": "Charles Schwab Corp.",
+        "expectation": "시장 컨센서스 부합 예상",
+        "impact": "금융주 전반의 투자 심리에 영향"
+      },
+      {
+        "ticker": "TSM",
+        "name": "Taiwan Semiconductor Manufacturing Co.",
+        "expectation": "반도체 수요 회복에 따른 실적 기대",
+        "impact": "기술주 및 반도체 섹터 변동성 유발"
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix, Inc.",
+        "expectation": "가입자 성장세 및 수익성 개선 주목",
+        "impact": "미디어 및 기술 섹터에 큰 영향"
+      }
+    ],
+    "economic_events": [
+      {
+        "time_et": "07:30",
+        "event": "미국 소매판매(Retail Sales) 지표 발표",
+        "forecast": "소비 심리 위축 여부 확인",
+        "importance": "high"
+      },
+      {
+        "time_et": "08:30",
+        "event": "신규 실업수당 청구건수",
+        "forecast": "고용 시장 안정성 평가",
+        "importance": "medium"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 4월 28-29일",
+      "cut_probability": "0% (동결 확률 99% 이상)"
+    }
+  },
+  "dart": {
+    "today_disclosures": [
+      {
+        "corp_name": "키움증권",
+        "report_nm": "일괄신고추가서류(파생결합증권-주가연계증권)",
+        "rcept_dt": "20260416",
+        "corp_code": "00296290",
+        "rcept_no": "20260416000116"
+      },
+      {
+        "corp_name": "키움증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260416",
+        "corp_code": "00296290",
+        "rcept_no": "20260416000115"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "일괄신고추가서류(기타파생결합사채)",
+        "rcept_dt": "20260416",
+        "corp_code": "00148610",
+        "rcept_no": "20260416000113"
+      },
+      {
+        "corp_name": "자이에스앤디",
+        "report_nm": "단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260416",
+        "corp_code": "00367844",
+        "rcept_no": "20260416800132"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260416",
+        "corp_code": "00113359",
+        "rcept_no": "20260416000109"
+      },
+      {
+        "corp_name": "HD현대중공업",
+        "report_nm": "단일판매ㆍ공급계약체결(자율공시)              ",
+        "rcept_dt": "20260416",
+        "corp_code": "01390344",
+        "rcept_no": "20260416800142"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260416",
+        "corp_code": "00113359",
+        "rcept_no": "20260416000104"
+      },
+      {
+        "corp_name": "엘에스일렉트릭",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260416",
+        "corp_code": "00105855",
+        "rcept_no": "20260416000093"
+      },
+      {
+        "corp_name": "엘에스일렉트릭",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260416",
+        "corp_code": "00105855",
+        "rcept_no": "20260416000091"
+      },
+      {
+        "corp_name": "iM금융지주",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260416",
+        "corp_code": "00878915",
+        "rcept_no": "20260416000089"
+      },
+      {
+        "corp_name": "NC",
+        "report_nm": "[기재정정]기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260416",
+        "corp_code": "00261443",
+        "rcept_no": "20260416800120"
+      },
+      {
+        "corp_name": "KG모빌리티",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260416",
+        "corp_code": "00138242",
+        "rcept_no": "20260416800115"
+      },
+      {
+        "corp_name": "NC",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260416",
+        "corp_code": "00261443",
+        "rcept_no": "20260416800110"
+      },
+      {
+        "corp_name": "신성이엔지",
+        "report_nm": "주식등의대량보유상황보고서(약식)",
+        "rcept_dt": "20260416",
+        "corp_code": "00136271",
+        "rcept_no": "20260416000070"
+      },
+      {
+        "corp_name": "엘에스일렉트릭",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260416",
+        "corp_code": "00105855",
+        "rcept_no": "20260416000067"
+      },
+      {
+        "corp_name": "엘에스일렉트릭",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260416",
+        "corp_code": "00105855",
+        "rcept_no": "20260416000065"
+      },
+      {
+        "corp_name": "엘에스일렉트릭",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260416",
+        "corp_code": "00105855",
+        "rcept_no": "20260416000063"
+      },
+      {
+        "corp_name": "엘에스일렉트릭",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260416",
+        "corp_code": "00105855",
+        "rcept_no": "20260416000057"
+      },
+      {
+        "corp_name": "SK네트웍스",
+        "report_nm": "투자설명서",
+        "rcept_dt": "20260416",
+        "corp_code": "00131780",
+        "rcept_no": "20260416000039"
+      },
+      {
+        "corp_name": "현대로템",
+        "report_nm": "풍문또는보도에대한해명(미확정)              ",
+        "rcept_dt": "20260416",
+        "corp_code": "00302926",
+        "rcept_no": "20260416800065"
+      },
+      {
+        "corp_name": "현대위아",
+        "report_nm": "풍문또는보도에대한해명(미확정)              ",
+        "rcept_dt": "20260416",
+        "corp_code": "00106623",
+        "rcept_no": "20260416800063"
+      },
+      {
+        "corp_name": "제이알글로벌리츠",
+        "report_nm": "투자판단관련주요경영사항              ",
+        "rcept_dt": "20260416",
+        "corp_code": "01415892",
+        "rcept_no": "20260416800004"
+      },
+      {
+        "corp_name": "대한조선",
+        "report_nm": "단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260416",
+        "corp_code": "00182696",
+        "rcept_no": "20260416800003"
+      },
+      {
+        "corp_name": "신세계푸드",
+        "report_nm": "[기재정정]주요사항보고서(주식교환ㆍ이전결정)",
+        "rcept_dt": "20260416",
+        "corp_code": "00274933",
+        "rcept_no": "20260416000001"
+      },
+      {
+        "corp_name": "SK네트웍스",
+        "report_nm": "효력발생안내( 2026.4.6. 제출 증권신고서(채무증권) )",
+        "rcept_dt": "20260416",
+        "corp_code": "00131780",
+        "rcept_no": "20260406100003"
+      },
+      {
+        "corp_name": "삼익THK",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260416",
+        "corp_code": "00127802",
+        "rcept_no": "20260415000705"
+      },
+      {
+        "corp_name": "삼익THK",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260416",
+        "corp_code": "00127802",
+        "rcept_no": "20260415000696"
+      },
+      {
+        "corp_name": "블루산업개발",
+        "report_nm": "주요사항보고서(전환사채권발행결정)",
+        "rcept_dt": "20260416",
+        "corp_code": "00141404",
+        "rcept_no": "20260415000704"
+      },
+      {
+        "corp_name": "블루산업개발",
+        "report_nm": "주요사항보고서(전환사채권발행결정)",
+        "rcept_dt": "20260416",
+        "corp_code": "00141404",
+        "rcept_no": "20260415000703"
+      },
+      {
+        "corp_name": "동성제약",
+        "report_nm": "[기재정정]주요사항보고서(감자결정)",
+        "rcept_dt": "20260416",
+        "corp_code": "00116268",
+        "rcept_no": "20260415000699"
+      }
+    ]
+  }
+}

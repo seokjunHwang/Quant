@@ -1,0 +1,30 @@
+{
+  "ticker": "SNCY",
+  "name": "Sun Country Airlines",
+  "theme": "항공·운송 (유가 하락 수혜)",
+  "catalysts": [
+    {
+      "type": "중립",
+      "content": "Allegiant(ALGT)와의 인수합병 반독점 심사 통과 및 대기 기간 종료 (출처: MarketBeat)",
+      "date": "2026-04-08",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "2026년 신규 화물 기지(CVG) 확장을 통한 화물 운영 비즈니스 다각화 (출처: Investing)",
+      "date": "2026-04-08",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "합병 불확실성",
+      "description": "로펌들의 합병 가격 저평가 관련 주주 권리 침해 여부 법적 조사 진행 중",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "Sun Country Airlines는 Allegiant와의 합병이 미 법무부의 반독점 심사를 통과하며 순조롭게 진행 중입니다. 애널리스트들은 주가가 합병가치에 수렴함에 따라 목표가를 조정하며 중립 의견을 보이고 있으며, 회사의 화물 사업 확장은 긍정적으로 평가됩니다.",
+  "momentum": "neutral",
+  "analyst_view": "Hold / Neutral, 평균 목표주가 $19.25 - $20.00 (합병가액 수렴)",
+  "score_hint": 65
+}

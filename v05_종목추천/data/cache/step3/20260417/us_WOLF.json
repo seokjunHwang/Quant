@@ -1,0 +1,35 @@
+{
+  "ticker": "WOLF",
+  "name": "울프스피드",
+  "theme": "AI 인프라 / 반도체",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "AI 데이터센터, 그리드 현대화 중심의 전략적 피벗 선언 및 300mm SiC 웨이퍼 시연 (wolfspeed.com)",
+      "date": "2026-04-10",
+      "impact": "medium"
+    },
+    {
+      "type": "중립",
+      "content": "챕터 11 구조조정 종료 및 3억 7,900만 달러 규모 자금 조달 완료 (stocktitan.net)",
+      "date": "2026-04-05",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실적 리스크",
+      "description": "FY2026 2분기 어닝 쇼크 (EPS -$6.11) 및 심각한 적자 구조 지속",
+      "severity": "high"
+    },
+    {
+      "type": "매출 부진 리스크",
+      "description": "전기차(EV) 시장 수요 둔화로 인한 단기 가이던스 악화",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "EV 부진과 대규모 적자로 인해 재무 위기를 겪었으나 최근 AI 데이터센터 향 전력 반도체로 사업 구조 전환을 시도 중임. 수익성 회복 확인 전까지 투자 주의 요망.",
+  "momentum": "bearish",
+  "analyst_view": "비중축소/보유, 평균 목표주가 $14.33 ~ $15.30",
+  "score_hint": 30
+}

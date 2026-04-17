@@ -1,0 +1,35 @@
+{
+  "ticker": "AEHR",
+  "name": "아에르테스트시스템",
+  "theme": "AI 인프라 / 반도체",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "커스텀 AI 프로세서 ASIC의 패키지 레벨 번인(Burn-in)용 4,100만 달러 규모 기록적 수주 달성 (marketbeat.com)",
+      "date": "2026-04-08",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "경영진의 2026 회계연도 전체 매출 가이던스 상단 조정 및 강력한 하반기 전망 제시 (tradingview.com)",
+      "date": "2026-04-07",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실적 부진",
+      "description": "전기차(EV) 시장 둔화로 인해 최근 3분기 매출액 전년 대비 44% 감소",
+      "severity": "medium"
+    },
+    {
+      "type": "고평가 논란",
+      "description": "올해 들어 주가가 단기간에 200% 이상 폭등하며 밸류에이션 부담 가중",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "최근 분기 실적은 전기차 시장 한파로 부진했으나, AI 프로세서 및 데이터센터 인프라용 반도체 테스트 수주가 대규모로 터지면서 시장의 큰 주목을 받고 있습니다. 단기 주가 급등으로 애널리스트들의 목표가를 이미 훌쩍 넘긴 상태입니다.",
+  "momentum": "bullish",
+  "analyst_view": "Craig-Hallum 목표가 $68 매수(Buy) 상향, 현재 주가($86~$91)가 목표가 상회 중",
+  "score_hint": 75
+}

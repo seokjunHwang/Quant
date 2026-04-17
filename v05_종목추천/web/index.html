@@ -3,12 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>v05 종목추천</title>
+  <title>MarketPulse — AI 시장 분석 대시보드</title>
+  <meta name="description" content="실시간 글로벌 시황, AI 기반 시장 분석, 매크로 지표, 속보 피드를 한눈에. 투자 자문이 아닌 정보 제공 서비스.">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap">
   <script src="https://unpkg.com/lucide@latest"></script>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/style.css?v=20260416h">
+  <link rel="stylesheet" href="css/globe.css?v=20260416h">
+  <link rel="stylesheet" href="css/channel.css?v=20260416h">
 </head>
 <body class="bg-gray-950 text-gray-200 font-sans min-h-screen">
 
@@ -16,8 +20,11 @@
   <header id="header" class="sticky top-0 z-50 border-b border-gray-800 bg-gray-950/95 backdrop-blur">
     <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
       <div class="flex items-center gap-3">
-        <h1 class="text-lg font-semibold tracking-tight">v05 종목추천</h1>
+        <h1 class="text-lg font-semibold tracking-tight">
+          <span class="text-blue-500">Market</span><span>Pulse</span>
+        </h1>
         <span id="badge-market" class="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-400"></span>
+        <span id="badge-live" class="live-badge text-[10px] px-2 py-0.5 rounded-full font-semibold hidden">LIVE</span>
       </div>
       <div class="flex items-center gap-3">
         <!-- Date navigator -->
@@ -28,10 +35,15 @@
         <button id="btn-next-date" class="p-1.5 rounded hover:bg-gray-800 transition" title="다음 날짜">
           <i data-lucide="chevron-right" class="w-4 h-4"></i>
         </button>
-        <!-- Theme toggle -->
-        <button id="btn-theme" class="p-1.5 rounded hover:bg-gray-800 transition" title="테마 전환">
-          <i data-lucide="moon" class="w-4 h-4" id="icon-theme"></i>
-        </button>
+        <!-- Theme toggle (Light / Dark) -->
+        <div class="flex items-center gap-1 border border-gray-700 rounded-lg overflow-hidden">
+          <button id="btn-light" class="theme-mode-btn px-2.5 py-1 text-[11px] font-medium transition" title="라이트 모드">
+            <i data-lucide="sun" class="w-3.5 h-3.5 inline-block align-middle"></i>
+          </button>
+          <button id="btn-dark" class="theme-mode-btn px-2.5 py-1 text-[11px] font-medium transition active" title="다크 모드">
+            <i data-lucide="moon" class="w-3.5 h-3.5 inline-block align-middle"></i>
+          </button>
+        </div>
       </div>
     </div>
   </header>
@@ -55,15 +67,25 @@
 
       <!-- Page tabs -->
       <nav id="page-tabs" class="flex gap-1 border-b border-gray-800 pb-0">
-        <button class="page-tab active" data-page="overview">시장 개요</button>
-        <button class="page-tab" data-page="picks">종목 추천</button>
+        <button class="page-tab active" data-page="globe">글로벌맵</button>
+        <button class="page-tab" data-page="overview">시장 개요</button>
+        <button class="page-tab" data-page="newsfeed">속보 피드 <span class="live-dot"></span></button>
+        <button class="page-tab" data-page="picks">AI 분석</button>
+        <button class="page-tab" data-page="channels">라이브뉴스·AI요약</button>
+        <button class="page-tab" data-page="about">Architecture</button>
       </nav>
 
       <!-- PAGE: 시장 개요 -->
-      <div id="page-overview" class="space-y-6">
+      <div id="page-overview" class="space-y-6 hidden">
 
         <!-- Macro indicators -->
         <section id="section-macro">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs text-gray-500" id="macro-updated"></span>
+            <button id="btn-macro-refresh" class="macro-refresh-btn" title="수동 갱신">
+              <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
           <div id="macro-cards" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3"></div>
         </section>
 
@@ -121,14 +143,220 @@
 
       </div>
 
-      <!-- PAGE: 종목 추천 -->
+      <!-- PAGE: 속보 피드 -->
+      <div id="page-newsfeed" class="hidden">
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-sm font-semibold text-gray-400 flex items-center gap-2">
+            <i data-lucide="zap" class="w-4 h-4 text-yellow-400"></i> 미국 경제 속보
+            <span id="news-live-count" class="text-xs text-gray-500"></span>
+          </h2>
+          <div class="flex items-center gap-3">
+            <div class="flex gap-1 text-xs" id="news-source-tabs">
+              <button class="news-src-tab px-2.5 py-1 rounded bg-gray-800 text-gray-300 active" data-src="all">전체</button>
+              <button class="news-src-tab px-2.5 py-1 rounded text-gray-500" data-src="Reuters">Reuters</button>
+              <button class="news-src-tab px-2.5 py-1 rounded text-gray-500" data-src="Bloomberg">Bloomberg</button>
+              <button class="news-src-tab px-2.5 py-1 rounded text-gray-500" data-src="CNBC">CNBC</button>
+              <button class="news-src-tab px-2.5 py-1 rounded text-gray-500" data-src="WSJ">WSJ</button>
+              <button class="news-src-tab px-2.5 py-1 rounded text-gray-500" data-src="Fed">Fed</button>
+            </div>
+            <button id="btn-news-lang" class="px-2.5 py-1 rounded text-[11px] border border-gray-700 text-gray-400 hover:border-gray-500 hover:text-gray-200 transition">한국어</button>
+            <span id="news-live-status" class="text-[11px] text-gray-600"></span>
+          </div>
+        </div>
+        <div id="news-live-list" class="space-y-2"></div>
+        <p class="text-[11px] text-gray-600 mt-4">
+          RSS 공개 피드 기반. 제목과 링크만 표시하며 원문은 각 매체 사이트에서 확인할 수 있습니다. 투자 자문이 아닙니다.
+        </p>
+      </div>
+
+      <!-- PAGE: 글로벌맵 -->
+      <div id="page-globe" class="">
+
+        <!-- Category filter bar -->
+        <div id="globe-category-bar" class="globe-category-bar">
+          <button class="cat-btn active" data-cat="all"><span class="cat-dot" style="background:#fff"></span>전체</button>
+          <button class="cat-btn active" data-cat="war"><span class="cat-dot" style="background:#ef4444"></span>전쟁/분쟁</button>
+          <button class="cat-btn active" data-cat="policy"><span class="cat-dot" style="background:#eab308"></span>정책/규제</button>
+          <button class="cat-btn active" data-cat="economic"><span class="cat-dot" style="background:#3b82f6"></span>경제지표</button>
+          <button class="cat-btn active" data-cat="energy"><span class="cat-dot" style="background:#22c55e"></span>에너지/자원</button>
+          <button class="cat-btn active" data-cat="disaster"><span class="cat-dot" style="background:#f97316"></span>재해</button>
+          <button class="cat-btn active" data-cat="trade"><span class="cat-dot" style="background:#06b6d4"></span>무역/공급망</button>
+          <button class="cat-btn active" data-cat="technology"><span class="cat-dot" style="background:#a855f7"></span>기술/AI</button>
+          <button class="cat-btn active" data-cat="market"><span class="cat-dot" style="background:#8b5cf6"></span>시장이벤트</button>
+          <span class="cat-separator"></span>
+          <button class="cat-btn label-toggle active" data-action="labels"><span class="cat-dot" style="background:#94a3b8"></span>국가명</button>
+        </div>
+
+        <!-- Timeline bar -->
+        <div id="globe-timeline" class="globe-timeline"></div>
+
+        <!-- Map + Side panel -->
+        <div class="globe-layout">
+          <div class="globe-map-wrap">
+            <div id="globe-map" class="globe-map"></div>
+            <!-- Sector impact bar -->
+            <div id="globe-sectors" class="globe-sectors"></div>
+          </div>
+          <div id="globe-panel" class="globe-panel">
+            <div class="globe-panel-header">
+              <h3 class="text-sm font-semibold text-gray-400 flex items-center gap-2">
+                <i data-lucide="radio" class="w-4 h-4"></i> 실시간 주가영향 이슈
+              </h3>
+              <div class="globe-panel-tabs">
+                <button class="globe-filter active" data-filter="all">전체</button>
+                <button class="globe-filter" data-filter="live">진행중</button>
+                <button class="globe-filter" data-filter="upcoming">예정</button>
+              </div>
+            </div>
+            <div id="globe-events-list" class="globe-events-list"></div>
+          </div>
+        </div>
+
+        <!-- Bottom section: Heatmaps + News + Timeline -->
+        <div class="globe-bottom">
+
+          <!-- Heatmap section -->
+          <section class="globe-bottom-section">
+            <div class="globe-bottom-header">
+              <h3 class="text-sm font-semibold text-gray-400 flex items-center gap-2">
+                <i data-lucide="grid-3x3" class="w-4 h-4"></i> Heatmap
+              </h3>
+              <div class="heatmap-controls">
+                <div class="heatmap-tabs">
+                  <button class="heatmap-tab active" data-hm="us">미국주식</button>
+                  <button class="heatmap-tab" data-hm="kr">국장</button>
+                  <button class="heatmap-tab" data-hm="crypto">코인</button>
+                </div>
+                <div class="heatmap-size-btns">
+                  <button class="hm-size-btn" data-size="small" title="작게">S</button>
+                  <button class="hm-size-btn active" data-size="medium" title="보통">M</button>
+                  <button class="hm-size-btn" data-size="large" title="크게">L</button>
+                </div>
+              </div>
+            </div>
+            <div id="heatmap-main" class="heatmap-main" data-size="medium">
+              <div id="heatmap-widget"></div>
+            </div>
+          </section>
+
+          <!-- News + Disaster + Timeline grid -->
+          <div class="globe-bottom-grid">
+
+            <!-- KR/US News -->
+            <section class="globe-bottom-card">
+              <div class="globe-bottom-card-header">
+                <span class="gbc-title"><i data-lucide="newspaper" class="w-3.5 h-3.5"></i> 뉴스</span>
+                <div class="gbc-tabs">
+                  <button class="gbc-tab active" data-news="kr">KR</button>
+                  <button class="gbc-tab" data-news="us">US</button>
+                </div>
+              </div>
+              <div id="globe-news-list" class="globe-news-list">
+                <div class="gbc-empty">main.py 실행 후 표시됩니다</div>
+              </div>
+            </section>
+
+            <!-- Disaster / Emergency -->
+            <section class="globe-bottom-card">
+              <div class="globe-bottom-card-header">
+                <span class="gbc-title"><i data-lucide="alert-triangle" class="w-3.5 h-3.5"></i> 재난/긴급</span>
+              </div>
+              <div id="globe-disaster-list" class="globe-disaster-list">
+                <div class="gbc-empty">재난 이벤트 없음</div>
+              </div>
+            </section>
+
+            <!-- Event Timeline -->
+            <section class="globe-bottom-card">
+              <div class="globe-bottom-card-header">
+                <span class="gbc-title"><i data-lucide="calendar" class="w-3.5 h-3.5"></i> 이벤트 타임라인</span>
+              </div>
+              <div id="globe-timeline-list" class="globe-timeline-list">
+                <div class="gbc-empty">경제 캘린더 없음</div>
+              </div>
+            </section>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PAGE: 라이브뉴스·AI요약 -->
+      <div id="page-channels" class="hidden">
+
+        <!-- 채널 탭: LIVE 한 줄 / VOD 한 줄 -->
+        <div class="ch-tabs-row">
+          <span class="ch-row-label"><span class="live-dot"></span> LIVE</span>
+          <button class="ch-tab live active" data-ch="0">Bloomberg</button>
+          <button class="ch-tab live" data-ch="1">CNBC</button>
+          <button class="ch-tab live" data-ch="3">Al Jazeera</button>
+        </div>
+        <div class="ch-tabs-row">
+          <span class="ch-row-label">VOD · AI요약</span>
+          <button class="ch-tab" data-ch="7">경제사냥꾼</button>
+          <button class="ch-tab" data-ch="8">반교수</button>
+          <button class="ch-tab" data-ch="9">소수몽키</button>
+          <button class="ch-tab" data-ch="10">미래는지금</button>
+          <button class="ch-tab" data-ch="11">SBS 스브스뉴스</button>
+        </div>
+
+        <!-- 공용 패널: 플레이어 + 사이드바 -->
+        <div class="ch-layout">
+          <div class="ch-player-wrap">
+            <div id="ch-player" class="ch-player">
+              <div class="ch-player-placeholder">채널을 선택하세요</div>
+            </div>
+            <div id="ch-now-info" class="ch-now-info"></div>
+          </div>
+          <div class="ch-sidebar">
+            <div class="ch-sidebar-header">
+              <span class="text-xs font-semibold text-gray-400">최근 영상</span>
+            </div>
+            <div id="ch-video-list" class="ch-video-list">
+              <div class="ch-loading">채널을 선택하세요</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PAGE: AI 분석 (비밀번호 잠금) -->
       <div id="page-picks" class="space-y-6 hidden">
+
+        <!-- Lock overlay -->
+        <div id="picks-lock" class="picks-lock">
+          <div class="picks-lock-inner">
+            <i data-lucide="lock" class="w-8 h-8 text-gray-500 mb-3"></i>
+            <p class="text-sm text-gray-400 mb-2">비공개 분석 데이터</p>
+            <div class="picks-lock-preview">
+              <div class="picks-lock-item"><i data-lucide="bar-chart-3" class="w-3.5 h-3.5"></i> AI 종목 추천 · 점수 · 매매 전략</div>
+              <div class="picks-lock-item"><i data-lucide="scan-search" class="w-3.5 h-3.5"></i> AI 종목 집중분석 (Claude Opus)</div>
+            </div>
+            <div class="flex gap-2 mt-3">
+              <input id="picks-pw" type="password" placeholder="비밀번호" maxlength="10"
+                class="bg-gray-800 border border-gray-700 rounded px-3 py-1.5 text-sm text-center w-32 focus:border-blue-500 outline-none">
+              <button id="picks-pw-btn" class="px-3 py-1.5 rounded bg-blue-600 text-white text-sm font-medium hover:bg-blue-500 transition">확인</button>
+            </div>
+            <p id="picks-pw-err" class="text-xs text-red-500 mt-2 hidden">비밀번호가 틀립니다</p>
+          </div>
+        </div>
+
+        <!-- Blurred content -->
+        <div id="picks-content" class="picks-blurred">
+
+        <!-- AI 종목 집중 분석 버튼 -->
+        <div class="flex items-center gap-3 mb-4">
+          <button id="btn-deep-analyze" class="deep-analyze-btn">
+            <i data-lucide="scan-search" class="w-4 h-4"></i>
+            AI 종목 집중분석
+          </button>
+        </div>
 
         <!-- Recommendations -->
         <section id="section-recs">
           <div class="flex items-center justify-between mb-3">
             <h2 class="text-sm font-semibold text-gray-400 flex items-center gap-2">
-              <i data-lucide="bar-chart-3" class="w-4 h-4"></i> 추천 종목
+              <i data-lucide="bar-chart-3" class="w-4 h-4"></i> AI 분석 종목
               <span id="rec-count" class="text-xs text-gray-500"></span>
             </h2>
             <div id="rec-tabs" class="flex gap-1 text-xs">
@@ -148,6 +376,7 @@
                   <th class="px-3 py-2.5 text-left">티커</th>
                   <th class="px-3 py-2.5 text-left hidden md:table-cell">테마</th>
                   <th class="px-3 py-2.5 text-right font-mono w-16">점수</th>
+                  <th class="px-3 py-2.5 text-right font-mono hidden md:table-cell w-20">시총</th>
                   <th class="px-3 py-2.5 text-center w-16">과열</th>
                   <th class="px-3 py-2.5 text-center w-20">타이밍</th>
                   <th class="px-3 py-2.5 text-center hidden lg:table-cell w-16">변동</th>
@@ -162,6 +391,138 @@
           <div id="rec-card-list" class="rec-card-list"></div>
         </section>
 
+        </div><!-- /picks-content -->
+      </div>
+
+      <!-- PAGE: Architecture -->
+      <div id="page-about" class="hidden">
+        <div class="arch-hero">
+          <h2 class="arch-title">System Architecture</h2>
+          <p class="arch-subtitle">매일 자동 실행되는 5단계 AI 파이프라인이 글로벌 시장을 분석합니다.</p>
+        </div>
+
+        <!-- Pipeline -->
+        <div class="arch-pipeline">
+          <div class="arch-step">
+            <div class="arch-step-num">0</div>
+            <div class="arch-step-body">
+              <h4>글로벌 이벤트 수집</h4>
+              <p>전 세계 지정학·경제 이벤트를 실시간 수집하고 심각도를 분류합니다.</p>
+              <div class="arch-tags"><span>Gemini API</span><span>Google Search</span><span>RSS</span></div>
+            </div>
+          </div>
+          <div class="arch-arrow"><i data-lucide="arrow-down" class="w-4 h-4"></i></div>
+          <div class="arch-step">
+            <div class="arch-step-num">1</div>
+            <div class="arch-step-body">
+              <h4>매크로 + 뉴스 데이터 수집</h4>
+              <p>VIX, 금리, 환율, 유가 등 12개 매크로 지표와 한·미 시장 뉴스를 수집합니다.</p>
+              <div class="arch-tags"><span>yfinance</span><span>pykrx</span><span>Gemini API</span></div>
+            </div>
+          </div>
+          <div class="arch-arrow"><i data-lucide="arrow-down" class="w-4 h-4"></i></div>
+          <div class="arch-step">
+            <div class="arch-step-num">2</div>
+            <div class="arch-step-body">
+              <h4>테마 분석</h4>
+              <p>수집된 이벤트·뉴스를 종합해 현재 유효한 투자 테마와 관련 섹터를 도출합니다.</p>
+              <div class="arch-tags"><span>Claude API</span><span>NLP</span></div>
+            </div>
+          </div>
+          <div class="arch-arrow"><i data-lucide="arrow-down" class="w-4 h-4"></i></div>
+          <div class="arch-step">
+            <div class="arch-step-num">3</div>
+            <div class="arch-step-body">
+              <h4>종목 필터링 + 리서치</h4>
+              <p>테마별 후보 종목을 선정하고, 재무·수급·공시 데이터로 필터링합니다.</p>
+              <div class="arch-tags"><span>Gemini API</span><span>DART</span><span>KRX</span><span>Yahoo Finance</span></div>
+            </div>
+          </div>
+          <div class="arch-arrow"><i data-lucide="arrow-down" class="w-4 h-4"></i></div>
+          <div class="arch-step">
+            <div class="arch-step-num">4</div>
+            <div class="arch-step-body">
+              <h4>차트 기술 분석</h4>
+              <p>OHLCV 데이터를 기반으로 RSI, 볼린저밴드, 이평선 등 기술적 지표를 분석합니다.</p>
+              <div class="arch-tags"><span>Claude API</span><span>pandas</span><span>Technical Indicators</span></div>
+            </div>
+          </div>
+          <div class="arch-arrow"><i data-lucide="arrow-down" class="w-4 h-4"></i></div>
+          <div class="arch-step">
+            <div class="arch-step-num">5</div>
+            <div class="arch-step-body">
+              <h4>스코어링 + 리포트 생성</h4>
+              <p>테마·차트·수급·재무 4개 축으로 점수를 산출하고 최종 분석 리포트를 생성합니다.</p>
+              <div class="arch-tags"><span>Scoring Engine</span><span>JSON Export</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="arch-section">
+          <h3 class="arch-section-title">Tech Stack</h3>
+          <div class="arch-stack-grid">
+            <div class="arch-stack-card">
+              <h5>Backend</h5>
+              <p>Python 3.12, FastAPI, asyncio</p>
+            </div>
+            <div class="arch-stack-card">
+              <h5>AI / LLM</h5>
+              <p>Claude API (Anthropic), Gemini API (Google)</p>
+            </div>
+            <div class="arch-stack-card">
+              <h5>Data Sources</h5>
+              <p>yfinance, pykrx, DART, RSS (Reuters, Bloomberg, CNBC, WSJ)</p>
+            </div>
+            <div class="arch-stack-card">
+              <h5>Frontend</h5>
+              <p>Vanilla JS, Tailwind CSS, Leaflet.js, TradingView Widget</p>
+            </div>
+            <div class="arch-stack-card">
+              <h5>Scheduling</h5>
+              <p>Daily 06:30 KST auto-run, 30s real-time polling</p>
+            </div>
+            <div class="arch-stack-card">
+              <h5>Infra</h5>
+              <p>Docker, Cloudflare Tunnel, uvicorn</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Key Metrics -->
+        <div class="arch-section">
+          <h3 class="arch-section-title">Key Metrics</h3>
+          <div class="arch-metrics">
+            <div class="arch-metric">
+              <span class="arch-metric-num">6</span>
+              <span class="arch-metric-label">Analysis Steps</span>
+            </div>
+            <div class="arch-metric">
+              <span class="arch-metric-num">12+</span>
+              <span class="arch-metric-label">Macro Indicators</span>
+            </div>
+            <div class="arch-metric">
+              <span class="arch-metric-num">8</span>
+              <span class="arch-metric-label">RSS News Sources</span>
+            </div>
+            <div class="arch-metric">
+              <span class="arch-metric-num">30s</span>
+              <span class="arch-metric-label">Real-time Polling</span>
+            </div>
+            <div class="arch-metric">
+              <span class="arch-metric-num">2</span>
+              <span class="arch-metric-label">AI Models (Claude + Gemini)</span>
+            </div>
+            <div class="arch-metric">
+              <span class="arch-metric-num">KR+US</span>
+              <span class="arch-metric-label">Dual Market Coverage</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="arch-disclaimer">
+          본 서비스는 정보 제공 목적이며, 투자 자문이 아닙니다. 모든 투자 결정과 그에 따른 손익은 본인의 책임입니다.
+        </p>
       </div>
 
     </div>
@@ -169,9 +530,15 @@
 
   <!-- Footer -->
   <footer class="border-t border-gray-800 mt-8">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between text-xs text-gray-600">
-      <span id="footer-generated"></span>
-      <span id="footer-counts"></span>
+    <div class="max-w-7xl mx-auto px-4 py-4 text-xs text-gray-600">
+      <div class="flex flex-wrap items-center justify-between mb-2">
+        <span id="footer-generated"></span>
+        <span id="footer-counts"></span>
+      </div>
+      <p class="text-[10px] text-gray-600 leading-relaxed">
+        MarketPulse는 정보 제공을 목적으로 하며, 투자 권유나 자문이 아닙니다. 게재된 분석과 점수는 알고리즘에 의해 자동 생성된 것으로, 매수·매도 추천이 아닙니다. 투자 결정과 그에 따른 손익은 전적으로 본인의 책임입니다.
+        데이터 출처: KRX, Yahoo Finance, DART, Reuters, Bloomberg, CNBC, WSJ, Fed.
+      </p>
     </div>
   </footer>
 
@@ -180,6 +547,12 @@
   <div id="tv-modal" class="fixed inset-1 md:inset-10 bg-gray-900 border border-gray-700 rounded-lg z-50 hidden flex flex-col">
     <div class="flex items-center justify-between px-4 py-2 border-b border-gray-800">
       <div class="flex items-center gap-3">
+        <div class="flex items-center gap-2">
+          <input id="tv-search-input" type="text" placeholder="심볼 검색 (예: AAPL, KRX:005930)"
+            class="bg-gray-800 border border-gray-700 rounded px-2.5 py-1 text-xs w-48 focus:border-blue-500 outline-none font-mono"
+            onkeydown="if(event.key==='Enter')searchTVChart()">
+          <button onclick="searchTVChart()" class="px-2 py-1 rounded bg-blue-600 text-white text-xs hover:bg-blue-500">Go</button>
+        </div>
         <span id="tv-title" class="text-sm font-semibold"></span>
         <div class="flex gap-1 text-xs">
           <button class="tv-tf-btn px-2 py-1 rounded" data-tf="W" onclick="setTVTimeframe('W')">주봉</button>
@@ -214,6 +587,45 @@
     </div>
   </div>
 
-  <script src="js/app.js"></script>
+  <!-- AI 종목 집중분석 모달 -->
+  <div id="deep-overlay" class="fixed inset-0 bg-black/60 z-[60] hidden" onclick="closeDeepAnalyze()"></div>
+  <div id="deep-modal" class="fixed inset-2 md:inset-8 bg-gray-900 border border-gray-700 rounded-xl z-[60] hidden flex flex-col overflow-hidden">
+    <div class="flex items-center justify-between px-5 py-3 border-b border-gray-800">
+      <h3 class="text-sm font-semibold flex items-center gap-2">
+        <i data-lucide="scan-search" class="w-4 h-4 text-blue-400"></i> AI 종목 집중분석
+        <span class="text-[10px] text-gray-500 font-normal">AI + WebSearch</span>
+      </h3>
+      <button onclick="closeDeepAnalyze()" class="p-1.5 rounded hover:bg-gray-800">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+    <div class="px-5 py-3 border-b border-gray-800">
+      <div class="flex gap-2">
+        <input id="deep-query" type="text" placeholder="티커 또는 종목명 (예: LRCX, 삼성전자)"
+          class="flex-1 bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-sm focus:border-blue-500 outline-none">
+        <button id="deep-search-btn" class="px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-semibold hover:bg-blue-500 transition flex items-center gap-2">
+          <i data-lucide="search" class="w-4 h-4"></i> 분석
+        </button>
+      </div>
+    </div>
+    <div class="deep-body">
+      <div id="deep-result" class="deep-result-area">
+        <div class="text-center text-gray-500 text-sm py-12">종목명 또는 티커를 입력하고 분석 버튼을 누르세요.</div>
+      </div>
+      <div class="deep-sidebar">
+        <div class="deep-sidebar-header">
+          <span class="text-xs font-semibold text-gray-400">분석 기록</span>
+        </div>
+        <div id="deep-history" class="deep-history">
+          <p class="text-xs text-gray-600 p-3">기록 로딩 중...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/app.js?v=20260416h"></script>
+  <script src="js/globe.js?v=20260416h"></script>
+  <script src="js/channel.js?v=20260416h"></script>
 </body>
 </html>

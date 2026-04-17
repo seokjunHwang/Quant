@@ -9,7 +9,7 @@ import logging
 from pathlib import Path
 
 from src.utils.claude_cli import ask_claude
-from src.utils.config import DATA_DIR, now_kst
+from src.utils.config import DATA_DIR, DAILY_DIR, now_kst
 
 logger = logging.getLogger(__name__)
 
@@ -62,8 +62,9 @@ def fetch_upcoming_events(stocks: list[dict], batch_size: int = 5) -> dict:
                 prompt,
                 expect_json=True,
                 allow_search=True,
-                timeout=180,
+                timeout=900,
                 context=f"step5_events_batch{batch_num}",
+                model="claude-opus-4-6",  # WebSearch 종합 작업은 Opus가 안정적
             )
             if isinstance(data, dict):
                 for item in data.get("events", []):
@@ -174,11 +175,26 @@ def generate_report(
                 f"{e.get('date','?')} {e.get('event','')}" for e in events[:3]
             )
 
+        # 차트 상세 (코드 채점 결과)
+        chart = s.get("chart_result", {})
+        chart_signals = chart.get("signals", [])
+        chart_warnings = chart.get("warnings", [])
+        chart_entry = chart.get("entry_condition", "-")
+        chart_stop = chart.get("stop_loss", "-")
+        chart_target = chart.get("target_price", "-")
+
+        chart_detail = f"  차트({chart.get('chart_score', 50)}점): {chart.get('chart_summary', '')[:100]}"
+        if chart_signals:
+            chart_detail += f"\n  긍정신호: {', '.join(chart_signals[:3])}"
+        if chart_warnings:
+            chart_detail += f"\n  경고: {', '.join(chart_warnings[:3])}"
+        chart_detail += f"\n  진입:{chart_entry} / 손절:{chart_stop} / 목표:{chart_target}"
+
         stock_lines.append(
             f"[{s.get('rank','')}위] {s.get('name','')}({ticker}) "
-            f"점수:{score} 테마:{s.get('theme','')} 타이밍:{chart_timing}\n"
-            f"  차트: {s.get('chart_result', {}).get('chart_summary', '')[:80]}\n"
-            f"  뉴스: {s.get('research', {}).get('news_summary', '')[:80]}"
+            f"종합:{score} 테마:{s.get('theme','')} 타이밍:{chart_timing}\n"
+            f"{chart_detail}\n"
+            f"  뉴스: {s.get('research', {}).get('news_summary', '')[:100]}"
             + (f"\n{events_text}" if events_text else "")
         )
     stocks_summary = "\n".join(stock_lines)
@@ -227,7 +243,7 @@ def save_report(
     """
     today = now_kst().strftime("%Y%m%d")
     timestamp = now_kst().strftime("%Y%m%d_%H%M")
-    out_dir = DATA_DIR / today / market / "step5_리포트"
+    out_dir = DAILY_DIR / today / market / "step5_리포트"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # JSON

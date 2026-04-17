@@ -1,0 +1,30 @@
+{
+  "ticker": "ULCC",
+  "name": "Frontier Group",
+  "theme": "항공·운송 (유가 하락 수혜)",
+  "catalysts": [
+    {
+      "type": "악재",
+      "content": "월가 애널리스트들의 연이은 투자의견 하향 및 목표가 삭감 (출처: MarketBeat)",
+      "date": "2026-04-08",
+      "impact": "high"
+    },
+    {
+      "type": "악재",
+      "content": "2026년 연간 EPS 가이던스 적자 전망 (-$0.40 ~ -$0.50) (출처: MarketBeat)",
+      "date": "2026-04-08",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실적 악화",
+      "description": "마이너스 순이익률 및 저비용 항공사(ULCC) 부문 내 경쟁 심화로 인한 수익성 악화",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "Frontier Group은 최근 애널리스트들의 줄하향 리포트가 나오며 주가가 신저가(약 $3.50) 수준으로 하락했습니다. 초저가 항공 시장의 경쟁 심화와 2026년 연간 실적 적자 가이던스로 인해 투자 심리가 악화되었습니다.",
+  "momentum": "bearish",
+  "analyst_view": "Hold / Reduce, 평균 목표주가 $4.71 - $5.06 (투자의견 하향 추세)",
+  "score_hint": 30
+}

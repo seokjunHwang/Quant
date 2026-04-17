@@ -1,0 +1,30 @@
+{
+  "ticker": "DRS",
+  "name": "DRS테크놀로지스",
+  "theme": "방위산업 / 항공우주 / 드론",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "미 국방부 250억 달러 규모 '첨단 기술 지원 프로그램 V(ATSP5)' 주사업자 선정",
+      "date": "2026-03-23",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "AI 센서 융합을 위한 전장 엣지 컴퓨팅 신제품 'THOR' 출시",
+      "date": "2026-03-24",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "시장",
+      "description": "급격한 주가 상승에 따른 방산 섹터 단기 차익 실현 매물 출회 가능성",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "최근 미 국방부 핵심 기술 프로그램의 주사업자로 선정되며 중장기적 수주 가시성을 확보함. 25년 호실적 발표 및 국방 예산 증액에 힘입어 기관들의 목표가 상향이 이어짐.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표가 $51.40 ~ $52.63, 강력 매수 (BofA 목표가 $55 상향)",
+  "score_hint": 90
+}

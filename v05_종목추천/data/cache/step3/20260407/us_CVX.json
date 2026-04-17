@@ -1,0 +1,24 @@
+{
+  "ticker": "CVX",
+  "name": "Chevron",
+  "theme": "에너지/원유",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "유가 상승 수혜 및 씨티그룹 목표주가 $235로 상향 (Citi)",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "조업 차질",
+      "description": "사이클론 피해로 인한 호주 Wheatstone LNG 시설의 일시적 생산 차질 발생",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "브렌트유 상승에 따른 마진 개선 기대로 씨티그룹 등 여러 기관에서 목표주가를 상향하며 매수 의견을 유지하고 있습니다. 호주 LNG 시설의 일시적 조업 차질이 있으나 고유가 환경이 이를 상쇄하는 분위기입니다.",
+  "momentum": "bullish",
+  "analyst_view": "투자의견 매수, 컨센서스 목표주가 $205.50 (최고 $242.00)",
+  "score_hint": 80
+}

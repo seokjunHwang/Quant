@@ -1,0 +1,30 @@
+{
+  "ticker": "CRDO",
+  "name": "Credo Technology",
+  "theme": "반도체/HBM·AI메모리",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "전년 동기 대비 201.5% 급증한 기록적 매출 달성 및 EPS 예상치 상회 (Marketbeat)",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "TE Connectivity 및 Molex와의 오랜 특허 분쟁 합의로 법적 리스크 완전 해소 (TipRanks)",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "내부자 매도",
+      "description": "최근 주가 급등 시기에 맞춘 CEO 등 경영진의 차익실현 물량 출회",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "AEC 기술 특허 소송 합의로 최대 리스크를 해소했으며, 200%가 넘는 역대급 매출 성장률을 기록하며 블랙록 등 기관투자자의 강력한 매수세가 유입되었습니다.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy / 평균 목표주가 $176.36 ~ $200.00 (Needham $220)",
+  "score_hint": 85
+}

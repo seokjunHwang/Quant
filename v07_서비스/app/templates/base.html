@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}{{ site_name }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}매일 갱신되는 시황·매크로·테마 정보 제공. 투자 자문 아님.{% endblock %}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{% block og_title %}{{ self.title() }}{% endblock %}" />
+  <meta property="og:description" content="{% block og_description %}{{ self.description() }}{% endblock %}" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">시황 라운지</a>
+      <nav class="nav">
+        <a href="/">오늘의 시황</a>
+        <a href="/macro">매크로</a>
+        <a href="/themes">테마</a>
+        <a href="/archive">아카이브</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="disclaimer">
+        본 사이트는 정보 제공을 목적으로 합니다. 게재된 내용은 투자 권유나 자문이 아니며,
+        특정 종목의 매수·매도를 추천하지 않습니다. <strong>투자 결정과 그에 따른 손익은 전적으로 본인의 책임</strong>입니다.
+      </p>
+      <p class="sources">
+        데이터 출처: KRX, 야후파이낸스, DART, 공개 뉴스. 데이터는 지연될 수 있습니다.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

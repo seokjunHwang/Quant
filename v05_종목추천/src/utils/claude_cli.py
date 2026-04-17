@@ -1,7 +1,7 @@
 from __future__ import annotations
 """
 Claude CLI subprocess 래퍼.
-claude -p "..." --output-format json --allowedTools WebSearch
+claude -p "..." --model claude-sonnet-4-6 --output-format json --allowedTools WebSearch
 """
 
 import json
@@ -15,14 +15,18 @@ from src.utils.config import DATA_DIR
 logger = logging.getLogger(__name__)
 CLAUDE_LOG = DATA_DIR / "logs" / "claude_usage.jsonl"
 
+# v05 전체에서 사용할 Claude 모델. Opus → Sonnet 4.6 으로 통일.
+DEFAULT_CLAUDE_MODEL = "claude-sonnet-4-6"
+
 
 def ask_claude(
     prompt: str,
     *,
     expect_json: bool = True,
     allow_search: bool = False,
-    timeout: int = 120,
+    timeout: int = 900,
     context: str = "",
+    model: str = DEFAULT_CLAUDE_MODEL,
 ) -> dict | list | str:
     """
     Claude CLI 호출.
@@ -38,7 +42,7 @@ def ask_claude(
         expect_json=True → dict/list
         expect_json=False → str
     """
-    cmd = ["claude", "-p", prompt, "--output-format", "json"]
+    cmd = ["claude", "-p", prompt, "--model", model, "--output-format", "json"]
     if allow_search:
         cmd += ["--allowedTools", "WebSearch"]
 

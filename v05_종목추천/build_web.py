@@ -16,7 +16,7 @@ import json
 import os
 from pathlib import Path
 
-from src.utils.config import DATA_DIR, now_kst
+from src.utils.config import DATA_DIR, DAILY_DIR, now_kst
 
 WEB_DATA_DIR = Path(__file__).parent / "web" / "data"
 
@@ -49,7 +49,7 @@ def find_latest_report(date_dir: Path, market: str) -> dict | None:
 
 def build_web_data(date_str: str, market: str = "all") -> dict | None:
     """특정 날짜의 리포트 데이터를 웹 JSON 형식으로 변환."""
-    date_dir = DATA_DIR / date_str
+    date_dir = DAILY_DIR / date_str
     if not date_dir.exists():
         return None
 
@@ -64,7 +64,7 @@ def build_web_data(date_str: str, market: str = "all") -> dict | None:
             from datetime import datetime, timedelta
             try:
                 dt = datetime.strptime(date_str, "%Y%m%d") + timedelta(days=offset)
-                adj_dir = DATA_DIR / dt.strftime("%Y%m%d")
+                adj_dir = DAILY_DIR / dt.strftime("%Y%m%d")
                 result = load_step_json(adj_dir, market, step_dir, filename)
                 if result:
                     return result
@@ -83,7 +83,7 @@ def build_web_data(date_str: str, market: str = "all") -> dict | None:
             from datetime import datetime, timedelta
             try:
                 dt = datetime.strptime(date_str, "%Y%m%d") + timedelta(days=offset)
-                adj_dir = DATA_DIR / dt.strftime("%Y%m%d")
+                adj_dir = DAILY_DIR / dt.strftime("%Y%m%d")
                 report_full = find_latest_report(adj_dir, market)
                 if report_full:
                     break
@@ -143,6 +143,7 @@ def build_web_data(date_str: str, market: str = "all") -> dict | None:
             "ticker": ticker,
             "name": stock.get("name", rec_detail.get("name", "")),
             "market": stock.get("market", "us"),
+            "market_cap": stock.get("market_cap", 0),
             "theme": stock.get("theme", rec_detail.get("theme", "")),
             "final_score": stock.get("final_score", 0),
             "trading_type": rec_detail.get("trading_type", stock.get("theme_strength", "")),
@@ -184,6 +185,9 @@ def build_web_data(date_str: str, market: str = "all") -> dict | None:
     market_news = {}
     for mkt_key in ["kr", "us"]:
         n = news.get(mkt_key, {})
+        # Gemini가 list로 반환하는 경우 방어 (예: [{"market": "us", ...}])
+        if isinstance(n, list):
+            n = n[0] if n else {}
         if n:
             market_news[mkt_key] = {
                 "summary": n.get("macro_environment", {}).get("summary", ""),
@@ -222,8 +226,8 @@ def build_web_data(date_str: str, market: str = "all") -> dict | None:
 def build_dates_index() -> dict:
     """사용 가능한 날짜 목록 생성."""
     dates = []
-    if DATA_DIR.exists():
-        for d in sorted(DATA_DIR.iterdir(), reverse=True):
+    if DAILY_DIR.exists():
+        for d in sorted(DAILY_DIR.iterdir(), reverse=True):
             if d.is_dir() and d.name.isdigit() and len(d.name) == 8:
                 dates.append(d.name)
     return {

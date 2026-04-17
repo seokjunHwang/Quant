@@ -1,0 +1,30 @@
+{
+  "ticker": "VRT",
+  "name": "버티브홀딩스",
+  "theme": "전력기기 / AI 데이터센터 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "CPower Energy와 파트너십을 통해 데이터센터 BESS 및 VPP 솔루션 통합",
+      "date": "2026-04-14",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "S&P 500 지수 공식 편입으로 패시브 자금 유입 기대",
+      "date": "2026-03-23",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "투명성 저하 및 고평가 논란",
+      "description": "P/E 80배 이상의 밸류에이션 부담과 분기별 수주 실적 공개 중단 결정으로 일부 기관 투자의견 하향",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "엔비디아 핵심 파트너이자 액체 냉각 대장주로서 탄탄한 역대급 백로그를 보유하고 있으나, 분기별 수주액 비공개 선언과 밸류에이션 부담으로 제프리스 등 일부 기관이 투자의견을 '보유'로 하향했습니다.",
+  "momentum": "neutral",
+  "analyst_view": "의견 엇갈림 (BNP/씨티/골드만 매수 vs 제프리스/잭스 보류 하향), 목표가 밴드 $260 ~ $345",
+  "score_hint": 70
+}

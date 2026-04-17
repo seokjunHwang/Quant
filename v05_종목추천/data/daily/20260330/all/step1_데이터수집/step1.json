@@ -1,0 +1,1038 @@
+{
+  "macro": {
+    "vix": {
+      "price": 30.33,
+      "prev_close": 31.06,
+      "change_pct": -2.35
+    },
+    "sp500": {
+      "price": 6383.3301,
+      "prev_close": 6367.77,
+      "change_pct": 0.24
+    },
+    "nasdaq": {
+      "price": 20964.5371,
+      "prev_close": 20948.357,
+      "change_pct": 0.08
+    },
+    "us10y_yield": {
+      "price": 4.358,
+      "prev_close": 4.44,
+      "change_pct": -1.85
+    },
+    "us2y_yield": {
+      "price": 3.585,
+      "prev_close": 3.607,
+      "change_pct": -0.61
+    },
+    "dollar_index": {
+      "price": 100.517,
+      "prev_close": 100.098,
+      "change_pct": 0.42
+    },
+    "gold": {
+      "price": 4554.7002,
+      "prev_close": 4528.1001,
+      "change_pct": 0.59
+    },
+    "oil_wti": {
+      "price": 101.98,
+      "prev_close": 101.62,
+      "change_pct": 0.35
+    },
+    "bitcoin": {
+      "price": 67513.4219,
+      "prev_close": 65973.1328,
+      "change_pct": 2.33
+    },
+    "kospi": {
+      "price": 5277.2998,
+      "prev_close": 5438.87,
+      "change_pct": -2.97
+    },
+    "kosdaq": {
+      "price": 1107.05,
+      "prev_close": 1141.51,
+      "change_pct": -3.02
+    },
+    "usdkrw": {
+      "price": 1520.1,
+      "prev_close": 1508.0601,
+      "change_pct": 0.8
+    },
+    "vix_zone": "공포"
+  },
+  "news": {
+    "kr": {
+      "market": "kr",
+      "date": "2026년 03월 30일",
+      "macro_environment": {
+        "summary": "중동 전쟁 장기화에 따른 국제 유가 급등과 인플레이션 우려로 투자 심리가 크게 위축되며 코스피와 코스닥 모두 3% 가까이 급락 마감했습니다.",
+        "key_indicators": [
+          {
+            "name": "KOSPI",
+            "value": "5277.30",
+            "trend": "하락",
+            "impact": "중동 리스크 및 외국인 대규모 매도세로 2.97% 급락"
+          },
+          {
+            "name": "원/달러 환율",
+            "value": "1515.7원",
+            "trend": "상승",
+            "impact": "환율 상승 압력 지속으로 외국인 자금 이탈 가속화"
+          },
+          {
+            "name": "국제 유가(Brent)",
+            "value": "115.98달러",
+            "trend": "상승",
+            "impact": "에너지 비용 상승 및 물가 불안 가중으로 시장 하방 압력"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "친환경/탈플라스틱",
+          "reason": "중동 리스크로 인한 나프타 수급 불안이 친환경 소재 수요 부각으로 이어짐 (뉴스핌)",
+          "trading_type": "스윙",
+          "sectors": [
+            "화학",
+            "친환경 소재"
+          ]
+        },
+        {
+          "theme": "재생에너지",
+          "reason": "이재명 대통령의 재생에너지 전환 강조 발언 및 유가 급등에 따른 대체 에너지 주목 (뉴스핌)",
+          "trading_type": "둘다",
+          "sectors": [
+            "태양광",
+            "풍력"
+          ]
+        },
+        {
+          "theme": "2차전지/ESS",
+          "reason": "북미 전기차 수주 및 ESS 부품 기대감으로 시장 하락장 속 차별적 강세 (뉴스핌)",
+          "trading_type": "스윙",
+          "sectors": [
+            "2차전지",
+            "전기차 부품"
+          ]
+        },
+        {
+          "theme": "통신장비/5G",
+          "reason": "업황 턴어라운드 기대감 및 장기 성장 전망 지속 (뉴스핌)",
+          "trading_type": "스윙",
+          "sectors": [
+            "통신장비",
+            "광통신"
+          ]
+        },
+        {
+          "theme": "반도체 소재",
+          "reason": "HBM 수요 지속 및 반도체 업황 개선 기대감 (뉴스핌)",
+          "trading_type": "둘다",
+          "sectors": [
+            "반도체",
+            "특수가스"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "자동차/부품",
+          "direction": "bearish",
+          "key_news": "대전 화재 여파로 엔진밸브 공급 차질, 현대·기아차 생산라인 셧다운 우려 (공뉴스)",
+          "reason": "핵심 부품 공백으로 인한 완성차 가동 위기"
+        },
+        {
+          "sector": "정유/에너지",
+          "direction": "neutral",
+          "key_news": "2차 석유 최고가격제 시행 및 주유소 휘발유 품절 사태 발생 (공뉴스)",
+          "reason": "공급 제한 및 물류 차질로 인한 시장 불안"
+        },
+        {
+          "sector": "금융/은행",
+          "direction": "bearish",
+          "key_news": "주택담보대출 금리 상단 7% 돌파, 가계대출 규제 강화 (YTN)",
+          "reason": "시장 금리 급등 및 대출 여건 악화"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "중동 전쟁 리스크",
+          "severity": "high",
+          "description": "호르무즈 해협 통제 우려 및 유가 급등으로 인한 글로벌 인플레이션 압력 (Investing.com)"
+        },
+        {
+          "factor": "외국인 매도세",
+          "severity": "high",
+          "description": "금일 외국인 2조원 이상 순매도 등 국내 증시 이탈 가속화 (Investing.com)"
+        },
+        {
+          "factor": "공급망 붕괴",
+          "severity": "medium",
+          "description": "대전 화재로 인한 자동차 핵심 부품 공급 차질 및 건설업계 나프타 쇼크 (공뉴스)"
+        }
+      ]
+    },
+    "us": {
+      "market": "us",
+      "date": "2026년 03월 30일",
+      "macro_environment": {
+        "summary": "이란 전쟁 장기화에 따른 에너지 가격 급등과 인플레이션 우려 속에서도, 저가 매수세 유입과 도널드 트럼프 대통령의 상황 해결 관련 발언에 힘입어 시장이 반등을 시도하고 있습니다.",
+        "key_indicators": [
+          {
+            "name": "10년물 국채 금리",
+            "value": "4.35%",
+            "trend": "하락",
+            "impact": "금리 하락으로 주식 시장에 다소 숨통이 트임"
+          },
+          {
+            "name": "브렌트유(6월물)",
+            "value": "$107.76",
+            "trend": "상승",
+            "impact": "에너지 가격 상승으로 인한 인플레이션 압력 지속"
+          },
+          {
+            "name": "금(Spot Gold)",
+            "value": "$4,535/oz",
+            "trend": "보합",
+            "impact": "지정학적 리스크에 따른 안전자산 선호 심리 유지"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "에너지/석유 관련주",
+          "reason": "이란 전쟁 격화로 인한 유가 급등세 지속 (Reuters, AP)",
+          "trading_type": "스윙",
+          "sectors": [
+            "에너지",
+            "석유 및 가스"
+          ]
+        },
+        {
+          "theme": "알루미늄 관련주",
+          "reason": "중동 인프라 타격으로 인한 알루미늄 공급 차질 및 가격 4년래 최고치 경신 (Investing.com)",
+          "trading_type": "단타",
+          "sectors": [
+            "원자재",
+            "금속"
+          ]
+        },
+        {
+          "theme": "방산/안보 관련주",
+          "reason": "미국-이란 전쟁 5주차 진입 및 긴장 고조에 따른 방위 산업 수요 기대 (TipRanks)",
+          "trading_type": "스윙",
+          "sectors": [
+            "항공우주",
+            "방위산업"
+          ]
+        },
+        {
+          "theme": "유틸리티주",
+          "reason": "시장 변동성 확대에 따른 방어적 성격의 섹터로 자금 이동 (SimplyWallSt)",
+          "trading_type": "스윙",
+          "sectors": [
+            "유틸리티"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "에너지",
+          "direction": "bullish",
+          "key_news": "엑손모빌, 셰브론 등 에너지주 프리마켓 상승 (Reuters)",
+          "reason": "유가 상승에 따른 수익성 개선 기대감"
+        },
+        {
+          "sector": "금속/원자재",
+          "direction": "bullish",
+          "key_news": "알코아(Alcoa), 센추리 알루미늄 등 급등 (Investing.com)",
+          "reason": "중동 인프라 타격으로 인한 알루미늄 공급 부족 우려"
+        },
+        {
+          "sector": "식품 유통",
+          "direction": "bearish",
+          "key_news": "시스코(Sysco), 레스토랑 디포 인수 발표 후 주가 5.7% 하락 (AP)",
+          "reason": "대규모 부채 증가 및 레버리지 확대에 대한 시장 우려"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "중동 지정학적 리스크",
+          "severity": "high",
+          "description": "이란 전쟁 5주차 진입 및 호르무즈 해협 봉쇄 가능성으로 인한 글로벌 공급망 및 인플레이션 우려 (RSM US)"
+        },
+        {
+          "factor": "인플레이션 및 금리 정책",
+          "severity": "medium",
+          "description": "에너지 가격 급등이 인플레이션을 자극하여 연준의 금리 인하 경로를 방해할 가능성 (Fidelity)"
+        },
+        {
+          "factor": "소비 심리 위축",
+          "severity": "medium",
+          "description": "미시간대 소비자 심리지수 하락 등 경제 지표 둔화 신호 (AdvisorPerspectives)"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "premarket_movers": [
+      {
+        "ticker": "ITRM",
+        "name": "Iterum Therapeutics PLC",
+        "change_pct": 109.83,
+        "reason": "파산 신청 절차 관련 소식 및 변동성 확대"
+      },
+      {
+        "ticker": "EEIQ",
+        "name": "EpicQuest Education Group",
+        "change_pct": 69.34,
+        "reason": "프리마켓 거래량 급증에 따른 기술적 반등"
+      },
+      {
+        "ticker": "ELAB",
+        "name": "PMGC Holdings Inc.",
+        "change_pct": 62.28,
+        "reason": "자회사 NorthStrive Biosciences의 임상 시험 계약 수정 발표"
+      }
+    ],
+    "earnings_today": [
+      {
+        "ticker": "N/A",
+        "name": "해당 없음",
+        "expectation": "N/A",
+        "impact": "오늘 주요 기업의 실적 발표 예정 없음"
+      }
+    ],
+    "economic_events": [
+      {
+        "time_et": "10:30 AM",
+        "event": "Dallas Fed Manufacturing Survey",
+        "forecast": "N/A",
+        "importance": "medium"
+      },
+      {
+        "time_et": "11:30 AM",
+        "event": "3-Month Bill Auction",
+        "forecast": "N/A",
+        "importance": "low"
+      },
+      {
+        "time_et": "11:30 AM",
+        "event": "6-Month Bill Auction",
+        "forecast": "N/A",
+        "importance": "low"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 4월 말",
+      "cut_probability": "연내 1회 인하 예상"
+    }
+  },
+  "dart": {
+    "today_disclosures": [
+      {
+        "corp_name": "이엔플러스",
+        "report_nm": "기타시장안내              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00469799",
+        "rcept_no": "20260330802449"
+      },
+      {
+        "corp_name": "이엔플러스",
+        "report_nm": "기타시장안내              (상장적격성 실질심사 사유 발생)",
+        "rcept_dt": "20260330",
+        "corp_code": "00469799",
+        "rcept_no": "20260330802446"
+      },
+      {
+        "corp_name": "신세계푸드",
+        "report_nm": "정정명령부과( 2026.03.11. 제출 주요사항보고서(주식교환ㆍ이전 결정) )",
+        "rcept_dt": "20260330",
+        "corp_code": "00274933",
+        "rcept_no": "20260330100035"
+      },
+      {
+        "corp_name": "이마트",
+        "report_nm": "정정신고서제출요구( 2026.03.20. 제출 증권신고서(주식의포괄적교환ㆍ이전) )",
+        "rcept_dt": "20260330",
+        "corp_code": "00872984",
+        "rcept_no": "20260330100030"
+      },
+      {
+        "corp_name": "이엔플러스",
+        "report_nm": "감사보고서제출              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00469799",
+        "rcept_no": "20260330802429"
+      },
+      {
+        "corp_name": "광명전기",
+        "report_nm": "소송등의판결ㆍ결정              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00103662",
+        "rcept_no": "20260330802383"
+      },
+      {
+        "corp_name": "에이프로젠",
+        "report_nm": "[기재정정]단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00152385",
+        "rcept_no": "20260330802368"
+      },
+      {
+        "corp_name": "씨케이솔루션",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "01210677",
+        "rcept_no": "20260330802338"
+      },
+      {
+        "corp_name": "LS",
+        "report_nm": "[기재정정]타법인주식및출자증권취득결정(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00105952",
+        "rcept_no": "20260330802334"
+      },
+      {
+        "corp_name": "SK스퀘어",
+        "report_nm": "주요사항보고서(자기주식처분결정)(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "01596425",
+        "rcept_no": "20260330802351"
+      },
+      {
+        "corp_name": "SK하이닉스",
+        "report_nm": "주요사항보고서(자기주식처분결정)",
+        "rcept_dt": "20260330",
+        "corp_code": "00164779",
+        "rcept_no": "20260330001812"
+      },
+      {
+        "corp_name": "디앤디플랫폼리츠",
+        "report_nm": "[기재정정]기타경영사항(자율공시)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "01475609",
+        "rcept_no": "20260330802333"
+      },
+      {
+        "corp_name": "NH투자증권",
+        "report_nm": "주요사항보고서(자본으로인정되는채무증권발행결정)",
+        "rcept_dt": "20260330",
+        "corp_code": "00120182",
+        "rcept_no": "20260330001823"
+      },
+      {
+        "corp_name": "신한지주",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00382199",
+        "rcept_no": "20260330001821"
+      },
+      {
+        "corp_name": "세방",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00133812",
+        "rcept_no": "20260330802299"
+      },
+      {
+        "corp_name": "서연",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00163114",
+        "rcept_no": "20260330802330"
+      },
+      {
+        "corp_name": "흥국화재",
+        "report_nm": "[발행조건확정]증권신고서(채무증권)",
+        "rcept_dt": "20260330",
+        "corp_code": "00103176",
+        "rcept_no": "20260330001813"
+      },
+      {
+        "corp_name": "서연",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00163114",
+        "rcept_no": "20260330001808"
+      },
+      {
+        "corp_name": "대한방직",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260330",
+        "corp_code": "00112970",
+        "rcept_no": "20260330001803"
+      },
+      {
+        "corp_name": "티와이홀딩스",
+        "report_nm": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "01497869",
+        "rcept_no": "20260330802202"
+      },
+      {
+        "corp_name": "SG세계물산",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00133511",
+        "rcept_no": "20260330802123"
+      },
+      {
+        "corp_name": "대한해운",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260330",
+        "corp_code": "00113535",
+        "rcept_no": "20260330001769"
+      },
+      {
+        "corp_name": "태영건설",
+        "report_nm": "단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00153861",
+        "rcept_no": "20260330802114"
+      },
+      {
+        "corp_name": "윌비스",
+        "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+        "rcept_dt": "20260330",
+        "corp_code": "00104999",
+        "rcept_no": "20260330001700"
+      },
+      {
+        "corp_name": "대한해운",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00113535",
+        "rcept_no": "20260330802055"
+      },
+      {
+        "corp_name": "SK",
+        "report_nm": "[발행조건확정]증권신고서(채무증권)",
+        "rcept_dt": "20260330",
+        "corp_code": "00181712",
+        "rcept_no": "20260330001746"
+      },
+      {
+        "corp_name": "모나리자",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260330",
+        "corp_code": "00173102",
+        "rcept_no": "20260330001741"
+      },
+      {
+        "corp_name": "HJ중공업",
+        "report_nm": "투자판단관련주요경영사항              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00633835",
+        "rcept_no": "20260330801984"
+      },
+      {
+        "corp_name": "하나제약",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00248974",
+        "rcept_no": "20260330802070"
+      },
+      {
+        "corp_name": "새론오토모티브",
+        "report_nm": "대표이사(대표집행임원)변경(안내공시)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00305668",
+        "rcept_no": "20260330802165"
+      },
+      {
+        "corp_name": "대신증권",
+        "report_nm": "자기주식취득결과보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00110893",
+        "rcept_no": "20260330001737"
+      },
+      {
+        "corp_name": "SK",
+        "report_nm": "[기재정정]증권신고서(채무증권)",
+        "rcept_dt": "20260330",
+        "corp_code": "00181712",
+        "rcept_no": "20260330001732"
+      },
+      {
+        "corp_name": "S-Oil",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260330",
+        "corp_code": "00138279",
+        "rcept_no": "20260330001717"
+      },
+      {
+        "corp_name": "선진",
+        "report_nm": "타인에대한채무보증결정              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00855093",
+        "rcept_no": "20260330802139"
+      },
+      {
+        "corp_name": "티와이홀딩스",
+        "report_nm": "투자판단관련주요경영사항(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "01497869",
+        "rcept_no": "20260330802079"
+      },
+      {
+        "corp_name": "모나리자",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00173102",
+        "rcept_no": "20260330802109"
+      },
+      {
+        "corp_name": "삼성물산",
+        "report_nm": "[기재정정]단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00149655",
+        "rcept_no": "20260330802054"
+      },
+      {
+        "corp_name": "동양",
+        "report_nm": "대표이사(대표집행임원)변경(안내공시)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00117337",
+        "rcept_no": "20260330802119"
+      },
+      {
+        "corp_name": "일정실업",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260330",
+        "corp_code": "00146542",
+        "rcept_no": "20260330001706"
+      },
+      {
+        "corp_name": "웅진",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260330",
+        "corp_code": "00143651",
+        "rcept_no": "20260330001705"
+      },
+      {
+        "corp_name": "S-Oil",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00138279",
+        "rcept_no": "20260330801944"
+      },
+      {
+        "corp_name": "SIMPAC",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00138260",
+        "rcept_no": "20260330001701"
+      },
+      {
+        "corp_name": "선진",
+        "report_nm": "타법인주식및출자증권취득결정              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00855093",
+        "rcept_no": "20260330802013"
+      },
+      {
+        "corp_name": "대한방직",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00112970",
+        "rcept_no": "20260330802093"
+      },
+      {
+        "corp_name": "일정실업",
+        "report_nm": "대표이사(대표집행임원)변경(안내공시)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00146542",
+        "rcept_no": "20260330802063"
+      },
+      {
+        "corp_name": "태영건설",
+        "report_nm": "투자판단관련주요경영사항              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00153861",
+        "rcept_no": "20260330801925"
+      },
+      {
+        "corp_name": "신일전자",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260330",
+        "corp_code": "00173698",
+        "rcept_no": "20260330001684"
+      },
+      {
+        "corp_name": "이지스레지던스리츠",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "01436628",
+        "rcept_no": "20260330801866"
+      },
+      {
+        "corp_name": "대한방직",
+        "report_nm": "[기재정정]정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00112970",
+        "rcept_no": "20260330801868"
+      },
+      {
+        "corp_name": "HD건설기계",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260330",
+        "corp_code": "01205842",
+        "rcept_no": "20260330001670"
+      },
+      {
+        "corp_name": "HDC현대산업개발",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260330",
+        "corp_code": "01310269",
+        "rcept_no": "20260330001662"
+      },
+      {
+        "corp_name": "일정실업",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00146542",
+        "rcept_no": "20260330802005"
+      },
+      {
+        "corp_name": "광명전기",
+        "report_nm": "소송등의판결ㆍ결정              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00103662",
+        "rcept_no": "20260330802003"
+      },
+      {
+        "corp_name": "다우기술",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260330",
+        "corp_code": "00176914",
+        "rcept_no": "20260330001649"
+      },
+      {
+        "corp_name": "디아이씨",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00112165",
+        "rcept_no": "20260330801994"
+      },
+      {
+        "corp_name": "SGC에너지",
+        "report_nm": "타인에대한채무보증결정              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00125150",
+        "rcept_no": "20260330801959"
+      },
+      {
+        "corp_name": "아모레퍼시픽",
+        "report_nm": "[기재정정]기업가치제고계획(자율공시)              (고배당기업 표시를 위한 재공시)",
+        "rcept_dt": "20260330",
+        "corp_code": "00583424",
+        "rcept_no": "20260330801880"
+      },
+      {
+        "corp_name": "아모레퍼시픽",
+        "report_nm": "[기재정정]정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00583424",
+        "rcept_no": "20260330801864"
+      },
+      {
+        "corp_name": "SK증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260330",
+        "corp_code": "00131850",
+        "rcept_no": "20260330001640"
+      },
+      {
+        "corp_name": "아이에스동서",
+        "report_nm": "[기재정정]단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00115977",
+        "rcept_no": "20260330801932"
+      },
+      {
+        "corp_name": "블루산업개발",
+        "report_nm": "[기재정정]의결권대리행사권유참고서류",
+        "rcept_dt": "20260330",
+        "corp_code": "00141404",
+        "rcept_no": "20260330001632"
+      },
+      {
+        "corp_name": "키움증권",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260330",
+        "corp_code": "00296290",
+        "rcept_no": "20260330001630"
+      },
+      {
+        "corp_name": "NAVER",
+        "report_nm": "[기재정정]주식교환ㆍ이전결정(종속회사의주요경영사항)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00266961",
+        "rcept_no": "20260330801993"
+      },
+      {
+        "corp_name": "블루산업개발",
+        "report_nm": "[기재정정]주주총회소집공고",
+        "rcept_dt": "20260330",
+        "corp_code": "00141404",
+        "rcept_no": "20260330001627"
+      },
+      {
+        "corp_name": "메리츠금융지주",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00860332",
+        "rcept_no": "20260330801973"
+      },
+      {
+        "corp_name": "윌비스",
+        "report_nm": "[기재정정]유형자산취득결정              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00104999",
+        "rcept_no": "20260330801748"
+      },
+      {
+        "corp_name": "한국자산신탁",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00404701",
+        "rcept_no": "20260330001615"
+      },
+      {
+        "corp_name": "호전실업",
+        "report_nm": "[기재정정]사업보고서 (2025.12)",
+        "rcept_dt": "20260330",
+        "corp_code": "00226316",
+        "rcept_no": "20260330001610"
+      },
+      {
+        "corp_name": "블루산업개발",
+        "report_nm": "[기재정정]주요사항보고서(감자결정)",
+        "rcept_dt": "20260330",
+        "corp_code": "00141404",
+        "rcept_no": "20260330001467"
+      },
+      {
+        "corp_name": "금호전기",
+        "report_nm": "[기재정정]주요사항보고서(전환사채권발행결정)",
+        "rcept_dt": "20260330",
+        "corp_code": "00106395",
+        "rcept_no": "20260330001540"
+      },
+      {
+        "corp_name": "메리츠금융지주",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260330",
+        "corp_code": "00860332",
+        "rcept_no": "20260330001598"
+      },
+      {
+        "corp_name": "신일전자",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00173698",
+        "rcept_no": "20260330801665"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260330",
+        "corp_code": "00148610",
+        "rcept_no": "20260330001593"
+      },
+      {
+        "corp_name": "한국전력공사",
+        "report_nm": "기타경영사항(자율공시)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00159193",
+        "rcept_no": "20260330801874"
+      },
+      {
+        "corp_name": "금호전기",
+        "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+        "rcept_dt": "20260330",
+        "corp_code": "00106395",
+        "rcept_no": "20260330001527"
+      },
+      {
+        "corp_name": "웅진",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00143651",
+        "rcept_no": "20260330801902"
+      },
+      {
+        "corp_name": "유안타증권",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00117601",
+        "rcept_no": "20260330801895"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260330",
+        "corp_code": "00148610",
+        "rcept_no": "20260330001574"
+      },
+      {
+        "corp_name": "선진",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260330",
+        "corp_code": "00855093",
+        "rcept_no": "20260330001569"
+      },
+      {
+        "corp_name": "선도전기",
+        "report_nm": "[기재정정]단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00131939",
+        "rcept_no": "20260330801739"
+      },
+      {
+        "corp_name": "아모레퍼시픽홀딩스",
+        "report_nm": "[기재정정]현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00154462",
+        "rcept_no": "20260330801829"
+      },
+      {
+        "corp_name": "웅진",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00143651",
+        "rcept_no": "20260330001558"
+      },
+      {
+        "corp_name": "선진",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00855093",
+        "rcept_no": "20260330801746"
+      },
+      {
+        "corp_name": "SK증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260330",
+        "corp_code": "00131850",
+        "rcept_no": "20260330001551"
+      },
+      {
+        "corp_name": "웅진",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00143651",
+        "rcept_no": "20260330001550"
+      },
+      {
+        "corp_name": "대신증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00110893",
+        "rcept_no": "20260330001549"
+      },
+      {
+        "corp_name": "메리츠금융지주",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00860332",
+        "rcept_no": "20260330001545"
+      },
+      {
+        "corp_name": "아모레퍼시픽",
+        "report_nm": "[기재정정]현금ㆍ현물배당결정              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00583424",
+        "rcept_no": "20260330801828"
+      },
+      {
+        "corp_name": "광명전기",
+        "report_nm": "소송등의제기ㆍ신청(경영권분쟁소송)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00103662",
+        "rcept_no": "20260330801786"
+      },
+      {
+        "corp_name": "대신증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00110893",
+        "rcept_no": "20260330001533"
+      },
+      {
+        "corp_name": "한국자산신탁",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260330",
+        "corp_code": "00404701",
+        "rcept_no": "20260330001532"
+      },
+      {
+        "corp_name": "웅진",
+        "report_nm": "자기주식처분결과보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00143651",
+        "rcept_no": "20260330001525"
+      },
+      {
+        "corp_name": "메리츠금융지주",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00860332",
+        "rcept_no": "20260330001524"
+      },
+      {
+        "corp_name": "대신증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00110893",
+        "rcept_no": "20260330001521"
+      },
+      {
+        "corp_name": "한화시스템",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00339391",
+        "rcept_no": "20260330801791"
+      },
+      {
+        "corp_name": "한국앤컴퍼니",
+        "report_nm": "대표이사(대표집행임원)변경(안내공시)              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00160047",
+        "rcept_no": "20260330801771"
+      },
+      {
+        "corp_name": "메리츠금융지주",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00860332",
+        "rcept_no": "20260330001504"
+      },
+      {
+        "corp_name": "아모레퍼시픽",
+        "report_nm": "자기주식취득결과보고서",
+        "rcept_dt": "20260330",
+        "corp_code": "00583424",
+        "rcept_no": "20260330001501"
+      },
+      {
+        "corp_name": "SK디스커버리",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00131832",
+        "rcept_no": "20260330801747"
+      },
+      {
+        "corp_name": "신일전자",
+        "report_nm": "정기주주총회결과              ",
+        "rcept_dt": "20260330",
+        "corp_code": "00173698",
+        "rcept_no": "20260330801623"
+      }
+    ]
+  }
+}

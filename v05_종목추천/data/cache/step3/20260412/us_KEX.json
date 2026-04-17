@@ -1,0 +1,36 @@
+{
+  "ticker": "KEX",
+  "name": "Kirby Corp",
+  "theme": "조선/해운",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "데이터센터 수요 기반의 전력 발전(Power Generation) 사업 부문에서 10~20% 매출 증가 전망 (investing.com)",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "JP모건(31.8% 비중 확대) 등 대형 기관들의 지속적인 지분 매수 관측 (marketbeat.com)",
+      "date": "2026-03",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "해상 및 내륙 운송 사업 부문의 지속적인 가동률(90%대) 호조 및 현금창출력 강화",
+      "date": "2026-01",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "성장 둔화 가이던스",
+      "description": "2026년 전체 이익 성장 가이던스가 0~12% 수준으로 폭발적인 성장은 다소 제한됨",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "주력인 해상 운송의 견조한 실적을 기반으로 발전 부문의 신규 데이터센터 수요가 더해져 안정적인 성장을 이어나가고 있습니다. 기관 매수세도 뚜렷합니다.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy (평균 목표주가 $138.00)",
+  "score_hint": 78
+}

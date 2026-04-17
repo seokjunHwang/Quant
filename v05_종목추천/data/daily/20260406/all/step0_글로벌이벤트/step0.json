@@ -1,0 +1,702 @@
+{
+  "events_raw": {
+    "events": [
+      {
+        "title": "중동 전쟁 격화 및 호르무즈 해협 봉쇄 지속",
+        "summary": "미국과 이스라엘의 이란 공습으로 중동 전역의 긴장이 최고조에 달함. 호르무즈 해협이 사실상 봉쇄되어 글로벌 원유 공급의 약 15%(일일 1,200만~1,500만 배럴)가 차질을 빚고 있으며, 국제 유가는 배럴당 120달러에 근접함.",
+        "severity": "critical",
+        "category": "war",
+        "status": "live",
+        "time_ago": "오늘 09:00 기준",
+        "source": "Reuters, Bloomberg, 한겨레",
+        "countries": [
+          "이란",
+          "이스라엘",
+          "미국",
+          "사우디아라비아",
+          "UAE"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "bullish",
+            "reason": "공급망 차질로 인한 유가 급등 및 정유사 마진 확대 기대"
+          },
+          {
+            "sector": "항공/운송",
+            "direction": "bearish",
+            "reason": "유가 상승에 따른 연료비 부담 증가 및 물류 경로 불확실성"
+          }
+        ]
+      },
+      {
+        "title": "미국 국방 예산 1.5조 달러 증액 추진",
+        "summary": "트럼프 행정부가 2027년 예산안에서 국방비를 1.5조 달러로 대폭 증액하는 방안을 제시함. 중동 전쟁 및 글로벌 안보 위기에 대응하기 위한 방산 생산 능력 확충이 핵심.",
+        "severity": "high",
+        "category": "policy",
+        "status": "developing",
+        "time_ago": "4월 3일",
+        "source": "The Columbian, Defense.gov",
+        "countries": [
+          "미국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "방위산업",
+            "direction": "bullish",
+            "reason": "정부의 대규모 예산 투입 및 무기 생산 가속화 계약(PAC-3, F-35 엔진 등) 증가"
+          }
+        ]
+      },
+      {
+        "title": "대만군, 중국 침공 대비 '한광 42호' 훈련 실시",
+        "summary": "대만군이 4월 11일부터 중국의 침공을 가정한 컴퓨터 시뮬레이션 기반 지휘소 훈련(CPX)을 실시함. 최근 이란 전쟁 등 현대전 양상을 반영하여 3군 합동 방어 능력을 검증할 예정.",
+        "severity": "high",
+        "category": "war",
+        "status": "developing",
+        "time_ago": "4월 3일",
+        "source": "연합뉴스, 대만 연합보",
+        "countries": [
+          "대만",
+          "중국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "bearish",
+            "reason": "대만해협 내 군사적 긴장 고조로 인한 공급망 리스크 부각"
+          }
+        ]
+      },
+      {
+        "title": "북한, 신형 ICBM용 고체연료 엔진 시험",
+        "summary": "북한이 신형 대륙간탄도미사일(ICBM)에 탑재할 고체연료 엔진 시험을 진행함. 추진력이 기존 대비 27% 향상된 것으로 추정되며, 핵전쟁 억제력 고도화를 명분으로 도발 수위를 높임.",
+        "severity": "high",
+        "category": "war",
+        "status": "happened",
+        "time_ago": "4월 3일",
+        "source": "KBS, 조선중앙TV",
+        "countries": [
+          "북한"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "방위산업",
+            "direction": "bullish",
+            "reason": "한반도 지정학적 리스크 증가에 따른 방산주 투자 심리 강화"
+          }
+        ]
+      },
+      {
+        "title": "OPEC+ 8개국, 명목상 증산 합의",
+        "summary": "OPEC+ 핵심 8개국이 5월부터 일일 20만 6천 배럴 증산에 합의했으나, 전쟁으로 인한 인프라 파괴와 해협 봉쇄로 실질적인 공급 확대 효과는 미미할 것으로 분석됨.",
+        "severity": "medium",
+        "category": "energy",
+        "status": "happened",
+        "time_ago": "오늘 02:00",
+        "source": "Reuters, 한국경제",
+        "countries": [
+          "사우디아라비아",
+          "러시아",
+          "이라크",
+          "UAE"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral",
+            "reason": "증산 규모가 시장 공급 차질의 2% 미만으로 실질적 유가 하락 효과 제한적"
+          }
+        ]
+      }
+    ]
+  },
+  "calendar_raw": {
+    "calendar": []
+  },
+  "impact": {
+    "events": [
+      {
+        "id": "ev_001",
+        "title": "중동 전쟁 격화 및 호르무즈 해협 봉쇄 지속",
+        "summary": "미국·이스라엘의 이란 공습으로 중동 긴장 최고조. 호르무즈 해협 사실상 봉쇄로 글로벌 원유 공급 15% 차질, 국제 유가 배럴당 120달러 근접.",
+        "severity": "critical",
+        "category": "war",
+        "status": "live",
+        "time_label": "오늘 09:00 기준 (진행중)",
+        "points": [
+          {
+            "country": "이란",
+            "role": "target",
+            "label": "미·이스라엘 공습 대상, 해협 봉쇄 주체",
+            "lat": 35.7,
+            "lng": 51.4,
+            "city": "테헤란"
+          },
+          {
+            "country": "이스라엘",
+            "role": "origin",
+            "label": "이란 공습 참여",
+            "lat": 31.8,
+            "lng": 35.2,
+            "city": "예루살렘"
+          },
+          {
+            "country": "미국",
+            "role": "origin",
+            "label": "이란 공습 주도",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          },
+          {
+            "country": "사우디아라비아",
+            "role": "affected",
+            "label": "원유 수출 경로 차질",
+            "lat": 24.7,
+            "lng": 46.7,
+            "city": "리야드"
+          },
+          {
+            "country": "UAE",
+            "role": "affected",
+            "label": "원유 수출 경로 차질",
+            "lat": 24.5,
+            "lng": 54.4,
+            "city": "아부다비"
+          }
+        ],
+        "connections": [
+          {
+            "from": "미국",
+            "to": "이란",
+            "type": "attack",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": 35.7,
+            "to_lng": 51.4
+          },
+          {
+            "from": "이스라엘",
+            "to": "이란",
+            "type": "attack",
+            "from_lat": 31.8,
+            "from_lng": 35.2,
+            "to_lat": 35.7,
+            "to_lng": 51.4
+          },
+          {
+            "from": "이란",
+            "to": "사우디아라비아",
+            "type": "impact",
+            "from_lat": 35.7,
+            "from_lng": 51.4,
+            "to_lat": 24.7,
+            "to_lng": 46.7
+          },
+          {
+            "from": "이란",
+            "to": "UAE",
+            "type": "impact",
+            "from_lat": 35.7,
+            "from_lng": 51.4,
+            "to_lat": 24.5,
+            "to_lng": 54.4
+          },
+          {
+            "from": "이란",
+            "to": "한국",
+            "type": "impact",
+            "from_lat": 35.7,
+            "from_lng": 51.4,
+            "to_lat": 37.5,
+            "to_lng": 127.0
+          }
+        ],
+        "impact_chain": [
+          "호르무즈 해협 봉쇄 → 글로벌 원유 공급 15% 차질 → 국제 유가 120달러 근접",
+          "유가 급등 → 정유·에너지 기업 마진 확대 → 에너지 섹터 강세",
+          "유가 급등 → 항공·운송 연료비 급증 → 항공·물류 섹터 약세",
+          "유가 급등 → 글로벌 인플레이션 재점화 우려 → 금리 인하 기대 후퇴"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "에너지(E&P)",
+            "direction": "bullish",
+            "magnitude": "+5~8%"
+          },
+          {
+            "sector": "에너지(정유)",
+            "direction": "bullish",
+            "magnitude": "+3~6%"
+          },
+          {
+            "sector": "항공/운송",
+            "direction": "bearish",
+            "magnitude": "-3~5%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "impact": "수혜",
+            "reason": "글로벌 최대 석유 메이저, 유가 급등 시 직접적 수익 증가"
+          },
+          {
+            "ticker": "CVX",
+            "name": "셰브론",
+            "impact": "수혜",
+            "reason": "미국 내 생산 비중 높아 중동 리스크 대비 공급 안정성 부각"
+          },
+          {
+            "ticker": "DVN",
+            "name": "데본에너지",
+            "impact": "수혜",
+            "reason": "미국 셰일 E&P, 유가 상승분이 곧바로 실적에 반영"
+          },
+          {
+            "ticker": "FANG",
+            "name": "다이아몬드백에너지",
+            "impact": "수혜",
+            "reason": "퍼미안 분지 핵심 E&P, 고유가 환경에서 FCF 극대화"
+          },
+          {
+            "ticker": "MTDR",
+            "name": "매터혼리소스",
+            "impact": "수혜",
+            "reason": "퍼미안 분지 중소형 E&P, 유가 레버리지 높음"
+          },
+          {
+            "ticker": "CPE",
+            "name": "캘론페트롤리엄",
+            "impact": "수혜",
+            "reason": "유가 민감도 높은 중소형 E&P"
+          },
+          {
+            "ticker": "SM",
+            "name": "SM에너지",
+            "impact": "수혜",
+            "reason": "미드랜드·이글포드 분지 E&P, 유가 상승 수혜"
+          },
+          {
+            "ticker": "010950",
+            "name": "S-Oil",
+            "impact": "수혜",
+            "reason": "정제마진 확대 기대, 다만 원유 조달 불확실성 일부 상존"
+          },
+          {
+            "ticker": "024060",
+            "name": "흥구석유",
+            "impact": "수혜",
+            "reason": "국내 석유 유통, 유가 상승기 재고평가이익 기대"
+          },
+          {
+            "ticker": "004090",
+            "name": "한국석유",
+            "impact": "수혜",
+            "reason": "윤활유·석유제품, 유가 상승기 제품 가격 전가 가능"
+          }
+        ]
+      },
+      {
+        "id": "ev_002",
+        "title": "미국 국방 예산 1.5조 달러 증액 추진",
+        "summary": "트럼프 행정부 2027년 예산안에서 국방비 1.5조 달러 대폭 증액 제시. 중동 전쟁·글로벌 안보 위기 대응 위한 방산 생산능력 확충이 핵심.",
+        "severity": "high",
+        "category": "policy",
+        "status": "developing",
+        "time_label": "3일 전 (4월 3일)",
+        "points": [
+          {
+            "country": "미국",
+            "role": "origin",
+            "label": "국방 예산 증액 주체",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          }
+        ],
+        "connections": [],
+        "impact_chain": [
+          "국방 예산 1.5조 달러 → 방산 업체 수주 파이프라인 대폭 확대",
+          "PAC-3·F-35 엔진 등 핵심 무기 계약 증가 → 미국 방산 대형주 직접 수혜",
+          "동맹국 방위비 분담 압력 → 한국 방산 수출 기회 확대"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "방위산업",
+            "direction": "bullish",
+            "magnitude": "+3~5%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "impact": "수혜",
+            "reason": "F-35·PAC-3 미사일 등 핵심 프로그램 주계약자, 예산 증액 최대 수혜"
+          },
+          {
+            "ticker": "RTX",
+            "name": "RTX",
+            "impact": "수혜",
+            "reason": "패트리어트 미사일·F-35 엔진(P&W) 공급, 대규모 수주 기대"
+          },
+          {
+            "ticker": "LHX",
+            "name": "L3해리스",
+            "impact": "수혜",
+            "reason": "C4ISR·전자전 장비 수요 증가 예상"
+          },
+          {
+            "ticker": "CW",
+            "name": "커티스라이트",
+            "impact": "수혜",
+            "reason": "해군 함정·방산 부품 공급 확대"
+          },
+          {
+            "ticker": "KTOS",
+            "name": "크라토스디펜스",
+            "impact": "수혜",
+            "reason": "무인기·드론 방어 시스템 수요 증가"
+          },
+          {
+            "ticker": "AVAV",
+            "name": "AeroVironment",
+            "impact": "수혜",
+            "reason": "스위치블레이드 등 전술 무인기 수요 급증"
+          },
+          {
+            "ticker": "MRCY",
+            "name": "머큐리시스템즈",
+            "impact": "수혜",
+            "reason": "방산 전자장비·센서 프로세싱 수요 확대"
+          },
+          {
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "impact": "수혜",
+            "reason": "K9 자주포·항공엔진 등 한국 방산 수출 확대 모멘텀"
+          },
+          {
+            "ticker": "079550",
+            "name": "LIG넥스원",
+            "impact": "수혜",
+            "reason": "유도무기·방공체계 수출 기회 증가"
+          },
+          {
+            "ticker": "047810",
+            "name": "한국항공우주",
+            "impact": "수혜",
+            "reason": "FA-50 수출 등 동맹국 방위력 강화 수혜"
+          }
+        ]
+      },
+      {
+        "id": "ev_003",
+        "title": "북한 신형 ICBM용 고체연료 엔진 시험",
+        "summary": "북한이 신형 ICBM 탑재 고체연료 엔진 시험 진행. 추진력 기존 대비 27% 향상 추정, 핵전쟁 억제력 고도화 명분으로 도발 수위 상승.",
+        "severity": "high",
+        "category": "war",
+        "status": "happened",
+        "time_label": "3일 전 (4월 3일)",
+        "points": [
+          {
+            "country": "북한",
+            "role": "origin",
+            "label": "ICBM 고체연료 엔진 시험 주체",
+            "lat": 39.0,
+            "lng": 125.8,
+            "city": "평양"
+          },
+          {
+            "country": "한국",
+            "role": "affected",
+            "label": "한반도 지정학적 리스크 직접 노출",
+            "lat": 37.5,
+            "lng": 127.0,
+            "city": "서울"
+          },
+          {
+            "country": "미국",
+            "role": "affected",
+            "label": "ICBM 사거리 내 위협 대상",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          }
+        ],
+        "connections": [
+          {
+            "from": "북한",
+            "to": "한국",
+            "type": "impact",
+            "from_lat": 39.0,
+            "from_lng": 125.8,
+            "to_lat": 37.5,
+            "to_lng": 127.0
+          },
+          {
+            "from": "북한",
+            "to": "미국",
+            "type": "impact",
+            "from_lat": 39.0,
+            "from_lng": 125.8,
+            "to_lat": 38.9,
+            "to_lng": -77.0
+          }
+        ],
+        "impact_chain": [
+          "북한 ICBM 기술 고도화 → 한반도 지정학적 리스크 프리미엄 상승",
+          "한반도 리스크 → 외국인 한국 시장 위험 회피 → KOSPI 하방 압력",
+          "안보 위협 증가 → 한국 방산 예산 확대 기대 → 방산주 수혜"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "방위산업(한국)",
+            "direction": "bullish",
+            "magnitude": "+2~4%"
+          },
+          {
+            "sector": "KOSPI 전반",
+            "direction": "bearish",
+            "magnitude": "-0.5~1%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "impact": "수혜",
+            "reason": "한반도 안보 위기 시 방산 투자 확대 기대감 부각"
+          },
+          {
+            "ticker": "079550",
+            "name": "LIG넥스원",
+            "impact": "수혜",
+            "reason": "미사일 방어체계 수요 증가 전망"
+          },
+          {
+            "ticker": "047810",
+            "name": "한국항공우주",
+            "impact": "수혜",
+            "reason": "군용기·방산 수출 확대 모멘텀"
+          }
+        ]
+      },
+      {
+        "id": "ev_004",
+        "title": "대만군 '한광 42호' 중국 침공 대비 훈련 실시",
+        "summary": "대만군이 4월 11일부터 중국 침공 가정 컴퓨터 시뮬레이션 지휘소 훈련 실시. 이란 전쟁 등 현대전 양상 반영, 3군 합동 방어 능력 검증 예정.",
+        "severity": "high",
+        "category": "war",
+        "status": "developing",
+        "time_label": "D-5 (4월 11일 시작)",
+        "points": [
+          {
+            "country": "대만",
+            "role": "origin",
+            "label": "침공 대비 군사훈련 실시",
+            "lat": 25.0,
+            "lng": 121.5,
+            "city": "타이베이"
+          },
+          {
+            "country": "중국",
+            "role": "target",
+            "label": "가상 침공 시나리오 대상",
+            "lat": 39.9,
+            "lng": 116.4,
+            "city": "베이징"
+          }
+        ],
+        "connections": [
+          {
+            "from": "중국",
+            "to": "대만",
+            "type": "impact",
+            "from_lat": 39.9,
+            "from_lng": 116.4,
+            "to_lat": 25.0,
+            "to_lng": 121.5
+          },
+          {
+            "from": "대만",
+            "to": "한국",
+            "type": "impact",
+            "from_lat": 25.0,
+            "from_lng": 121.5,
+            "to_lat": 37.5,
+            "to_lng": 127.0
+          }
+        ],
+        "impact_chain": [
+          "대만 군사훈련 → 중국 반발·군사적 대응 가능성 → 대만해협 긴장 고조",
+          "대만해협 리스크 → TSMC 등 반도체 공급망 불확실성 부각",
+          "반도체 공급 리스크 → 글로벌 반도체 섹터 변동성 확대"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "bearish",
+            "magnitude": "-2~4%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "NVDA",
+            "name": "엔비디아",
+            "impact": "피해",
+            "reason": "TSMC 의존도 높은 첨단 칩 생산, 대만 리스크 직접 노출"
+          },
+          {
+            "ticker": "ARM",
+            "name": "ARM홀딩스",
+            "impact": "피해",
+            "reason": "TSMC 기반 ARM 칩 생태계 공급 차질 우려"
+          },
+          {
+            "ticker": "005930",
+            "name": "삼성전자",
+            "impact": "수혜/피해 혼재",
+            "reason": "대만 리스크로 대체 파운드리 수혜 가능하나, 반도체 섹터 전반 약세 영향"
+          },
+          {
+            "ticker": "042700",
+            "name": "한미반도체",
+            "impact": "피해",
+            "reason": "반도체 장비 수요 위축 우려"
+          },
+          {
+            "ticker": "039030",
+            "name": "이오테크닉스",
+            "impact": "피해",
+            "reason": "반도체 레이저 장비, 섹터 전반 약세 영향"
+          },
+          {
+            "ticker": "MU",
+            "name": "마이크론",
+            "impact": "피해",
+            "reason": "대만 DRAM 패키징 라인 의존, 공급망 리스크"
+          },
+          {
+            "ticker": "ALAB",
+            "name": "아스테라랩스",
+            "impact": "피해",
+            "reason": "데이터센터 반도체 수요에 영향, 공급망 불확실성"
+          },
+          {
+            "ticker": "RMBS",
+            "name": "램버스",
+            "impact": "피해",
+            "reason": "메모리 인터페이스 칩, 반도체 섹터 약세 동반"
+          }
+        ]
+      },
+      {
+        "id": "ev_005",
+        "title": "OPEC+ 8개국 명목상 증산 합의",
+        "summary": "OPEC+ 핵심 8개국이 5월부터 일일 20.6만 배럴 증산 합의. 그러나 전쟁 인프라 파괴·해협 봉쇄로 실질 공급 확대 효과는 미미할 전망.",
+        "severity": "medium",
+        "category": "energy",
+        "status": "happened",
+        "time_label": "오늘 02:00",
+        "points": [
+          {
+            "country": "사우디아라비아",
+            "role": "origin",
+            "label": "증산 합의 주도",
+            "lat": 24.7,
+            "lng": 46.7,
+            "city": "리야드"
+          },
+          {
+            "country": "러시아",
+            "role": "origin",
+            "label": "증산 합의 참여",
+            "lat": 55.8,
+            "lng": 37.6,
+            "city": "모스크바"
+          },
+          {
+            "country": "이라크",
+            "role": "origin",
+            "label": "증산 합의 참여",
+            "lat": 0,
+            "lng": 0,
+            "city": "이라크"
+          },
+          {
+            "country": "UAE",
+            "role": "origin",
+            "label": "증산 합의 참여",
+            "lat": 24.5,
+            "lng": 54.4,
+            "city": "아부다비"
+          }
+        ],
+        "connections": [
+          {
+            "from": "사우디아라비아",
+            "to": "미국",
+            "type": "trade",
+            "from_lat": 24.7,
+            "from_lng": 46.7,
+            "to_lat": 38.9,
+            "to_lng": -77.0
+          },
+          {
+            "from": "러시아",
+            "to": "중국",
+            "type": "trade",
+            "from_lat": 55.8,
+            "from_lng": 37.6,
+            "to_lat": 39.9,
+            "to_lng": 116.4
+          }
+        ],
+        "impact_chain": [
+          "OPEC+ 증산 합의 → 심리적 유가 안정 기대 → 단기 유가 소폭 하락 압력",
+          "실질 증산 규모 미미(공급 차질의 2% 미만) → 유가 하락 효과 제한적",
+          "해협 봉쇄 지속 시 증산분 수출 자체가 불가 → 사실상 무효화"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral",
+            "magnitude": "±1% 이내"
+          }
+        ],
+        "affected_tickers": []
+      }
+    ],
+    "upcoming": [],
+    "sector_summary": [
+      {
+        "sector": "에너지(E&P·정유)",
+        "net_direction": "bullish",
+        "event_count": 2,
+        "key_reason": "호르무즈 해협 봉쇄로 유가 120달러 근접, OPEC+ 증산도 실효성 부족하여 고유가 환경 지속 전망"
+      },
+      {
+        "sector": "방위산업",
+        "net_direction": "bullish",
+        "event_count": 3,
+        "key_reason": "중동전쟁·미국 국방예산 증액·북한 ICBM 시험 등 복합 안보 위기로 글로벌 방산 지출 확대 불가피"
+      },
+      {
+        "sector": "반도체",
+        "net_direction": "bearish",
+        "event_count": 1,
+        "key_reason": "대만해협 군사 긴장 고조로 TSMC 중심 글로벌 반도체 공급망 리스크 부각, 섹터 전반 하방 압력"
+      },
+      {
+        "sector": "항공/운송",
+        "net_direction": "bearish",
+        "event_count": 1,
+        "key_reason": "유가 급등에 따른 항공유 비용 급증 및 중동 경유 물류 노선 차질"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "ticker": "INDI",
+  "name": "Indie Semiconductor",
+  "theme": "반도체/HBM·AI메모리",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "양자 컴퓨팅 시스템용 첫 자외선(UV) 레이저 다이오드 신제품 출시 (Investing.com)",
+      "date": "2026-04",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "Mahindra & Mahindra 신형 전기차에 모니터링 소프트웨어 공급 계약 체결 (Investing.com)",
+      "date": "2026-04",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "자본 희석",
+      "description": "1억 5천만 달러 규모의 2031년 만기 전환사채(CB) 발행 계획 발표로 주주가치 희석 우려",
+      "severity": "high"
+    },
+    {
+      "type": "기술적 하락",
+      "description": "단기 펀더멘털 악화 및 임원진의 세금납부용 주식 매도로 단기 매도세 강함",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "신차 전장 부품 공급 계약과 양자컴퓨터용 레이저 신제품 출시 등 사업적 호재가 있었으나, 대규모 전환사채 발행 예고로 인해 단기 주가는 하락 압력을 강하게 받고 있습니다.",
+  "momentum": "bearish",
+  "analyst_view": "Moderate Buy / 평균 목표주가 $6.16 ~ $6.45 (UBS $4.25 하향 조정)",
+  "score_hint": 45
+}

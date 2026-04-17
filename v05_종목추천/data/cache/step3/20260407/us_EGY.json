@@ -1,0 +1,30 @@
+{
+  "ticker": "EGY",
+  "name": "Vaalco Energy",
+  "theme": "에너지/원유",
+  "catalysts": [
+    {
+      "type": "중립",
+      "content": "2025년 생산량 목표 초과 달성 및 이집트국영석유회사(EGPC) 미수금 대폭 감소 (tipranks)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "2026년 2분기 코트디부아르(Baobab 필드) 생산 정상화 및 가봉 해상 시추 확대 전망 (investing.com)",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "재무 리스크",
+      "description": "캐나다 자산 매각 관련 6,720만 달러의 비현금성 손상차손 발생으로 4분기 순손실 기록",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "회계상 손실에도 불구하고 잉여현금흐름과 생산량이 견조하며, 서아프리카 자산 생산 확대로 2026년 긍정적 전망 유지 중.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy / Buy (목표주가 평균 $7.30 ~ $7.50)",
+  "score_hint": 80
+}

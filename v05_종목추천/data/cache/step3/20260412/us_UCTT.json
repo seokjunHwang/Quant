@@ -1,0 +1,30 @@
+{
+  "ticker": "UCTT",
+  "name": "Ultra Clean Holdings",
+  "theme": "반도체/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "AI 장비 수요 증가에 따른 주요 IB(Oppenheimer 등) 목표가 대폭 상향 (최고 $85)",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "반도체 장비 업사이클 진입 기대감에 따른 주가 급등 및 12개월 신고가 경신",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "지분 희석",
+      "description": "5.25억 달러 규모의 전환사채 발행에 따른 단기적인 오버행 우려",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "AI 및 메모리발 '울트라 사이클' 진입 기대감으로 월가에서 목표가를 일제히 70~85달러로 대폭 상향했습니다. 본격적인 턴어라운드를 기대하며 최근 주가가 15% 이상 급등했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "강력 매수, 평균 목표주가 $81.25",
+  "score_hint": 90
+}

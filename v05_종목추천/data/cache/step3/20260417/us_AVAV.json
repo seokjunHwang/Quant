@@ -1,0 +1,41 @@
+{
+  "ticker": "AVAV",
+  "name": "에어로바이론멘트",
+  "theme": "방위산업 / 항공우주 / 드론",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "차세대 다목적 발사 시스템 'MAYHEM 10' 신제품 공개",
+      "date": "2026-04-15",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "미 해군 JUMP 20-X 무인기 ISR 서비스 업체 선정",
+      "date": "2026-04-17",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "NASA 아르테미스 II 오리온 우주선 광통신 시스템 채택",
+      "date": "2026-04-17",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실적",
+      "description": "최근 3분기 EPS가 $0.64로 시장 예상치($0.68) 하회",
+      "severity": "medium"
+    },
+    {
+      "type": "수급",
+      "description": "높은 밸류에이션에 따른 일부 기관 및 내부자 차익 실현 매물 출회",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "차세대 다목적 발사 시스템 'MAYHEM 10' 출시 및 미 해군 무인기 ISR 계약 수주로 방산 입지를 강화함. 최근 분기 매출은 전년 대비 폭증했으나 EPS는 예상치를 소폭 하회함.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표가 $303 ~ $318, 강력 매수 (최고 목표가 $450)",
+  "score_hint": 85
+}

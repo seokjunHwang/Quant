@@ -1,0 +1,30 @@
+{
+  "ticker": "ROAD",
+  "name": "Construction Partners",
+  "theme": "중동 재건/플랜트 건설",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "B. Riley Financial 투자의견 'Buy' 상향 및 목표주가 $135 제시 (Investing.com)",
+      "date": "2026-04-02",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "사상 최대 수주 잔고($3.09B) 기록 및 2026 회계연도 실적 가이던스 상향 (Trefis)",
+      "date": "2026-03",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "밸류에이션 및 차익실현",
+      "description": "동종 업계 대비 높은 P/E 부담과 사상 최고가 갱신 이후 발생한 4% 갭하락 등 차익 실현 매물 출회",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "기록적인 수주 잔고를 바탕으로 월가의 투자의견 상향이 이어졌으나, 최근 최고점 도달 후 밸류에이션 부담으로 단기 차익 실현 매물이 나오며 주가가 다소 조정을 받았습니다.",
+  "momentum": "neutral",
+  "analyst_view": "Buy / Strong Buy (평균 목표주가: $131.40~$140.00, 최고 $150.00)",
+  "score_hint": 70
+}

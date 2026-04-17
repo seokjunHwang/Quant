@@ -76,6 +76,36 @@ th.font-mono, td.font-mono,
 .macro-card:hover {
   border-color: var(--accent);
 }
+.macro-chart-btns {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.375rem;
+}
+.macro-chart-btn {
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+.macro-chart-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.macro-chart-btn.ext {
+  color: #2962ff;
+  border-color: rgba(41, 98, 255, 0.3);
+}
+.macro-chart-btn.ext:hover {
+  background: rgba(41, 98, 255, 0.1);
+  border-color: #2962ff;
+  text-decoration: none;
+}
 .macro-card.clickable {
   cursor: pointer;
 }
@@ -114,6 +144,47 @@ th.font-mono, td.font-mono,
   padding: 0.1rem 0.4rem;
   border-radius: 0.25rem;
   margin-top: 0.25rem;
+}
+
+/* ── Macro Refresh Button ────────────────────────── */
+.macro-refresh-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  padding: 0.3rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+}
+.macro-refresh-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.macro-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  padding: 0.3rem 0.625rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.72rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.macro-action-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.macro-refresh-btn.spinning svg {
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 /* ── Theme Cards ─────────────────────────────────── */
@@ -237,6 +308,21 @@ th.font-mono, td.font-mono,
   font-size: 0.7rem;
   color: var(--text-muted);
   letter-spacing: 0.03em;
+}
+
+/* ── Market Cap ─────────────────────────────────── */
+.mcap-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-align: right;
+  display: block;
+}
+.mcap-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--text-muted);
 }
 
 .rank-change {
@@ -775,10 +861,10 @@ th.font-mono, td.font-mono,
   /* Macro cards 3-col on mobile */
   #macro-cards { grid-template-columns: repeat(3, 1fr); gap: 0.375rem; }
   .macro-card { padding: 0.5rem 0.625rem; }
-  .macro-card .label { font-size: 0.6rem; }
-  .macro-card .value { font-size: 0.85rem; }
-  .macro-card .change { font-size: 0.65rem; }
-  .macro-card .badge { font-size: 0.55rem; }
+  .macro-card .label { font-size: 0.65rem; }
+  .macro-card .value { font-size: 0.9rem; }
+  .macro-card .change { font-size: 0.7rem; }
+  .macro-card .badge { font-size: 0.6rem; }
   .tv-hint { display: none; }
 
   /* Strategy section */
@@ -929,6 +1015,486 @@ th.font-mono, td.font-mono,
   #macro-cards { grid-template-columns: repeat(2, 1fr); }
   .rec-card-name { font-size: 0.8rem; }
   .rec-card-score { font-size: 0.9rem; }
+}
+
+/* ── Theme Mode Toggle ───────────────────────────── */
+.theme-mode-btn {
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.theme-mode-btn.active {
+  color: var(--accent);
+  background: rgba(59, 130, 246, 0.12);
+}
+.theme-mode-btn:hover:not(.active) {
+  color: var(--text-secondary);
+}
+[data-theme="light"] .theme-mode-btn.active {
+  background: rgba(59, 130, 246, 0.1);
+}
+[data-theme="light"] .theme-mode-btn {
+  color: var(--text-muted);
+}
+
+/* ── LIVE Badge ──────────────────────────────────── */
+.live-badge {
+  background: #16a34a;
+  color: #fff;
+  animation: livePulse 2s infinite;
+}
+@keyframes livePulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+.live-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #22c55e;
+  margin-left: 4px;
+  vertical-align: middle;
+  animation: livePulse 2s infinite;
+}
+
+/* ── Architecture Page ───────────────────────────── */
+.arch-hero {
+  text-align: center;
+  padding: 2rem 0 1.5rem;
+}
+.arch-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin: 0 0 0.5rem;
+}
+.arch-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.arch-pipeline {
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+}
+.arch-step {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  transition: border-color 0.2s;
+}
+.arch-step:hover {
+  border-color: var(--accent);
+}
+.arch-step-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  width: 2rem;
+  text-align: center;
+  flex-shrink: 0;
+  line-height: 1.2;
+}
+.arch-step-body h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 0.25rem;
+}
+.arch-step-body p {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0 0 0.5rem;
+}
+.arch-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+.arch-tags span {
+  font-size: 0.68rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--accent);
+  font-weight: 500;
+}
+[data-theme="light"] .arch-tags span {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.arch-arrow {
+  display: flex;
+  justify-content: center;
+  padding: 0.375rem 0;
+  color: var(--text-muted);
+}
+
+.arch-section {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+.arch-section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+.arch-stack-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+@media (max-width: 640px) {
+  .arch-stack-grid { grid-template-columns: repeat(2, 1fr); }
+}
+.arch-stack-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0.625rem;
+  padding: 1rem;
+  transition: border-color 0.2s;
+}
+.arch-stack-card:hover {
+  border-color: var(--accent);
+}
+.arch-stack-card h5 {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 0.375rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.arch-stack-card p {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.arch-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+@media (max-width: 640px) {
+  .arch-metrics { grid-template-columns: repeat(2, 1fr); }
+}
+.arch-metric {
+  text-align: center;
+  padding: 1.25rem 0.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0.625rem;
+}
+.arch-metric-num {
+  display: block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 0.375rem;
+}
+.arch-metric-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.arch-disclaimer {
+  text-align: center;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  max-width: 500px;
+  margin: 1rem auto 2rem;
+  line-height: 1.6;
+}
+
+/* ── AI 종목 집중분석 ─────────────────────────────── */
+.deep-analyze-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--accent);
+  background: rgba(59, 130, 246, 0.08);
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.deep-analyze-btn:hover {
+  background: rgba(59, 130, 246, 0.18);
+  border-color: #60a5fa;
+}
+[data-theme="light"] .deep-analyze-btn {
+  background: rgba(59, 130, 246, 0.06);
+}
+[data-theme="light"] #deep-modal {
+  background: #fff;
+  border-color: #e2e8f0;
+}
+
+.deep-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  margin-bottom: 1rem;
+}
+.deep-table th {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.deep-table td {
+  padding: 0.625rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+  line-height: 1.55;
+  vertical-align: top;
+}
+.deep-table td:first-child {
+  color: var(--accent);
+  font-weight: 600;
+  white-space: nowrap;
+  width: 140px;
+}
+.deep-section-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 1.25rem 0 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+.deep-summary {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 0.875rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+.deep-verify {
+  background: rgba(34, 197, 94, 0.08);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+.deep-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.deep-ticker {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.deep-name {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+.deep-price {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-left: auto;
+}
+.deep-loading {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.deep-loading-spinner {
+  width: 28px;
+  height: 28px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+/* ── 애널리스트 상세 테이블 ────────────────────────── */
+.analyst-toggle-btn {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--accent);
+  background: rgba(59, 130, 246, 0.08);
+  color: var(--accent);
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: all 0.15s;
+}
+.analyst-toggle-btn:hover {
+  background: rgba(59, 130, 246, 0.18);
+}
+.analyst-detail {
+  margin-bottom: 1rem;
+  animation: fadeIn 0.3s ease;
+}
+.analyst-detail.hidden {
+  display: none;
+}
+.analyst-table td.mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+.analyst-rating-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+  background: rgba(34, 197, 94, 0.12);
+  color: var(--green);
+  white-space: nowrap;
+}
+
+/* ── 집중분석 모달 레이아웃 ────────────────────────── */
+.deep-body {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  flex: 1;
+  overflow: hidden;
+}
+.deep-result-area {
+  overflow-y: auto;
+  padding: 1rem 1.25rem;
+}
+.deep-sidebar {
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.deep-sidebar-header {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+.deep-history {
+  flex: 1;
+  overflow-y: auto;
+}
+.deep-hist-date {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  padding: 0.5rem 0.75rem 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.deep-hist-item {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+  transition: background 0.15s;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+.deep-hist-item:hover { background: rgba(59,130,246,0.08); }
+.deep-hist-ticker {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 48px;
+}
+.deep-hist-name {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.deep-hist-time {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  font-family: 'JetBrains Mono', monospace;
+}
+@media (max-width: 640px) {
+  .deep-body { grid-template-columns: 1fr; }
+  .deep-sidebar { border-left: none; border-top: 1px solid var(--border); max-height: 200px; }
+}
+
+/* ── AI 분석 잠금 / 블러 ─────────────────────────── */
+.picks-lock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+.picks-lock.hidden { display: none; }
+.picks-lock-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  margin: 0.75rem 0;
+}
+.picks-lock-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+}
+.picks-lock-inner {
+  text-align: center;
+}
+.picks-blurred {
+  filter: blur(8px);
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.5;
+}
+.picks-blurred.unlocked {
+  filter: none;
+  pointer-events: auto;
+  user-select: auto;
+  opacity: 1;
+  transition: filter 0.3s, opacity 0.3s;
 }
 
 /* ── Scrollbar ───────────────────────────────────── */

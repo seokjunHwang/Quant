@@ -1,0 +1,30 @@
+{
+  "ticker": "MRVL",
+  "name": "Marvell Technology",
+  "theme": "반도체/AI",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "엔비디아로부터 20억 달러 지분 투자 유치 및 AI 데이터센터 인프라 통합 파트너십 구축 (perplexity.ai)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "최근 분기 사상 최대 매출 22.2억 달러 기록 및 데이터센터 매출 비중 80% 육박 (stocktitan.net)",
+      "date": "2026-03",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "경쟁 리스크",
+      "description": "AI 커스텀 실리콘 및 옵티컬 스위칭 시장에서의 경쟁 심화",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "엔비디아의 대규모 투자와 파트너십 체결, 역대급 실적 달성으로 AI 데이터센터 핵심 수혜주로 부상하며 강력한 모멘텀 형성 중.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy (목표주가 평균 $117.24)",
+  "score_hint": 95
+}

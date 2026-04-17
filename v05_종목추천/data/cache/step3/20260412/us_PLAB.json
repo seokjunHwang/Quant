@@ -1,0 +1,30 @@
+{
+  "ticker": "PLAB",
+  "name": "Photronics",
+  "theme": "반도체/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "AI 데이터센터용 고사양 IC 포토마스크 수요 견조 및 1분기 호실적",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "한국 공장에 최첨단 FPD 마스크 라이터 도입으로 AMOLED 시장 점유율 강화",
+      "date": "2026-04",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "내부자 대규모 매도",
+      "description": "주가 고점 부근에서 CEO를 포함한 경영진의 약 520만 달러 규모 자사주 매도 출회",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "무부채에 가까운 탄탄한 재무구조와 AI 반도체 포토마스크 수요를 바탕으로 안정적인 실적을 내고 있습니다. 다만, 최근 CEO 등 경영진의 대규모 차익실현 매물이 변동성 리스크로 대두되었습니다.",
+  "momentum": "neutral",
+  "analyst_view": "매수, 평균 목표주가 $46 ~ $48",
+  "score_hint": 65
+}

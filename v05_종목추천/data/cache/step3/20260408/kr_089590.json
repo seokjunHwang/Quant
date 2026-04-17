@@ -1,0 +1,35 @@
+{
+  "ticker": "089590",
+  "name": "제주항공",
+  "theme": "항공·운송 (유가 하락 수혜)",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "중동 휴전 합의로 인한 국제유가 급락, 연료비 절감 모멘텀 작용 (daum.net)",
+      "date": "2026-04-08",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "회원 전용 대기 예약 서비스 시작 및 스마트패스 확대 등 고객 편의 제고 (hankyung.com)",
+      "date": "2026-04-07",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "경쟁 심화",
+      "description": "LCC 공급 확대로 인한 노선 운임 하락 우려",
+      "severity": "medium"
+    },
+    {
+      "type": "단기 실적",
+      "description": "25년 대규모 영업적자 여파 (26년 1분기 흑자전환 전망이나 확인 필요)",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "중동 정세 완화에 따른 국제유가 폭락으로 비용 절감 기대감이 커지며 외국인과 기관의 강력한 동반 매수세가 유입, 주가가 강하게 반등했습니다. 또한 새로운 여객 대기 예약 서비스를 도입해 서비스 경쟁력을 높이고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수 (Buy), 평균 목표주가 약 6,700원",
+  "score_hint": 80
+}

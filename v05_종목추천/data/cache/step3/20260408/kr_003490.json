@@ -1,0 +1,41 @@
+{
+  "ticker": "003490",
+  "name": "대한항공",
+  "theme": "항공·운송 (유가 하락 수혜)",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "중고도 정찰용 무인항공기(MUAV) 양산 1호기 출고 완료 (sedaily.com)",
+      "date": "2026-04-08",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "미-이란 2주간 휴전 합의로 대외 악재(유가 상승 우려) 해소 (investing.com)",
+      "date": "2026-04-08",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "코리아 밸류업 지수 기대감 속 외국인 244억 원 규모 대규모 순매수 유입 (mk.co.kr)",
+      "date": "2026-04-08",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "비용 증가",
+      "description": "환율 변동성으로 인한 단기 수익성 압박",
+      "severity": "medium"
+    },
+    {
+      "type": "규제 이슈",
+      "description": "공정거래위원회의 운임 인상 제한 등 시정조치 여파",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "국내 최초 전략급 무인기 1호기를 성공적으로 출고하며 방산 부문 기술력을 과시했습니다. 중동 휴전 소식에 따른 유가 하락 기대감과 밸류업 테마에 힘입어 외국인 매수세가 집중되며 주가가 6%대 급등했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수 (Buy), 평균 목표주가 31,000원 ~ 31,750원",
+  "score_hint": 85
+}

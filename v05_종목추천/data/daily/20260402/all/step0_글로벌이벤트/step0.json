@@ -1,0 +1,433 @@
+{
+  "events_raw": {
+    "events": []
+  },
+  "calendar_raw": {
+    "calendar": [
+      {
+        "date": "2026-04-03",
+        "d_day": "D-1",
+        "event": "미국 비농업고용지표(NFP) 및 실업률 발표",
+        "category": "economic",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "고용 시장 과열 여부에 따라 금리 인하 기대감 및 증시 변동성 확대",
+        "watch_sectors": [
+          "금융",
+          "기술",
+          "소비재"
+        ]
+      },
+      {
+        "date": "2026-04-08",
+        "d_day": "D-6",
+        "event": "FOMC 의사록 공개",
+        "category": "fed",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "향후 금리 경로에 대한 위원들의 구체적인 견해 확인으로 시장 방향성 결정",
+        "watch_sectors": [
+          "금융",
+          "부동산",
+          "기술"
+        ]
+      },
+      {
+        "date": "2026-04-10",
+        "d_day": "D-8",
+        "event": "미국 소비자물가지수(CPI) 발표",
+        "category": "economic",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "인플레이션 둔화 속도 확인을 통해 연준의 통화정책 스탠스 가늠",
+        "watch_sectors": [
+          "전 섹터"
+        ]
+      },
+      {
+        "date": "2026-04-14",
+        "d_day": "D-12",
+        "event": "미국 생산자물가지수(PPI) 발표",
+        "category": "economic",
+        "importance": "medium",
+        "country": "미국",
+        "impact_preview": "기업 비용 부담 확인을 통해 향후 소비자 물가 압력 예측",
+        "watch_sectors": [
+          "산업재",
+          "에너지",
+          "소비재"
+        ]
+      },
+      {
+        "date": "2026-04-22",
+        "d_day": "D-20",
+        "event": "알파벳(GOOG) 실적 발표",
+        "category": "earnings",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "광고 매출 및 AI 투자 성과에 따른 기술주 투자 심리 영향",
+        "watch_sectors": [
+          "기술",
+          "통신"
+        ]
+      },
+      {
+        "date": "2026-04-28",
+        "d_day": "D-26",
+        "event": "마이크로소프트(MSFT) 및 메타(META) 실적 발표",
+        "category": "earnings",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "클라우드 성장세와 AI 수익화 모델 확인으로 나스닥 지수 변동성 유발",
+        "watch_sectors": [
+          "기술",
+          "소프트웨어"
+        ]
+      },
+      {
+        "date": "2026-04-29",
+        "d_day": "D-27",
+        "event": "FOMC 금리결정 및 기자회견",
+        "category": "fed",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "기준금리 결정 및 파월 의장의 발언에 따른 글로벌 자산 가격 급변동",
+        "watch_sectors": [
+          "전 섹터"
+        ]
+      },
+      {
+        "date": "2026-04-29",
+        "d_day": "D-27",
+        "event": "아마존(AMZN) 실적 발표",
+        "category": "earnings",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "소비 심리 및 AWS 클라우드 부문 실적에 따른 유통/기술주 영향",
+        "watch_sectors": [
+          "유통",
+          "기술"
+        ]
+      },
+      {
+        "date": "2026-04-30",
+        "d_day": "D-28",
+        "event": "ECB 금리결정 및 총재 기자회견",
+        "category": "policy",
+        "importance": "medium",
+        "country": "유럽",
+        "impact_preview": "유로존 통화정책 변화에 따른 유로화 가치 및 글로벌 채권 금리 영향",
+        "watch_sectors": [
+          "금융",
+          "수출주"
+        ]
+      },
+      {
+        "date": "2026-04-30",
+        "d_day": "D-28",
+        "event": "미국 Core PCE 물가지수 발표",
+        "category": "economic",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "연준이 가장 선호하는 물가 지표로 향후 금리 정책의 핵심 근거",
+        "watch_sectors": [
+          "전 섹터"
+        ]
+      }
+    ]
+  },
+  "impact": {
+    "events": [],
+    "upcoming": [
+      {
+        "date": "2026-04-03",
+        "d_day": "D-1",
+        "event": "미국 비농업고용지표(NFP) 및 실업률 발표",
+        "importance": "high",
+        "country": "미국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "고용 둔화 (신규 고용 15만 이하)",
+            "probability": "45%",
+            "impact": "금리 인하 기대 강화 → 성장주·기술주 수혜, 채권 금리 하락"
+          },
+          {
+            "name": "적정 수준 (15~20만)",
+            "probability": "35%",
+            "impact": "시장 안도감, 현 추세 유지 → 전 섹터 소폭 강세"
+          },
+          {
+            "name": "고용 과열 (20만 이상)",
+            "probability": "20%",
+            "impact": "금리 인하 지연 우려 → 성장주 약세, 달러 강세로 수출주 압박"
+          }
+        ],
+        "watch_sectors": [
+          "금융",
+          "기술",
+          "소비재"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-04-08",
+        "d_day": "D-6",
+        "event": "FOMC 의사록 공개",
+        "importance": "high",
+        "country": "미국",
+        "category": "fed",
+        "scenarios": [
+          {
+            "name": "비둘기(완화적 논조)",
+            "probability": "50%",
+            "impact": "금리 인하 경로 명확화 → 기술주·부동산 수혜, 달러 약세로 원자재 강세"
+          },
+          {
+            "name": "매파(긴축적 논조)",
+            "probability": "30%",
+            "impact": "금리 동결 장기화 신호 → 가치주·방산주 상대 강세"
+          },
+          {
+            "name": "분열된 의견",
+            "probability": "20%",
+            "impact": "불확실성 확대 → 변동성 증가, 방어적 섹터 선호"
+          }
+        ],
+        "watch_sectors": [
+          "금융",
+          "부동산",
+          "기술",
+          "방산"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-04-10",
+        "d_day": "D-8",
+        "event": "미국 소비자물가지수(CPI) 발표",
+        "importance": "high",
+        "country": "미국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "인플레이션 둔화 (전월 대비 하락)",
+            "probability": "50%",
+            "impact": "금리 인하 기대 급등 → 성장주 랠리, 에너지주 상대 약세"
+          },
+          {
+            "name": "예상 부합",
+            "probability": "30%",
+            "impact": "시장 영향 제한적, 기존 포지션 유지"
+          },
+          {
+            "name": "인플레이션 재가속",
+            "probability": "20%",
+            "impact": "전 섹터 매도 압력, 에너지·원자재주 상대 수혜"
+          }
+        ],
+        "watch_sectors": [
+          "전 섹터"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-04-22",
+        "d_day": "D-20",
+        "event": "알파벳(GOOG) 실적 발표",
+        "importance": "high",
+        "country": "미국",
+        "category": "earnings",
+        "scenarios": [
+          {
+            "name": "AI 투자 성과 가시화 + 광고 매출 호조",
+            "probability": "45%",
+            "impact": "기술주 전반 투자심리 개선, AI 관련 소프트웨어·플랫폼주 수혜"
+          },
+          {
+            "name": "실적 예상 부합",
+            "probability": "35%",
+            "impact": "기술주 제한적 반응, 개별 종목 차별화"
+          },
+          {
+            "name": "AI 비용 부담 부각 + 광고 둔화",
+            "probability": "20%",
+            "impact": "기술주 밸류에이션 재평가 압력, 방어주 선호"
+          }
+        ],
+        "watch_sectors": [
+          "기술",
+          "통신",
+          "소프트웨어"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-04-28",
+        "d_day": "D-26",
+        "event": "마이크로소프트(MSFT) 및 메타(META) 실적 발표",
+        "importance": "high",
+        "country": "미국",
+        "category": "earnings",
+        "scenarios": [
+          {
+            "name": "클라우드·AI 수익화 호조",
+            "probability": "45%",
+            "impact": "나스닥 강세, AI 밸류체인 전반 수혜"
+          },
+          {
+            "name": "혼조 (클라우드 성장 둔화 + AI 투자 확대)",
+            "probability": "35%",
+            "impact": "기술주 내 차별화, AI 인프라 투자 관련주 주목"
+          },
+          {
+            "name": "실적 부진",
+            "probability": "20%",
+            "impact": "기술주 전반 약세, 안전자산·방산·에너지 섹터로 자금 이동"
+          }
+        ],
+        "watch_sectors": [
+          "기술",
+          "소프트웨어",
+          "클라우드"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-04-29",
+        "d_day": "D-27",
+        "event": "FOMC 금리결정 및 기자회견",
+        "importance": "high",
+        "country": "미국",
+        "category": "fed",
+        "scenarios": [
+          {
+            "name": "금리 인하 (25bp)",
+            "probability": "30%",
+            "impact": "전 섹터 강세, 특히 성장주·부동산·소비재 급등, 달러 약세로 원유·원자재 수혜"
+          },
+          {
+            "name": "동결 + 비둘기적 발언",
+            "probability": "45%",
+            "impact": "시장 소폭 강세, 6월 인하 기대 유지 → 기술주 완만한 상승"
+          },
+          {
+            "name": "동결 + 매파적 발언",
+            "probability": "25%",
+            "impact": "성장주 급락, 방산·에너지 등 비경기 민감주 상대 강세"
+          }
+        ],
+        "watch_sectors": [
+          "전 섹터"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-04-29",
+        "d_day": "D-27",
+        "event": "아마존(AMZN) 실적 발표",
+        "importance": "high",
+        "country": "미국",
+        "category": "earnings",
+        "scenarios": [
+          {
+            "name": "AWS + 소비 호조",
+            "probability": "40%",
+            "impact": "유통·기술주 동반 강세, 소비 심리 개선 신호"
+          },
+          {
+            "name": "AWS 강세 / 리테일 약세 혼조",
+            "probability": "40%",
+            "impact": "클라우드 섹터 수혜, 유통주 차별화"
+          },
+          {
+            "name": "전반적 부진",
+            "probability": "20%",
+            "impact": "소비 둔화 우려 확산, 경기방어주·에너지주 상대 강세"
+          }
+        ],
+        "watch_sectors": [
+          "유통",
+          "기술",
+          "클라우드"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-04-30",
+        "d_day": "D-28",
+        "event": "미국 Core PCE 물가지수 발표",
+        "importance": "high",
+        "country": "미국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "2% 목표 근접 (둔화)",
+            "probability": "40%",
+            "impact": "금리 인하 확신 강화, 전 섹터 강세 마감"
+          },
+          {
+            "name": "예상 부합",
+            "probability": "35%",
+            "impact": "FOMC 결과 소화 과정, 제한적 영향"
+          },
+          {
+            "name": "예상 상회 (물가 재반등)",
+            "probability": "25%",
+            "impact": "FOMC 당일 비둘기 발언 효과 상쇄, 전 섹터 되돌림"
+          }
+        ],
+        "watch_sectors": [
+          "전 섹터"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      }
+    ],
+    "sector_summary": [
+      {
+        "sector": "방산/항공우주",
+        "net_direction": "neutral",
+        "event_count": 2,
+        "key_reason": "거시 경제 이벤트에 상대적으로 비민감, 금리 환경과 무관한 정부 수요 기반으로 안정적. 매파적 시나리오 시 자금 유입 가능성"
+      },
+      {
+        "sector": "에너지/석유",
+        "net_direction": "neutral",
+        "event_count": 3,
+        "key_reason": "달러 강약에 따른 유가 변동 가능성 존재. 인플레이션 재가속 시 상대 수혜, 둔화 시 상대 약세 가능"
+      },
+      {
+        "sector": "기술/소프트웨어",
+        "net_direction": "bullish",
+        "event_count": 7,
+        "key_reason": "NFP 둔화·CPI 둔화 시나리오가 우세할 경우 금리 인하 기대로 최대 수혜. 다만 빅테크 실적 시즌 결과에 따라 변동성 극대화"
+      },
+      {
+        "sector": "조선/해운",
+        "net_direction": "neutral",
+        "event_count": 1,
+        "key_reason": "매크로 이벤트 직접 노출도 낮음. 글로벌 교역량 전망과 개별 수주 모멘텀이 더 핵심 변수"
+      },
+      {
+        "sector": "금융",
+        "net_direction": "neutral",
+        "event_count": 4,
+        "key_reason": "금리 경로 불확실성 해소 여부가 핵심. FOMC 결과에 따라 방향성 결정"
+      },
+      {
+        "sector": "소비재/유통",
+        "net_direction": "bullish",
+        "event_count": 3,
+        "key_reason": "고용 안정 + 물가 둔화 조합 시 소비 심리 개선 기대. 아마존 실적이 섹터 방향성 결정"
+      }
+    ]
+  }
+}

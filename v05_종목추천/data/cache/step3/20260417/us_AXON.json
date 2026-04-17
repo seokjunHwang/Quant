@@ -1,0 +1,30 @@
+{
+  "ticker": "AXON",
+  "name": "악손엔터프라이즈",
+  "theme": "방위산업 / 항공우주 / 드론",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Axon Week 2026에서 공공 안전 데이터 과부하 해결을 위한 3가지 신규 AI 도구 발표",
+      "date": "2026-04-07",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "TD 코웬 목표 주가 $825로 상향 및 매수 의견 유지",
+      "date": "2026-04-15",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수급",
+      "description": "최근 6개월간 CEO 등 주요 경영진의 대규모 자사주 매도 (80여 차례)",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "신규 AI 기반 소프트웨어 도구 발표로 공공 안전 시장의 독보적 지배력을 재확인함. 내부자 매도 이슈가 있으나 베일리 기포드 등 대형 기관의 강력한 매수세가 하방을 지지 중.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표가 $720 ~ $750, 비중확대/매수 (TD 코웬 $825, JP모건 $750)",
+  "score_hint": 80
+}

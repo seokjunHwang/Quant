@@ -1,0 +1,475 @@
+{
+  "macro": {
+    "vix": {
+      "price": 23.87,
+      "prev_close": 24.53,
+      "change_pct": -2.69
+    },
+    "sp500": {
+      "price": 6582.6899,
+      "prev_close": 6575.32,
+      "change_pct": 0.11
+    },
+    "nasdaq": {
+      "price": 21879.1797,
+      "prev_close": 21840.947,
+      "change_pct": 0.18
+    },
+    "us10y_yield": {
+      "price": 4.313,
+      "prev_close": 4.319,
+      "change_pct": -0.14
+    },
+    "us2y_yield": {
+      "price": 3.607,
+      "prev_close": 3.605,
+      "change_pct": 0.06
+    },
+    "dollar_index": {
+      "price": 100.028,
+      "prev_close": 100.031,
+      "change_pct": -0.0
+    },
+    "gold": {
+      "price": 4661.2998,
+      "prev_close": 4702.7002,
+      "change_pct": -0.88
+    },
+    "oil_wti": {
+      "price": 112.03,
+      "prev_close": 112.0,
+      "change_pct": 0.03
+    },
+    "bitcoin": {
+      "price": 68915.5234,
+      "prev_close": 68982.1797,
+      "change_pct": -0.1
+    },
+    "kospi": {
+      "price": 5465.46,
+      "prev_close": 5392.52,
+      "change_pct": 1.35
+    },
+    "kosdaq": {
+      "price": 1065.04,
+      "prev_close": 1064.62,
+      "change_pct": 0.04
+    },
+    "usdkrw": {
+      "price": 1508.88,
+      "prev_close": 1510.54,
+      "change_pct": -0.11
+    },
+    "vix_zone": "긴장"
+  },
+  "news": {
+    "kr": {
+      "market": "kr",
+      "date": "2026년 04월 06일",
+      "macro_environment": {
+        "summary": "중동발 지정학적 리스크와 트럼프 대통령의 강경 발언으로 인한 변동성 장세가 지속되는 가운데, 삼성전자 등 주요 기업의 1분기 실적 발표를 앞두고 기대감이 유입되며 지수는 상승 출발함.",
+        "key_indicators": [
+          {
+            "name": "코스피",
+            "value": "5468.93 (오전 9시 6분 기준)",
+            "trend": "상승",
+            "impact": "삼성전자 실적 기대감 및 기관 매수세 유입으로 상승"
+          },
+          {
+            "name": "원/달러 환율",
+            "value": "1510.90원",
+            "trend": "상승",
+            "impact": "지정학적 리스크에 따른 안전자산 선호 및 고환율 기조 유지"
+          },
+          {
+            "name": "국제유가",
+            "value": "WTI 100달러 상회",
+            "trend": "상승",
+            "impact": "중동 전쟁 장기화로 인한 인플레이션 압력 및 경제 성장 제약 우려"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "반도체 실적 기대주",
+          "reason": "삼성전자(7일) 및 SK하이닉스 1분기 잠정 실적 발표를 앞두고 증권가의 목표가 상향 및 어닝 서프라이즈 기대감 확산 (출처: 아시아경제, 연합뉴스)",
+          "trading_type": "스윙",
+          "sectors": [
+            "반도체",
+            "전기전자"
+          ]
+        },
+        {
+          "theme": "건설/인프라",
+          "reason": "중동 전쟁 이후 재건 및 인프라 수요 기대감과 함께 장 초반 강세 흐름 (출처: 글로벌이코노믹)",
+          "trading_type": "단타",
+          "sectors": [
+            "건설",
+            "기계"
+          ]
+        },
+        {
+          "theme": "제약/바이오",
+          "reason": "삼천당제약의 대주주 지분 매각 계획 철회 공시로 인한 오버행 이슈 해소 및 반등 기대감 (출처: 조선비즈)",
+          "trading_type": "둘다",
+          "sectors": [
+            "제약",
+            "바이오"
+          ]
+        },
+        {
+          "theme": "전기차/이차전지",
+          "reason": "업종 바닥 인식 확산 및 2분기 방향성 탐색에 따른 저가 매수세 유입 (출처: 아시아경제)",
+          "trading_type": "스윙",
+          "sectors": [
+            "이차전지",
+            "자동차"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "반도체",
+          "direction": "bullish",
+          "key_news": "삼성전자 1분기 영업이익 컨센서스 상회 전망 및 목표가 상향 (출처: 신한투자증권)",
+          "reason": "메모리 가격 상승 및 HBM 점유율 회복에 따른 실적 개선 기대"
+        },
+        {
+          "sector": "제약/바이오",
+          "direction": "bullish",
+          "key_news": "삼천당제약, 2500억 규모 주식 매각 계획 철회 (출처: 조선비즈)",
+          "reason": "대규모 매도 물량 출회 부담 해소로 인한 투자 심리 개선"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "중동 지정학적 리스크",
+          "severity": "high",
+          "description": "트럼프 대통령의 이란 관련 강경 발언 및 7일(한국시간 8일) 협상 시한을 앞둔 불확실성 (출처: 매일경제)"
+        },
+        {
+          "factor": "고환율 및 고물가",
+          "severity": "medium",
+          "description": "원/달러 환율 1500원대 고착화 및 유가 상승에 따른 인플레이션 압력 가중 (출처: 네이버 프리미엄콘텐츠)"
+        }
+      ]
+    },
+    "us": {
+      "market": "us",
+      "date": "2026년 04월 06일",
+      "macro_environment": {
+        "summary": "부활절 연휴로 인한 휴장 후 재개되는 시장으로, 지난주 발표된 강력한 고용 지표와 중동 지정학적 리스크가 혼재되어 변동성이 예상되는 분위기입니다.",
+        "key_indicators": [
+          {
+            "name": "10년물 국채 금리",
+            "value": "4.35%",
+            "trend": "상승",
+            "impact": "고용 호조에 따른 금리 인하 기대감 축소로 시장 압박"
+          },
+          {
+            "name": "WTI 원유",
+            "value": "$111.54",
+            "trend": "상승",
+            "impact": "이란-중동 지정학적 긴장 고조로 인한 에너지 가격 급등 및 인플레이션 우려"
+          },
+          {
+            "name": "실업률",
+            "value": "4.3%",
+            "trend": "하락",
+            "impact": "노동 시장 강세로 연준의 금리 동결 기조 강화"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "방산 및 에너지",
+          "reason": "이란과의 지정학적 긴장 고조 및 트럼프 대통령의 강경 발언으로 인한 수혜 기대 (Fox Business)",
+          "trading_type": "둘다",
+          "sectors": [
+            "방위산업",
+            "에너지/석유"
+          ]
+        },
+        {
+          "theme": "AI 인프라 및 반도체",
+          "reason": "빅테크 기업들의 AI 자본 지출 급증 및 메모리 반도체 수요 지속 전망 (중앙일보/KB증권)",
+          "trading_type": "스윙",
+          "sectors": [
+            "반도체",
+            "소프트웨어"
+          ]
+        },
+        {
+          "theme": "금융/은행주",
+          "reason": "금리 고점 유지 및 경제 지표 호조에 따른 수익성 방어 기대 (MarketNews)",
+          "trading_type": "스윙",
+          "sectors": [
+            "금융",
+            "은행"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "에너지",
+          "direction": "bullish",
+          "key_news": "중동 전쟁 장기화 우려로 유가 $110 상회 (Trading Economics)",
+          "reason": "공급망 불안 및 지정학적 리스크 프리미엄 반영"
+        },
+        {
+          "sector": "항공/여행",
+          "direction": "bearish",
+          "key_news": "유가 급등에 따른 비용 부담 증가로 투자 심리 위축 (Trading Economics)",
+          "reason": "연료비 상승이 마진 압박으로 작용"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "중동 지정학적 리스크",
+          "severity": "high",
+          "description": "이란과의 갈등 심화 및 호르무즈 해협 긴장으로 인한 글로벌 공급망 및 유가 불안 (Fox Business)"
+        },
+        {
+          "factor": "연준 금리 인하 기대 후퇴",
+          "severity": "medium",
+          "description": "예상보다 강력한 3월 고용 지표(17.8만 명 증가)로 인해 연내 금리 인하 횟수 축소 전망 (Schwab)"
+        },
+        {
+          "factor": "인플레이션 압력",
+          "severity": "medium",
+          "description": "에너지 가격 급등이 소비자 물가에 전이될 가능성 및 타겟 인플레이션(2%) 도달 지연 우려 (IMF)"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "premarket_movers": [
+      {
+        "ticker": "N/A",
+        "name": "시장 전반",
+        "change_pct": 0.0,
+        "reason": "4월 6일은 부활절 월요일(Easter Monday) 휴일 영향으로 일부 국가의 금융시장이 휴장하며, 전반적인 거래량이 낮고 변동성이 제한적인 상황입니다."
+      }
+    ],
+    "earnings_today": [
+      {
+        "ticker": "DAL",
+        "name": "Delta Air Lines",
+        "expectation": "0.60",
+        "impact": "중립"
+      },
+      {
+        "ticker": "STZ",
+        "name": "Constellation Brands",
+        "expectation": "1.71",
+        "impact": "중립"
+      }
+    ],
+    "economic_events": [
+      {
+        "time_et": "14:00",
+        "event": "US ISM Services PMI",
+        "forecast": "N/A",
+        "importance": "high"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 4월 28-29일",
+      "cut_probability": "2%"
+    }
+  },
+  "dart": {
+    "today_disclosures": [
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000567"
+      },
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000544"
+      },
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000526"
+      },
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000490"
+      },
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000446"
+      },
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000413"
+      },
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000380"
+      },
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000350"
+      },
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000331"
+      },
+      {
+        "corp_name": "한화솔루션",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260406",
+        "corp_code": "00162461",
+        "rcept_no": "20260406800190"
+      },
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000312"
+      },
+      {
+        "corp_name": "한화솔루션",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00162461",
+        "rcept_no": "20260406000293"
+      },
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000286"
+      },
+      {
+        "corp_name": "기아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00106641",
+        "rcept_no": "20260406000238"
+      },
+      {
+        "corp_name": "한화솔루션",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00162461",
+        "rcept_no": "20260406000218"
+      },
+      {
+        "corp_name": "iM금융지주",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00878915",
+        "rcept_no": "20260406000190"
+      },
+      {
+        "corp_name": "한화솔루션",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00162461",
+        "rcept_no": "20260406000180"
+      },
+      {
+        "corp_name": "한화솔루션",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00162461",
+        "rcept_no": "20260406000145"
+      },
+      {
+        "corp_name": "한화솔루션",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00162461",
+        "rcept_no": "20260406000127"
+      },
+      {
+        "corp_name": "LS에코에너지",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260406",
+        "corp_code": "01093007",
+        "rcept_no": "20260406800166"
+      },
+      {
+        "corp_name": "한화솔루션",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00162461",
+        "rcept_no": "20260406000104"
+      },
+      {
+        "corp_name": "LS에코에너지",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "01093007",
+        "rcept_no": "20260406000096"
+      },
+      {
+        "corp_name": "한화솔루션",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00162461",
+        "rcept_no": "20260406000088"
+      },
+      {
+        "corp_name": "대우건설",
+        "report_nm": "투자판단관련주요경영사항              ",
+        "rcept_dt": "20260406",
+        "corp_code": "00124540",
+        "rcept_no": "20260406800126"
+      },
+      {
+        "corp_name": "유안타증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260406",
+        "corp_code": "00117601",
+        "rcept_no": "20260406000060"
+      },
+      {
+        "corp_name": "SK디스커버리",
+        "report_nm": "주요사항보고서(타법인주식및출자증권양도결정)(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260406",
+        "corp_code": "00131832",
+        "rcept_no": "20260403801520"
+      },
+      {
+        "corp_name": "SK가스",
+        "report_nm": "주요사항보고서(타법인주식및출자증권양도결정)",
+        "rcept_dt": "20260406",
+        "corp_code": "00144164",
+        "rcept_no": "20260403003907"
+      }
+    ]
+  }
+}

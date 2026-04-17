@@ -1,0 +1,41 @@
+{
+  "ticker": "PSN",
+  "name": "Parsons",
+  "theme": "중동 재건 / 해외 건설",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "미 해안경비대(USCG)와 2,500만 달러 규모 프로그램 관리 서비스 계약 체결",
+      "date": "2026-04-15",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "뉴욕시 뉴타운 크릭 하수 저장 터널 건설 관리 사업 수주",
+      "date": "2026-04-14",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "오클라호마 루즈벨트 다리 교체(4억 900만 달러 규모) 설계 주관사 선정",
+      "date": "2026-04-13",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "지정학적 리스크",
+      "description": "중동 분쟁 격화 우려로 KeyBanc 투자 등급 하향 (비중확대 -> 섹터 비중)",
+      "severity": "high"
+    },
+    {
+      "type": "수급 리스크",
+      "description": "최근 3개월 내부자 순매도 지속 및 기술적 약세",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "최근 며칠간 해안경비대, 뉴욕, 오클라호마 등 굵직한 인프라 및 안보 사업을 연이어 수주했으나, 중동발 지정학적 리스크 부각으로 일부 기관의 투자 의견이 하향 조정되었습니다.",
+  "momentum": "neutral",
+  "analyst_view": "강력 매수 우세, 평균 목표주가 $77.55 ~ $80.72",
+  "score_hint": 75
+}

@@ -1,0 +1,35 @@
+{
+  "ticker": "AMD",
+  "name": "AMD",
+  "theme": "반도체/HBM·AI메모리",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Wells Fargo 2분기 전술적 아이디어 목록에 추가 및 'Overweight' 평가 (Bitmart)",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "다가오는 1분기 실적 호조 기대 및 하반기 차세대 MI450 가속기 출시 모멘텀 (24/7 Wall St)",
+      "date": "2026-04",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "경쟁 및 규제",
+      "description": "중국향 고성능 GPU 수출 통제 리스크 및 엔비디아와의 경쟁 심화 우려",
+      "severity": "medium"
+    },
+    {
+      "type": "투자의견 하향",
+      "description": "Citigroup의 목표주가 하향($260 -> $248) 및 투자의견 '중립' 조정",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "하반기 차세대 AI 칩 출시에 대한 기대감으로 Wells Fargo 등에서 긍정적인 평가를 받으며 주요 저항선을 돌파했습니다. 기관 투자자의 매수세도 유입되고 있으나, 일부 분석가의 보수적인 의견과 대중국 규제 리스크도 공존합니다.",
+  "momentum": "bullish",
+  "analyst_view": "Moderate Buy ~ Strong Buy (평균 목표주가: $290.19, 최고 $358.00)",
+  "score_hint": 75
+}

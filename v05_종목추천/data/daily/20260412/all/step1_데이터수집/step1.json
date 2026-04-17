@@ -1,0 +1,286 @@
+{
+  "macro": {
+    "vix": {
+      "price": 19.23,
+      "prev_close": 19.48,
+      "change_pct": -1.28
+    },
+    "sp500": {
+      "price": 6816.8901,
+      "prev_close": 6824.66,
+      "change_pct": -0.11
+    },
+    "nasdaq": {
+      "price": 22902.8906,
+      "prev_close": 22822.418,
+      "change_pct": 0.35
+    },
+    "us10y_yield": {
+      "price": 4.317,
+      "prev_close": 4.293,
+      "change_pct": 0.56
+    },
+    "us2y_yield": {
+      "price": 3.593,
+      "prev_close": 3.588,
+      "change_pct": 0.14
+    },
+    "dollar_index": {
+      "price": 98.65,
+      "prev_close": 98.863,
+      "change_pct": -0.22
+    },
+    "gold": {
+      "price": 4761.8999,
+      "prev_close": 4789.1001,
+      "change_pct": -0.57
+    },
+    "oil_wti": {
+      "price": 96.57,
+      "prev_close": 97.79,
+      "change_pct": -1.25
+    },
+    "bitcoin": {
+      "price": 73148.8594,
+      "prev_close": 72971.1484,
+      "change_pct": 0.24
+    },
+    "kospi": {
+      "price": 5858.8701,
+      "prev_close": 5778.01,
+      "change_pct": 1.4
+    },
+    "kosdaq": {
+      "price": 1093.63,
+      "prev_close": 1076.0,
+      "change_pct": 1.64
+    },
+    "usdkrw": {
+      "price": 1482.7,
+      "prev_close": 1474.17,
+      "change_pct": 0.58
+    },
+    "vix_zone": "평시"
+  },
+  "news": {
+    "kr": {
+      "market": "kr",
+      "date": "2026년 04월 12일",
+      "macro_environment": {
+        "summary": "미국-이란 간 2주간의 휴전 합의로 지정학적 리스크가 완화되면서 투자 심리가 회복세에 있으나, 중동 사태의 불확실성이 완전히 해소되지 않아 변동성 장세가 지속될 전망입니다.",
+        "key_indicators": [
+          {
+            "name": "한국은행 기준금리",
+            "value": "2.50%",
+            "trend": "보합",
+            "impact": "7회 연속 동결로, 물가와 경기 사이에서 신중한 통화정책 기조 유지"
+          },
+          {
+            "name": "원/달러 환율",
+            "value": "1,470원대",
+            "trend": "하락",
+            "impact": "지정학적 리스크 완화 및 외국인 자금 유입 기대감으로 원화 강세 압력"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "반도체",
+          "reason": "삼성전자 1분기 호실적 및 SK하이닉스 실적 기대감, 미국 반도체주 강세 영향 (연합뉴스)",
+          "trading_type": "스윙",
+          "sectors": [
+            "반도체 장비",
+            "반도체 소재",
+            "HBM 관련주"
+          ]
+        },
+        {
+          "theme": "건설/부동산",
+          "reason": "지정학적 리스크 완화에 따른 경기 부양 기대감 및 정부 정책 수혜 기대 (iM증권)",
+          "trading_type": "스윙",
+          "sectors": [
+            "건설",
+            "부동산 개발"
+          ]
+        },
+        {
+          "theme": "전력기기",
+          "reason": "미국 에너지 인프라 투자 확대 및 관련 기업 공급 계약 소식 지속 (유튜브 인포맥스라이브)",
+          "trading_type": "스윙",
+          "sectors": [
+            "전력설비",
+            "변압기"
+          ]
+        },
+        {
+          "theme": "조선",
+          "reason": "중동 긴장 완화 시 해상 물동량 정상화 기대감 (연합뉴스)",
+          "trading_type": "스윙",
+          "sectors": [
+            "조선",
+            "조선기자재"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "반도체",
+          "direction": "bullish",
+          "key_news": "삼성전자 1분기 호실적 발표 및 SK하이닉스 실적 기대감 고조 (연합뉴스)",
+          "reason": "실적 시즌을 맞아 반도체 업종의 실적 개선 가시성이 높아지며 시장 주도주로 부각"
+        },
+        {
+          "sector": "에너지/정유",
+          "direction": "bearish",
+          "key_news": "미국-이란 휴전 합의로 국제 유가 하락세 전환 (연합인포맥스)",
+          "reason": "지정학적 리스크 완화로 인한 유가 급등세 진정"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "중동 지정학적 불확실성",
+          "severity": "high",
+          "description": "미국-이란 2주 휴전 합의에도 불구하고 종전 협상 과정의 갈등 재발 가능성 상존 (조선비즈)"
+        },
+        {
+          "factor": "인플레이션 및 금리 경로",
+          "severity": "medium",
+          "description": "에너지 가격 상승이 소비자물가(CPI)에 미치는 영향과 연준의 통화정책 불확실성 (연합뉴스)"
+        }
+      ]
+    },
+    "us": {
+      "market": "us",
+      "date": "2026년 04월 12일",
+      "macro_environment": {
+        "summary": "이란과의 휴전 협상 기대감으로 지정학적 리스크가 완화되며 시장이 안정을 찾고 있으나, 여전히 높은 에너지 가격과 인플레이션 우려가 상존하는 복합적인 상황입니다.",
+        "key_indicators": [
+          {
+            "name": "10년물 국채 금리",
+            "value": "4.31%",
+            "trend": "하락",
+            "impact": "금리 급등세가 진정되며 주식 시장의 밸류에이션 부담 완화"
+          },
+          {
+            "name": "WTI 원유",
+            "value": "$95.98",
+            "trend": "하락",
+            "impact": "에너지 가격 급등세가 꺾이며 인플레이션 공포 완화에 기여"
+          },
+          {
+            "name": "CPI(소비자물가지수)",
+            "value": "3.3%",
+            "trend": "상승",
+            "impact": "에너지 가격 상승으로 인한 물가 압력 지속, 연준의 금리 인하 기대감 제약"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "지정학적 리스크 완화 수혜주",
+          "reason": "이란과의 휴전 협상 소식으로 에너지 가격이 하락하며 시장 전반의 투자 심리가 개선됨 (Business Insider)",
+          "trading_type": "스윙",
+          "sectors": [
+            "에너지",
+            "항공",
+            "운송"
+          ]
+        },
+        {
+          "theme": "AI 인프라 및 반도체",
+          "reason": "AI 하이퍼스케일러들의 기록적인 자본 지출 계획과 엔비디아 등 주요 기업의 견조한 수요 전망 유지 (Motley Fool)",
+          "trading_type": "둘다",
+          "sectors": [
+            "반도체",
+            "기술주"
+          ]
+        },
+        {
+          "theme": "금융주 (실적 기대감)",
+          "reason": "금리 환경 안정화와 함께 다가오는 대형 은행들의 실적 발표를 앞두고 실적 개선 기대감이 형성됨 (Goldman Sachs)",
+          "trading_type": "스윙",
+          "sectors": [
+            "금융",
+            "은행"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "에너지",
+          "direction": "bearish",
+          "key_news": "원유 가격이 배럴당 100달러 아래로 하락하며 단기 급등세 진정 (Business Insider)",
+          "reason": "이란 휴전 협상으로 인한 공급 우려 완화"
+        },
+        {
+          "sector": "항공",
+          "direction": "bearish",
+          "key_news": "델타항공(DAL)이 연료비 급증으로 인해 2분기 실적 가이던스를 하향 조정 (24/7 Wall St.)",
+          "reason": "지정학적 긴장으로 인한 유가 상승이 운영 비용에 직접적인 타격"
+        },
+        {
+          "sector": "기술",
+          "direction": "bullish",
+          "key_news": "AI 관련 기업들의 1분기 실적 가이던스가 시장 예상치를 상회하는 긍정적 흐름 (National Today)",
+          "reason": "AI 컴퓨팅 수요의 지속적인 증가"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "지속적인 인플레이션 압력",
+          "severity": "high",
+          "description": "에너지 가격 상승이 헤드라인 CPI를 밀어 올리며 연준의 금리 인하 경로를 불확실하게 만듦 (Schwab)"
+        },
+        {
+          "factor": "기업 마진 압박",
+          "severity": "medium",
+          "description": "에너지 비용 상승분을 소비자에게 전가하지 못하는 기업들의 영업 이익률 하락 우려 (24/7 Wall St.)"
+        },
+        {
+          "factor": "시장 밸류에이션 부담",
+          "severity": "medium",
+          "description": "S&P 500의 Shiller P/E 비율이 역사적으로 높은 수준에 머물러 있어 조정 가능성 상존 (Motley Fool)"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "premarket_movers": [
+      {
+        "ticker": "RAYA",
+        "name": "Erayak Power Solution Group Inc.",
+        "change_pct": 86.9,
+        "reason": "최근 주가 급락에 따른 기술적 반등 및 변동성 확대"
+      },
+      {
+        "ticker": "ISPC",
+        "name": "iSpecimen Inc.",
+        "change_pct": 54.57,
+        "reason": "전일 하락 이후 저가 매수세 유입 및 변동성 거래"
+      },
+      {
+        "ticker": "AIXI",
+        "name": "Xiao-I Corporation",
+        "change_pct": 53.33,
+        "reason": "전일 급락에 따른 반발 매수세 유입"
+      }
+    ],
+    "earnings_today": [],
+    "economic_events": [
+      {
+        "time_et": "N/A",
+        "event": "2026년 4월 12일(일)은 주말이므로 주요 경제지표 발표 없음",
+        "forecast": "N/A",
+        "importance": "low"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 4월 28일 - 29일",
+      "cut_probability": "1.0% 미만 (금리 동결 전망 98% 이상)"
+    }
+  },
+  "dart": {
+    "today_disclosures": []
+  }
+}

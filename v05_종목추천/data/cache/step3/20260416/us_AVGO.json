@@ -1,0 +1,30 @@
+{
+  "ticker": "AVGO",
+  "name": "브로드컴",
+  "theme": "반도체 / AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "메타(Meta)와 커스텀 AI 칩(MTIA) 개발 파트너십 2029년까지 장기 연장 발표 (broadcom)",
+      "date": "2026-04-14",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "구글(2031년까지), 앤스로픽(2027년부터)과 대규모 차세대 컴퓨팅 인프라 공급 계약 체결 (hankyung)",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "경영진 교체",
+      "description": "오랜 기간 재직한 CFO 커스텐 스피어스의 6월 은퇴 발표에 따른 단기적 과도기",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "메타, 구글, 앤스로픽 등 하이퍼스케일 고객들과의 커스텀 실리콘(ASIC) 장기 계약을 연달아 성공시키며 AI 네트워크 인프라 시장 지배력을 입증했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수, 평균 목표주가 약 $480 (최고 $630)",
+  "score_hint": 90
+}

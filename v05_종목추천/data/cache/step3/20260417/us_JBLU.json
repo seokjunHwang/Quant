@@ -1,0 +1,35 @@
+{
+  "ticker": "JBLU",
+  "name": "젯블루항공",
+  "theme": "지정학적 평화 기대 (항공 / 여행 / 조선·해운)",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "수하물 수수료 인상 및 충성도 프로그램 개편을 통한 수익성 방어 시도",
+      "date": "2026-04-17",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "Seaport Research 등 일부 기관에서 목표주가 상향 (Buy, $8.00 제시)",
+      "date": "2026-04-16",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "재무 위기",
+      "description": "약 90억 달러의 막대한 부채와 높은 이자 비용 부담 지속",
+      "severity": "high"
+    },
+    {
+      "type": "파산 리스크",
+      "description": "유가 상승 등 악재 지속 시 2026년 파산 가능성 경고 (창립자 언급)",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "스피릿 항공과의 합병 무산 이후 막대한 부채와 비용 증가로 심각한 재무 압박을 받고 있습니다. 수익성 개선 조치를 시행 중이나 다수 월가 기관들은 목표주가를 하향하며 보수적으로 접근하고 있습니다.",
+  "momentum": "bearish",
+  "analyst_view": "보유/매도 (Hold/Reduce), 평균 목표주가 $4.88 ~ $5.21",
+  "score_hint": 30
+}

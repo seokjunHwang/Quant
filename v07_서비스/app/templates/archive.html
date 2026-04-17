@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}시황 아카이브 — {{ site_name }}{% endblock %}
+{% block description %}지난 날짜의 시황 스냅샷을 모아봅니다.{% endblock %}
+
+{% block content %}
+  <section class="hero">
+    <h1>시황 아카이브</h1>
+    <p class="lede">과거 시황을 날짜별로 다시 볼 수 있습니다.</p>
+  </section>
+
+  <section class="card">
+    <ul class="archive-list">
+      {% for it in items %}
+        <li><a href="/archive/{{ it.date }}">{{ it.label }}</a></li>
+      {% else %}
+        <li class="muted">아카이브가 비어 있습니다.</li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endblock %}

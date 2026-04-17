@@ -1,0 +1,30 @@
+{
+  "ticker": "SBLK",
+  "name": "Star Bulk Carriers",
+  "theme": "조선/해운",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "올해 190만 주 자사주 매입 진행 및 노후 선박 2척 4,660만 달러에 매각 완료 (GlobeNewswire)",
+      "date": "2026-04-12",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "2026년 초 건화물선 시장의 이례적인 운임 강세 및 낮은 신조선 발주 잔량에 따른 수혜 기대 (Market Chameleon)",
+      "date": "2026-04-12",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "거시경제 리스크",
+      "description": "글로벌 경기 침체 발생 시 건화물선 물동량 및 수요 감소 우려",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "건화물선 운임 시장의 이례적인 강세 속에서 대규모 자사주 매입과 선박 매각을 통한 적극적인 자본 재배치를 진행 중입니다. 기관 및 애널리스트들의 매수 의견이 지배적입니다.",
+  "momentum": "bullish",
+  "analyst_view": "투자의견 Strong Buy, 평균 목표주가 $28.51 ~ $34.65",
+  "score_hint": 88
+}

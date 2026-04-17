@@ -163,4 +163,8 @@ def generate_json(
         end = max(text.rfind("]"), text.rfind("}")) + 1
         if start != -1 and end > start:
             text = text[start:end]
-    return json.loads(text)
+    result = json.loads(text)
+    # Gemini가 dict를 [dict]로 감싸서 반환하는 경우 자동 unwrap
+    if isinstance(result, list) and len(result) == 1 and isinstance(result[0], dict):
+        result = result[0]
+    return result

@@ -1,0 +1,24 @@
+{
+  "ticker": "MYRG",
+  "name": "MYR Group",
+  "theme": "중동 재건/플랜트 건설",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "28억 달러 규모의 역대 최대 수주잔고 및 미국 대형 송배전(T&D)망 투자 수혜 기대 (출처: TipRanks)",
+      "date": "2026-04-08",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "운영 리스크",
+      "description": "기상 악화, 인허가 지연, 공급망 병목 등으로 인한 단기 프로젝트 마진 하락 우려",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "미국 내 노후 전력망 교체와 대규모 송배전 프로젝트 트렌드의 수혜를 입고 있으나 날씨와 공급망 이슈가 단기 실적 변수로 작용할 수 있음.",
+  "momentum": "bullish",
+  "analyst_view": "Buy / Strong Buy (목표가 $301.33)",
+  "score_hint": 70
+}

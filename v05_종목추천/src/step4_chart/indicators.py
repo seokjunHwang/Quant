@@ -93,9 +93,27 @@ def analyze_chart(df: pd.DataFrame) -> dict:
     # MACD
     macd_df = calc_macd(close)
     macd_cross = "none"
-    if len(macd_df) >= 2:
-        prev_hist = macd_df["macd_hist"].iloc[-2]
-        curr_hist = macd_df["macd_hist"].iloc[-1]
+    macd_hist_trend = "flat"
+    if len(macd_df) >= 3:
+        hist = macd_df["macd_hist"]
+        prev2, prev1, curr = float(hist.iloc[-3]), float(hist.iloc[-2]), float(hist.iloc[-1])
+        if prev1 < 0 and curr >= 0:
+            macd_cross = "golden"
+        elif prev1 >= 0 and curr < 0:
+            macd_cross = "dead"
+        elif prev1 < 0 and curr < 0 and curr > prev1:
+            macd_cross = "approaching_golden"
+        elif prev1 > 0 and curr > 0 and curr < prev1:
+            macd_cross = "approaching_dead"
+
+        # 히스토그램 3일 추세
+        if curr > prev1 > prev2:
+            macd_hist_trend = "rising"
+        elif curr < prev1 < prev2:
+            macd_hist_trend = "falling"
+    elif len(macd_df) >= 2:
+        prev_hist = float(macd_df["macd_hist"].iloc[-2])
+        curr_hist = float(macd_df["macd_hist"].iloc[-1])
         if prev_hist < 0 and curr_hist >= 0:
             macd_cross = "golden"
         elif prev_hist >= 0 and curr_hist < 0:
@@ -131,6 +149,7 @@ def analyze_chart(df: pd.DataFrame) -> dict:
         "rsi_signal": rsi_signal,
         "bb_pct": bb_pct,
         "macd_cross": macd_cross,
+        "macd_hist_trend": macd_hist_trend,
         "volume_ratio": vol_ratio,
         "trend": trend,
         "price_change_5d": price_change_5d,

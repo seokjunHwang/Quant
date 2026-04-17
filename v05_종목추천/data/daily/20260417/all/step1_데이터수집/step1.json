@@ -1,0 +1,414 @@
+{
+  "macro": {
+    "vix": {
+      "price": 17.94,
+      "prev_close": 18.17,
+      "change_pct": -1.27
+    },
+    "sp500": {
+      "price": 7041.2798,
+      "prev_close": 7022.95,
+      "change_pct": 0.26
+    },
+    "nasdaq": {
+      "price": 24102.7031,
+      "prev_close": 24016.018,
+      "change_pct": 0.36
+    },
+    "us10y_yield": {
+      "price": 4.309,
+      "prev_close": 4.282,
+      "change_pct": 0.63
+    },
+    "us2y_yield": {
+      "price": 3.61,
+      "prev_close": 3.612,
+      "change_pct": -0.06
+    },
+    "dollar_index": {
+      "price": 98.271,
+      "prev_close": 97.93,
+      "change_pct": 0.35
+    },
+    "gold": {
+      "price": 4804.2998,
+      "prev_close": 4847.7002,
+      "change_pct": -0.9
+    },
+    "oil_wti": {
+      "price": 90.12,
+      "prev_close": 91.73,
+      "change_pct": -1.76
+    },
+    "bitcoin": {
+      "price": 74926.5234,
+      "prev_close": 74905.7422,
+      "change_pct": 0.03
+    },
+    "kospi": {
+      "price": 6202.7402,
+      "prev_close": 6207.21,
+      "change_pct": -0.07
+    },
+    "kosdaq": {
+      "price": 1166.98,
+      "prev_close": 1161.7,
+      "change_pct": 0.45
+    },
+    "usdkrw": {
+      "price": 1479.28,
+      "prev_close": 1478.91,
+      "change_pct": 0.03
+    },
+    "vix_zone": "평시"
+  },
+  "news": {
+    "kr": {
+      "market": "kr",
+      "date": "2026년 04월 17일",
+      "macro_environment": {
+        "summary": "뉴욕증시의 사상 최고치 경신에도 불구하고, 국내 증시는 단기 급등에 따른 차익실현 매물 출회와 지정학적 리스크 완화 기대감의 선반영 인식으로 인해 약보합세를 보이고 있습니다.",
+        "key_indicators": [
+          {
+            "name": "KOSPI",
+            "value": "6,204.66",
+            "trend": "하락",
+            "impact": "차익실현 매물 출회로 상승폭 반납"
+          },
+          {
+            "name": "원/달러 환율",
+            "value": "1,481.4원",
+            "trend": "상승",
+            "impact": "환율 상승으로 인한 외국인 매도세 압력"
+          },
+          {
+            "name": "국제유가(WTI)",
+            "value": "91.89달러",
+            "trend": "상승",
+            "impact": "에너지 가격 상승에 따른 인플레이션 우려 자극"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "반도체/AI 인프라",
+          "reason": "삼성전자 1분기 어닝 서프라이즈 및 TSMC 사상 최대 순이익 발표로 AI 메가 트렌드 입증 (중소기업신문)",
+          "trading_type": "스윙",
+          "sectors": [
+            "반도체",
+            "데이터센터"
+          ]
+        },
+        {
+          "theme": "방산",
+          "reason": "지정학적 리스크 완화 기대감 속에서도 하반기 수출 비중 확대 및 실적 개선 기대감 지속 (데일리인베스트)",
+          "trading_type": "둘다",
+          "sectors": [
+            "방위산업"
+          ]
+        },
+        {
+          "theme": "엔터테인먼트",
+          "reason": "하이브 목표주가 하향 조정 및 실적 둔화 우려와 BTS 월드투어 기대감이 공존 (연합뉴스)",
+          "trading_type": "단타",
+          "sectors": [
+            "엔터테인먼트"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "반도체",
+          "direction": "bullish",
+          "key_news": "삼성전자 및 TSMC의 견조한 실적 확인으로 AI 수요 강세 지속 (중소기업신문)",
+          "reason": "글로벌 AI 투자 붐이 전쟁 리스크를 상쇄하며 반도체 업황 개선을 견인"
+        },
+        {
+          "sector": "엔터테인먼트",
+          "direction": "bearish",
+          "key_news": "메리츠증권, 하이브 목표주가 45만원에서 39만원으로 하향 (연합뉴스)",
+          "reason": "아티스트 정산율 상승 및 글로벌 프로모션 비용 증가로 인한 수익성 둔화 우려"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "지정학적 리스크 불확실성",
+          "severity": "medium",
+          "description": "트럼프 대통령의 휴전/종전 발언이 있으나 이란 및 이스라엘 측의 공식 확인이 부족하여 시장의 경계심 지속 (네이버 프리미엄콘텐츠)"
+        },
+        {
+          "factor": "환율 상승",
+          "severity": "high",
+          "description": "원/달러 환율이 1,480원대를 상회하며 외국인 투자자의 매도세를 유발하는 요인으로 작용 (연합뉴스)"
+        },
+        {
+          "factor": "차익실현 매물",
+          "severity": "medium",
+          "description": "최근 지수 급등에 따른 피로감으로 인해 개인 매수세에도 불구하고 외국인과 기관의 매도 물량이 출회 중 (블록미디어)"
+        }
+      ]
+    },
+    "us": {
+      "market": "us",
+      "date": "2026년 04월 17일",
+      "macro_environment": {
+        "summary": "미국-이란 간 평화 협상 진전 기대감과 견조한 기업 실적에 힘입어 S&P 500과 나스닥이 사상 최고치를 경신하며 강세 흐름을 이어가고 있습니다.",
+        "key_indicators": [
+          {
+            "name": "S&P 500",
+            "value": "7,041.28",
+            "trend": "상승",
+            "impact": "시장 전반의 투자 심리 개선 및 신고가 경신"
+          },
+          {
+            "name": "10년물 국채 금리",
+            "value": "4.31%",
+            "trend": "상승",
+            "impact": "고용 지표 호조에 따른 금리 하락 기대감 후퇴"
+          },
+          {
+            "name": "브렌트유",
+            "value": "99.39달러",
+            "trend": "상승",
+            "impact": "지정학적 리스크 잔존으로 인한 에너지 가격 변동성 확대"
+          },
+          {
+            "name": "CBOE 변동성 지수(VIX)",
+            "value": "17.94",
+            "trend": "하락",
+            "impact": "시장 공포감 완화 및 안정세 진입"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "AI 인프라 및 반도체",
+          "reason": "TSMC의 실적 호조와 AI 서버 수요 지속 확인으로 기술주 전반에 매수세 유입 (Investing.com)",
+          "trading_type": "둘다",
+          "sectors": [
+            "반도체",
+            "기술"
+          ]
+        },
+        {
+          "theme": "지정학적 평화 기대주",
+          "reason": "미국-이란 평화 협상 및 이스라엘-레바논 휴전 합의로 인한 리스크 프리미엄 축소 (The Edge Singapore)",
+          "trading_type": "스윙",
+          "sectors": [
+            "항공",
+            "여행",
+            "에너지"
+          ]
+        },
+        {
+          "theme": "금융 섹터",
+          "reason": "주요 은행들의 1분기 실적 호조 및 금리 환경에 따른 수익성 개선 기대 (Sharecafe)",
+          "trading_type": "스윙",
+          "sectors": [
+            "은행",
+            "금융서비스"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "기술/반도체",
+          "direction": "bullish",
+          "key_news": "TSMC의 실적 서프라이즈가 AI 반도체 수요의 견고함을 증명함 (Investing.com)",
+          "reason": "AI 인프라 투자 지속에 따른 낙관론 확산"
+        },
+        {
+          "sector": "에너지",
+          "direction": "neutral",
+          "key_news": "지정학적 긴장 완화에도 불구하고 공급망 우려로 유가 99달러대 유지 (CommBank)",
+          "reason": "평화 협상 기대와 실질적인 공급 차질 우려가 공존"
+        },
+        {
+          "sector": "소비재",
+          "direction": "bullish",
+          "key_news": "펩시코(PepsiCo)가 예상치를 상회하는 실적을 발표하며 가이던스 유지 (Trading Economics)",
+          "reason": "가격 인상에도 불구하고 견조한 수요 확인"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "지정학적 리스크(이란-미국)",
+          "severity": "medium",
+          "description": "평화 협상 기대감은 높으나, 실제 합의 도달까지의 불확실성과 이란의 핵 야망 포기 여부 등 변수 상존 (LA Times)"
+        },
+        {
+          "factor": "연준 정책 불확실성",
+          "severity": "medium",
+          "description": "인플레이션 압력과 경제 지표 혼조세로 인해 연준의 금리 동결 기조가 장기화될 가능성 (Federal Reserve)"
+        },
+        {
+          "factor": "기업 실적 가이던스",
+          "severity": "low",
+          "description": "넷플릭스 등 일부 기업의 향후 가이던스에 대한 시장의 경계심이 존재하며, 실적 차별화 장세가 나타남 (Trading Economics)"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "premarket_movers": [
+      {
+        "ticker": "MYSE",
+        "name": "Myseum, Inc.",
+        "change_pct": 273.61,
+        "reason": "급등세 지속 및 높은 거래량"
+      },
+      {
+        "ticker": "WSHP",
+        "name": "WeShop Holdings Limited",
+        "change_pct": 213.14,
+        "reason": "시장 변동성 및 투기적 매수세"
+      },
+      {
+        "ticker": "QVCGA",
+        "name": "QVC Group Inc.",
+        "change_pct": -62.66,
+        "reason": "급락세 및 매도 물량 출회"
+      }
+    ],
+    "earnings_today": [
+      {
+        "ticker": "CNS",
+        "name": "Cohen & Steers",
+        "expectation": "N/A",
+        "impact": "실적 발표 후 컨퍼런스 콜 내용에 따른 변동성 예상"
+      },
+      {
+        "ticker": "INDB",
+        "name": "Independent Bank Corp.",
+        "expectation": "N/A",
+        "impact": "1분기 실적 발표 및 경영진의 향후 전망에 따른 반응 예상"
+      }
+    ],
+    "economic_events": [
+      {
+        "time_et": "10:30 AM",
+        "event": "FOMC 위원 Daly 연설",
+        "forecast": "N/A",
+        "importance": "medium"
+      },
+      {
+        "time_et": "11:15 AM",
+        "event": "FOMC 위원 Barkin 연설",
+        "forecast": "N/A",
+        "importance": "medium"
+      },
+      {
+        "time_et": "12:00 PM",
+        "event": "Baker Hughes 미국 원유 시추기 가동 건수",
+        "forecast": "N/A",
+        "importance": "low"
+      },
+      {
+        "time_et": "1:00 PM",
+        "event": "Fed 이사 Waller 연설",
+        "forecast": "N/A",
+        "importance": "medium"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 4월 28-29일",
+      "cut_probability": "1.6% (동결 확률 98.4%)"
+    }
+  },
+  "dart": {
+    "today_disclosures": [
+      {
+        "corp_name": "고려아연",
+        "report_nm": "소송등의판결ㆍ결정              ",
+        "rcept_dt": "20260417",
+        "corp_code": "00102858",
+        "rcept_no": "20260417800134"
+      },
+      {
+        "corp_name": "키움증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260417",
+        "corp_code": "00296290",
+        "rcept_no": "20260417000123"
+      },
+      {
+        "corp_name": "키움증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260417",
+        "corp_code": "00296290",
+        "rcept_no": "20260417000111"
+      },
+      {
+        "corp_name": "금호건설",
+        "report_nm": "자기주식처분결과보고서",
+        "rcept_dt": "20260417",
+        "corp_code": "00106313",
+        "rcept_no": "20260417000107"
+      },
+      {
+        "corp_name": "삼성카드",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260417",
+        "corp_code": "00126292",
+        "rcept_no": "20260417800119"
+      },
+      {
+        "corp_name": "DL",
+        "report_nm": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260417",
+        "corp_code": "00109693",
+        "rcept_no": "20260417800101"
+      },
+      {
+        "corp_name": "KB스타리츠",
+        "report_nm": "유상증자또는주식관련사채등의청약결과(자율공시)              ",
+        "rcept_dt": "20260417",
+        "corp_code": "01622720",
+        "rcept_no": "20260417800071"
+      },
+      {
+        "corp_name": "DL이앤씨",
+        "report_nm": "단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260417",
+        "corp_code": "01524093",
+        "rcept_no": "20260417800065"
+      },
+      {
+        "corp_name": "케이카",
+        "report_nm": "결산실적공시예고(안내공시)              ",
+        "rcept_dt": "20260417",
+        "corp_code": "01323032",
+        "rcept_no": "20260417800072"
+      },
+      {
+        "corp_name": "남양유업",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260417",
+        "corp_code": "00107598",
+        "rcept_no": "20260417000056"
+      },
+      {
+        "corp_name": "유진증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260417",
+        "corp_code": "00131054",
+        "rcept_no": "20260417000025"
+      },
+      {
+        "corp_name": "유안타증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260417",
+        "corp_code": "00117601",
+        "rcept_no": "20260417000017"
+      },
+      {
+        "corp_name": "한화엔진",
+        "report_nm": "결산실적공시예고(안내공시)              ",
+        "rcept_dt": "20260417",
+        "corp_code": "00361008",
+        "rcept_no": "20260417800056"
+      }
+    ]
+  }
+}

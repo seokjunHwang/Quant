@@ -1,0 +1,34 @@
+{
+  "ticker": "ALK",
+  "name": "알래스카항공",
+  "theme": "지정학적 평화 기대 (항공 / 여행 / 조선·해운)",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "하와이안 항공 통합을 통한 네트워크 확장 (140개 이상 목적지 확보)",
+      "date": "2026-04-17",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실적 부진",
+      "description": "연료비 상승 및 운영 비용 증가로 1분기 EPS 대규모 적자 전망 (-$1.61 수준)",
+      "severity": "high"
+    },
+    {
+      "type": "수급 악화",
+      "description": "최근 3개월간 약 320만 달러 규모의 내부자 매도 발생으로 투자 심리 위축",
+      "severity": "medium"
+    },
+    {
+      "type": "투자의견 하향",
+      "description": "Zacks 등 일부 기관에서 수요 둔화 우려를 반영해 '강력 매도(Strong Sell)'로 등급 하향",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "1분기 실적 부진(적자 전환) 우려와 함께 최근 내부자 매도가 이어져 단기 투자 심리가 위축된 상태입니다. 중장기적으로는 하와이안 항공 합병 시너지가 향후 주가 향방의 주요 관건입니다.",
+  "momentum": "bearish",
+  "analyst_view": "비중확대/매수 (Moderate Buy) 우세이나 단기 목표가 하향 추세, 평균 목표주가 $62.83 ~ $63.67",
+  "score_hint": 40
+}

@@ -1,0 +1,30 @@
+{
+  "ticker": "CACI",
+  "name": "CACI인터내셔널",
+  "theme": "방위산업 / 항공우주 / 드론",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "미 특수작전사령부(USSOCOM)와 2억 3,100만 달러 규모 전술 위성 통신 지원 계약 체결",
+      "date": "2026-04-16",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "국방물자국(DLA)과 3억 600만 달러 규모 소프트웨어 개발 계약 수주",
+      "date": "2026-04-15",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수급",
+      "description": "일부 대형 기관의 포트폴리오 조정에 따른 단기적 주가 변동성 발생",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "미 국방부 및 특수작전사령부 등과 총 5억 달러가 넘는 대규모 IT 및 통신 지원 계약을 연달아 수주. 기관 투자자 비중이 95%를 상회하며 안정적 성장이 기대됨.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표가 $637 ~ $716, 매수 우세 (Wells Fargo $725)",
+  "score_hint": 88
+}

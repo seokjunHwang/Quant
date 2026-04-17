@@ -1,0 +1,249 @@
+{
+  "analysis_date": "2026-04-08",
+  "market_summary": "미-이란 2주간 휴전 합의로 지정학적 프리미엄이 급격히 해소되며 KOSPI +6.87%, KOSDAQ +5.12%의 강한 안도 랠리가 나타났습니다. VIX -18.9% 급락, 원/달러 -1.6% 하락(원화 강세)으로 글로벌 위험선호 심리가 전면 복귀하는 모습입니다. 다만 2주짜리 단기 휴전이라는 한시적 성격과 고금리 부담이 잔존하므로, 모멘텀 추종보다 테마 선별적 접근이 필요합니다.",
+  "themes": [
+    {
+      "theme_name": "중동 재건/플랜트 건설",
+      "trading_type": "스윙",
+      "strength": "강",
+      "reason": "미-이란 휴전 합의 및 호르무즈 해협 재개방으로 중동 지역 인프라 재건 수요 기대감이 즉각 반영. 대우건설·GS건설 등 관련주가 장중 급등하며 수급 집중 확인. 중동 수주 잔고가 높은 EPC/플랜트 기업에 스윙 수익 기회 유효.",
+      "duration": "1주일+",
+      "sectors_kr": [
+        "건설",
+        "건설기계",
+        "플랜트/EPC"
+      ],
+      "sectors_us": [
+        "엔지니어링/건설",
+        "중장비",
+        "인프라 시공"
+      ],
+      "tickers_hint_kr": [
+        "현대건설(000720)",
+        "대우건설(047040)",
+        "세진중공업(075580)"
+      ],
+      "tickers_hint_us": [
+        "Fluor Corporation(FLR)",
+        "Caterpillar(CAT)",
+        "KBR Inc(KBR)",
+        "Primoris Services(PRIM)",
+        "MYR Group(MYRG)",
+        "Arcosa(ACA)",
+        "Construction Partners(ROAD)"
+      ],
+      "risk": "2주 한시적 휴전 — 협상 결렬 시 테마 급냉각 가능. 실제 수주 계약까지 체결되기까지 기대감 선반영 부담 존재."
+    },
+    {
+      "theme_name": "반도체/HBM·AI메모리",
+      "trading_type": "둘다",
+      "strength": "강",
+      "reason": "삼성전자 1분기 영업이익 57.2조 원 역대 최대 실적 + SK하이닉스 목표주가 상향이 동시에 부각. AI 서버 HBM 수요 급증이 실적으로 가시화되어 단타 모멘텀과 스윙 펀더멘털이 동시에 작동하는 가장 강한 테마.",
+      "duration": "1주일+",
+      "sectors_kr": [
+        "반도체 대형",
+        "반도체 장비",
+        "패키징"
+      ],
+      "sectors_us": [
+        "메모리 반도체",
+        "AI 칩설계",
+        "반도체 장비"
+      ],
+      "tickers_hint_kr": [
+        "삼성전자(005930)",
+        "한미반도체(042700)",
+        "이오테크닉스(039030)"
+      ],
+      "tickers_hint_us": [
+        "NVIDIA(NVDA)",
+        "AMD(AMD)",
+        "Marvell Technology(MRVL)",
+        "Rambus(RMBS)",
+        "Credo Technology(CRDO)",
+        "Indie Semiconductor(INDI)",
+        "Axcelis Technologies(ACLS)"
+      ],
+      "risk": "이미 상당 부분 선반영된 실적 기대치 — 가이던스 미달 시 차익실현 출회 가능. 미중 반도체 규제 재점화 리스크 상존."
+    },
+    {
+      "theme_name": "항공·운송 (유가 하락 수혜)",
+      "trading_type": "스윙",
+      "strength": "중",
+      "reason": "호르무즈 해협 재개방에 따른 원유 공급 프리미엄 해소 기대로 항공·물류 업체의 연료비 부담 완화 기대감 형성. 원/달러 환율 급락(강원화)이 항공사 외화부채 부담도 동시에 완화. 실질적 유가 하락 확인 시 스윙 수익 구간 진입.",
+      "duration": "1주일+",
+      "sectors_kr": [
+        "항공",
+        "저비용항공사(LCC)",
+        "해운"
+      ],
+      "sectors_us": [
+        "대형항공사",
+        "LCC",
+        "물류/운송"
+      ],
+      "tickers_hint_kr": [
+        "대한항공(003490)",
+        "제주항공(089590)",
+        "에어부산(298690)"
+      ],
+      "tickers_hint_us": [
+        "Delta Air Lines(DAL)",
+        "United Airlines(UAL)",
+        "Frontier Group(ULCC)",
+        "Sun Country Airlines(SNCY)",
+        "Allegiant Travel(ALGT)",
+        "Air Lease(AL)",
+        "Echo Global Logistics(ECHO)"
+      ],
+      "risk": "현재 매크로 데이터상 WTI는 +0.2%로 아직 실질 급락 미확인 — 유가 반등 시 테마 무력화. 2주 휴전 이후 재점화 시 연료비 재상승."
+    },
+    {
+      "theme_name": "AI 인프라·데이터센터·소프트웨어",
+      "trading_type": "스윙",
+      "strength": "중",
+      "reason": "지정학 불확실성 완화로 기술주 전반의 리스크 프리미엄이 축소되며 AI 인프라 투자 재가속 기대 복귀. 금리 하락세(US10Y 안정화)와 맞물려 성장주 밸류에이션 부담 완화. 국내도 원화 강세가 IT 수입 비용 절감 효과 제공.",
+      "duration": "1주일+",
+      "sectors_kr": [
+        "AI 플랫폼",
+        "클라우드/SaaS",
+        "데이터센터 인프라"
+      ],
+      "sectors_us": [
+        "클라우드 하이퍼스케일러",
+        "데이터센터 인프라",
+        "AI 소프트웨어"
+      ],
+      "tickers_hint_kr": [
+        "NAVER(035420)",
+        "가온칩스(399720)",
+        "코난테크놀로지(402030)"
+      ],
+      "tickers_hint_us": [
+        "Microsoft(MSFT)",
+        "Amazon(AMZN)",
+        "Vertiv Holdings(VRT)",
+        "Super Micro Computer(SMCI)",
+        "Celestica(CLS)",
+        "Arista Networks(ANET)",
+        "Iron Mountain(IRM)"
+      ],
+      "risk": "연준 금리 인하 기대 후퇴 시 성장주 멀티플 압박 재개. 단기 급등 후 차익실현 매물 부담."
+    },
+    {
+      "theme_name": "우주항공·방위산업",
+      "trading_type": "스윙",
+      "strength": "중",
+      "reason": "일론 머스크 스페이스X 상장 기대감이 국내 위성·발사체 관련주에 순환 수급 유발. 휴전에 따른 방위산업 단기 냉각 우려도 있으나, 구조적 방위비 증가 기조는 유효하여 스윙 관점 매력 유지.",
+      "duration": "1주일+",
+      "sectors_kr": [
+        "우주항공",
+        "방위산업",
+        "드론"
+      ],
+      "sectors_us": [
+        "우주 탐사/발사",
+        "방위 중대형",
+        "위성 통신"
+      ],
+      "tickers_hint_kr": [
+        "한화에어로스페이스(012450)",
+        "한국항공우주(047810)",
+        "쎄트렉아이(099320)"
+      ],
+      "tickers_hint_us": [
+        "Northrop Grumman(NOC)",
+        "L3Harris Technologies(LHX)",
+        "Rocket Lab USA(RKLB)",
+        "Intuitive Machines(LUNR)",
+        "Redwire(RDW)",
+        "Planet Labs(PL)",
+        "AST SpaceMobile(ASTS)"
+      ],
+      "risk": "방위산업은 지정학 리스크 완화 시 단기 수급 이탈 가능. SpaceX 상장 기대감은 루머 단계로 가시화 지연 리스크."
+    },
+    {
+      "theme_name": "금융·증권 (위험선호 복귀)",
+      "trading_type": "단타",
+      "strength": "중",
+      "reason": "KOSPI 6.87% 급등, VIX -18.9%의 위험선호 환경에서 거래대금 급증 → 증권사 위탁수수료 수익 직접 수혜. 금리 하락 기대(국채 수익률 안정화)도 금융주 밸류에이션 개선에 긍정적.",
+      "duration": "당일~2일",
+      "sectors_kr": [
+        "증권",
+        "은행지주",
+        "보험"
+      ],
+      "sectors_us": [
+        "투자은행",
+        "핀테크",
+        "소비자금융"
+      ],
+      "tickers_hint_kr": [
+        "KB금융(105560)",
+        "키움증권(039490)",
+        "미래에셋증권(006800)"
+      ],
+      "tickers_hint_us": [
+        "JPMorgan Chase(JPM)",
+        "Goldman Sachs(GS)",
+        "American Express(AXP)",
+        "SoFi Technologies(SOFI)",
+        "LendingClub(LC)",
+        "Block(SQ)",
+        "Affirm Holdings(AFRM)"
+      ],
+      "risk": "랠리 하루짜리 단기 이벤트로 연속성 불확실. 고물가·고금리 구조 지속 시 대출 자산 건전성 우려 재부각."
+    },
+    {
+      "theme_name": "화학·소재 (유가 하락·원가 수혜)",
+      "trading_type": "스윙",
+      "strength": "약",
+      "reason": "유가·에너지 가격 하락 기대 시 나프타 등 원재료 원가 절감으로 석화·화학 업체 마진 회복 기대. 원화 강세(수입 원재료 비용 절감)가 추가 보조. 다만 실질 유가 하락 미확인 상태로 강도 '약' 부여.",
+      "duration": "1주일+",
+      "sectors_kr": [
+        "석유화학",
+        "기능성 소재",
+        "2차전지 소재"
+      ],
+      "sectors_us": [
+        "기초화학",
+        "특수화학",
+        "패키징 소재"
+      ],
+      "tickers_hint_kr": [
+        "LG화학(051910)",
+        "롯데케미칼(011170)",
+        "효성첨단소재(298050)"
+      ],
+      "tickers_hint_us": [
+        "Dow Inc(DOW)",
+        "LyondellBasell(LYB)",
+        "Eastman Chemical(EMN)",
+        "Celanese(CE)",
+        "Avery Dennison(AVY)",
+        "Sealed Air(SEE)",
+        "Berry Global(BERY)"
+      ],
+      "risk": "유가가 반등할 경우 원가 수혜 논리 붕괴. 현재 WTI 선물 +0.2%로 실제 하락 아직 미확인 — 테마 발동 조건 미충족 가능성."
+    }
+  ],
+  "avoid_sectors": [
+    {
+      "sector": "에너지/정유",
+      "reason": "호르무즈 해협 재개방 및 지정학 프리미엄 해소로 유가 하락 압력 — 정유·E&P 기업 수익성 직격. 미국장에서도 에너지 섹터 bearish 방향성 확인."
+    },
+    {
+      "sector": "금·안전자산 관련주",
+      "reason": "위험선호 복귀로 금 수요 감소 예상. 금 현물은 +0.3%로 소폭 상승이나 리스크온 환경에서 상승 모멘텀 제한적."
+    },
+    {
+      "sector": "방산주 (단기)",
+      "reason": "지정학 긴장 완화 시 방산주 단기 수급 이탈 패턴 반복 우려. 구조적 장기 테마는 유효하나 단기 차익실현 구간 가능성."
+    },
+    {
+      "sector": "2차전지/전기차",
+      "reason": "오늘 시장에서 별도 트리거 부재. 낙수 효과로 일부 반등은 있으나 독립적 모멘텀 없어 테마 추종 매수는 비효율적."
+    }
+  ],
+  "overall_strategy": "오늘은 '중동 휴전 이벤트 드리븐 + 삼성전자 실적 서프라이즈' 두 축이 동시 작동하는 날 — 건설/HBM 스윙 비중을 핵심으로 유지하되, 2주 한시 휴전이라는 이벤트 소멸 리스크를 감안해 분할 진입 및 10~15% 손절 라인 사전 설정 필수."
+}

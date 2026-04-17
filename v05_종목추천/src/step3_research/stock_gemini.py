@@ -35,19 +35,27 @@ def research_stock(ticker: str, name: str, theme: str, market: str) -> dict:
             "score_hint": 0~100,
         }
     """
-    today = now_kst().strftime("%Y년 %m월 %d일")
+    now = now_kst()
+    today = now.strftime("%Y년 %m월 %d일")
+    current_time = now.strftime("%H시 %M분")
     market_name = "한국" if market == "kr" else "미국"
     exchange = "KOSPI/KOSDAQ" if market == "kr" else "NYSE/NASDAQ"
 
-    prompt = f"""오늘({today}) {market_name} {exchange} 종목 '{name}({ticker})' 에 대해 최신 뉴스를 검색하고 JSON으로 반환해줘.
+    prompt = f"""현재 시각: {today} {current_time} (한국시간 KST)
+{market_name} {exchange} 종목 '{name}({ticker})'에 대해 다음을 각각 검색해줘:
+1. "{name} {ticker} 뉴스 {today}" — 최근 뉴스/공시
+2. "{name} {ticker} 실적 애널리스트 목표주가" — 실적 전망
+3. "{name} {ticker} 수급 외국인 기관" — 수급 동향
+
 이 종목은 '{theme}' 테마와 관련이 있다고 알려져 있음.
 
+검색 결과를 아래 JSON으로 정리:
 {{
   "ticker": "{ticker}",
   "name": "{name}",
   "theme": "{theme}",
   "catalysts": [
-    {{"type": "호재/악재/중립", "content": "구체적 내용", "date": "날짜", "impact": "high/medium/low"}}
+    {{"type": "호재/악재/중립", "content": "구체적 내용 (출처 포함)", "date": "날짜", "impact": "high/medium/low"}}
   ],
   "risks": [
     {{"type": "리스크 유형", "description": "설명", "severity": "high/medium/low"}}
@@ -59,7 +67,8 @@ def research_stock(ticker: str, name: str, theme: str, market: str) -> dict:
 }}
 
 규칙:
-- catalysts는 실제 검색된 뉴스/공시 기반
+- catalysts는 실제 검색된 뉴스/공시 기반, 날짜 명시
+- 오늘 또는 최근 1주일 이내 정보 우선
 - score_hint: 단타/스윙 관점에서 매매 매력도 (100이 최고)
 - 정보 없으면 catalysts/risks 빈 배열, momentum은 neutral"""
 

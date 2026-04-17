@@ -1,0 +1,30 @@
+{
+  "ticker": "RMBS",
+  "name": "Rambus",
+  "theme": "반도체/HBM·AI메모리",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "차세대 HBM4E 메모리 컨트롤러 IP 출시 (Investing.com)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "중립",
+      "content": "2026년 1분기 실적 발표 예정 (BusinessWire)",
+      "date": "2026-04-27",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "경영진 리스크",
+      "description": "CFO 사임 및 CEO의 최근 자사주 매도(약 5,426주)로 인한 단기 투심 악화",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "최근 차세대 HBM4E 메모리 컨트롤러를 선보이며 AI 인프라 기술력을 입증했으나, CFO 교체 및 경영진의 내부자 매도로 단기적인 주가 변동성이 발생하고 있습니다.",
+  "momentum": "neutral",
+  "analyst_view": "Moderate Buy ~ Strong Buy / 평균 목표주가 $105.71 ~ $108.17",
+  "score_hint": 70
+}

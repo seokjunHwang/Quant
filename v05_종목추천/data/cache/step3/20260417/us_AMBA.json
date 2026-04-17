@@ -1,0 +1,35 @@
+{
+  "ticker": "AMBA",
+  "name": "암바렐라",
+  "theme": "AI 인프라 / 반도체",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "2026 회계연도 4분기 실적 시장 예상치 상회 및 엣지 AI 매출 비중 80% 달성 (investing.com)",
+      "date": "2026-03-26",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "Northland Securities, AI 로직 칩 수요 증가를 이유로 목표주가 101달러로 상향 (insidermonkey.com)",
+      "date": "2026-03-30",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "지정학적 리스크",
+      "description": "아시아 공급망 의존도 및 지정학적 긴장으로 인한 반도체 산업 불확실성",
+      "severity": "medium"
+    },
+    {
+      "type": "수급 리스크",
+      "description": "일부 내부자 매도세 관찰",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "4분기 호실적을 기록하며 엣지 AI 칩 수요 증가의 수혜를 입고 있음. 차세대 4나노 CV7 칩에 대한 기대감과 함께 다수의 기관이 매수 의견 유지.",
+  "momentum": "bullish",
+  "analyst_view": "매수/비중확대, 평균 목표주가 $86.29 ~ $96.00 (최고 $115.00)",
+  "score_hint": 80
+}

@@ -1,0 +1,876 @@
+{
+  "events_raw": {
+    "events": [
+      {
+        "title": "중동 전쟁 종전 협상 및 트럼프 대통령 대국민 연설 예고",
+        "summary": "미국과 이스라엘의 이란 공습으로 시작된 전쟁이 1개월을 넘긴 가운데, 트럼프 대통령이 '2~3주 내 철수'를 언급하며 종전 가능성을 시사함. 한국시간 2일 오전 10시(현지시간 1일 저녁 9시) 트럼프 대통령의 대국민 연설에서 구체적인 종전 일정과 방향이 발표될 예정임.",
+        "severity": "critical",
+        "category": "war",
+        "status": "developing",
+        "time_ago": "오늘 20:26",
+        "source": "연합뉴스TV",
+        "countries": [
+          "미국",
+          "이란",
+          "이스라엘"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "bearish",
+            "reason": "종전 기대감으로 인한 유가 급등세 진정 및 공급 불안 완화"
+          },
+          {
+            "sector": "방산",
+            "direction": "bearish",
+            "reason": "지정학적 리스크 완화에 따른 단기 차익 실현 매물 출회 가능성"
+          }
+        ]
+      },
+      {
+        "title": "미국, 호주에 31.6억 달러 규모 첨단 미사일 판매 승인",
+        "summary": "미국 정부가 호주에 450기의 AIM-260 JATM(장거리 공대공 미사일)을 포함한 31.6억 달러 규모의 무기 판매를 2026년 4월 1일 승인함. 록히드마틴이 주 계약자로 참여하며, 아시아-태평양 지역 내 방위 협력 강화가 목적임.",
+        "severity": "high",
+        "category": "trade",
+        "status": "happened",
+        "time_ago": "오늘",
+        "source": "National Today",
+        "countries": [
+          "미국",
+          "호주"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "방산",
+            "direction": "bullish",
+            "reason": "록히드마틴 등 주요 방산 기업의 대규모 수주 확정으로 인한 실적 개선 기대"
+          }
+        ]
+      },
+      {
+        "title": "유럽연합(EU) 집행위원회 클라우드 인프라 사이버 공격 발생",
+        "summary": "EU 집행위원회의 Europa.eu 포털이 사이버 공격을 받아 아마존 웹 서비스(AWS) 환경에서 350GB의 데이터가 유출됨. 해커 그룹 'ShinyHunters'가 배후를 자처했으며, 유럽 내 사이버 보안 규제 강화 압박이 커질 전망임.",
+        "severity": "high",
+        "category": "technology",
+        "status": "live",
+        "time_ago": "오늘",
+        "source": "Kaseya",
+        "countries": [
+          "유럽연합"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "사이버보안",
+            "direction": "bullish",
+            "reason": "공공 및 민간 부문의 보안 투자 확대 및 관련 솔루션 수요 증가"
+          }
+        ]
+      },
+      {
+        "title": "한국 산업부, 중동발 석유 공급 차질 대비 긴급 대체 수입원 확보",
+        "summary": "이란의 호르무즈 해협 봉쇄로 인한 원유·나프타 수급 불안이 지속되자, 한국 산업통상자원부가 11개국 상무관 및 15개국 코트라 관장을 소집해 긴급 대체 수입원 확보 전략을 논의함. 경제성보다 공급 안정성에 무게를 둔 물량 확보에 집중할 계획임.",
+        "severity": "high",
+        "category": "supply_chain",
+        "status": "live",
+        "time_ago": "오늘 15:00",
+        "source": "한겨레",
+        "countries": [
+          "한국",
+          "중동"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "석유화학",
+            "direction": "bearish",
+            "reason": "원자재 수급 불안 및 비용 상승으로 인한 마진 축소 우려"
+          }
+        ]
+      }
+    ]
+  },
+  "calendar_raw": {
+    "calendar": [
+      {
+        "date": "2026-04-01",
+        "d_day": "D-0",
+        "event": "중국 3월 차이신 제조업 PMI 발표",
+        "category": "economic",
+        "importance": "high",
+        "country": "중국",
+        "impact_preview": "중국 경기 회복세 확인을 통한 아시아 증시 투자심리 영향",
+        "watch_sectors": [
+          "철강",
+          "화학",
+          "기계"
+        ]
+      },
+      {
+        "date": "2026-04-09",
+        "d_day": "D-8",
+        "event": "한국 3월 수출입 동향 발표",
+        "category": "economic",
+        "importance": "high",
+        "country": "한국",
+        "impact_preview": "반도체 및 주요 수출 품목 실적에 따른 국내 증시 변동성 확대",
+        "watch_sectors": [
+          "반도체",
+          "자동차",
+          "조선"
+        ]
+      },
+      {
+        "date": "2026-04-09",
+        "d_day": "D-8",
+        "event": "중국 3월 소비자물가지수(CPI) 발표",
+        "category": "economic",
+        "importance": "high",
+        "country": "중국",
+        "impact_preview": "중국 내수 경기 및 디플레이션 우려 수준 점검",
+        "watch_sectors": [
+          "소비재",
+          "유통"
+        ]
+      },
+      {
+        "date": "2026-04-09",
+        "d_day": "D-8",
+        "event": "한국 옵션만기일",
+        "category": "market",
+        "importance": "high",
+        "country": "한국",
+        "impact_preview": "파생상품 포지션 청산에 따른 KOSPI 지수 변동성 증대",
+        "watch_sectors": [
+          "금융",
+          "대형주"
+        ]
+      },
+      {
+        "date": "2026-04-10",
+        "d_day": "D-9",
+        "event": "한국 KOSPI200 선물만기일",
+        "category": "market",
+        "importance": "high",
+        "country": "한국",
+        "impact_preview": "선물-현물 베이시스 변화에 따른 프로그램 매매 영향",
+        "watch_sectors": [
+          "대형주",
+          "증권"
+        ]
+      },
+      {
+        "date": "2026-04-16",
+        "d_day": "D-15",
+        "event": "한국은행 금융통화위원회 금리결정",
+        "category": "economic",
+        "importance": "high",
+        "country": "한국",
+        "impact_preview": "통화정책 방향성에 따른 채권 및 금융주 투자심리 결정",
+        "watch_sectors": [
+          "은행",
+          "보험",
+          "건설"
+        ]
+      },
+      {
+        "date": "2026-04-17",
+        "d_day": "D-16",
+        "event": "중국 1분기 GDP 및 주요 경제지표 발표",
+        "category": "economic",
+        "importance": "high",
+        "country": "중국",
+        "impact_preview": "중국 경제 성장 속도 확인을 통한 글로벌 경기 전망 수정",
+        "watch_sectors": [
+          "철강",
+          "화학",
+          "IT"
+        ]
+      },
+      {
+        "date": "2026-04-20",
+        "d_day": "D-19",
+        "event": "중국 인민은행(PBOC) LPR 금리 결정",
+        "category": "policy",
+        "importance": "high",
+        "country": "중국",
+        "impact_preview": "부동산 및 기업 대출 금리 조정을 통한 경기 부양 의지 확인",
+        "watch_sectors": [
+          "부동산",
+          "금융"
+        ]
+      },
+      {
+        "date": "2026-04-24",
+        "d_day": "D-23",
+        "event": "일본 3월 소비자물가지수(CPI) 발표",
+        "category": "economic",
+        "importance": "high",
+        "country": "일본",
+        "impact_preview": "일본은행(BOJ)의 향후 금리 인상 속도에 대한 힌트 제공",
+        "watch_sectors": [
+          "은행",
+          "수출주"
+        ]
+      },
+      {
+        "date": "2026-04-28",
+        "d_day": "D-27",
+        "event": "일본은행(BOJ) 금융정책결정회의",
+        "category": "economic",
+        "importance": "high",
+        "country": "일본",
+        "impact_preview": "통화정책 정상화 기조 유지 여부에 따른 엔화 및 증시 영향",
+        "watch_sectors": [
+          "은행",
+          "자동차",
+          "전자"
+        ]
+      }
+    ]
+  },
+  "impact": {
+    "events": [
+      {
+        "id": "ev_001",
+        "title": "중동 전쟁 종전 협상 및 트럼프 대통령 대국민 연설 예고",
+        "summary": "미국-이스라엘의 이란 공습으로 시작된 전쟁이 1개월을 넘긴 가운데, 트럼프 대통령이 '2~3주 내 철수'를 언급하며 종전 가능성을 시사. 한국시간 4/2 오전 10시 대국민 연설에서 구체적 종전 일정 발표 예정으로, 시장 방향성을 결정할 핵심 이벤트.",
+        "severity": "critical",
+        "category": "war",
+        "status": "developing",
+        "time_label": "오늘 20:26",
+        "points": [
+          {
+            "country": "미국",
+            "role": "origin",
+            "label": "공습 주도 및 종전 협상 주체",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          },
+          {
+            "country": "이스라엘",
+            "role": "origin",
+            "label": "이란 공습 참여국",
+            "lat": 31.8,
+            "lng": 35.2,
+            "city": "예루살렘"
+          },
+          {
+            "country": "이란",
+            "role": "target",
+            "label": "공습 대상국, 호르무즈 해협 봉쇄 주체",
+            "lat": 35.7,
+            "lng": 51.4,
+            "city": "테헤란"
+          },
+          {
+            "country": "한국",
+            "role": "affected",
+            "label": "원유·나프타 수급 불안 직접 영향",
+            "lat": 37.5,
+            "lng": 127.0,
+            "city": "서울"
+          }
+        ],
+        "connections": [
+          {
+            "from": "미국",
+            "to": "이란",
+            "type": "attack",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": 35.7,
+            "to_lng": 51.4
+          },
+          {
+            "from": "이스라엘",
+            "to": "이란",
+            "type": "attack",
+            "from_lat": 31.8,
+            "from_lng": 35.2,
+            "to_lat": 35.7,
+            "to_lng": 51.4
+          },
+          {
+            "from": "이란",
+            "to": "한국",
+            "type": "impact",
+            "from_lat": 35.7,
+            "from_lng": 51.4,
+            "to_lat": 37.5,
+            "to_lng": 127.0
+          }
+        ],
+        "impact_chain": [
+          "트럼프 종전 연설 → 호르무즈 해협 봉쇄 해제 기대 → 유가 하락 압력 → 석유화학 원가 부담 완화",
+          "종전 기대감 확산 → 지정학적 리스크 프리미엄 축소 → 글로벌 위험자산 선호 회복",
+          "종전 불발 시 → 유가 추가 급등 → 항공·운송 비용 압박 → 소비 심리 위축"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "bearish",
+            "magnitude": "-2~4%"
+          },
+          {
+            "sector": "방산",
+            "direction": "bearish",
+            "magnitude": "-1~3%"
+          },
+          {
+            "sector": "항공·여행",
+            "direction": "bullish",
+            "magnitude": "+2~5%"
+          },
+          {
+            "sector": "석유화학",
+            "direction": "bullish",
+            "magnitude": "+1~3%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "DAL",
+            "name": "델타항공",
+            "impact": "수혜",
+            "reason": "종전 시 유가 하락에 따른 연료비 부담 완화 및 국제선 수요 회복 기대"
+          },
+          {
+            "ticker": "UAL",
+            "name": "유나이티드항공",
+            "impact": "수혜",
+            "reason": "지정학적 리스크 완화로 국제선 노선 정상화 및 유류비 절감"
+          },
+          {
+            "ticker": "AAL",
+            "name": "아메리칸항공",
+            "impact": "수혜",
+            "reason": "유가 하락에 따른 영업비용 감소 기대"
+          },
+          {
+            "ticker": "LUV",
+            "name": "사우스웨스트항공",
+            "impact": "수혜",
+            "reason": "연료 헤지 비율 낮아 유가 하락 시 즉각적 비용 절감 효과"
+          },
+          {
+            "ticker": "CCL",
+            "name": "카니발",
+            "impact": "수혜",
+            "reason": "중동 지역 안정화 시 크루즈 노선 확대 및 연료비 절감"
+          },
+          {
+            "ticker": "BKNG",
+            "name": "부킹홀딩스",
+            "impact": "수혜",
+            "reason": "지정학적 불안 해소에 따른 글로벌 여행 수요 반등"
+          },
+          {
+            "ticker": "003490",
+            "name": "대한항공",
+            "impact": "수혜",
+            "reason": "유가 하락 기대 및 중동 경유 노선 정상화 가능성"
+          },
+          {
+            "ticker": "039130",
+            "name": "하나투어",
+            "impact": "수혜",
+            "reason": "전쟁 종식 시 해외여행 심리 개선"
+          },
+          {
+            "ticker": "089590",
+            "name": "제주항공",
+            "impact": "수혜",
+            "reason": "유류할증료 인하 기대에 따른 수요 증가"
+          }
+        ]
+      },
+      {
+        "id": "ev_002",
+        "title": "한국 산업부, 중동발 석유 공급 차질 대비 긴급 대체 수입원 확보",
+        "summary": "이란의 호르무즈 해협 봉쇄로 원유·나프타 수급 불안이 지속되자, 산업부가 11개국 상무관 및 15개국 코트라 관장을 소집해 대체 수입원 확보 전략을 논의. 경제성보다 공급 안정성에 무게를 두고 물량 확보에 집중할 계획.",
+        "severity": "high",
+        "category": "energy",
+        "status": "live",
+        "time_label": "오늘 15:00",
+        "points": [
+          {
+            "country": "한국",
+            "role": "affected",
+            "label": "원유·나프타 수급 불안으로 긴급 대응",
+            "lat": 37.5,
+            "lng": 127.0,
+            "city": "서울"
+          },
+          {
+            "country": "중동",
+            "role": "origin",
+            "label": "호르무즈 해협 봉쇄로 공급 차질 유발",
+            "lat": 0,
+            "lng": 0,
+            "city": "중동"
+          }
+        ],
+        "connections": [
+          {
+            "from": "중동",
+            "to": "한국",
+            "type": "impact",
+            "from_lat": 0,
+            "from_lng": 0,
+            "to_lat": 37.5,
+            "to_lng": 127.0
+          }
+        ],
+        "impact_chain": [
+          "호르무즈 해협 봉쇄 지속 → 원유·나프타 수입 단가 상승 → 석유화학 원가 부담 확대 → 정제 마진 축소",
+          "대체 수입원 확보(비중동) → 운송 거리 증가 → 물류비 추가 부담 → 제품 가격 전가 불가피"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "석유화학",
+            "direction": "bearish",
+            "magnitude": "-2~4%"
+          },
+          {
+            "sector": "정유",
+            "direction": "bearish",
+            "magnitude": "-1~3%"
+          }
+        ],
+        "affected_tickers": []
+      },
+      {
+        "id": "ev_003",
+        "title": "미국, 호주에 31.6억 달러 규모 첨단 미사일 판매 승인",
+        "summary": "미국 정부가 호주에 AIM-260 JATM 450기 포함 31.6억 달러 규모 무기 판매를 승인. 록히드마틴이 주 계약자이며, 아태 지역 방위 협력 강화 목적. 종전 기대에 따른 방산주 약세를 일부 상쇄하는 재료.",
+        "severity": "high",
+        "category": "trade",
+        "status": "happened",
+        "time_label": "오늘",
+        "points": [
+          {
+            "country": "미국",
+            "role": "origin",
+            "label": "무기 수출 승인국",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          },
+          {
+            "country": "호주",
+            "role": "target",
+            "label": "첨단 미사일 도입국",
+            "lat": -33.9,
+            "lng": 151.2,
+            "city": "시드니"
+          }
+        ],
+        "connections": [
+          {
+            "from": "미국",
+            "to": "호주",
+            "type": "trade",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": -33.9,
+            "to_lng": 151.2
+          },
+          {
+            "from": "미국",
+            "to": "호주",
+            "type": "alliance",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": -33.9,
+            "to_lng": 151.2
+          }
+        ],
+        "impact_chain": [
+          "미-호 무기 판매 승인 → 록히드마틴 수주잔고 증가 → 방산 섹터 실적 기대감",
+          "아태 방위 협력 강화 시그널 → 역내 군비 확장 경쟁 가속 → 한국 방산 수출 기회 확대 가능"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "방산",
+            "direction": "bullish",
+            "magnitude": "+1~3%"
+          }
+        ],
+        "affected_tickers": []
+      },
+      {
+        "id": "ev_004",
+        "title": "EU 집행위원회 클라우드 인프라 사이버 공격 발생",
+        "summary": "EU 집행위원회 Europa.eu 포털이 해커 그룹 'ShinyHunters'의 공격으로 AWS 환경에서 350GB 데이터 유출. 유럽 내 사이버 보안 규제 강화 압박이 커지며, 보안 솔루션 투자 확대가 예상됨.",
+        "severity": "high",
+        "category": "technology",
+        "status": "live",
+        "time_label": "오늘",
+        "points": [
+          {
+            "country": "유럽연합",
+            "role": "target",
+            "label": "사이버 공격 피해 대상",
+            "lat": 50.8,
+            "lng": 4.4,
+            "city": "브뤼셀"
+          }
+        ],
+        "connections": [],
+        "impact_chain": [
+          "EU 기관 대규모 데이터 유출 → 사이버 보안 규제 강화 논의 가속 → 보안 솔루션 수요 급증",
+          "AWS 환경 침해 사실 부각 → 클라우드 보안 재점검 수요 → 제로트러스트·SASE 등 차세대 보안 투자 확대"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "사이버보안",
+            "direction": "bullish",
+            "magnitude": "+2~4%"
+          },
+          {
+            "sector": "클라우드",
+            "direction": "neutral",
+            "magnitude": "0~-1%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "ANET",
+            "name": "아리스타네트웍스",
+            "impact": "수혜",
+            "reason": "네트워크 보안 및 가시성 솔루션 수요 증가, 데이터센터 보안 인프라 강화 수혜"
+          },
+          {
+            "ticker": "EQIX",
+            "name": "에퀴닉스",
+            "impact": "수혜",
+            "reason": "보안 강화된 코로케이션 수요 증가로 프리미엄 데이터센터 선호도 상승"
+          },
+          {
+            "ticker": "DLR",
+            "name": "디지털리얼티",
+            "impact": "수혜",
+            "reason": "클라우드 보안 재점검에 따른 하이브리드 클라우드 인프라 수요 확대"
+          }
+        ]
+      }
+    ],
+    "upcoming": [
+      {
+        "date": "2026-04-01",
+        "d_day": "D-0",
+        "event": "중국 3월 차이신 제조업 PMI 발표",
+        "importance": "high",
+        "country": "중국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "확장(50 이상)",
+            "probability": "55%",
+            "impact": "중국 경기 회복 확인 → 철강·화학 등 소재주 강세, 아시아 투자심리 개선"
+          },
+          {
+            "name": "위축(50 미만)",
+            "probability": "45%",
+            "impact": "디플레이션 우려 재부각 → 중국 관련 수출주 약세, 위안화 약세 압력"
+          }
+        ],
+        "watch_sectors": [
+          "철강",
+          "화학",
+          "기계"
+        ],
+        "lat": 39.9,
+        "lng": 116.4
+      },
+      {
+        "date": "2026-04-09",
+        "d_day": "D-8",
+        "event": "한국 3월 수출입 동향 발표",
+        "importance": "high",
+        "country": "한국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "수출 호조(반도체 선도)",
+            "probability": "50%",
+            "impact": "반도체 수출 증가 확인 시 SK하이닉스·삼성전자 등 반도체주 강세"
+          },
+          {
+            "name": "수출 둔화(중동 영향)",
+            "probability": "50%",
+            "impact": "중동 리스크에 따른 수출 차질 확인 시 증시 하방 압력 확대"
+          }
+        ],
+        "watch_sectors": [
+          "반도체",
+          "자동차",
+          "조선"
+        ],
+        "lat": 37.5,
+        "lng": 127.0
+      },
+      {
+        "date": "2026-04-09",
+        "d_day": "D-8",
+        "event": "중국 3월 소비자물가지수(CPI) 발표",
+        "importance": "high",
+        "country": "중국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "물가 반등(+0.5% 이상)",
+            "probability": "40%",
+            "impact": "디플레이션 탈출 기대 → 소비재·유통주 반등"
+          },
+          {
+            "name": "물가 정체(0% 내외)",
+            "probability": "60%",
+            "impact": "경기 침체 우려 지속 → 추가 부양책 기대감 부각"
+          }
+        ],
+        "watch_sectors": [
+          "소비재",
+          "유통"
+        ],
+        "lat": 39.9,
+        "lng": 116.4
+      },
+      {
+        "date": "2026-04-09",
+        "d_day": "D-8",
+        "event": "한국 옵션만기일",
+        "importance": "high",
+        "country": "한국",
+        "category": "market",
+        "scenarios": [
+          {
+            "name": "매수 우위 롤오버",
+            "probability": "45%",
+            "impact": "프로그램 매수 유입으로 KOSPI 상승 지지"
+          },
+          {
+            "name": "매도 우위 청산",
+            "probability": "55%",
+            "impact": "포지션 청산 매물 출회로 대형주 중심 변동성 확대"
+          }
+        ],
+        "watch_sectors": [
+          "금융",
+          "대형주"
+        ],
+        "lat": 37.5,
+        "lng": 127.0
+      },
+      {
+        "date": "2026-04-10",
+        "d_day": "D-9",
+        "event": "한국 KOSPI200 선물만기일",
+        "importance": "high",
+        "country": "한국",
+        "category": "market",
+        "scenarios": [
+          {
+            "name": "백워데이션(선물<현물)",
+            "probability": "50%",
+            "impact": "프로그램 매도 압력으로 지수 하락 가능"
+          },
+          {
+            "name": "콘탱고(선물>현물)",
+            "probability": "50%",
+            "impact": "프로그램 매수 유입으로 지수 상승 지지"
+          }
+        ],
+        "watch_sectors": [
+          "대형주",
+          "증권"
+        ],
+        "lat": 37.5,
+        "lng": 127.0
+      },
+      {
+        "date": "2026-04-16",
+        "d_day": "D-15",
+        "event": "한국은행 금융통화위원회 금리결정",
+        "importance": "high",
+        "country": "한국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "금리 인하(비둘기)",
+            "probability": "45%",
+            "impact": "은행주 약세, 건설·부동산 수혜, 성장주 강세 전환"
+          },
+          {
+            "name": "금리 동결(매파)",
+            "probability": "55%",
+            "impact": "은행주 강세 지속, 원화 방어 의지 확인, 내수주 부담"
+          }
+        ],
+        "watch_sectors": [
+          "은행",
+          "보험",
+          "건설"
+        ],
+        "lat": 37.5,
+        "lng": 127.0
+      },
+      {
+        "date": "2026-04-17",
+        "d_day": "D-16",
+        "event": "중국 1분기 GDP 및 주요 경제지표 발표",
+        "importance": "high",
+        "country": "중국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "성장률 상회(5% 이상)",
+            "probability": "40%",
+            "impact": "글로벌 경기 낙관론 확산 → 소재·산업재 랠리, 원자재 강세"
+          },
+          {
+            "name": "성장률 하회(4.5% 이하)",
+            "probability": "60%",
+            "impact": "글로벌 성장 둔화 우려 → 위험자산 회피, 안전자산 선호"
+          }
+        ],
+        "watch_sectors": [
+          "철강",
+          "화학",
+          "IT"
+        ],
+        "lat": 39.9,
+        "lng": 116.4
+      },
+      {
+        "date": "2026-04-20",
+        "d_day": "D-19",
+        "event": "중국 인민은행(PBOC) LPR 금리 결정",
+        "importance": "high",
+        "country": "중국",
+        "category": "policy",
+        "scenarios": [
+          {
+            "name": "LPR 인하",
+            "probability": "50%",
+            "impact": "부동산 경기 부양 기대 → 소재주·건설주 수혜"
+          },
+          {
+            "name": "LPR 동결",
+            "probability": "50%",
+            "impact": "추가 부양 여력 제한 인식 → 중국 관련주 관망세"
+          }
+        ],
+        "watch_sectors": [
+          "부동산",
+          "금융"
+        ],
+        "lat": 39.9,
+        "lng": 116.4
+      },
+      {
+        "date": "2026-04-24",
+        "d_day": "D-23",
+        "event": "일본 3월 소비자물가지수(CPI) 발표",
+        "importance": "high",
+        "country": "일본",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "물가 상승 지속(3% 이상)",
+            "probability": "55%",
+            "impact": "BOJ 금리 인상 기대 → 엔화 강세 → 한국 수출주 반사 수혜"
+          },
+          {
+            "name": "물가 둔화(2.5% 이하)",
+            "probability": "45%",
+            "impact": "BOJ 금리 동결 전망 → 엔화 약세 → 한국 수출 경쟁력 약화"
+          }
+        ],
+        "watch_sectors": [
+          "은행",
+          "수출주"
+        ],
+        "lat": 35.7,
+        "lng": 139.7
+      },
+      {
+        "date": "2026-04-28",
+        "d_day": "D-27",
+        "event": "일본은행(BOJ) 금융정책결정회의",
+        "importance": "high",
+        "country": "일본",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "추가 금리 인상",
+            "probability": "40%",
+            "impact": "엔캐리트레이드 청산 → 글로벌 유동성 축소 → 신흥국 증시 변동성 확대"
+          },
+          {
+            "name": "금리 동결+완화적 가이던스",
+            "probability": "60%",
+            "impact": "엔화 약세 지속 → 일본 수출주 강세 → 한국 수출 경쟁력 상대적 약화"
+          }
+        ],
+        "watch_sectors": [
+          "은행",
+          "자동차",
+          "전자"
+        ],
+        "lat": 35.7,
+        "lng": 139.7
+      }
+    ],
+    "sector_summary": [
+      {
+        "sector": "항공·여행",
+        "net_direction": "bullish",
+        "event_count": 1,
+        "key_reason": "중동 종전 기대에 따른 유가 하락 전망 + 지정학적 리스크 완화로 여행 수요 회복"
+      },
+      {
+        "sector": "사이버보안",
+        "net_direction": "bullish",
+        "event_count": 1,
+        "key_reason": "EU 대규모 데이터 유출 사건으로 글로벌 보안 투자 확대 모멘텀"
+      },
+      {
+        "sector": "데이터센터 인프라",
+        "net_direction": "bullish",
+        "event_count": 1,
+        "key_reason": "클라우드 보안 재점검 수요에 따른 프리미엄 인프라 선호도 상승"
+      },
+      {
+        "sector": "반도체",
+        "net_direction": "neutral",
+        "event_count": 1,
+        "key_reason": "직접 이벤트 영향 제한적이나, 4/9 수출입 동향 발표가 방향성 결정 변수"
+      },
+      {
+        "sector": "방산",
+        "net_direction": "neutral",
+        "event_count": 2,
+        "key_reason": "종전 기대에 따른 하방 압력과 미-호 31.6억불 무기 수주 호재가 상쇄"
+      },
+      {
+        "sector": "석유화학",
+        "net_direction": "bearish",
+        "event_count": 2,
+        "key_reason": "호르무즈 봉쇄에 따른 원자재 수급 불안 지속, 대체 수입원 확보 비용 상승"
+      },
+      {
+        "sector": "에너지",
+        "net_direction": "bearish",
+        "event_count": 1,
+        "key_reason": "종전 기대감에 따른 유가 하락 압력으로 에너지주 약세 전망"
+      },
+      {
+        "sector": "금융",
+        "net_direction": "neutral",
+        "event_count": 2,
+        "key_reason": "4/9 옵션만기·4/16 금통위 앞두고 관망세, 금리 방향성 확인 필요"
+      }
+    ]
+  }
+}

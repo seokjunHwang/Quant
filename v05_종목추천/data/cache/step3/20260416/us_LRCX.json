@@ -1,0 +1,30 @@
+{
+  "ticker": "LRCX",
+  "name": "램리서치",
+  "theme": "반도체 / AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "HBM 및 어드밴스드 패키징 수요 폭증 전망으로 월가 IB 목표주가 줄상향 (Stifel, Susquehanna)",
+      "date": "2026-04-09",
+      "impact": "high"
+    },
+    {
+      "type": "중립",
+      "content": "4월 22일 분기 실적 발표 대기 (marketbeat)",
+      "date": "2026-04-22",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 밸류에이션",
+      "description": "연초 이후 급등한 주가와 최근 ASML 실적 발표 이후 반도체 장비주 전반의 차익 실현 압력",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "AI 서버 및 HBM 수요 급증의 수혜로 월가의 목표가 상향 릴레이가 이어졌으나, 22일 실적 발표를 앞두고 장비 섹터 전반에 차익 매물이 일부 출회되었습니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수, 평균 목표주가 약 $285 (최고 $350)",
+  "score_hint": 82
+}

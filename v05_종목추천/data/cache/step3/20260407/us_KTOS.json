@@ -1,0 +1,30 @@
+{
+  "ticker": "KTOS",
+  "name": "Kratos Defense",
+  "theme": "방위산업/드론",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "제프리스(Jefferies) 투자의견 상향(Hold->Buy) 및 주가 8% 급등",
+      "date": "2026-04-06",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "극초음속 시장 주도 및 미 국방부 MACH-TB 2.0 프로그램 참여를 통한 매출 증가 기대",
+      "date": "2026-04-07",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 실적 저점",
+      "description": "2026년 1분기가 연중 가장 낮은 분기 실적을 기록할 것이라는 회사의 가이던스 부담",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "제프리스의 투자의견 상향 조정으로 강력한 단기 매수세가 유입되며 주가가 급등했습니다. 발키리 무인 드론 양산 본격화 및 극초음속 체계 부문에서 대규모 사업 기회(파이프라인) 기대감을 받고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "목표주가 $85~$134 (시장 평균 $98~$118 수준), 강력 매수 의견 확산",
+  "score_hint": 90
+}

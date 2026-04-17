@@ -1,0 +1,36 @@
+{
+  "ticker": "LMT",
+  "name": "Lockheed Martin",
+  "theme": "방위산업/드론",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "1.36B 달러 규모의 해군 극초음속 미사일(CPS) 프로그램 계약 수주 (256Today)",
+      "date": "2026-04-06",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "정밀타격미사일(PrSM) 생산량 4배 확대 및 방산 혁신 가속을 위한 신규 센터 개소 (Zacks)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "NASA 아르테미스 II 임무를 위한 오리온 우주선 성공적 발사 기여 (Joint Forces)",
+      "date": "2026-04-01",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "마진 압박",
+      "description": "항공 부문 등 일부 사업부의 단기 마진 압박 및 공급망 비용 증가 우려",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "1,940억 달러의 막대한 수주잔고를 바탕으로 극초음속 무기 등 대규모 국방 계약을 연이어 체결하고 있습니다. 강력한 장기 성장 동력과 함께 견조한 흐름이 기대됩니다.",
+  "momentum": "bullish",
+  "analyst_view": "컨센서스 보유~매수 혼재 / 평균 목표주가 $635 ~ $665",
+  "score_hint": 75
+}

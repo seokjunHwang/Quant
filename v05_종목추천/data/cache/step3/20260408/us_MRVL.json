@@ -1,0 +1,30 @@
+{
+  "ticker": "MRVL",
+  "name": "Marvell Technology",
+  "theme": "반도체/HBM·AI메모리",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Nvidia와의 전략적 파트너십(NVLink Fusion 생태계) 및 대규모 투자 유치 보도 (Investing.com)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "비핵심 사업(차량용/산업용 이더넷) 매각을 통한 AI 인프라 핵심 공정 고도화 집중 (Financial Content)",
+      "date": "2026-03",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "내부자 매도",
+      "description": "단기 주가 급등에 따른 최근 경영진(EVP)의 소규모 차익 실현",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "엔비디아와의 차세대 AI 생태계 구축 파트너십 소식이 전해지며 강력한 모멘텀을 받았습니다. 비핵심 사업을 정리하고 AI 및 데이터센터 비중을 공격적으로 늘려나가면서 52주 신고가를 경신하는 등 월가의 목표주가 상향이 이어지고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "Moderate Buy ~ Strong Buy (평균 목표주가: $117.24, 최고 $164.00)",
+  "score_hint": 90
+}

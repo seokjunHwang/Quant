@@ -1,0 +1,29 @@
+{
+  "ticker": "ACLS",
+  "name": "Axcelis Technologies",
+  "theme": "반도체/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "HBM 및 DRAM 수요 증가 수혜, 하반기 비코(Veeco) 합병 완료 기대감",
+      "date": "2026-04",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "밸류에이션 부담",
+      "description": "주가가 단기 급등하여 월가 평균 목표가를 초과 상승한 상태로 차익실현 리스크 상존",
+      "severity": "high"
+    },
+    {
+      "type": "수요 둔화",
+      "description": "전력 반도체 및 성숙 공정 시장의 단기적인 수요 부진",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "52주 신고가를 경신하며 주가가 110달러를 돌파했으나, 분석가들의 평균 목표가를 넘어섰습니다. 실적은 방어 중이지만 단기 과열로 인해 투자의견이 다소 보수적으로 변하고 있습니다.",
+  "momentum": "neutral",
+  "analyst_view": "보유/매도 혼조, 평균 목표주가 $101.50 (현재가 하회)",
+  "score_hint": 40
+}

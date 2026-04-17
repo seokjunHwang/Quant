@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% from "_macros.html" import change_badge, vix_zone, severity_badge %}
+
+{% block title %}{{ day.date_label }} 시황 — {{ site_name }}{% endblock %}
+{% block description %}{{ day.themes.market_summary[:140] }}{% endblock %}
+
+{% block content %}
+  {% if archive %}
+    <div class="archive-banner">
+      이 페이지는 <strong>{{ day.date_label }}</strong>의 아카이브입니다.
+      <a href="/">오늘 시황으로 이동</a>
+    </div>
+  {% endif %}
+
+  <section class="hero">
+    <p class="kicker">{{ day.date_label }}</p>
+    <h1>오늘의 시황</h1>
+    {% if day.themes.market_summary %}
+      <p class="lede">{{ day.themes.market_summary }}</p>
+    {% endif %}
+  </section>
+
+  {# 매크로 한눈에 #}
+  <section class="card">
+    <div class="card-head">
+      <h2>매크로 한눈에</h2>
+      <a class="more" href="/macro">전체 대시보드 →</a>
+    </div>
+    <div class="macro-grid compact">
+      {% for m in day.macro['items'][:8] %}
+        <div class="macro-cell">
+          <div class="macro-label">{{ m.label }}</div>
+          <div class="macro-price">
+            {% if m.unit == '$' %}${{ "{:,.2f}".format(m.price) }}
+            {% elif m.unit == '%' %}{{ "%.2f"|format(m.price) }}%
+            {% elif m.unit == '원' %}{{ "{:,.2f}".format(m.price) }}원
+            {% else %}{{ "{:,.2f}".format(m.price) }}{% endif %}
+          </div>
+          <div class="macro-chg">{{ change_badge(m.change_pct) }}</div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="vix-line">
+      VIX 상태: {{ vix_zone(day.macro.vix_zone) }}
+    </div>
+  </section>
+
+  {# 시황 요약 (US / KR) #}
+  <div class="row two-col">
+    {% for mkt, label in [('us', '미국 시장'), ('kr', '한국 시장')] %}
+      {% set n = day.news[mkt] %}
+      <section class="card">
+        <h2>{{ label }} 시황</h2>
+        {% if n.summary %}
+          <p>{{ n.summary }}</p>
+        {% else %}
+          <p class="muted">요약 데이터 없음.</p>
+        {% endif %}
+        {% if n.key_indicators %}
+          <ul class="kv">
+            {% for ki in n.key_indicators %}
+              <li><strong>{{ ki.name }}</strong>: {{ ki.value }} <span class="muted">— {{ ki.impact }}</span></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </section>
+    {% endfor %}
+  </div>
+
+  {# 글로벌 이벤트 (사실 보도) #}
+  <section class="card">
+    <div class="card-head">
+      <h2>글로벌 이벤트</h2>
+      <span class="muted">중요도 순</span>
+    </div>
+    {% if day.events.events %}
+      <ul class="event-list">
+        {% for e in day.events.events[:8] %}
+          <li>
+            <div class="event-head">
+              {{ severity_badge(e.severity or 'low') }}
+              <span class="event-title">{{ e.title }}</span>
+              <span class="muted small">{{ e.time_ago or e.time_label or '' }}</span>
+            </div>
+            {% if e.summary %}<p class="event-sum">{{ e.summary }}</p>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="muted">이벤트 데이터 없음.</p>
+    {% endif %}
+  </section>
+
+  {# 테마 (편입 종목 안내) #}
+  <section class="card">
+    <div class="card-head">
+      <h2>오늘 부각된 테마</h2>
+      <a class="more" href="/themes">테마 전체 →</a>
+    </div>
+    {% if day.themes.themes %}
+      <div class="theme-tabs">
+        {% for t in day.themes.themes %}
+          <a class="theme-chip" href="/themes/{{ t.slug }}">
+            <span class="t-name">{{ t.name }}</span>
+            <span class="t-count">{{ t.stock_count }}종목</span>
+          </a>
+        {% endfor %}
+      </div>
+      <p class="muted small">
+        ※ 위 테마와 편입 종목은 시장 흐름을 분류한 정보이며, 매수·매도 추천이 아닙니다.
+      </p>
+    {% else %}
+      <p class="muted">테마 데이터 없음.</p>
+    {% endif %}
+  </section>
+{% endblock %}

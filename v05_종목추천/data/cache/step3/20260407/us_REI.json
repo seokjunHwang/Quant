@@ -1,0 +1,30 @@
+{
+  "ticker": "REI",
+  "name": "Ring Energy",
+  "theme": "에너지/원유",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "2025년 $50.1M 잉여현금흐름 창출 및 25분기 연속 흑자 달성 (tipranks)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "매장량 전년대비 14% 증가하여 153.3 MMBoe 기록 (tipranks)",
+      "date": "2026-03",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "시장 리스크",
+      "description": "유가 하락 시 재무 개선 및 부채 감축 속도 지연 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "2025년 호실적 및 25분기 연속 잉여현금흐름 흑자를 기록했으며, 2026년에는 부채 감축과 재무 구조 개선에 집중할 계획임.",
+  "momentum": "bullish",
+  "analyst_view": "Moderate Buy (목표주가 $2.50)",
+  "score_hint": 75
+}

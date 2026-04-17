@@ -1,0 +1,2802 @@
+{
+  "generated_at": "2026-04-07T15:59:36.757569+09:00",
+  "market": "all",
+  "report": {
+    "report_title": "오늘의 추천 종목 - 2026년 4월 7일",
+    "executive_summary": "삼성전자 1Q 영업이익 57.2조 사상 최대 달성으로 반도체·장비·소재 밸류에이션 재평가 진행 중. 트럼프 이란 최후통첩 시한(당일 오후 8시) 만료로 WTI $115·VIX 24 지정학 긴장이 병존하며 에너지·방산 단기 수급 유입 가속. KOSDAQ -1.6% 급락에서 보듯 대형주 쏠림이 심화되어 소형주·바이오 회피, 포지션 70% 이내 유지가 핵심.",
+    "market_view": "bullish (선택적) — 반도체 실적 서프라이즈로 KOSPI 대형주 중심 매수세 유효하나, 지정학 이벤트 결과 미확인 상태에서 전면 강세 베팅은 금물. 이란 사태 결과에 따라 에너지·방산은 추가 급등 또는 차익실현 양방향 변동성 확대 가능. 달러인덱스 100.1 수준에서 원자재 상단은 일부 제한적이나 공급 차질 우려가 실물가격에 선반영 중.",
+    "top_theme": "반도체/AI — 삼성전자 사상 최대 실적이 HBM 업황 회복을 공식 확인시키며 장비·소재·부품까지 밸류에이션 재평가 파급 효과 진행 중",
+    "recommendations": [
+      {
+        "rank": 1,
+        "ticker": "LMT",
+        "name": "Lockheed Martin",
+        "theme": "방위산업/드론",
+        "why": "이란 최후통첩 시한 만료로 미·이란 군사충돌 임박 우려가 고조되며 방산주 리스크 프리미엄 유입 중. 1,940억 달러 수주잔고 기반 극초음속 무기 등 대형 국방 계약 연속 체결로 펀더멘탈도 견고. 골든크로스 임박 차트 구조에서 5일 +3.6% 추세 일치로 기술적 진입 타이밍 접근 중.",
+        "entry": "지지선 $599 확인 후 진입 또는 저항선 $664 돌파 시 추격 매수",
+        "stop_loss": "$581 (지지선 -3%)",
+        "target": "$664 (저항선) / 약 +10.8%",
+        "risk": "이란 사태 협상 타결 시 지정학 프리미엄 급격 소멸, 거래량 부진으로 유동성 리스크",
+        "trading_type": "단타/스윙 병행 (2~3일 단타 후 상황에 따라 스윙 전환)",
+        "upcoming_events": "별도 근접 실적발표 일정 없음. 이란 사태 전개가 핵심 트리거."
+      },
+      {
+        "rank": 2,
+        "ticker": "LSCC",
+        "name": "Lattice Semiconductor",
+        "theme": "반도체/AI",
+        "why": "NVIDIA 생태계 합류 및 AI 특화 FPGA 수요 급증으로 실적 호조 지속, 5일 +7.6% 강한 단기 모멘텀. 삼성전자 실적 서프라이즈로 반도체 섹터 전반 밸류에이션 재평가가 진행 중이며 소형 반도체 설계사 중 AI 수혜 강도가 높음. 20일선 강세 + 상승추세 유지로 기술적 구조 양호.",
+        "entry": "지지선 $85 확인 후 진입 또는 저항선 $101 돌파 시 추격 매수",
+        "stop_loss": "$83 (지지선 -3%)",
+        "target": "$101 (저항선) / 약 +18.8%",
+        "risk": "거래량 부진으로 수급 모멘텀 약화 가능성, 미·중 반도체 규제 이슈 재부상 시 조정 위험",
+        "trading_type": "스윙 (1주일+)",
+        "upcoming_events": "예정된 근접 실적발표 일정 없음. 5월 중 실적 발표 예상."
+      },
+      {
+        "rank": 3,
+        "ticker": "024060",
+        "name": "흥구석유",
+        "theme": "에너지/원유",
+        "why": "이란 호르무즈 봉쇄 시 WTI 추가 급등 시나리오에서 국내 대표 석유 테마주로 자금 집중. 골든크로스 임박으로 단기 기술적 매수 준비 구간 진입. 이벤트 결과 확인 전까지 단기 모멘텀 플레이로 접근 적합.",
+        "entry": "지지선 18,420원 확인 후 진입 또는 저항선 26,000원 돌파 시 추격",
+        "stop_loss": "17,867원 (지지선 -3%)",
+        "target": "26,000원 (저항선) / 약 +41.1%",
+        "risk": "이란 사태 협상 타결 또는 이벤트 소멸 시 급락 가능성 매우 높음. 펀더멘탈 뒷받침 없는 순수 테마주임을 인식하고 반드시 단기 대응 필수.",
+        "trading_type": "단타 (1~2일 이내)",
+        "upcoming_events": "예정된 실적발표 일정 없음. 이란 사태 전개가 유일한 트리거."
+      },
+      {
+        "rank": 4,
+        "ticker": "UCTT",
+        "name": "Ultra Clean Holdings",
+        "theme": "반도체/AI",
+        "why": "골든크로스 확인 + 5일 +7.5% 강한 상승 추세, 삼성전자 실적으로 HBM 장비·부품 수요 재확인. UCT 3.0 전략 기반 AI 인프라 확장 수혜로 월가 목표가 상향 릴레이. 반도체 장비 섹터 내 밸류에이션 매력도 높은 편.",
+        "entry": "지지선 $53 확인 후 진입 또는 저항선 $65 돌파 시 추격 매수",
+        "stop_loss": "$51 (지지선 -3%)",
+        "target": "$65 (저항선) / 약 +22.6%",
+        "risk": "거래량 극히 부진 — 유동성 함정 주의. 반도체 업황 재조정 시 중소형주 낙폭 확대 가능성.",
+        "trading_type": "스윙 (1주일+)",
+        "upcoming_events": "예정된 근접 실적발표 일정 없음. 4~5월 중 실적 발표 예상."
+      },
+      {
+        "rank": 5,
+        "ticker": "042700",
+        "name": "한미반도체",
+        "theme": "반도체/AI",
+        "why": "HBM4 세대 전환 국면에서 하이브리드 본더 독점적 경쟁력 부각, 삼성전자 역대 최대 실적이 HBM 밸류체인 전반 재평가 촉매. 대주주 자사주 매입 지속으로 하방 지지력 강화. 골든크로스 임박 + RSI 44로 충분히 눌린 구간에서 매수 준비.",
+        "entry": "지지선 251,000원 확인 후 진입 또는 저항선 317,000원 돌파 시 추격",
+        "stop_loss": "243,470원 (지지선 -3%)",
+        "target": "317,000원 (저항선) / 약 +26.3%",
+        "risk": "외국인-기관 수급 공방으로 변동성 확대 가능. 거래량 부진 구간에서 조기 진입 시 횡보 장기화 리스크.",
+        "trading_type": "스윙 (1~2주)",
+        "upcoming_events": "4월 말~5월 초 1분기 실적발표 예정. 실적 확인 후 추가 상승 트리거 기대."
+      },
+      {
+        "rank": 6,
+        "ticker": "MRVL",
+        "name": "Marvell Technology",
+        "theme": "반도체/AI",
+        "why": "NVIDIA 대규모 투자·파트너십 체결, AI 데이터센터 핵심 수혜주로 역대급 실적 달성. 5일 +15.4% 강력한 모멘텀이나 RSI 69 극과열 구간으로 단기 눌림 후 재진입 전략 필요. 지지선 확인 후 접근이 유효.",
+        "entry": "지지선 $88 확인 후 진입 (극과열로 즉시 추격 금지) / 저항선 $110 돌파 시 재가속 진입",
+        "stop_loss": "$85 (지지선 -3%)",
+        "target": "$110 (저항선) / 약 +25%",
+        "risk": "RSI 극과열(69)로 단기 차익실현 물량 집중 가능. 중국 수출 규제 재이슈화 시 낙폭 확대.",
+        "trading_type": "스윙 (눌림 확인 후)",
+        "upcoming_events": "2026-05-21 Q1 FY2027 실적발표 (장마감 후). 실적 시즌 전 포지션 정리 전략 병행 권장."
+      },
+      {
+        "rank": 7,
+        "ticker": "005930",
+        "name": "삼성전자",
+        "theme": "반도체/AI",
+        "why": "1Q26 영업이익 57.2조 사상 최대 달성으로 HBM 업황 회복 공식 확인, 당일 주가 20만원 돌파. 골든크로스 형성으로 중기 상승 추세 전환 신호 발생. 4/17 결산배당 지급 및 4/28 확정실적·컨콜로 추가 모멘텀 대기.",
+        "entry": "지지선 167,200원 확인 후 진입 또는 저항선 208,500원 돌파 시 추격",
+        "stop_loss": "162,184원 (지지선 -3%)",
+        "target": "208,500원 (저항선) / 약 +24.7%",
+        "risk": "KOSDAQ -1.6% 등 리스크오프 심화 시 대형주도 차익 매물 출회. 지정학 이벤트 악화로 매크로 리스크 전가 가능성.",
+        "trading_type": "스윙 (1~2주)",
+        "upcoming_events": "2026-04-07 1분기 잠정실적 발표(당일), 2026-04-17 결산배당 지급, 2026-04-28 확정실적 및 컨퍼런스콜."
+      },
+      {
+        "rank": 8,
+        "ticker": "NOC",
+        "name": "Northrop Grumman",
+        "theme": "방위산업/드론",
+        "why": "자율무인기 'Lumberjack' 시연 성공으로 AI 적용 무기체계 입지 강화, 이란 군사충돌 리스크 프리미엄 유입 직접 수혜. 골든크로스 임박 + RSI 47 중립 구간으로 과열 부담 없이 접근 가능. LMT와 함께 미국 방산 양대 축으로 지정학 헤지 수단.",
+        "entry": "지지선 $672 확인 후 진입 또는 저항선 $747 돌파 시 추격",
+        "stop_loss": "$651 (지지선 -3%)",
+        "target": "$747 (저항선) / 약 +11.2%",
+        "risk": "이란 사태 조기 협상 타결 시 지정학 프리미엄 소멸. 4/21 실적발표 전 가이던스 불확실성.",
+        "trading_type": "단타/스윙 병행",
+        "upcoming_events": "2026-04-21 Q1 2026 실적발표 (장개장 전). 실적 발표 전 지정학 모멘텀 활용 단기 전략 추천."
+      },
+      {
+        "rank": 9,
+        "ticker": "REI",
+        "name": "Ring Energy",
+        "theme": "에너지/원유",
+        "why": "중동 공급 차질 우려로 WTI $115 고점 경신 수혜, 25분기 연속 잉여현금흐름 흑자로 재무 안정성 확인. 골든크로스 임박 신호로 기술적 매수 준비 구간 진입.",
+        "entry": "지지선 $1 확인 후 진입 또는 저항선 $2 돌파 시 추격 (소형주 유동성 주의)",
+        "stop_loss": "$1 (지지선 -3%)",
+        "target": "$2 (저항선) / 약 +100% (소형주 변동성 반영)",
+        "risk": "거래량 부진으로 유동성 리스크 상당. 이란 사태 소멸 시 유가 급락 가능. 소형 에너지주 특성상 시장 전반 리스크오프 시 낙폭 과대.",
+        "trading_type": "단타 (1~2일)",
+        "upcoming_events": "2026년 5월 예정 Q1 2026 실적발표. 당장은 유가 연동 테마 플레이."
+      },
+      {
+        "rank": 10,
+        "ticker": "SITS",
+        "name": "SiTime",
+        "theme": "반도체/AI",
+        "why": "S&P MidCap 400 지수 편입 효과로 패시브 자금 유입 기대, AI 인프라 확장 수혜 실적 호조 발표. 반도체 섹터 전반 밸류에이션 재평가 흐름에 동참.",
+        "entry": "지지선·저항선 데이터 미확인 — 시장가 진입 지양, 당일 가격대 확인 후 접근 권장 (실제 티커 SITM 여부 재확인 필수)",
+        "stop_loss": "당일 저점 -3% 기준 (진입 전 확인 필수)",
+        "target": "당일 고점·저항선 확인 후 설정",
+        "risk": "티커 정확성 미확인(SITS vs SITM). 기술적 데이터 부재로 신뢰도 낮음 — 포지션 규모 최소화 권장.",
+        "trading_type": "스윙 (데이터 확인 후 판단)",
+        "upcoming_events": "2026년 4월 말~5월 초 예정 Q1 2026 실적발표 (티커 SITM 여부 확인 필수)."
+      },
+      {
+        "rank": 11,
+        "ticker": "039030",
+        "name": "이오테크닉스",
+        "theme": "반도체/AI",
+        "why": "낸드 400단 고단화·HBM 수혜로 레이저 장비 수요 급증, 삼성전자 실적 서프라이즈가 직접 수혜 모멘텀. 외국인·기관 강력 수급 + 목표가 상향 릴레이 진행 중. 4/1 기업가치 제고 계획 공시로 주주환원 모멘텀 추가.",
+        "entry": "지지선 384,500원 확인 후 진입 또는 저항선 446,500원 돌파 시 추격",
+        "stop_loss": "372,965원 (지지선 -3%)",
+        "target": "446,500원 (저항선) / 약 +16.1%",
+        "risk": "거래량 부진으로 수급 지속성 불확실. 반도체 장비 섹터 과열 시 단기 조정 가능성.",
+        "trading_type": "스윙 (1~2주)",
+        "upcoming_events": "2026-04-01 기업가치 제고 계획 공시(완료), 2026년 4월 말~5월 초 Q1 실적발표 예정."
+      },
+      {
+        "rank": 12,
+        "ticker": "XOM",
+        "name": "ExxonMobil",
+        "theme": "에너지/원유",
+        "why": "중동 긴장으로 유가 급등 최대 직접 수혜 메이저 정유사. 씨티·모건스탠리 목표가 $170 상향, 헬륨 공급 차질 수혜까지 중첩. 대형주 특성상 에너지 테마 중 가장 안전한 접근.",
+        "entry": "지지선 $148 확인 후 진입 또는 저항선 $171 돌파 시 추격",
+        "stop_loss": "$144 (지지선 -3%)",
+        "target": "$171 (저항선) / 약 +15.5%",
+        "risk": "거래량 부진. 이란 사태 소멸 시 유가 급락으로 주가 조정. 4/24 실적발표 전 가이던스 불확실성 존재.",
+        "trading_type": "단타/스윙 병행",
+        "upcoming_events": "2026-04-24 Q1 2026 실적발표, 2026-05-15 배당락일."
+      },
+      {
+        "rank": 13,
+        "ticker": "MGY",
+        "name": "Magnolia Oil & Gas",
+        "theme": "에너지/원유",
+        "why": "수익성 높은 자산 기반 연간 이익 전망치 대폭 상향, 다수 기관 매수 의견 전환으로 모멘텀 지속. WTI $115 고점 환경에서 소형 독립 E&P사 특유의 레버리지 효과 기대.",
+        "entry": "지지선 $29 확인 후 진입 또는 저항선 $32 돌파 시 추격",
+        "stop_loss": "$28 (지지선 -3%)",
+        "target": "$32 (저항선) / 약 +10.3%",
+        "risk": "내부자 매도 신호 주의. 유가 반락 시 독립 E&P사 낙폭 과대. 거래량 부진.",
+        "trading_type": "단타 (2~3일)",
+        "upcoming_events": "2026-05-07 Q1 2026 실적발표 및 컨퍼런스콜, Q2 분기 배당 선언 예정."
+      },
+      {
+        "rank": 14,
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "theme": "반도체/AI",
+        "why": "Vera Rubin 차세대 칩 공개로 AI 리더십 지속 확인, 삼성전자 HBM 실적 서프라이즈가 NVIDIA 생태계 전반 수혜 재조명. 다만 RSI 49 중립·횡보 구간으로 지지선 확인 후 신중 접근.",
+        "entry": "지지선 $165 확인 후 진입 또는 저항선 $186 돌파 시 추격",
+        "stop_loss": "$160 (지지선 -3%)",
+        "target": "$186 (저항선) / 약 +12.7%",
+        "risk": "중국 매출 타격 및 매크로 우려로 횡보 장기화 가능. 거래량 부진으로 상승 동력 약화. 5/20 실적 발표 전 불확실성 구간.",
+        "trading_type": "스윙 (2주+)",
+        "upcoming_events": "2026-05-20 Q1 FY2027 실적발표 (장마감 후). 실적 시즌까지 보유 전략 유효."
+      },
+      {
+        "rank": 15,
+        "ticker": "ACLS",
+        "name": "Axcelis Technologies",
+        "theme": "반도체/AI",
+        "why": "Veeco 합병 절차 진행으로 AI 인프라 확장 시너지 기대. 반도체 이온 주입 장비 전문사로 삼성전자 실적 서프라이즈 수혜 예상. 다만 기술적 데이터 부재로 전략 수립 제한적.",
+        "entry": "기술적 데이터 미확인 — 당일 가격 및 차트 확인 후 진입 결정 (선제 매수 지양)",
+        "stop_loss": "당일 저점 -3% (진입 전 설정)",
+        "target": "합병 시너지 반영 시 15~20% 상승 가능성 (목표가 별도 확인 필요)",
+        "risk": "합병 불확실성. 메모리 외 시장 수요 둔화 우려로 엇갈린 전망 공존. 기술적 진입 근거 부족.",
+        "trading_type": "스윙 (데이터 확인 후 판단)",
+        "upcoming_events": "2026-04 말 Q1 2026 실적발표 예정, 2026-05-05 연례주주총회."
+      },
+      {
+        "rank": 16,
+        "ticker": "DVN",
+        "name": "Devon Energy",
+        "theme": "에너지/원유",
+        "why": "Coterra Energy 초대형 합병 임박 + 100% 미국 내 생산으로 중동 리스크 헤지 수단으로 주목. 5/4 합병 주주투표·5~6월 클로징 기대감으로 이벤트 드리븐 스윙 기회. RSI 61 상승 모멘텀 유지.",
+        "entry": "지지선 $43 확인 후 진입 또는 저항선 $52 돌파 시 추격",
+        "stop_loss": "$42 (지지선 -3%)",
+        "target": "$52 (저항선) / 약 +20.9%",
+        "risk": "합병 주주투표 부결 시 급락 가능. 거래량 극히 부진으로 유동성 리스크. 유가 반락 시 연동 하락.",
+        "trading_type": "스윙 (합병 이벤트 기반)",
+        "upcoming_events": "2026-05-04 특별주주총회(Coterra 합병 투표), Q1 2026 실적발표 및 합병 클로징 5~6월 예정."
+      },
+      {
+        "rank": 17,
+        "ticker": "010950",
+        "name": "에쓰오일",
+        "theme": "에너지/원유",
+        "why": "아람코 통한 안정적 원유 수급 + 1분기 실적 호조 기대, WTI $115 환경에서 국내 정유사 대표주. 샤힌 프로젝트 완공 대형 모멘텀 존재. 4/30 배당 지급 배당주 매력 부각.",
+        "entry": "지지선 105,300원 확인 후 진입 또는 저항선 118,100원 돌파 시 추격",
+        "stop_loss": "102,141원 (지지선 -3%)",
+        "target": "118,100원 (저항선) / 약 +12.2%",
+        "risk": "정부 유가 규제 정책 변수. 거래량 부진. 4/22 잠정실적이 예상 대비 부진 시 단기 조정 가능.",
+        "trading_type": "단타/스윙 병행",
+        "upcoming_events": "2026-04-22 Q1 2026 잠정실적 발표(악재 주의), 2026-04-30 2025년 기말배당 지급(호재)."
+      }
+    ],
+    "avoid_stocks": [
+      "KOSDAQ 소형주 전반 (당일 -1.6% 급락, 대형주 쏠림 극심)",
+      "바이오/헬스케어 소형주 (유동성 리스크 + 테마 소외)",
+      "SITS/SiTime (티커 불일치 의심, 기술적 데이터 0으로 신뢰도 낮음)",
+      "에쓰오일(010950) 단기 신규 진입 — 4/22 잠정실적 악재 시그널 주의",
+      "Ring Energy(REI) 비중 확대 금지 — 유동성·소형주 이중 리스크"
+    ],
+    "one_line_strategy": "삼성전자 실적 서프라이즈(반도체 스윙)와 이란 최후통첩 결과(에너지·방산 단타)를 투트랙으로 분리하되, 전체 포지션 70% 이하 유지하며 지정학 이벤트 결과 확인 전 KOSDAQ 소형주·바이오는 철저히 배제한다.",
+    "_events_map": {
+      "LMT": [],
+      "LSCC": [],
+      "024060": [],
+      "UCTT": [],
+      "042700": [],
+      "MRVL": [
+        {
+          "date": "2026-05-21",
+          "event": "Q1 FY2027 실적발표 (장마감 후)",
+          "impact": "중립",
+          "detail": "2026년 5월 21일 장마감 후 실적 발표 확정. Q4 FY2026 가이던스 기준 Q1 FY2027 매출 약 $2.4B(±5%) 예상. NVLink Fusion 협력(NVIDIA AI 에코시스템) 이슈가 반영될 수 있음."
+        }
+      ],
+      "005930": [
+        {
+          "date": "2026-04-07",
+          "event": "1분기 잠정실적 발표",
+          "impact": "호재",
+          "detail": "오늘(4/7) 발표 완료. 매출 133조원, 영업이익 57.2조원(전년 동기 대비 +755%). 시장 컨센서스를 크게 상회한 어닝 서프라이즈."
+        },
+        {
+          "date": "2026-04-17",
+          "event": "2025년 결산배당 지급",
+          "impact": "호재",
+          "detail": "보통주 기준 주당 1,668원(결산분 566원 포함) 지급 예정. 배당락일은 이미 경과(3월 27일 기준)."
+        },
+        {
+          "date": "2026-04-28",
+          "event": "1분기 확정실적 발표 및 컨퍼런스콜 (오후 3시)",
+          "impact": "중립",
+          "detail": "잠정실적 확정 발표 및 IR 컨퍼런스콜. 주주 사전 질문 접수 후 경영진 답변 진행 예정."
+        }
+      ],
+      "NOC": [
+        {
+          "date": "2026-04-21",
+          "event": "Q1 2026 실적발표 (장개장 전)",
+          "impact": "중립",
+          "detail": "2026년 4월 21일 장개장 전 발표 확정(3월 19일 공시). 동일 오전 9:30 ET 어닝 웹캐스트 개최. 방산 예산 환경 변화가 주요 관전 포인트."
+        },
+        {
+          "date": "2026-05월 하순 예정",
+          "event": "Q2 배당 배당락일 (예상)",
+          "impact": "중립",
+          "detail": "직전 배당 배당락일이 2026년 2월 23일이었으므로 다음 배당락일은 5월 하순 전후 예상. 공식 발표 미확인 상태."
+        }
+      ],
+      "REI": [
+        {
+          "date": "2026년 5월 예정",
+          "event": "Q1 2026 실적발표",
+          "impact": "중립",
+          "detail": "Q4 2025 실적은 2026년 3월 4~5일 이미 발표 완료. Q1 2026 실적 발표일은 공식 미확정. 과거 패턴상 5월 초~중순 예상. 유가 흐름이 핵심 변수."
+        }
+      ],
+      "SITS": [
+        {
+          "date": "2026년 4월 말~5월 초 예정",
+          "event": "Q1 2026 실적발표 (SITM, 실제 티커 확인 필요)",
+          "impact": "중립",
+          "detail": "사용자 티커 'SITS'는 SiTime의 실제 티커 'SITM'으로 검색됨. Q1 2026 가이던스(EPS $1.10~1.17, 매출 $101~104M)가 2월 20일 제시되어 컨센서스 대폭 상회. 공식 실적 발표일은 미확정이나 4월 말~5월 초 예상."
+        }
+      ],
+      "039030": [
+        {
+          "date": "2026-04-01",
+          "event": "기업가치 제고 계획 공시",
+          "impact": "호재",
+          "detail": "이오테크닉스가 기업가치 제고 계획을 공시. 배당성향 확대 및 고배당기업 수준의 안정적 현금배당 정책 추진 발표."
+        },
+        {
+          "date": "2026-04 말~05 초 예정",
+          "event": "Q1 2026 실적발표",
+          "impact": "중립",
+          "detail": "한국 KOSDAQ 분기 실적 공시 (분기 종료 후 45일 내). 2025년 연간 영업이익 807억(전년比 +158.8%) 기록 후 FY26 매출 4,800억·영업이익 1,238억 역대 최대 전망. 정확한 공시일 미발표."
+        }
+      ],
+      "XOM": [
+        {
+          "date": "2026-04-24",
+          "event": "Q1 2026 실적발표",
+          "impact": "중립",
+          "detail": "ExxonMobil Q1 2026 분기 실적 발표. 유가 변동 및 정제 마진이 핵심 변수. MarketBeat·Nasdaq 등 복수 소스에서 04/24 확인."
+        },
+        {
+          "date": "2026-05-15",
+          "event": "배당락일 (Ex-Dividend Date)",
+          "impact": "중립",
+          "detail": "분기 배당 $1.03/주 배당락. 지급일 2026-06-10. 전분기 동일 금액으로 연속 배당 유지."
+        }
+      ],
+      "MGY": [
+        {
+          "date": "2026-05-07",
+          "event": "Q1 2026 실적발표 및 컨퍼런스콜",
+          "impact": "중립",
+          "detail": "Magnolia Oil & Gas Q1 2026 운영·재무 결과 발표. 오전 10시(CT)/11시(ET). Zacks EPS 컨센서스 $0.33 (직전 $0.39에서 하향 조정)."
+        },
+        {
+          "date": "2026-05 예정",
+          "event": "Q2 분기 배당 선언 예정",
+          "impact": "중립",
+          "detail": "MGY는 통상 5월 중 다음 분기 배당을 선언하고 6월 지급. Q1 배당 $0.165/주(전년比 +10% 인상, 5년 연속 인상). 정확한 ex-date 미발표."
+        }
+      ],
+      "NVDA": [
+        {
+          "date": "2026-05-20",
+          "event": "Q1 FY2027 실적발표 (장 마감 후)",
+          "impact": "중립",
+          "detail": "NVIDIA FY2027 1분기(캘린더 Q1 2026) 실적 발표. 블랙웰 아키텍처 램프업, 데이터센터 매출 추이, H20 중국 수출규제 영향이 핵심 관전 포인트. MarketBeat 등 복수 소스 05/20 After Market 확인."
+        }
+      ],
+      "ACLS": [
+        {
+          "date": "2026-04 말 예정",
+          "event": "Q1 2026 실적발표",
+          "impact": "중립",
+          "detail": "Q1 가이던스: 매출 ~$195M, Non-GAAP EPS ~$0.71. Veeco 합병 관련 통합 비용 반영. 공식 발표일 미공표 (2025년 Q1은 4월 28일 발표한 전례)."
+        },
+        {
+          "date": "2026-05-05",
+          "event": "2026 연례주주총회 (Annual Meeting)",
+          "impact": "중립",
+          "detail": "매사추세츠 Beverly 본사(108 Cherry Hill Drive) 개최. 안건: ①이사 8명 선임, ②Ernst & Young LLP 감사인 재선임, ③임원 보수 자문 Say-on-Pay 투표."
+        }
+      ],
+      "DVN": [
+        {
+          "date": "2026-05-04",
+          "event": "특별주주총회 (Coterra Energy 합병 주주투표)",
+          "impact": "호재",
+          "detail": "Devon Energy와 Coterra Energy 간 $580억 규모 전량 주식교환(all-stock) 합병 승인 특별주주총회. DVN 이사회 만장일치 찬성 권고. 합병 비율: CTRA 1주 → DVN 0.70주. 가결 시 DVN 주주 54% / CTRA 주주 46% 지분 보유 예정."
+        },
+        {
+          "date": "Q2 예정 (5월 초~중순 추정)",
+          "event": "Q1 2026 실적발표 (Earnings)",
+          "impact": "중립",
+          "detail": "Q1 2026 실적 발표 예정. 공식 발표일 미확정 (전년도 패턴상 5월 초~중순 예상). Q1 생산 가이던스: 823,000~843,000 BOE/일. 합병 절차 진행 중으로 독립 법인 기준 마지막 실적 발표가 될 가능성 있음."
+        },
+        {
+          "date": "Q2 예정 (5월~6월)",
+          "event": "Devon-Coterra 합병 클로징",
+          "impact": "호재",
+          "detail": "HSR 대기기간 2026-04-01 만료(규제 통과). 5월 4일 주주총회 가결 후 Q2 중 최종 합병 완료 예상. 연간 $10억 시너지 목표. 합병 후 미국 최대 독립 셰일 오일 기업으로 재편, 티커 변경 가능성 있음."
+        }
+      ],
+      "010950": [
+        {
+          "date": "2026-04-22",
+          "event": "Q1 2026 잠정 실적발표",
+          "impact": "악재",
+          "detail": "Q1 2026 실적 발표 예정 (Investing.com 기준 4월 22일, 일부 자료 4월 28일 가능성 병존 — 공식 일정은 DART/KIND 확인 권고). 정제마진 약세 환경 지속 및 샤힌 프로젝트 관련 고정비 증가로 컨센서스 하회 우려."
+        },
+        {
+          "date": "2026-04-30",
+          "event": "2025년 기말배당 지급일",
+          "impact": "호재",
+          "detail": "2025년 기말배당 현금 지급. 보통주 주당 330원, 우선주(종류주) 주당 355원. 배당락일은 2026-04-03(기완료), 기준일 2026-04-06. 2024년 무배당 대비 소폭 복구이나 절대 금액 수준은 낮음."
+        }
+      ]
+    }
+  },
+  "ranked_stocks": [
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "theme": "방위산업/드론",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 147011790698.71655,
+      "research": {
+        "ticker": "LMT",
+        "name": "Lockheed Martin",
+        "theme": "방위산업/드론",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "1.36B 달러 규모의 해군 극초음속 미사일(CPS) 프로그램 계약 수주 (256Today)",
+            "date": "2026-04-06",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "정밀타격미사일(PrSM) 생산량 4배 확대 및 방산 혁신 가속을 위한 신규 센터 개소 (Zacks)",
+            "date": "2026-03",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "NASA 아르테미스 II 임무를 위한 오리온 우주선 성공적 발사 기여 (Joint Forces)",
+            "date": "2026-04-01",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "마진 압박",
+            "description": "항공 부문 등 일부 사업부의 단기 마진 압박 및 공급망 비용 증가 우려",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "1,940억 달러의 막대한 수주잔고를 바탕으로 극초음속 무기 등 대규모 국방 계약을 연이어 체결하고 있습니다. 강력한 장기 성장 동력과 함께 견조한 흐름이 기대됩니다.",
+        "momentum": "bullish",
+        "analyst_view": "컨센서스 보유~매수 혼재 / 평균 목표주가 $635 ~ $665",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 53.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 53/100 (관망). 긍정: 골든크로스 임박 — 매수 준비, 상승추세 / 5일 +3.6% 추세 일치. 주의: 거래량 부진 — 관심 저조. 상승추세, RSI 54.",
+        "signals": [
+          "골든크로스 임박 — 매수 준비",
+          "상승추세 / 5일 +3.6% 추세 일치"
+        ],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 11.0,
+            "max": 15,
+            "reason": "골든크로스 임박 — 매수 준비"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 11.0,
+            "max": 15,
+            "reason": "상승추세 / 5일 +3.6% 추세 일치"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "5d:+3.6% / 20d:-5.0%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(599) 확인 후 진입 또는 저항선(664) 돌파 시",
+        "stop_loss": "581 (지지선 -3%)",
+        "target_price": "664 (저항선)",
+        "ticker": "LMT",
+        "raw_indicators": {
+          "rsi": 53.8,
+          "rsi_signal": "중립",
+          "bb_pct": 0.592,
+          "macd_cross": "approaching_golden",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.7,
+          "trend": "uptrend",
+          "price_change_5d": 3.58,
+          "price_change_20d": -5.04,
+          "support": 598.57,
+          "resistance": 664.15,
+          "current_price": 637.9
+        }
+      },
+      "final_score": 68.9,
+      "score_detail": {
+        "theme": 100,
+        "chart": 53.0,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 68.9
+      },
+      "rank": 1
+    },
+    {
+      "ticker": "LSCC",
+      "name": "Lattice Semiconductor",
+      "theme": "반도체/AI",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 13309182789.09536,
+      "research": {
+        "ticker": "LSCC",
+        "name": "Lattice Semiconductor",
+        "theme": "반도체/AI",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "AI 최적화 FPGA 수요 증가 및 NVIDIA Halos 로봇 생태계 합류 (MarketBeat)",
+            "date": "2026-03",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "Nexus 및 Avant 등 신제품 라인의 마진 개선 및 매출 견인 (Simply Wall St)",
+            "date": "2026-04",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 부담",
+            "description": "광범위한 반도체 산업 대비 높은 P/E 멀티플로 인한 단기 주가 변동성 우려",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 실적 호조와 함께 NVIDIA 생태계 합류 소식이 전해지며 AI 특화 칩 수요에 대한 기대감이 커지고 있습니다. 주요 애널리스트들은 강력한 매수 의견과 목표가 상향을 제시했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "컨센서스 강력 매수 / 평균 목표주가 $102 ~ $116.50",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 52.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 52/100 (관망). 긍정: 상승추세 / 5일 +7.6% 추세 일치 / 20일 강세. 주의: 거래량 부진 — 관심 저조. 상승추세, RSI 55.",
+        "signals": [
+          "상승추세 / 5일 +7.6% 추세 일치 / 20일 강세"
+        ],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "상단 접근 — 과열 주의"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 15.0,
+            "max": 15,
+            "reason": "상승추세 / 5일 +7.6% 추세 일치 / 20일 강세"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+7.6% / 20d:+13.7%"
+          },
+          "support_resistance": {
+            "score": 2.0,
+            "max": 10,
+            "reason": "저항선(100.72) 부근 — 돌파 여부 관건"
+          }
+        },
+        "entry_condition": "지지선(85) 확인 후 진입 또는 저항선(101) 돌파 시",
+        "stop_loss": "83 (지지선 -3%)",
+        "target_price": "101 (저항선)",
+        "ticker": "LSCC",
+        "raw_indicators": {
+          "rsi": 55.0,
+          "rsi_signal": "중립",
+          "bb_pct": 0.794,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.86,
+          "trend": "uptrend",
+          "price_change_5d": 7.58,
+          "price_change_20d": 13.74,
+          "support": 85.32,
+          "resistance": 100.72,
+          "current_price": 97.24
+        }
+      },
+      "final_score": 68.6,
+      "score_detail": {
+        "theme": 100,
+        "chart": 52.0,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 68.6
+      },
+      "rank": 2
+    },
+    {
+      "ticker": "024060",
+      "name": "흥구석유",
+      "theme": "에너지/원유",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "024060",
+        "name": "흥구석유",
+        "theme": "에너지/원유",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "이란-이스라엘 갈등 등 중동 지정학적 리스크 심화로 인한 유가 급등에 단기 테마 형성",
+            "date": "2026년 4월 2일~3일",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "유가 급등에 따른 외국인(3만 주) 및 기관(6.4만 주)의 동반 순매수 유입",
+            "date": "2026년 4월 첫째 주",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "펀더멘털 약화",
+            "description": "2025년 영업적자 전환 등 본업 실적 부진에 따른 급락 리스크",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "실적 부진에도 불구하고 중동 긴장감 고조에 따른 대표 석유 테마주로 엮이며 단기 급등세를 보이고 있습니다. 펀더멘털보다는 대외 변수에 의한 테마성 흐름이 강합니다.",
+        "momentum": "bullish",
+        "analyst_view": "단기 목표가 25,000원 ~ 30,000원 (시장 전문가 의견, 공식 리포트 부재)",
+        "score_hint": 65
+      },
+      "score": 95.0,
+      "score_breakdown": {
+        "base": 65,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 50/100 (관망). 긍정: 골든크로스 임박 — 매수 준비. 횡보, RSI 55.",
+        "signals": [
+          "골든크로스 임박 — 매수 준비"
+        ],
+        "warnings": [],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 11.0,
+            "max": 15,
+            "reason": "골든크로스 임박 — 매수 준비"
+          },
+          "volume": {
+            "score": 8.0,
+            "max": 15,
+            "reason": "거래량 급증"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보 / 20일 약세"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "단기 과열 (5일 >> 20일)"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(18,420) 확인 후 진입 또는 저항선(26,000) 돌파 시",
+        "stop_loss": "17,867 (지지선 -3%)",
+        "target_price": "26,000 (저항선)",
+        "ticker": "024060",
+        "raw_indicators": {
+          "rsi": 55.2,
+          "rsi_signal": "중립",
+          "bb_pct": 0.663,
+          "macd_cross": "approaching_golden",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 2.87,
+          "trend": "sideways",
+          "price_change_5d": 18.76,
+          "price_change_20d": -11.78,
+          "support": 18420.0,
+          "resistance": 26000.0,
+          "current_price": 22850.0
+        }
+      },
+      "final_score": 68.0,
+      "score_detail": {
+        "theme": 100,
+        "chart": 50.0,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 68.0
+      },
+      "rank": 3
+    },
+    {
+      "ticker": "UCTT",
+      "name": "Ultra Clean Holdings",
+      "theme": "반도체/AI",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 2879519370.6938553,
+      "research": {
+        "ticker": "UCTT",
+        "name": "Ultra Clean Holdings",
+        "theme": "반도체/AI",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "UCT 3.0 전략에 따른 AI 반도체 인프라 제조 역량 확장 및 수요 증가 수혜 (AnaChart)",
+            "date": "2026-04",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "Oppenheimer, Needham 등 다수 기관의 투자의견 및 목표주가 대폭 상향",
+            "date": "2026-04",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "주가 단기 급등",
+            "description": "최근 1년간 245% 급등함에 따른 차익 실현 매물 출회 및 단기 변동성 확대 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "UCT 3.0 전략을 바탕으로 AI 인프라 확장에 성공적으로 대응하며 가파른 성장세를 보이고 있습니다. 강력한 펀더멘탈을 이유로 월가의 목표가 상향이 이어지고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "컨센서스 강력 매수 / 평균 목표주가 $81.25",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 55.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 55/100 (관망). 긍정: 골든크로스 — 강한 매수 신호, 상승추세 / 5일 +7.5% 추세 일치 / 20일 강세. 주의: 거래 극히 부진. 상승추세, RSI 57.",
+        "signals": [
+          "골든크로스 — 강한 매수 신호",
+          "상승추세 / 5일 +7.5% 추세 일치 / 20일 강세"
+        ],
+        "warnings": [
+          "거래 극히 부진"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "상단 접근 — 과열 주의"
+          },
+          "macd": {
+            "score": 15.0,
+            "max": 15,
+            "reason": "골든크로스 — 강한 매수 신호"
+          },
+          "volume": {
+            "score": 0.0,
+            "max": 15,
+            "reason": "거래 극히 부진"
+          },
+          "trend": {
+            "score": 15.0,
+            "max": 15,
+            "reason": "상승추세 / 5일 +7.5% 추세 일치 / 20일 강세"
+          },
+          "momentum": {
+            "score": 9.0,
+            "max": 10,
+            "reason": "단기 과매도 (5일 << 20일)"
+          },
+          "support_resistance": {
+            "score": 2.0,
+            "max": 10,
+            "reason": "저항선(65.27) 부근 — 돌파 여부 관건"
+          }
+        },
+        "entry_condition": "지지선(53) 확인 후 진입 또는 저항선(65) 돌파 시",
+        "stop_loss": "51 (지지선 -3%)",
+        "target_price": "65 (저항선)",
+        "ticker": "UCTT",
+        "raw_indicators": {
+          "rsi": 56.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.764,
+          "macd_cross": "golden",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.4,
+          "trend": "uptrend",
+          "price_change_5d": 7.53,
+          "price_change_20d": 25.2,
+          "support": 52.9,
+          "resistance": 65.27,
+          "current_price": 63.3
+        }
+      },
+      "final_score": 67.5,
+      "score_detail": {
+        "theme": 100,
+        "chart": 55.0,
+        "supply_demand": 55.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 67.5
+      },
+      "rank": 4
+    },
+    {
+      "ticker": "042700",
+      "name": "한미반도체",
+      "theme": "반도체/AI",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "theme": "반도체/AI",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "곽동신 회장 책임경영 일환으로 30억 원 규모 자사주 추가 장내 매수 예정",
+            "date": "2026년 4월 27일 예정",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "HBM4 양산 본격화에 따라 TC 본더 및 하이브리드 본더 장비 독보적 시장 지배력 부각",
+            "date": "2026년 4월 초",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "HBM4 장비 수주 및 신규 공장 가동으로 2026년 매출 목표 2조 원 상향 조정",
+            "date": "2026년 4월 초",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "단기 실적 공백",
+            "description": "고객사의 HBM4 공정 전환기로 인한 1분기 일시적 장비 발주 이월 우려",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "HBM4 세대 전환을 앞두고 하이브리드 본더 경쟁력이 부각되며 중장기 성장 기대감이 높습니다. 대주주의 지속적인 자사주 매입이 투심을 방어하는 가운데 외국인-기관 간 수급 공방이 진행 중입니다.",
+        "momentum": "bullish",
+        "analyst_view": "목표주가 300,000원 (BofA 등 글로벌 IB 및 국내 주요 증권사)",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 55.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 55/100 (관망). 긍정: 하단~중간 — 상승 여력, 골든크로스 임박 — 매수 준비. 주의: 거래량 부진 — 관심 저조. 횡보, RSI 44.",
+        "signals": [
+          "하단~중간 — 상승 여력",
+          "골든크로스 임박 — 매수 준비"
+        ],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 10.0,
+            "max": 15,
+            "reason": "하단~중간 — 상승 여력"
+          },
+          "macd": {
+            "score": 11.0,
+            "max": 15,
+            "reason": "골든크로스 임박 — 매수 준비"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보 / 20일 약세"
+          },
+          "momentum": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "단기 과열 (5일 >> 20일)"
+          },
+          "support_resistance": {
+            "score": 10.0,
+            "max": 10,
+            "reason": "지지선(251000.0) 근접 — 반등 기대"
+          }
+        },
+        "entry_condition": "지지선(251,000) 확인 후 진입 또는 저항선(317,000) 돌파 시",
+        "stop_loss": "243,470 (지지선 -3%)",
+        "target_price": "317,000 (저항선)",
+        "ticker": "042700",
+        "raw_indicators": {
+          "rsi": 44.1,
+          "rsi_signal": "중립",
+          "bb_pct": 0.156,
+          "macd_cross": "approaching_golden",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.76,
+          "trend": "sideways",
+          "price_change_5d": 1.0,
+          "price_change_20d": -21.76,
+          "support": 251000.0,
+          "resistance": 317000.0,
+          "current_price": 253500.0
+        }
+      },
+      "final_score": 66.5,
+      "score_detail": {
+        "theme": 100,
+        "chart": 55.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 66.5
+      },
+      "rank": 5
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "theme": "반도체/AI",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 95761924277.99435,
+      "research": {
+        "ticker": "MRVL",
+        "name": "Marvell Technology",
+        "theme": "반도체/AI",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "엔비디아로부터 20억 달러 지분 투자 유치 및 AI 데이터센터 인프라 통합 파트너십 구축 (perplexity.ai)",
+            "date": "2026-03",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "최근 분기 사상 최대 매출 22.2억 달러 기록 및 데이터센터 매출 비중 80% 육박 (stocktitan.net)",
+            "date": "2026-03",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "경쟁 리스크",
+            "description": "AI 커스텀 실리콘 및 옵티컬 스위칭 시장에서의 경쟁 심화",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "엔비디아의 대규모 투자와 파트너십 체결, 역대급 실적 달성으로 AI 데이터센터 핵심 수혜주로 부상하며 강력한 모멘텀 형성 중.",
+        "momentum": "bullish",
+        "analyst_view": "Strong Buy (목표주가 평균 $117.24)",
+        "score_hint": 95
+      },
+      "score": 125.0,
+      "score_breakdown": {
+        "base": 95,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 45.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 45/100 (관망). 긍정: 상승추세 / 5일 +15.4% 추세 일치 / 20일 강세. 주의: 상단 돌파 — 극과열. 상승추세, RSI 69.",
+        "signals": [
+          "상승추세 / 5일 +15.4% 추세 일치 / 20일 강세"
+        ],
+        "warnings": [
+          "상단 돌파 — 극과열"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 6.0,
+            "max": 20,
+            "reason": "과매수 접근 — 주의"
+          },
+          "bollinger": {
+            "score": 0.0,
+            "max": 15,
+            "reason": "상단 돌파 — 극과열"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 15.0,
+            "max": 15,
+            "reason": "상승추세 / 5일 +15.4% 추세 일치 / 20일 강세"
+          },
+          "momentum": {
+            "score": 8.0,
+            "max": 10,
+            "reason": "5d:+15.4% / 20d:+22.3%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(88) 확인 후 진입 또는 저항선(110) 돌파 시",
+        "stop_loss": "85 (지지선 -3%)",
+        "target_price": "110 (저항선)",
+        "ticker": "MRVL",
+        "raw_indicators": {
+          "rsi": 69.4,
+          "rsi_signal": "중립",
+          "bb_pct": 1.059,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 1.0,
+          "trend": "uptrend",
+          "price_change_5d": 15.42,
+          "price_change_20d": 22.26,
+          "support": 87.62,
+          "resistance": 109.51,
+          "current_price": 109.51
+        }
+      },
+      "final_score": 66.5,
+      "score_detail": {
+        "theme": 100,
+        "chart": 45.0,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 66.5
+      },
+      "rank": 6
+    },
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "theme": "반도체/AI",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "theme": "반도체/AI",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "1분기 매출 133조원, 영업이익 57.2조원으로 사상 첫 분기 매출 100조 돌파 및 역대급 어닝 서프라이즈",
+            "date": "2026년 4월 7일",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "HBM4(6세대) 세계 최초 양산 공급 개시로 AI 메모리 반도체 주도권 탈환",
+            "date": "2026년 4월 초",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "실적 발표 직후 장중 20만 2,500원을 기록하며 사상 첫 '20만 전자' 달성",
+            "date": "2026년 4월 7일",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "대외 변수",
+            "description": "중동 분쟁 등 지정학적 리스크로 인한 환율 및 유가 변동성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "반도체 업황 회복과 AI 수요 폭증으로 1분기 사상 최대 실적을 달성, 주가가 20만원을 돌파했습니다. 증권가는 HBM4 주도권 강화를 이유로 목표가를 일제히 상향 중입니다.",
+        "momentum": "bullish",
+        "analyst_view": "목표주가 250,000원 ~ 360,000원 (KB증권 36만원 제시 등)",
+        "score_hint": 95
+      },
+      "score": 125.0,
+      "score_breakdown": {
+        "base": 95,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 54.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 54/100 (관망). 긍정: 골든크로스 — 강한 매수 신호. 횡보, RSI 56.",
+        "signals": [
+          "골든크로스 — 강한 매수 신호"
+        ],
+        "warnings": [],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "상단 접근 — 과열 주의"
+          },
+          "macd": {
+            "score": 15.0,
+            "max": 15,
+            "reason": "골든크로스 — 강한 매수 신호"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 7.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 8.0,
+            "max": 10,
+            "reason": "5d:+17.5% / 20d:+4.6%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(167,200) 확인 후 진입 또는 저항선(208,500) 돌파 시",
+        "stop_loss": "162,184 (지지선 -3%)",
+        "target_price": "208,500 (저항선)",
+        "ticker": "005930",
+        "raw_indicators": {
+          "rsi": 55.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.721,
+          "macd_cross": "golden",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 1.13,
+          "trend": "sideways",
+          "price_change_5d": 17.52,
+          "price_change_20d": 4.58,
+          "support": 167200.0,
+          "resistance": 208500.0,
+          "current_price": 196500.0
+        }
+      },
+      "final_score": 66.2,
+      "score_detail": {
+        "theme": 100,
+        "chart": 54.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 66.2
+      },
+      "rank": 7
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
+      "theme": "방위산업/드론",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 99303192281.99103,
+      "research": {
+        "ticker": "NOC",
+        "name": "Northrop Grumman",
+        "theme": "방위산업/드론",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "자율형 드론 'Lumberjack' 시연 성공 (미 육군 훈련)",
+            "date": "2026-04-01",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "NATO 국방비 증액으로 국제 매출 전년비 32% 성장세 유지",
+            "date": "2026-04-07",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "주가 변동성",
+            "description": "연초 급등 이후 최근 1개월간 약 7%의 기술적 가격 조정 발생",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "최근 자율형 무인기 'Lumberjack' 시연을 성공적으로 마치며 AI 적용 무기 체계 입지를 강화했습니다. 4월 21일 1분기 실적 발표를 앞두고 있으며 국제 방산 수요 증가를 바탕으로 강력한 성장 모멘텀이 유지되고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표가 $708.65 (주요 기관 $750~$815 제시), 완만한 매수 의견 지배적",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 54.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 54/100 (관망). 긍정: 골든크로스 임박 — 매수 준비. 횡보, RSI 47.",
+        "signals": [
+          "골든크로스 임박 — 매수 준비"
+        ],
+        "warnings": [],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 8.0,
+            "max": 15,
+            "reason": "중간 — 중립"
+          },
+          "macd": {
+            "score": 11.0,
+            "max": 15,
+            "reason": "골든크로스 임박 — 매수 준비"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "5d:+2.5% / 20d:-8.0%"
+          },
+          "support_resistance": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "중간 구간"
+          }
+        },
+        "entry_condition": "지지선(672) 확인 후 진입 또는 저항선(747) 돌파 시",
+        "stop_loss": "651 (지지선 -3%)",
+        "target_price": "747 (저항선)",
+        "ticker": "NOC",
+        "raw_indicators": {
+          "rsi": 46.8,
+          "rsi_signal": "중립",
+          "bb_pct": 0.37,
+          "macd_cross": "approaching_golden",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 1.06,
+          "trend": "sideways",
+          "price_change_5d": 2.47,
+          "price_change_20d": -7.98,
+          "support": 671.59,
+          "resistance": 747.34,
+          "current_price": 695.79
+        }
+      },
+      "final_score": 66.2,
+      "score_detail": {
+        "theme": 100,
+        "chart": 54.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 66.2
+      },
+      "rank": 8
+    },
+    {
+      "ticker": "REI",
+      "name": "Ring Energy",
+      "theme": "에너지/원유",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 326656359.6183157,
+      "research": {
+        "ticker": "REI",
+        "name": "Ring Energy",
+        "theme": "에너지/원유",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "2025년 $50.1M 잉여현금흐름 창출 및 25분기 연속 흑자 달성 (tipranks)",
+            "date": "2026-03",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "매장량 전년대비 14% 증가하여 153.3 MMBoe 기록 (tipranks)",
+            "date": "2026-03",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "시장 리스크",
+            "description": "유가 하락 시 재무 개선 및 부채 감축 속도 지연 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "2025년 호실적 및 25분기 연속 잉여현금흐름 흑자를 기록했으며, 2026년에는 부채 감축과 재무 구조 개선에 집중할 계획임.",
+        "momentum": "bullish",
+        "analyst_view": "Moderate Buy (목표주가 $2.50)",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 43.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 43/100 (관망). 긍정: 골든크로스 임박 — 매수 준비. 주의: 거래량 부진 — 관심 저조. 상승추세, RSI 57.",
+        "signals": [
+          "골든크로스 임박 — 매수 준비"
+        ],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "상단 접근 — 과열 주의"
+          },
+          "macd": {
+            "score": 11.0,
+            "max": 15,
+            "reason": "골든크로스 임박 — 매수 준비"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "상승추세"
+          },
+          "momentum": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "5d:-1.3% / 20d:+1.3%"
+          },
+          "support_resistance": {
+            "score": 2.0,
+            "max": 10,
+            "reason": "저항선(1.61) 부근 — 돌파 여부 관건"
+          }
+        },
+        "entry_condition": "지지선(1) 확인 후 진입 또는 저항선(2) 돌파 시",
+        "stop_loss": "1 (지지선 -3%)",
+        "target_price": "2 (저항선)",
+        "ticker": "REI",
+        "raw_indicators": {
+          "rsi": 56.7,
+          "rsi_signal": "중립",
+          "bb_pct": 0.735,
+          "macd_cross": "approaching_golden",
+          "macd_hist_trend": "flat",
+          "volume_ratio": 0.76,
+          "trend": "uptrend",
+          "price_change_5d": -1.27,
+          "price_change_20d": 1.3,
+          "support": 1.4,
+          "resistance": 1.61,
+          "current_price": 1.56
+        }
+      },
+      "final_score": 65.9,
+      "score_detail": {
+        "theme": 100,
+        "chart": 43.0,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 65.9
+      },
+      "rank": 9
+    },
+    {
+      "ticker": "SITS",
+      "name": "SiTime",
+      "theme": "반도체/AI",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 9618819.835002618,
+      "research": {
+        "ticker": "SITS",
+        "name": "SiTime",
+        "theme": "반도체/AI",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "지정학적 리스크 완화(미-이란 휴전 논의) 및 AI 인프라 수요 기대감으로 주가 약 5~6% 급등 (perplexity.ai)",
+            "date": "2026-04-07",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "S&P SmallCap 600에서 S&P MidCap 400 지수로 승격되어 패시브 및 기관 자금 유입 기대 (perplexity.ai)",
+            "date": "2026-03-31",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "르네사스(Renesas) 타이밍 사업부 15억 달러 규모 인수 발표로 향후 매출 확대 가속화 전망 (stockstotrade.com)",
+            "date": "2026-02",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "AI 및 데이터센터(CED) 수요 폭증으로 시장 예상치를 상회하는 분기 어닝 서프라이즈 달성 (investing.com)",
+            "date": "2026-02",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "수급 변동성 리스크",
+            "description": "글로벌 대형 기관(블랙록, 뱅가드 등) 보유 비중이 약 85~86%로 매우 높아, 이들의 포트폴리오 비중 조절 시 단기 주가 등락이 매우 클 수 있음",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 S&P MidCap 400 지수 편입 및 AI 인프라 확장에 따른 호실적 발표로 시장의 강력한 매수세가 유입되고 있습니다. 4월 7일에는 지정학적 긴장 완화 소식과 맞물려 주가가 단기 급등하며 AI 및 반도체 섹터 내 주도주로서의 긍정적 모멘텀을 확고히 하고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "매수(Moderate Buy) ~ 강력 매수(Strong Buy), 평균 목표주가 약 $409~$452 수준",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 51.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 51/100 (관망). 횡보, RSI 48.",
+        "signals": [],
+        "warnings": [],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 7.0,
+            "max": 15,
+            "reason": "횡보 / 20일 강세"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "단기 과매도 (5일 << 20일)"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(0) 확인 후 진입 또는 저항선(0) 돌파 시",
+        "stop_loss": "0 (지지선 -3%)",
+        "target_price": "0 (저항선)",
+        "ticker": "SITS",
+        "raw_indicators": {
+          "rsi": 48.2,
+          "rsi_signal": "중립",
+          "bb_pct": 0.517,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 1.41,
+          "trend": "sideways",
+          "price_change_5d": 0.0,
+          "price_change_20d": 15.38,
+          "support": 0.025,
+          "resistance": 0.0332,
+          "current_price": 0.03
+        }
+      },
+      "final_score": 65.3,
+      "score_detail": {
+        "theme": 100,
+        "chart": 51.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 65.3
+      },
+      "rank": 10
+    },
+    {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "theme": "반도체/AI",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "039030",
+        "name": "이오테크닉스",
+        "theme": "반도체/AI",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "낸드 고단화 및 HBM 시장 확대로 레이저 커팅 및 어닐링 장비 수요 급증 (edaily, bondweb 등)",
+            "date": "2026-04-07",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "외국인 및 기관의 강력한 동반 매수세 (4월 6일 기준 외국인 약 68억 순매수)",
+            "date": "2026-04-06",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "단기 변동성",
+            "description": "전고점 부근 돌파 시도에 따른 단기 차익 실현 매물 출회 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "낸드 400단 고단화 및 HBM 수혜로 장비 수요가 크게 늘며 실적 레벨업이 기대됨. 외국인과 기관의 강력한 수급이 유입되며 증권가 목표가 상향 릴레이 중.",
+        "momentum": "bullish",
+        "analyst_view": "435,000원 ~ 485,000원 (최고 550,000원 제시)",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 50/100 (관망). 긍정: 골든크로스 임박 — 매수 준비. 주의: 거래량 부진 — 관심 저조. 횡보, RSI 51.",
+        "signals": [
+          "골든크로스 임박 — 매수 준비"
+        ],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 11.0,
+            "max": 15,
+            "reason": "골든크로스 임박 — 매수 준비"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+7.2% / 20d:-1.7%"
+          },
+          "support_resistance": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "중간 구간"
+          }
+        },
+        "entry_condition": "지지선(384,500) 확인 후 진입 또는 저항선(446,500) 돌파 시",
+        "stop_loss": "372,965 (지지선 -3%)",
+        "target_price": "446,500 (저항선)",
+        "ticker": "039030",
+        "raw_indicators": {
+          "rsi": 51.1,
+          "rsi_signal": "중립",
+          "bb_pct": 0.534,
+          "macd_cross": "approaching_golden",
+          "macd_hist_trend": "flat",
+          "volume_ratio": 0.59,
+          "trend": "sideways",
+          "price_change_5d": 7.15,
+          "price_change_20d": -1.67,
+          "support": 384500.0,
+          "resistance": 446500.0,
+          "current_price": 412000.0
+        }
+      },
+      "final_score": 65.0,
+      "score_detail": {
+        "theme": 100,
+        "chart": 50.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 65.0
+      },
+      "rank": 11
+    },
+    {
+      "ticker": "XOM",
+      "name": "ExxonMobil",
+      "theme": "에너지/원유",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 680724124971.0853,
+      "research": {
+        "ticker": "XOM",
+        "name": "ExxonMobil",
+        "theme": "에너지/원유",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "중동 지정학적 긴장에 따른 유가 급등 및 석유주 프리미엄 부각 (주요 언론)",
+            "date": "2026-04",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "카타르 드론 공격으로 인한 글로벌 헬륨 공급 차질의 반사이익 수혜주로 지목 (UBS)",
+            "date": "2026-04-06",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "유가 변동성",
+            "description": "중동 분쟁 완화 등 지정학적 리스크 해소 시 브렌트유 가격 하락에 따른 밸류에이션 하락 위험",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "최근 중동발 긴장 고조로 유가가 급등하며 강력한 주가 상승세를 보이고 있습니다. 또한 헬륨 공급 차질의 수혜주로 꼽히며 씨티그룹, 모건스탠리 등 다수 투자은행에서 목표주가를 170~180달러대로 잇달아 상향 조정했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "투자의견 중립~매수, 컨센서스 목표주가 $161.00 (최고 $195.00)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 40.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 40/100 (관망). 주의: 거래량 부진 — 관심 저조. 상승추세, RSI 58.",
+        "signals": [],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "크로스 없고 히스토그램 하락"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "상승추세"
+          },
+          "momentum": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "5d:-4.5% / 20d:+8.0%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(148) 확인 후 진입 또는 저항선(171) 돌파 시",
+        "stop_loss": "144 (지지선 -3%)",
+        "target_price": "171 (저항선)",
+        "ticker": "XOM",
+        "raw_indicators": {
+          "rsi": 57.7,
+          "rsi_signal": "중립",
+          "bb_pct": 0.623,
+          "macd_cross": "none",
+          "macd_hist_trend": "falling",
+          "volume_ratio": 0.64,
+          "trend": "uptrend",
+          "price_change_5d": -4.46,
+          "price_change_20d": 8.04,
+          "support": 148.13,
+          "resistance": 171.47,
+          "current_price": 163.37
+        }
+      },
+      "final_score": 65.0,
+      "score_detail": {
+        "theme": 100,
+        "chart": 40.0,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 65.0
+      },
+      "rank": 12
+    },
+    {
+      "ticker": "MGY",
+      "name": "Magnolia Oil",
+      "theme": "에너지/원유",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 5938032465.679178,
+      "research": {
+        "ticker": "MGY",
+        "name": "Magnolia Oil",
+        "theme": "에너지/원유",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "2026년 연간 주당순이익(EPS) 컨센서스가 $1.44에서 $2.29로 급격히 상향 조정 (Zacks)",
+            "date": "2026-03",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "Zacks 리서치 등에서 단기 가격 모멘텀과 실적 개선을 근거로 '강력 매수'로 등급 상향",
+            "date": "2026-03-26",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "내부자 매도",
+            "description": "최근 CEO를 포함한 일부 경영진의 주식 매도 움직임 관측",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "수익성이 높은 자산을 바탕으로 강력한 실적을 내며 연간 이익 전망치가 대폭 상향되었습니다. 실적 모멘텀에 힘입어 다수 기관에서 투자 의견을 매수로 높이고 있으나, 일부 내부자 매도가 포착되어 주의가 필요합니다.",
+        "momentum": "bullish",
+        "analyst_view": "투자의견 매수(Moderate Buy), 컨센서스 목표주가 $30.55~$32.00",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 40.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 40/100 (관망). 주의: 거래량 부진 — 관심 저조. 상승추세, RSI 60.",
+        "signals": [],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "크로스 없고 히스토그램 하락"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "상승추세"
+          },
+          "momentum": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "5d:-4.0% / 20d:+6.3%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(29) 확인 후 진입 또는 저항선(32) 돌파 시",
+        "stop_loss": "28 (지지선 -3%)",
+        "target_price": "32 (저항선)",
+        "ticker": "MGY",
+        "raw_indicators": {
+          "rsi": 60.5,
+          "rsi_signal": "중립",
+          "bb_pct": 0.625,
+          "macd_cross": "none",
+          "macd_hist_trend": "falling",
+          "volume_ratio": 0.54,
+          "trend": "uptrend",
+          "price_change_5d": -4.02,
+          "price_change_20d": 6.3,
+          "support": 28.75,
+          "resistance": 32.36,
+          "current_price": 31.06
+        }
+      },
+      "final_score": 65.0,
+      "score_detail": {
+        "theme": 100,
+        "chart": 40.0,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 65.0
+      },
+      "rank": 13
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "theme": "반도체/AI",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 4317540185165.4053,
+      "research": {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "theme": "반도체/AI",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "GTC 2026에서 차세대 'Vera Rubin' 플랫폼 공개 및 2026년 하반기 출시 예정 (tikr.com)",
+            "date": "2026-03",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "Marvell Technology에 20억 달러 투자 및 NVLink 라이선스 파트너십 체결 (mexc.com)",
+            "date": "2026-03",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "지정학적 리스크",
+            "description": "미국 수출 통제 강화로 인해 최근 분기 중국 매출 0원 기록",
+            "severity": "high"
+          },
+          {
+            "type": "시장 리스크",
+            "description": "빅테크 기업들의 AI CAPEX 지출 정점 우려 및 금리 인하 지연",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "차세대 Vera Rubin 칩 공개와 타 칩 메이커와의 파트너십 확대로 AI 리더십을 강화 중이나, 중국발 매출 타격 및 매크로 우려로 주가는 횡보 중.",
+        "momentum": "neutral",
+        "analyst_view": "Strong Buy (목표주가 평균 $265.97 ~ $268.22)",
+        "score_hint": 85
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 46.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 46/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 49.",
+        "signals": [],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+6.0% / 20d:-0.1%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(165) 확인 후 진입 또는 저항선(186) 돌파 시",
+        "stop_loss": "160 (지지선 -3%)",
+        "target_price": "186 (저항선)",
+        "ticker": "NVDA",
+        "raw_indicators": {
+          "rsi": 49.4,
+          "rsi_signal": "중립",
+          "bb_pct": 0.501,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.61,
+          "trend": "sideways",
+          "price_change_5d": 6.04,
+          "price_change_20d": -0.1,
+          "support": 165.17,
+          "resistance": 186.03,
+          "current_price": 177.64
+        }
+      },
+      "final_score": 63.8,
+      "score_detail": {
+        "theme": 100,
+        "chart": 46.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 63.8
+      },
+      "rank": 14
+    },
+    {
+      "ticker": "ACLS",
+      "name": "Axcelis Technologies",
+      "theme": "반도체/AI",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 2996172075.0,
+      "research": {
+        "ticker": "ACLS",
+        "name": "Axcelis Technologies",
+        "theme": "반도체/AI",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "Veeco와의 합병 추진으로 AI 및 전동화 시장 내 입지 강화 기대 (Axcelis PR)",
+            "date": "2026-04",
+            "impact": "high"
+          },
+          {
+            "type": "중립",
+            "content": "David Ryzhik 임시 CFO 선임 등 리더십 전환 진행 (StocksToTrade)",
+            "date": "2026-03-24",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "거시경제 및 수요 혼재",
+            "description": "전력 및 일반 성숙 공정 시장의 혼재된 수요 환경과 유가 상승 등 거시경제적 압박",
+            "severity": "medium"
+          },
+          {
+            "type": "내부자 매도",
+            "description": "CEO의 10b5-1 계획에 따른 주식 일부 매도 진행",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "Veeco와의 합병 절차가 진행되며 AI 인프라 확장에 따른 시너지 기대감이 존재합니다. 다만 메모리 외 일부 시장의 수요 둔화 가능성으로 엇갈린 전망이 공존하고 있습니다.",
+        "momentum": "neutral",
+        "analyst_view": "컨센서스 매수 및 보유 혼재 / 평균 목표주가 $101.50 ~ $107.25",
+        "score_hint": 70
+      },
+      "score": 90.0,
+      "score_breakdown": {
+        "base": 70,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      },
+      "final_score": 63.5,
+      "score_detail": {
+        "theme": 95,
+        "chart": 50,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 63.5
+      },
+      "rank": 15
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy",
+      "theme": "에너지/원유",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 30855251032.465363,
+      "research": {
+        "ticker": "DVN",
+        "name": "Devon Energy",
+        "theme": "에너지/원유",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "Coterra Energy와의 580억 달러 규모 대형 합병 반독점 심사 통과 (2분기 마무리 예정)",
+            "date": "2026-04",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "100% 미국 기반 자산 포트폴리오로 지정학적 리스크 회피 매력 부각 (월가 보고서)",
+            "date": "2026-04",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "정책/시장 리스크",
+            "description": "합병 이후 통합 과정에서의 불확실성 및 거시경제 둔화에 따른 원유 수요 감소 우려",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "Coterra Energy와의 초대형 합병이 임박한 가운데, 100% 미국 내 생산 포트폴리오가 중동 리스크의 완벽한 헷지 수단으로 주목받고 있습니다. 이에 따라 최근 다수 기관에서 목표주가를 60달러 이상으로 일제히 상향했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "투자의견 매수(Moderate Buy), 컨센서스 목표주가 $51.36~$58.00 (최고 $67.00)",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 41.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 41/100 (관망). 긍정: 상승추세 / 20일 강세. 주의: 거래 극히 부진. 상승추세, RSI 61.",
+        "signals": [
+          "상승추세 / 20일 강세"
+        ],
+        "warnings": [
+          "거래 극히 부진"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "크로스 없고 히스토그램 하락"
+          },
+          "volume": {
+            "score": 0.0,
+            "max": 15,
+            "reason": "거래 극히 부진"
+          },
+          "trend": {
+            "score": 11.0,
+            "max": 15,
+            "reason": "상승추세 / 20일 강세"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "단기 과매도 (5일 << 20일)"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(43) 확인 후 진입 또는 저항선(52) 돌파 시",
+        "stop_loss": "42 (지지선 -3%)",
+        "target_price": "52 (저항선)",
+        "ticker": "DVN",
+        "raw_indicators": {
+          "rsi": 60.7,
+          "rsi_signal": "중립",
+          "bb_pct": 0.634,
+          "macd_cross": "none",
+          "macd_hist_trend": "falling",
+          "volume_ratio": 0.48,
+          "trend": "uptrend",
+          "price_change_5d": -4.65,
+          "price_change_20d": 12.21,
+          "support": 43.4729,
+          "resistance": 52.07,
+          "current_price": 49.65
+        }
+      },
+      "final_score": 63.3,
+      "score_detail": {
+        "theme": 100,
+        "chart": 41.0,
+        "supply_demand": 55.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 63.3
+      },
+      "rank": 16
+    },
+    {
+      "ticker": "010950",
+      "name": "에쓰오일",
+      "theme": "에너지/원유",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "010950",
+        "name": "에쓰오일",
+        "theme": "에너지/원유",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "최대주주 사우디 아람코 지원으로 중동 리스크 속에서도 사우디산 원유 안정적 우회 공급 확보",
+            "date": "2026년 4월 초",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "샤힌 프로젝트 공정률 95% 달성, 6월 기계적 완공 임박으로 수익 구조 다변화 기대",
+            "date": "2026년 3월 말",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "국제 유가 상승 및 정제마진 개선으로 1분기 영업이익 컨센서스 상회 전망",
+            "date": "2026년 4월",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "정부 규제",
+            "description": "정부의 석유제품 최고가격제 도입 논의 및 사후정산 폐지 등 규제로 인한 마진 축소 우려",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "중동발 위기에도 아람코를 통한 안정적 원유 수급과 1분기 실적 호조가 기대됩니다. 샤힌 프로젝트 완공이라는 대형 모멘텀이 있으나, 정부의 유가 규제 정책이 주가의 변수로 작용 중입니다.",
+        "momentum": "bullish",
+        "analyst_view": "평균 119,500원 (증권사별 7.1만원~14.7만원 밴드)",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 44.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 44/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 53.",
+        "signals": [],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "상단 접근 — 과열 주의"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+9.0% / 20d:-2.6%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(105,300) 확인 후 진입 또는 저항선(118,100) 돌파 시",
+        "stop_loss": "102,141 (지지선 -3%)",
+        "target_price": "118,100 (저항선)",
+        "ticker": "010950",
+        "raw_indicators": {
+          "rsi": 52.7,
+          "rsi_signal": "중립",
+          "bb_pct": 0.761,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.72,
+          "trend": "sideways",
+          "price_change_5d": 9.02,
+          "price_change_20d": -2.63,
+          "support": 105300.0,
+          "resistance": 118100.0,
+          "current_price": 114800.0
+        }
+      },
+      "final_score": 63.2,
+      "score_detail": {
+        "theme": 100,
+        "chart": 44.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0,
+        "weighted_sum": 63.2
+      },
+      "rank": 17
+    }
+  ],
+  "themes": {
+    "analysis_date": "2026년 04월 07일",
+    "market_summary": "삼성전자 사상 최대 실적(영업이익 57.2조)이 KOSPI를 견인하는 동시에 트럼프의 이란 최후통첩 시한(당일 오후 8시)이 만료되며 WTI $115·VIX 24의 지정학 긴장이 공존하는 '반도체 강세 + 에너지 리스크' 이중 구도. KOSDAQ은 -1.6% 급락하며 대형주 쏠림 현상이 뚜렷하고, 달러인덱스 100.1 수준에서 원자재 상단은 일부 제한적이나 공급 차질 우려가 실물 가격에 선반영 중. 지정학 이벤트 결과 확인 전까지 포지션 관리가 핵심.",
+    "themes": [
+      {
+        "theme_name": "에너지/원유",
+        "trading_type": "둘다",
+        "strength": "강",
+        "reason": "트럼프의 이란 호르무즈 해협 최후통첩 시한이 당일(4/7 오후 8시) 만료. 봉쇄 현실화 시 WTI 추가 급등 가능하며 이미 $115 고점 경신 중. 단기 이벤트 드리븐 단타 + 봉쇄 장기화 시 스윙 전환 구조. 미국 에너지 섹터 bullish 컨센서스 형성.",
+        "duration": "2~3일",
+        "sectors_kr": [
+          "정유",
+          "에너지화학"
+        ],
+        "sectors_us": [
+          "석유/가스 E&P",
+          "통합 오일메이저"
+        ],
+        "tickers_hint_kr": [
+          "에쓰오일(010950)",
+          "극동유화(014530)",
+          "흥구석유(024060)"
+        ],
+        "tickers_hint_us": [
+          "ExxonMobil(XOM)",
+          "Chevron(CVX)",
+          "Devon Energy(DVN)",
+          "Callon Petroleum(CPE)",
+          "Magnolia Oil(MGY)",
+          "Ring Energy(REI)",
+          "Vaalco Energy(EGY)"
+        ],
+        "risk": "최후통첩 이후 외교 타협 시 에너지 가격 급반락, 오버슈팅 되돌림 위험 매우 큼"
+      },
+      {
+        "theme_name": "반도체/AI",
+        "trading_type": "스윙",
+        "strength": "강",
+        "reason": "삼성전자 1Q 영업이익 57.2조(사상 최대) 발표로 HBM 업황 회복 시그널 확인. 장비·소재·부품주까지 밸류에이션 재평가 동반 기대. 미국에서도 AI 생산성 논의 확산으로 반도체 수요 내러티브 동시 강화. KOSPI 대형주 쏠림 장세에서 수급 집중 가능성 최상위.",
+        "duration": "1주일+",
+        "sectors_kr": [
+          "메모리반도체",
+          "반도체장비",
+          "IT부품"
+        ],
+        "sectors_us": [
+          "AI칩",
+          "반도체장비",
+          "파운드리"
+        ],
+        "tickers_hint_kr": [
+          "삼성전자(005930)",
+          "한미반도체(042700)",
+          "이오테크닉스(039030)"
+        ],
+        "tickers_hint_us": [
+          "NVIDIA(NVDA)",
+          "Taiwan Semiconductor(TSM)",
+          "Marvell Technology(MRVL)",
+          "Lattice Semiconductor(LSCC)",
+          "Axcelis Technologies(ACLS)",
+          "SiTime(SITS)",
+          "Ultra Clean Holdings(UCTT)"
+        ],
+        "risk": "실적 발표 후 '소문에 사고 뉴스에 팔자' 차익실현 매물, 지정학 악화 시 IT 투자심리 위축"
+      },
+      {
+        "theme_name": "방위산업/드론",
+        "trading_type": "둘다",
+        "strength": "강",
+        "reason": "이란-미국 군사충돌 임박 우려로 방산주에 리스크 프리미엄 유입 가속. 미사일·드론·전자전 장비 수요 급증 기대감과 함께 한국 방산의 우크라이나·중동 수출 모멘텀도 지속. 글로벌 방산 수주 사이클 상승세로 스윙 매매도 병행 가능.",
+        "duration": "2~3일",
+        "sectors_kr": [
+          "방위산업",
+          "드론/무인기"
+        ],
+        "sectors_us": [
+          "방위산업",
+          "항공우주"
+        ],
+        "tickers_hint_kr": [
+          "한화에어로스페이스(012450)",
+          "LIG넥스원(079550)",
+          "빅텍(065450)"
+        ],
+        "tickers_hint_us": [
+          "Lockheed Martin(LMT)",
+          "Northrop Grumman(NOC)",
+          "Kratos Defense(KTOS)",
+          "Mercury Systems(MRCY)",
+          "Ducommun(DCO)",
+          "Curtiss-Wright(CW)",
+          "Heico(HEI)"
+        ],
+        "risk": "외교 협상 타결 시 방산주 급락, 단기 이벤트성 매매 후 되돌림 위험"
+      },
+      {
+        "theme_name": "전력기기/전선",
+        "trading_type": "스윙",
+        "strength": "중",
+        "reason": "북미 데이터센터 전력 수요 급증에 따른 변압기·전선 수주 모멘텀 지속. AI 인프라 투자 확대와 전력망 노후화 교체 수요가 맞물린 구조적 성장 테마. 지정학 노이즈로 단기 조정 시 매수 기회로 활용 가능.",
+        "duration": "1주일+",
+        "sectors_kr": [
+          "전력설비",
+          "전선",
+          "변압기"
+        ],
+        "sectors_us": [
+          "전력인프라",
+          "전기설비"
+        ],
+        "tickers_hint_kr": [
+          "현대일렉트릭(267260)",
+          "제룡전기(033100)",
+          "일진전기(103590)"
+        ],
+        "tickers_hint_us": [
+          "Eaton(ETN)",
+          "Quanta Services(PWR)",
+          "MYR Group(MYRG)",
+          "Atkore(ATKR)",
+          "nVent Electric(NVT)",
+          "Preformed Line Products(PLPC)",
+          "Argan(AGX)"
+        ],
+        "risk": "수주 기대 선반영으로 밸류에이션 부담, 금리 상승 지속 시 설비투자 심리 위축 가능"
+      },
+      {
+        "theme_name": "비철금속/알루미늄",
+        "trading_type": "단타",
+        "strength": "중",
+        "reason": "중동 생산시설 피격으로 알루미늄·구리 등 비철금속 가격 급등세 지속. 공급 차질이 실물 가격에 즉각 반영되는 단계로 단기 모멘텀 유효. 에너지 가격 강세가 생산비용 부담으로도 작용하므로 선별적 접근 필요.",
+        "duration": "2~3일",
+        "sectors_kr": [
+          "비철금속",
+          "알루미늄 가공"
+        ],
+        "sectors_us": [
+          "비철금속",
+          "원자재"
+        ],
+        "tickers_hint_kr": [
+          "고려아연(010130)",
+          "알루코(001380)",
+          "조일알미늄(006840)"
+        ],
+        "tickers_hint_us": [
+          "Alcoa(AA)",
+          "Rio Tinto(RIO)",
+          "Century Aluminum(CENX)",
+          "Kaiser Aluminum(KALU)",
+          "Arconic(ARNC)",
+          "Constellium(CSTM)",
+          "Materion(MTRN)"
+        ],
+        "risk": "지정학 리스크 완화 시 공급 우려 해소로 가격 급반락, 단타 성격 강해 보유 기간 관리 필수"
+      },
+      {
+        "theme_name": "금/귀금속",
+        "trading_type": "스윙",
+        "strength": "중",
+        "reason": "금 가격 $4,660으로 사상 최고 수준 유지. 이란-미국 긴장, 인플레이션 재점화 우려, 연준 금리 인하 지연 등 복합 악재 속 안전자산 선호 지속. 달러인덱스 100.1로 상단 제한적이나 지정학 불확실성 해소 전까지 금 매수세 구조적으로 유효.",
+        "duration": "1주일+",
+        "sectors_kr": [
+          "귀금속",
+          "원자재금속"
+        ],
+        "sectors_us": [
+          "금광업",
+          "귀금속 채굴"
+        ],
+        "tickers_hint_kr": [
+          "풍산(103140)",
+          "대창(012800)",
+          "서원(021050)"
+        ],
+        "tickers_hint_us": [
+          "Newmont(NEM)",
+          "Barrick Gold(GOLD)",
+          "Kinross Gold(KGC)",
+          "Coeur Mining(CDE)",
+          "Pan American Silver(PAAS)",
+          "First Majestic Silver(AG)",
+          "Hecla Mining(HL)"
+        ],
+        "risk": "이란 긴장 완화 시 안전자산 선호 해소, 달러 강세 전환 시 금값 조정 압력"
+      },
+      {
+        "theme_name": "조선/해운",
+        "trading_type": "단타",
+        "strength": "약",
+        "reason": "호르무즈 해협 봉쇄 가능성으로 원유 탱커·LNG선 운임 폭등 기대감 유입. 우회 항로 수요 증가로 해운 운임 단기 급등 시나리오. 단, 봉쇄 미실현 시 테마 소멸이 빠르므로 이벤트 결과 확인 후 매매 권장.",
+        "duration": "당일",
+        "sectors_kr": [
+          "조선",
+          "해운"
+        ],
+        "sectors_us": [
+          "해운",
+          "탱커"
+        ],
+        "tickers_hint_kr": [
+          "HD한국조선해양(009540)",
+          "팬오션(028670)",
+          "대한해운(005880)"
+        ],
+        "tickers_hint_us": [
+          "ZIM Integrated Shipping(ZIM)",
+          "Matson(MATX)",
+          "Genco Shipping(GNK)",
+          "Star Bulk(SBLK)",
+          "Eagle Bulk(EGLE)",
+          "Safe Bulkers(SB)",
+          "Navios Maritime Holdings(NM)"
+        ],
+        "risk": "외교 타결 시 즉각 되돌림, 봉쇄 미실현 시 기대감 소멸로 급락. 이벤트 직후 청산 필수"
+      }
+    ],
+    "avoid_sectors": [
+      {
+        "sector": "제약/바이오",
+        "reason": "삼천당제약 블록딜 철회·계약 논란으로 섹터 신뢰도 하락 및 실망 매물 출회 중. KOSDAQ 전반 약세(-1.6%)와 맞물려 수급 악화 지속 예상"
+      },
+      {
+        "sector": "부동산/리츠",
+        "reason": "연준 매파 기조 재확인 및 에너지발 인플레이션 재점화 우려로 금리 인하 기대 후퇴. 미국 10년물 금리 4.33% 상승세로 밸류에이션 압박 지속"
+      },
+      {
+        "sector": "KOSDAQ 소형주 전반",
+        "reason": "KOSDAQ -1.6% 급락하며 대형주 쏠림 장세 뚜렷. 지정학 리스크 속 리스크 오프로 소형주 수급 이탈 가속화, 반등 시도 시 매물 압박 구간"
+      }
+    ],
+    "overall_strategy": "삼성전자 실적 서프라이즈(반도체 스윙)와 이란 최후통첩 이벤트(에너지·방산 단타)를 투 트랙으로 나누어 접근하되, KOSDAQ 소형주·바이오는 철저히 회피하고 지정학 이벤트 결과 확인 전까지 포지션 규모를 평소의 70% 이내로 제한."
+  },
+  "macro_snapshot": {
+    "vix": {
+      "price": 24.17,
+      "prev_close": 23.9,
+      "change_pct": 1.13
+    },
+    "sp500": {
+      "price": 6611.8301,
+      "prev_close": 6582.69,
+      "change_pct": 0.44
+    },
+    "nasdaq": {
+      "price": 21996.3398,
+      "prev_close": 21879.182,
+      "change_pct": 0.54
+    },
+    "us10y_yield": {
+      "price": 4.335,
+      "prev_close": 4.313,
+      "change_pct": 0.51
+    },
+    "us2y_yield": {
+      "price": 3.623,
+      "prev_close": 3.607,
+      "change_pct": 0.44
+    },
+    "dollar_index": {
+      "price": 100.1,
+      "prev_close": 100.121,
+      "change_pct": -0.02
+    },
+    "gold": {
+      "price": 4660.3999,
+      "prev_close": 4653.8999,
+      "change_pct": 0.14
+    },
+    "oil_wti": {
+      "price": 115.32,
+      "prev_close": 115.04,
+      "change_pct": 0.24
+    },
+    "bitcoin": {
+      "price": 68658.8828,
+      "prev_close": 68896.75,
+      "change_pct": -0.35
+    },
+    "kospi": {
+      "price": 5449.9502,
+      "prev_close": 5427.4102,
+      "change_pct": 0.42
+    },
+    "kosdaq": {
+      "price": 1029.73,
+      "prev_close": 1046.58,
+      "change_pct": -1.61
+    },
+    "usdkrw": {
+      "price": 1503.3,
+      "prev_close": 1508.8,
+      "change_pct": -0.36
+    }
+  }
+}

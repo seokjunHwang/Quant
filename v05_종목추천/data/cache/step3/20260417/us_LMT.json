@@ -1,0 +1,30 @@
+{
+  "ticker": "LMT",
+  "name": "록히드마틴",
+  "theme": "방위산업 / 항공우주 / 드론",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "국방 기술 상용화 벤처 펀드 규모 10억 달러로 대폭 확대 (lockheedmartin.com)",
+      "date": "2026-04-14",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "미 해군 트라이던트 II 미사일 수명 연장 관련 8억 5,041만 달러 계약 수주 (gurufocus.com)",
+      "date": "2026-04-15",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실적 리스크",
+      "description": "4월 23일 1분기 실적 발표를 앞두고 EPS 소폭 하락 전망 및 수익성 우려 상존",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "지정학적 긴장 속에서 대규모 수주를 지속하며 1,940억 달러의 막대한 수주 잔고를 유지 중. 차세대 AI 및 양자 컴퓨팅 기술 확보를 위한 투자 펀드 규모를 늘림.",
+  "momentum": "bullish",
+  "analyst_view": "보유/완만한 매수, 평균 목표주가 $645 ~ $655 (최고 $770)",
+  "score_hint": 85
+}

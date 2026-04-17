@@ -1,0 +1,35 @@
+{
+  "ticker": "NVDA",
+  "name": "NVIDIA",
+  "theme": "반도체/AI",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "GTC 2026에서 차세대 'Vera Rubin' 플랫폼 공개 및 2026년 하반기 출시 예정 (tikr.com)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "Marvell Technology에 20억 달러 투자 및 NVLink 라이선스 파트너십 체결 (mexc.com)",
+      "date": "2026-03",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "지정학적 리스크",
+      "description": "미국 수출 통제 강화로 인해 최근 분기 중국 매출 0원 기록",
+      "severity": "high"
+    },
+    {
+      "type": "시장 리스크",
+      "description": "빅테크 기업들의 AI CAPEX 지출 정점 우려 및 금리 인하 지연",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "차세대 Vera Rubin 칩 공개와 타 칩 메이커와의 파트너십 확대로 AI 리더십을 강화 중이나, 중국발 매출 타격 및 매크로 우려로 주가는 횡보 중.",
+  "momentum": "neutral",
+  "analyst_view": "Strong Buy (목표주가 평균 $265.97 ~ $268.22)",
+  "score_hint": 85
+}

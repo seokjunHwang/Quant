@@ -1,0 +1,35 @@
+{
+  "ticker": "RTX",
+  "name": "RTX코퍼레이션",
+  "theme": "방위산업 / 항공우주 / 드론",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "미 육군 차세대 대공 레이더(LTAMDS) 생산 관련 9억 460만 달러 계약 수정 (investing.com)",
+      "date": "2026-04-16",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "차세대 감지 시스템 'RAIVEN' 첫 비행 테스트 성공 (stocktitan.net)",
+      "date": "2026-04-15",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "밸류에이션 리스크",
+      "description": "역사적 평균 대비 다소 높은 P/E 밸류에이션 부담",
+      "severity": "medium"
+    },
+    {
+      "type": "공급망 리스크",
+      "description": "상업용 및 방산 부문의 공급망 병목 현상 지속 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "레이시온과 콜린스 에어로스페이스 부문 모두 국방 및 민간 항공 분야에서 대규모 신규 수주와 기술 테스트 성과를 내고 있음. 4월 21일 1분기 실적 발표 대기 중.",
+  "momentum": "bullish",
+  "analyst_view": "매수/비중확대, 평균 목표주가 $203.61 ~ $225.00",
+  "score_hint": 85
+}

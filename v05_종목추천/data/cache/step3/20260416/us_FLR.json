@@ -1,0 +1,36 @@
+{
+  "ticker": "FLR",
+  "name": "Fluor",
+  "theme": "중동 재건 / 해외 건설",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "X-energy와 텍사스 소형모듈원전(SMR) 개발 지원 계약 체결",
+      "date": "2026-04-06",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "50년 만의 미국 내 신규 정유공장(America First Refining) FEED 설계 수주",
+      "date": "2026-04-07",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "보유 중인 NuScale Power 주식 매각으로 약 1.6억 달러 현금 확보",
+      "date": "2026-04-15",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수주 산업 리스크",
+      "description": "대형 인프라 프로젝트 특성상 거시경제 침체나 금리 변화 시 프로젝트 지연 가능성",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "차세대 소형모듈원전(SMR) 계약과 미국 내 초대형 신규 정유공장 설계 등 굵직한 수주가 연이어 터지면서 사업 턴어라운드가 가속화되고 있으며, 뉴스케일파워 지분 매각 대금을 활용한 주주 환원 기대감도 높아 강한 매수세가 유입되고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수 (목표주가 평균 55달러, 최고 61달러)",
+  "score_hint": 95
+}

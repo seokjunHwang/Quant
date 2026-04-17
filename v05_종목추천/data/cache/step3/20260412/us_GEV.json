@@ -1,0 +1,30 @@
+{
+  "ticker": "GEV",
+  "name": "GE Vernova",
+  "theme": "전력기기/에너지전환",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "주요 투자은행(Susquehanna, Barclays 등)에서 목표주가를 최고 $1,100까지 일제히 상향 (Benzinga)",
+      "date": "2026-04-01~09",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "헝가리 MVM과 전력 발전 및 그리드 프로젝트 MOU 체결로 중부 유럽 인프라 시장 확장 (MarketBeat)",
+      "date": "2026-04",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "차익실현 매물",
+      "description": "연초 대비 43% 이상 상승하여 심리적 저항선 도달 시 단기 차익실현 매물 출회 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "글로벌 전력 인프라 전환 수요를 바탕으로 2026년 긍정적 실적 가이던스를 제시했으며, 4월 들어 유력 투자은행들이 목표주가를 1,000달러 선으로 대거 상향했습니다. 4월 초 52주 신고가를 재경신하며 강력한 상승 모멘텀을 보이고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수(Buy) / 평균 목표주가 $875~$903, 최고 $1,100",
+  "score_hint": 90
+}

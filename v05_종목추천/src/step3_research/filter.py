@@ -13,7 +13,7 @@ from src.utils.config import now_kst
 from pathlib import Path
 
 from src.utils.config import (
-    DATA_DIR, FILTERING,
+    DATA_DIR, DAILY_DIR, FILTERING,
     LARGE_CAP_KR, SMALL_MID_KR, LARGE_CAP_US, SMALL_MID_US,
 )
 
@@ -265,7 +265,7 @@ def save_filter_results(
     """
     if not today:
         today = now_kst().strftime("%Y%m%d")
-    out_dir = DATA_DIR / today / market / STEP_DIRS.get(step, step)
+    out_dir = DAILY_DIR / today / market / STEP_DIRS.get(step, step)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     data = {

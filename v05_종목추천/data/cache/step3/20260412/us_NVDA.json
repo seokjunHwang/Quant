@@ -1,0 +1,30 @@
+{
+  "ticker": "NVDA",
+  "name": "NVIDIA",
+  "theme": "반도체/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "차세대 '베라 루빈' 플랫폼 공개 및 2027년 1조 달러 수주 잔고 전망 (GTC 컨퍼런스)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "2026년 하반기 빅테크 AI 인프라 투자 확대에 따른 수혜 기대 및 긍정적 가이던스",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 조정",
+      "description": "중국 수출 규제 지속 및 단기 AI 수요 정점 우려에 따른 주가 조정 피로감",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "GTC에서 새로운 베라 루빈 플랫폼을 공개하며 압도적인 수요를 재확인했습니다. 최근 중국 리스크로 인한 단기 주가 조정을 겪었으나 애널리스트들은 이를 저가 매수 기회로 평가합니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수, 평균 목표주가 $268 ~ $275",
+  "score_hint": 85
+}

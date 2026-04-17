@@ -1,0 +1,36 @@
+{
+  "ticker": "ETN",
+  "name": "이튼",
+  "theme": "전력기기 / AI 데이터센터 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "네브래스카주 중전압 개폐장치 공장 3,000만 달러 신규 투자 발표",
+      "date": "2026-04-11",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "데이터센터 액체 냉각 전문기업 '보이드 써멀(Boyd Thermal)' 인수 완료",
+      "date": "2026-04",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "씨티그룹, RBC 등 주요 기관 목표주가 $450 이상으로 상향",
+      "date": "2026-04-13",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "성장 가이던스 둔화",
+      "description": "2026년 연간 EPS 가이던스가 시장 컨센서스를 소폭 하회하여 보수적이라는 평가 존재",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "데이터센터 인프라 수요 급증에 맞춰 미국 내 생산 설비 투자와 열 관리 부문 M&A를 적극 추진 중입니다. 수주 잔고 증가세가 이어지며 애널리스트들의 목표가 상향이 계속되고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수 의견 우세, 평균 목표주가 $412~$419 (최고 $514)",
+  "score_hint": 85
+}

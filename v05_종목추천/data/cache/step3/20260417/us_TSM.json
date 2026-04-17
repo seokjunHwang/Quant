@@ -1,0 +1,35 @@
+{
+  "ticker": "TSM",
+  "name": "TSMC",
+  "theme": "AI 인프라 / 반도체",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "2026년 1분기 매출 전년 대비 40.6% 증가 및 7나노 이하 선단 공정 매출 비중 74% 달성 (techpowerup.com)",
+      "date": "2026-04-16",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "2026년 연간 매출 성장률 가이던스 상향(30% 이상) 및 2나노 공정 하반기 양산 본격화 예고 (seekingalpha.com)",
+      "date": "2026-04-16",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "지정학적 리스크",
+      "description": "중동 분쟁 등으로 인한 수소, 헬륨 등 특수 가스 가격 상승 및 공급망 비용 증가 우려",
+      "severity": "medium"
+    },
+    {
+      "type": "수익성 둔화",
+      "description": "미국 애리조나 및 일본 구마모토 등 해외 팹 가동 초기에 따른 일시적 마진 희석 가능성",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "AI 칩에 대한 강력한 수요에 힘입어 1분기 시장 예상치를 상회하는 역대급 실적을 발표했습니다. 실적 발표 직후 Needham($480), Aletheia($600) 등 주요 투자은행들이 일제히 목표주가를 대폭 상향 조정했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "목표주가 $400 ~ $600 수준 상향, 투자의견 매수(Buy)",
+  "score_hint": 90
+}

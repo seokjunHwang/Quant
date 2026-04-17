@@ -1,0 +1,35 @@
+{
+  "ticker": "SMCI",
+  "name": "슈퍼마이크로컴퓨터",
+  "theme": "AI 인프라 / 반도체",
+  "catalysts": [
+    {
+      "type": "중립",
+      "content": "AMD 에픽(EPYC) 4005 프로세서 탑재 에너지 효율적 엣지 AI 시스템 신제품 출시 (zacks.com)",
+      "date": "2026-04-13",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "엔비디아 블랙웰 칩 기반 서버에 대한 강력한 주문 잔고(백로그) 지속 보유 (marketbeat.com)",
+      "date": "2026-04",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "법적 리스크",
+      "description": "미 법무부(DOJ)의 대중국 AI 서버 불법 우회 수출 혐의 기소",
+      "severity": "high"
+    },
+    {
+      "type": "소송 리스크",
+      "description": "투자자 대상 대규모 집단 소송 진행 중 (5월 25일 수석 원고 신청 마감)",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "엔비디아 AI 서버 수요 덕분에 실적 모멘텀은 유지하고 있으나, 대중국 수출 규제 위반에 따른 미 법무부 기소라는 치명적인 법적 리스크에 직면해 있습니다. 다수의 집단 소송이 겹치며 투심이 크게 악화되었습니다.",
+  "momentum": "bearish",
+  "analyst_view": "투자의견 보유(Hold) 및 하향 추세, 평균 목표가 $34.00 ~ $36.50 (JP모건 $28)",
+  "score_hint": 35
+}

@@ -1,0 +1,30 @@
+{
+  "ticker": "UCTT",
+  "name": "Ultra Clean Holdings",
+  "theme": "반도체/AI",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "UCT 3.0 전략에 따른 AI 반도체 인프라 제조 역량 확장 및 수요 증가 수혜 (AnaChart)",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "Oppenheimer, Needham 등 다수 기관의 투자의견 및 목표주가 대폭 상향",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "주가 단기 급등",
+      "description": "최근 1년간 245% 급등함에 따른 차익 실현 매물 출회 및 단기 변동성 확대 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "UCT 3.0 전략을 바탕으로 AI 인프라 확장에 성공적으로 대응하며 가파른 성장세를 보이고 있습니다. 강력한 펀더멘탈을 이유로 월가의 목표가 상향이 이어지고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "컨센서스 강력 매수 / 평균 목표주가 $81.25",
+  "score_hint": 90
+}

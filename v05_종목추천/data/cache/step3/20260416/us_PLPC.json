@@ -1,0 +1,24 @@
+{
+  "ticker": "PLPC",
+  "name": "Preformed Line Products",
+  "theme": "전력기기 / AI 데이터센터 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "견조한 분기 실적(EPS 상회) 및 포브스 2026년 최고 소형주 리스트 선정",
+      "date": "2026-04-14",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 주가 과열",
+      "description": "최근 폭발적인 랠리로 인해 현재 주가(약 320달러)가 월가 목표주가 평균(275달러)을 15% 이상 크게 웃도는 과열 상태",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "우수한 2025년 결산 호실적과 튼튼한 재무구조가 재조명받으며 최근 주가가 급등, 52주 신고가(324달러)를 돌파했으나 단기 급등에 따른 목표가 초과로 밸류에이션 부담이 커진 상황입니다.",
+  "momentum": "bullish",
+  "analyst_view": "강력 매수 (단, 평균 목표주가 275달러로 현재가 대비 낮음)",
+  "score_hint": 65
+}

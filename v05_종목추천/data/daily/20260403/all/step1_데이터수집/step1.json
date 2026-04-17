@@ -1,0 +1,319 @@
+{
+  "macro": {
+    "vix": {
+      "price": 23.87,
+      "prev_close": 24.53,
+      "change_pct": -2.69
+    },
+    "sp500": {
+      "price": 6582.6899,
+      "prev_close": 6575.32,
+      "change_pct": 0.11
+    },
+    "nasdaq": {
+      "price": 21879.1816,
+      "prev_close": 21840.947,
+      "change_pct": 0.18
+    },
+    "us10y_yield": {
+      "price": 4.313,
+      "prev_close": 4.319,
+      "change_pct": -0.14
+    },
+    "us2y_yield": {
+      "price": 3.607,
+      "prev_close": 3.605,
+      "change_pct": 0.06
+    },
+    "dollar_index": {
+      "price": 99.968,
+      "prev_close": 100.004,
+      "change_pct": -0.04
+    },
+    "gold": {
+      "price": 4702.7002,
+      "prev_close": 4707.1001,
+      "change_pct": -0.09
+    },
+    "oil_wti": {
+      "price": 112.06,
+      "prev_close": 104.72,
+      "change_pct": 7.01
+    },
+    "bitcoin": {
+      "price": 66792.5156,
+      "prev_close": 66909.5234,
+      "change_pct": -0.17
+    },
+    "kospi": {
+      "price": 5377.25,
+      "prev_close": 5172.5601,
+      "change_pct": 3.96
+    },
+    "kosdaq": {
+      "price": 1065.85,
+      "prev_close": 1041.3199,
+      "change_pct": 2.36
+    },
+    "usdkrw": {
+      "price": 1506.36,
+      "prev_close": 1509.86,
+      "change_pct": -0.23
+    },
+    "vix_zone": "긴장"
+  },
+  "news": {
+    "kr": {
+      "market": "kr",
+      "date": "2026년 04월 03일",
+      "macro_environment": {
+        "summary": "전날 트럼프 대통령의 대이란 강경 발언으로 급락했던 국내 증시가, 이란의 호르무즈 해협 통항 안전 보장 협의 소식에 힘입어 기술적 반등을 시도하고 있음.",
+        "key_indicators": [
+          {
+            "name": "KOSPI",
+            "value": "5,375.50",
+            "trend": "상승",
+            "impact": "전일 급락에 따른 저가 매수세 유입 및 지정학적 리스크 일부 완화"
+          },
+          {
+            "name": "원/달러 환율",
+            "value": "1,510.60원",
+            "trend": "상승",
+            "impact": "지정학적 불안 지속으로 인한 원화 약세 압력 상존"
+          },
+          {
+            "name": "국제유가(WTI)",
+            "value": "111.54달러",
+            "trend": "상승",
+            "impact": "중동 전쟁 장기화 우려로 인한 에너지 가격 급등세 지속"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "반도체",
+          "reason": "전일 과매도에 따른 기술적 반등 및 필라델피아 반도체 지수 상승 영향 (연합뉴스/매경)",
+          "trading_type": "둘다",
+          "sectors": [
+            "삼성전자",
+            "SK하이닉스"
+          ]
+        },
+        {
+          "theme": "건설",
+          "reason": "지수 반등과 함께 낙폭 과대 인식에 따른 기관 중심의 매수세 유입 (매경)",
+          "trading_type": "스윙",
+          "sectors": [
+            "건설업",
+            "기계/장비"
+          ]
+        },
+        {
+          "theme": "방산",
+          "reason": "중동 지정학적 리스크가 완전히 해소되지 않은 상황에서 방어적 성격의 투자 수요 유지 (인포스탁데일리)",
+          "trading_type": "스윙",
+          "sectors": [
+            "한화에어로스페이스"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "IT/플랫폼",
+          "direction": "bearish",
+          "key_news": "한화투자증권, 네이버 1분기 실적 컨센서스 하회 전망 및 목표가 하향 (연합뉴스)",
+          "reason": "GPU 투자 등 인프라 비용 증가로 인한 마진 악화 우려"
+        },
+        {
+          "sector": "금융",
+          "direction": "neutral",
+          "key_news": "삼성카드 1분기 실적 컨센서스 하회 전망 (이투데이)",
+          "reason": "대손비용 증가 및 시장 금리 상승에 따른 이자 비용 부담"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "중동 지정학적 리스크",
+          "severity": "high",
+          "description": "트럼프 대통령이 예고한 4월 6일 타격 데드라인 등 전쟁 장기화 불확실성 상존 (증권일보)"
+        },
+        {
+          "factor": "고유가 및 인플레이션",
+          "severity": "high",
+          "description": "에너지 가격 급등이 수입 물가 상승 및 기업 비용 부담으로 이어지는 구조적 악재 (인포맥스)"
+        },
+        {
+          "factor": "외국인 수급 이탈",
+          "severity": "medium",
+          "description": "환율 불안과 지정학적 리스크로 인해 외국인 투자자의 매도세가 지속되는 경향 (인포스탁데일리)"
+        }
+      ]
+    },
+    "us": {
+      "market": "us",
+      "date": "2026년 04월 03일",
+      "macro_environment": {
+        "summary": "성금요일(Good Friday) 휴장으로 미국 주식시장은 오늘 거래가 없으며, 시장은 이란과의 전쟁 지속 우려와 고유가에 따른 인플레이션 압력으로 인해 불안정한 심리가 이어지고 있습니다.",
+        "key_indicators": [
+          {
+            "name": "WTI 원유",
+            "value": "112.51달러",
+            "trend": "상승",
+            "impact": "에너지 가격 급등으로 인한 인플레이션 우려 심화"
+          },
+          {
+            "name": "10년물 국채금리",
+            "value": "4.36%",
+            "trend": "상승",
+            "impact": "금리 인하 기대감 축소 및 시장 변동성 확대"
+          },
+          {
+            "name": "VIX(공포지수)",
+            "value": "27.02",
+            "trend": "상승",
+            "impact": "지정학적 리스크로 인한 투자자 불안 심리 고조"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "에너지/석유",
+          "reason": "이란 전쟁 장기화 및 호르무즈 해협 긴장으로 인한 공급 차질 우려 (AP/Bloomberg)",
+          "trading_type": "스윙",
+          "sectors": [
+            "에너지",
+            "석유 및 가스"
+          ]
+        },
+        {
+          "theme": "방산/안보",
+          "reason": "미국의 대이란 강경 대응 기조 및 중동 지역 군사적 긴장 고조 (MarketPulse)",
+          "trading_type": "스윙",
+          "sectors": [
+            "항공우주",
+            "방위산업"
+          ]
+        },
+        {
+          "theme": "여행/레저",
+          "reason": "지정학적 리스크 및 유가 급등으로 인한 비용 부담 증가로 투자 심리 악화 (Schwab)",
+          "trading_type": "단타",
+          "sectors": [
+            "항공",
+            "크루즈"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "에너지",
+          "direction": "bullish",
+          "key_news": "유가 급등에 따라 엑손모빌, 셰브론 등 주요 에너지 기업 주가 강세 (Schwab)",
+          "reason": "전쟁으로 인한 원유 공급 불안이 에너지 기업의 수익성 개선 기대로 이어짐"
+        },
+        {
+          "sector": "항공/여행",
+          "direction": "bearish",
+          "key_news": "유가 상승에 따른 연료비 부담 증가로 델타항공, 유나이티드항공 등 주가 하락 (AP)",
+          "reason": "운영 비용 증가가 실적 악화로 이어질 것이라는 우려"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "이란-미국 전쟁",
+          "severity": "high",
+          "description": "트럼프 대통령의 강경 대응 발언으로 전쟁 장기화 및 확전 가능성 증대 (AP/MarketPulse)"
+        },
+        {
+          "factor": "인플레이션 및 고유가",
+          "severity": "high",
+          "description": "에너지 가격 급등이 소비자 물가에 전이되어 연준의 금리 인하 정책을 제약할 가능성 (IMF/Schwab)"
+        },
+        {
+          "factor": "공급망 차질",
+          "severity": "medium",
+          "description": "호르무즈 해협 통행 제한으로 인한 글로벌 물류 및 에너지 공급망 불안 (PBS)"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "premarket_movers": [
+      {
+        "ticker": "SKYQ",
+        "name": "Sky Quarry Inc.",
+        "change_pct": 119.37,
+        "reason": "변동성 확대 및 거래량 급증에 따른 기술적 반등"
+      },
+      {
+        "ticker": "COCP",
+        "name": "Cocrystal Pharma, Inc.",
+        "change_pct": 67.65,
+        "reason": "바이오 섹터 내 개별 종목 이슈 및 거래량 급증"
+      },
+      {
+        "ticker": "LPCN",
+        "name": "Lipocine Inc.",
+        "change_pct": -78.38,
+        "reason": "기업 내부 악재 및 매도세 집중"
+      }
+    ],
+    "earnings_today": [
+      {
+        "ticker": "N/A",
+        "name": "해당 없음",
+        "expectation": "N/A",
+        "impact": "금일 주요 실적 발표 예정 기업 없음"
+      }
+    ],
+    "economic_events": [
+      {
+        "time_et": "07:30",
+        "event": "비농업 부문 고용자 수 (Non-Farm Payrolls)",
+        "forecast": "65K",
+        "importance": "high"
+      },
+      {
+        "time_et": "07:30",
+        "event": "실업률 (Unemployment Rate)",
+        "forecast": "4.4%",
+        "importance": "high"
+      },
+      {
+        "time_et": "07:30",
+        "event": "시간당 평균 임금 (Average Hourly Earnings)",
+        "forecast": "0.3%",
+        "importance": "medium"
+      },
+      {
+        "time_et": "08:45",
+        "event": "서비스업 PMI (Services PMI)",
+        "forecast": "51.1",
+        "importance": "medium"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 04월 28-29일",
+      "cut_probability": "2.0%"
+    }
+  },
+  "dart": {
+    "today_disclosures": [
+      {
+        "corp_name": "NH투자증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260403",
+        "corp_code": "00120182",
+        "rcept_no": "20260403000241"
+      },
+      {
+        "corp_name": "삼부토건",
+        "report_nm": "[기재정정]감사보고서제출              ",
+        "rcept_dt": "20260403",
+        "corp_code": "00125974",
+        "rcept_no": "20260403800381"
+      }
+    ]
+  }
+}

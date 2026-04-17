@@ -1,0 +1,30 @@
+{
+  "ticker": "LSCC",
+  "name": "Lattice Semiconductor",
+  "theme": "반도체/AI",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "AI 최적화 FPGA 수요 증가 및 NVIDIA Halos 로봇 생태계 합류 (MarketBeat)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "Nexus 및 Avant 등 신제품 라인의 마진 개선 및 매출 견인 (Simply Wall St)",
+      "date": "2026-04",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "밸류에이션 부담",
+      "description": "광범위한 반도체 산업 대비 높은 P/E 멀티플로 인한 단기 주가 변동성 우려",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "최근 실적 호조와 함께 NVIDIA 생태계 합류 소식이 전해지며 AI 특화 칩 수요에 대한 기대감이 커지고 있습니다. 주요 애널리스트들은 강력한 매수 의견과 목표가 상향을 제시했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "컨센서스 강력 매수 / 평균 목표주가 $102 ~ $116.50",
+  "score_hint": 85
+}

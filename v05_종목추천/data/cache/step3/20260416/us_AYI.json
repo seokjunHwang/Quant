@@ -1,0 +1,30 @@
+{
+  "ticker": "AYI",
+  "name": "Acuity Brands",
+  "theme": "전력기기 / AI 데이터센터 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "내부자(임원)의 자사주 매수(약 283달러 부근) 및 분기 배당금 인상(0.20달러)",
+      "date": "2026-04-08",
+      "impact": "medium"
+    },
+    {
+      "type": "중립",
+      "content": "Q2 EPS는 시장 예상치를 상회했으나 분기 매출은 기대치를 다소 하회",
+      "date": "2026-04-02",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "업황 둔화 우려",
+      "description": "건설 프로젝트 지연 및 노동력 타이트함으로 인해 2026년 조명 부문 매출 가이던스를 보수적으로 조정",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "최근 2분기 엇갈린 실적 발표와 골드만삭스 등 일부 IB의 목표가 하향이 있었으나, 내부자 매수와 배당금 증액 조치가 발표되며 하방 경직성을 확보하고 관망세를 유지 중입니다.",
+  "momentum": "neutral",
+  "analyst_view": "비중 확대 (목표주가 평균 369달러)",
+  "score_hint": 60
+}

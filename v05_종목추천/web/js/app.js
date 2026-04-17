@@ -38,9 +38,9 @@ const MACRO_ORDER = [
 
 // TradingView symbol mapping
 var MACRO_TV_SYMBOLS = {
-  vix: 'TVC:VIX',
-  sp500: 'FOREXCOM:SPXUSD',
-  nasdaq: 'FOREXCOM:NSXUSD',
+  vix: 'CBOE:VIX',
+  sp500: 'SP:SPX',
+  nasdaq: 'NASDAQ:NDX',
   kospi: 'KRX:KOSPI',
   kosdaq: 'KRX:KOSDAQ',
   usdkrw: 'FX_IDC:USDKRW',
@@ -53,12 +53,51 @@ var MACRO_TV_SYMBOLS = {
 
 var currentTVTimeframe = 'D';
 
+function formatMarketCap(cap, market) {
+  if (!cap || cap <= 0) return '-';
+  if (market === 'kr') {
+    // 한국: 원 단위
+    var eok = cap / 100000000;
+    if (eok >= 10000) return (eok / 10000).toFixed(1) + '조';
+    return Math.round(eok).toLocaleString() + '억';
+  } else {
+    // 미국: USD 단위 → $1조, $3,311억 형식
+    var billions = cap / 1000000000;        // 10억$ 단위
+    var eokDollar = Math.round(billions * 10); // 억$ 단위
+    if (eokDollar >= 10000) return '$' + (eokDollar / 10000).toFixed(1) + '조';
+    return '$' + eokDollar.toLocaleString() + '억';
+  }
+}
+
 function openTVChart(symbol, title) {
-  document.getElementById('tv-title').textContent = title;
+  document.getElementById('tv-title').textContent = title || symbol;
+  var searchInput = document.getElementById('tv-search-input');
+  if (searchInput) searchInput.value = symbol;
   document.getElementById('tv-overlay').classList.remove('hidden');
   document.getElementById('tv-modal').classList.remove('hidden');
   loadTVWidget(symbol, currentTVTimeframe);
   lucide.createIcons();
+}
+
+function openTVSearch() {
+  document.getElementById('tv-title').textContent = '';
+  var searchInput = document.getElementById('tv-search-input');
+  if (searchInput) { searchInput.value = ''; }
+  document.getElementById('tv-overlay').classList.remove('hidden');
+  document.getElementById('tv-modal').classList.remove('hidden');
+  document.getElementById('tv-chart-container').innerHTML =
+    '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-muted);font-size:0.85rem;">심볼을 입력하고 Go 또는 Enter를 누르세요</div>';
+  if (searchInput) searchInput.focus();
+  lucide.createIcons();
+}
+
+function searchTVChart() {
+  var input = document.getElementById('tv-search-input');
+  if (!input) return;
+  var symbol = input.value.trim();
+  if (!symbol) return;
+  document.getElementById('tv-title').textContent = symbol;
+  loadTVWidget(symbol, currentTVTimeframe);
 }
 
 function closeTVChart() {
@@ -284,6 +323,9 @@ async function loadData(dateStr) {
     document.getElementById('loading').classList.add('hidden');
     document.getElementById('dashboard').classList.remove('hidden');
 
+    // Init globe map if it's the default visible tab
+    if (typeof initGlobeIfVisible === 'function') initGlobeIfVisible();
+
     // Reset filter tabs
     state.themeFilter = 'all';
     state.recFilter = 'all';
@@ -302,22 +344,25 @@ async function loadData(dateStr) {
     // Re-initialize lucide icons for any newly rendered content
     if (typeof lucide !== 'undefined') lucide.createIcons();
   } catch (e) {
+    console.error('loadData error:', e);
     showError(e.message);
   }
 }
 
 // ── Rendering ──────────────────────────────────────────────
 function render() {
-  renderMacro();
-  renderStrategy();
-  renderSummary();
-  renderThemes();
-  renderRecommendations();
-  renderAvoid();
-  renderFooter();
+  if (!state.data) return;
+  try { renderMacro(); } catch(e) { console.error('renderMacro:', e); }
+  try { renderStrategy(); } catch(e) { console.error('renderStrategy:', e); }
+  try { renderSummary(); } catch(e) { console.error('renderSummary:', e); }
+  try { renderThemes(); } catch(e) { console.error('renderThemes:', e); }
+  try { renderRecommendations(); } catch(e) { console.error('renderRecommendations:', e); }
+  try { renderAvoid(); } catch(e) { console.error('renderAvoid:', e); }
+  try { renderFooter(); } catch(e) { console.error('renderFooter:', e); }
 }
 
 function renderMacro() {
+  if (!state.data) return;
   var macro = state.data.macro || {};
   var container = document.getElementById('macro-cards');
   if (!container) return;
@@ -362,12 +407,9 @@ function renderMacro() {
     var tvSymbol = MACRO_TV_SYMBOLS[key] || '';
 
     html +=
-      '<div class="macro-card fade-in' + (tvSymbol ? ' clickable' : '') + '"' +
-      (tvSymbol ? ' onclick="openTVChart(\'' + tvSymbol + '\',\'' + escapeHtml(name) + '\')"' : '') +
-      '>' +
+      '<div class="macro-card fade-in">' +
       '<div class="label">' +
       escapeHtml(name) +
-      (tvSymbol ? ' <span class="tv-hint">chart</span>' : '') +
       '</div>' +
       '<div class="value">' +
       price +
@@ -380,6 +422,9 @@ function renderMacro() {
       chg.toFixed(1) +
       '%</div>' +
       badge +
+      (tvSymbol ? '<div class="macro-chart-btns">' +
+        '<a class="macro-chart-btn ext" href="https://www.tradingview.com/chart/?symbol=' + encodeURIComponent(tvSymbol) + '" target="_blank" rel="noopener">TradingView 차트보기</a>' +
+      '</div>' : '') +
       '</div>';
   }
 
@@ -387,6 +432,7 @@ function renderMacro() {
 }
 
 function renderStrategy() {
+  if (!state.data) return;
   var strategyEl = document.getElementById('txt-strategy');
   var viewEl = document.getElementById('txt-market-view');
   if (strategyEl) strategyEl.textContent = state.data.strategy || '';
@@ -400,6 +446,7 @@ function renderSummary() {
 function renderNews(market) {
   var container = document.getElementById('news-content');
   if (!container) return;
+  if (!state.data) return;
   var news = state.data.news || {};
   var html = '';
 
@@ -456,6 +503,7 @@ function renderNews(market) {
 }
 
 function renderThemes() {
+  if (!state.data) return;
   var themes = state.data.themes || [];
   var container = document.getElementById('theme-list');
   if (!container) return;
@@ -516,6 +564,7 @@ function isMobile() {
 }
 
 function renderRecommendations() {
+  if (!state.data) return;
   var recs = state.data.recommendations || [];
   var filtered = recs.filter(function (r) {
     if (state.recFilter === 'all') return true;
@@ -577,6 +626,9 @@ function renderRecTable(filtered, tbody) {
       '<span class="score-value" style="color:' + scoreColor + '">' +
       rec.final_score.toFixed(1) +
       '</span>' +
+      '</td>' +
+      '<td class="col-mcap hidden-mobile">' +
+      '<span class="mcap-value">' + formatMarketCap(rec.market_cap, rec.market) + '</span>' +
       '</td>' +
       '<td class="col-heat">' +
       '<div class="heat-indicator ' + heatLevel + '" title="RSI ' + rsi.toFixed(0) + '">' +
@@ -642,6 +694,7 @@ function renderRecCards(filtered, container) {
                   escapeHtml(rec.ticker) +
                 '</span>' +
                 ' · <span class="heat-label ' + heatLevel + '">' + heatLabel + '</span>' +
+                (rec.market_cap ? ' · <span class="mcap-label">' + formatMarketCap(rec.market_cap, rec.market) + '</span>' : '') +
               '</div>' +
             '</div>' +
           '</div>' +
@@ -666,6 +719,7 @@ function renderRecCards(filtered, container) {
 }
 
 function renderAvoid() {
+  if (!state.data) return;
   var avoid = state.data.avoid || [];
   var el = document.getElementById('txt-avoid');
   if (el)
@@ -675,6 +729,7 @@ function renderAvoid() {
 }
 
 function renderFooter() {
+  if (!state.data) return;
   var gen = state.data.generated_at || '';
   var timeStr = '';
   if (gen) {
@@ -884,12 +939,27 @@ function closeDetail() {
 // ── Theme Toggle ───────────────────────────────────────────
 function toggleTheme() {
   state.isDark = !state.isDark;
+  applyTheme();
+}
+
+function setTheme(isDark) {
+  state.isDark = isDark;
+  applyTheme();
+}
+
+function applyTheme() {
   document.documentElement.setAttribute(
     'data-theme',
     state.isDark ? 'dark' : 'light'
   );
   localStorage.setItem('theme', state.isDark ? 'dark' : 'light');
 
+  var btnLight = document.getElementById('btn-light');
+  var btnDark = document.getElementById('btn-dark');
+  if (btnLight) btnLight.classList.toggle('active', !state.isDark);
+  if (btnDark) btnDark.classList.toggle('active', state.isDark);
+
+  // Fallback for old toggle button
   var icon = document.getElementById('icon-theme');
   if (icon) {
     icon.setAttribute('data-lucide', state.isDark ? 'moon' : 'sun');
@@ -936,11 +1006,22 @@ function setupListeners() {
     });
   }
 
-  // Theme toggle
+  // Macro manual refresh
+  var btnMacroRefresh = document.getElementById('btn-macro-refresh');
+  if (btnMacroRefresh) {
+    btnMacroRefresh.addEventListener('click', function () { refreshMacro(); });
+  }
+
+  // Theme toggle (legacy single button)
   var btnTheme = document.getElementById('btn-theme');
   if (btnTheme) {
     btnTheme.addEventListener('click', toggleTheme);
   }
+  // Theme toggle (new light/dark buttons)
+  var btnLight = document.getElementById('btn-light');
+  var btnDark = document.getElementById('btn-dark');
+  if (btnLight) btnLight.addEventListener('click', function () { setTheme(false); });
+  if (btnDark) btnDark.addEventListener('click', function () { setTheme(true); });
 
   // Theme filter tabs
   document.querySelectorAll('.theme-tab').forEach(function (btn) {
@@ -994,7 +1075,15 @@ function setupListeners() {
       document.querySelectorAll('.page-tab').forEach(function (b) { b.classList.remove('active'); });
       btn.classList.add('active');
       document.getElementById('page-overview').classList.toggle('hidden', page !== 'overview');
+      var globeEl = document.getElementById('page-globe');
+      if (globeEl) globeEl.classList.toggle('hidden', page !== 'globe');
+      var nfEl = document.getElementById('page-newsfeed');
+      if (nfEl) nfEl.classList.toggle('hidden', page !== 'newsfeed');
       document.getElementById('page-picks').classList.toggle('hidden', page !== 'picks');
+      var chEl = document.getElementById('page-channels');
+      if (chEl) chEl.classList.toggle('hidden', page !== 'channels');
+      var abEl = document.getElementById('page-about');
+      if (abEl) abEl.classList.toggle('hidden', page !== 'about');
     });
   });
 
@@ -1018,10 +1107,8 @@ async function init() {
   var savedTheme = localStorage.getItem('theme');
   if (savedTheme === 'light') {
     state.isDark = false;
-    document.documentElement.setAttribute('data-theme', 'light');
-    var iconTheme = document.getElementById('icon-theme');
-    if (iconTheme) iconTheme.setAttribute('data-lucide', 'sun');
   }
+  applyTheme();
 
   setupListeners();
 
@@ -1061,3 +1148,539 @@ async function init() {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+
+// ── Real-time macro update (30s interval, yfinance, $0) ──
+var macroRefreshTimer = null;
+
+function updateLiveBadge() {
+  var badge = document.getElementById('badge-live');
+  if (!badge) return;
+  if (macroRefreshTimer || newsRefreshTimer) {
+    badge.classList.remove('hidden');
+  } else {
+    badge.classList.add('hidden');
+  }
+}
+
+function startMacroRefresh() {
+  if (macroRefreshTimer) return;
+  refreshMacro();
+  macroRefreshTimer = setInterval(refreshMacro, 30000);
+  updateLiveBadge();
+}
+
+function stopMacroRefresh() {
+  if (macroRefreshTimer) {
+    clearInterval(macroRefreshTimer);
+    macroRefreshTimer = null;
+  }
+  updateLiveBadge();
+}
+
+function refreshMacro() {
+  var btn = document.getElementById('btn-macro-refresh');
+  if (btn) btn.classList.add('spinning');
+
+  fetch('/api/macro')
+    .then(function (res) {
+      if (!res.ok) return;
+      return res.json();
+    })
+    .then(function (data) {
+      if (!data || !state.data) return;
+      state.data.macro = data;
+      try { renderMacro(); } catch(e) { /* ignore */ }
+      // 갱신 시각 표시
+      var el = document.getElementById('macro-updated');
+      if (el) {
+        var now = new Date();
+        el.textContent = '매크로 갱신: ' +
+          now.getHours().toString().padStart(2,'0') + ':' +
+          now.getMinutes().toString().padStart(2,'0') + ':' +
+          now.getSeconds().toString().padStart(2,'0') + ' (30초 자동)';
+      }
+    })
+    .catch(function () { /* silent fail */ })
+    .finally(function () {
+      if (btn) btn.classList.remove('spinning');
+    });
+}
+
+// ── 실시간 속보 피드 (30초 폴링, RSS, $0) ──────────────────
+var newsRefreshTimer = null;
+var newsLiveItems = [];
+var newsSourceFilter = 'all';
+var newsLangKo = false;
+var newsTranslations = {};
+
+function startNewsRefresh() {
+  if (newsRefreshTimer) return;
+  refreshNewsLive();
+  newsRefreshTimer = setInterval(refreshNewsLive, 30000);
+  updateLiveBadge();
+}
+
+function stopNewsRefresh() {
+  if (newsRefreshTimer) {
+    clearInterval(newsRefreshTimer);
+    newsRefreshTimer = null;
+  }
+  updateLiveBadge();
+}
+
+function refreshNewsLive() {
+  var statusEl = document.getElementById('news-live-status');
+  if (statusEl) statusEl.textContent = '갱신 중…';
+
+  fetch('/api/news/live')
+    .then(function (res) { return res.ok ? res.json() : null; })
+    .then(function (data) {
+      if (!data || !data.items) return;
+      newsLiveItems = data.items;
+      renderNewsLive();
+      if (statusEl) {
+        var now = new Date();
+        statusEl.textContent = now.getHours().toString().padStart(2,'0') + ':' +
+          now.getMinutes().toString().padStart(2,'0') + ':' +
+          now.getSeconds().toString().padStart(2,'0') + ' 갱신';
+      }
+    })
+    .catch(function () {
+      if (statusEl) statusEl.textContent = '갱신 실패';
+    });
+}
+
+function newsTimeAgo(published, ts) {
+  // ts(Unix초)가 있으면 그걸로 계산, 없으면 빈 문자열
+  if (!ts || ts <= 0) return '';
+  var diff = Math.max(0, Math.floor(Date.now() / 1000 - ts));
+  if (diff < 60) return '방금 전';
+  if (diff < 3600) return Math.floor(diff / 60) + '분 전';
+  if (diff < 86400) return Math.floor(diff / 3600) + '시간 전';
+  return Math.floor(diff / 86400) + '일 전';
+}
+
+function renderNewsLive() {
+  var container = document.getElementById('news-live-list');
+  var countEl = document.getElementById('news-live-count');
+  if (!container) return;
+
+  var items = newsSourceFilter === 'all'
+    ? newsLiveItems
+    : newsLiveItems.filter(function (i) { return i.source === newsSourceFilter; });
+
+  if (countEl) countEl.textContent = '(' + items.length + '건)';
+
+  if (items.length === 0) {
+    container.innerHTML = '<p class="text-gray-500 text-sm py-8 text-center">뉴스가 없습니다.</p>';
+    return;
+  }
+
+  var SOURCE_COLORS = {
+    Reuters: 'text-orange-400',
+    Bloomberg: 'text-purple-400',
+    CNBC: 'text-blue-400',
+    WSJ: 'text-amber-300',
+    MarketWatch: 'text-green-400',
+    Investing: 'text-emerald-400',
+    Fed: 'text-yellow-400',
+  };
+
+  var html = items.map(function (item) {
+    var srcClass = SOURCE_COLORS[item.source] || 'text-gray-400';
+    var ago = newsTimeAgo(item.published, item.ts);
+    var timeStr = item.published || '';
+    var displayTitle = (newsLangKo && newsTranslations[item.id])
+      ? newsTranslations[item.id]
+      : item.title;
+    return (
+      '<a href="' + item.link + '" target="_blank" rel="noopener" ' +
+        'class="block rounded-lg border border-gray-800 bg-gray-900/50 px-4 py-3 hover:border-gray-600 hover:bg-gray-900 transition">' +
+        '<div class="flex items-start justify-between gap-3">' +
+          '<div class="flex-1 min-w-0">' +
+            '<p class="text-sm font-medium text-gray-200 leading-snug">' + escapeHtml(displayTitle) + '</p>' +
+            (item.summary ? '<p class="text-xs text-gray-500 mt-1 line-clamp-1">' + escapeHtml(item.summary) + '</p>' : '') +
+          '</div>' +
+          '<div class="shrink-0 text-right">' +
+            '<span class="text-[11px] font-semibold ' + srcClass + '">' + item.source + '</span>' +
+            (ago ? '<br><span class="text-[11px] text-blue-400 font-medium">' + ago + '</span>' : '') +
+            (timeStr ? '<br><span class="text-[10px] text-gray-600">' + timeStr + '</span>' : '') +
+          '</div>' +
+        '</div>' +
+      '</a>'
+    );
+  }).join('');
+
+  container.innerHTML = html;
+}
+
+// 소스 탭 클릭
+document.addEventListener('click', function (e) {
+  var tab = e.target.closest('.news-src-tab');
+  if (!tab) return;
+  newsSourceFilter = tab.getAttribute('data-src');
+  document.querySelectorAll('.news-src-tab').forEach(function (t) {
+    if (t.getAttribute('data-src') === newsSourceFilter) {
+      t.classList.add('active', 'bg-gray-800', 'text-gray-300');
+      t.classList.remove('text-gray-500');
+    } else {
+      t.classList.remove('active', 'bg-gray-800', 'text-gray-300');
+      t.classList.add('text-gray-500');
+    }
+  });
+  renderNewsLive();
+});
+
+// 한국어 번역 토글
+document.addEventListener('click', function (e) {
+  if (!e.target.closest('#btn-news-lang')) return;
+  var btn = document.getElementById('btn-news-lang');
+  if (newsLangKo) {
+    // 영어로 복귀
+    newsLangKo = false;
+    btn.textContent = '한국어';
+    btn.classList.remove('bg-blue-600', 'border-blue-500', 'text-white');
+    renderNewsLive();
+  } else {
+    // 번역 요청
+    btn.textContent = '번역 중…';
+    btn.classList.add('opacity-50');
+    fetch('/api/news/translate')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        if (data.translations) newsTranslations = data.translations;
+        newsLangKo = true;
+        btn.textContent = 'English';
+        btn.classList.remove('opacity-50');
+        btn.classList.add('bg-blue-600', 'border-blue-500', 'text-white');
+        renderNewsLive();
+      })
+      .catch(function () {
+        btn.textContent = '한국어';
+        btn.classList.remove('opacity-50');
+      });
+  }
+});
+
+// HTML escape helper (skip if already defined above)
+if (typeof escapeHtml === 'undefined') {
+  // already defined earlier in file
+}
+function escapeHtml(str) {
+  var div = document.createElement('div');
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+}
+
+// 탭 전환 시 매크로/속보 자동 시작/정지
+document.addEventListener('click', function (e) {
+  var tab = e.target.closest('.page-tab');
+  if (!tab) return;
+  var page = tab.getAttribute('data-page');
+  if (page === 'overview') {
+    startMacroRefresh();
+  } else {
+    stopMacroRefresh();
+  }
+  if (page === 'newsfeed') {
+    startNewsRefresh();
+  } else {
+    stopNewsRefresh();
+  }
+});
+
+// ── AI 분석 탭 비밀번호 잠금 ──────────────────────────────
+(function () {
+  var PICKS_PW = '2759';
+  var unlocked = false;
+
+  function applyLockState() {
+    var lock = document.getElementById('picks-lock');
+    var content = document.getElementById('picks-content');
+    if (!lock || !content) return;
+    if (unlocked) {
+      lock.classList.add('hidden');
+      content.classList.add('unlocked');
+    } else {
+      lock.classList.remove('hidden');
+      content.classList.remove('unlocked');
+    }
+  }
+
+  function tryUnlock() {
+    var input = document.getElementById('picks-pw');
+    var err = document.getElementById('picks-pw-err');
+    if (!input) return;
+    if (input.value === PICKS_PW) {
+      unlocked = true;
+      applyLockState();
+    } else {
+      if (err) err.classList.remove('hidden');
+      input.value = '';
+      input.focus();
+    }
+  }
+
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('#picks-pw-btn')) tryUnlock();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' && document.activeElement && document.activeElement.id === 'picks-pw') tryUnlock();
+  });
+
+  // 페이지 로드 시 상태 적용
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', applyLockState);
+  } else {
+    applyLockState();
+  }
+})();
+
+// ── AI 종목 집중분석 모달 (폴링 방식 + 히스토리) ──────────
+
+var deepPollTimer = null;
+
+function openDeepAnalyze() {
+  document.getElementById('deep-overlay').classList.remove('hidden');
+  document.getElementById('deep-modal').classList.remove('hidden');
+  var input = document.getElementById('deep-query');
+  if (input) { input.value = ''; input.focus(); }
+  loadDeepHistory();
+  if (typeof lucide !== 'undefined') lucide.createIcons();
+}
+
+function closeDeepAnalyze() {
+  document.getElementById('deep-overlay').classList.add('hidden');
+  document.getElementById('deep-modal').classList.add('hidden');
+  if (deepPollTimer) { clearInterval(deepPollTimer); deepPollTimer = null; }
+}
+
+var deepAnalyzing = false;
+
+function setDeepLock(locked) {
+  deepAnalyzing = locked;
+  var btn = document.getElementById('deep-search-btn');
+  var input = document.getElementById('deep-query');
+  if (btn) {
+    btn.disabled = locked;
+    btn.style.opacity = locked ? '0.4' : '1';
+    btn.style.pointerEvents = locked ? 'none' : 'auto';
+  }
+  if (input) {
+    input.disabled = locked;
+    input.style.opacity = locked ? '0.5' : '1';
+  }
+}
+
+function runDeepAnalyze() {
+  if (deepAnalyzing) return;
+  var input = document.getElementById('deep-query');
+  var resultEl = document.getElementById('deep-result');
+  if (!input || !resultEl) return;
+  var query = input.value.trim();
+  if (!query) return;
+
+  // 확인 팝업
+  if (!confirm(query + ' AI 집중분석을 시작할까요?')) return;
+
+  // 분석 중 잠금
+  setDeepLock(true);
+
+  resultEl.innerHTML =
+    '<div class="deep-loading">' +
+      '<div class="deep-loading-spinner"></div>' +
+      '<p class="text-sm text-gray-400">AI가 <strong>' + escapeHtml(query) + '</strong>을(를) 분석 중...</p>' +
+      '<p class="text-xs text-gray-600 mt-2">WebSearch + 종합 분석 (30초~2분 소요)</p>' +
+      '<p class="text-xs text-gray-600">새로고침해도 백그라운드에서 계속 진행되며, 완료 후 기록에서 확인 가능합니다.</p>' +
+    '</div>';
+
+  fetch('/api/stock/analyze', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query: query }),
+  })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (data.error) {
+        resultEl.innerHTML = '<div class="text-center py-8"><p class="text-red-400 text-sm">' + escapeHtml(data.error) + '</p></div>';
+        setDeepLock(false);
+        return;
+      }
+      if (data.task_id) {
+        pollDeepResult(data.task_id, resultEl, query);
+      }
+    })
+    .catch(function (err) {
+      resultEl.innerHTML = '<div class="text-center py-8"><p class="text-red-400 text-sm">요청 실패: ' + escapeHtml(err.message) + '</p></div>';
+      setDeepLock(false);
+    });
+}
+
+function pollDeepResult(taskId, resultEl, query) {
+  if (deepPollTimer) clearInterval(deepPollTimer);
+  var elapsed = 0;
+  deepPollTimer = setInterval(function () {
+    elapsed += 3;
+    var loadingP = resultEl.querySelector('.deep-loading p:first-of-type');
+    if (loadingP) {
+      loadingP.innerHTML = 'AI가 <strong>' + escapeHtml(query) + '</strong>을(를) 분석 중... (' + elapsed + '초)';
+    }
+
+    fetch('/api/stock/analyze/' + taskId)
+      .then(function (r) { return r.json(); })
+      .then(function (task) {
+        if (task.status === 'done') {
+          clearInterval(deepPollTimer);
+          deepPollTimer = null;
+          setDeepLock(false);
+          renderDeepResult(resultEl, task.result);
+          loadDeepHistory();
+        } else if (task.status === 'error') {
+          clearInterval(deepPollTimer);
+          deepPollTimer = null;
+          setDeepLock(false);
+          resultEl.innerHTML = '<div class="text-center py-8"><p class="text-red-400 text-sm">' + escapeHtml(task.error || '분석 실패') + '</p></div>';
+        }
+      })
+      .catch(function () { /* 다음 폴링에서 재시도 */ });
+  }, 3000);
+}
+
+function renderDeepResult(container, d) {
+  var html = '';
+
+  html += '<div class="deep-header">';
+  html += '<span class="deep-ticker">' + escapeHtml(d.ticker || '') + '</span>';
+  html += '<span class="deep-name">' + escapeHtml(d.name || '') + '</span>';
+  if (d.current_price) html += '<span class="deep-price">' + escapeHtml(d.current_price) + '</span>';
+  html += '</div>';
+
+  if (d.summary) {
+    html += '<div class="deep-summary">' + escapeHtml(d.summary) + '</div>';
+  }
+
+  var hasAnalystTable = d.analyst_ratings && d.analyst_ratings.length;
+
+  if (d.main_analysis && d.main_analysis.length) {
+    html += '<div class="deep-section-title"><i data-lucide="briefcase" class="w-4 h-4"></i> 주요 정보</div>';
+    html += '<table class="deep-table"><thead><tr><th>분석 요소</th><th>분석 결과</th></tr></thead><tbody>';
+    d.main_analysis.forEach(function (item) {
+      var isAnalyst = item.category.indexOf('애널리스트') >= 0;
+      html += '<tr><td>' + escapeHtml(item.category) + '</td><td>' + escapeHtml(item.result);
+      if (isAnalyst && hasAnalystTable) {
+        html += ' <button class="analyst-toggle-btn" onclick="toggleAnalystTable()">요약표 보기</button>';
+      }
+      html += '</td></tr>';
+    });
+    html += '</tbody></table>';
+  }
+
+  // 애널리스트 상세 테이블 (접힌 상태)
+  if (hasAnalystTable) {
+    html += '<div id="analyst-detail-table" class="analyst-detail hidden">';
+    html += '<div class="deep-section-title"><i data-lucide="users" class="w-4 h-4"></i> 애널리스트 상세 (최근 1~2개월)</div>';
+    html += '<table class="deep-table analyst-table"><thead><tr>' +
+      '<th>날짜</th><th>투자기관</th><th>목표주가</th><th>의견</th><th>코멘트</th>' +
+      '</tr></thead><tbody>';
+    d.analyst_ratings.forEach(function (r) {
+      html += '<tr>' +
+        '<td class="mono">' + escapeHtml(r.date || '') + '</td>' +
+        '<td>' + escapeHtml(r.firm || '') + '</td>' +
+        '<td class="mono">' + escapeHtml(r.target || '') + '</td>' +
+        '<td><span class="analyst-rating-badge">' + escapeHtml(r.rating || '') + '</span></td>' +
+        '<td>' + escapeHtml(r.comment || '') + '</td>' +
+        '</tr>';
+    });
+    html += '</tbody></table></div>';
+  }
+
+  if (d.swing_analysis && d.swing_analysis.length) {
+    html += '<div class="deep-section-title"><i data-lucide="zap" class="w-4 h-4"></i> 단타 정보</div>';
+    html += '<table class="deep-table"><thead><tr><th>분석 요소</th><th>분석 결과</th></tr></thead><tbody>';
+    d.swing_analysis.forEach(function (item) {
+      html += '<tr><td>' + escapeHtml(item.category) + '</td><td>' + escapeHtml(item.result) + '</td></tr>';
+    });
+    html += '</tbody></table>';
+  }
+
+  if (d.verify) {
+    html += '<div class="deep-section-title"><i data-lucide="shield-check" class="w-4 h-4"></i> 수급 검증 (Verify)</div>';
+    html += '<div class="deep-verify">' + escapeHtml(d.verify) + '</div>';
+  }
+
+  if (d._analyzed_at) {
+    html += '<p class="text-[11px] text-gray-600 mt-3 text-right">분석 시각: ' + escapeHtml(d._analyzed_at) + '</p>';
+  }
+
+  container.innerHTML = html;
+  if (typeof lucide !== 'undefined') lucide.createIcons();
+}
+
+function toggleAnalystTable() {
+  var el = document.getElementById('analyst-detail-table');
+  var btn = document.querySelector('.analyst-toggle-btn');
+  if (!el) return;
+  el.classList.toggle('hidden');
+  if (btn) btn.textContent = el.classList.contains('hidden') ? '요약표 보기' : '요약표 닫기';
+}
+
+// ── 분석 히스토리 ────────────────────────────────────────
+
+function loadDeepHistory() {
+  var sidebar = document.getElementById('deep-history');
+  if (!sidebar) return;
+
+  fetch('/api/stock/history')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (!data.dates || !data.dates.length) {
+        sidebar.innerHTML = '<p class="text-xs text-gray-600 p-3">분석 기록이 없습니다.</p>';
+        return;
+      }
+      var html = '';
+      data.dates.forEach(function (day) {
+        var label = day.date.slice(0,4) + '.' + day.date.slice(4,6) + '.' + day.date.slice(6,8);
+        html += '<div class="deep-hist-date">' + label + '</div>';
+        day.items.forEach(function (item) {
+          html += '<div class="deep-hist-item" onclick="loadDeepHistoryItem(\'' + day.date + '\',\'' + escapeHtml(item.filename) + '\')">';
+          html += '<span class="deep-hist-ticker">' + escapeHtml(item.ticker) + '</span>';
+          html += '<span class="deep-hist-name">' + escapeHtml(item.name) + '</span>';
+          html += '<span class="deep-hist-time">' + escapeHtml((item.analyzed_at || '').slice(11,16)) + '</span>';
+          html += '</div>';
+        });
+      });
+      sidebar.innerHTML = html;
+    })
+    .catch(function () {
+      sidebar.innerHTML = '<p class="text-xs text-gray-600 p-3">기록 로드 실패</p>';
+    });
+}
+
+function loadDeepHistoryItem(date, filename) {
+  var resultEl = document.getElementById('deep-result');
+  if (!resultEl) return;
+  resultEl.innerHTML = '<div class="deep-loading"><div class="deep-loading-spinner"></div><p class="text-sm text-gray-400">로딩 중...</p></div>';
+
+  fetch('/api/stock/history/' + date + '/' + filename)
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (data.error) {
+        resultEl.innerHTML = '<div class="text-center py-8"><p class="text-red-400 text-sm">' + escapeHtml(data.error) + '</p></div>';
+        return;
+      }
+      renderDeepResult(resultEl, data);
+    })
+    .catch(function (err) {
+      resultEl.innerHTML = '<div class="text-center py-8"><p class="text-red-400 text-sm">로드 실패</p></div>';
+    });
+}
+
+// 이벤트 바인딩
+document.addEventListener('click', function (e) {
+  if (e.target.closest('#btn-deep-analyze')) openDeepAnalyze();
+  if (e.target.closest('#deep-search-btn')) runDeepAnalyze();
+});
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Enter' && document.activeElement && document.activeElement.id === 'deep-query') runDeepAnalyze();
+  if (e.key === 'Escape') closeDeepAnalyze();
+});

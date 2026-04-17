@@ -1,0 +1,672 @@
+{
+  "events": [
+    {
+      "id": "ev_001",
+      "title": "미국-이란 전쟁 지속 및 방산 계약 급증",
+      "summary": "미국과 이스라엘의 이란 공습이 지속되는 가운데, 트럼프 대통령이 방산 기업들과 무기 생산량 4배 확대 협약을 체결. 보잉, 록히드마틴 등 주요 방산업체들이 대규모 미사일·방공 시스템 생산 계약을 체결하며 시설 확장에 돌입.",
+      "severity": "critical",
+      "category": "war",
+      "status": "live",
+      "time_label": "12시간 전",
+      "points": [
+        {
+          "country": "미국",
+          "role": "origin",
+          "label": "이란 공습 주도 및 방산 생산 확대 지시",
+          "lat": 38.9,
+          "lng": -77.0,
+          "city": "워싱턴"
+        },
+        {
+          "country": "이스라엘",
+          "role": "origin",
+          "label": "미국과 공동 군사작전 수행",
+          "lat": 31.8,
+          "lng": 35.2,
+          "city": "예루살렘"
+        },
+        {
+          "country": "이란",
+          "role": "target",
+          "label": "미국·이스라엘 공습 대상",
+          "lat": 35.7,
+          "lng": 51.4,
+          "city": "테헤란"
+        }
+      ],
+      "connections": [
+        {
+          "from": "미국",
+          "to": "이란",
+          "type": "attack",
+          "from_lat": 38.9,
+          "from_lng": -77.0,
+          "to_lat": 35.7,
+          "to_lng": 51.4
+        },
+        {
+          "from": "이스라엘",
+          "to": "이란",
+          "type": "attack",
+          "from_lat": 31.8,
+          "from_lng": 35.2,
+          "to_lat": 35.7,
+          "to_lng": 51.4
+        },
+        {
+          "from": "미국",
+          "to": "이스라엘",
+          "type": "alliance",
+          "from_lat": 38.9,
+          "from_lng": -77.0,
+          "to_lat": 31.8,
+          "to_lng": 35.2
+        }
+      ],
+      "impact_chain": [
+        "미-이란 전쟁 지속 → 미 국방부 무기 생산 4배 확대 계약 → 방산업체 매출·수주 급증",
+        "중동 분쟁 장기화 → 호르무즈 해협 리스크 확대 → 글로벌 에너지 공급망 불안"
+      ],
+      "affected_sectors": [
+        {
+          "sector": "방위산업",
+          "direction": "bullish",
+          "magnitude": "+5~10%"
+        },
+        {
+          "sector": "에너지(상류)",
+          "direction": "bullish",
+          "magnitude": "+3~5%"
+        },
+        {
+          "sector": "항공/운송",
+          "direction": "bearish",
+          "magnitude": "-2~4%"
+        }
+      ],
+      "affected_tickers": [
+        {
+          "ticker": "LMT",
+          "name": "록히드마틴",
+          "impact": "수혜",
+          "reason": "미사일·방공 시스템 대규모 생산 계약의 직접 수혜 대상"
+        },
+        {
+          "ticker": "RTX",
+          "name": "RTX",
+          "impact": "수혜",
+          "reason": "미사일 및 방공 시스템 핵심 공급업체로 생산 확대 수혜"
+        },
+        {
+          "ticker": "KTOS",
+          "name": "크라토스디펜스",
+          "impact": "수혜",
+          "reason": "무인기·미사일 방어 시스템 수요 확대에 따른 수주 증가 기대"
+        },
+        {
+          "ticker": "AJRD",
+          "name": "에어로젯로켓다인",
+          "impact": "수혜",
+          "reason": "미사일 추진체 독점 공급업체로 생산량 확대 직접 수혜"
+        },
+        {
+          "ticker": "AVAV",
+          "name": "AeroVironment",
+          "impact": "수혜",
+          "reason": "전술 무인기 및 배회탄약 수요 증가"
+        },
+        {
+          "ticker": "CW",
+          "name": "커티스라이트",
+          "impact": "수혜",
+          "reason": "방산·해군 함정용 핵심 부품 공급 확대"
+        },
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "impact": "수혜",
+          "reason": "글로벌 방산 수요 확대에 따른 K-방산 수출 모멘텀 강화"
+        },
+        {
+          "ticker": "079550",
+          "name": "LIG넥스원",
+          "impact": "수혜",
+          "reason": "미사일·방공 시스템 분야 국내 대표 방산업체로 수출 기대감 부각"
+        },
+        {
+          "ticker": "047810",
+          "name": "한국항공우주",
+          "impact": "수혜",
+          "reason": "전투기·군용 항공기 수요 증가 및 글로벌 방산 확장 수혜"
+        }
+      ]
+    },
+    {
+      "id": "ev_002",
+      "title": "중동 분쟁에 따른 원유 공급 차질 및 유가 불안",
+      "summary": "호르무즈 해협 긴장 고조로 사우디 아람코가 아시아향 원유 공급을 두 달 연속 감축. 미국이 이란산 원유 제재를 일시 면제했으나, 전쟁 장기화 시 유가 배럴당 180달러 상회 경고가 지속되는 상황.",
+      "severity": "high",
+      "category": "energy",
+      "status": "developing",
+      "time_label": "오늘 09:00",
+      "points": [
+        {
+          "country": "사우디아라비아",
+          "role": "affected",
+          "label": "아시아향 원유 공급 감축",
+          "lat": 24.7,
+          "lng": 46.7,
+          "city": "리야드"
+        },
+        {
+          "country": "이란",
+          "role": "origin",
+          "label": "호르무즈 해협 긴장의 핵심 당사국",
+          "lat": 35.7,
+          "lng": 51.4,
+          "city": "테헤란"
+        },
+        {
+          "country": "미국",
+          "role": "affected",
+          "label": "유가 안정 위해 이란 제재 일시 면제",
+          "lat": 38.9,
+          "lng": -77.0,
+          "city": "워싱턴"
+        }
+      ],
+      "connections": [
+        {
+          "from": "이란",
+          "to": "사우디아라비아",
+          "type": "impact",
+          "from_lat": 35.7,
+          "from_lng": 51.4,
+          "to_lat": 24.7,
+          "to_lng": 46.7
+        },
+        {
+          "from": "사우디아라비아",
+          "to": "대한민국",
+          "type": "trade",
+          "from_lat": 24.7,
+          "from_lng": 46.7,
+          "to_lat": 0,
+          "to_lng": 0
+        },
+        {
+          "from": "미국",
+          "to": "이란",
+          "type": "trade",
+          "from_lat": 38.9,
+          "from_lng": -77.0,
+          "to_lat": 35.7,
+          "to_lng": 51.4
+        }
+      ],
+      "impact_chain": [
+        "호르무즈 해협 긴장 → 사우디 공급 감축 → 아시아 원유 수급 불안 → 정유·화학 원가 상승",
+        "유가 급등 → 항공·운송 연료비 부담 → 수익성 악화",
+        "유가 상승 → 상류 에너지 기업 매출·마진 확대"
+      ],
+      "affected_sectors": [
+        {
+          "sector": "에너지(상류·E&P)",
+          "direction": "bullish",
+          "magnitude": "+3~7%"
+        },
+        {
+          "sector": "정유",
+          "direction": "bullish",
+          "magnitude": "+2~4%"
+        },
+        {
+          "sector": "항공/운송",
+          "direction": "bearish",
+          "magnitude": "-3~5%"
+        },
+        {
+          "sector": "화학",
+          "direction": "bearish",
+          "magnitude": "-1~3%"
+        }
+      ],
+      "affected_tickers": [
+        {
+          "ticker": "XOM",
+          "name": "엑손모빌",
+          "impact": "수혜",
+          "reason": "유가 상승 시 상류 부문 매출·마진 직접 확대"
+        },
+        {
+          "ticker": "CVX",
+          "name": "셰브론",
+          "impact": "수혜",
+          "reason": "통합 에너지 메이저로 유가 상승 수혜"
+        },
+        {
+          "ticker": "FANG",
+          "name": "다이아몬드백에너지",
+          "impact": "수혜",
+          "reason": "퍼미안 분지 중심 E&P 기업으로 유가 상승 시 수익성 극대화"
+        },
+        {
+          "ticker": "MGY",
+          "name": "매그놀리아오일앤가스",
+          "impact": "수혜",
+          "reason": "저비용 E&P 구조로 유가 상승 시 마진 확대 폭 큼"
+        },
+        {
+          "ticker": "BTE",
+          "name": "베이텍스에너지",
+          "impact": "수혜",
+          "reason": "캐나다 원유 생산업체로 유가 상승 직접 수혜"
+        },
+        {
+          "ticker": "CPE",
+          "name": "캘론페트롤리엄",
+          "impact": "수혜",
+          "reason": "미국 셰일 E&P 기업으로 고유가 환경에서 수익 극대화"
+        },
+        {
+          "ticker": "MUR",
+          "name": "머피오일",
+          "impact": "수혜",
+          "reason": "미국·캐나다 원유 생산 기업으로 유가 상승 수혜"
+        },
+        {
+          "ticker": "010950",
+          "name": "S-Oil",
+          "impact": "수혜",
+          "reason": "사우디 아람코 자회사로 중동 원유 안정 공급 우위 + 정제마진 확대 기대"
+        },
+        {
+          "ticker": "024060",
+          "name": "흥구석유",
+          "impact": "수혜",
+          "reason": "국내 석유 유통업체로 유가 상승 시 재고평가이익 발생"
+        },
+        {
+          "ticker": "004090",
+          "name": "한국석유",
+          "impact": "수혜",
+          "reason": "윤활유·석유제품 기업으로 유가 상승에 따른 제품가 인상 수혜"
+        }
+      ]
+    },
+    {
+      "id": "ev_003",
+      "title": "북한 신형 구축함 건조 및 군사 도발 지속",
+      "summary": "북한이 남포조선소에서 5,000t급 신형 구축함 3호함 건조를 가속화하며 해군력 증강에 집중. 탄도미사일 발사 등 도발이 지속되며 한반도 안보 리스크가 고조되고 있음.",
+      "severity": "medium",
+      "category": "war",
+      "status": "developing",
+      "time_label": "15시간 전",
+      "points": [
+        {
+          "country": "북한",
+          "role": "origin",
+          "label": "신형 구축함 건조 및 미사일 도발",
+          "lat": 39.0,
+          "lng": 125.8,
+          "city": "평양"
+        },
+        {
+          "country": "대한민국",
+          "role": "target",
+          "label": "안보 위협 직면",
+          "lat": 0,
+          "lng": 0,
+          "city": "대한민국"
+        },
+        {
+          "country": "미국",
+          "role": "affected",
+          "label": "한반도 안보 동맹 차원 영향",
+          "lat": 38.9,
+          "lng": -77.0,
+          "city": "워싱턴"
+        }
+      ],
+      "connections": [
+        {
+          "from": "북한",
+          "to": "대한민국",
+          "type": "attack",
+          "from_lat": 39.0,
+          "from_lng": 125.8,
+          "to_lat": 0,
+          "to_lng": 0
+        },
+        {
+          "from": "미국",
+          "to": "대한민국",
+          "type": "alliance",
+          "from_lat": 38.9,
+          "from_lng": -77.0,
+          "to_lat": 0,
+          "to_lng": 0
+        }
+      ],
+      "impact_chain": [
+        "북한 군비 증강 → 한반도 긴장 고조 → 한국 국방예산 확대 압력 → 국내 방산주 수혜",
+        "지정학 리스크 부각 → 외국인 한국 시장 투자심리 위축 → KOSPI 할인 확대"
+      ],
+      "affected_sectors": [
+        {
+          "sector": "방위산업",
+          "direction": "bullish",
+          "magnitude": "+2~4%"
+        },
+        {
+          "sector": "조선(군함)",
+          "direction": "bullish",
+          "magnitude": "+1~3%"
+        }
+      ],
+      "affected_tickers": [
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "impact": "수혜",
+          "reason": "한국 방산 대표주로 한반도 안보 긴장 시 국방비 확대 수혜"
+        },
+        {
+          "ticker": "079550",
+          "name": "LIG넥스원",
+          "impact": "수혜",
+          "reason": "미사일 방어체계 및 해군 무기 체계 공급업체"
+        },
+        {
+          "ticker": "047810",
+          "name": "한국항공우주",
+          "impact": "수혜",
+          "reason": "군용 항공기·헬기 수요 증가 기대"
+        }
+      ]
+    },
+    {
+      "id": "ev_004",
+      "title": "사이버 공격 위협 증가 및 인프라 보안 강화",
+      "summary": "중동 전쟁과 연계된 사이버 공격이 미국 핵심 인프라(의료기기 제조사 Stryker Corp 등)를 타격. 미국 정부가 사이버 전략을 통해 인프라 보호를 강화하고 있으며 기업들의 보안 지출이 증가 추세.",
+      "severity": "medium",
+      "category": "technology",
+      "status": "live",
+      "time_label": "12시간 전",
+      "points": [
+        {
+          "country": "미국",
+          "role": "target",
+          "label": "핵심 인프라 대상 사이버 공격 피해",
+          "lat": 38.9,
+          "lng": -77.0,
+          "city": "워싱턴"
+        },
+        {
+          "country": "이란",
+          "role": "origin",
+          "label": "전쟁 연계 사이버 공격 배후 추정",
+          "lat": 35.7,
+          "lng": 51.4,
+          "city": "테헤란"
+        }
+      ],
+      "connections": [
+        {
+          "from": "이란",
+          "to": "미국",
+          "type": "attack",
+          "from_lat": 35.7,
+          "from_lng": 51.4,
+          "to_lat": 38.9,
+          "to_lng": -77.0
+        }
+      ],
+      "impact_chain": [
+        "중동 전쟁 연계 사이버 공격 확대 → 미국 정부 보안 예산 증액 → 사이버보안 기업 매출 성장",
+        "핵심 인프라 피해 사례 발생 → 기업 보안 투자 가속화 → 보안 솔루션 수요 급증"
+      ],
+      "affected_sectors": [
+        {
+          "sector": "사이버보안",
+          "direction": "bullish",
+          "magnitude": "+2~4%"
+        }
+      ],
+      "affected_tickers": []
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-04-09",
+      "d_day": "D-6",
+      "event": "한국 옵션만기일",
+      "importance": "high",
+      "country": "한국",
+      "category": "market",
+      "scenarios": [
+        {
+          "name": "매수 우위 롤오버",
+          "probability": "45%",
+          "impact": "만기 충격 제한적, 대형주 중심 안정"
+        },
+        {
+          "name": "매도 우위 청산",
+          "probability": "55%",
+          "impact": "프로그램 매물 출회로 단기 하방 압력"
+        }
+      ],
+      "watch_sectors": [
+        "금융",
+        "증권",
+        "대형주"
+      ],
+      "lat": 37.5,
+      "lng": 127.0
+    },
+    {
+      "date": "2026-04-10",
+      "d_day": "D-7",
+      "event": "한국 3월 수출입 동향",
+      "importance": "high",
+      "country": "한국",
+      "category": "economic",
+      "scenarios": [
+        {
+          "name": "수출 호조(반도체 회복)",
+          "probability": "50%",
+          "impact": "반도체·IT 수출주 강세, 원화 강세 압력"
+        },
+        {
+          "name": "수출 부진(글로벌 수요 둔화)",
+          "probability": "50%",
+          "impact": "수출주 약세, 경기 둔화 우려 부각"
+        }
+      ],
+      "watch_sectors": [
+        "반도체",
+        "자동차",
+        "조선"
+      ],
+      "lat": 37.5,
+      "lng": 127.0
+    },
+    {
+      "date": "2026-04-16",
+      "d_day": "D-13",
+      "event": "한국 금융통화위원회 금리결정",
+      "importance": "high",
+      "country": "한국",
+      "category": "economic",
+      "scenarios": [
+        {
+          "name": "금리 인하(25bp)",
+          "probability": "55%",
+          "impact": "성장주·건설·부동산 수혜, 은행 NIM 축소 우려"
+        },
+        {
+          "name": "금리 동결",
+          "probability": "45%",
+          "impact": "은행주 안정, 성장주·부동산 실망 매물"
+        }
+      ],
+      "watch_sectors": [
+        "은행",
+        "건설",
+        "부동산"
+      ],
+      "lat": 37.5,
+      "lng": 127.0
+    },
+    {
+      "date": "2026-04-16",
+      "d_day": "D-13",
+      "event": "KOSPI200 선물만기일",
+      "importance": "high",
+      "country": "한국",
+      "category": "market",
+      "scenarios": [
+        {
+          "name": "순매수 롤오버",
+          "probability": "40%",
+          "impact": "지수 상방 지지, 대형주 수급 안정"
+        },
+        {
+          "name": "순매도 청산",
+          "probability": "60%",
+          "impact": "대형주 중심 프로그램 매물 출회로 지수 하락 압력"
+        }
+      ],
+      "watch_sectors": [
+        "대형주",
+        "증권"
+      ],
+      "lat": 37.5,
+      "lng": 127.0
+    },
+    {
+      "date": "2026-04-20",
+      "d_day": "D-17",
+      "event": "중국 1분기 GDP 발표",
+      "importance": "high",
+      "country": "중국",
+      "category": "economic",
+      "scenarios": [
+        {
+          "name": "성장률 상회(5.0%+)",
+          "probability": "40%",
+          "impact": "중국 소비 관련주·원자재·철강 강세"
+        },
+        {
+          "name": "성장률 하회(4.5% 이하)",
+          "probability": "60%",
+          "impact": "중국 경기 둔화 우려로 소재·산업재 약세, 위안화 약세"
+        }
+      ],
+      "watch_sectors": [
+        "철강",
+        "화학",
+        "기계",
+        "소비재"
+      ],
+      "lat": 39.9,
+      "lng": 116.4
+    },
+    {
+      "date": "2026-04-20",
+      "d_day": "D-17",
+      "event": "중국 LPR(대출우대금리) 결정",
+      "importance": "high",
+      "country": "중국",
+      "category": "policy",
+      "scenarios": [
+        {
+          "name": "LPR 인하",
+          "probability": "50%",
+          "impact": "중국 부동산·금융주 반등, 경기 부양 기대감 확산"
+        },
+        {
+          "name": "LPR 동결",
+          "probability": "50%",
+          "impact": "부양 기대 후퇴, 중국 관련주 약세"
+        }
+      ],
+      "watch_sectors": [
+        "부동산",
+        "금융"
+      ],
+      "lat": 39.9,
+      "lng": 116.4
+    },
+    {
+      "date": "2026-04-28",
+      "d_day": "D-25",
+      "event": "일본은행(BOJ) 금리결정",
+      "importance": "high",
+      "country": "일본",
+      "category": "economic",
+      "scenarios": [
+        {
+          "name": "추가 인상(0.25%p)",
+          "probability": "35%",
+          "impact": "엔화 강세 → 한국 수출주 경쟁력 개선, 일본 수출주 약세"
+        },
+        {
+          "name": "금리 동결",
+          "probability": "65%",
+          "impact": "엔저 지속 → 한국 수출주와 경쟁 심화, 현 추세 유지"
+        }
+      ],
+      "watch_sectors": [
+        "금융",
+        "수출주"
+      ],
+      "lat": 35.7,
+      "lng": 139.7
+    }
+  ],
+  "sector_summary": [
+    {
+      "sector": "방위산업",
+      "net_direction": "bullish",
+      "event_count": 3,
+      "key_reason": "미-이란 전쟁 장기화에 따른 무기 생산 4배 확대 계약 + 북한 도발로 한반도 안보 리스크 중첩"
+    },
+    {
+      "sector": "에너지(상류·E&P)",
+      "net_direction": "bullish",
+      "event_count": 2,
+      "key_reason": "호르무즈 해협 긴장 및 사우디 공급 감축으로 유가 상승 압력 지속"
+    },
+    {
+      "sector": "정유",
+      "net_direction": "bullish",
+      "event_count": 1,
+      "key_reason": "유가 상승에 따른 정제마진 확대 및 재고평가이익 기대"
+    },
+    {
+      "sector": "사이버보안",
+      "net_direction": "bullish",
+      "event_count": 1,
+      "key_reason": "전쟁 연계 사이버 공격 확산으로 정부·기업 보안 투자 가속화"
+    },
+    {
+      "sector": "항공/운송",
+      "net_direction": "bearish",
+      "event_count": 2,
+      "key_reason": "유가 급등에 따른 연료비 부담 증가로 수익성 악화"
+    },
+    {
+      "sector": "반도체",
+      "net_direction": "neutral",
+      "event_count": 0,
+      "key_reason": "오늘 직접 이벤트 없으나, D-7 한국 수출입 동향에서 방향성 결정 예상"
+    },
+    {
+      "sector": "금융/은행",
+      "net_direction": "neutral",
+      "event_count": 0,
+      "key_reason": "D-13 한국 금통위 금리 결정이 핵심 변수, 현재는 관망 구간"
+    }
+  ]
+}

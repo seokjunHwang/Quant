@@ -1,0 +1,946 @@
+{
+  "date": "20260408",
+  "generated_at": "2026-04-08T17:28:53.672765+09:00",
+  "market_summary": "미-이란 2주간 휴전 합의로 지정학적 프리미엄이 급격히 해소되며 KOSPI +6.87%, KOSDAQ +5.12%의 강한 안도 랠리가 나타났습니다. VIX -18.9% 급락, 원/달러 -1.6% 하락(원화 강세)으로 글로벌 위험선호 심리가 전면 복귀하는 모습입니다. 다만 2주짜리 단기 휴전이라는 한시적 성격과 고금리 부담이 잔존하므로, 모멘텀 추종보다 테마 선별적 접근이 필요합니다.",
+  "strategy": "오늘은 '중동 휴전 이벤트 드리븐 + 삼성전자 실적 서프라이즈' 두 축이 동시 작동하는 날 — 건설/HBM 스윙 비중을 핵심으로 유지하되, 2주 한시 휴전이라는 이벤트 소멸 리스크를 감안해 분할 진입 및 10~15% 손절 라인 사전 설정 필수.",
+  "market_view": "bullish (단기) / neutral (2주 이후) — VIX -18.9%, 원/달러 -1.6% 등 위험선호 심리가 전면 복귀했으나, 2주짜리 한시 휴전이라는 이벤트 소멸 리스크와 고금리 환경이 공존. 오늘 하루는 강세지만 이벤트 드리븐 성격이 강해 포지션 관리가 핵심.",
+  "top_theme": "반도체/HBM·AI메모리 — 삼성전자 역대 최대 실적 서프라이즈 + SK하이닉스 목표주가 상향이 동시 부각되며 구조적 AI 수요 확인, 단순 지정학 이벤트와 달리 실적 기반의 지속 가능한 모멘텀 보유.",
+  "macro": {
+    "vix": {
+      "price": 20.88,
+      "change_pct": -18.88,
+      "prev_close": 25.74
+    },
+    "sp500": {
+      "price": 6616.8501,
+      "change_pct": 0.08,
+      "prev_close": 6611.83
+    },
+    "nasdaq": {
+      "price": 22017.8496,
+      "change_pct": 0.1,
+      "prev_close": 21996.338
+    },
+    "us10y_yield": {
+      "price": 4.343,
+      "change_pct": 0.18,
+      "prev_close": 4.335
+    },
+    "us2y_yield": {
+      "price": 3.615,
+      "change_pct": -0.22,
+      "prev_close": 3.623
+    },
+    "dollar_index": {
+      "price": 98.738,
+      "change_pct": -0.26,
+      "prev_close": 98.991
+    },
+    "gold": {
+      "price": 4843.8999,
+      "change_pct": 0.3,
+      "prev_close": 4829.5
+    },
+    "oil_wti": {
+      "price": 95.77,
+      "change_pct": 0.25,
+      "prev_close": 95.53
+    },
+    "bitcoin": {
+      "price": 71628.8906,
+      "change_pct": -0.41,
+      "prev_close": 71926.7578
+    },
+    "kospi": {
+      "price": 5872.3398,
+      "change_pct": 6.87,
+      "prev_close": 5494.78
+    },
+    "kosdaq": {
+      "price": 1089.85,
+      "change_pct": 5.12,
+      "prev_close": 1036.73
+    },
+    "usdkrw": {
+      "price": 1477.36,
+      "change_pct": -1.59,
+      "prev_close": 1501.26
+    },
+    "vix_zone": "긴장"
+  },
+  "themes": [
+    {
+      "name": "중동 재건/플랜트 건설",
+      "strength": "강",
+      "trading_type": "스윙",
+      "duration": "1주일+",
+      "reason": "미-이란 휴전 합의 및 호르무즈 해협 재개방으로 중동 지역 인프라 재건 수요 기대감이 즉각 반영. 대우건설·GS건설 등 관련주가 장중 급등하며 수급 집중 확인. 중동 수주 잔고가 높은 EPC/플랜트 기업에 스윙 수익 기회 유효.",
+      "risk": "2주 한시적 휴전 — 협상 결렬 시 테마 급냉각 가능. 실제 수주 계약까지 체결되기까지 기대감 선반영 부담 존재.",
+      "sectors_kr": [
+        "건설",
+        "건설기계",
+        "플랜트/EPC"
+      ],
+      "sectors_us": [
+        "엔지니어링/건설",
+        "중장비",
+        "인프라 시공"
+      ]
+    },
+    {
+      "name": "반도체/HBM·AI메모리",
+      "strength": "강",
+      "trading_type": "둘다",
+      "duration": "1주일+",
+      "reason": "삼성전자 1분기 영업이익 57.2조 원 역대 최대 실적 + SK하이닉스 목표주가 상향이 동시에 부각. AI 서버 HBM 수요 급증이 실적으로 가시화되어 단타 모멘텀과 스윙 펀더멘털이 동시에 작동하는 가장 강한 테마.",
+      "risk": "이미 상당 부분 선반영된 실적 기대치 — 가이던스 미달 시 차익실현 출회 가능. 미중 반도체 규제 재점화 리스크 상존.",
+      "sectors_kr": [
+        "반도체 대형",
+        "반도체 장비",
+        "패키징"
+      ],
+      "sectors_us": [
+        "메모리 반도체",
+        "AI 칩설계",
+        "반도체 장비"
+      ]
+    },
+    {
+      "name": "항공·운송 (유가 하락 수혜)",
+      "strength": "중",
+      "trading_type": "스윙",
+      "duration": "1주일+",
+      "reason": "호르무즈 해협 재개방에 따른 원유 공급 프리미엄 해소 기대로 항공·물류 업체의 연료비 부담 완화 기대감 형성. 원/달러 환율 급락(강원화)이 항공사 외화부채 부담도 동시에 완화. 실질적 유가 하락 확인 시 스윙 수익 구간 진입.",
+      "risk": "현재 매크로 데이터상 WTI는 +0.2%로 아직 실질 급락 미확인 — 유가 반등 시 테마 무력화. 2주 휴전 이후 재점화 시 연료비 재상승.",
+      "sectors_kr": [
+        "항공",
+        "저비용항공사(LCC)",
+        "해운"
+      ],
+      "sectors_us": [
+        "대형항공사",
+        "LCC",
+        "물류/운송"
+      ]
+    },
+    {
+      "name": "AI 인프라·데이터센터·소프트웨어",
+      "strength": "중",
+      "trading_type": "스윙",
+      "duration": "1주일+",
+      "reason": "지정학 불확실성 완화로 기술주 전반의 리스크 프리미엄이 축소되며 AI 인프라 투자 재가속 기대 복귀. 금리 하락세(US10Y 안정화)와 맞물려 성장주 밸류에이션 부담 완화. 국내도 원화 강세가 IT 수입 비용 절감 효과 제공.",
+      "risk": "연준 금리 인하 기대 후퇴 시 성장주 멀티플 압박 재개. 단기 급등 후 차익실현 매물 부담.",
+      "sectors_kr": [
+        "AI 플랫폼",
+        "클라우드/SaaS",
+        "데이터센터 인프라"
+      ],
+      "sectors_us": [
+        "클라우드 하이퍼스케일러",
+        "데이터센터 인프라",
+        "AI 소프트웨어"
+      ]
+    },
+    {
+      "name": "우주항공·방위산업",
+      "strength": "중",
+      "trading_type": "스윙",
+      "duration": "1주일+",
+      "reason": "일론 머스크 스페이스X 상장 기대감이 국내 위성·발사체 관련주에 순환 수급 유발. 휴전에 따른 방위산업 단기 냉각 우려도 있으나, 구조적 방위비 증가 기조는 유효하여 스윙 관점 매력 유지.",
+      "risk": "방위산업은 지정학 리스크 완화 시 단기 수급 이탈 가능. SpaceX 상장 기대감은 루머 단계로 가시화 지연 리스크.",
+      "sectors_kr": [
+        "우주항공",
+        "방위산업",
+        "드론"
+      ],
+      "sectors_us": [
+        "우주 탐사/발사",
+        "방위 중대형",
+        "위성 통신"
+      ]
+    },
+    {
+      "name": "금융·증권 (위험선호 복귀)",
+      "strength": "중",
+      "trading_type": "단타",
+      "duration": "당일~2일",
+      "reason": "KOSPI 6.87% 급등, VIX -18.9%의 위험선호 환경에서 거래대금 급증 → 증권사 위탁수수료 수익 직접 수혜. 금리 하락 기대(국채 수익률 안정화)도 금융주 밸류에이션 개선에 긍정적.",
+      "risk": "랠리 하루짜리 단기 이벤트로 연속성 불확실. 고물가·고금리 구조 지속 시 대출 자산 건전성 우려 재부각.",
+      "sectors_kr": [
+        "증권",
+        "은행지주",
+        "보험"
+      ],
+      "sectors_us": [
+        "투자은행",
+        "핀테크",
+        "소비자금융"
+      ]
+    },
+    {
+      "name": "화학·소재 (유가 하락·원가 수혜)",
+      "strength": "약",
+      "trading_type": "스윙",
+      "duration": "1주일+",
+      "reason": "유가·에너지 가격 하락 기대 시 나프타 등 원재료 원가 절감으로 석화·화학 업체 마진 회복 기대. 원화 강세(수입 원재료 비용 절감)가 추가 보조. 다만 실질 유가 하락 미확인 상태로 강도 '약' 부여.",
+      "risk": "유가가 반등할 경우 원가 수혜 논리 붕괴. 현재 WTI 선물 +0.2%로 실제 하락 아직 미확인 — 테마 발동 조건 미충족 가능성.",
+      "sectors_kr": [
+        "석유화학",
+        "기능성 소재",
+        "2차전지 소재"
+      ],
+      "sectors_us": [
+        "기초화학",
+        "특수화학",
+        "패키징 소재"
+      ]
+    }
+  ],
+  "news": {
+    "kr": {
+      "summary": "미국과 이란의 2주간 휴전 합의 소식으로 지정학적 리스크가 완화되며 코스피와 코스닥이 동반 급등 마감했습니다.",
+      "hot_themes": [
+        {
+          "theme": "중동 재건",
+          "reason": "미-이란 2주간 휴전 합의로 향후 중동 지역 재건 사업 기대감 부각 (뉴스핌, 매일경제)",
+          "trading_type": "스윙",
+          "sectors": [
+            "건설",
+            "건설기계"
+          ]
+        },
+        {
+          "theme": "반도체/HBM",
+          "reason": "삼성전자 1분기 역대 최대 실적 발표 및 SK하이닉스 목표주가 상향 조정 (동아일보, 다음)",
+          "trading_type": "둘다",
+          "sectors": [
+            "반도체",
+            "반도체장비"
+          ]
+        },
+        {
+          "theme": "우주항공",
+          "reason": "일론 머스크의 스페이스X 상장 기대감 및 관련주 투자 수익 기대 (다음)",
+          "trading_type": "스윙",
+          "sectors": [
+            "우주항공"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "건설",
+          "direction": "bullish",
+          "key_news": "중동 휴전 합의에 따른 재건 수요 기대감으로 대우건설, GS건설 등 급등 (매일경제)",
+          "reason": "지정학적 리스크 완화로 인한 중동 인프라 투자 재개 가능성"
+        },
+        {
+          "sector": "반도체",
+          "direction": "bullish",
+          "key_news": "삼성전자 1분기 영업이익 57조 2천억 원 기록, 역대 최대 실적 달성 (전자신문)",
+          "reason": "AI 확산에 따른 메모리 반도체 수요 급증"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "지정학적 리스크 잔존",
+          "severity": "medium",
+          "description": "2주간의 한시적 휴전으로, 협상 결렬 시 리스크가 재점화될 가능성 상존 (인베스팅닷컴)"
+        },
+        {
+          "factor": "고물가/고금리 부담",
+          "severity": "high",
+          "description": "전쟁 장기화로 인한 에너지 및 원자재 가격 상승 압력이 여전히 경제 전반의 부담으로 작용 (전자신문, 한국경제)"
+        }
+      ]
+    },
+    "us": {
+      "summary": "미국과 이란 간의 2주간 휴전 합의 및 호르무즈 해협 재개방 소식으로 지정학적 리스크가 완화되며 시장에 강력한 안도 랠리가 나타나고 있습니다.",
+      "hot_themes": [
+        {
+          "theme": "지정학적 리스크 완화 수혜주",
+          "reason": "미-이란 2주간 휴전 합의로 공급망 우려가 일시 해소되며 전반적인 시장 반등 주도 (AP 통신)",
+          "trading_type": "둘다",
+          "sectors": [
+            "항공",
+            "운송",
+            "소비재"
+          ]
+        },
+        {
+          "theme": "에너지 가격 하락 수혜주",
+          "reason": "유가 급락으로 인한 비용 절감 기대감 반영 (Share Talk)",
+          "trading_type": "스윙",
+          "sectors": [
+            "항공",
+            "운송",
+            "제조업"
+          ]
+        },
+        {
+          "theme": "AI 인프라 및 데이터센터",
+          "reason": "AI 투자 붐이 지속되는 가운데 관련 기업들의 실적 기대감 유지 (Fool.com)",
+          "trading_type": "스윙",
+          "sectors": [
+            "반도체",
+            "데이터센터",
+            "소프트웨어"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "에너지",
+          "direction": "bearish",
+          "key_news": "호르무즈 해협 재개방 소식에 유가 16% 이상 폭락 (AP 통신)",
+          "reason": "지정학적 프리미엄 제거에 따른 유가 급락으로 에너지 기업 수익성 우려"
+        },
+        {
+          "sector": "항공/운송",
+          "direction": "bullish",
+          "key_news": "유가 급락 및 지정학적 긴장 완화로 운송 비용 감소 기대 (Share Talk)",
+          "reason": "연료비 부담 완화 및 물류 정상화 기대감"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "휴전의 일시성",
+          "severity": "high",
+          "description": "이번 휴전은 2주간의 단기 합의로, 이후 상황에 따라 지정학적 리스크가 재점화될 가능성이 상존함 (KCM Trade)"
+        },
+        {
+          "factor": "연준 금리 인하 기대 후퇴",
+          "severity": "medium",
+          "description": "에너지 가격 변동성과 AI 투자 붐으로 인한 인플레이션 압력 지속으로 연준의 금리 인하 시점이 늦춰질 가능성 제기 (Commonwealth Bank)"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "movers": [
+      {
+        "ticker": "N/A",
+        "name": "시장 전반 (지수 선물)",
+        "change_pct": 2.0,
+        "reason": "이란과의 2주간 휴전 합의 및 호르무즈 해협 안전 통행 가능성 소식에 따른 투자 심리 개선"
+      }
+    ],
+    "events": [
+      {
+        "time_et": "14:00",
+        "event": "FOMC 의사록 발표",
+        "forecast": "N/A",
+        "importance": "high"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 04월 29일",
+      "cut_probability": "2.0%"
+    }
+  },
+  "recommendations": [
+    {
+      "rank": 1,
+      "ticker": "000720",
+      "name": "현대건설",
+      "market": "kr",
+      "market_cap": 0,
+      "theme": "중동 재건/플랜트 건설",
+      "final_score": 69.7,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "미-이란 휴전 및 호르무즈 해협 재개방으로 중동 인프라 재건 수요 기대감이 즉각 반영되며 기관 중심 매수세 유입. 원전 수주 모멘텀까지 겹치며 이중 촉매 작동 중. 골든크로스 발생으로 기술적 매수 신호도 점등되었으나, RSI 68로 단기 과열 구간 근접해 분할 접근 필요.",
+      "entry": "지지선 142,100원 확인 후 분할 진입 또는 저항선 188,700원 돌파 시 추격 매수",
+      "stop_loss": "137,837원 (지지선 -3%)",
+      "target": "188,700원 (저항선, 현재가 대비 약 +32% 수준)",
+      "risk": "2주 휴전 종료 시 지정학 프리미엄 재부과 → 급락 가능. 1분기 주택 착공 감소로 실적 자체는 부진 예정. 상단 극과열 경고 수신 중.",
+      "upcoming_events": "4월 중순 1분기 잠정실적 발표 (주택 부진 우려), 5월 중순 확정실적 공시 예정.",
+      "analyst_view": "유안타증권 202,000원 유지, 한화투자증권 200,000원 상향",
+      "heat": {
+        "rsi": 67.6,
+        "rsi_signal": "중립",
+        "bb_pct": 1.251,
+        "trend": "sideways",
+        "volume_ratio": 3.98,
+        "price_change_5d": 18.01,
+        "price_change_20d": 26.81
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 49.0,
+        "supply_demand": 75.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 2,
+      "ticker": "CAT",
+      "name": "Caterpillar",
+      "market": "us",
+      "market_cap": 339023140393.2083,
+      "theme": "중동 재건/플랜트 건설",
+      "final_score": 67.7,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "중동 재건 수요 현실화 시 건설장비 최대 수혜 글로벌 1위 플레이어. 데이터센터발 전력망 인프라 수요와 사상 최대 수주잔고로 구조적 성장 스토리 유효. 상승추세 유지 중이며 5일 +8.5% 추세 일치로 단기 모멘텀도 살아있음.",
+      "entry": "지지선 $667 확인 후 분할 진입 또는 저항선 $730 돌파 시 추격",
+      "stop_loss": "$647 (지지선 -3%)",
+      "target": "$730 (저항선, 약 +9.4% 업사이드)",
+      "risk": "대규모 관세 부과로 인한 단기 마진 압박이 실적에 반영될 수 있음. 거래량 부진 경고 유효.",
+      "upcoming_events": "2026-04-20 배당락일, 2026-04-29 Q1 2026 실적발표 — 관세 영향 실적 확인 필요.",
+      "analyst_view": "Moderate Buy (목표가 $737.55)",
+      "heat": {
+        "rsi": 54.3,
+        "rsi_signal": "중립",
+        "bb_pct": 0.822,
+        "trend": "uptrend",
+        "volume_ratio": 0.65,
+        "price_change_5d": 8.54,
+        "price_change_20d": 2.78
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 49.0,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 3,
+      "ticker": "MYRG",
+      "name": "MYR Group",
+      "market": "us",
+      "market_cap": 4488750180.899078,
+      "theme": "중동 재건/플랜트 건설",
+      "final_score": 66.5,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "미국 노후 전력망 교체 및 대규모 송배전 프로젝트 수혜주로 중동 재건 테마와 미국 인프라 투자 이중 수혜 가능. 5일 +8.1% 상승세가 추세 방향과 일치하며 모멘텀 유효.",
+      "entry": "지지선 $258 확인 후 분할 진입 또는 저항선 $289 돌파 시 추격",
+      "stop_loss": "$250 (지지선 -3%)",
+      "target": "$289 (저항선, 약 +12% 업사이드)",
+      "risk": "상단 근접 과열 + 거래량 부진 이중 경고. 날씨·공급망 이슈가 단기 실적 변수.",
+      "upcoming_events": "2026-04-29 Q1 2026 실적발표 — 3주 내 실적 확인 가능.",
+      "analyst_view": "Buy / Strong Buy (목표가 $301.33)",
+      "heat": {
+        "rsi": 59.1,
+        "rsi_signal": "중립",
+        "bb_pct": 0.864,
+        "trend": "uptrend",
+        "volume_ratio": 0.91,
+        "price_change_5d": 8.14,
+        "price_change_20d": 8.06
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 45.0,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 4,
+      "ticker": "042700",
+      "name": "한미반도체",
+      "market": "kr",
+      "market_cap": 0,
+      "theme": "반도체/HBM·AI메모리",
+      "final_score": 66.2,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "HBM4 전용 장비·하이브리드 본더 기술 해자가 경쟁사 대비 압도적이며, 삼성전자 실적 서프라이즈로 HBM 장비 수요 가시성 상승. 골든크로스 임박으로 기술적 매수 타이밍 도래 중. 최근 28만원 선 강하게 회복하며 저점 다지기 완료 시사.",
+      "entry": "지지선 251,000원 확인 후 분할 진입 또는 저항선 317,000원 돌파 시 추격",
+      "stop_loss": "243,470원 (지지선 -3%)",
+      "target": "317,000원 (저항선, 약 +26% 업사이드)",
+      "risk": "반도체 장비 사이클 둔화 시 수주 공백 가능. 장중 변동성 확대 구간 잦아 짧은 손절 라인 필수.",
+      "upcoming_events": "5월 중순 1분기 분기보고서 공시 예정 (호재 가능성 — 역대급 실적 기대).",
+      "analyst_view": "BofA 300,000원 제시 등 국내외 증권사 30~33만원 이상 목표가 전망",
+      "heat": {
+        "rsi": 53.1,
+        "rsi_signal": "중립",
+        "bb_pct": 0.459,
+        "trend": "sideways",
+        "volume_ratio": 1.36,
+        "price_change_5d": 2.56,
+        "price_change_20d": -10.24
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 54.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 5,
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "market": "us",
+      "market_cap": 95648240436.3287,
+      "theme": "반도체/HBM·AI메모리",
+      "final_score": 65.6,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "엔비디아와의 차세대 AI 생태계 파트너십 확인으로 구조적 수혜 지위 확보. 5일 +24.6% 급등 후에도 AI 데이터센터 비중 확대 전략이 유효하며 비핵심 사업 정리로 이익 질 개선 중. 지정학 리스크 완화 → AI 인프라 투자 재가속 기대와 맞물려 복합 모멘텀.",
+      "entry": "지지선 $88 확인 후 분할 진입 또는 저항선 $110 돌파 시 추격",
+      "stop_loss": "$85 (지지선 -3%)",
+      "target": "$110 (저항선, 약 +25% 업사이드)",
+      "risk": "5일 +24.6% 급등으로 단기 극과열 상태. 거래량 부진은 추세 지속성 의문 신호. 실적 발표 전 차익 실현 매물 출회 가능.",
+      "upcoming_events": "2026-05-21 Q1 FY2027 실적발표 (장 마감 후) — 호재 기대.",
+      "analyst_view": "Moderate Buy ~ Strong Buy (평균 목표주가: $117.24, 최고 $164.00)",
+      "heat": {
+        "rsi": 69.2,
+        "rsi_signal": "중립",
+        "bb_pct": 0.97,
+        "trend": "uptrend",
+        "volume_ratio": 0.86,
+        "price_change_5d": 24.56,
+        "price_change_20d": 18.06
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 42.0,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 6,
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "market": "kr",
+      "market_cap": 0,
+      "theme": "반도체/HBM·AI메모리",
+      "final_score": 64.7,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "낸드 고단화와 HBM 시장 확대의 핵심 레이저 장비 수혜주로 외국인·기관 동반 매수 진행 중. 올해 창사 이래 최대 실적 전망이 밸류에이션 지지 역할. 골든크로스 발생으로 기술적 전환 확인.",
+      "entry": "지지선 384,500원 확인 후 분할 진입 또는 저항선 446,500원 돌파 시 추격",
+      "stop_loss": "372,965원 (지지선 -3%)",
+      "target": "446,500원 (저항선, 약 +16% 업사이드)",
+      "risk": "상단 근접 과열 경고 수신 중. 단기 급등 이후 차익 실현 구간 진입 가능성.",
+      "upcoming_events": "5월 중 1분기 실적발표 (최대 실적 기대), 기업가치 제고 후속 조치 발표 미정 (호재).",
+      "analyst_view": "한국투자증권 512,000원 신규 제시, iM증권 485,000원 상향",
+      "heat": {
+        "rsi": 56.8,
+        "rsi_signal": "중립",
+        "bb_pct": 0.935,
+        "trend": "sideways",
+        "volume_ratio": 1.33,
+        "price_change_5d": 1.61,
+        "price_change_20d": 10.92
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 49.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 7,
+      "ticker": "ACLS",
+      "name": "Axcelis Technologies",
+      "market": "us",
+      "market_cap": 2976812278.3023834,
+      "theme": "반도체/HBM·AI메모리",
+      "final_score": 64.4,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "Veeco 합병 완료 시 이온 임플란트 + ALD/CVD 장비 포트폴리오 결합으로 시장 지위 강화 기대. 5일 +7.1% 상승 추세 유지 중.",
+      "entry": "지지선 $83 확인 후 분할 진입 또는 저항선 $101 돌파 시 추격",
+      "stop_loss": "$81 (지지선 -3%)",
+      "target": "$101 (저항선, 약 +21.7% 업사이드)",
+      "risk": "데드크로스 임박 — 기술적 매도 신호 경고. CFO 교체 + 보수적 가이던스가 단기 주가 부담.",
+      "upcoming_events": "2026-05-06 Q1 실적발표, 2026년 하반기 Veeco 합병 완료 (호재).",
+      "analyst_view": "Buy / 평균 목표주가 $101.50",
+      "heat": {
+        "rsi": 59.1,
+        "rsi_signal": "중립",
+        "bb_pct": 0.766,
+        "trend": "uptrend",
+        "volume_ratio": 0.7,
+        "price_change_5d": 7.12,
+        "price_change_20d": 15.24
+      },
+      "score_detail": {
+        "theme": 95,
+        "chart": 43.0,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 8,
+      "ticker": "003490",
+      "name": "대한항공",
+      "market": "kr",
+      "market_cap": 0,
+      "theme": "항공·운송 (유가 하락 수혜)",
+      "final_score": 64.1,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "호르무즈 재개방 → 유가 하락 기대로 연료비 부담 완화 + 원화 강세로 외화 부채 비용 동반 감소. 방산 부문(전략급 무인기)이 추가 밸류 요소로 작용. 밸류업 테마까지 겹치며 외국인 수급 집중. 골든크로스 임박으로 기술적 진입 타이밍 도래.",
+      "entry": "지지선 23,000원 확인 후 분할 진입 또는 저항선 26,350원 돌파 시 추격",
+      "stop_loss": "22,310원 (지지선 -3%)",
+      "target": "26,350원 (저항선, 약 +14.6% 업사이드)",
+      "risk": "2주 휴전 종료 시 유가 반등 → 수혜 소멸. 아시아나 통합 관련 불확실성 잔존.",
+      "upcoming_events": "5월 중 1분기 실적발표, 아시아나항공 마일리지·AOC 통합 일정 미정 (중장기 호재).",
+      "analyst_view": "매수 (Buy), 평균 목표주가 31,000원 ~ 31,750원",
+      "heat": {
+        "rsi": 52.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.636,
+        "trend": "sideways",
+        "volume_ratio": 1.38,
+        "price_change_5d": 1.01,
+        "price_change_20d": 1.42
+      },
+      "score_detail": {
+        "theme": 95,
+        "chart": 52.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 9,
+      "ticker": "RMBS",
+      "name": "Rambus",
+      "market": "us",
+      "market_cap": 9936601802.708588,
+      "theme": "반도체/HBM·AI메모리",
+      "final_score": 64.1,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "HBM4E 메모리 컨트롤러 기술력으로 AI 인프라 공급망 핵심 위치 확보. RSI 49로 중립 구간 위치해 추가 과열 부담 없는 진입 환경. 실적 발표(4월 27일)가 단기 촉매로 작동 가능.",
+      "entry": "지지선 $80 확인 후 분할 진입 또는 저항선 $96 돌파 시 추격",
+      "stop_loss": "$77 (지지선 -3%)",
+      "target": "$96 (저항선, 약 +20% 업사이드)",
+      "risk": "CFO 교체 및 경영진 내부자 매도가 단기 변동성 유발 중. 지배구조 불안 요소 주시 필요.",
+      "upcoming_events": "2026-04-27 Q1 FY2026 실적발표 — 약 3주 내 결과 확인 가능.",
+      "analyst_view": "Moderate Buy ~ Strong Buy / 평균 목표주가 $105.71 ~ $108.17",
+      "heat": {
+        "rsi": 48.9,
+        "rsi_signal": "중립",
+        "bb_pct": 0.534,
+        "trend": "sideways",
+        "volume_ratio": 1.06,
+        "price_change_5d": 15.23,
+        "price_change_20d": 3.78
+      },
+      "score_detail": {
+        "theme": 95,
+        "chart": 52.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 10,
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "market": "us",
+      "market_cap": 4328720648345.9473,
+      "theme": "반도체/HBM·AI메모리",
+      "final_score": 63.8,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "AI 인프라 시장 지배력과 기록적 실적으로 구조적 매수 포지션 유지 적합. 지정학 불확실성 완화로 기술주 전반 리스크 프리미엄 축소 수혜. 박스권 횡보 중으로 변동성 낮아 안정적 포지션 구축 가능.",
+      "entry": "지지선 $165 확인 후 분할 진입 또는 저항선 $186 돌파 시 추격",
+      "stop_loss": "$160 (지지선 -3%)",
+      "target": "$186 (저항선, 약 +12.7% 업사이드)",
+      "risk": "경영진 대규모 주식 매각 지속 중. 거래량 부진으로 박스권 이탈 모멘텀 부재. 거시경제 변수에 민감.",
+      "upcoming_events": "2026-05-20 Q1 FY2027 실적발표 — 핵심 이벤트.",
+      "analyst_view": "Strong Buy (평균 목표주가: $268.00~$275.00, 최고 $325.00)",
+      "heat": {
+        "rsi": 49.9,
+        "rsi_signal": "중립",
+        "bb_pct": 0.533,
+        "trend": "sideways",
+        "volume_ratio": 0.74,
+        "price_change_5d": 7.83,
+        "price_change_20d": -2.49
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 46.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 11,
+      "ticker": "CRDO",
+      "name": "Credo Technology",
+      "market": "us",
+      "market_cap": 19697409261.468964,
+      "theme": "반도체/HBM·AI메모리",
+      "final_score": 63.5,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "AEC 특허 소송 리스크 해소 + 200% 이상 매출 성장률이 블랙록 등 기관 대규모 매수를 유인. AI 연결성 솔루션 수요 구조적 성장 국면 진입. 지정학 불확실성 완화로 기술주 리스크 프리미엄 추가 축소 기대.",
+      "entry": "지지선 $88 확인 후 분할 진입 또는 저항선 $118 돌파 시 추격",
+      "stop_loss": "$85 (지지선 -3%)",
+      "target": "$118 (저항선, 약 +34% 업사이드 — 가장 높은 상승 여력)",
+      "risk": "거래량 부진으로 추세 지속성 불확실. 실적 발표 6월 초로 카탈리스트까지 시간 필요.",
+      "upcoming_events": "2026-06-03 FY2026 Q4 실적발표 — 성장률 확인 이벤트.",
+      "analyst_view": "Strong Buy / 평균 목표주가 $176.36 ~ $200.00 (Needham $220)",
+      "heat": {
+        "rsi": 50.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.587,
+        "trend": "sideways",
+        "volume_ratio": 0.62,
+        "price_change_5d": 21.61,
+        "price_change_20d": -7.92
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 45.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 12,
+      "ticker": "075580",
+      "name": "세진중공업",
+      "market": "kr",
+      "market_cap": 0,
+      "theme": "중동 재건/플랜트 건설",
+      "final_score": 63.2,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "밸류업 공시 + 한미 조선 협력 수혜 기대로 외국인·기관 동반 매수. 고부가가치 탱크 물량 확대로 구조적 실적 성장 진행 중.",
+      "entry": "지지선 15,520원 확인 후 분할 진입 또는 저항선 18,100원 돌파 시 추격",
+      "stop_loss": "15,054원 (지지선 -3%)",
+      "target": "18,100원 (저항선, 약 +16.6% 업사이드)",
+      "risk": "상단 근접 과열 경고. 중소형주 유동성 리스크 및 수급 변동성 주의.",
+      "upcoming_events": "예정된 공식 일정 없음 (수시 공시 모니터링 권고).",
+      "analyst_view": "신영증권 28,000원 상향, 신한투자증권 22,000원 제시",
+      "heat": {
+        "rsi": 55.0,
+        "rsi_signal": "중립",
+        "bb_pct": 0.87,
+        "trend": "sideways",
+        "volume_ratio": 1.13,
+        "price_change_5d": 6.91,
+        "price_change_20d": 3.55
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 44.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 13,
+      "ticker": "FLR",
+      "name": "Fluor Corporation",
+      "market": "us",
+      "market_cap": 6994066422.191956,
+      "theme": "중동 재건/플랜트 건설",
+      "final_score": 62.9,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "텍사스 정유공장·SMR 원전 등 대형 수주로 수주잔고 실질적 개선 진행 중. 중동 재건 수요 현실화 시 플랜트 EPC 선두 기업으로 직접 수혜 가능.",
+      "entry": "지지선 $43 확인 후 분할 진입 또는 저항선 $48 돌파 시 추격",
+      "stop_loss": "$42 (지지선 -3%)",
+      "target": "$48 (저항선, 약 +11.6% 업사이드)",
+      "risk": "거래량 부진 지속. 중동 2주 휴전 만료 시 수주 기대감 되돌림 가능.",
+      "upcoming_events": "2026-05-06 연례 주주총회, 2026-05-08 Q1 실적발표.",
+      "analyst_view": "Moderate to Strong Buy (목표가 $54.33 ~ $55.00)",
+      "heat": {
+        "rsi": 53.4,
+        "rsi_signal": "중립",
+        "bb_pct": 0.788,
+        "trend": "sideways",
+        "volume_ratio": 0.78,
+        "price_change_5d": 9.0,
+        "price_change_20d": 4.15
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 43.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 14,
+      "ticker": "KBR",
+      "name": "KBR Inc",
+      "market": "us",
+      "market_cap": 4786301397.75,
+      "theme": "중동 재건/플랜트 건설",
+      "final_score": 62.6,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "중동 정유공장 장기 유지보수 계약 기반의 안정적 캐시카우 보유. 중동 재건 테마 확산 시 신규 수주 기대감 추가 반영 가능.",
+      "entry": "지지선 $36 확인 후 분할 진입 또는 저항선 $38 돌파 시 추격",
+      "stop_loss": "$35 (지지선 -3%)",
+      "target": "$38 (저항선, 약 +5.6% 업사이드 — 상승 여력 제한적)",
+      "risk": "지지선-저항선 갭이 좁아 수익 대비 리스크 비율 낮음. 거래량 부진으로 유동성 위험.",
+      "upcoming_events": "2026-05-05 Q1 2026 실적발표.",
+      "analyst_view": "Buy / Strong Buy (목표가 $51.50 ~ $57.00)",
+      "heat": {
+        "rsi": 46.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.737,
+        "trend": "sideways",
+        "volume_ratio": 0.57,
+        "price_change_5d": 5.42,
+        "price_change_20d": -3.71
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 42.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 15,
+      "ticker": "PRIM",
+      "name": "Primoris Services",
+      "market": "us",
+      "market_cap": 8077785930.098511,
+      "theme": "중동 재건/플랜트 건설",
+      "final_score": 62.0,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "데이터센터·전기 인프라 대형 인수로 신성장 동력 확보. 가스 발전 + 신재생 인프라 수주 기대감으로 투심 개선 중.",
+      "entry": "지지선 $132 확인 후 분할 진입 또는 저항선 $151 돌파 시 추격",
+      "stop_loss": "$128 (지지선 -3%)",
+      "target": "$151 (저항선, 약 +14.4% 업사이드)",
+      "risk": "거래량 부진으로 추세 신뢰도 낮음. 대형 인수에 따른 통합 리스크 잠재.",
+      "upcoming_events": "Q2 중 Q1 2026 실적발표 예정.",
+      "analyst_view": "Moderate Buy / Buy (목표가 $154.53 ~ $173.18)",
+      "heat": {
+        "rsi": 54.0,
+        "rsi_signal": "중립",
+        "bb_pct": 0.821,
+        "trend": "sideways",
+        "volume_ratio": 0.83,
+        "price_change_5d": 10.89,
+        "price_change_20d": 8.2
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 40.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 16,
+      "ticker": "ROAD",
+      "name": "Construction Partners",
+      "market": "us",
+      "market_cap": 6031320995.708496,
+      "theme": "중동 재건/플랜트 건설",
+      "final_score": 62.0,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "기록적 수주잔고 + 월가 투자의견 연속 상향으로 펀더멘털 강세. RSI 41 + 볼린저 밴드 하단~중간 위치로 저점 매수 매력 존재. 골든크로스 임박.",
+      "entry": "지지선 $105 확인 후 분할 진입 또는 저항선 $123 돌파 시 추격",
+      "stop_loss": "$102 (지지선 -3%)",
+      "target": "$123 (저항선, 약 +17.1% 업사이드)",
+      "risk": "하락추세 + 20일 약세 경고가 가장 큰 리스크. 최고점 차익 실현 매물 소화 중.",
+      "upcoming_events": "2026-05-08 FY2026 Q2 실적발표 및 컨퍼런스콜.",
+      "analyst_view": "Buy / Strong Buy (평균 목표주가: $131.40~$140.00, 최고 $150.00)",
+      "heat": {
+        "rsi": 40.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.216,
+        "trend": "downtrend",
+        "volume_ratio": 1.0,
+        "price_change_5d": 0.72,
+        "price_change_20d": -13.57
+      },
+      "score_detail": {
+        "theme": 95,
+        "chart": 55.0,
+        "supply_demand": 35.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 17,
+      "ticker": "ACA",
+      "name": "Arcosa",
+      "market": "us",
+      "market_cap": 5214760030.638908,
+      "theme": "중동 재건/플랜트 건설",
+      "final_score": 61.4,
+      "trading_type": "스윙 (1주일+)",
+      "timing": "관망",
+      "why": "바지선 매각 → 골재/건설인프라 집중 사업 재편으로 포트폴리오 질적 개선. 기관 지분율 높아 하방 지지력 존재. 4월 15일 배당 기준일로 배당 수익 단기 유인.",
+      "entry": "지지선 $101 확인 후 분할 진입 또는 저항선 $110 돌파 시 추격",
+      "stop_loss": "$98 (지지선 -3%)",
+      "target": "$110 (저항선, 약 +8.9% 업사이드)",
+      "risk": "데드크로스 임박 + 거래량 부진 이중 경고. 사업 재편 과도기로 단기 실적 가시성 낮음.",
+      "upcoming_events": "2026-04-15 배당 기준일, 2026-04-30 배당 지급, 2026-05-05 Q1 실적발표.",
+      "analyst_view": "Strong Buy (평균 목표주가: $120.00~$127.83, 최고 $135.00)",
+      "heat": {
+        "rsi": 45.7,
+        "rsi_signal": "중립",
+        "bb_pct": 0.572,
+        "trend": "sideways",
+        "volume_ratio": 0.72,
+        "price_change_5d": 4.04,
+        "price_change_20d": -3.38
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 38.0,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    }
+  ],
+  "avoid": [
+    "ACLS (Axcelis) — 데드크로스 임박 + CFO 교체 동시 발생, 기술적/펀더멘털 이중 경고",
+    "ACA (Arcosa) — 데드크로스 임박 + 거래량 부진, 사업 재편 과도기 실적 불확실",
+    "KBR — 지지선-저항선 갭 5.6%로 리스크/리워드 비율 불리, 단기 트레이딩 부적합",
+    "MRVL (Marvell) — 5일 +24.6% 단기 급등 극과열, 신규 진입보다 기존 보유자 수익 실현 고려",
+    "현대건설 — 오늘 급등 이후 RSI 68 극과열 진입, 추격 매수 자제 권고"
+  ],
+  "excluded": [
+    {
+      "name": "대우건설",
+      "ticker": "047040",
+      "reason": "유상증자 결정 (30일 이내)"
+    },
+    {
+      "name": "한화에어로스페이스",
+      "ticker": "012450",
+      "reason": "유상증자 결정 (30일 이내)"
+    }
+  ],
+  "counts": {
+    "kr": 5,
+    "us": 12,
+    "total": 17
+  }
+}

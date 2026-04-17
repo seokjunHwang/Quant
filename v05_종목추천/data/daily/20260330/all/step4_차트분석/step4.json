@@ -1,0 +1,5331 @@
+{
+  "stocks_with_chart": [
+    {
+      "ticker": "112610",
+      "name": "씨에스윈드",
+      "theme": "재생에너지/에너지전환",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "112610",
+        "name": "씨에스윈드",
+        "theme": "재생에너지/에너지전환",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "기업가치 제고 계획 자율공시 및 주주환원 정책 강화 발표 (디지털투데이)",
+            "date": "2026-03-26",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "기관 투자자들의 연속적인 순매수세 유입 및 주식선물 가격제한폭 확대 요건 도달 (재경일보, 뉴스핌)",
+            "date": "2026-03-25",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "중동 지정학적 리스크에 따른 에너지 안보 부각으로 신재생에너지 테마 강세 (한국경제)",
+            "date": "2026-03-19",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "지정학적/정책 리스크",
+            "description": "미국 에너지 정책 변화 및 AMPC(첨단제조생산세액공제) 관련 불확실성 상존",
+            "severity": "medium"
+          },
+          {
+            "type": "실적 리스크",
+            "description": "하부구조물 부문의 수주 공백 및 일회성 비용 발생 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 중동발 지정학적 리스크로 인한 에너지 안보 이슈가 부각되며 신재생에너지 관련주로 주목받음. 기업가치 제고 계획 발표와 기관의 강한 매수세가 이어지며 주가가 상승 흐름을 보이고 있음.",
+        "momentum": "bullish",
+        "analyst_view": "투자의견 매수(BUY) 유지, 목표주가 70,000원 (유진투자증권, 2026.02.19 기준)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "112610",
+        "chart_score": 50,
+        "timing": "관망",
+        "entry_condition": "데이터 부족",
+        "stop_loss": "-",
+        "target_price": "-",
+        "chart_summary": "차트 데이터 없음",
+        "signals": [],
+        "warnings": [
+          "OHLCV 데이터 수집 실패"
+        ],
+        "raw_indicators": {}
+      }
+    },
+    {
+      "ticker": "SLB",
+      "name": "슐럼버거",
+      "theme": "에너지/정유 — 유가 수혜",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "SLB",
+        "name": "슐럼버거",
+        "theme": "에너지/정유 — 유가 수혜",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "NVIDIA와 에너지 산업용 AI 인프라 및 모델 개발을 위한 파트너십 확대 발표 (SLB 공식 뉴스룸)",
+            "date": "2026-03-25",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "OneSubsea 부문, 중국 CNOOC로부터 Kaiping 18-1 심해 유전 개발을 위한 통합 EPC 계약 수주 (SLB 공식 뉴스룸)",
+            "date": "2026-03-17",
+            "impact": "medium"
+          },
+          {
+            "type": "악재",
+            "content": "중동 지역 지정학적 긴장으로 인한 운영 차질 및 1분기 실적에 주당 6~9센트의 부정적 영향 예상 (SLB 공식 뉴스룸)",
+            "date": "2026-03-11",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "지정학적 리스크",
+            "description": "중동 지역의 불안정한 정세로 인한 운영 중단 및 비용 증가 가능성",
+            "severity": "high"
+          },
+          {
+            "type": "시장 리스크",
+            "description": "북미 육상 시추 활동 둔화 및 유가 변동성에 따른 서비스 수요 감소 우려",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "SLB는 최근 NVIDIA와의 AI 협력을 통해 에너지 기술 기업으로의 전환을 가속화하고 있으며, 심해 유전 프로젝트 수주 등 기술적 성과를 내고 있습니다. 다만, 중동 지역의 지정학적 리스크로 인해 1분기 실적에 일시적인 타격이 예상된다는 점이 투자자들의 주의를 요하고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "월가 애널리스트 컨센서스는 'Strong Buy'이며, 목표주가 중간값은 약 $55.50 수준입니다.",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "SLB",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "53.5 저항선 돌파 후 거래량 동반 양봉 확인 시 진입, 또는 조정 시 50일선 부근(49~50) 지지 확인 후 분할 매수",
+        "stop_loss": "51.0 이탈 시 손절 (약 -4.2%), 보수적 기준 49.0 (약 -8.0%)",
+        "target_price": "저항 돌파 시 1차 목표 56.5 (+6.1%), 2차 목표 59.0 (+10.8%)",
+        "chart_summary": "5일간 +8.1% 급등하며 볼린저밴드 상단(95.1%)에 근접, 20일 저항선 53.5에 도달한 상태. 거래량이 20일 평균의 0.2배로 극도로 낮아 상승의 신뢰도가 부족하며, MACD 크로스 미발생으로 추세 전환 확인이 안 된 상황.",
+        "signals": [
+          "5일 +8.1% 단기 강한 반등 모멘텀",
+          "RSI 65.5로 아직 과매수 구간 미진입",
+          "20일 저항선(53.5) 테스트 중 — 돌파 시 추가 상승 여력"
+        ],
+        "warnings": [
+          "거래량 0.2x — 평소의 1/5 수준으로 '거래량 없는 상승'은 지속성 의심",
+          "볼린저밴드 95.1%로 상단 밀착, 단기 되돌림(mean reversion) 가능성 높음",
+          "MACD 크로스 미발생 — 추세 전환 시그널 부재",
+          "전체 추세 sideways로 박스권 상단에서의 진입은 물릴 위험",
+          "20일 저항 53.5 바로 아래에서 매수 시 저항 돌파 실패 리스크"
+        ],
+        "raw_indicators": {
+          "rsi": 65.5,
+          "rsi_signal": "중립",
+          "bb_pct": 0.951,
+          "macd_cross": "none",
+          "volume_ratio": 0.16,
+          "trend": "sideways",
+          "price_change_5d": 8.1,
+          "price_change_20d": 3.84,
+          "support": 44.56,
+          "resistance": 53.5,
+          "current_price": 53.24
+        }
+      }
+    },
+    {
+      "ticker": "DVN",
+      "name": "데본에너지",
+      "theme": "에너지/정유 — 유가 수혜",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "DVN",
+        "name": "데본에너지",
+        "theme": "에너지/정유 — 유가 수혜",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "이란 분쟁 및 호르무즈 해협 봉쇄로 인한 국제 유가(Brent) 100달러 돌파로 수익성 개선 기대 (TheStreet)",
+            "date": "2026-03-18",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "모건스탠리, 데본에너지 목표주가를 46달러에서 59달러로 상향 조정하며 주가 52주 신고가 경신 (MarketBeat)",
+            "date": "2026-03-30",
+            "impact": "high"
+          },
+          {
+            "type": "중립",
+            "content": "코테라 에너지(Coterra)와의 합병 추진, 2027년까지 연간 10억 달러 비용 절감 시너지 기대 (TheStreet)",
+            "date": "2026-03-18",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "공매도 증가",
+            "description": "3월 중 공매도 잔고가 58.3% 급증하며 단기 변동성 확대 가능성 (MarketBeat)",
+            "severity": "medium"
+          },
+          {
+            "type": "매크로 리스크",
+            "description": "지정학적 긴장 완화 시 유가 급락에 따른 실적 둔화 가능성 및 경기 침체 우려",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "이란 분쟁으로 인한 유가 급등 수혜로 주가가 52주 신고가를 기록 중입니다. 최근 애널리스트들의 목표주가 상향이 이어지고 있으며, 코테라 에너지와의 합병을 통한 비용 절감 전략이 긍정적으로 평가받고 있으나, 공매도 잔고 급증에 따른 단기 변동성 주의가 필요합니다.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표주가 약 50~54달러 수준 (최고 69달러, 최저 37달러), 투자의견은 'Moderate Buy' 또는 'Strong Buy' 우세",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "DVN",
+        "chart_score": 30,
+        "timing": "관망",
+        "entry_condition": "RSI 60 이하로 하락 + 볼린저 중심선(약 47.8) 부근 눌림목에서 거래량 동반 반등 시 매수 진입. 최소 52.27 저항선 돌파 후 되돌림(리테스트) 지지 확인 시 추격 매수 가능.",
+        "stop_loss": "진입가 대비 -5% 또는 20일 지지선 43.26 이탈 시 손절",
+        "target_price": "신규 진입 시 목표가 56~58 구간 (볼린저 상단 확장 기준 약 +8~10%)",
+        "chart_summary": "RSI 81.7 과매수 + 볼린저 92% 상단 근접 상태에서 거래량이 20일 평균 대비 0.1배로 극도로 낮아, 상승 추세의 힘이 빠지고 있는 전형적 피로 국면. 현재가가 20일 저항선과 일치하여 단기 조정 또는 횡보 가능성이 높음.",
+        "signals": [
+          "명확한 상승 추세(uptrend) 유지 중",
+          "5일 +7.8%, 20일 +16.9%로 강한 모멘텀",
+          "에너지/유가 수혜 테마 — 섹터 모멘텀 존재"
+        ],
+        "warnings": [
+          "RSI 81.7 극단적 과매수 — 단기 되돌림 확률 높음",
+          "거래량 0.1x로 극히 저조 — 상승에 매수세 뒷받침 부족 (거래량-가격 다이버전스)",
+          "현재가 = 20일 저항선(52.27) — 돌파 실패 시 급락 가능",
+          "볼린저 92% 상단 밀착 — 평균 회귀 압력 증가",
+          "MACD 크로스 신호 없음 — 추가 상승 모멘텀 확인 불가",
+          "단기 급등 후 진입 시 높은 손절 폭 불가피 (지지선 43.26까지 약 -17%)"
+        ],
+        "raw_indicators": {
+          "rsi": 81.7,
+          "rsi_signal": "과매수",
+          "bb_pct": 0.923,
+          "macd_cross": "none",
+          "volume_ratio": 0.13,
+          "trend": "uptrend",
+          "price_change_5d": 7.8,
+          "price_change_20d": 16.89,
+          "support": 43.264,
+          "resistance": 52.27,
+          "current_price": 52.27
+        }
+      }
+    },
+    {
+      "ticker": "RTX",
+      "name": "레이시온",
+      "theme": "방산/항공우주",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "RTX",
+        "name": "레이시온",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "앨라배마주 헌츠빌 미사일 통합 시설 1억 1,500만 달러 규모 확장 완료 (생산 능력 50% 이상 증대)",
+            "date": "2026-03-13",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "미 국방부와 레이더 개발 및 항공 전자 장비 유지 보수 관련 1조 3천억 원 규모 계약 체결",
+            "date": "2026-03-27",
+            "impact": "high"
+          },
+          {
+            "type": "중립",
+            "content": "중동 지정학적 긴장 고조로 인한 방산 수요 증가 기대와 동시에 공급망 및 물류 차질 우려 공존",
+            "date": "2026-03-30",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "지정학적 리스크",
+            "description": "중동 분쟁 심화 시 미 국방부의 우선순위 변경으로 인한 기존 계약 이행 지연 가능성",
+            "severity": "medium"
+          },
+          {
+            "type": "밸류에이션 리스크",
+            "description": "최근 주가 상승으로 인한 높은 P/E 배수 및 일부 내부자 매도세 지속",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 레이시온은 미사일 생산 시설 확장과 대규모 국방 계약 체결로 강력한 수주 모멘텀을 확보했습니다. 중동 긴장 고조로 방산주로서의 주목도가 높으나, 높은 밸류에이션과 지정학적 불확실성에 따른 변동성 관리가 필요한 시점입니다.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표주가 약 $202.00 ~ $225.00 수준으로, 다수의 애널리스트가 'Moderate Buy' 의견을 유지하고 있음.",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "RTX",
+        "chart_score": 45,
+        "timing": "관망",
+        "entry_condition": "RSI 30 이하 진입 후 반등 확인 + 거래량 20일 평균 1.5x 이상 동반 시 매수. 현재 지지선(188.68) 종가 기준 이탈하지 않고 양봉 출현 시 소량 진입 가능",
+        "stop_loss": "지지선 188.68 하방 이탈 시 손절 (종가 기준 185.0 이하, 약 -2.0%)",
+        "target_price": "1차 목표 199.2 (+5.6%), 2차 목표 209.8 (20일 저항선 부근, +11.2%)",
+        "chart_summary": "20일간 -11.1% 급락 후 볼린저 하단(2.4%)과 20일 지지선에 동시 도달한 상태. 그러나 거래량이 20일 평균의 0.1배로 극도로 위축되어 있고 MACD 반전 신호가 없어 바닥 확인이 아직 불충분함.",
+        "signals": [
+          "볼린저밴드 하단 근접(2.4%) → 통계적 반등 구간 진입",
+          "RSI 33.7로 과매도 임계(30)에 근접 → 추가 하락 시 반등 트리거 가능",
+          "현재가가 정확히 20일 지지선(188.68)에 위치 → 지지 테스트 구간",
+          "방산/항공우주 테마는 펀더멘털 하방 경직성 존재"
+        ],
+        "warnings": [
+          "거래량 0.1x로 극도로 낮음 → 매수세 유입 전혀 없는 상태, 반등 신뢰도 낮음",
+          "MACD 크로스 신호 없음 → 모멘텀 전환 미확인",
+          "20일 -11.1% 급락 → 하락 추세 지속 가능성, 낙폭 과대 ≠ 반등",
+          "지지선 이탈 시 추가 낙폭 확대 위험 (다음 지지 구간까지 갭 존재)",
+          "RSI가 아직 30 이상이므로 정식 과매도 신호 미달"
+        ],
+        "raw_indicators": {
+          "rsi": 33.7,
+          "rsi_signal": "중립",
+          "bb_pct": 0.024,
+          "macd_cross": "none",
+          "volume_ratio": 0.11,
+          "trend": "sideways",
+          "price_change_5d": -3.15,
+          "price_change_20d": -11.06,
+          "support": 188.685,
+          "resistance": 209.76,
+          "current_price": 188.685
+        }
+      }
+    },
+    {
+      "ticker": "NOC",
+      "name": "노스롭그루먼",
+      "theme": "방산/항공우주",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "NOC",
+        "name": "노스롭그루먼",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미 해군으로부터 1억 2,700만 달러 규모의 초음속 표적 공급 계약 체결 (MarketBeat)",
+            "date": "2026-03-29",
+            "impact": "medium"
+          },
+          {
+            "type": "중립",
+            "content": "2026년 1분기 실적 발표일 4월 21일로 확정 (공시)",
+            "date": "2026-03-19",
+            "impact": "low"
+          }
+        ],
+        "risks": [
+          {
+            "type": "재무 리스크",
+            "description": "국제 수주 잔고 비율(Book-to-bill)이 1.0배 미만으로 하락하여 신규 수주 확보에 대한 우려 존재",
+            "severity": "medium"
+          },
+          {
+            "type": "거시경제 리스크",
+            "description": "미 의회의 예산 승인 지연으로 인한 계약 자금 및 대금 지급 지연 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 1주일간 노스롭그루먼은 미 해군과의 대규모 계약 체결 소식과 함께 4월 21일 예정된 1분기 실적 발표를 앞두고 있습니다. 지정학적 긴장 고조로 인한 방산 수요 증가가 주가를 지지하고 있으나, 일부 기관 투자자의 지분 축소와 수주 잔고에 대한 우려가 공존하고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표주가 약 $740~$750 수준 (최고 $815), 투자의견은 'Moderate Buy'가 우세함",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "NOC",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "RSI 30 이하 진입 + 볼린저 하단 터치 후 양봉 반등 확인 시 매수 (660~670 구간). 거래량이 20일 평균 대비 1.5x 이상 동반되는 반등 캔들 필수 확인",
+        "stop_loss": "655 이탈 시 손절 (현재가 대비 약 -3%)",
+        "target_price": "1차 목표 717 (20일 지지·저항 중간값, +6.2%), 2차 목표 759 (20일 저항선, +12.4%)",
+        "chart_summary": "20일간 -12.1% 급락 후 현재가가 20일 지지선(675.08)에 정확히 걸쳐 있는 상태. RSI 36.6, 볼린저 하단 근접(9.8%)으로 과매도 직전이나, 거래량 0.1x의 극심한 거래 부진과 MACD 크로스 부재로 반등 동력이 확인되지 않음.",
+        "signals": [
+          "RSI 36.6으로 과매도 구간(30) 근접 — 추가 하락 시 기술적 반등 가능성",
+          "볼린저밴드 9.8% 위치로 하단 밴드 근접 — 평균 회귀 기대 구간",
+          "20일 지지선(675.08)에서 현재가 지지 테스트 중 — 지지 확인 시 반등 트리거"
+        ],
+        "warnings": [
+          "거래량 0.1x — 20일 평균 대비 극도로 낮아 시장 관심 부재, 반등 시에도 지속력 의문",
+          "MACD 크로스 없음 — 추세 전환 신호 미확인, 하락 추세 지속 가능",
+          "20일 -12.1% 급락 — 단순 기술적 반등이 아닌 펀더멘털 악재 동반 가능성 점검 필요",
+          "지지선(675.08)이 현재가와 동일 — 이탈 시 추가 급락 리스크 존재 (다음 지지 구간 불명확)"
+        ],
+        "raw_indicators": {
+          "rsi": 36.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.098,
+          "macd_cross": "none",
+          "volume_ratio": 0.11,
+          "trend": "sideways",
+          "price_change_5d": -0.72,
+          "price_change_20d": -12.1,
+          "support": 675.08,
+          "resistance": 759.11,
+          "current_price": 675.08
+        }
+      }
+    },
+    {
+      "ticker": "GD",
+      "name": "제너럴다이나믹스",
+      "theme": "방산/항공우주",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "GD",
+        "name": "제너럴다이나믹스",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미 해군으로부터 잠수함 지원을 위한 9,500만 달러 규모의 계약 수주 (Zacks)",
+            "date": "2026-03-27",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "AUSA Global Force 2026에서 신형 자율주행 대드론(Counter-UAS) 차량 공개 (GD 공식)",
+            "date": "2026-03-23",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "운영 리스크",
+            "description": "지속적인 비용 인플레이션 및 공급망 제약이 생산 효율성에 부담으로 작용",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 미 해군과의 잠수함 지원 계약 수주 및 AUSA 심포지엄에서의 신기술 공개로 방산 부문의 견고한 수주 잔고가 재확인됨. 기관 투자자들의 지분 확대가 이어지며 안정적인 성장세에 대한 시장의 신뢰가 유지되고 있음.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표주가 약 $393.30 (최근 12개월 내 다수 애널리스트 'Moderate Buy' 의견 유지)",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "GD",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "20일 지지선(345.78) 확인 후 거래량 동반 반등 시 진입. RSI 35 이하 진입 또는 MACD 골든크로스 발생 시 분할 매수 고려",
+        "stop_loss": "340.00 이탈 시 손절 (약 -1.7%)",
+        "target_price": "1차 목표 366.12 (20일 저항선, +5.9%), 2차 목표 375.00 (+8.4%)",
+        "chart_summary": "하락 추세 진행 중이며 현재가가 20일 지지선(345.78)에 정확히 걸쳐 있는 상황. 거래량이 20일 평균의 0.1배로 극도로 위축되어 방향성 결정 전 대기 국면.",
+        "signals": [
+          "현재가가 20일 지지선(345.78)에 도달하여 기술적 반등 가능 구간",
+          "볼린저밴드 하단(16.9%)에 근접하여 과매도 영역 접근 중",
+          "RSI 43.1로 아직 과매도가 아니어서 추가 하락 시 반등 매매 여력 존재",
+          "방산/항공우주 테마는 지정학적 리스크 시 방어주 역할 가능"
+        ],
+        "warnings": [
+          "명확한 하락 추세(downtrend) 진행 중 — 역추세 매매는 리스크 높음",
+          "거래량 0.1배로 극도로 위축되어 기관/세력 매집 또는 무관심 구간 판단 어려움",
+          "MACD 크로스 신호 없음 — 추세 전환 확인 불가",
+          "20일 등락률 -5.2%로 중기 하락 모멘텀 지속 중",
+          "지지선(345.78) 이탈 시 추가 급락 가능성 있음"
+        ],
+        "raw_indicators": {
+          "rsi": 43.1,
+          "rsi_signal": "중립",
+          "bb_pct": 0.169,
+          "macd_cross": "none",
+          "volume_ratio": 0.1,
+          "trend": "downtrend",
+          "price_change_5d": -0.46,
+          "price_change_20d": -5.21,
+          "support": 345.78,
+          "resistance": 366.12,
+          "current_price": 345.7875
+        }
+      }
+    },
+    {
+      "ticker": "KTOS",
+      "name": "크라토스디펜스",
+      "theme": "방산/항공우주",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "KTOS",
+        "name": "크라토스디펜스",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미 해군(NSWC PHD)으로부터 4,900만 달러 규모의 Oriole 로켓 모터 및 추진 제어 시스템 공급 계약 체결 (MarketBeat, 2026-03-26)",
+            "date": "2026-03-26",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "항공우주 분야 베테랑 데이비드 킹(David King)을 이사회 멤버로 영입하여 거버넌스 및 프로그램 전문성 강화 (Investing.com, 2026-03-25)",
+            "date": "2026-03-25",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "SKY Perfect JSAT와 5G 비지상 네트워크(NTN) 지상 시스템 개발을 위한 전략적 파트너십 체결 (GuruFocus, 2026-03-23)",
+            "date": "2026-03-23",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 부담",
+            "description": "최근 주가 급등으로 인해 P/E 비율이 약 553배 수준으로 매우 높게 형성되어 있어 변동성에 취약함",
+            "severity": "high"
+          },
+          {
+            "type": "내부자 매도",
+            "description": "최근 90일간 내부자들이 약 37만 3,500주(약 3,480만 달러 규모)를 매도하여 차익 실현 움직임 지속",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 미 해군과의 대규모 로켓 모터 계약 및 신규 이사 영입 등 방산 분야에서의 수주 모멘텀이 지속되고 있음. 기관 투자자들의 높은 보유 비중이 유지되는 가운데, 높은 밸류에이션과 내부자 매도세가 공존하며 주가 변동성이 확대되는 양상임.",
+        "momentum": "bullish",
+        "analyst_view": "월가 애널리스트 컨센서스는 'Moderate Buy' 또는 'Strong Buy'이며, 평균 목표주가는 약 $97~$98 수준으로 현재가 대비 상승 여력이 있는 것으로 평가됨.",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "KTOS",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "RSI 30 이하에서 양봉 반등 + 거래량 1.5x 이상 동반 시 1차 진입. MACD 골든크로스 확인 시 2차 추가 매수",
+        "stop_loss": "64.30 (현재가 대비 -5%, 직전 지지선 이탈 기준)",
+        "target_price": "1차 목표 75.00 (+10.7%), 2차 목표 81.50 (20일 밴드 중심선 부근, +20.3%)",
+        "chart_summary": "급락 후 볼린저 하단을 이탈하며 20일 지지선(67.72)에 도달한 상태. RSI 30.5로 과매도 근접이나 거래량이 극도로 위축(0.2x)되어 반등 에너지가 부족하며, MACD 반전 신호도 없어 낙폭 확대 가능성 상존.",
+        "signals": [
+          "RSI 30.5로 과매도 구간 진입 임박",
+          "볼린저밴드 하단(-10.3%) 이탈 → 기술적 반등 영역",
+          "현재가가 20일 지지선(67.72)에 정확히 위치 → 지지 테스트 중",
+          "5일 -19.1% 급락 → 낙폭과대에 따른 기술적 반등 가능성"
+        ],
+        "warnings": [
+          "거래량 0.2x로 극도로 위축 → 매수세 유입 전혀 없음 (가장 큰 리스크)",
+          "MACD 크로스 신호 없음 → 추세 반전 미확인",
+          "하락 추세 지속 중 → 낙폭 확대(falling knife) 위험",
+          "20일 -25.4% 급락 → 추가 투매 및 손절 물량 출회 가능",
+          "지지선(67.72) 이탈 시 다음 지지 구간까지 하락폭 클 수 있음"
+        ],
+        "raw_indicators": {
+          "rsi": 30.5,
+          "rsi_signal": "중립",
+          "bb_pct": -0.103,
+          "macd_cross": "none",
+          "volume_ratio": 0.23,
+          "trend": "downtrend",
+          "price_change_5d": -19.08,
+          "price_change_20d": -25.35,
+          "support": 67.72,
+          "resistance": 95.31,
+          "current_price": 67.72
+        }
+      }
+    },
+    {
+      "ticker": "FNV",
+      "name": "프랑코네바다",
+      "theme": "금/원자재 — 안전자산",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "FNV",
+        "name": "프랑코네바다",
+        "theme": "금/원자재 — 안전자산",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "2025년 4분기 실적 발표에서 EPS 1.85달러(예상치 1.65달러 상회) 및 매출 5억 9,730만 달러 기록 (Investing.com)",
+            "date": "2026-03-10",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "19년 연속 연간 배당금 인상 발표 및 분기 배당금 0.44달러 지급 (PR Newswire)",
+            "date": "2026-03-26",
+            "impact": "medium"
+          },
+          {
+            "type": "중립",
+            "content": "4월 8일 투자자의 날(Investor Day) 개최 예정, 전략 및 포트폴리오 성과 공유 예고 (TipRanks)",
+            "date": "2026-03-18",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 부담",
+            "description": "현재 주가가 애널리스트들의 공정 가치 추정치를 상회하며 고평가 논란 존재",
+            "severity": "medium"
+          },
+          {
+            "type": "시장 의존성",
+            "description": "금 등 원자재 가격 변동성 및 특정 광산(Cobre Panama 등) 운영 리스크에 따른 수익 변동 가능성",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "프랑코네바다는 최근 4분기 실적 서프라이즈를 기록하며 시장의 주목을 받았습니다. 견고한 재무 구조와 배당 인상으로 투자자들의 신뢰를 얻고 있으며, 4월 8일 예정된 투자자의 날을 앞두고 향후 성장 전략에 대한 기대감이 형성되어 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표주가 약 257달러~306달러 수준으로, 다수의 애널리스트가 '매수(Buy)' 또는 '보유(Hold)' 의견을 제시하며 긍정적인 전망 유지",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "FNV",
+        "chart_score": 38,
+        "timing": "관망",
+        "entry_condition": "20일 지지선(222.54) 부근 재테스트 후 반등 확인 시 진입, 또는 RSI 30 이하 진입 + 거래량 평균 이상 동반 시 단기 반등 매매",
+        "stop_loss": "220.0 (지지선 222.54 하방 이탈 시, 약 -6.0%)",
+        "target_price": "1차 목표 248.0 (+6.0%), 2차 목표 265.0 (20일 저항선 부근, +13.2%)",
+        "chart_summary": "20일간 -15.7% 하락 후 5일 +3.1% 기술적 반등 중이나, 하락추세 지속 중이며 거래량이 평균 대비 0.1배로 극도로 부진. 반등의 신뢰도가 낮고 추세 전환 시그널(MACD 골든크로스, 거래량 급증) 부재.",
+        "signals": [
+          "5일 +3.1% 단기 반등 시도 중",
+          "볼린저밴드 28.7%로 하단 근접 — 추가 하락 시 과매도 반등 가능성",
+          "RSI 41.9로 과매도 영역(30) 접근 중 — 추가 하락 시 반등 트리거 가능",
+          "금/안전자산 테마로 매크로 불확실성 시 수혜 가능"
+        ],
+        "warnings": [
+          "거래량 0.1x — 극도의 거래 부진으로 현재 반등에 매수세 부재",
+          "추세(downtrend) 하락 진행 중 — 역추세 매매는 높은 리스크",
+          "MACD 크로스 시그널 없음 — 모멘텀 전환 미확인",
+          "20일 -15.7% 급락 후 데드캣 바운스 가능성 경계",
+          "지지선(222.54)까지 약 -4.9% 추가 하락 여지 존재"
+        ],
+        "raw_indicators": {
+          "rsi": 41.9,
+          "rsi_signal": "중립",
+          "bb_pct": 0.287,
+          "macd_cross": "none",
+          "volume_ratio": 0.15,
+          "trend": "downtrend",
+          "price_change_5d": 3.15,
+          "price_change_20d": -15.66,
+          "support": 222.54,
+          "resistance": 265.28,
+          "current_price": 234.0
+        }
+      }
+    },
+    {
+      "ticker": "079550",
+      "name": "LIG넥스원",
+      "theme": "방산/항공우주",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "079550",
+        "name": "LIG넥스원",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "팔란티어 테크놀로지스와 통합방공망 및 무인체계 솔루션 개발 협력을 위한 MOU 체결 (뉴스1)",
+            "date": "2026-03-25",
+            "impact": "high"
+          },
+          {
+            "type": "중립",
+            "content": "투자경고종목 지정 해제 및 투자주의종목 지정 (재경일보)",
+            "date": "2026-03-30",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "단기 과열",
+            "description": "최근 팔란티어 협력 이슈 등으로 주가가 급등하며 투자경고종목으로 지정된 바 있음",
+            "severity": "medium"
+          },
+          {
+            "type": "실적 변동성",
+            "description": "일회성 비용 및 연구개발 비중 확대로 인한 영업이익률 둔화 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "LIG넥스원은 최근 팔란티어와 AI 기반 통합방공망 및 무인체계 개발을 위한 MOU를 체결하며 기술적 경쟁력 강화 기대감으로 주가가 강세를 보였습니다. 4분기 실적은 일회성 비용으로 컨센서스를 하회했으나, 26조 원이 넘는 풍부한 수주잔고를 바탕으로 수출 중심의 중장기 성장세는 유효하다는 평가입니다.",
+        "momentum": "bullish",
+        "analyst_view": "매수 의견 유지, 목표주가 690,000원~740,000원 수준 (한화투자증권, 유안타증권 등)",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "079550",
+        "chart_score": 50,
+        "timing": "관망",
+        "entry_condition": "데이터 부족",
+        "stop_loss": "-",
+        "target_price": "-",
+        "chart_summary": "차트 데이터 없음",
+        "signals": [],
+        "warnings": [
+          "OHLCV 데이터 수집 실패"
+        ],
+        "raw_indicators": {}
+      }
+    },
+    {
+      "ticker": "HAL",
+      "name": "할리버튼",
+      "theme": "에너지/정유 — 유가 수혜",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "HAL",
+        "name": "할리버튼",
+        "theme": "에너지/정유 — 유가 수혜",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "BMO Capital, 할리버튼 목표주가를 39달러에서 42달러로 상향 조정 (24/7 Wall St.)",
+            "date": "2026-03-25",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "엑손모빌과 가이아나에서 세계 최초 완전 폐쇄 루프 자동화 지질학적 유정 배치 기술 달성 (Halliburton Press Release)",
+            "date": "2026-03-16",
+            "impact": "medium"
+          },
+          {
+            "type": "중립",
+            "content": "분기 배당금 0.17달러 지급 (3월 25일 지급 완료)",
+            "date": "2026-03-25",
+            "impact": "low"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 부담",
+            "description": "최근 주가 상승으로 인해 다수 애널리스트 목표주가 대비 하락 가능성(downside)이 제기됨",
+            "severity": "medium"
+          },
+          {
+            "type": "내부자 매도",
+            "description": "임원진의 지속적인 주식 매도세가 관찰됨",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "할리버튼은 최근 기술적 성과(엑손모빌 협력)와 증권사의 목표주가 상향으로 주가가 강세를 보임. 다만, 최근 주가 급등에 따른 밸류에이션 부담과 일부 기관의 차익 실현 매물이 혼재된 상황임.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표주가 약 35~38달러 수준 (최고 44달러, 최저 26달러), 투자의견은 '매수(Buy)' 및 '보유(Hold)'가 혼재된 컨센서스 형성",
+        "score_hint": 65
+      },
+      "score": 95.0,
+      "score_breakdown": {
+        "base": 65,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "HAL",
+        "chart_score": 30,
+        "timing": "관망",
+        "entry_condition": "RSI 60 이하로 냉각 + 20일 지지선(33.69~35.00) 부근 눌림목에서 거래량 동반 반등 시 매수 진입. 또는 저항선(40.42) 거래량 2배 이상 돌파 확인 후 리테스트 시 진입",
+        "stop_loss": "진입가 대비 -5% 또는 20일 지지선 33.69 하향 이탈 시 손절",
+        "target_price": "저항 돌파 시 43.0~44.0 (약 +7~10%), 눌림목 매수 시 40.0~40.4 (저항선 부근)",
+        "chart_summary": "강한 상승추세 속 RSI 72.7 과매수 + 볼린저 상단(97.4%) 도달로 단기 과열 구간. 거래량이 20일 평균의 0.2배로 극히 낮아 현재 랠리의 지속력에 의문이 있으며, 저항선(40.42)에 거의 도달해 추격 매수는 위험.",
+        "signals": [
+          "명확한 상승추세(uptrend) 유지 중",
+          "5일 +7.1%, 20일 +12.3%로 강한 모멘텀",
+          "에너지/유가 수혜 테마 — 매크로 순풍 가능"
+        ],
+        "warnings": [
+          "RSI 72.7 과매수 영역 — 단기 조정 가능성 높음",
+          "볼린저밴드 97.4%로 상단 밀착, 평균 회귀 압력 존재",
+          "거래량 0.2배 — 극도로 낮은 거래량, 상승 신뢰도 약함",
+          "현재가(40.19)가 20일 저항(40.42)에 근접, 저항 돌파 실패 시 되돌림 위험",
+          "MACD 크로스 미발생 — 추세 전환 확인 신호 부재"
+        ],
+        "raw_indicators": {
+          "rsi": 72.7,
+          "rsi_signal": "과매수",
+          "bb_pct": 0.974,
+          "macd_cross": "none",
+          "volume_ratio": 0.16,
+          "trend": "uptrend",
+          "price_change_5d": 7.14,
+          "price_change_20d": 12.27,
+          "support": 33.69,
+          "resistance": 40.42,
+          "current_price": 40.19
+        }
+      }
+    },
+    {
+      "ticker": "CENX",
+      "name": "센추리알루미늄",
+      "theme": "금/원자재 — 안전자산",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "CENX",
+        "name": "센추리알루미늄",
+        "theme": "금/원자재 — 안전자산",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미국 내 신규 알루미늄 제련소 파트너십 및 운영 효율화 추진 (Simply Wall St)",
+            "date": "2026-03-25",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "2026년 1분기 조정 EBITDA 가이던스 상향 조정 (Sahm Capital)",
+            "date": "2026-03-14",
+            "impact": "high"
+          },
+          {
+            "type": "악재",
+            "content": "연례 보고서(10-K) 제출 지연에 따른 규제 및 거버넌스 리스크 발생 (Sahm Capital)",
+            "date": "2026-03-14",
+            "impact": "medium"
+          },
+          {
+            "type": "악재",
+            "content": "CEO 및 주요 임원의 대규모 주식 매도 공시 (MarketBeat)",
+            "date": "2026-03-24",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "운영 리스크",
+            "description": "알루미나, 전력 등 주요 원자재 비용 상승 및 설비 가동 중단 가능성",
+            "severity": "medium"
+          },
+          {
+            "type": "규제 리스크",
+            "description": "10-K 제출 지연으로 인한 SEC 규제 준수 우려 및 정책 변화(관세 등) 민감도",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 센추리알루미늄은 미국 내 신규 제련소 파트너십과 1분기 EBITDA 가이던스 상향으로 운영 모멘텀을 확보했으나, 10-K 제출 지연과 경영진의 주식 매도 소식이 겹치며 주가 변동성이 확대되고 있음.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표주가 $57.00 ~ $68.00 (매수 의견 우세)",
+        "score_hint": 65
+      },
+      "score": 95.0,
+      "score_breakdown": {
+        "base": 65,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "CENX",
+        "chart_score": 62,
+        "timing": "관망",
+        "entry_condition": "20일 지지선(46.48) 부근 눌림목 또는 저항선(58.07) 돌파 후 리테스트 시 매수 진입. 이상적으로는 52~53 구간 조정 시 거래량 감소 확인 후 진입",
+        "stop_loss": "46.00 이탈 시 손절 (약 -15.4%)",
+        "target_price": "58.07 (1차 목표, +6.8%) / 62.00 (2차 목표, +14.1%)",
+        "chart_summary": "상승추세 내 5일간 +16.9% 급등 후 볼린저 중상단(61.3%)에 위치. RSI 55.5로 과매수는 아니나 단기 급등에 따른 차익실현 압력 존재, 거래량 0.7x로 후속 매수세 부족.",
+        "signals": [
+          "상승추세(uptrend) 유지 중",
+          "RSI 55.5로 과매수 구간 진입 전 — 추가 상승 여력 존재",
+          "5일 등락률 +16.9%로 강한 단기 모멘텀",
+          "20일 등락률 +5.8%로 중기 방향성도 상승"
+        ],
+        "warnings": [
+          "거래량 0.7x — 20일 평균 대비 부족, 급등의 지속성 의문",
+          "MACD 크로스 없음(none) — 추세 전환 확인 신호 부재",
+          "5일 +16.9% 급등 후 단기 과열 가능성, 되돌림 리스크",
+          "현재가(54.36)가 저항선(58.07)에 근접 — 저항 돌파 실패 시 눌림 가능",
+          "볼린저 61.3%로 중상단 위치, 밴드 상단 접근 시 되돌림 경계 필요"
+        ],
+        "raw_indicators": {
+          "rsi": 55.5,
+          "rsi_signal": "중립",
+          "bb_pct": 0.613,
+          "macd_cross": "none",
+          "volume_ratio": 0.73,
+          "trend": "uptrend",
+          "price_change_5d": 16.95,
+          "price_change_20d": 5.84,
+          "support": 46.48,
+          "resistance": 58.07,
+          "current_price": 54.36
+        }
+      }
+    },
+    {
+      "ticker": "LMT",
+      "name": "록히드마틴",
+      "theme": "방산/항공우주",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "LMT",
+        "name": "록히드마틴",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미사일 및 타격 프로그램 관련 신규 계약 및 수주 모멘텀 지속으로 매출 가시성 확보 (MarketBeat)",
+            "date": "2026-03-30",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "자체 개발 'Lamprey' 다목적 자율 수중 차량(MMAUV) 공개 및 기술적 우위 강조 (Lockheed Martin)",
+            "date": "2026-03-24",
+            "impact": "medium"
+          },
+          {
+            "type": "악재",
+            "content": "2026년 1월 발표된 2025년 4분기 실적에서 주당순이익(EPS)이 시장 예상치를 하회 (MarketBeat)",
+            "date": "2026-01-29",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 부담",
+            "description": "2026년 들어 주가가 26% 이상 급등하며 P/E 비율이 30배에 근접, 단기 과열 및 고평가 논란 존재",
+            "severity": "medium"
+          },
+          {
+            "type": "지정학적/정책 리스크",
+            "description": "미국 국방 예산 정책 변화 및 글로벌 공급망 재편에 따른 비용 압박 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "록히드마틴은 최근 미사일 부문의 견조한 수주와 신규 자율주행 무기 체계 공개로 방산 시장 내 입지를 강화하고 있습니다. 다만, 연초 주가 급등에 따른 밸류에이션 부담과 과거 실적 미스에 대한 경계감이 공존하며, 기관 투자자들의 매수세와 차익 실현 매물이 혼재된 양상을 보입니다.",
+        "momentum": "neutral",
+        "analyst_view": "애널리스트 컨센서스는 '보유(Hold)' 의견이 우세하며, 12개월 목표주가는 약 $623~$660 수준으로 현재 주가 대비 상승 여력은 제한적인 것으로 평가됨.",
+        "score_hint": 65
+      },
+      "score": 85.0,
+      "score_breakdown": {
+        "base": 65,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "LMT",
+        "chart_score": 42,
+        "timing": "관망",
+        "entry_condition": "607.5 지지선에서 양봉 반등 확인 + 거래량 1.0x 이상 회복 시 진입. 또는 RSI 30 이하 터치 후 반등 시 분할 매수 1차 진입",
+        "stop_loss": "지지선 607.5 하향 이탈 시 손절 (종가 기준 600 이하 확정 시 -1.2%)",
+        "target_price": "1차 목표 640 (+5.3%), 2차 목표 671.8 (20일 저항선, +10.6%)",
+        "chart_summary": "20일간 -10.2% 급락 후 현재가가 정확히 20일 지지선(607.5)에 도달. 볼린저 하단(7.8%) 근접으로 과매도 영역 진입 중이나, 거래량이 평소 대비 0.2배로 극도로 위축되어 반등 동력이 아직 확인되지 않는 상태.",
+        "signals": [
+          "볼린저밴드 하단(7.8%) 근접 → 기술적 반등 구간 임박",
+          "현재가가 20일 지지선 정확히 도달 → 지지 테스트 구간",
+          "RSI 39로 과매도 근접 → 추가 하락 시 반등 매매 기회"
+        ],
+        "warnings": [
+          "거래량 0.2x로 극도로 위축 → 매수세 유입 미확인, 바닥 확인 불가",
+          "MACD 크로스 신호 없음 → 추세 전환 근거 부재",
+          "20일 -10.2% 하락 추세 → 하락 모멘텀 지속 가능성",
+          "지지선(607.5) 이탈 시 추가 낙폭 확대 위험 (다음 지지대 탐색 필요)",
+          "추세가 sideways이나 실질적으로 하락 압력 우세"
+        ],
+        "raw_indicators": {
+          "rsi": 39.0,
+          "rsi_signal": "중립",
+          "bb_pct": 0.078,
+          "macd_cross": "none",
+          "volume_ratio": 0.23,
+          "trend": "sideways",
+          "price_change_5d": -1.42,
+          "price_change_20d": -10.22,
+          "support": 607.525,
+          "resistance": 671.77,
+          "current_price": 607.525
+        }
+      }
+    },
+    {
+      "ticker": "NEM",
+      "name": "뉴몬트",
+      "theme": "금/원자재 — 안전자산",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "NEM",
+        "name": "뉴몬트",
+        "theme": "금/원자재 — 안전자산",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "최근 분기 실적 발표에서 EPS 2.52달러(예상치 1.81달러 상회) 및 매출 68.2억 달러 기록 (MarketBeat, 2026년 3월 30일)",
+            "date": "2026-03-30",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "분기 배당금을 주당 0.26달러로 인상 (MarketBeat, 2026년 3월 30일)",
+            "date": "2026-03-30",
+            "impact": "medium"
+          },
+          {
+            "type": "악재",
+            "content": "네바다 합작법인(NGM) 운영과 관련하여 배릭 골드(Barrick Gold)와 '자원 탈취' 및 경영권 분쟁으로 인한 법적 갈등 심화 (Chronicle Journal, 2026년 3월 30일)",
+            "date": "2026-03-30",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "운영 리스크",
+            "description": "2026년 생산량 감소가 예상되는 '생산 저점(trough year)' 구간 진입 및 주요 파트너사와의 법적 분쟁",
+            "severity": "high"
+          },
+          {
+            "type": "시장 리스크",
+            "description": "금 가격 변동성에 대한 높은 민감도 및 최근 금 가격 조정에 따른 주가 하방 압력",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "뉴몬트는 최근 실적 서프라이즈와 배당 인상으로 펀더멘털 강점을 입증했으나, 배릭 골드와의 네바다 합작법인 경영권 분쟁이 법적 갈등으로 번지며 주가 변동성을 키우고 있음. 월가 애널리스트들은 여전히 '매수' 의견을 유지하고 있으나, 생산량 감소가 예상되는 2026년의 운영 리스크가 주가 상승을 제한하는 요인으로 작용 중.",
+        "momentum": "neutral",
+        "analyst_view": "평균 목표주가 약 133~145달러 수준 (Strong Buy/Buy 컨센서스 유지)",
+        "score_hint": 65
+      },
+      "score": 85.0,
+      "score_breakdown": {
+        "base": 65,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "NEM",
+        "chart_score": 45,
+        "timing": "관망",
+        "entry_condition": "95.8 지지선 부근(96~98)에서 거래량 1.5x 이상 동반한 양봉 출현 시 매수 진입. 또는 MACD 골든크로스 확인 후 104~105 돌파 시 추격 매수.",
+        "stop_loss": "93.5 (지지선 95.8 하방 약 2.4% 이탈 시 손절)",
+        "target_price": "1차 목표 111.5 (볼린저 중단), 2차 목표 119.4 (20일 저항선). 진입가 대비 +7~15%",
+        "chart_summary": "20일간 -19.2% 급락 후 5일간 +5.8% 기술적 반등 진행 중이나, 거래량 0.3x로 극히 부진해 반등의 신뢰도가 낮음. 하락 추세 속 데드캣 바운스 가능성을 배제할 수 없는 구간.",
+        "signals": [
+          "5일 +5.8% 단기 반등 모멘텀 발생",
+          "RSI 42로 과매도 근접 구간에서 반등 시도",
+          "볼린저밴드 35% 위치로 하단 접근 — 평균회귀 여력 존재",
+          "20일 지지선 95.8 유지 중 (직전 저점 방어)"
+        ],
+        "warnings": [
+          "거래량 0.3x — 반등에 매수세 참여 극히 부족, 세력 매집 아닌 기술적 되돌림 가능성",
+          "MACD 크로스 없음 — 추세 전환 신호 미확인",
+          "전체 추세 downtrend — 역추세 매매는 높은 리스크",
+          "20일 -19.2% 급락 — 하락 관성이 강해 추가 하락 여지 있음",
+          "지지선 95.8 이탈 시 90 부근까지 낙폭 확대 가능"
+        ],
+        "raw_indicators": {
+          "rsi": 42.0,
+          "rsi_signal": "중립",
+          "bb_pct": 0.352,
+          "macd_cross": "none",
+          "volume_ratio": 0.27,
+          "trend": "downtrend",
+          "price_change_5d": 5.78,
+          "price_change_20d": -19.2,
+          "support": 95.8,
+          "resistance": 119.37,
+          "current_price": 103.81
+        }
+      }
+    },
+    {
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "theme": "2차전지/ESS/전기차",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "373220",
+        "name": "LG에너지솔루션",
+        "theme": "2차전지/ESS/전기차",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미국 ESS 시장 성장 및 AI 데이터센터향 수요 급증으로 인한 수혜 기대 (다올투자증권, 2026.03.24)",
+            "date": "2026-03-24",
+            "impact": "high"
+          },
+          {
+            "type": "중립",
+            "content": "1Q26 실적 컨센서스 소폭 하회 전망이나 업황 바닥 통과 기대감으로 주가 강세 (교보증권, 2026.03.30)",
+            "date": "2026-03-30",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "지정학적 리스크 고조에 따른 에너지 안보 중요성 부각으로 2차전지주 동반 강세 (뉴스1, 2026.03.30)",
+            "date": "2026-03-30",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "실적 리스크",
+            "description": "북미 전기차(EV) 수요 회복 지연 및 1분기 영업적자 지속 우려",
+            "severity": "high"
+          },
+          {
+            "type": "수급 리스크",
+            "description": "모회사 LG화학의 지분 매각 관련 오버행(잠재적 매도 물량) 우려 지속",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 LG에너지솔루션은 전기차 시장의 단기 부진에도 불구하고, AI 데이터센터 확산에 따른 ESS 사업의 구조적 성장 기대감이 주가를 견인하고 있습니다. 1분기 실적은 컨센서스를 소폭 하회할 것으로 예상되나, 증권가에서는 이를 업황 바닥 통과 과정으로 해석하며 중장기 성장성에 무게를 두고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "투자의견 매수(BUY) 유지, 목표주가 530,000원~570,000원 수준",
+        "score_hint": 65
+      },
+      "score": 85.0,
+      "score_breakdown": {
+        "base": 65,
+        "theme_strength": 10,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "373220",
+        "chart_score": 50,
+        "timing": "관망",
+        "entry_condition": "데이터 부족",
+        "stop_loss": "-",
+        "target_price": "-",
+        "chart_summary": "차트 데이터 없음",
+        "signals": [],
+        "warnings": [
+          "OHLCV 데이터 수집 실패"
+        ],
+        "raw_indicators": {}
+      }
+    },
+    {
+      "ticker": "010130",
+      "name": "고려아연",
+      "theme": "금/원자재 — 안전자산",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "010130",
+        "name": "고려아연",
+        "theme": "금/원자재 — 안전자산",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미국 에너지저장장치(BESS) 프로젝트에 고려아연이 투자한 에너지볼트가 핵심 사업자로 참여하며 글로벌 투자 성과 가시화 (더구루)",
+            "date": "2026-03-25",
+            "impact": "medium"
+          },
+          {
+            "type": "중립",
+            "content": "정기주주총회 결과 이사회 구도가 최윤범 회장 측 8석, 영풍·MBK 연합 5석, 미국 측 1석으로 재편되며 경영권 분쟁의 새로운 국면 진입 (뉴스1)",
+            "date": "2026-03-24",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "지배구조 리스크",
+            "description": "국민연금이 주총에서 최윤범 회장 측 이사 후보들에게 반대하거나 의결권을 행사하지 않는 등 경영권 분쟁 관련 불확실성 지속",
+            "severity": "high"
+          },
+          {
+            "type": "시장 변동성",
+            "description": "중동 긴장 고조 및 글로벌 증시 변동성 확대에 따른 원자재 관련주 전반의 투자 심리 위축 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 고려아연은 정기주주총회를 통해 이사회 구도가 재편되며 경영권 분쟁이 새로운 국면을 맞이했습니다. 본업인 제련업의 견고한 실적과 더불어 미국 BESS 프로젝트 참여 등 신사업 성과가 부각되고 있으나, 주주 간 갈등과 경영권 관련 불확실성이 주가 변동성을 키우는 요인으로 작용하고 있습니다.",
+        "momentum": "neutral",
+        "analyst_view": "애널리스트 평균 목표주가 약 1,846,667원 (최근 3개월 내 증권사 리포트 및 컨센서스 기준)",
+        "score_hint": 55
+      },
+      "score": 75.0,
+      "score_breakdown": {
+        "base": 55,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "010130",
+        "chart_score": 50,
+        "timing": "관망",
+        "entry_condition": "데이터 부족",
+        "stop_loss": "-",
+        "target_price": "-",
+        "chart_summary": "차트 데이터 없음",
+        "signals": [],
+        "warnings": [
+          "OHLCV 데이터 수집 실패"
+        ],
+        "raw_indicators": {}
+      }
+    },
+    {
+      "ticker": "XOM",
+      "name": "엑손모빌",
+      "theme": "에너지/정유 — 유가 수혜",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "XOM",
+        "name": "엑손모빌",
+        "theme": "에너지/정유 — 유가 수혜",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "XOM",
+        "chart_score": 30,
+        "timing": "관망",
+        "entry_condition": "RSI 60 이하로 냉각 + 볼린저 중심선(약 161원) 부근 조정 후 거래량 동반 반등 시 진입. 또는 174.15 저항 돌파 후 거래량 2.0x 이상 수반되는 확인된 브레이크아웃 시 눌림목 매수",
+        "stop_loss": "진입가 대비 -3.5% 또는 20일 지지선 148.13 이탈 시 손절",
+        "target_price": "저항 돌파 매수 시 목표 +5~7% (약 183~186), 조정 후 반등 매수 시 목표 174 재돌파",
+        "chart_summary": "강한 상승추세이나 RSI 78.8 과매수 + 볼린저 상단 이탈(106.4%)로 단기 과열 극심. 거래량이 20일 평균의 0.4배에 불과해 추가 상승 동력이 부족하며, 단기 조정 가능성이 높은 구간.",
+        "signals": [
+          "명확한 상승추세(uptrend) 유지 중",
+          "5일 +8.1%, 20일 +12.9%의 강한 모멘텀",
+          "에너지/정유 테마 — 유가 강세 시 추가 수혜 가능"
+        ],
+        "warnings": [
+          "RSI 78.8 — 과매수 경고 구간 (70 이상)",
+          "볼린저밴드 106.4% — 상단 완전 이탈, 평균회귀 압력 높음",
+          "거래량 0.4x — 상승에 거래량 미동반 (스마트머니 매도 가능성)",
+          "MACD 크로스 없음 — 추세 전환 신호 미확인",
+          "현재가 = 20일 저항선(174.15) — 저항 구간 정면 도달",
+          "5일간 +8.1% 급등 후 차익실현 매물 출회 가능성"
+        ],
+        "raw_indicators": {
+          "rsi": 78.8,
+          "rsi_signal": "과매수",
+          "bb_pct": 1.064,
+          "macd_cross": "none",
+          "volume_ratio": 0.36,
+          "trend": "uptrend",
+          "price_change_5d": 8.08,
+          "price_change_20d": 12.92,
+          "support": 148.13,
+          "resistance": 174.15,
+          "current_price": 174.15
+        }
+      }
+    },
+    {
+      "ticker": "CVX",
+      "name": "셰브론",
+      "theme": "에너지/정유 — 유가 수혜",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "CVX",
+        "name": "셰브론",
+        "theme": "에너지/정유 — 유가 수혜",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "CVX",
+        "chart_score": 30,
+        "timing": "관망",
+        "entry_condition": "RSI 60 이하로 냉각 + 볼린저밴드 중단선(약 200) 부근까지 조정 시 분할 매수 진입. 또는 213 저항 돌파 후 거래량 2배 이상 수반 시 눌림목 매수",
+        "stop_loss": "20일 지지선 186.03 하향 이탈 시 손절 (약 -12.7%)",
+        "target_price": "신고가 돌파 시 225~230 (약 +5~8%), 조정 후 재진입 시 213 재돌파 목표",
+        "chart_summary": "RSI 82.5 극단적 과매수 + 볼린저 상단 95% 위치로 단기 과열 상태. 5일간 +3.9%, 20일간 +12.5% 급등했으나 거래량은 평균 대비 0.2배로 극도로 낮아 상승 신뢰도가 약함.",
+        "signals": [
+          "명확한 상승추세(uptrend) 유지 중",
+          "20일간 +12.5% 강한 모멘텀",
+          "현재가가 20일 저항선과 동일 → 신고가 돌파 시도 구간"
+        ],
+        "warnings": [
+          "RSI 82.5 극단적 과매수 — 단기 되돌림 확률 높음",
+          "볼린저밴드 95.4% 위치 — 밴드 상단 이탈 직전, 평균 회귀 압력 강함",
+          "거래량 0.2배 — 상승을 뒷받침하는 매수세가 매우 약함 (가장 큰 경고)",
+          "MACD 크로스 없음 — 추가 상승 모멘텀 확인 불가",
+          "현재가 = 저항선(213.2) — 저항 돌파 실패 시 급격한 하락 전환 가능"
+        ],
+        "raw_indicators": {
+          "rsi": 82.5,
+          "rsi_signal": "과매수",
+          "bb_pct": 0.954,
+          "macd_cross": "none",
+          "volume_ratio": 0.19,
+          "trend": "uptrend",
+          "price_change_5d": 3.9,
+          "price_change_20d": 12.46,
+          "support": 186.03,
+          "resistance": 213.215,
+          "current_price": 213.215
+        }
+      }
+    },
+    {
+      "ticker": "OXY",
+      "name": "옥시덴탈",
+      "theme": "에너지/정유 — 유가 수혜",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "OXY",
+        "name": "옥시덴탈",
+        "theme": "에너지/정유 — 유가 수혜",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "OXY",
+        "chart_score": 25,
+        "timing": "관망",
+        "entry_condition": "RSI 50~60 구간 조정 후 볼린저밴드 중심선(20일 이동평균) 부근에서 거래량 동반 반등 시 매수 진입. 구체적으로 $58~60 구간까지 눌림목 형성 후 양봉 전환 확인 시 분할 매수",
+        "stop_loss": "20일 지지선 $52.99 하향 이탈 시 손절 (현재가 대비 약 -20%)",
+        "target_price": "단기 조정 후 재진입 시 $68~70 (직전 고점 돌파 시도), 스윙 목표 $72~75",
+        "chart_summary": "RSI 83.6 극단적 과매수 + 볼린저밴드 99.3% 상단 밀착으로 단기 과열 극심. 5일 +10.4%, 20일 +23.4% 급등에도 거래량은 20일 평균의 0.2배로 극히 저조하여 추가 상승 동력 부족 및 조정 가능성 높음.",
+        "signals": [
+          "상승추세(uptrend) 유지 중",
+          "20일간 +23.4% 강한 모멘텀",
+          "에너지/유가 수혜 테마 — 매크로 방향성 우호적",
+          "현재가가 20일 저항선과 일치하여 돌파 시도 중"
+        ],
+        "warnings": [
+          "RSI 83.6 — 극단적 과매수 영역 (70 이상 주의, 80 이상 위험)",
+          "볼린저밴드 99.3% — 밴드 상단 거의 접촉, 평균 회귀 압력 강함",
+          "거래량 0.2x — 20일 평균 대비 1/5 수준으로 매수세 극히 부족, 급등의 신뢰도 낮음",
+          "MACD 크로스 없음 — 추세 전환 확인 신호 부재",
+          "5일간 +10.4% 급등 후 차익실현 매물 출회 가능성 높음",
+          "지지선($52.99) 대비 현재가 괴리 약 25% — 조정 시 낙폭 클 수 있음"
+        ],
+        "raw_indicators": {
+          "rsi": 83.6,
+          "rsi_signal": "과매수",
+          "bb_pct": 0.993,
+          "macd_cross": "none",
+          "volume_ratio": 0.23,
+          "trend": "uptrend",
+          "price_change_5d": 10.36,
+          "price_change_20d": 23.36,
+          "support": 52.9884,
+          "resistance": 66.5579,
+          "current_price": 66.5579
+        }
+      }
+    },
+    {
+      "ticker": "FANG",
+      "name": "다이아몬드백에너지",
+      "theme": "에너지/정유 — 유가 수혜",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "FANG",
+        "name": "다이아몬드백에너지",
+        "theme": "에너지/정유 — 유가 수혜",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "FANG",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "RSI 50~55 구간 되돌림 + 볼린저 중심선(약 189원대) 부근 지지 확인 후 거래량 동반 반등 시 매수 진입. 또는 202.19 저항 돌파 후 거래량 1.5x 이상 수반 시 돌파 매수 가능.",
+        "stop_loss": "20일 지지선 175.66 이탈 시 손절 (현재가 대비 약 -12.9%)",
+        "target_price": "저항 돌파 시 단기 목표 210~215 (+4~6%), 되돌림 후 재진입 시 202.19 재도달 목표",
+        "chart_summary": "강한 상승 추세 속 RSI 77.2 과매수 + 볼린저 상단 근접으로 단기 과열 구간 진입. 특히 거래량이 20일 평균의 0.2배에 불과해 현재 상승의 지속력에 의문이 있으며, 20일 저항선(202.19)에 직면한 상태.",
+        "signals": [
+          "명확한 상승 추세(uptrend) 유지 중",
+          "20일 등락률 +13.4%로 강한 모멘텀",
+          "5일 등락률 +5.2%로 단기 가속 구간"
+        ],
+        "warnings": [
+          "RSI 77.2 과매수 영역 — 단기 되돌림 가능성 높음",
+          "볼린저밴드 89.9% 상단 근접 — 평균 회귀 압력 존재",
+          "거래량 0.2x로 극히 저조 — 세력/기관 참여 없는 상승으로 신뢰도 낮음",
+          "현재가(201.77)가 20일 저항(202.19)에 거의 도달 — 저항 매물대 출회 예상",
+          "MACD 크로스 시그널 없음 — 추세 전환 확인 불가"
+        ],
+        "raw_indicators": {
+          "rsi": 77.2,
+          "rsi_signal": "과매수",
+          "bb_pct": 0.899,
+          "macd_cross": "none",
+          "volume_ratio": 0.17,
+          "trend": "uptrend",
+          "price_change_5d": 5.21,
+          "price_change_20d": 13.42,
+          "support": 175.66,
+          "resistance": 202.19,
+          "current_price": 201.765
+        }
+      }
+    },
+    {
+      "ticker": "LHX",
+      "name": "L3해리스",
+      "theme": "방산/항공우주",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "LHX",
+        "name": "L3해리스",
+        "theme": "방산/항공우주",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "LHX",
+        "chart_score": 40,
+        "timing": "관망",
+        "entry_condition": "20일 지지선(343.0) 반등 확인 + 거래량 20일 평균 이상 회복 시 진입. RSI 35 이하 진입 시 과매도 반등 매매 가능",
+        "stop_loss": "지지선 343.0 하방 이탈 시 손절 (약 340.0 이하, -1.3%)",
+        "target_price": "1차 목표 357.0(+3.6%), 2차 목표 371.26(20일 저항선, +7.8%)",
+        "chart_summary": "20일간 -8.7% 하락 후 볼린저밴드 하단(9.5%)에 근접하며 지지선(343.0) 테스트 중. 그러나 거래량이 20일 평균의 0.1배로 극도로 낮아 방향성 부재 상태.",
+        "signals": [
+          "볼린저밴드 하단 근접(9.5%) → 기술적 반등 가능 영역",
+          "20일 지지선(343.0) 바로 위에서 가격 지지 중",
+          "RSI 42.6으로 과매도 진입 여지 존재 → 추가 하락 시 반등 매매 기회"
+        ],
+        "warnings": [
+          "거래량 0.1x로 극도로 부진 → 매수세 유입 미확인",
+          "MACD 크로스 시그널 없음 → 추세 전환 신호 부재",
+          "20일간 -8.7% 하락 추세 지속 중 → 낙폭 확대 가능성",
+          "지지선(343.0) 이탈 시 추가 급락 리스크",
+          "RSI가 아직 과매도(30 이하)에 도달하지 않아 반등 확신 약함"
+        ],
+        "raw_indicators": {
+          "rsi": 42.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.095,
+          "macd_cross": "none",
+          "volume_ratio": 0.12,
+          "trend": "sideways",
+          "price_change_5d": -0.29,
+          "price_change_20d": -8.66,
+          "support": 343.0,
+          "resistance": 371.26,
+          "current_price": 344.491
+        }
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "name": "팔란티어",
+      "theme": "방산/항공우주",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "PLTR",
+        "name": "팔란티어",
+        "theme": "방산/항공우주",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "PLTR",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "141달러 지지 확인 후 거래량 1.5x 이상 동반한 양봉 출현 시 진입 검토. RSI 35 이하 진입 후 반등 확인되면 추가 매수 가능",
+        "stop_loss": "20일 지지선(141.2) 하향 이탈 시 손절. 종가 기준 138달러(-2.3%) 이탈 시 즉시 청산",
+        "target_price": "1차 목표 151달러(+6.9%), 2차 목표 160.8달러(20일 저항선, +13.9%)",
+        "chart_summary": "5일간 -12.2% 급락 후 20일 지지선(141.2)에 도달, 볼린저 하단 이탈(-8.7%) 상태. 그러나 거래량 0.2x로 극히 부진하고 MACD 크로스 미발생으로 반등 확인 신호가 부재한 상황.",
+        "signals": [
+          "볼린저밴드 하단 이탈 → 기술적 과매도 구간 진입",
+          "20일 지지선 정확히 도달 → 반등 시도 가능 영역",
+          "RSI 41.4로 과매도(30) 접근 중 → 추가 하락 시 반등 트리거 가능"
+        ],
+        "warnings": [
+          "거래량 0.2x 극저 → 매수세 유입 전혀 없음, 바닥 확인 불가",
+          "MACD 크로스 없음 → 모멘텀 전환 신호 미발생",
+          "하락 추세(downtrend) 지속 중 → 역추세 매매는 높은 리스크",
+          "5일 -12.2% 급락 → 추세적 투매 가능성, 지지선 이탈 시 낙폭 확대 우려",
+          "지지선(141.2)이 현재가와 동일 → 이미 지지 테스트 중이며 이탈 확률 존재"
+        ],
+        "raw_indicators": {
+          "rsi": 41.4,
+          "rsi_signal": "중립",
+          "bb_pct": -0.087,
+          "macd_cross": "none",
+          "volume_ratio": 0.19,
+          "trend": "downtrend",
+          "price_change_5d": -12.19,
+          "price_change_20d": -2.71,
+          "support": 141.235,
+          "resistance": 160.84,
+          "current_price": 141.235
+        }
+      }
+    },
+    {
+      "ticker": "AA",
+      "name": "알코아",
+      "theme": "금/원자재 — 안전자산",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "AA",
+        "name": "알코아",
+        "theme": "금/원자재 — 안전자산",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "AA",
+        "chart_score": 52,
+        "timing": "관망",
+        "entry_condition": "① 저항선(66.6) 돌파 + 거래량 1.5x 이상 동반 시 추격 매수, 또는 ② 조정 후 60~61 지지 확인 시 눌림목 매수",
+        "stop_loss": "눌림목 매수 시 56.0 이탈 (약 -8.5%), 돌파 매수 시 64.0 이탈 (직전 저항→지지 전환 실패)",
+        "target_price": "돌파 매수: 72~74 (+10~12%), 눌림목 매수: 66.6 1차 / 72.0 2차",
+        "chart_summary": "5일간 +15.6% 급등하며 상승추세 유지 중이나, 거래량이 20일 평균의 0.7배로 수급 뒷받침 부족. 볼린저 상단(74.6%) 근접 + 20일 저항(66.6) 직전으로, 현재가 추격 매수보다는 돌파 확인 또는 조정 대기가 유리한 구간.",
+        "signals": [
+          "상승추세(uptrend) 유지 중",
+          "RSI 57.6으로 과매수 영역 아직 여유 있음",
+          "5일 +15.6% 강한 단기 모멘텀",
+          "금/원자재 안전자산 테마 — 매크로 불확실성 시 수혜 가능"
+        ],
+        "warnings": [
+          "거래량 0.7x: 급등에도 거래량 미동반 → 세력 매집보다 단기 수급 의존 가능성",
+          "볼린저 74.6%: 상단 밴드 근접, 단기 되돌림 압력 존재",
+          "20일 저항(66.6) 직전: 저항 돌파 실패 시 차익실현 매물 출회 우려",
+          "MACD 크로스 없음: 추세 전환 확인 신호 부재",
+          "5일 급등 후 20일 등락률은 +1.3%에 불과 → 최근 급등 전 하락이 있었음을 시사"
+        ],
+        "raw_indicators": {
+          "rsi": 57.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.746,
+          "macd_cross": "none",
+          "volume_ratio": 0.7,
+          "trend": "uptrend",
+          "price_change_5d": 15.58,
+          "price_change_20d": 1.31,
+          "support": 56.08,
+          "resistance": 66.6,
+          "current_price": 64.815
+        }
+      }
+    },
+    {
+      "ticker": "ENPH",
+      "name": "엔페이즈에너지",
+      "theme": "재생에너지/에너지전환",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "ENPH",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "RSI 30 이하 진입 + 볼린저 하단 이탈 후 밴드 안으로 재진입 시 반등 매수. 또는 $37.74 지지선에서 거래량 2배 이상 동반한 양봉 캔들 확인 후 진입",
+        "stop_loss": "$35.95 (현재가 대비 -4.7%, 20일 지지선 하방 이탈 확인 시)",
+        "target_price": "$41.80 (1차, +10.7%) / $45.89 (2차, 20일 저항선, +21.6%)",
+        "chart_summary": "5일 -7.4%, 20일 -15.6%로 뚜렷한 하락 추세 속 현재가가 20일 지지선($37.74)에 정확히 걸쳐 있는 상황. 볼린저 하단 근접(-0.8%)이나 거래량 극도로 위축(0.1x)되어 반등 동력이 부재하며, MACD 크로스 신호도 없어 추세 전환 확인 전까지는 관망이 적절.",
+        "signals": [
+          "볼린저밴드 하단 근접(-0.8%)으로 과매도 영역 접근 중",
+          "20일 지지선($37.74)에 도달 — 기술적 반등 가능 구간",
+          "RSI 38.5로 과매도(30) 근접, 추가 하락 시 반등 트리거 가능"
+        ],
+        "warnings": [
+          "거래량 0.1x로 극도로 위축 — 매수세 부재, 지지선 신뢰도 낮음",
+          "MACD 크로스 없음 — 추세 전환 신호 미확인",
+          "5일/20일 등락률 모두 큰 폭 하락으로 하락 모멘텀 지속 중",
+          "sideways 추세이나 실질적으로는 하방 압력 우세",
+          "지지선 이탈 시 추가 급락 가능성 — 낙폭 과대 매수(낙시매수) 주의",
+          "재생에너지 섹터 전반의 약세 흐름 고려 필요"
+        ],
+        "raw_indicators": {
+          "rsi": 38.5,
+          "rsi_signal": "중립",
+          "bb_pct": -0.008,
+          "macd_cross": "none",
+          "volume_ratio": 0.13,
+          "trend": "sideways",
+          "price_change_5d": -7.41,
+          "price_change_20d": -15.59,
+          "support": 37.7385,
+          "resistance": 45.89,
+          "current_price": 37.7385
+        }
+      }
+    },
+    {
+      "ticker": "NEE",
+      "name": "넥스트에라에너지",
+      "theme": "재생에너지/에너지전환",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "NEE",
+        "chart_score": 45,
+        "timing": "관망",
+        "entry_condition": "① 돌파 매수: 92.82 저항선을 거래량 1.5x 이상 동반하며 종가 돌파 시 진입 ② 눌림 매수: 89.5 지지선 부근(89.5~90.0)까지 조정 후 양봉 반등 확인 시 진입",
+        "stop_loss": "89.5 지지선 하향 이탈 시 손절 (약 -3.4%)",
+        "target_price": "돌파 시 1차 목표 95.0(+2.5%), 눌림 매수 시 목표 92.8(저항선 리테스트, +3.1%)",
+        "chart_summary": "상승추세 내 20일 저항선(92.82)에 바짝 붙어 있으나 거래량이 20일 평균의 10%에 불과해 돌파 동력이 부족한 상황. 방향성 결정 전 관망이 유리하며, 거래량 동반 돌파 또는 지지선 눌림을 기다릴 필요 있음.",
+        "signals": [
+          "상승추세(uptrend) 유지 중",
+          "5일 등락률 +2.7%로 단기 모멘텀 양호",
+          "RSI 56.4로 과매수 부담 없음",
+          "볼린저밴드 77.7%로 상단 방향 움직임"
+        ],
+        "warnings": [
+          "거래량 0.1x — 20일 평균 대비 극도로 낮아 현재 움직임의 신뢰도 매우 낮음",
+          "현재가(92.67)가 저항선(92.82)에 근접 → 저항 매물대 돌파 실패 시 되밀림 가능",
+          "MACD 크로스 신호 없음 — 추세 전환 확인 불가",
+          "20일 등락률 0%로 중기적으로 횡보 구간에 갇혀 있음"
+        ],
+        "raw_indicators": {
+          "rsi": 56.4,
+          "rsi_signal": "중립",
+          "bb_pct": 0.777,
+          "macd_cross": "none",
+          "volume_ratio": 0.13,
+          "trend": "uptrend",
+          "price_change_5d": 2.7,
+          "price_change_20d": -0.04,
+          "support": 89.5,
+          "resistance": 92.82,
+          "current_price": 92.67
+        }
+      }
+    },
+    {
+      "ticker": "PLUG",
+      "name": "플러그파워",
+      "theme": "재생에너지/에너지전환",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "PLUG",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "지지선 $2.12 부근에서 거래량 증가(20일 평균 1.5x 이상) 동반 반등 확인 시 진입. 또는 MACD 골든크로스 발생 후 $2.20 돌파 시 추격 매수 가능.",
+        "stop_loss": "$2.05 (지지선 $2.12 대비 약 -3.3% 이탈 시 손절)",
+        "target_price": "$2.45~$2.48 (20일 저항선 부근, 진입가 대비 약 +14~15%)",
+        "chart_summary": "20일간 +18.8% 반등 후 최근 5일 -6.9% 조정 진행 중. RSI 중립·거래량 극도로 부진(0.1x)하여 방향성 없는 무기력한 횡보 구간에 진입한 상태.",
+        "signals": [
+          "20일 등락률 +18.8%로 중기 반등 추세 유효",
+          "볼린저밴드 22.7%로 하단 접근 중 — 단기 과매도 영역 진입 가능성",
+          "현재가 $2.15가 20일 지지선 $2.12에 근접하여 지지 테스트 구간",
+          "RSI 48로 과매수 부담 없음"
+        ],
+        "warnings": [
+          "거래량 0.1x — 극도의 거래 부진으로 유의미한 방향성 판단 불가",
+          "MACD 크로스 신호 없음 — 추세 전환 확인 부재",
+          "5일 -6.9% 하락으로 단기 모멘텀 약화 중",
+          "지지선 $2.12 이탈 시 추가 하락 가속 위험 (저가주 특성상 변동폭 확대)",
+          "$2 이하 페니스톡 영역 진입 시 심리적 매도 압력 급증 가능"
+        ],
+        "raw_indicators": {
+          "rsi": 48.0,
+          "rsi_signal": "중립",
+          "bb_pct": 0.227,
+          "macd_cross": "none",
+          "volume_ratio": 0.13,
+          "trend": "sideways",
+          "price_change_5d": -6.93,
+          "price_change_20d": 18.78,
+          "support": 2.12,
+          "resistance": 2.48,
+          "current_price": 2.15
+        }
+      }
+    },
+    {
+      "ticker": "RUN",
+      "name": "선런",
+      "theme": "재생에너지/에너지전환",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "RUN",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "① 지지선 11.33 부근 되돌림 시 거래량 1.5x 이상 동반한 양봉 출현 시 매수, 또는 ② 저항선 13.29 거래량 2x 이상으로 돌파 확인 후 눌림목 매수",
+        "stop_loss": "11.33 하향 이탈 시 손절 (약 -11.3%)",
+        "target_price": "1차 목표 13.29 (저항선, +4.1%), 2차 목표 14.00 (볼린저 상단 돌파 시, +9.6%)",
+        "chart_summary": "횡보 구간에서 소폭 반등 중이나 거래량이 20일 평균의 0.2배로 극도로 부진하여 방향성이 불분명. RSI·MACD 모두 중립으로 뚜렷한 매매 신호 없이 에너지 축적 국면.",
+        "signals": [
+          "5일 등락률 +3.4%로 단기 반등 흐름 유지",
+          "20일 등락률 +2.0%로 하방보다 상방 압력 우세",
+          "볼린저밴드 68.3%로 중심선 위에서 지지 중",
+          "20일 지지선 11.33 대비 약 12.7% 상방에 위치"
+        ],
+        "warnings": [
+          "거래량 0.2x로 극도로 저조 — 현재 움직임에 신뢰도 낮음",
+          "MACD 크로스 부재로 추세 전환 확인 불가",
+          "RSI 42.4 중립대로 과매도 반등 시나리오 해당 없음",
+          "횡보 구간 11.33~13.29 이탈 방향 확인 전까지 진입 리스크 존재",
+          "재생에너지 섹터 정책·금리 민감도 높아 외부 변수 주의"
+        ],
+        "raw_indicators": {
+          "rsi": 42.4,
+          "rsi_signal": "중립",
+          "bb_pct": 0.683,
+          "macd_cross": "none",
+          "volume_ratio": 0.17,
+          "trend": "sideways",
+          "price_change_5d": 3.4,
+          "price_change_20d": 2.0,
+          "support": 11.33,
+          "resistance": 13.29,
+          "current_price": 12.77
+        }
+      }
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE버노바",
+      "theme": "재생에너지/에너지전환",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "GEV",
+        "chart_score": 38,
+        "timing": "관망",
+        "entry_condition": "20일 지지선 $788 부근 터치 + RSI 35 이하 진입 시 반등 매수 / 또는 $850 돌파 + 거래량 1.5x 이상 동반 시 추세 전환 매수",
+        "stop_loss": "$780 이탈 시 손절 (약 -5.0%)",
+        "target_price": "1차 $870 (+6.0%), 2차 $920 저항대 부근 (+12.1%)",
+        "chart_summary": "최근 5일간 -7% 급락 후 볼린저 하단부(29.5%)에 위치하나, 거래량이 20일 평균의 0.3배로 극히 저조하여 매수 세력 유입이 확인되지 않는 상태. MACD 크로스 신호 없이 횡보 추세 속 하방 압력이 지속되고 있어 섣부른 진입보다 지지 확인 후 대응이 유리.",
+        "signals": [
+          "RSI 46.2로 과매도 영역 아직 도달 전 → 추가 하락 시 반등 매수 여력 존재",
+          "20일 지지선 $788까지 약 3.9% 하방 여유 → 지지 테스트 시 기술적 반등 가능",
+          "볼린저 하단부 접근 중 → 밴드 하단 터치 시 평균회귀 반등 기대"
+        ],
+        "warnings": [
+          "거래량 0.3x로 극도로 낮음 → 매수 주체 부재, 반등 동력 부족",
+          "MACD 크로스 신호 없음 → 모멘텀 전환 미확인",
+          "5일/20일 등락률 모두 -7%대 → 단기 하락 추세 진행 중",
+          "횡보 추세에서 하방 이탈 시 $788 지지선 붕괴 → 추가 낙폭 확대 위험"
+        ],
+        "raw_indicators": {
+          "rsi": 46.2,
+          "rsi_signal": "중립",
+          "bb_pct": 0.295,
+          "macd_cross": "none",
+          "volume_ratio": 0.31,
+          "trend": "sideways",
+          "price_change_5d": -7.02,
+          "price_change_20d": -6.81,
+          "support": 788.7531,
+          "resistance": 923.69,
+          "current_price": 820.69
+        }
+      }
+    },
+    {
+      "ticker": "004090",
+      "name": "한국석유",
+      "theme": "에너지/정유 — 유가 수혜",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "004090",
+        "name": "한국석유",
+        "theme": "에너지/정유 — 유가 수혜",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "004090",
+        "chart_score": 50,
+        "timing": "관망",
+        "entry_condition": "데이터 부족",
+        "stop_loss": "-",
+        "target_price": "-",
+        "chart_summary": "차트 데이터 없음",
+        "signals": [],
+        "warnings": [
+          "OHLCV 데이터 수집 실패"
+        ],
+        "raw_indicators": {}
+      }
+    },
+    {
+      "ticker": "006650",
+      "name": "대한유화",
+      "theme": "에너지/정유 — 유가 수혜",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "006650",
+        "name": "대한유화",
+        "theme": "에너지/정유 — 유가 수혜",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "006650",
+        "chart_score": 50,
+        "timing": "관망",
+        "entry_condition": "데이터 부족",
+        "stop_loss": "-",
+        "target_price": "-",
+        "chart_summary": "차트 데이터 없음",
+        "signals": [],
+        "warnings": [
+          "OHLCV 데이터 수집 실패"
+        ],
+        "raw_indicators": {}
+      }
+    },
+    {
+      "ticker": "012450",
+      "name": "한화에어로스페이스",
+      "theme": "방산/항공우주",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "012450",
+        "name": "한화에어로스페이스",
+        "theme": "방산/항공우주",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "012450",
+        "chart_score": 50,
+        "timing": "관망",
+        "entry_condition": "데이터 부족",
+        "stop_loss": "-",
+        "target_price": "-",
+        "chart_summary": "차트 데이터 없음",
+        "signals": [],
+        "warnings": [
+          "OHLCV 데이터 수집 실패"
+        ],
+        "raw_indicators": {}
+      }
+    },
+    {
+      "ticker": "103140",
+      "name": "풍산",
+      "theme": "금/원자재 — 안전자산",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "103140",
+        "name": "풍산",
+        "theme": "금/원자재 — 안전자산",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "103140",
+        "chart_score": 50,
+        "timing": "관망",
+        "entry_condition": "데이터 부족",
+        "stop_loss": "-",
+        "target_price": "-",
+        "chart_summary": "차트 데이터 없음",
+        "signals": [],
+        "warnings": [
+          "OHLCV 데이터 수집 실패"
+        ],
+        "raw_indicators": {}
+      }
+    },
+    {
+      "ticker": "034020",
+      "name": "두산에너빌리티",
+      "theme": "재생에너지/에너지전환",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "034020",
+        "name": "두산에너빌리티",
+        "theme": "재생에너지/에너지전환",
+        "catalysts": [],
+        "risks": [],
+        "news_summary": "",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 50
+      },
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "034020",
+        "chart_score": 50,
+        "timing": "관망",
+        "entry_condition": "데이터 부족",
+        "stop_loss": "-",
+        "target_price": "-",
+        "chart_summary": "차트 데이터 없음",
+        "signals": [],
+        "warnings": [
+          "OHLCV 데이터 수집 실패"
+        ],
+        "raw_indicators": {}
+      }
+    },
+    {
+      "ticker": "COP",
+      "name": "코노코필립스",
+      "theme": "에너지/정유 — 유가 수혜",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "COP",
+        "name": "코노코필립스",
+        "theme": "에너지/정유 — 유가 수혜",
+        "catalysts": [
+          {
+            "type": "악재",
+            "content": "이란의 공격으로 카타르 Ras Laffan LNG 시설(지분 30% 보유)이 손상을 입어 가동 중단됨 (Seeking Alpha)",
+            "date": "2026-03-30",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "모건스탠리, 목표주가를 108달러에서 149달러로 상향 조정 (MarketBeat)",
+            "date": "2026-03-27",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "지정학적 리스크",
+            "description": "이란 관련 분쟁으로 인한 해외 자산 손상 및 운영 불확실성 증대",
+            "severity": "high"
+          },
+          {
+            "type": "실적 부진",
+            "description": "최근 분기 실적에서 EPS 및 매출이 시장 예상치를 하회함",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "코노코필립스는 최근 이란의 공격으로 카타르 LNG 시설이 피해를 입으며 운영 리스크가 부각되었습니다. 그럼에도 불구하고 모건스탠리의 목표주가 상향 등 일부 애널리스트들의 긍정적인 평가가 이어지며 주가는 52주 신고가를 기록하는 등 변동성을 보이고 있습니다.",
+        "momentum": "neutral",
+        "analyst_view": "평균 목표주가 약 120~128달러 수준 (최고 156달러, 최저 98달러), 투자의견은 '매수(Buy)' 컨센서스 유지",
+        "score_hint": 45
+      },
+      "score": 65.0,
+      "score_breakdown": {
+        "base": 45,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "COP",
+        "chart_score": 30,
+        "timing": "관망",
+        "entry_condition": "RSI가 60 이하로 냉각되고, 20일 이동평균선(약 124~126 부근) 지지 확인 후 반등 시 진입. 또는 볼린저밴드 중심선(약 124) 터치 후 거래량 동반 양봉 출현 시 분할 매수",
+        "stop_loss": "20일 지지선 114.15 하방 이탈 시 손절 (약 -14.8%)",
+        "target_price": "단기 목표 140~142 (약 +4.5~6%), 스윙 목표 148 (+10.4%)",
+        "chart_summary": "RSI 81.9 극단적 과매수 + 볼린저밴드 상단 92.4% 도달로 단기 과열 상태. 5일간 +5.4%, 20일간 +13.4% 급등 후 현재가가 20일 저항선과 일치하여 추격 매수는 위험도가 높은 구간.",
+        "signals": [
+          "상승추세(uptrend) 유지 중",
+          "20일간 +13.4% 강한 모멘텀",
+          "에너지/정유 테마 — 유가 상승 수혜 섹터"
+        ],
+        "warnings": [
+          "RSI 81.9 — 극단적 과매수 영역 (70 초과 경고 기준 대폭 상회)",
+          "볼린저밴드 92.4% — 상단 밀착, 평균회귀 압력 존재",
+          "거래량 비율 0.1x — 20일 평균 대비 극히 낮은 거래량으로 상승 신뢰도 약화",
+          "현재가 = 20일 저항선(134.07) — 저항 돌파 여부 미확인",
+          "MACD 크로스 없음(none) — 추세 전환 신호 부재",
+          "지지선(114.15)까지 약 -14.8% 갭이 커 손익비 불리"
+        ],
+        "raw_indicators": {
+          "rsi": 81.9,
+          "rsi_signal": "과매수",
+          "bb_pct": 0.924,
+          "macd_cross": "none",
+          "volume_ratio": 0.15,
+          "trend": "uptrend",
+          "price_change_5d": 5.41,
+          "price_change_20d": 13.39,
+          "support": 114.15,
+          "resistance": 134.07,
+          "current_price": 134.07
+        }
+      }
+    },
+    {
+      "ticker": "GLD",
+      "name": "SPDR골드",
+      "theme": "금/원자재 — 안전자산",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "GLD",
+        "name": "SPDR골드",
+        "theme": "금/원자재 — 안전자산",
+        "catalysts": [
+          {
+            "type": "악재",
+            "content": "미 연준(Fed)의 매파적 기조 강화로 2026년 금리 인하 기대감이 소멸하며 금 가격 하방 압력 발생 (FXLeaders)",
+            "date": "2026-03-28",
+            "impact": "high"
+          },
+          {
+            "type": "중립",
+            "content": "이란-미국 갈등 지속으로 인한 지정학적 리스크는 여전하나, 투자자들이 현금 확보를 위해 금을 매도하는 차익실현 움직임이 우세 (BNN Bloomberg)",
+            "date": "2026-03-27",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "기술적 분석상 단기 바닥권에서 반등 신호 발생 및 거래량 증가로 인한 단기 기술적 매수세 유입 (StockInvest.us)",
+            "date": "2026-03-27",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "거시경제 리스크",
+            "description": "미국 달러화 강세 및 실질 국채 금리 상승으로 인해 이자가 발생하지 않는 금의 매력도 감소",
+            "severity": "high"
+          },
+          {
+            "type": "시장 변동성",
+            "description": "지정학적 긴장 완화 시 안전자산 선호 심리 급격히 위축될 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "금 가격은 3월 초 사상 최고치 경신 후 차익실현 매물과 연준의 매파적 태도, 달러 강세로 인해 약 15% 급락함. 지정학적 리스크는 여전하지만 단기적으로는 유동성 확보를 위한 매도세가 시장을 주도하고 있음.",
+        "momentum": "neutral",
+        "analyst_view": "JP모건, 도이치뱅크 등 주요 기관은 장기적으로 6,000달러 이상의 목표가를 유지하며 구조적 상승세를 전망하나, 단기적으로는 기술적 조정 국면으로 평가",
+        "score_hint": 45
+      },
+      "score": 65.0,
+      "score_breakdown": {
+        "base": 45,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "GLD",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "RSI 30 이하 진입 + 볼린저 하단(400.64 부근) 터치 후 양봉 반등 확인 시, 또는 거래량 1.5x 이상 동반한 장대양봉 출현 시 분할 매수 진입",
+        "stop_loss": "지지선 400.64 하향 이탈 시 손절 (약 -3.5%)",
+        "target_price": "1차 목표 440 (+6%), 2차 목표 460 (+10.8%) — 볼린저 중심선 회귀 기준",
+        "chart_summary": "20일간 -15.3% 급락 후 하락추세 지속 중이며, 최근 5일 +2.8% 단기 반등이 나왔으나 거래량 0.3x로 매우 부진해 반등 신뢰도가 낮음. RSI·볼린저 모두 과매도 근접 구간이나 아직 확정적 반전 시그널은 부재.",
+        "signals": [
+          "RSI 38.6으로 과매도 근접 — 추가 하락 시 반등 매매 기회 가능",
+          "볼린저밴드 24.5%로 하단 접근 중 — 평균회귀 가능성",
+          "5일 +2.8% 단기 반등세 출현",
+          "20일 지지선 400.64가 명확한 지지 역할 가능",
+          "금(안전자산) 특성상 급락 후 평균회귀 경향 존재"
+        ],
+        "warnings": [
+          "거래량 0.3x — 극도로 낮아 현재 반등은 기술적 데드캣바운스 가능성",
+          "MACD 크로스 시그널 없음 — 추세 반전 미확인",
+          "하락추세(downtrend) 지속 중 — 역추세 매매는 고위험",
+          "20일 -15.3% 급락폭이 GLD 치고는 이례적으로 큼 — 펀더멘털 악재 점검 필요",
+          "지지선 400.64 이탈 시 추가 급락 리스크 존재"
+        ],
+        "raw_indicators": {
+          "rsi": 38.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.245,
+          "macd_cross": "none",
+          "volume_ratio": 0.26,
+          "trend": "downtrend",
+          "price_change_5d": 2.76,
+          "price_change_20d": -15.27,
+          "support": 400.64,
+          "resistance": 477.86,
+          "current_price": 415.2
+        }
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "name": "테슬라",
+      "theme": "2차전지/ESS/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "TSLA",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "① 20일 지지선(361.83) 확인 후 양봉 반등 + 거래량 1.0x 이상 회복 시 1차 진입, ② RSI 30 이하 터치 후 반등 + MACD 골든크로스 동시 발생 시 2차 추가 매수",
+        "stop_loss": "지지선 361.83 하향 이탈 시 손절 (약 -0.4%), 보수적 기준 355.00 이탈 시 (-2.2%)",
+        "target_price": "1차 목표 385.0 (+6.0%), 2차 목표 407.82(20일 저항선, +12.3%)",
+        "chart_summary": "볼린저밴드 하단(4.1%)에 근접하며 20일 지지선(361.83)을 시험 중인 하락 추세 구간. RSI 34.6으로 과매도 근접하나, 거래량 극도 부진(0.2x)과 MACD 크로스 부재로 반등 확인 신호가 아직 없음.",
+        "signals": [
+          "볼린저밴드 하단(4.1%) 극단적 근접 → 기술적 반등 가능 영역",
+          "RSI 34.6 → 과매도 진입 직전, 30 이하 터치 시 반등 확률 상승",
+          "20일 지지선(361.83)과 현재가(363.1) 거의 일치 → 지지 테스트 구간"
+        ],
+        "warnings": [
+          "거래량 0.2x로 극도로 부진 → 매수세 유입 전혀 없음, 바닥 확인 불가",
+          "MACD 크로스 없음 → 추세 전환 신호 미발생, 하락 지속 가능",
+          "명확한 하락 추세(5일 -4.7%, 20일 -10.0%) → 낙폭 확대 리스크",
+          "지지선(361.83) 이탈 시 추가 급락 가능 → 섣부른 저점 매수 위험",
+          "거래량 없는 지지선 터치는 '지지'가 아닌 '관통' 전조일 수 있음"
+        ],
+        "raw_indicators": {
+          "rsi": 34.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.041,
+          "macd_cross": "none",
+          "volume_ratio": 0.23,
+          "trend": "downtrend",
+          "price_change_5d": -4.66,
+          "price_change_20d": -9.97,
+          "support": 361.83,
+          "resistance": 407.82,
+          "current_price": 363.105
+        }
+      }
+    },
+    {
+      "ticker": "ALB",
+      "name": "앨버말",
+      "theme": "2차전지/ESS/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "ALB",
+        "chart_score": 35,
+        "timing": "관망",
+        "entry_condition": "① 저항선(181.39) 돌파 시 거래량 1.5x 이상 수반 확인 후 눌림목 매수, 또는 ② 조정 후 165~170 구간에서 거래량 동반 반등 시 매수",
+        "stop_loss": "진입가 대비 -5% 또는 20일 지지선 156.7 이탈 시 손절",
+        "target_price": "저항 돌파 시 1차 목표 190~195 (+5~8%), 지지 반등 매수 시 목표 181 (저항 리테스트)",
+        "chart_summary": "5일간 +7.8% 급등하며 20일 저항선(181.39)에 바짝 근접했으나, 거래량이 20일 평균의 0.2배에 불과해 돌파 신뢰도가 매우 낮음. 볼린저밴드 상단(94.5%)에 위치해 단기 과열 구간으로, 거래량 없는 저항 테스트는 되돌림 가능성이 높은 전형적 패턴.",
+        "signals": [
+          "5일 등락률 +7.8%로 단기 모멘텀 존재",
+          "RSI 57.5로 아직 과매수 영역은 아님 (추가 상승 여력 존재)",
+          "횡보 추세에서 저항 테스트 → 돌파 시 추세 전환 가능성"
+        ],
+        "warnings": [
+          "거래량 0.2x: 20일 평균 대비 극히 낮아 매수세 부재 — 가장 큰 경고 신호",
+          "볼린저 94.5%: 상단 근접으로 단기 되돌림(평균회귀) 압력",
+          "MACD 크로스 없음: 추세 전환 확인 신호 부재",
+          "저항선 181.39 바로 앞에서 거래량 없이 멈춤 → 매물벽에 막힐 가능성 높음",
+          "지지(156.7)와 현재가 괴리 약 15% — 손절폭이 넓어 리스크/리워드 비율 불리"
+        ],
+        "raw_indicators": {
+          "rsi": 57.5,
+          "rsi_signal": "중립",
+          "bb_pct": 0.945,
+          "macd_cross": "none",
+          "volume_ratio": 0.21,
+          "trend": "sideways",
+          "price_change_5d": 7.79,
+          "price_change_20d": 1.61,
+          "support": 156.7,
+          "resistance": 181.39,
+          "current_price": 180.61
+        }
+      }
+    },
+    {
+      "ticker": "RIVN",
+      "name": "리비안",
+      "theme": "2차전지/ESS/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "RIVN",
+        "chart_score": 30,
+        "timing": "관망",
+        "entry_condition": "14.70 지지선 확인 후 거래량 동반 반등 시 진입 (20일 평균 거래량 1.5x 이상 확인 필수). 또는 14.00~14.50 구간까지 추가 하락 시 분할 매수 고려",
+        "stop_loss": "14.00 이탈 시 손절 (현재가 대비 약 -4.8%)",
+        "target_price": "1차 목표 15.70 (+6.8%), 2차 목표 16.65 (20일 저항선, +13.2%)",
+        "chart_summary": "하락 추세 지속 중이며 현재가가 20일 지지선(14.705)에 정확히 걸쳐 있는 상태. 거래량이 20일 평균의 0.1배로 극도로 위축되어 있어 방향성 결정 전 관망이 필요한 구간.",
+        "signals": [
+          "20일 지지선(14.705) 도달 - 기술적 반등 가능 구간",
+          "볼린저밴드 하단(15.8%) 근접 - 과매도 영역 접근 중",
+          "RSI 43.6으로 아직 과매도(30) 도달 전이라 추가 하락 여력 존재하나 중립 하단 진입"
+        ],
+        "warnings": [
+          "명확한 하락 추세(downtrend) 지속 중 - 추세 전환 확인 전 역추세 매매 위험",
+          "거래량 0.1x로 극도로 부진 - 세력/기관 매집 신호 없음, 유동성 리스크",
+          "MACD 크로스 신호 없음(none) - 모멘텀 전환 근거 부재",
+          "5일 등락률 -6.8%로 단기 낙폭 확대 중 - 낙폭 과대 반등보다 추세적 하락 가능성 우위",
+          "지지선(14.705)이 현재가와 동일 - 이탈 시 다음 지지 구간까지 급락 위험"
+        ],
+        "raw_indicators": {
+          "rsi": 43.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.158,
+          "macd_cross": "none",
+          "volume_ratio": 0.13,
+          "trend": "downtrend",
+          "price_change_5d": -6.75,
+          "price_change_20d": -2.03,
+          "support": 14.705,
+          "resistance": 16.65,
+          "current_price": 14.705
+        }
+      }
+    },
+    {
+      "ticker": "QS",
+      "name": "퀀텀스케이프",
+      "theme": "2차전지/ESS/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "QS",
+        "chart_score": 30,
+        "timing": "관망",
+        "entry_condition": "RSI 30 이하 진입 + 거래량 1.5x 이상 급증하며 양봉 출현 시 반등 매수 검토. 현재가(6.16) 지지 확인 후 볼린저 하단 복귀(밴드 안으로 재진입) 시 진입",
+        "stop_loss": "5.85 (현재가 대비 -5%). 지지선 6.16 하방 이탈 후 반등 실패 시 즉시 손절",
+        "target_price": "1차 목표 6.60 (+7%), 2차 목표 7.05 (20일 저항선, +14.4%)",
+        "chart_summary": "강한 하락추세 속 볼린저 하단 이탈(-12.3%)과 RSI 33.9로 과매도 근접 구간이나, 거래량이 20일 평균의 0.2배로 극도로 위축되어 반등 동력이 부재. 현재가가 20일 지지선과 동일한 6.16에 위치해 이탈 여부가 핵심 변곡점.",
+        "signals": [
+          "볼린저 하단 이탈로 기술적 과매도 구간 진입",
+          "RSI 33.9로 과매도(30) 근접 — 반등 가능성 잠재",
+          "현재가가 정확히 20일 지지선(6.16)에 위치하여 지지 테스트 중"
+        ],
+        "warnings": [
+          "거래량 0.2x로 극심한 거래 위축 — 매수세 유입 전혀 없음 (낙하하는 칼날 위험)",
+          "MACD 크로스 신호 없음 — 추세 반전 확인 불가",
+          "5일 -12.6% 급락 중으로 하락 모멘텀 강력",
+          "하락추세(downtrend) 지속 중이며 추세 전환 시그널 부재",
+          "지지선(6.16) 이탈 시 추가 하락 가속 가능성 높음"
+        ],
+        "raw_indicators": {
+          "rsi": 33.9,
+          "rsi_signal": "중립",
+          "bb_pct": -0.123,
+          "macd_cross": "none",
+          "volume_ratio": 0.22,
+          "trend": "downtrend",
+          "price_change_5d": -12.62,
+          "price_change_20d": -10.59,
+          "support": 6.1601,
+          "resistance": 7.05,
+          "current_price": 6.1601
+        }
+      }
+    },
+    {
+      "ticker": "CHPT",
+      "name": "차지포인트",
+      "theme": "2차전지/ESS/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "CHPT",
+        "chart_score": 30,
+        "timing": "관망",
+        "entry_condition": "RSI 30 이상 반등 확인 + 거래량 20일 평균 1.5배 이상 수반 시 $4.6 지지 확인 후 진입. MACD 골든크로스 발생 시 추가 매수 고려.",
+        "stop_loss": "$4.30 (현재가 대비 -6.5%). 20일 지지선 $4.6 하향 이탈 후 종가 기준 확인.",
+        "target_price": "1차 $5.5 (+19.6%), 2차 $6.5 (20일 저항선, +41.3%)",
+        "chart_summary": "RSI 27.3 과매도 + 볼린저 하단(3.3%) 도달로 기술적 반등 구간이나, 거래량 0.3배로 매수세 극히 부진하고 MACD 반전 신호 없음. 20일간 -28.5% 급락 추세 속 $4.6 지지선 테스트 중으로, 반등 확인 없이 진입은 '떨어지는 칼날 잡기' 위험.",
+        "signals": [
+          "RSI 27.3 과매도 영역 진입 → 기술적 반등 가능성",
+          "볼린저밴드 하단(3.3%) 근접 → 평균 회귀 기대",
+          "현재가가 정확히 20일 지지선($4.6)에 위치 → 지지 반등 가능"
+        ],
+        "warnings": [
+          "거래량 0.3배로 매수세 실종 → 반등 동력 부족",
+          "MACD 크로스 신호 없음 → 추세 전환 미확인",
+          "강한 하락 추세(5일 -14%, 20일 -28.5%) → 추가 하락 가능성",
+          "지지선($4.6) 이탈 시 다음 지지 구간까지 낙폭 확대 우려",
+          "과매도 신호만으로는 바닥 확인 불가 → 거래량 동반 반등 필수 확인"
+        ],
+        "raw_indicators": {
+          "rsi": 27.3,
+          "rsi_signal": "과매도",
+          "bb_pct": 0.033,
+          "macd_cross": "none",
+          "volume_ratio": 0.27,
+          "trend": "downtrend",
+          "price_change_5d": -14.02,
+          "price_change_20d": -28.46,
+          "support": 4.6,
+          "resistance": 6.5,
+          "current_price": 4.6
+        }
+      }
+    },
+    {
+      "ticker": "PCRFY",
+      "name": "파나소닉",
+      "theme": "2차전지/ESS/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "ticker": "PCRFY",
+        "chart_score": 50,
+        "timing": "관망",
+        "entry_condition": "데이터 부족",
+        "stop_loss": "-",
+        "target_price": "-",
+        "chart_summary": "차트 데이터 없음",
+        "signals": [],
+        "warnings": [
+          "OHLCV 데이터 수집 실패"
+        ],
+        "raw_indicators": {}
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "name": "엔비디아",
+      "theme": "반도체 소재/HBM",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML",
+      "theme": "반도체 소재/HBM",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "name": "램리서치",
+      "theme": "반도체 소재/HBM",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "name": "어플라이드머티리얼즈",
+      "theme": "반도체 소재/HBM",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "MU",
+      "name": "마이크론",
+      "theme": "반도체 소재/HBM",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "name": "브로드컴",
+      "theme": "반도체 소재/HBM",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "DUK",
+      "name": "듀크에너지",
+      "theme": "유틸리티/방어주",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "SO",
+      "name": "서던컴퍼니",
+      "theme": "유틸리티/방어주",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "AEP",
+      "name": "아메리칸일렉트릭",
+      "theme": "유틸리티/방어주",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "PG",
+      "name": "프록터앤갬블",
+      "theme": "유틸리티/방어주",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "BALL",
+      "name": "볼",
+      "theme": "친환경/탈플라스틱 소재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "SLGN",
+      "name": "실간홀딩스",
+      "theme": "친환경/탈플라스틱 소재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "AMCR",
+      "name": "앰코",
+      "theme": "친환경/탈플라스틱 소재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "BERY",
+      "name": "베리글로벌",
+      "theme": "친환경/탈플라스틱 소재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "GPK",
+      "name": "그래픽패키징",
+      "theme": "친환경/탈플라스틱 소재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "006400",
+      "name": "삼성SDI",
+      "theme": "2차전지/ESS/전기차",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "247540",
+      "name": "에코프로비엠",
+      "theme": "2차전지/ESS/전기차",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "005290",
+      "name": "동진쎄미켐",
+      "theme": "반도체 소재/HBM",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "240810",
+      "name": "원익IPS",
+      "theme": "반도체 소재/HBM",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "015760",
+      "name": "한국전력",
+      "theme": "유틸리티/방어주",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "030200",
+      "name": "KT",
+      "theme": "유틸리티/방어주",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "036460",
+      "name": "한국가스공사",
+      "theme": "유틸리티/방어주",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "011790",
+      "name": "SKC",
+      "theme": "친환경/탈플라스틱 소재",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "011170",
+      "name": "롯데케미칼",
+      "theme": "친환경/탈플라스틱 소재",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "008730",
+      "name": "율촌화학",
+      "theme": "친환경/탈플라스틱 소재",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "FCX",
+      "name": "프리포트맥모란",
+      "theme": "금/원자재 — 안전자산",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "FCX",
+        "name": "프리포트맥모란",
+        "theme": "금/원자재 — 안전자산",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "분기 현금 배당금 주당 0.15달러 발표 (기본 0.075 + 성과 기반 0.075), 5월 1일 지급 예정 (출처: 회사 공시)",
+            "date": "2026-03-25",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "칠레 엘 아브라 구리 광산 확장을 위해 75억 달러 규모의 허가 신청 (출처: 더구루)",
+            "date": "2026-03-20",
+            "impact": "medium"
+          },
+          {
+            "type": "악재",
+            "content": "유가 상승 대비 구리 가격 약세로 인한 매크로 불확실성 및 성장 둔화 우려 (출처: Investing.com)",
+            "date": "2026-03-30",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "매크로 리스크",
+            "description": "유가 급등과 구리 가격의 디커플링 현상으로 인한 경기 침체 및 수요 둔화 우려",
+            "severity": "high"
+          },
+          {
+            "type": "밸류에이션 리스크",
+            "description": "금속 및 광업 업종 평균 대비 높은 P/E 배수(약 37배)로 인한 고평가 논란",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 구리 가격이 5.47달러 수준으로 조정받으며 2월 고점 대비 약 20% 하락함. 유가 상승에도 불구하고 구리 가격이 반등하지 못하면서 시장은 이를 경기 성장 둔화의 신호로 해석하고 있음. 다만, 배당 정책 유지와 대규모 광산 확장 프로젝트 추진 등 기업 자체의 펀더멘털은 견고한 상태임.",
+        "momentum": "bearish",
+        "analyst_view": "평균 목표주가 약 62.40달러 (최근 22개 증권사 컨센서스 기준, Moderate Buy 의견 우세)",
+        "score_hint": 45
+      },
+      "score": 55.0,
+      "score_breakdown": {
+        "base": 45,
+        "theme_strength": 20,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "047810",
+      "name": "한국항공우주",
+      "theme": "방산/항공우주",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "047810",
+        "name": "한국항공우주",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "악재",
+            "content": "KF-21 수출 확정 보도에 대해 협의 중이나 확정된 바 없다고 해명 공시 (출처: 재경일보)",
+            "date": "2026-03-19",
+            "impact": "high"
+          },
+          {
+            "type": "악재",
+            "content": "특수합금 공급 계약 종료일 연장 공시로 인한 실적 불확실성 증대 (출처: 재경일보)",
+            "date": "2026-03-24",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "한화시스템의 한국항공우주 지분(0.58%) 매입 소식으로 인한 협력 기대감 (출처: 조선비즈)",
+            "date": "2026-03-16",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "수출 불확실성",
+            "description": "KF-21 등 주요 수출 프로젝트의 계약 지연 및 풍문 해명에 따른 투자 심리 위축",
+            "severity": "high"
+          },
+          {
+            "type": "실적 변동성",
+            "description": "완제기 인도 지연 및 계약 조건 변경에 따른 매출 인식 시점의 불확실성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 KF-21 수출 관련 풍문 해명과 계약 정정 공시가 이어지며 단기적인 주가 조정이 발생했습니다. 한화그룹의 지분 매입으로 인한 협력 기대감은 존재하나, 수출 성과 가시화 전까지는 보수적인 접근이 필요한 상황입니다.",
+        "momentum": "bearish",
+        "analyst_view": "주요 증권사(하나, 유진, 키움 등)는 2026년 최대 실적 달성을 전망하며 목표주가를 18만 7천원~23만원 수준으로 제시하고 있으나, 최근 단기 악재로 인해 시장 컨센서스 대비 주가 변동성이 확대됨.",
+        "score_hint": 45
+      },
+      "score": 55.0,
+      "score_breakdown": {
+        "base": 45,
+        "theme_strength": 20,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "CIEN",
+      "name": "시에나",
+      "theme": "통신장비/5G·광통신",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "GLW",
+      "name": "코닝",
+      "theme": "통신장비/5G·광통신",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "JNPR",
+      "name": "주니퍼네트웍스",
+      "theme": "통신장비/5G·광통신",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "ANET",
+      "name": "아리스타네트웍스",
+      "theme": "통신장비/5G·광통신",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "COHR",
+      "name": "코히런트",
+      "theme": "통신장비/5G·광통신",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "ZIM",
+      "name": "지아이에스",
+      "theme": "조선/해운",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "SBLK",
+      "name": "스타벌크캐리어스",
+      "theme": "조선/해운",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "MATX",
+      "name": "마쯔손",
+      "theme": "조선/해운",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "GOGL",
+      "name": "골든오션",
+      "theme": "조선/해운",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "DAC",
+      "name": "다나오스",
+      "theme": "조선/해운",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "050890",
+      "name": "쏠리드",
+      "theme": "통신장비/5G·광통신",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "138080",
+      "name": "오이솔루션",
+      "theme": "통신장비/5G·광통신",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "032500",
+      "name": "케이엠더블유",
+      "theme": "통신장비/5G·광통신",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "009540",
+      "name": "HD한국조선해양",
+      "theme": "조선/해운",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "042660",
+      "name": "한화오션",
+      "theme": "조선/해운",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "BA",
+      "name": "보잉",
+      "theme": "방산/항공우주",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "BA",
+        "name": "보잉",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "악재",
+            "content": "NASA가 아르테미스 달 탐사 계획을 수정하며 보잉의 SLS 로켓 의존도를 낮추고 SpaceX의 역할을 확대할 가능성이 제기됨 (The Motley Fool)",
+            "date": "2026-03-30",
+            "impact": "medium"
+          },
+          {
+            "type": "악재",
+            "content": "737 생산 라인의 품질 결함(배선 문제)으로 인해 1분기 인도량이 당초 예상보다 감소하며 2분기로 이월됨 (Leeham News)",
+            "date": "2026-03-17",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "규제 및 품질 리스크",
+            "description": "FAA의 지속적인 정밀 조사와 상시 감독이 강화되고 있으며, 737 MAX 및 787 기종의 품질 관리 문제가 생산 및 인증 지연을 초래함",
+            "severity": "high"
+          },
+          {
+            "type": "재무 리스크",
+            "description": "스피릿 에어로시스템즈 인수 통합에 따른 마진 압박과 2026년 만기 도래 부채 등 재무적 부담 가중",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "보잉은 737 생산 라인의 품질 결함으로 인한 인도 지연과 NASA의 달 탐사 프로젝트 내 역할 축소 가능성 등 악재가 겹치며 주가 하방 압력을 받고 있음. 다만, 장기적으로는 강력한 수주 잔고와 생산 정상화에 대한 기대감이 공존하는 상황임.",
+        "momentum": "bearish",
+        "analyst_view": "애널리스트 컨센서스는 '매수(Buy)' 의견이 우세하며, 12개월 목표주가 평균은 약 $248~$277 수준으로 현재가 대비 높은 상승 여력을 제시하고 있음.",
+        "score_hint": 35
+      },
+      "score": 45.0,
+      "score_breakdown": {
+        "base": 35,
+        "theme_strength": 20,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "GOLD",
+      "name": "바릭골드",
+      "theme": "금/원자재 — 안전자산",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "GOLD",
+        "name": "바릭골드",
+        "theme": "금/원자재 — 안전자산",
+        "catalysts": [
+          {
+            "type": "악재",
+            "content": "이란 분쟁 및 안보 우려로 인해 파키스탄 Reko Diq 구리-금 프로젝트 개발 12개월 연기 (출처: Benzinga, 2026-03-30)",
+            "date": "2026-03-30",
+            "impact": "high"
+          },
+          {
+            "type": "악재",
+            "content": "네바다 금광(NGM) 합작법인 관련 뉴몬트(Newmont)와의 법적 분쟁 심화 및 북미 자산 IPO 추진 차질 우려 (출처: Chronicle-Journal, 2026-03-30)",
+            "date": "2026-03-30",
+            "impact": "high"
+          },
+          {
+            "type": "중립",
+            "content": "UBS 등 주요 투자은행의 목표주가 하향 조정 (출처: MarketBeat, 2026-03-27)",
+            "date": "2026-03-27",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "지정학적 리스크",
+            "description": "중동 및 파키스탄 등 주요 사업 지역의 안보 불안으로 인한 프로젝트 지연 및 운영 차질",
+            "severity": "high"
+          },
+          {
+            "type": "법적/경영 리스크",
+            "description": "뉴몬트와의 합작법인 분쟁으로 인한 기업 가치 평가 및 북미 자산 분사(Spin-off) 전략 불확실성",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "최근 바릭골드는 금 가격 상승세에도 불구하고, 지정학적 리스크로 인한 파키스탄 대형 프로젝트 연기와 뉴몬트와의 합작법인 법적 분쟁이 부각되며 주가 하방 압력을 받고 있음. 북미 자산 분사 계획이 주요 모멘텀이나, 분쟁으로 인한 IPO 차질 우려가 투자 심리를 위축시키고 있음.",
+        "momentum": "bearish",
+        "analyst_view": "평균 목표주가 약 $50~$60 수준 (기관별 편차 존재, 최근 일부 하향 조정)",
+        "score_hint": 35
+      },
+      "score": 45.0,
+      "score_breakdown": {
+        "base": 35,
+        "theme_strength": 20,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "SCCO",
+      "name": "서던카퍼",
+      "theme": "금/원자재 — 안전자산",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "SCCO",
+        "name": "서던카퍼",
+        "theme": "금/원자재 — 안전자산",
+        "catalysts": [
+          {
+            "type": "악재",
+            "content": "페루 광산의 광석 등급 저하로 인한 2026-2027년 생산량 감소 전망 및 비용 상승 우려 (TradingKey)",
+            "date": "2026-03-26",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "중국 수요 회복 및 구리 가격 반등에 따른 주가 일시적 상승 (TradingKey)",
+            "date": "2026-03-25",
+            "impact": "medium"
+          },
+          {
+            "type": "악재",
+            "content": "주요 경영진의 지속적인 자사주 매도세 확인 (MarketBeat)",
+            "date": "2026-03-13",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 리스크",
+            "description": "현재 주가가 애널리스트 평균 목표주가를 상회하여 고평가 논란 존재",
+            "severity": "high"
+          },
+          {
+            "type": "생산 리스크",
+            "description": "페루 광산의 광석 품질 저하 및 프로젝트 지연으로 인한 생산 효율성 저하",
+            "severity": "medium"
+          },
+          {
+            "type": "시장 리스크",
+            "description": "구리 가격 변동성에 대한 높은 매출 의존도 및 중국 경기 둔화 가능성",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "최근 1주일간 구리 가격 반등으로 주가가 일시적 상승세를 보였으나, 생산량 감소 전망과 경영진의 자사주 매도, 그리고 애널리스트들의 보수적인 투자의견(Reduce/Sell)이 겹치며 주가 변동성이 확대됨.",
+        "momentum": "bearish",
+        "analyst_view": "평균 목표주가 약 $139.20 ~ $150.72 (현재가 대비 하락 여력 존재, 투자의견은 매도/보유 우세)",
+        "score_hint": 35
+      },
+      "score": 45.0,
+      "score_breakdown": {
+        "base": 35,
+        "theme_strength": 20,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "FSLR",
+      "name": "퍼스트솔라",
+      "theme": "재생에너지/에너지전환",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "research": {
+        "ticker": "FSLR",
+        "name": "퍼스트솔라",
+        "theme": "재생에너지/에너지전환",
+        "catalysts": [
+          {
+            "type": "악재",
+            "content": "기술적 분석상 50일 이동평균선이 200일 이동평균선을 하향 돌파하는 '데스 크로스' 발생 (Benzinga, 2026-03-30)",
+            "date": "2026-03-30",
+            "impact": "high"
+          },
+          {
+            "type": "악재",
+            "content": "테슬라의 중국산 태양광 제조 장비 도입 추진 소식으로 인한 미국 내 경쟁 심화 우려 (Benzinga, 2026-03-30)",
+            "date": "2026-03-30",
+            "impact": "medium"
+          },
+          {
+            "type": "악재",
+            "content": "2026년 매출 가이던스 하향 및 Q4 실적 미스에 따른 투자 심리 위축 지속 (Simply Wall St, 2026-03-19)",
+            "date": "2026-03-19",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "정책 리스크",
+            "description": "미국 내 태양광 정책 불확실성 및 인허가 지연으로 인한 매출 가시성 저하",
+            "severity": "high"
+          },
+          {
+            "type": "경쟁 리스크",
+            "description": "중국산 저가 모듈 및 신규 대형 경쟁자(테슬라 등)의 시장 진입 가능성",
+            "severity": "medium"
+          },
+          {
+            "type": "법적 리스크",
+            "description": "실적 부진과 관련한 투자자들의 집단 소송 조사 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 2026년 매출 가이던스 실망감과 실적 미스로 주가가 하락세를 보이고 있으며, 기술적으로 데스 크로스가 발생하여 단기 모멘텀이 약화됨. 테슬라의 태양광 제조 장비 투자 소식까지 더해져 경쟁 심화 우려가 투자 심리를 압박하고 있음.",
+        "momentum": "bearish",
+        "analyst_view": "평균 목표주가 약 $248.17 (대다수 매수 의견 유지 중이나 최근 하향 조정 추세)",
+        "score_hint": 35
+      },
+      "score": 45.0,
+      "score_breakdown": {
+        "base": 35,
+        "theme_strength": 20,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "009830",
+      "name": "한화솔루션",
+      "theme": "재생에너지/에너지전환",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "009830",
+        "name": "한화솔루션",
+        "theme": "재생에너지/에너지전환",
+        "catalysts": [
+          {
+            "type": "악재",
+            "content": "2.4조원 규모의 대규모 유상증자 결정으로 인한 주주가치 희석 우려 (2026-03-26)",
+            "date": "2026-03-26",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "김동관 부회장 및 경영진, 사외이사 전원의 책임경영 차원 자사주 매입 (2026-03-27~30)",
+            "date": "2026-03-30",
+            "impact": "medium"
+          },
+          {
+            "type": "중립",
+            "content": "삼성증권, 우주 태양광 2029년 상용화 목표 제시하며 투자의견 HOLD 및 목표가 42,000원 유지 (2026-03-30)",
+            "date": "2026-03-30",
+            "impact": "low"
+          }
+        ],
+        "risks": [
+          {
+            "type": "재무 리스크",
+            "description": "유상증자 조달 자금의 상당 부분(약 1.5조원)이 채무 상환에 사용될 예정으로, 미래 성장 동력 확보보다는 재무 구조 개선에 급급하다는 비판 존재",
+            "severity": "high"
+          },
+          {
+            "type": "시장 리스크",
+            "description": "유상증자 발표 이후 주주들의 반발과 증권가의 투자의견 하향 조정(DS투자증권 등)으로 인한 단기 주가 변동성 확대",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "한화솔루션이 2.4조원 규모의 대규모 유상증자를 발표하며 주가가 급락했으나, 경영진과 사외이사의 자사주 매입으로 책임경영을 강조하며 주가 방어에 나섰습니다. 4월 초 일반 및 기관 투자자 대상 설명회를 앞두고 있으며, 미국 태양광 사업 정상화와 기술 투자를 통한 1분기 흑자 전환 기대감이 공존하고 있습니다.",
+        "momentum": "bearish",
+        "analyst_view": "증권사별로 의견이 갈림. 삼성증권은 HOLD(목표가 42,000원), 한화투자증권은 매수(목표가 45,000원)를 유지했으나, DS투자증권은 매도로 하향하고 목표가를 25,000원으로 대폭 낮춤.",
+        "score_hint": 35
+      },
+      "score": 45.0,
+      "score_breakdown": {
+        "base": 35,
+        "theme_strength": 20,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "371950",
+      "name": "한국금거래소쇠렛",
+      "theme": "금/원자재 — 안전자산",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "research": {
+        "ticker": "371950",
+        "name": "한국금거래소쇠렛",
+        "theme": "금/원자재 — 안전자산",
+        "catalysts": [],
+        "risks": [
+          {
+            "type": "종목 식별 불가",
+            "description": "제공된 티커(371950)는 한국거래소(KOSPI/KOSDAQ)에 상장된 종목으로 확인되지 않으며, '한국금거래소'는 다수의 민간 금 거래 업체명으로 존재함.",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "해당 티커(371950)로 상장된 기업은 존재하지 않음. 현재 한국 금 시장은 국제 금값 상승과 원/달러 환율 변동에 따라 실물 금에 대한 높은 프리미엄(김치 프리미엄)이 유지되고 있으며, 투자자들의 안전자산 선호 심리가 지속되는 상황임.",
+        "momentum": "neutral",
+        "analyst_view": null,
+        "score_hint": 0
+      },
+      "score": 20.0,
+      "score_breakdown": {
+        "base": 0,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    }
+  ],
+  "chart_results": [
+    {
+      "ticker": "112610",
+      "chart_score": 50,
+      "timing": "관망",
+      "entry_condition": "데이터 부족",
+      "stop_loss": "-",
+      "target_price": "-",
+      "chart_summary": "차트 데이터 없음",
+      "signals": [],
+      "warnings": [
+        "OHLCV 데이터 수집 실패"
+      ],
+      "raw_indicators": {}
+    },
+    {
+      "ticker": "SLB",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "53.5 저항선 돌파 후 거래량 동반 양봉 확인 시 진입, 또는 조정 시 50일선 부근(49~50) 지지 확인 후 분할 매수",
+      "stop_loss": "51.0 이탈 시 손절 (약 -4.2%), 보수적 기준 49.0 (약 -8.0%)",
+      "target_price": "저항 돌파 시 1차 목표 56.5 (+6.1%), 2차 목표 59.0 (+10.8%)",
+      "chart_summary": "5일간 +8.1% 급등하며 볼린저밴드 상단(95.1%)에 근접, 20일 저항선 53.5에 도달한 상태. 거래량이 20일 평균의 0.2배로 극도로 낮아 상승의 신뢰도가 부족하며, MACD 크로스 미발생으로 추세 전환 확인이 안 된 상황.",
+      "signals": [
+        "5일 +8.1% 단기 강한 반등 모멘텀",
+        "RSI 65.5로 아직 과매수 구간 미진입",
+        "20일 저항선(53.5) 테스트 중 — 돌파 시 추가 상승 여력"
+      ],
+      "warnings": [
+        "거래량 0.2x — 평소의 1/5 수준으로 '거래량 없는 상승'은 지속성 의심",
+        "볼린저밴드 95.1%로 상단 밀착, 단기 되돌림(mean reversion) 가능성 높음",
+        "MACD 크로스 미발생 — 추세 전환 시그널 부재",
+        "전체 추세 sideways로 박스권 상단에서의 진입은 물릴 위험",
+        "20일 저항 53.5 바로 아래에서 매수 시 저항 돌파 실패 리스크"
+      ],
+      "raw_indicators": {
+        "rsi": 65.5,
+        "rsi_signal": "중립",
+        "bb_pct": 0.951,
+        "macd_cross": "none",
+        "volume_ratio": 0.16,
+        "trend": "sideways",
+        "price_change_5d": 8.1,
+        "price_change_20d": 3.84,
+        "support": 44.56,
+        "resistance": 53.5,
+        "current_price": 53.24
+      }
+    },
+    {
+      "ticker": "DVN",
+      "chart_score": 30,
+      "timing": "관망",
+      "entry_condition": "RSI 60 이하로 하락 + 볼린저 중심선(약 47.8) 부근 눌림목에서 거래량 동반 반등 시 매수 진입. 최소 52.27 저항선 돌파 후 되돌림(리테스트) 지지 확인 시 추격 매수 가능.",
+      "stop_loss": "진입가 대비 -5% 또는 20일 지지선 43.26 이탈 시 손절",
+      "target_price": "신규 진입 시 목표가 56~58 구간 (볼린저 상단 확장 기준 약 +8~10%)",
+      "chart_summary": "RSI 81.7 과매수 + 볼린저 92% 상단 근접 상태에서 거래량이 20일 평균 대비 0.1배로 극도로 낮아, 상승 추세의 힘이 빠지고 있는 전형적 피로 국면. 현재가가 20일 저항선과 일치하여 단기 조정 또는 횡보 가능성이 높음.",
+      "signals": [
+        "명확한 상승 추세(uptrend) 유지 중",
+        "5일 +7.8%, 20일 +16.9%로 강한 모멘텀",
+        "에너지/유가 수혜 테마 — 섹터 모멘텀 존재"
+      ],
+      "warnings": [
+        "RSI 81.7 극단적 과매수 — 단기 되돌림 확률 높음",
+        "거래량 0.1x로 극히 저조 — 상승에 매수세 뒷받침 부족 (거래량-가격 다이버전스)",
+        "현재가 = 20일 저항선(52.27) — 돌파 실패 시 급락 가능",
+        "볼린저 92% 상단 밀착 — 평균 회귀 압력 증가",
+        "MACD 크로스 신호 없음 — 추가 상승 모멘텀 확인 불가",
+        "단기 급등 후 진입 시 높은 손절 폭 불가피 (지지선 43.26까지 약 -17%)"
+      ],
+      "raw_indicators": {
+        "rsi": 81.7,
+        "rsi_signal": "과매수",
+        "bb_pct": 0.923,
+        "macd_cross": "none",
+        "volume_ratio": 0.13,
+        "trend": "uptrend",
+        "price_change_5d": 7.8,
+        "price_change_20d": 16.89,
+        "support": 43.264,
+        "resistance": 52.27,
+        "current_price": 52.27
+      }
+    },
+    {
+      "ticker": "RTX",
+      "chart_score": 45,
+      "timing": "관망",
+      "entry_condition": "RSI 30 이하 진입 후 반등 확인 + 거래량 20일 평균 1.5x 이상 동반 시 매수. 현재 지지선(188.68) 종가 기준 이탈하지 않고 양봉 출현 시 소량 진입 가능",
+      "stop_loss": "지지선 188.68 하방 이탈 시 손절 (종가 기준 185.0 이하, 약 -2.0%)",
+      "target_price": "1차 목표 199.2 (+5.6%), 2차 목표 209.8 (20일 저항선 부근, +11.2%)",
+      "chart_summary": "20일간 -11.1% 급락 후 볼린저 하단(2.4%)과 20일 지지선에 동시 도달한 상태. 그러나 거래량이 20일 평균의 0.1배로 극도로 위축되어 있고 MACD 반전 신호가 없어 바닥 확인이 아직 불충분함.",
+      "signals": [
+        "볼린저밴드 하단 근접(2.4%) → 통계적 반등 구간 진입",
+        "RSI 33.7로 과매도 임계(30)에 근접 → 추가 하락 시 반등 트리거 가능",
+        "현재가가 정확히 20일 지지선(188.68)에 위치 → 지지 테스트 구간",
+        "방산/항공우주 테마는 펀더멘털 하방 경직성 존재"
+      ],
+      "warnings": [
+        "거래량 0.1x로 극도로 낮음 → 매수세 유입 전혀 없는 상태, 반등 신뢰도 낮음",
+        "MACD 크로스 신호 없음 → 모멘텀 전환 미확인",
+        "20일 -11.1% 급락 → 하락 추세 지속 가능성, 낙폭 과대 ≠ 반등",
+        "지지선 이탈 시 추가 낙폭 확대 위험 (다음 지지 구간까지 갭 존재)",
+        "RSI가 아직 30 이상이므로 정식 과매도 신호 미달"
+      ],
+      "raw_indicators": {
+        "rsi": 33.7,
+        "rsi_signal": "중립",
+        "bb_pct": 0.024,
+        "macd_cross": "none",
+        "volume_ratio": 0.11,
+        "trend": "sideways",
+        "price_change_5d": -3.15,
+        "price_change_20d": -11.06,
+        "support": 188.685,
+        "resistance": 209.76,
+        "current_price": 188.685
+      }
+    },
+    {
+      "ticker": "NOC",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "RSI 30 이하 진입 + 볼린저 하단 터치 후 양봉 반등 확인 시 매수 (660~670 구간). 거래량이 20일 평균 대비 1.5x 이상 동반되는 반등 캔들 필수 확인",
+      "stop_loss": "655 이탈 시 손절 (현재가 대비 약 -3%)",
+      "target_price": "1차 목표 717 (20일 지지·저항 중간값, +6.2%), 2차 목표 759 (20일 저항선, +12.4%)",
+      "chart_summary": "20일간 -12.1% 급락 후 현재가가 20일 지지선(675.08)에 정확히 걸쳐 있는 상태. RSI 36.6, 볼린저 하단 근접(9.8%)으로 과매도 직전이나, 거래량 0.1x의 극심한 거래 부진과 MACD 크로스 부재로 반등 동력이 확인되지 않음.",
+      "signals": [
+        "RSI 36.6으로 과매도 구간(30) 근접 — 추가 하락 시 기술적 반등 가능성",
+        "볼린저밴드 9.8% 위치로 하단 밴드 근접 — 평균 회귀 기대 구간",
+        "20일 지지선(675.08)에서 현재가 지지 테스트 중 — 지지 확인 시 반등 트리거"
+      ],
+      "warnings": [
+        "거래량 0.1x — 20일 평균 대비 극도로 낮아 시장 관심 부재, 반등 시에도 지속력 의문",
+        "MACD 크로스 없음 — 추세 전환 신호 미확인, 하락 추세 지속 가능",
+        "20일 -12.1% 급락 — 단순 기술적 반등이 아닌 펀더멘털 악재 동반 가능성 점검 필요",
+        "지지선(675.08)이 현재가와 동일 — 이탈 시 추가 급락 리스크 존재 (다음 지지 구간 불명확)"
+      ],
+      "raw_indicators": {
+        "rsi": 36.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.098,
+        "macd_cross": "none",
+        "volume_ratio": 0.11,
+        "trend": "sideways",
+        "price_change_5d": -0.72,
+        "price_change_20d": -12.1,
+        "support": 675.08,
+        "resistance": 759.11,
+        "current_price": 675.08
+      }
+    },
+    {
+      "ticker": "GD",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "20일 지지선(345.78) 확인 후 거래량 동반 반등 시 진입. RSI 35 이하 진입 또는 MACD 골든크로스 발생 시 분할 매수 고려",
+      "stop_loss": "340.00 이탈 시 손절 (약 -1.7%)",
+      "target_price": "1차 목표 366.12 (20일 저항선, +5.9%), 2차 목표 375.00 (+8.4%)",
+      "chart_summary": "하락 추세 진행 중이며 현재가가 20일 지지선(345.78)에 정확히 걸쳐 있는 상황. 거래량이 20일 평균의 0.1배로 극도로 위축되어 방향성 결정 전 대기 국면.",
+      "signals": [
+        "현재가가 20일 지지선(345.78)에 도달하여 기술적 반등 가능 구간",
+        "볼린저밴드 하단(16.9%)에 근접하여 과매도 영역 접근 중",
+        "RSI 43.1로 아직 과매도가 아니어서 추가 하락 시 반등 매매 여력 존재",
+        "방산/항공우주 테마는 지정학적 리스크 시 방어주 역할 가능"
+      ],
+      "warnings": [
+        "명확한 하락 추세(downtrend) 진행 중 — 역추세 매매는 리스크 높음",
+        "거래량 0.1배로 극도로 위축되어 기관/세력 매집 또는 무관심 구간 판단 어려움",
+        "MACD 크로스 신호 없음 — 추세 전환 확인 불가",
+        "20일 등락률 -5.2%로 중기 하락 모멘텀 지속 중",
+        "지지선(345.78) 이탈 시 추가 급락 가능성 있음"
+      ],
+      "raw_indicators": {
+        "rsi": 43.1,
+        "rsi_signal": "중립",
+        "bb_pct": 0.169,
+        "macd_cross": "none",
+        "volume_ratio": 0.1,
+        "trend": "downtrend",
+        "price_change_5d": -0.46,
+        "price_change_20d": -5.21,
+        "support": 345.78,
+        "resistance": 366.12,
+        "current_price": 345.7875
+      }
+    },
+    {
+      "ticker": "KTOS",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "RSI 30 이하에서 양봉 반등 + 거래량 1.5x 이상 동반 시 1차 진입. MACD 골든크로스 확인 시 2차 추가 매수",
+      "stop_loss": "64.30 (현재가 대비 -5%, 직전 지지선 이탈 기준)",
+      "target_price": "1차 목표 75.00 (+10.7%), 2차 목표 81.50 (20일 밴드 중심선 부근, +20.3%)",
+      "chart_summary": "급락 후 볼린저 하단을 이탈하며 20일 지지선(67.72)에 도달한 상태. RSI 30.5로 과매도 근접이나 거래량이 극도로 위축(0.2x)되어 반등 에너지가 부족하며, MACD 반전 신호도 없어 낙폭 확대 가능성 상존.",
+      "signals": [
+        "RSI 30.5로 과매도 구간 진입 임박",
+        "볼린저밴드 하단(-10.3%) 이탈 → 기술적 반등 영역",
+        "현재가가 20일 지지선(67.72)에 정확히 위치 → 지지 테스트 중",
+        "5일 -19.1% 급락 → 낙폭과대에 따른 기술적 반등 가능성"
+      ],
+      "warnings": [
+        "거래량 0.2x로 극도로 위축 → 매수세 유입 전혀 없음 (가장 큰 리스크)",
+        "MACD 크로스 신호 없음 → 추세 반전 미확인",
+        "하락 추세 지속 중 → 낙폭 확대(falling knife) 위험",
+        "20일 -25.4% 급락 → 추가 투매 및 손절 물량 출회 가능",
+        "지지선(67.72) 이탈 시 다음 지지 구간까지 하락폭 클 수 있음"
+      ],
+      "raw_indicators": {
+        "rsi": 30.5,
+        "rsi_signal": "중립",
+        "bb_pct": -0.103,
+        "macd_cross": "none",
+        "volume_ratio": 0.23,
+        "trend": "downtrend",
+        "price_change_5d": -19.08,
+        "price_change_20d": -25.35,
+        "support": 67.72,
+        "resistance": 95.31,
+        "current_price": 67.72
+      }
+    },
+    {
+      "ticker": "FNV",
+      "chart_score": 38,
+      "timing": "관망",
+      "entry_condition": "20일 지지선(222.54) 부근 재테스트 후 반등 확인 시 진입, 또는 RSI 30 이하 진입 + 거래량 평균 이상 동반 시 단기 반등 매매",
+      "stop_loss": "220.0 (지지선 222.54 하방 이탈 시, 약 -6.0%)",
+      "target_price": "1차 목표 248.0 (+6.0%), 2차 목표 265.0 (20일 저항선 부근, +13.2%)",
+      "chart_summary": "20일간 -15.7% 하락 후 5일 +3.1% 기술적 반등 중이나, 하락추세 지속 중이며 거래량이 평균 대비 0.1배로 극도로 부진. 반등의 신뢰도가 낮고 추세 전환 시그널(MACD 골든크로스, 거래량 급증) 부재.",
+      "signals": [
+        "5일 +3.1% 단기 반등 시도 중",
+        "볼린저밴드 28.7%로 하단 근접 — 추가 하락 시 과매도 반등 가능성",
+        "RSI 41.9로 과매도 영역(30) 접근 중 — 추가 하락 시 반등 트리거 가능",
+        "금/안전자산 테마로 매크로 불확실성 시 수혜 가능"
+      ],
+      "warnings": [
+        "거래량 0.1x — 극도의 거래 부진으로 현재 반등에 매수세 부재",
+        "추세(downtrend) 하락 진행 중 — 역추세 매매는 높은 리스크",
+        "MACD 크로스 시그널 없음 — 모멘텀 전환 미확인",
+        "20일 -15.7% 급락 후 데드캣 바운스 가능성 경계",
+        "지지선(222.54)까지 약 -4.9% 추가 하락 여지 존재"
+      ],
+      "raw_indicators": {
+        "rsi": 41.9,
+        "rsi_signal": "중립",
+        "bb_pct": 0.287,
+        "macd_cross": "none",
+        "volume_ratio": 0.15,
+        "trend": "downtrend",
+        "price_change_5d": 3.15,
+        "price_change_20d": -15.66,
+        "support": 222.54,
+        "resistance": 265.28,
+        "current_price": 234.0
+      }
+    },
+    {
+      "ticker": "079550",
+      "chart_score": 50,
+      "timing": "관망",
+      "entry_condition": "데이터 부족",
+      "stop_loss": "-",
+      "target_price": "-",
+      "chart_summary": "차트 데이터 없음",
+      "signals": [],
+      "warnings": [
+        "OHLCV 데이터 수집 실패"
+      ],
+      "raw_indicators": {}
+    },
+    {
+      "ticker": "HAL",
+      "chart_score": 30,
+      "timing": "관망",
+      "entry_condition": "RSI 60 이하로 냉각 + 20일 지지선(33.69~35.00) 부근 눌림목에서 거래량 동반 반등 시 매수 진입. 또는 저항선(40.42) 거래량 2배 이상 돌파 확인 후 리테스트 시 진입",
+      "stop_loss": "진입가 대비 -5% 또는 20일 지지선 33.69 하향 이탈 시 손절",
+      "target_price": "저항 돌파 시 43.0~44.0 (약 +7~10%), 눌림목 매수 시 40.0~40.4 (저항선 부근)",
+      "chart_summary": "강한 상승추세 속 RSI 72.7 과매수 + 볼린저 상단(97.4%) 도달로 단기 과열 구간. 거래량이 20일 평균의 0.2배로 극히 낮아 현재 랠리의 지속력에 의문이 있으며, 저항선(40.42)에 거의 도달해 추격 매수는 위험.",
+      "signals": [
+        "명확한 상승추세(uptrend) 유지 중",
+        "5일 +7.1%, 20일 +12.3%로 강한 모멘텀",
+        "에너지/유가 수혜 테마 — 매크로 순풍 가능"
+      ],
+      "warnings": [
+        "RSI 72.7 과매수 영역 — 단기 조정 가능성 높음",
+        "볼린저밴드 97.4%로 상단 밀착, 평균 회귀 압력 존재",
+        "거래량 0.2배 — 극도로 낮은 거래량, 상승 신뢰도 약함",
+        "현재가(40.19)가 20일 저항(40.42)에 근접, 저항 돌파 실패 시 되돌림 위험",
+        "MACD 크로스 미발생 — 추세 전환 확인 신호 부재"
+      ],
+      "raw_indicators": {
+        "rsi": 72.7,
+        "rsi_signal": "과매수",
+        "bb_pct": 0.974,
+        "macd_cross": "none",
+        "volume_ratio": 0.16,
+        "trend": "uptrend",
+        "price_change_5d": 7.14,
+        "price_change_20d": 12.27,
+        "support": 33.69,
+        "resistance": 40.42,
+        "current_price": 40.19
+      }
+    },
+    {
+      "ticker": "CENX",
+      "chart_score": 62,
+      "timing": "관망",
+      "entry_condition": "20일 지지선(46.48) 부근 눌림목 또는 저항선(58.07) 돌파 후 리테스트 시 매수 진입. 이상적으로는 52~53 구간 조정 시 거래량 감소 확인 후 진입",
+      "stop_loss": "46.00 이탈 시 손절 (약 -15.4%)",
+      "target_price": "58.07 (1차 목표, +6.8%) / 62.00 (2차 목표, +14.1%)",
+      "chart_summary": "상승추세 내 5일간 +16.9% 급등 후 볼린저 중상단(61.3%)에 위치. RSI 55.5로 과매수는 아니나 단기 급등에 따른 차익실현 압력 존재, 거래량 0.7x로 후속 매수세 부족.",
+      "signals": [
+        "상승추세(uptrend) 유지 중",
+        "RSI 55.5로 과매수 구간 진입 전 — 추가 상승 여력 존재",
+        "5일 등락률 +16.9%로 강한 단기 모멘텀",
+        "20일 등락률 +5.8%로 중기 방향성도 상승"
+      ],
+      "warnings": [
+        "거래량 0.7x — 20일 평균 대비 부족, 급등의 지속성 의문",
+        "MACD 크로스 없음(none) — 추세 전환 확인 신호 부재",
+        "5일 +16.9% 급등 후 단기 과열 가능성, 되돌림 리스크",
+        "현재가(54.36)가 저항선(58.07)에 근접 — 저항 돌파 실패 시 눌림 가능",
+        "볼린저 61.3%로 중상단 위치, 밴드 상단 접근 시 되돌림 경계 필요"
+      ],
+      "raw_indicators": {
+        "rsi": 55.5,
+        "rsi_signal": "중립",
+        "bb_pct": 0.613,
+        "macd_cross": "none",
+        "volume_ratio": 0.73,
+        "trend": "uptrend",
+        "price_change_5d": 16.95,
+        "price_change_20d": 5.84,
+        "support": 46.48,
+        "resistance": 58.07,
+        "current_price": 54.36
+      }
+    },
+    {
+      "ticker": "LMT",
+      "chart_score": 42,
+      "timing": "관망",
+      "entry_condition": "607.5 지지선에서 양봉 반등 확인 + 거래량 1.0x 이상 회복 시 진입. 또는 RSI 30 이하 터치 후 반등 시 분할 매수 1차 진입",
+      "stop_loss": "지지선 607.5 하향 이탈 시 손절 (종가 기준 600 이하 확정 시 -1.2%)",
+      "target_price": "1차 목표 640 (+5.3%), 2차 목표 671.8 (20일 저항선, +10.6%)",
+      "chart_summary": "20일간 -10.2% 급락 후 현재가가 정확히 20일 지지선(607.5)에 도달. 볼린저 하단(7.8%) 근접으로 과매도 영역 진입 중이나, 거래량이 평소 대비 0.2배로 극도로 위축되어 반등 동력이 아직 확인되지 않는 상태.",
+      "signals": [
+        "볼린저밴드 하단(7.8%) 근접 → 기술적 반등 구간 임박",
+        "현재가가 20일 지지선 정확히 도달 → 지지 테스트 구간",
+        "RSI 39로 과매도 근접 → 추가 하락 시 반등 매매 기회"
+      ],
+      "warnings": [
+        "거래량 0.2x로 극도로 위축 → 매수세 유입 미확인, 바닥 확인 불가",
+        "MACD 크로스 신호 없음 → 추세 전환 근거 부재",
+        "20일 -10.2% 하락 추세 → 하락 모멘텀 지속 가능성",
+        "지지선(607.5) 이탈 시 추가 낙폭 확대 위험 (다음 지지대 탐색 필요)",
+        "추세가 sideways이나 실질적으로 하락 압력 우세"
+      ],
+      "raw_indicators": {
+        "rsi": 39.0,
+        "rsi_signal": "중립",
+        "bb_pct": 0.078,
+        "macd_cross": "none",
+        "volume_ratio": 0.23,
+        "trend": "sideways",
+        "price_change_5d": -1.42,
+        "price_change_20d": -10.22,
+        "support": 607.525,
+        "resistance": 671.77,
+        "current_price": 607.525
+      }
+    },
+    {
+      "ticker": "NEM",
+      "chart_score": 45,
+      "timing": "관망",
+      "entry_condition": "95.8 지지선 부근(96~98)에서 거래량 1.5x 이상 동반한 양봉 출현 시 매수 진입. 또는 MACD 골든크로스 확인 후 104~105 돌파 시 추격 매수.",
+      "stop_loss": "93.5 (지지선 95.8 하방 약 2.4% 이탈 시 손절)",
+      "target_price": "1차 목표 111.5 (볼린저 중단), 2차 목표 119.4 (20일 저항선). 진입가 대비 +7~15%",
+      "chart_summary": "20일간 -19.2% 급락 후 5일간 +5.8% 기술적 반등 진행 중이나, 거래량 0.3x로 극히 부진해 반등의 신뢰도가 낮음. 하락 추세 속 데드캣 바운스 가능성을 배제할 수 없는 구간.",
+      "signals": [
+        "5일 +5.8% 단기 반등 모멘텀 발생",
+        "RSI 42로 과매도 근접 구간에서 반등 시도",
+        "볼린저밴드 35% 위치로 하단 접근 — 평균회귀 여력 존재",
+        "20일 지지선 95.8 유지 중 (직전 저점 방어)"
+      ],
+      "warnings": [
+        "거래량 0.3x — 반등에 매수세 참여 극히 부족, 세력 매집 아닌 기술적 되돌림 가능성",
+        "MACD 크로스 없음 — 추세 전환 신호 미확인",
+        "전체 추세 downtrend — 역추세 매매는 높은 리스크",
+        "20일 -19.2% 급락 — 하락 관성이 강해 추가 하락 여지 있음",
+        "지지선 95.8 이탈 시 90 부근까지 낙폭 확대 가능"
+      ],
+      "raw_indicators": {
+        "rsi": 42.0,
+        "rsi_signal": "중립",
+        "bb_pct": 0.352,
+        "macd_cross": "none",
+        "volume_ratio": 0.27,
+        "trend": "downtrend",
+        "price_change_5d": 5.78,
+        "price_change_20d": -19.2,
+        "support": 95.8,
+        "resistance": 119.37,
+        "current_price": 103.81
+      }
+    },
+    {
+      "ticker": "373220",
+      "chart_score": 50,
+      "timing": "관망",
+      "entry_condition": "데이터 부족",
+      "stop_loss": "-",
+      "target_price": "-",
+      "chart_summary": "차트 데이터 없음",
+      "signals": [],
+      "warnings": [
+        "OHLCV 데이터 수집 실패"
+      ],
+      "raw_indicators": {}
+    },
+    {
+      "ticker": "010130",
+      "chart_score": 50,
+      "timing": "관망",
+      "entry_condition": "데이터 부족",
+      "stop_loss": "-",
+      "target_price": "-",
+      "chart_summary": "차트 데이터 없음",
+      "signals": [],
+      "warnings": [
+        "OHLCV 데이터 수집 실패"
+      ],
+      "raw_indicators": {}
+    },
+    {
+      "ticker": "XOM",
+      "chart_score": 30,
+      "timing": "관망",
+      "entry_condition": "RSI 60 이하로 냉각 + 볼린저 중심선(약 161원) 부근 조정 후 거래량 동반 반등 시 진입. 또는 174.15 저항 돌파 후 거래량 2.0x 이상 수반되는 확인된 브레이크아웃 시 눌림목 매수",
+      "stop_loss": "진입가 대비 -3.5% 또는 20일 지지선 148.13 이탈 시 손절",
+      "target_price": "저항 돌파 매수 시 목표 +5~7% (약 183~186), 조정 후 반등 매수 시 목표 174 재돌파",
+      "chart_summary": "강한 상승추세이나 RSI 78.8 과매수 + 볼린저 상단 이탈(106.4%)로 단기 과열 극심. 거래량이 20일 평균의 0.4배에 불과해 추가 상승 동력이 부족하며, 단기 조정 가능성이 높은 구간.",
+      "signals": [
+        "명확한 상승추세(uptrend) 유지 중",
+        "5일 +8.1%, 20일 +12.9%의 강한 모멘텀",
+        "에너지/정유 테마 — 유가 강세 시 추가 수혜 가능"
+      ],
+      "warnings": [
+        "RSI 78.8 — 과매수 경고 구간 (70 이상)",
+        "볼린저밴드 106.4% — 상단 완전 이탈, 평균회귀 압력 높음",
+        "거래량 0.4x — 상승에 거래량 미동반 (스마트머니 매도 가능성)",
+        "MACD 크로스 없음 — 추세 전환 신호 미확인",
+        "현재가 = 20일 저항선(174.15) — 저항 구간 정면 도달",
+        "5일간 +8.1% 급등 후 차익실현 매물 출회 가능성"
+      ],
+      "raw_indicators": {
+        "rsi": 78.8,
+        "rsi_signal": "과매수",
+        "bb_pct": 1.064,
+        "macd_cross": "none",
+        "volume_ratio": 0.36,
+        "trend": "uptrend",
+        "price_change_5d": 8.08,
+        "price_change_20d": 12.92,
+        "support": 148.13,
+        "resistance": 174.15,
+        "current_price": 174.15
+      }
+    },
+    {
+      "ticker": "CVX",
+      "chart_score": 30,
+      "timing": "관망",
+      "entry_condition": "RSI 60 이하로 냉각 + 볼린저밴드 중단선(약 200) 부근까지 조정 시 분할 매수 진입. 또는 213 저항 돌파 후 거래량 2배 이상 수반 시 눌림목 매수",
+      "stop_loss": "20일 지지선 186.03 하향 이탈 시 손절 (약 -12.7%)",
+      "target_price": "신고가 돌파 시 225~230 (약 +5~8%), 조정 후 재진입 시 213 재돌파 목표",
+      "chart_summary": "RSI 82.5 극단적 과매수 + 볼린저 상단 95% 위치로 단기 과열 상태. 5일간 +3.9%, 20일간 +12.5% 급등했으나 거래량은 평균 대비 0.2배로 극도로 낮아 상승 신뢰도가 약함.",
+      "signals": [
+        "명확한 상승추세(uptrend) 유지 중",
+        "20일간 +12.5% 강한 모멘텀",
+        "현재가가 20일 저항선과 동일 → 신고가 돌파 시도 구간"
+      ],
+      "warnings": [
+        "RSI 82.5 극단적 과매수 — 단기 되돌림 확률 높음",
+        "볼린저밴드 95.4% 위치 — 밴드 상단 이탈 직전, 평균 회귀 압력 강함",
+        "거래량 0.2배 — 상승을 뒷받침하는 매수세가 매우 약함 (가장 큰 경고)",
+        "MACD 크로스 없음 — 추가 상승 모멘텀 확인 불가",
+        "현재가 = 저항선(213.2) — 저항 돌파 실패 시 급격한 하락 전환 가능"
+      ],
+      "raw_indicators": {
+        "rsi": 82.5,
+        "rsi_signal": "과매수",
+        "bb_pct": 0.954,
+        "macd_cross": "none",
+        "volume_ratio": 0.19,
+        "trend": "uptrend",
+        "price_change_5d": 3.9,
+        "price_change_20d": 12.46,
+        "support": 186.03,
+        "resistance": 213.215,
+        "current_price": 213.215
+      }
+    },
+    {
+      "ticker": "OXY",
+      "chart_score": 25,
+      "timing": "관망",
+      "entry_condition": "RSI 50~60 구간 조정 후 볼린저밴드 중심선(20일 이동평균) 부근에서 거래량 동반 반등 시 매수 진입. 구체적으로 $58~60 구간까지 눌림목 형성 후 양봉 전환 확인 시 분할 매수",
+      "stop_loss": "20일 지지선 $52.99 하향 이탈 시 손절 (현재가 대비 약 -20%)",
+      "target_price": "단기 조정 후 재진입 시 $68~70 (직전 고점 돌파 시도), 스윙 목표 $72~75",
+      "chart_summary": "RSI 83.6 극단적 과매수 + 볼린저밴드 99.3% 상단 밀착으로 단기 과열 극심. 5일 +10.4%, 20일 +23.4% 급등에도 거래량은 20일 평균의 0.2배로 극히 저조하여 추가 상승 동력 부족 및 조정 가능성 높음.",
+      "signals": [
+        "상승추세(uptrend) 유지 중",
+        "20일간 +23.4% 강한 모멘텀",
+        "에너지/유가 수혜 테마 — 매크로 방향성 우호적",
+        "현재가가 20일 저항선과 일치하여 돌파 시도 중"
+      ],
+      "warnings": [
+        "RSI 83.6 — 극단적 과매수 영역 (70 이상 주의, 80 이상 위험)",
+        "볼린저밴드 99.3% — 밴드 상단 거의 접촉, 평균 회귀 압력 강함",
+        "거래량 0.2x — 20일 평균 대비 1/5 수준으로 매수세 극히 부족, 급등의 신뢰도 낮음",
+        "MACD 크로스 없음 — 추세 전환 확인 신호 부재",
+        "5일간 +10.4% 급등 후 차익실현 매물 출회 가능성 높음",
+        "지지선($52.99) 대비 현재가 괴리 약 25% — 조정 시 낙폭 클 수 있음"
+      ],
+      "raw_indicators": {
+        "rsi": 83.6,
+        "rsi_signal": "과매수",
+        "bb_pct": 0.993,
+        "macd_cross": "none",
+        "volume_ratio": 0.23,
+        "trend": "uptrend",
+        "price_change_5d": 10.36,
+        "price_change_20d": 23.36,
+        "support": 52.9884,
+        "resistance": 66.5579,
+        "current_price": 66.5579
+      }
+    },
+    {
+      "ticker": "FANG",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "RSI 50~55 구간 되돌림 + 볼린저 중심선(약 189원대) 부근 지지 확인 후 거래량 동반 반등 시 매수 진입. 또는 202.19 저항 돌파 후 거래량 1.5x 이상 수반 시 돌파 매수 가능.",
+      "stop_loss": "20일 지지선 175.66 이탈 시 손절 (현재가 대비 약 -12.9%)",
+      "target_price": "저항 돌파 시 단기 목표 210~215 (+4~6%), 되돌림 후 재진입 시 202.19 재도달 목표",
+      "chart_summary": "강한 상승 추세 속 RSI 77.2 과매수 + 볼린저 상단 근접으로 단기 과열 구간 진입. 특히 거래량이 20일 평균의 0.2배에 불과해 현재 상승의 지속력에 의문이 있으며, 20일 저항선(202.19)에 직면한 상태.",
+      "signals": [
+        "명확한 상승 추세(uptrend) 유지 중",
+        "20일 등락률 +13.4%로 강한 모멘텀",
+        "5일 등락률 +5.2%로 단기 가속 구간"
+      ],
+      "warnings": [
+        "RSI 77.2 과매수 영역 — 단기 되돌림 가능성 높음",
+        "볼린저밴드 89.9% 상단 근접 — 평균 회귀 압력 존재",
+        "거래량 0.2x로 극히 저조 — 세력/기관 참여 없는 상승으로 신뢰도 낮음",
+        "현재가(201.77)가 20일 저항(202.19)에 거의 도달 — 저항 매물대 출회 예상",
+        "MACD 크로스 시그널 없음 — 추세 전환 확인 불가"
+      ],
+      "raw_indicators": {
+        "rsi": 77.2,
+        "rsi_signal": "과매수",
+        "bb_pct": 0.899,
+        "macd_cross": "none",
+        "volume_ratio": 0.17,
+        "trend": "uptrend",
+        "price_change_5d": 5.21,
+        "price_change_20d": 13.42,
+        "support": 175.66,
+        "resistance": 202.19,
+        "current_price": 201.765
+      }
+    },
+    {
+      "ticker": "LHX",
+      "chart_score": 40,
+      "timing": "관망",
+      "entry_condition": "20일 지지선(343.0) 반등 확인 + 거래량 20일 평균 이상 회복 시 진입. RSI 35 이하 진입 시 과매도 반등 매매 가능",
+      "stop_loss": "지지선 343.0 하방 이탈 시 손절 (약 340.0 이하, -1.3%)",
+      "target_price": "1차 목표 357.0(+3.6%), 2차 목표 371.26(20일 저항선, +7.8%)",
+      "chart_summary": "20일간 -8.7% 하락 후 볼린저밴드 하단(9.5%)에 근접하며 지지선(343.0) 테스트 중. 그러나 거래량이 20일 평균의 0.1배로 극도로 낮아 방향성 부재 상태.",
+      "signals": [
+        "볼린저밴드 하단 근접(9.5%) → 기술적 반등 가능 영역",
+        "20일 지지선(343.0) 바로 위에서 가격 지지 중",
+        "RSI 42.6으로 과매도 진입 여지 존재 → 추가 하락 시 반등 매매 기회"
+      ],
+      "warnings": [
+        "거래량 0.1x로 극도로 부진 → 매수세 유입 미확인",
+        "MACD 크로스 시그널 없음 → 추세 전환 신호 부재",
+        "20일간 -8.7% 하락 추세 지속 중 → 낙폭 확대 가능성",
+        "지지선(343.0) 이탈 시 추가 급락 리스크",
+        "RSI가 아직 과매도(30 이하)에 도달하지 않아 반등 확신 약함"
+      ],
+      "raw_indicators": {
+        "rsi": 42.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.095,
+        "macd_cross": "none",
+        "volume_ratio": 0.12,
+        "trend": "sideways",
+        "price_change_5d": -0.29,
+        "price_change_20d": -8.66,
+        "support": 343.0,
+        "resistance": 371.26,
+        "current_price": 344.491
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "141달러 지지 확인 후 거래량 1.5x 이상 동반한 양봉 출현 시 진입 검토. RSI 35 이하 진입 후 반등 확인되면 추가 매수 가능",
+      "stop_loss": "20일 지지선(141.2) 하향 이탈 시 손절. 종가 기준 138달러(-2.3%) 이탈 시 즉시 청산",
+      "target_price": "1차 목표 151달러(+6.9%), 2차 목표 160.8달러(20일 저항선, +13.9%)",
+      "chart_summary": "5일간 -12.2% 급락 후 20일 지지선(141.2)에 도달, 볼린저 하단 이탈(-8.7%) 상태. 그러나 거래량 0.2x로 극히 부진하고 MACD 크로스 미발생으로 반등 확인 신호가 부재한 상황.",
+      "signals": [
+        "볼린저밴드 하단 이탈 → 기술적 과매도 구간 진입",
+        "20일 지지선 정확히 도달 → 반등 시도 가능 영역",
+        "RSI 41.4로 과매도(30) 접근 중 → 추가 하락 시 반등 트리거 가능"
+      ],
+      "warnings": [
+        "거래량 0.2x 극저 → 매수세 유입 전혀 없음, 바닥 확인 불가",
+        "MACD 크로스 없음 → 모멘텀 전환 신호 미발생",
+        "하락 추세(downtrend) 지속 중 → 역추세 매매는 높은 리스크",
+        "5일 -12.2% 급락 → 추세적 투매 가능성, 지지선 이탈 시 낙폭 확대 우려",
+        "지지선(141.2)이 현재가와 동일 → 이미 지지 테스트 중이며 이탈 확률 존재"
+      ],
+      "raw_indicators": {
+        "rsi": 41.4,
+        "rsi_signal": "중립",
+        "bb_pct": -0.087,
+        "macd_cross": "none",
+        "volume_ratio": 0.19,
+        "trend": "downtrend",
+        "price_change_5d": -12.19,
+        "price_change_20d": -2.71,
+        "support": 141.235,
+        "resistance": 160.84,
+        "current_price": 141.235
+      }
+    },
+    {
+      "ticker": "AA",
+      "chart_score": 52,
+      "timing": "관망",
+      "entry_condition": "① 저항선(66.6) 돌파 + 거래량 1.5x 이상 동반 시 추격 매수, 또는 ② 조정 후 60~61 지지 확인 시 눌림목 매수",
+      "stop_loss": "눌림목 매수 시 56.0 이탈 (약 -8.5%), 돌파 매수 시 64.0 이탈 (직전 저항→지지 전환 실패)",
+      "target_price": "돌파 매수: 72~74 (+10~12%), 눌림목 매수: 66.6 1차 / 72.0 2차",
+      "chart_summary": "5일간 +15.6% 급등하며 상승추세 유지 중이나, 거래량이 20일 평균의 0.7배로 수급 뒷받침 부족. 볼린저 상단(74.6%) 근접 + 20일 저항(66.6) 직전으로, 현재가 추격 매수보다는 돌파 확인 또는 조정 대기가 유리한 구간.",
+      "signals": [
+        "상승추세(uptrend) 유지 중",
+        "RSI 57.6으로 과매수 영역 아직 여유 있음",
+        "5일 +15.6% 강한 단기 모멘텀",
+        "금/원자재 안전자산 테마 — 매크로 불확실성 시 수혜 가능"
+      ],
+      "warnings": [
+        "거래량 0.7x: 급등에도 거래량 미동반 → 세력 매집보다 단기 수급 의존 가능성",
+        "볼린저 74.6%: 상단 밴드 근접, 단기 되돌림 압력 존재",
+        "20일 저항(66.6) 직전: 저항 돌파 실패 시 차익실현 매물 출회 우려",
+        "MACD 크로스 없음: 추세 전환 확인 신호 부재",
+        "5일 급등 후 20일 등락률은 +1.3%에 불과 → 최근 급등 전 하락이 있었음을 시사"
+      ],
+      "raw_indicators": {
+        "rsi": 57.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.746,
+        "macd_cross": "none",
+        "volume_ratio": 0.7,
+        "trend": "uptrend",
+        "price_change_5d": 15.58,
+        "price_change_20d": 1.31,
+        "support": 56.08,
+        "resistance": 66.6,
+        "current_price": 64.815
+      }
+    },
+    {
+      "ticker": "ENPH",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "RSI 30 이하 진입 + 볼린저 하단 이탈 후 밴드 안으로 재진입 시 반등 매수. 또는 $37.74 지지선에서 거래량 2배 이상 동반한 양봉 캔들 확인 후 진입",
+      "stop_loss": "$35.95 (현재가 대비 -4.7%, 20일 지지선 하방 이탈 확인 시)",
+      "target_price": "$41.80 (1차, +10.7%) / $45.89 (2차, 20일 저항선, +21.6%)",
+      "chart_summary": "5일 -7.4%, 20일 -15.6%로 뚜렷한 하락 추세 속 현재가가 20일 지지선($37.74)에 정확히 걸쳐 있는 상황. 볼린저 하단 근접(-0.8%)이나 거래량 극도로 위축(0.1x)되어 반등 동력이 부재하며, MACD 크로스 신호도 없어 추세 전환 확인 전까지는 관망이 적절.",
+      "signals": [
+        "볼린저밴드 하단 근접(-0.8%)으로 과매도 영역 접근 중",
+        "20일 지지선($37.74)에 도달 — 기술적 반등 가능 구간",
+        "RSI 38.5로 과매도(30) 근접, 추가 하락 시 반등 트리거 가능"
+      ],
+      "warnings": [
+        "거래량 0.1x로 극도로 위축 — 매수세 부재, 지지선 신뢰도 낮음",
+        "MACD 크로스 없음 — 추세 전환 신호 미확인",
+        "5일/20일 등락률 모두 큰 폭 하락으로 하락 모멘텀 지속 중",
+        "sideways 추세이나 실질적으로는 하방 압력 우세",
+        "지지선 이탈 시 추가 급락 가능성 — 낙폭 과대 매수(낙시매수) 주의",
+        "재생에너지 섹터 전반의 약세 흐름 고려 필요"
+      ],
+      "raw_indicators": {
+        "rsi": 38.5,
+        "rsi_signal": "중립",
+        "bb_pct": -0.008,
+        "macd_cross": "none",
+        "volume_ratio": 0.13,
+        "trend": "sideways",
+        "price_change_5d": -7.41,
+        "price_change_20d": -15.59,
+        "support": 37.7385,
+        "resistance": 45.89,
+        "current_price": 37.7385
+      }
+    },
+    {
+      "ticker": "NEE",
+      "chart_score": 45,
+      "timing": "관망",
+      "entry_condition": "① 돌파 매수: 92.82 저항선을 거래량 1.5x 이상 동반하며 종가 돌파 시 진입 ② 눌림 매수: 89.5 지지선 부근(89.5~90.0)까지 조정 후 양봉 반등 확인 시 진입",
+      "stop_loss": "89.5 지지선 하향 이탈 시 손절 (약 -3.4%)",
+      "target_price": "돌파 시 1차 목표 95.0(+2.5%), 눌림 매수 시 목표 92.8(저항선 리테스트, +3.1%)",
+      "chart_summary": "상승추세 내 20일 저항선(92.82)에 바짝 붙어 있으나 거래량이 20일 평균의 10%에 불과해 돌파 동력이 부족한 상황. 방향성 결정 전 관망이 유리하며, 거래량 동반 돌파 또는 지지선 눌림을 기다릴 필요 있음.",
+      "signals": [
+        "상승추세(uptrend) 유지 중",
+        "5일 등락률 +2.7%로 단기 모멘텀 양호",
+        "RSI 56.4로 과매수 부담 없음",
+        "볼린저밴드 77.7%로 상단 방향 움직임"
+      ],
+      "warnings": [
+        "거래량 0.1x — 20일 평균 대비 극도로 낮아 현재 움직임의 신뢰도 매우 낮음",
+        "현재가(92.67)가 저항선(92.82)에 근접 → 저항 매물대 돌파 실패 시 되밀림 가능",
+        "MACD 크로스 신호 없음 — 추세 전환 확인 불가",
+        "20일 등락률 0%로 중기적으로 횡보 구간에 갇혀 있음"
+      ],
+      "raw_indicators": {
+        "rsi": 56.4,
+        "rsi_signal": "중립",
+        "bb_pct": 0.777,
+        "macd_cross": "none",
+        "volume_ratio": 0.13,
+        "trend": "uptrend",
+        "price_change_5d": 2.7,
+        "price_change_20d": -0.04,
+        "support": 89.5,
+        "resistance": 92.82,
+        "current_price": 92.67
+      }
+    },
+    {
+      "ticker": "PLUG",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "지지선 $2.12 부근에서 거래량 증가(20일 평균 1.5x 이상) 동반 반등 확인 시 진입. 또는 MACD 골든크로스 발생 후 $2.20 돌파 시 추격 매수 가능.",
+      "stop_loss": "$2.05 (지지선 $2.12 대비 약 -3.3% 이탈 시 손절)",
+      "target_price": "$2.45~$2.48 (20일 저항선 부근, 진입가 대비 약 +14~15%)",
+      "chart_summary": "20일간 +18.8% 반등 후 최근 5일 -6.9% 조정 진행 중. RSI 중립·거래량 극도로 부진(0.1x)하여 방향성 없는 무기력한 횡보 구간에 진입한 상태.",
+      "signals": [
+        "20일 등락률 +18.8%로 중기 반등 추세 유효",
+        "볼린저밴드 22.7%로 하단 접근 중 — 단기 과매도 영역 진입 가능성",
+        "현재가 $2.15가 20일 지지선 $2.12에 근접하여 지지 테스트 구간",
+        "RSI 48로 과매수 부담 없음"
+      ],
+      "warnings": [
+        "거래량 0.1x — 극도의 거래 부진으로 유의미한 방향성 판단 불가",
+        "MACD 크로스 신호 없음 — 추세 전환 확인 부재",
+        "5일 -6.9% 하락으로 단기 모멘텀 약화 중",
+        "지지선 $2.12 이탈 시 추가 하락 가속 위험 (저가주 특성상 변동폭 확대)",
+        "$2 이하 페니스톡 영역 진입 시 심리적 매도 압력 급증 가능"
+      ],
+      "raw_indicators": {
+        "rsi": 48.0,
+        "rsi_signal": "중립",
+        "bb_pct": 0.227,
+        "macd_cross": "none",
+        "volume_ratio": 0.13,
+        "trend": "sideways",
+        "price_change_5d": -6.93,
+        "price_change_20d": 18.78,
+        "support": 2.12,
+        "resistance": 2.48,
+        "current_price": 2.15
+      }
+    },
+    {
+      "ticker": "RUN",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "① 지지선 11.33 부근 되돌림 시 거래량 1.5x 이상 동반한 양봉 출현 시 매수, 또는 ② 저항선 13.29 거래량 2x 이상으로 돌파 확인 후 눌림목 매수",
+      "stop_loss": "11.33 하향 이탈 시 손절 (약 -11.3%)",
+      "target_price": "1차 목표 13.29 (저항선, +4.1%), 2차 목표 14.00 (볼린저 상단 돌파 시, +9.6%)",
+      "chart_summary": "횡보 구간에서 소폭 반등 중이나 거래량이 20일 평균의 0.2배로 극도로 부진하여 방향성이 불분명. RSI·MACD 모두 중립으로 뚜렷한 매매 신호 없이 에너지 축적 국면.",
+      "signals": [
+        "5일 등락률 +3.4%로 단기 반등 흐름 유지",
+        "20일 등락률 +2.0%로 하방보다 상방 압력 우세",
+        "볼린저밴드 68.3%로 중심선 위에서 지지 중",
+        "20일 지지선 11.33 대비 약 12.7% 상방에 위치"
+      ],
+      "warnings": [
+        "거래량 0.2x로 극도로 저조 — 현재 움직임에 신뢰도 낮음",
+        "MACD 크로스 부재로 추세 전환 확인 불가",
+        "RSI 42.4 중립대로 과매도 반등 시나리오 해당 없음",
+        "횡보 구간 11.33~13.29 이탈 방향 확인 전까지 진입 리스크 존재",
+        "재생에너지 섹터 정책·금리 민감도 높아 외부 변수 주의"
+      ],
+      "raw_indicators": {
+        "rsi": 42.4,
+        "rsi_signal": "중립",
+        "bb_pct": 0.683,
+        "macd_cross": "none",
+        "volume_ratio": 0.17,
+        "trend": "sideways",
+        "price_change_5d": 3.4,
+        "price_change_20d": 2.0,
+        "support": 11.33,
+        "resistance": 13.29,
+        "current_price": 12.77
+      }
+    },
+    {
+      "ticker": "GEV",
+      "chart_score": 38,
+      "timing": "관망",
+      "entry_condition": "20일 지지선 $788 부근 터치 + RSI 35 이하 진입 시 반등 매수 / 또는 $850 돌파 + 거래량 1.5x 이상 동반 시 추세 전환 매수",
+      "stop_loss": "$780 이탈 시 손절 (약 -5.0%)",
+      "target_price": "1차 $870 (+6.0%), 2차 $920 저항대 부근 (+12.1%)",
+      "chart_summary": "최근 5일간 -7% 급락 후 볼린저 하단부(29.5%)에 위치하나, 거래량이 20일 평균의 0.3배로 극히 저조하여 매수 세력 유입이 확인되지 않는 상태. MACD 크로스 신호 없이 횡보 추세 속 하방 압력이 지속되고 있어 섣부른 진입보다 지지 확인 후 대응이 유리.",
+      "signals": [
+        "RSI 46.2로 과매도 영역 아직 도달 전 → 추가 하락 시 반등 매수 여력 존재",
+        "20일 지지선 $788까지 약 3.9% 하방 여유 → 지지 테스트 시 기술적 반등 가능",
+        "볼린저 하단부 접근 중 → 밴드 하단 터치 시 평균회귀 반등 기대"
+      ],
+      "warnings": [
+        "거래량 0.3x로 극도로 낮음 → 매수 주체 부재, 반등 동력 부족",
+        "MACD 크로스 신호 없음 → 모멘텀 전환 미확인",
+        "5일/20일 등락률 모두 -7%대 → 단기 하락 추세 진행 중",
+        "횡보 추세에서 하방 이탈 시 $788 지지선 붕괴 → 추가 낙폭 확대 위험"
+      ],
+      "raw_indicators": {
+        "rsi": 46.2,
+        "rsi_signal": "중립",
+        "bb_pct": 0.295,
+        "macd_cross": "none",
+        "volume_ratio": 0.31,
+        "trend": "sideways",
+        "price_change_5d": -7.02,
+        "price_change_20d": -6.81,
+        "support": 788.7531,
+        "resistance": 923.69,
+        "current_price": 820.69
+      }
+    },
+    {
+      "ticker": "004090",
+      "chart_score": 50,
+      "timing": "관망",
+      "entry_condition": "데이터 부족",
+      "stop_loss": "-",
+      "target_price": "-",
+      "chart_summary": "차트 데이터 없음",
+      "signals": [],
+      "warnings": [
+        "OHLCV 데이터 수집 실패"
+      ],
+      "raw_indicators": {}
+    },
+    {
+      "ticker": "006650",
+      "chart_score": 50,
+      "timing": "관망",
+      "entry_condition": "데이터 부족",
+      "stop_loss": "-",
+      "target_price": "-",
+      "chart_summary": "차트 데이터 없음",
+      "signals": [],
+      "warnings": [
+        "OHLCV 데이터 수집 실패"
+      ],
+      "raw_indicators": {}
+    },
+    {
+      "ticker": "012450",
+      "chart_score": 50,
+      "timing": "관망",
+      "entry_condition": "데이터 부족",
+      "stop_loss": "-",
+      "target_price": "-",
+      "chart_summary": "차트 데이터 없음",
+      "signals": [],
+      "warnings": [
+        "OHLCV 데이터 수집 실패"
+      ],
+      "raw_indicators": {}
+    },
+    {
+      "ticker": "103140",
+      "chart_score": 50,
+      "timing": "관망",
+      "entry_condition": "데이터 부족",
+      "stop_loss": "-",
+      "target_price": "-",
+      "chart_summary": "차트 데이터 없음",
+      "signals": [],
+      "warnings": [
+        "OHLCV 데이터 수집 실패"
+      ],
+      "raw_indicators": {}
+    },
+    {
+      "ticker": "034020",
+      "chart_score": 50,
+      "timing": "관망",
+      "entry_condition": "데이터 부족",
+      "stop_loss": "-",
+      "target_price": "-",
+      "chart_summary": "차트 데이터 없음",
+      "signals": [],
+      "warnings": [
+        "OHLCV 데이터 수집 실패"
+      ],
+      "raw_indicators": {}
+    },
+    {
+      "ticker": "COP",
+      "chart_score": 30,
+      "timing": "관망",
+      "entry_condition": "RSI가 60 이하로 냉각되고, 20일 이동평균선(약 124~126 부근) 지지 확인 후 반등 시 진입. 또는 볼린저밴드 중심선(약 124) 터치 후 거래량 동반 양봉 출현 시 분할 매수",
+      "stop_loss": "20일 지지선 114.15 하방 이탈 시 손절 (약 -14.8%)",
+      "target_price": "단기 목표 140~142 (약 +4.5~6%), 스윙 목표 148 (+10.4%)",
+      "chart_summary": "RSI 81.9 극단적 과매수 + 볼린저밴드 상단 92.4% 도달로 단기 과열 상태. 5일간 +5.4%, 20일간 +13.4% 급등 후 현재가가 20일 저항선과 일치하여 추격 매수는 위험도가 높은 구간.",
+      "signals": [
+        "상승추세(uptrend) 유지 중",
+        "20일간 +13.4% 강한 모멘텀",
+        "에너지/정유 테마 — 유가 상승 수혜 섹터"
+      ],
+      "warnings": [
+        "RSI 81.9 — 극단적 과매수 영역 (70 초과 경고 기준 대폭 상회)",
+        "볼린저밴드 92.4% — 상단 밀착, 평균회귀 압력 존재",
+        "거래량 비율 0.1x — 20일 평균 대비 극히 낮은 거래량으로 상승 신뢰도 약화",
+        "현재가 = 20일 저항선(134.07) — 저항 돌파 여부 미확인",
+        "MACD 크로스 없음(none) — 추세 전환 신호 부재",
+        "지지선(114.15)까지 약 -14.8% 갭이 커 손익비 불리"
+      ],
+      "raw_indicators": {
+        "rsi": 81.9,
+        "rsi_signal": "과매수",
+        "bb_pct": 0.924,
+        "macd_cross": "none",
+        "volume_ratio": 0.15,
+        "trend": "uptrend",
+        "price_change_5d": 5.41,
+        "price_change_20d": 13.39,
+        "support": 114.15,
+        "resistance": 134.07,
+        "current_price": 134.07
+      }
+    },
+    {
+      "ticker": "GLD",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "RSI 30 이하 진입 + 볼린저 하단(400.64 부근) 터치 후 양봉 반등 확인 시, 또는 거래량 1.5x 이상 동반한 장대양봉 출현 시 분할 매수 진입",
+      "stop_loss": "지지선 400.64 하향 이탈 시 손절 (약 -3.5%)",
+      "target_price": "1차 목표 440 (+6%), 2차 목표 460 (+10.8%) — 볼린저 중심선 회귀 기준",
+      "chart_summary": "20일간 -15.3% 급락 후 하락추세 지속 중이며, 최근 5일 +2.8% 단기 반등이 나왔으나 거래량 0.3x로 매우 부진해 반등 신뢰도가 낮음. RSI·볼린저 모두 과매도 근접 구간이나 아직 확정적 반전 시그널은 부재.",
+      "signals": [
+        "RSI 38.6으로 과매도 근접 — 추가 하락 시 반등 매매 기회 가능",
+        "볼린저밴드 24.5%로 하단 접근 중 — 평균회귀 가능성",
+        "5일 +2.8% 단기 반등세 출현",
+        "20일 지지선 400.64가 명확한 지지 역할 가능",
+        "금(안전자산) 특성상 급락 후 평균회귀 경향 존재"
+      ],
+      "warnings": [
+        "거래량 0.3x — 극도로 낮아 현재 반등은 기술적 데드캣바운스 가능성",
+        "MACD 크로스 시그널 없음 — 추세 반전 미확인",
+        "하락추세(downtrend) 지속 중 — 역추세 매매는 고위험",
+        "20일 -15.3% 급락폭이 GLD 치고는 이례적으로 큼 — 펀더멘털 악재 점검 필요",
+        "지지선 400.64 이탈 시 추가 급락 리스크 존재"
+      ],
+      "raw_indicators": {
+        "rsi": 38.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.245,
+        "macd_cross": "none",
+        "volume_ratio": 0.26,
+        "trend": "downtrend",
+        "price_change_5d": 2.76,
+        "price_change_20d": -15.27,
+        "support": 400.64,
+        "resistance": 477.86,
+        "current_price": 415.2
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "① 20일 지지선(361.83) 확인 후 양봉 반등 + 거래량 1.0x 이상 회복 시 1차 진입, ② RSI 30 이하 터치 후 반등 + MACD 골든크로스 동시 발생 시 2차 추가 매수",
+      "stop_loss": "지지선 361.83 하향 이탈 시 손절 (약 -0.4%), 보수적 기준 355.00 이탈 시 (-2.2%)",
+      "target_price": "1차 목표 385.0 (+6.0%), 2차 목표 407.82(20일 저항선, +12.3%)",
+      "chart_summary": "볼린저밴드 하단(4.1%)에 근접하며 20일 지지선(361.83)을 시험 중인 하락 추세 구간. RSI 34.6으로 과매도 근접하나, 거래량 극도 부진(0.2x)과 MACD 크로스 부재로 반등 확인 신호가 아직 없음.",
+      "signals": [
+        "볼린저밴드 하단(4.1%) 극단적 근접 → 기술적 반등 가능 영역",
+        "RSI 34.6 → 과매도 진입 직전, 30 이하 터치 시 반등 확률 상승",
+        "20일 지지선(361.83)과 현재가(363.1) 거의 일치 → 지지 테스트 구간"
+      ],
+      "warnings": [
+        "거래량 0.2x로 극도로 부진 → 매수세 유입 전혀 없음, 바닥 확인 불가",
+        "MACD 크로스 없음 → 추세 전환 신호 미발생, 하락 지속 가능",
+        "명확한 하락 추세(5일 -4.7%, 20일 -10.0%) → 낙폭 확대 리스크",
+        "지지선(361.83) 이탈 시 추가 급락 가능 → 섣부른 저점 매수 위험",
+        "거래량 없는 지지선 터치는 '지지'가 아닌 '관통' 전조일 수 있음"
+      ],
+      "raw_indicators": {
+        "rsi": 34.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.041,
+        "macd_cross": "none",
+        "volume_ratio": 0.23,
+        "trend": "downtrend",
+        "price_change_5d": -4.66,
+        "price_change_20d": -9.97,
+        "support": 361.83,
+        "resistance": 407.82,
+        "current_price": 363.105
+      }
+    },
+    {
+      "ticker": "ALB",
+      "chart_score": 35,
+      "timing": "관망",
+      "entry_condition": "① 저항선(181.39) 돌파 시 거래량 1.5x 이상 수반 확인 후 눌림목 매수, 또는 ② 조정 후 165~170 구간에서 거래량 동반 반등 시 매수",
+      "stop_loss": "진입가 대비 -5% 또는 20일 지지선 156.7 이탈 시 손절",
+      "target_price": "저항 돌파 시 1차 목표 190~195 (+5~8%), 지지 반등 매수 시 목표 181 (저항 리테스트)",
+      "chart_summary": "5일간 +7.8% 급등하며 20일 저항선(181.39)에 바짝 근접했으나, 거래량이 20일 평균의 0.2배에 불과해 돌파 신뢰도가 매우 낮음. 볼린저밴드 상단(94.5%)에 위치해 단기 과열 구간으로, 거래량 없는 저항 테스트는 되돌림 가능성이 높은 전형적 패턴.",
+      "signals": [
+        "5일 등락률 +7.8%로 단기 모멘텀 존재",
+        "RSI 57.5로 아직 과매수 영역은 아님 (추가 상승 여력 존재)",
+        "횡보 추세에서 저항 테스트 → 돌파 시 추세 전환 가능성"
+      ],
+      "warnings": [
+        "거래량 0.2x: 20일 평균 대비 극히 낮아 매수세 부재 — 가장 큰 경고 신호",
+        "볼린저 94.5%: 상단 근접으로 단기 되돌림(평균회귀) 압력",
+        "MACD 크로스 없음: 추세 전환 확인 신호 부재",
+        "저항선 181.39 바로 앞에서 거래량 없이 멈춤 → 매물벽에 막힐 가능성 높음",
+        "지지(156.7)와 현재가 괴리 약 15% — 손절폭이 넓어 리스크/리워드 비율 불리"
+      ],
+      "raw_indicators": {
+        "rsi": 57.5,
+        "rsi_signal": "중립",
+        "bb_pct": 0.945,
+        "macd_cross": "none",
+        "volume_ratio": 0.21,
+        "trend": "sideways",
+        "price_change_5d": 7.79,
+        "price_change_20d": 1.61,
+        "support": 156.7,
+        "resistance": 181.39,
+        "current_price": 180.61
+      }
+    },
+    {
+      "ticker": "RIVN",
+      "chart_score": 30,
+      "timing": "관망",
+      "entry_condition": "14.70 지지선 확인 후 거래량 동반 반등 시 진입 (20일 평균 거래량 1.5x 이상 확인 필수). 또는 14.00~14.50 구간까지 추가 하락 시 분할 매수 고려",
+      "stop_loss": "14.00 이탈 시 손절 (현재가 대비 약 -4.8%)",
+      "target_price": "1차 목표 15.70 (+6.8%), 2차 목표 16.65 (20일 저항선, +13.2%)",
+      "chart_summary": "하락 추세 지속 중이며 현재가가 20일 지지선(14.705)에 정확히 걸쳐 있는 상태. 거래량이 20일 평균의 0.1배로 극도로 위축되어 있어 방향성 결정 전 관망이 필요한 구간.",
+      "signals": [
+        "20일 지지선(14.705) 도달 - 기술적 반등 가능 구간",
+        "볼린저밴드 하단(15.8%) 근접 - 과매도 영역 접근 중",
+        "RSI 43.6으로 아직 과매도(30) 도달 전이라 추가 하락 여력 존재하나 중립 하단 진입"
+      ],
+      "warnings": [
+        "명확한 하락 추세(downtrend) 지속 중 - 추세 전환 확인 전 역추세 매매 위험",
+        "거래량 0.1x로 극도로 부진 - 세력/기관 매집 신호 없음, 유동성 리스크",
+        "MACD 크로스 신호 없음(none) - 모멘텀 전환 근거 부재",
+        "5일 등락률 -6.8%로 단기 낙폭 확대 중 - 낙폭 과대 반등보다 추세적 하락 가능성 우위",
+        "지지선(14.705)이 현재가와 동일 - 이탈 시 다음 지지 구간까지 급락 위험"
+      ],
+      "raw_indicators": {
+        "rsi": 43.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.158,
+        "macd_cross": "none",
+        "volume_ratio": 0.13,
+        "trend": "downtrend",
+        "price_change_5d": -6.75,
+        "price_change_20d": -2.03,
+        "support": 14.705,
+        "resistance": 16.65,
+        "current_price": 14.705
+      }
+    },
+    {
+      "ticker": "QS",
+      "chart_score": 30,
+      "timing": "관망",
+      "entry_condition": "RSI 30 이하 진입 + 거래량 1.5x 이상 급증하며 양봉 출현 시 반등 매수 검토. 현재가(6.16) 지지 확인 후 볼린저 하단 복귀(밴드 안으로 재진입) 시 진입",
+      "stop_loss": "5.85 (현재가 대비 -5%). 지지선 6.16 하방 이탈 후 반등 실패 시 즉시 손절",
+      "target_price": "1차 목표 6.60 (+7%), 2차 목표 7.05 (20일 저항선, +14.4%)",
+      "chart_summary": "강한 하락추세 속 볼린저 하단 이탈(-12.3%)과 RSI 33.9로 과매도 근접 구간이나, 거래량이 20일 평균의 0.2배로 극도로 위축되어 반등 동력이 부재. 현재가가 20일 지지선과 동일한 6.16에 위치해 이탈 여부가 핵심 변곡점.",
+      "signals": [
+        "볼린저 하단 이탈로 기술적 과매도 구간 진입",
+        "RSI 33.9로 과매도(30) 근접 — 반등 가능성 잠재",
+        "현재가가 정확히 20일 지지선(6.16)에 위치하여 지지 테스트 중"
+      ],
+      "warnings": [
+        "거래량 0.2x로 극심한 거래 위축 — 매수세 유입 전혀 없음 (낙하하는 칼날 위험)",
+        "MACD 크로스 신호 없음 — 추세 반전 확인 불가",
+        "5일 -12.6% 급락 중으로 하락 모멘텀 강력",
+        "하락추세(downtrend) 지속 중이며 추세 전환 시그널 부재",
+        "지지선(6.16) 이탈 시 추가 하락 가속 가능성 높음"
+      ],
+      "raw_indicators": {
+        "rsi": 33.9,
+        "rsi_signal": "중립",
+        "bb_pct": -0.123,
+        "macd_cross": "none",
+        "volume_ratio": 0.22,
+        "trend": "downtrend",
+        "price_change_5d": -12.62,
+        "price_change_20d": -10.59,
+        "support": 6.1601,
+        "resistance": 7.05,
+        "current_price": 6.1601
+      }
+    },
+    {
+      "ticker": "CHPT",
+      "chart_score": 30,
+      "timing": "관망",
+      "entry_condition": "RSI 30 이상 반등 확인 + 거래량 20일 평균 1.5배 이상 수반 시 $4.6 지지 확인 후 진입. MACD 골든크로스 발생 시 추가 매수 고려.",
+      "stop_loss": "$4.30 (현재가 대비 -6.5%). 20일 지지선 $4.6 하향 이탈 후 종가 기준 확인.",
+      "target_price": "1차 $5.5 (+19.6%), 2차 $6.5 (20일 저항선, +41.3%)",
+      "chart_summary": "RSI 27.3 과매도 + 볼린저 하단(3.3%) 도달로 기술적 반등 구간이나, 거래량 0.3배로 매수세 극히 부진하고 MACD 반전 신호 없음. 20일간 -28.5% 급락 추세 속 $4.6 지지선 테스트 중으로, 반등 확인 없이 진입은 '떨어지는 칼날 잡기' 위험.",
+      "signals": [
+        "RSI 27.3 과매도 영역 진입 → 기술적 반등 가능성",
+        "볼린저밴드 하단(3.3%) 근접 → 평균 회귀 기대",
+        "현재가가 정확히 20일 지지선($4.6)에 위치 → 지지 반등 가능"
+      ],
+      "warnings": [
+        "거래량 0.3배로 매수세 실종 → 반등 동력 부족",
+        "MACD 크로스 신호 없음 → 추세 전환 미확인",
+        "강한 하락 추세(5일 -14%, 20일 -28.5%) → 추가 하락 가능성",
+        "지지선($4.6) 이탈 시 다음 지지 구간까지 낙폭 확대 우려",
+        "과매도 신호만으로는 바닥 확인 불가 → 거래량 동반 반등 필수 확인"
+      ],
+      "raw_indicators": {
+        "rsi": 27.3,
+        "rsi_signal": "과매도",
+        "bb_pct": 0.033,
+        "macd_cross": "none",
+        "volume_ratio": 0.27,
+        "trend": "downtrend",
+        "price_change_5d": -14.02,
+        "price_change_20d": -28.46,
+        "support": 4.6,
+        "resistance": 6.5,
+        "current_price": 4.6
+      }
+    },
+    {
+      "ticker": "PCRFY",
+      "chart_score": 50,
+      "timing": "관망",
+      "entry_condition": "데이터 부족",
+      "stop_loss": "-",
+      "target_price": "-",
+      "chart_summary": "차트 데이터 없음",
+      "signals": [],
+      "warnings": [
+        "OHLCV 데이터 수집 실패"
+      ],
+      "raw_indicators": {}
+    }
+  ]
+}

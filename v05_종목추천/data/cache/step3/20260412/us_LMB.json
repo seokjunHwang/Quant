@@ -1,0 +1,36 @@
+{
+  "ticker": "LMB",
+  "name": "Limbach Holdings",
+  "theme": "전력기기/에너지전환",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "2026년 가이던스 상향 (매출 $730M~$760M) 및 데이터센터 중심의 ODR 매출 비중 확대 (seekingalpha.com)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "본사를 플로리다주 탬파로 이전하고 5천만 달러 규모 헬스케어 인프라 수주 (wallstreetzen.com)",
+      "date": "2026-03",
+      "impact": "medium"
+    },
+    {
+      "type": "중립",
+      "content": "중동 매크로 리스크 완화에 따른 산업재 섹터 전반의 반등 수혜 (perplexity.ai)",
+      "date": "2026-04",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 실적 부진 우려",
+      "description": "직전 분기 매출 소폭 하회 및 1분기가 전통적인 비수기임에 따른 단기 모멘텀 부재",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "고마진 직접계약(ODR) 사업 비중을 높이며 체질을 개선 중입니다. 단기적으로는 지난 분기 매출 미스의 여파가 있으나 장기 데이터센터 수주는 견고합니다.",
+  "momentum": "neutral",
+  "analyst_view": "Buy (평균 목표주가 $116.67)",
+  "score_hint": 70
+}

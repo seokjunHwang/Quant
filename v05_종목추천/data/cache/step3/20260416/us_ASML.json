@@ -1,0 +1,24 @@
+{
+  "ticker": "ASML",
+  "name": "ASML",
+  "theme": "반도체 / AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "1분기 깜짝 실적(매출 88억 유로) 발표 및 2026년 연간 매출 가이던스 상향 (ASML)",
+      "date": "2026-04-15",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "지정학적 리스크",
+      "description": "미국의 '매치 액트(Match Act)' 등 추가적인 대중국 반도체 장비 수출 제한 우려",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "1분기 시장 예상치를 상회하는 호실적을 발표하고 AI 칩 제조 수요 확대에 따라 연간 전망을 상향했으나, 대중국 수출 규제 강화 가능성이 주가 변동성을 키우고 있습니다.",
+  "momentum": "neutral",
+  "analyst_view": "매수, 평균 목표주가 약 $1,480~$1,640 (ADR 기준)",
+  "score_hint": 78
+}

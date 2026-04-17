@@ -1,0 +1,41 @@
+{
+  "ticker": "PLPC",
+  "name": "Preformed Line Products",
+  "theme": "전력기기/에너지전환",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "전고점($316.40) 돌파 및 1년 동안 130% 주가 상승 (investing.com)",
+      "date": "2026-04-10",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "FulcrumAir와 전력선 로봇 설치 시스템 공동 개발 파트너십 체결 (investing.com)",
+      "date": "2026-04",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "52년 연속 분기 배당($0.21) 발표 및 4월 20일 지급 예정 (investing.com)",
+      "date": "2026-04",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 급등 리스크",
+      "description": "최근 1년간 130% 이상의 주가 급등으로 인한 단기 기술적 고평가 우려",
+      "severity": "medium"
+    },
+    {
+      "type": "마진 압박",
+      "description": "관세 및 재고 조정으로 인한 일부 순이익 압박 현상",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "최근 전력망 투자 확대로 전고점을 돌파하며 강한 모멘텀을 보이고 있습니다. 로봇 기술 파트너십과 52년 연속 배당 선언 등이 주요 호재로 작용했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy (목표주가 $275.00)",
+  "score_hint": 85
+}

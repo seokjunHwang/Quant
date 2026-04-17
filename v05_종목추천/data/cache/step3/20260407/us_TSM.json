@@ -1,0 +1,35 @@
+{
+  "ticker": "TSM",
+  "name": "Taiwan Semiconductor",
+  "theme": "반도체/AI",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "2026년 1월부터 2nm 칩 양산 개시 및 애플, 엔비디아 등 선주문 절반 이상 확보 (intellectia.ai)",
+      "date": "2026-01",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "2026년 CAPEX 520억~560억 달러로 대폭 상향 및 미국 애리조나 공장 확장 (tomshardware)",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수익성 리스크",
+      "description": "2nm 생산 초기 및 해외 공장 확장에 따른 2026년 매출총이익률 2~3% 희석 전망",
+      "severity": "medium"
+    },
+    {
+      "type": "지정학적 리스크",
+      "description": "중동 분쟁 및 새로운 관세 정책으로 인한 공급망 교란 우려",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "2nm 공정 양산 시작과 폭발적인 AI 수요 대응을 위한 자본 지출 대폭 확대로 성장 동력을 확보함.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy (목표주가 평균 $401.67 ~ $430.65)",
+  "score_hint": 90
+}

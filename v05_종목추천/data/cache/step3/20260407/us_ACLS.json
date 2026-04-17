@@ -1,0 +1,35 @@
+{
+  "ticker": "ACLS",
+  "name": "Axcelis Technologies",
+  "theme": "반도체/AI",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Veeco와의 합병 추진으로 AI 및 전동화 시장 내 입지 강화 기대 (Axcelis PR)",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "type": "중립",
+      "content": "David Ryzhik 임시 CFO 선임 등 리더십 전환 진행 (StocksToTrade)",
+      "date": "2026-03-24",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "거시경제 및 수요 혼재",
+      "description": "전력 및 일반 성숙 공정 시장의 혼재된 수요 환경과 유가 상승 등 거시경제적 압박",
+      "severity": "medium"
+    },
+    {
+      "type": "내부자 매도",
+      "description": "CEO의 10b5-1 계획에 따른 주식 일부 매도 진행",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "Veeco와의 합병 절차가 진행되며 AI 인프라 확장에 따른 시너지 기대감이 존재합니다. 다만 메모리 외 일부 시장의 수요 둔화 가능성으로 엇갈린 전망이 공존하고 있습니다.",
+  "momentum": "neutral",
+  "analyst_view": "컨센서스 매수 및 보유 혼재 / 평균 목표주가 $101.50 ~ $107.25",
+  "score_hint": 70
+}

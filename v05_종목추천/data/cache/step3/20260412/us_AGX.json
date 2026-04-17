@@ -1,0 +1,41 @@
+{
+  "ticker": "AGX",
+  "name": "Argan",
+  "theme": "전력기기/에너지전환",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "2026년 회계연도 사상 최대 매출($944.6M) 및 수주잔고 2배 증가($2.92B) 발표 (fintuitive.com)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "2억 달러 규모 자사주 매입 프로그램 확대 및 주당 $0.50 배당 선언 (marketscreener.com)",
+      "date": "2026-04",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "AI 데이터센터 인프라(Gemma Power Systems) 확장의 핵심 수혜주로 부각",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 고평가",
+      "description": "실적 발표 후 단일 34% 급등 등 주가가 대부분의 애널리스트 목표가를 상회함",
+      "severity": "medium"
+    },
+    {
+      "type": "내부자 매도",
+      "description": "주가 급등 이후 최근 고점에서 일부 내부자의 차익 실현 물량 출회",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "기록적인 실적과 29억 달러에 달하는 막대한 수주잔고를 통해 AI 데이터센터 전력망 수혜주로 급부상했습니다. 강력한 펀더멘탈로 자사주 매입을 확대하며 긍정적 흐름을 유지하고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "Moderate Buy (평균 목표주가 $425~$518)",
+  "score_hint": 88
+}

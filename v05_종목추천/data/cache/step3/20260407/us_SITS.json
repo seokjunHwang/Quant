@@ -1,0 +1,42 @@
+{
+  "ticker": "SITS",
+  "name": "SiTime",
+  "theme": "반도체/AI",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "지정학적 리스크 완화(미-이란 휴전 논의) 및 AI 인프라 수요 기대감으로 주가 약 5~6% 급등 (perplexity.ai)",
+      "date": "2026-04-07",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "S&P SmallCap 600에서 S&P MidCap 400 지수로 승격되어 패시브 및 기관 자금 유입 기대 (perplexity.ai)",
+      "date": "2026-03-31",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "르네사스(Renesas) 타이밍 사업부 15억 달러 규모 인수 발표로 향후 매출 확대 가속화 전망 (stockstotrade.com)",
+      "date": "2026-02",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "AI 및 데이터센터(CED) 수요 폭증으로 시장 예상치를 상회하는 분기 어닝 서프라이즈 달성 (investing.com)",
+      "date": "2026-02",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수급 변동성 리스크",
+      "description": "글로벌 대형 기관(블랙록, 뱅가드 등) 보유 비중이 약 85~86%로 매우 높아, 이들의 포트폴리오 비중 조절 시 단기 주가 등락이 매우 클 수 있음",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "최근 S&P MidCap 400 지수 편입 및 AI 인프라 확장에 따른 호실적 발표로 시장의 강력한 매수세가 유입되고 있습니다. 4월 7일에는 지정학적 긴장 완화 소식과 맞물려 주가가 단기 급등하며 AI 및 반도체 섹터 내 주도주로서의 긍정적 모멘텀을 확고히 하고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수(Moderate Buy) ~ 강력 매수(Strong Buy), 평균 목표주가 약 $409~$452 수준",
+  "score_hint": 85
+}

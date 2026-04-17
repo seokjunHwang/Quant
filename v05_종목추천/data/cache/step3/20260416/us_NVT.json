@@ -1,0 +1,30 @@
+{
+  "ticker": "NVT",
+  "name": "nVent Electric",
+  "theme": "전력기기 / AI 데이터센터 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "AI 데이터센터용 수냉식 쿨링 솔루션 수요 급증 및 미네소타 신규 공장 가동",
+      "date": "2026-04-13",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "Evercore ISI 등 주요 투자은행의 목표주가 상향 릴레이 (최고 160달러)",
+      "date": "2026-04-13",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "고평가 리스크",
+      "description": "P/E 비율이 약 30배로 과거 평균 대비 높은 프리미엄 상태여서 단기 차익 실현 매물 출회 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "AI 데이터센터 및 전력 인프라 수요 확대에 힘입어 수냉식 냉각 솔루션 매출이 크게 부각되고 있으며, 애널리스트들의 공격적인 목표주가 상향 속에 52주 신고가 부근에서 강한 상승세를 이어가고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "강력 매수 (목표주가 평균 144달러, 최고 160달러)",
+  "score_hint": 90
+}

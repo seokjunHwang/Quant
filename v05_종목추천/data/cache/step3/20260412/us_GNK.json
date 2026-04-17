@@ -1,0 +1,30 @@
+{
+  "ticker": "GNK",
+  "name": "Genco Shipping",
+  "theme": "조선/해운",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Diana Shipping의 주당 $23.50 적대적 인수합병(M&A) 시도 거절 및 경영권 방어 웹사이트 개설 (Seeking Alpha)",
+      "date": "2026-04-12",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "분기 배당금을 주당 $0.50으로 대폭 인상 및 1분기 운임(TCE) 강세 가이던스 (MarketBeat)",
+      "date": "2026-04-12",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수급 리스크",
+      "description": "CFO를 포함한 내부자들의 주식 매도 움직임 포착",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "경쟁사 Diana Shipping의 적대적 인수합병 시도를 기업가치 훼손이라며 거절하고 방어에 나섰습니다. 분기 배당금 인상과 1분기 운임(TCE) 강세가 겹쳐 시장의 주목을 받고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "투자의견 Moderate Buy, 평균 목표주가 $21.00 ~ $30.00",
+  "score_hint": 85
+}

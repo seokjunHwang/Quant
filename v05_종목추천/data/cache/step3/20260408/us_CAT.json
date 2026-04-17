@@ -1,0 +1,30 @@
+{
+  "ticker": "CAT",
+  "name": "Caterpillar",
+  "theme": "중동 재건/플랜트 건설",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "512억 달러 규모의 기록적인 수주잔고 및 데이터센터 전력 인프라 수요 기대감 (출처: TradingKey)",
+      "date": "2026-04-08",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "Wolfe Research 및 Barclays 등 주요 IB 목표가 상향 (출처: MarketBeat)",
+      "date": "2026-03-31",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "정책/관세 리스크",
+      "description": "2026년 26억 달러 규모의 관세 타격 예상 (1분기에만 8억 달러 마진 압박 우려)",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "데이터센터발 전력망 인프라 수요와 사상 최대 수주잔고로 성장성이 부각되지만, 대규모 관세 부과로 인한 단기적인 마진 악화 우려가 혼재함.",
+  "momentum": "bullish",
+  "analyst_view": "Moderate Buy (목표가 $737.55)",
+  "score_hint": 75
+}

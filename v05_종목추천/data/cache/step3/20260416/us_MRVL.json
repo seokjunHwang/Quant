@@ -1,0 +1,36 @@
+{
+  "ticker": "MRVL",
+  "name": "마벨테크놀로지",
+  "theme": "반도체 / AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "엔비디아(NVIDIA) 20억 달러 전략적 투자 단행 및 AI 생태계 통합",
+      "date": "2026-04 초",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "구글 차세대 TPU 및 LLM 추론 칩 설계 협력설 부각",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "오펜하이머, 바클레이즈 등 목표주가 $150~$170 대폭 상향",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 과열 리스크",
+      "description": "4월 들어 주가가 20% 이상 급등하며 단기 밸류에이션 부담 가중",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "엔비디아의 대규모 투자와 구글 협력설 등 대형 호재가 연이어 터지며 주가가 폭등했습니다. 맞춤형 ASIC 및 광통신 시장의 핵심 수혜주로 확실히 자리잡았습니다.",
+  "momentum": "bullish",
+  "analyst_view": "적극 매수(Strong Buy) 우세, 다수 기관 목표주가 $150~$170 선으로 상향 조정",
+  "score_hint": 95
+}

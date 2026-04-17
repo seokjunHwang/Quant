@@ -1,0 +1,30 @@
+{
+  "ticker": "AEHR",
+  "name": "Aehr Test Systems",
+  "theme": "반도체/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "AI 데이터센터용 실리콘 포토닉스 신규 주요 고객사 확보 및 분기 수주잔고 $50.9M 기록 (Investing)",
+      "date": "2026-03~04",
+      "impact": "high"
+    },
+    {
+      "type": "중립",
+      "content": "Q3 2026 실적 발표, EPS -$0.05로 컨센서스 상회했으나 매출은 약간 하회 (MarketBeat)",
+      "date": "2026-04-07",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "지분 희석 및 내부자 매도",
+      "description": "올해 200% 주가 급등에 따른 밸류에이션 부담, 최근 내부자 대량 매도 및 6천만 달러 규모 유상증자 발표",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "AI 및 데이터센터용 실리콘 포토닉스 테스트 장비 수요 폭증으로 신규 고객을 확보하며 올해 주가가 200% 급등했습니다. 4월 7일 실적 발표에서 기록적인 수주잔고를 공개했으나, 유상증자 이슈로 단기 변동성 리스크가 부각되고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수(Buy) / 평균 목표주가 $68.00 내외로 상향 조정 중",
+  "score_hint": 75
+}

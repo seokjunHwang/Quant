@@ -1,0 +1,30 @@
+{
+  "ticker": "ACA",
+  "name": "Arcosa",
+  "theme": "중동 재건/플랜트 건설",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "비핵심 사업(내륙 바지선) 매각 및 골재 사업 인수를 통한 고마진 건설 자재 사업 집중 (Perplexity)",
+      "date": "2026-02-26",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "지정학적 긴장 완화 소식에 따른 산업재 섹터 투자 심리 개선 (Perplexity)",
+      "date": "2026-03-31",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "거시 경제",
+      "description": "유가 변동성 및 지정학적 긴장에 따른 산업 섹터 전반의 역풍 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "최근 4억 5천만 달러 규모의 바지선 사업 매각과 골재 사업 인수를 발표하며 건설/인프라 부문으로 사업 구조를 성공적으로 재편하고 있습니다. 주요 기관 투자자들의 높은 지분율(약 91%)을 유지하며 장기적인 성장이 기대됩니다.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy (평균 목표주가: $120.00~$127.83, 최고 $135.00)",
+  "score_hint": 80
+}

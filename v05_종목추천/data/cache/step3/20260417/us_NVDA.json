@@ -1,0 +1,35 @@
+{
+  "ticker": "NVDA",
+  "name": "NVIDIA",
+  "theme": "AI 인프라 / 반도체",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "2026 회계연도 4분기 어닝 서프라이즈 발표 및 2027 회계연도 1분기 780억 달러 매출 가이던스 제시 (daum.net)",
+      "date": "2026-02-25",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "메타 등 대형 클라우드 사업자들의 블랙웰(Blackwell) 및 차세대 루빈(Rubin) GPU 대규모 도입 지속 (247wallst.com)",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "규제 리스크",
+      "description": "중국향 첨단 반도체 수출 규제 지속 가능성",
+      "severity": "medium"
+    },
+    {
+      "type": "거시 경제",
+      "description": "AI 인프라 투자 과잉(Over-investment)에 대한 시장 일각의 우려",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "블랙웰 플랫폼의 본격적인 출하와 빅테크 기업들의 강력한 AI 인프라 투자 지속으로 압도적인 실적 성장세를 이어가고 있습니다. 5월로 예정된 실적 발표에 대한 월가의 기대감이 매우 높으며 대규모 자사주 매입 등 주주 환원 정책도 긍정적입니다.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표주가 $273.57 ~ $275.25 (최고 $400.00), 90% 이상 매수(Buy) 의견",
+  "score_hint": 95
+}

@@ -1,0 +1,35 @@
+{
+  "ticker": "NVDA",
+  "name": "NVIDIA",
+  "theme": "반도체/HBM·AI메모리",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "데이터센터 부문 매출 75% 급증 등 기록적인 2026 회계연도 실적 달성 (MarketBeat)",
+      "date": "2026-02-25",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "차세대 Rubin GPU 아키텍처 출시 기대감 및 AI 추론 시장 확대 (Chronicle Journal)",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "내부자 매도",
+      "description": "최근 90일간 경영진(CFO 등)의 대규모 지분 매각(약 2억 9,200만 달러 규모) 포착",
+      "severity": "medium"
+    },
+    {
+      "type": "거시 경제",
+      "description": "금리 인하 지연 및 중동발 지정학적 리스크로 인한 단기 주가 횡보",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "AI 인프라 시장 지배력을 유지하며 기록적인 실적을 냈으나, 경영진의 대규모 주식 매각과 거시경제 불안 요소로 인해 최근 주가는 박스권에서 횡보하는 모습을 보이고 있습니다.",
+  "momentum": "neutral",
+  "analyst_view": "Strong Buy (평균 목표주가: $268.00~$275.00, 최고 $325.00)",
+  "score_hint": 85
+}

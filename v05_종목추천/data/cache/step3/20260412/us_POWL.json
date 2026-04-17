@@ -1,0 +1,36 @@
+{
+  "ticker": "POWL",
+  "name": "Powell Industries",
+  "theme": "전력기기/에너지전환",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Zacks Research에서 투자 의견을 '강력 매수(Strong Buy)'로 상향 조정 (National Today)",
+      "date": "2026-04-09",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "1분기 EPS $1.13로 컨센서스 대폭 상회 및 현금 배당금 인상 발표 (MarketBeat)",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "주주 가치 제고 및 유동성 확대를 위한 3대1 주식 분할 단행 (GCS Web)",
+      "date": "2026-03-06",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "고평가 논란",
+      "description": "역대급 실적으로 주가가 크게 오르며 산업재 섹터 평균 대비 PEG 등 밸류에이션 멀티플이 높아진 상태",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "데이터센터 전력 및 LNG 인프라 수요 급증으로 어닝 서프라이즈를 달성하고 배당금을 인상했습니다. 최근 3대1 주식 분할과 증권사의 강력 매수 등급 상향에 힘입어 4월 초 52주 신고가를 경신하며 고성장세를 이어가고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "강력매수(Strong Buy) / 최근 목표주가 $450~$481로 대폭 상향 중",
+  "score_hint": 90
+}

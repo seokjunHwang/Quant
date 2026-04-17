@@ -1,0 +1,813 @@
+/* ── Globe Map Page ──────────────────────────────── */
+
+/* ── Category Filter Bar ────────────────────────── */
+.globe-category-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.4rem 0.5rem;
+  margin-bottom: 0.4rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.cat-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+  opacity: 0.45;
+}
+.cat-btn.active {
+  opacity: 1;
+  color: var(--text-primary);
+  border-color: var(--text-muted);
+}
+.cat-btn:hover { border-color: var(--text-secondary); }
+.cat-btn[data-cat="all"].active { background: rgba(255,255,255,0.08); }
+.cat-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.cat-separator {
+  width: 1px;
+  height: 18px;
+  background: var(--border);
+  flex-shrink: 0;
+  margin: 0 0.25rem;
+}
+
+/* ── Country Labels (custom English) ────────────── */
+.country-label-marker {
+  background: none !important;
+  border: none !important;
+}
+.country-label-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.55rem;
+  font-weight: 500;
+  color: rgba(148, 163, 184, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  pointer-events: none;
+  text-shadow: 0 0 4px rgba(0,0,0,0.8);
+}
+
+/* ── Layout: 두 자식이 독립된 형제 컨테이너 (flex + gap 으로 물리적 분리) ── */
+.globe-layout {
+  display: flex;
+  align-items: stretch;
+  gap: 0.75rem;                              /* 둘 사이 빈 공간 = 격리 */
+  height: calc(100vh - 180px);
+  min-height: 500px;
+  background: transparent;
+  border: none;                              /* 외곽 보더 제거: 각 자식이 자기 보더 가짐 */
+  border-radius: 0;
+  overflow: visible;
+}
+@media (max-width: 768px) {
+  .globe-layout {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+/* ── Map: 폭 75% (4분의 3), 독립 컨테이너 ── */
+.globe-map-wrap {
+  flex: 3 1 0;                               /* 3/4 비율 */
+  min-width: 0;                              /* flex item 내부 overflow 작동 */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;                          /* 마커/라벨/팝업이 절대 밖으로 못 나감 */
+  background: var(--bg-primary);
+  isolation: isolate;                        /* leaflet stacking context 격리 */
+}
+.globe-map {
+  flex: 1 1 auto;
+  min-height: 0;                /* flex item 내부에서 leaflet 이 자기 높이 잡도록 */
+  width: 100%;
+  background: #0a0a0f;
+}
+.globe-map .leaflet-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+.globe-map .leaflet-container {
+  background: #0a0a0f;
+}
+/* Hide Leaflet attribution */
+.leaflet-control-attribution { display: none !important; }
+.leaflet-control-zoom {
+  border: 1px solid var(--border) !important;
+}
+.leaflet-control-zoom a {
+  background: var(--bg-card) !important;
+  color: var(--text-secondary) !important;
+  border-color: var(--border) !important;
+}
+.leaflet-control-zoom a:hover {
+  background: var(--bg-secondary) !important;
+}
+
+/* ── Event Markers ──────────────────────────────── */
+/* ── Category SVG icon markers ─────────────────── */
+.event-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--cat-color, #3b82f6);
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.6), 0 2px 8px rgba(0,0,0,0.5);
+}
+.event-icon svg {
+  width: 60%;
+  height: 60%;
+  display: block;
+}
+.event-icon:hover {
+  transform: scale(1.2);
+  z-index: 1000 !important;
+}
+.event-icon.sev-critical { width: 32px; height: 32px; }
+.event-icon.sev-high     { width: 28px; height: 28px; }
+.event-icon.sev-medium   { width: 24px; height: 24px; }
+.event-icon.sev-low      { width: 20px; height: 20px; }
+.event-icon.pulse {
+  animation: marker-pulse 2s ease-in-out infinite;
+}
+
+@keyframes marker-pulse {
+  0%, 100% { box-shadow: 0 0 0 2px rgba(0,0,0,0.6), 0 0 4px rgba(239,68,68,0.4); }
+  50%      { box-shadow: 0 0 0 2px rgba(0,0,0,0.6), 0 0 16px rgba(239,68,68,0.85), 0 0 32px rgba(239,68,68,0.35); }
+}
+
+/* Marker label */
+.marker-label {
+  position: absolute;
+  top: 100%;                          /* 아이콘 아래에 배치 (아이콘이 커졌으니) */
+  left: 50%;
+  margin-top: 4px;
+  transform: translateX(-50%);
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  background: rgba(0,0,0,0.78);
+  padding: 1px 5px;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+/* leaflet 자체는 contain 없이 정상 렌더 — 격리는 부모 globe-map-wrap 의 overflow:hidden 으로 충분 */
+
+/* Marker popup */
+.event-popup .leaflet-popup-content-wrapper {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  color: var(--text-primary);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+.event-popup .leaflet-popup-tip {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+}
+.popup-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.popup-summary {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-bottom: 0.375rem;
+}
+.popup-sectors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.popup-sector-tag {
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.2rem;
+}
+.popup-sector-tag.bullish { background: rgba(34,197,94,0.15); color: var(--green); }
+.popup-sector-tag.bearish { background: rgba(239,68,68,0.15); color: var(--red); }
+.popup-tickers {
+  font-size: 0.65rem;
+  color: var(--accent);
+}
+
+/* upcoming popup scenarios */
+.popup-scenarios {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.popup-scenario {
+  font-size: 0.65rem;
+  background: rgba(148,163,184,0.08);
+  border-left: 2px solid var(--accent);
+  padding: 0.3rem 0.4rem;
+  border-radius: 0.2rem;
+  line-height: 1.35;
+}
+.popup-scenario-name { font-weight: 700; color: var(--text-primary); }
+.popup-scenario-prob { color: var(--accent); font-weight: 600; }
+.popup-scenario-impact { color: var(--text-secondary); font-size: 0.62rem; }
+
+/* ── Connection Lines ───────────────────────────── */
+.connection-line {
+  stroke-dasharray: 6 4;
+  stroke-linecap: round;
+}
+.connection-line.attack { stroke: var(--red); stroke-width: 2; }
+.connection-line.trade { stroke: var(--yellow); stroke-width: 1.5; }
+.connection-line.impact { stroke: var(--accent); stroke-width: 1; stroke-dasharray: 4 6; }
+.connection-line.alliance { stroke: var(--green); stroke-width: 1; }
+
+/* ── Shockwave (for economic events) ────────────── */
+@keyframes shockwave {
+  0% { r: 8; opacity: 0.5; }
+  100% { r: 60; opacity: 0; }
+}
+.shockwave-ring {
+  fill: none;
+  stroke-width: 1.5;
+}
+.shockwave-ring.fed { stroke: var(--accent); }
+.shockwave-ring.economic { stroke: var(--yellow); }
+.shockwave-ring.market { stroke: #a855f7; }
+
+/* ── Timeline Bar (top) ────────────────────────── */
+.globe-timeline {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border-radius: 0.375rem;
+  transition: background 0.15s;
+  flex-shrink: 0;
+}
+.timeline-item:hover { background: rgba(59,130,246,0.08); }
+.timeline-item.active { background: rgba(59,130,246,0.12); }
+.timeline-dday {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+}
+.timeline-dday.today { color: var(--red); }
+.timeline-dday.soon { color: var(--yellow); }
+.timeline-dday.later { color: var(--text-muted); }
+.timeline-name {
+  font-size: 0.6rem;
+  color: var(--text-secondary);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 72px;
+}
+.timeline-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  margin-top: 0.125rem;
+}
+.timeline-dot.high { background: var(--red); }
+.timeline-dot.medium { background: var(--yellow); }
+.timeline-dot.low { background: var(--text-muted); }
+.timeline-connector {
+  width: 16px;
+  height: 1px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+/* ── Sector Impact Bar (bottom of map) — 마키 흐름 ──────────── */
+.globe-sectors {
+  position: relative;
+  padding: 0.5rem 0;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+}
+.globe-sectors-track {
+  display: inline-flex;
+  gap: 1.25rem;
+  white-space: nowrap;
+  /* 동일 콘텐츠 2벌을 잇고 -50% 이동 → 끊김 없이 무한 루프 */
+  animation: sector-marquee 60s linear infinite;
+  will-change: transform;
+}
+.globe-sectors-track > .sector-impact-item:first-child {
+  margin-left: 1.25rem;        /* 최초 등장 시 살짝 여백 */
+}
+.globe-sectors:hover .globe-sectors-track {
+  animation-play-state: paused;
+}
+@keyframes sector-marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.sector-impact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  flex-shrink: 0;
+}
+.sector-impact-name {
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+.sector-impact-bar {
+  width: 40px;
+  height: 5px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.sector-impact-fill {
+  height: 100%;
+  border-radius: 3px;
+}
+.sector-impact-fill.bullish { background: var(--green); }
+.sector-impact-fill.bearish { background: var(--red); }
+.sector-impact-fill.neutral { background: var(--text-muted); }
+.sector-impact-pct {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+/* ── Side Panel: 폭 25% (4분의 1), 독립 컨테이너 ── */
+.globe-panel {
+  flex: 1 1 0;                               /* 1/4 비율 */
+  min-width: 260px;                          /* 너무 좁아지지 않도록 */
+  max-width: 420px;                          /* 너무 넓어지지도 않도록 */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  position: relative;
+  z-index: 1;                                /* 같은 형제니까 자기 영역에서만 그려짐 */
+  isolation: isolate;
+}
+@media (max-width: 768px) {
+  .globe-panel {
+    max-width: 100%;
+    max-height: 400px;
+  }
+}
+.globe-panel-header {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.globe-panel-tabs {
+  display: flex;
+  gap: 0.25rem;
+}
+.globe-filter {
+  font-size: 0.65rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.globe-filter:hover { color: var(--text-secondary); }
+.globe-filter.active { background: var(--accent); color: #fff; }
+
+.globe-events-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* ── Event Card (side panel) ────────────────────── */
+.globe-event-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 0.625rem 0.75rem;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.globe-event-card:hover { border-color: var(--accent); }
+.globe-event-card.active { border-color: var(--accent); background: rgba(59,130,246,0.05); }
+
+.gev-header {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  margin-bottom: 0.25rem;
+}
+.gev-severity {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.gev-severity.critical { background: var(--red); animation: marker-pulse 2s infinite; }
+.gev-severity.high { background: #f97316; }
+.gev-severity.medium { background: var(--yellow); }
+.gev-severity.low { background: var(--accent); }
+.gev-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.gev-status {
+  font-size: 0.55rem;
+  font-weight: 700;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+.gev-status.live { background: rgba(239,68,68,0.2); color: var(--red); }
+.gev-status.happened { background: rgba(148,163,184,0.15); color: var(--text-muted); }
+.gev-status.developing { background: rgba(234,179,8,0.15); color: var(--yellow); }
+.gev-status.upcoming { background: rgba(59,130,246,0.15); color: var(--accent); }
+
+.gev-time {
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  margin-bottom: 0.375rem;
+}
+.gev-summary {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-bottom: 0.375rem;
+}
+.gev-sectors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.gev-tickers {
+  font-size: 0.65rem;
+  color: var(--accent);
+  font-family: 'JetBrains Mono', monospace;
+}
+.gev-chain {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+  border-top: 1px solid var(--border);
+}
+
+/* ── Upcoming Card (different style) ───────────── */
+.globe-event-card.upcoming-card {
+  border-left: 3px solid var(--accent);
+}
+.gev-scenarios {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-top: 0.25rem;
+  font-size: 0.65rem;
+}
+.gev-scenario {
+  display: flex;
+  gap: 0.375rem;
+  color: var(--text-secondary);
+}
+.gev-scenario-name {
+  color: var(--text-primary);
+  font-weight: 600;
+  min-width: 50px;
+}
+
+/* ── Bottom Section ─────────────────────────────── */
+.globe-bottom {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.globe-bottom-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.globe-bottom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Heatmap */
+.heatmap-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.heatmap-tabs {
+  display: flex;
+  gap: 0.25rem;
+}
+.heatmap-tab {
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.heatmap-tab:hover { color: var(--text-secondary); }
+.heatmap-tab.active { background: var(--accent); color: #fff; }
+
+.heatmap-size-btns {
+  display: flex;
+  gap: 0.15rem;
+}
+.hm-size-btn {
+  font-size: 0.6rem;
+  font-weight: 700;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2rem;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: 'JetBrains Mono', monospace;
+}
+.hm-size-btn:hover { color: var(--text-secondary); border-color: var(--text-muted); }
+.hm-size-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+.heatmap-main {
+  overflow: hidden;
+}
+.heatmap-main[data-size="small"] { height: 280px; }
+.heatmap-main[data-size="medium"] { height: 380px; }
+.heatmap-main[data-size="large"] { height: 520px; }
+
+/* Heatmap sidebar (sector list) */
+.heatmap-sidebar {
+  border-left: 1px solid var(--border);
+  overflow-y: auto;
+  background: var(--bg-primary);
+}
+.hm-sidebar-title {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  padding: 0.5rem 0.625rem 0.25rem;
+}
+.hm-sector-list {
+  display: flex;
+  flex-direction: column;
+}
+.hm-sector-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.35rem 0.625rem;
+  cursor: pointer;
+  transition: background 0.15s;
+  border-left: 2px solid transparent;
+}
+.hm-sector-item:hover { background: rgba(59,130,246,0.05); }
+.hm-sector-item.active {
+  background: rgba(59,130,246,0.1);
+  border-left-color: var(--accent);
+}
+.hm-sector-name {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.hm-sector-en {
+  font-size: 0.55rem;
+  color: var(--text-muted);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Bottom grid (3 columns) */
+.globe-bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.75rem;
+}
+@media (max-width: 1024px) {
+  .globe-bottom-grid { grid-template-columns: 1fr; }
+}
+
+.globe-bottom-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 360px;
+  overflow: hidden;
+}
+.globe-bottom-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.gbc-title {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+.gbc-tabs {
+  display: flex;
+  gap: 0.2rem;
+}
+.gbc-tab {
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.2rem;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.gbc-tab.active { background: var(--accent); color: #fff; }
+.gbc-empty {
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+}
+
+/* News list */
+.globe-news-list,
+.globe-disaster-list,
+.globe-timeline-list {
+  overflow-y: auto;
+  flex: 1;
+}
+
+.gnews-item {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  cursor: default;
+}
+.gnews-item:last-child { border-bottom: none; }
+.gnews-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+  margin-bottom: 0.125rem;
+}
+.gnews-meta {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+}
+.gnews-sector-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  margin-top: 0.25rem;
+}
+
+/* Disaster item */
+.gdisaster-item {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+.gdisaster-item:last-child { border-bottom: none; }
+.gdisaster-severity {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+.gdisaster-content {
+  flex: 1;
+}
+.gdisaster-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+.gdisaster-meta {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+}
+
+/* Timeline item */
+.gtl-item {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+.gtl-item:last-child { border-bottom: none; }
+.gtl-dday {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  min-width: 32px;
+  flex-shrink: 0;
+}
+.gtl-dday.high { color: var(--red); }
+.gtl-dday.medium { color: var(--yellow); }
+.gtl-dday.low { color: var(--text-muted); }
+.gtl-content { flex: 1; }
+.gtl-event {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+.gtl-meta {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+}
+
+/* ── Minor label opacity ────────────────────────── */
+.minor-label .country-label-text {
+  opacity: 0.35;
+  font-size: 0.5rem;
+}

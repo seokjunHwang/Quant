@@ -1,0 +1,30 @@
+{
+  "ticker": "DAL",
+  "name": "Delta Air Lines",
+  "theme": "항공·운송 (유가 하락 수혜)",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "수익성 강화를 위해 위탁 수하물 수수료 인상 단행 (Simple Flying)",
+      "date": "2026-04-08",
+      "impact": "medium"
+    },
+    {
+      "type": "중립",
+      "content": "강력한 여행 수요 기반 26년 1분기 실적 발표 (TastyLive)",
+      "date": "2026-04-08",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "유가 상승",
+      "description": "중동 불안으로 인한 글로벌 제트유 가격 상승 리스크 (단, 자체 정유소로 타사 대비 방어력 보유)",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "4월 8일 1분기 호실적 발표를 앞두고 수하물 수수료 인상을 단행했습니다. 중동발 유가 상승 우려가 존재하지만, 델타 특유의 자체 정유 시설이 이를 훌륭히 방어할 것으로 기대됩니다.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy / 평균 목표주가 $78.84",
+  "score_hint": 80
+}

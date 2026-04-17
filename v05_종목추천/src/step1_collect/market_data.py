@@ -15,6 +15,90 @@ import yfinance as yf
 logger = logging.getLogger(__name__)
 
 
+def _last_trading_date() -> str:
+    """가장 최근 거래일 (주말이면 금요일로)."""
+    dt = now_kst()
+    while dt.weekday() >= 5:  # 5=토, 6=일
+        dt -= timedelta(days=1)
+    return dt.strftime("%Y%m%d")
+
+
+# ── KR 시총 캐시 (종목마다 KRX 호출 방지) ──────────────────────
+_kr_cap_cache: pd.DataFrame | None = None
+_kr_cap_date: str = ""
+_kr_cap_tried: str = ""  # 이 거래일에 대해 벌크 조회를 이미 시도했는지
+
+
+def _get_kr_market_cap() -> pd.DataFrame:
+    """
+    KR 전체 시총 DataFrame — 1회 호출 후 캐시.
+    데이터 없으면 최대 5일 전까지 시도하고, 실패해도 같은 세션에서 재시도하지 않음
+    (종목 수만큼 retry 폭주 방지).
+    """
+    global _kr_cap_cache, _kr_cap_date, _kr_cap_tried
+    trade_date = _last_trading_date()
+    if _kr_cap_tried == trade_date:
+        return _kr_cap_cache if _kr_cap_cache is not None else pd.DataFrame()
+
+    from pykrx import stock
+    dt = now_kst()
+    for _ in range(5):
+        while dt.weekday() >= 5:
+            dt -= timedelta(days=1)
+        try_date = dt.strftime("%Y%m%d")
+        try:
+            df = stock.get_market_cap_by_ticker(try_date, market="ALL")
+            if not df.empty and "시가총액" in df.columns:
+                _kr_cap_cache = df
+                _kr_cap_date = trade_date
+                _kr_cap_tried = trade_date
+                logger.info(f"KR market cap loaded ({try_date}, {len(df)} stocks)")
+                return df
+        except Exception:
+            pass
+        dt -= timedelta(days=1)
+
+    # 벌크 실패: 네거티브 캐시 기록 → fetch_stock_info가 yfinance fallback으로 전환
+    _kr_cap_tried = trade_date
+    _kr_cap_cache = None
+    logger.warning("KR market cap 벌크 조회 실패 — 종목별 yfinance fallback 사용")
+    return pd.DataFrame()
+
+
+# ── KR 시총 fallback: yfinance (.KS / .KQ) ─────────────────────
+_kr_yf_cache: dict[str, dict] = {}
+
+
+def _fetch_kr_info_yf(ticker: str) -> dict:
+    """
+    pykrx 벌크 실패 시 단일 종목 시총/가격을 yfinance로 조회.
+    KOSPI는 .KS, KOSDAQ은 .KQ suffix. 어느 쪽인지 모르면 둘 다 시도.
+    """
+    if ticker in _kr_yf_cache:
+        return _kr_yf_cache[ticker]
+
+    result: dict = {}
+    for suffix in (".KS", ".KQ"):
+        try:
+            t = yf.Ticker(f"{ticker}{suffix}")
+            fi = t.fast_info
+            mc = getattr(fi, "market_cap", 0) or 0
+            price = getattr(fi, "last_price", 0) or 0
+            vol = getattr(fi, "three_month_average_volume", 0) or 0
+            if mc > 0 or price > 0:
+                result = {
+                    "market_cap": int(mc),
+                    "current_price": int(price),
+                    "avg_volume": int(vol),
+                }
+                break
+        except Exception:
+            continue
+
+    _kr_yf_cache[ticker] = result
+    return result
+
+
 # ── 매크로 지표 ──────────────────────────────────────────────
 
 MACRO_TICKERS = {
@@ -91,7 +175,7 @@ def get_kr_universe() -> pd.DataFrame:
     try:
         from pykrx import stock
 
-        today = now_kst().strftime("%Y%m%d")
+        today = _last_trading_date()
 
         rows = []
         for market in ["KOSPI", "KOSDAQ"]:
@@ -118,12 +202,29 @@ def fetch_ohlcv(ticker: str, days: int = 90, market: str = "us") -> pd.DataFrame
     try:
         if market == "kr":
             from pykrx import stock
-            end = now_kst().strftime("%Y%m%d")
+            end = _last_trading_date()
             start = (now_kst() - timedelta(days=days)).strftime("%Y%m%d")
             df = stock.get_market_ohlcv_by_date(start, end, ticker)
-            df.columns = ["open", "high", "low", "close", "volume", "trading_value", "price_change", "change_pct"]
+            if df.empty:
+                return None
+            # pykrx 칼럼 수가 버전마다 다름 — 이름 기반으로 매핑
+            col_map = {}
+            for col in df.columns:
+                cl = str(col).lower()
+                if "시가" in cl:
+                    col_map[col] = "open"
+                elif "고가" in cl:
+                    col_map[col] = "high"
+                elif "저가" in cl:
+                    col_map[col] = "low"
+                elif "종가" in cl:
+                    col_map[col] = "close"
+                elif "거래량" in cl:
+                    col_map[col] = "volume"
+            df = df.rename(columns=col_map)
             df.index = pd.to_datetime(df.index)
-            return df[["open", "high", "low", "close", "volume"]]
+            need = [c for c in ["open", "high", "low", "close", "volume"] if c in df.columns]
+            return df[need] if need else None
         else:
             t = yf.Ticker(ticker)
             df = t.history(period=f"{days}d", interval="1d")
@@ -148,10 +249,8 @@ def fetch_stock_info(ticker: str, market: str = "us") -> dict:
                 "avg_volume": getattr(info, "three_month_average_volume", 0) or 0,
             }
         else:
-            from pykrx import stock
-            today = now_kst().strftime("%Y%m%d")
-            df = stock.get_market_cap_by_ticker(today, market="ALL")
-            if ticker in df.index:
+            df = _get_kr_market_cap()
+            if not df.empty and ticker in df.index:
                 row = df.loc[ticker]
                 return {
                     "ticker": ticker,
@@ -159,6 +258,10 @@ def fetch_stock_info(ticker: str, market: str = "us") -> dict:
                     "current_price": int(row.get("종가", 0)),
                     "avg_volume": int(row.get("거래량", 0)),
                 }
+            # pykrx 벌크 실패 or 티커 미존재 → yfinance fallback
+            fb = _fetch_kr_info_yf(ticker)
+            if fb:
+                return {"ticker": ticker, **fb}
     except Exception as e:
         logger.warning(f"Stock info [{ticker}] failed: {e}")
     return {"ticker": ticker, "market_cap": 0, "current_price": 0, "avg_volume": 0}

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% from "_macros.html" import change_badge, vix_zone %}
+
+{% block title %}매크로 대시보드 — {{ site_name }}{% endblock %}
+{% block description %}VIX·금리·환율·원자재 등 주요 매크로 지표 한눈에. 매일 갱신.{% endblock %}
+
+{% block content %}
+  <section class="hero">
+    <p class="kicker">{{ day.date_label }}</p>
+    <h1>매크로 대시보드</h1>
+    <p class="lede">전 세계 주요 시장 지표를 한 페이지에 모았습니다. VIX 상태: {{ vix_zone(day.macro.vix_zone) }}</p>
+  </section>
+
+  <section class="card">
+    <h2>주요 지표</h2>
+    <table class="macro-table">
+      <thead>
+        <tr>
+          <th>지표</th>
+          <th class="num">현재가</th>
+          <th class="num">전일 종가</th>
+          <th class="num">변동률</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for m in day.macro['items'] %}
+          <tr>
+            <td>{{ m.label }}</td>
+            <td class="num">
+              {% if m.unit == '$' %}${{ "{:,.2f}".format(m.price) }}
+              {% elif m.unit == '%' %}{{ "%.2f"|format(m.price) }}%
+              {% elif m.unit == '원' %}{{ "{:,.2f}".format(m.price) }}원
+              {% else %}{{ "{:,.2f}".format(m.price) }}{% endif %}
+            </td>
+            <td class="num muted">
+              {% set prev = (m.price / (1 + (m.change_pct or 0)/100)) if m.change_pct else m.price %}
+              {{ "{:,.2f}".format(prev) }}
+            </td>
+            <td class="num">{{ change_badge(m.change_pct) }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <p class="muted small">
+      전일 종가는 현재가와 변동률에서 역산한 추정값입니다.
+    </p>
+  </section>
+{% endblock %}

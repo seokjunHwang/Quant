@@ -1,0 +1,5381 @@
+{
+  "stocks_with_chart": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "theme": "반도체/HBM·AI메모리",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "theme": "반도체/HBM·AI메모리",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "2026년 1분기 영업이익 57.2조원으로 사상 초유의 어닝 서프라이즈 기록 (머니투데이)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "엔비디아 6세대 HBM4 독점 공급 및 글로벌 빅테크 주문 싹쓸이 (인포스탁데일리)",
+            "date": "2026-04-08",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "개인 매도세",
+            "description": "주가 20만원 돌파에 따른 개인 투자자들의 대규모 차익 실현 물량 출회",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "1분기 영업이익 57조 원 돌파라는 역대급 어닝 서프라이즈를 기록하며 '20만 전자'에 안착했습니다. 6세대 HBM4 시장을 사실상 독점하며 외국인의 강력한 순매수세가 집중되고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "KB증권 360,000원, 다올투자증권 350,000원 등 일제히 30만원 이상으로 상향",
+        "score_hint": 95
+      },
+      "score": 125.0,
+      "score_breakdown": {
+        "base": 95,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 43.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 43/100 (관망). 주의: 상단 돌파 — 극과열. 횡보, RSI 61.",
+        "signals": [],
+        "warnings": [
+          "상단 돌파 — 극과열"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 0.0,
+            "max": 15,
+            "reason": "상단 돌파 — 극과열"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "횡보 / 20일 강세"
+          },
+          "momentum": {
+            "score": 8.0,
+            "max": 10,
+            "reason": "5d:+11.0% / 20d:+10.8%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(167,200) 확인 후 진입 또는 저항선(210,500) 돌파 시",
+        "stop_loss": "162,184 (지지선 -3%)",
+        "target_price": "210,500 (저항선)",
+        "ticker": "005930",
+        "raw_indicators": {
+          "rsi": 61.1,
+          "rsi_signal": "중립",
+          "bb_pct": 1.0,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 1.33,
+          "trend": "sideways",
+          "price_change_5d": 11.02,
+          "price_change_20d": 10.79,
+          "support": 167200.0,
+          "resistance": 210500.0,
+          "current_price": 210500.0
+        }
+      }
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "theme": "반도체/HBM·AI메모리",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 95648240436.3287,
+      "research": {
+        "ticker": "MRVL",
+        "name": "Marvell Technology",
+        "theme": "반도체/HBM·AI메모리",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "Nvidia와의 전략적 파트너십(NVLink Fusion 생태계) 및 대규모 투자 유치 보도 (Investing.com)",
+            "date": "2026-03",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "비핵심 사업(차량용/산업용 이더넷) 매각을 통한 AI 인프라 핵심 공정 고도화 집중 (Financial Content)",
+            "date": "2026-03",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "내부자 매도",
+            "description": "단기 주가 급등에 따른 최근 경영진(EVP)의 소규모 차익 실현",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "엔비디아와의 차세대 AI 생태계 구축 파트너십 소식이 전해지며 강력한 모멘텀을 받았습니다. 비핵심 사업을 정리하고 AI 및 데이터센터 비중을 공격적으로 늘려나가면서 52주 신고가를 경신하는 등 월가의 목표주가 상향이 이어지고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "Moderate Buy ~ Strong Buy (평균 목표주가: $117.24, 최고 $164.00)",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 42.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 42/100 (관망). 긍정: 상승추세 / 5일 +24.6% 추세 일치 / 20일 강세. 주의: 상단 돌파 — 극과열, 거래량 부진 — 관심 저조. 상승추세, RSI 69.",
+        "signals": [
+          "상승추세 / 5일 +24.6% 추세 일치 / 20일 강세"
+        ],
+        "warnings": [
+          "상단 돌파 — 극과열",
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 6.0,
+            "max": 20,
+            "reason": "과매수 접근 — 주의"
+          },
+          "bollinger": {
+            "score": 0.0,
+            "max": 15,
+            "reason": "상단 돌파 — 극과열"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 15.0,
+            "max": 15,
+            "reason": "상승추세 / 5일 +24.6% 추세 일치 / 20일 강세"
+          },
+          "momentum": {
+            "score": 8.0,
+            "max": 10,
+            "reason": "5d:+24.6% / 20d:+18.1%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(88) 확인 후 진입 또는 저항선(110) 돌파 시",
+        "stop_loss": "85 (지지선 -3%)",
+        "target_price": "110 (저항선)",
+        "ticker": "MRVL",
+        "raw_indicators": {
+          "rsi": 69.2,
+          "rsi_signal": "중립",
+          "bb_pct": 0.97,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.86,
+          "trend": "uptrend",
+          "price_change_5d": 24.56,
+          "price_change_20d": 18.06,
+          "support": 87.62,
+          "resistance": 109.51,
+          "current_price": 109.38
+        }
+      }
+    },
+    {
+      "ticker": "FLR",
+      "name": "Fluor Corporation",
+      "theme": "중동 재건/플랜트 건설",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 6994066422.191956,
+      "research": {
+        "ticker": "FLR",
+        "name": "Fluor Corporation",
+        "theme": "중동 재건/플랜트 건설",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미국 텍사스 브라운스빌 정유공장(America First Refining) FEED 계약 수주 (출처: Fluor/Invest)",
+            "date": "2026-04-07",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "X-energy와 다우 텍사스 시설 소형모듈원전(SMR) 프로젝트 계약 체결 (출처: TradingView)",
+            "date": "2026-04-08",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "마진 압박",
+            "description": "과거 프로젝트 수행 과정에서의 마진 문제 및 비용 초과 리스크",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "텍사스 내 대규모 정유공장 및 SMR 원전 프로젝트 등 굵직한 수주 소식이 연이어 발표되며 강력한 수주잔고와 실적 턴어라운드 모멘텀 확보.",
+        "momentum": "bullish",
+        "analyst_view": "Moderate to Strong Buy (목표가 $54.33 ~ $55.00)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 43.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 43/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 53.",
+        "signals": [],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "상단 접근 — 과열 주의"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 7.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+9.0% / 20d:+4.2%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(43) 확인 후 진입 또는 저항선(48) 돌파 시",
+        "stop_loss": "42 (지지선 -3%)",
+        "target_price": "48 (저항선)",
+        "ticker": "FLR",
+        "raw_indicators": {
+          "rsi": 53.4,
+          "rsi_signal": "중립",
+          "bb_pct": 0.788,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.78,
+          "trend": "sideways",
+          "price_change_5d": 9.0,
+          "price_change_20d": 4.15,
+          "support": 43.02,
+          "resistance": 47.94,
+          "current_price": 47.72
+        }
+      }
+    },
+    {
+      "ticker": "PRIM",
+      "name": "Primoris Services",
+      "theme": "중동 재건/플랜트 건설",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 8077785930.098511,
+      "research": {
+        "ticker": "PRIM",
+        "name": "Primoris Services",
+        "theme": "중동 재건/플랜트 건설",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "데이터센터 시장 진출을 위한 PayneCrest Electric 4.22억 달러 인수 발표 (출처: Benzinga)",
+            "date": "2026-04-01",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "Jefferies 등 주요 투자은행 목표주가 연이어 상향 조정 (출처: Investing)",
+            "date": "2026-04-07",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "재무/통합 리스크",
+            "description": "대규모 M&A에 따른 단기적 재무 부담 및 기업 통합 과정의 실행 리스크",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "데이터센터 및 전기 인프라 역량 강화를 위해 대형 인수를 단행하였으며, 가스 발전 및 신재생 에너지 인프라 수주 기대감으로 투심이 크게 개선됨.",
+        "momentum": "bullish",
+        "analyst_view": "Moderate Buy / Buy (목표가 $154.53 ~ $173.18)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 40.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 40/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 54.",
+        "signals": [],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "상단 접근 — 과열 주의"
+          },
+          "macd": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "중립"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 7.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 8.0,
+            "max": 10,
+            "reason": "5d:+10.9% / 20d:+8.2%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(132) 확인 후 진입 또는 저항선(151) 돌파 시",
+        "stop_loss": "128 (지지선 -3%)",
+        "target_price": "151 (저항선)",
+        "ticker": "PRIM",
+        "raw_indicators": {
+          "rsi": 54.0,
+          "rsi_signal": "중립",
+          "bb_pct": 0.821,
+          "macd_cross": "none",
+          "macd_hist_trend": "flat",
+          "volume_ratio": 0.83,
+          "trend": "sideways",
+          "price_change_5d": 10.89,
+          "price_change_20d": 8.2,
+          "support": 132.1813,
+          "resistance": 150.67,
+          "current_price": 148.95
+        }
+      }
+    },
+    {
+      "ticker": "CRDO",
+      "name": "Credo Technology",
+      "theme": "반도체/HBM·AI메모리",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 19697409261.468964,
+      "research": {
+        "ticker": "CRDO",
+        "name": "Credo Technology",
+        "theme": "반도체/HBM·AI메모리",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "전년 동기 대비 201.5% 급증한 기록적 매출 달성 및 EPS 예상치 상회 (Marketbeat)",
+            "date": "2026-04",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "TE Connectivity 및 Molex와의 오랜 특허 분쟁 합의로 법적 리스크 완전 해소 (TipRanks)",
+            "date": "2026-04",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "내부자 매도",
+            "description": "최근 주가 급등 시기에 맞춘 CEO 등 경영진의 차익실현 물량 출회",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "AEC 기술 특허 소송 합의로 최대 리스크를 해소했으며, 200%가 넘는 역대급 매출 성장률을 기록하며 블랙록 등 기관투자자의 강력한 매수세가 유입되었습니다.",
+        "momentum": "bullish",
+        "analyst_view": "Strong Buy / 평균 목표주가 $176.36 ~ $200.00 (Needham $220)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 45.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 45/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 51.",
+        "signals": [],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "단기 과열 (5일 >> 20일)"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(88) 확인 후 진입 또는 저항선(118) 돌파 시",
+        "stop_loss": "85 (지지선 -3%)",
+        "target_price": "118 (저항선)",
+        "ticker": "CRDO",
+        "raw_indicators": {
+          "rsi": 50.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.587,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.62,
+          "trend": "sideways",
+          "price_change_5d": 21.61,
+          "price_change_20d": -7.92,
+          "support": 87.81,
+          "resistance": 117.69,
+          "current_price": 106.79
+        }
+      }
+    },
+    {
+      "ticker": "075580",
+      "name": "세진중공업",
+      "theme": "중동 재건/플랜트 건설",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "075580",
+        "name": "세진중공업",
+        "theme": "중동 재건/플랜트 건설",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "2026년 하반기 고수익성 LNG 벙커링선(LNG BV) 탱크 인도 본격화 기대 (IBK투자증권)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "2026년 기업가치 제고 계획(배당성향 25.2%) 공시 및 한-미 조선 협력 수혜 지속 (디지털투데이)",
+            "date": "2026-03-31",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "차익 매물",
+            "description": "4월 3일 장중 11% 급등 등 단기 상승폭 확대로 인한 차익실현 매물 출회 가능성",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "기업가치 제고(밸류업) 공시와 한미 조선 협력 수혜 기대감으로 외국인과 기관의 동반 매수세가 유입되었습니다. 고부가가치 탱크 물량 확대로 구조적인 실적 성장이 전망됩니다.",
+        "momentum": "bullish",
+        "analyst_view": "신영증권 28,000원 상향, 신한투자증권 22,000원 제시",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 44.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 44/100 (관망). 주의: 상단 근접 — 과열. 횡보, RSI 55.",
+        "signals": [],
+        "warnings": [
+          "상단 근접 — 과열"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 2.0,
+            "max": 15,
+            "reason": "상단 근접 — 과열"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 7.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+6.9% / 20d:+3.5%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(15,520) 확인 후 진입 또는 저항선(18,100) 돌파 시",
+        "stop_loss": "15,054 (지지선 -3%)",
+        "target_price": "18,100 (저항선)",
+        "ticker": "075580",
+        "raw_indicators": {
+          "rsi": 55.0,
+          "rsi_signal": "중립",
+          "bb_pct": 0.87,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 1.13,
+          "trend": "sideways",
+          "price_change_5d": 6.91,
+          "price_change_20d": 3.55,
+          "support": 15520.0,
+          "resistance": 18100.0,
+          "current_price": 18100.0
+        }
+      }
+    },
+    {
+      "ticker": "042700",
+      "name": "한미반도체",
+      "theme": "반도체/HBM·AI메모리",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "theme": "반도체/HBM·AI메모리",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "HBM 높이 제한 규제 완화 수혜 및 6세대 HBM4 전용 듀얼 TC 본더 주도권 확보 (티스토리/종합)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "차세대 접합 기술인 하이브리드 본더 개발로 기술적 독점력 강화 (핀포인트뉴스)",
+            "date": "2026-04-08",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "수급 변동성",
+            "description": "최근 외국인과 기관의 단기 차익 실현 교차로 인한 수급 공방 및 장중 변동성 확대",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "HBM4 전용 장비와 하이브리드 본더 등 굳건한 기술적 해자를 유지하며 역대급 실적 성장세를 이어갈 전망입니다. 최근 장중 변동성이 커졌으나 28만원 선을 강하게 회복했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "BofA 300,000원 제시 등 국내외 증권사 30~33만원 이상 목표가 전망",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 54.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 54/100 (관망). 긍정: 골든크로스 임박 — 매수 준비. 횡보, RSI 53.",
+        "signals": [
+          "골든크로스 임박 — 매수 준비"
+        ],
+        "warnings": [],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 8.0,
+            "max": 15,
+            "reason": "중간 — 중립"
+          },
+          "macd": {
+            "score": 11.0,
+            "max": 15,
+            "reason": "골든크로스 임박 — 매수 준비"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보 / 20일 약세"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "5d:+2.6% / 20d:-10.2%"
+          },
+          "support_resistance": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "중간 구간"
+          }
+        },
+        "entry_condition": "지지선(251,000) 확인 후 진입 또는 저항선(317,000) 돌파 시",
+        "stop_loss": "243,470 (지지선 -3%)",
+        "target_price": "317,000 (저항선)",
+        "ticker": "042700",
+        "raw_indicators": {
+          "rsi": 53.1,
+          "rsi_signal": "중립",
+          "bb_pct": 0.459,
+          "macd_cross": "approaching_golden",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 1.36,
+          "trend": "sideways",
+          "price_change_5d": 2.56,
+          "price_change_20d": -10.24,
+          "support": 251000.0,
+          "resistance": 317000.0,
+          "current_price": 280500.0
+        }
+      }
+    },
+    {
+      "ticker": "KBR",
+      "name": "KBR Inc",
+      "theme": "중동 재건/플랜트 건설",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 4786301397.75,
+      "research": {
+        "ticker": "KBR",
+        "name": "KBR Inc",
+        "theme": "중동 재건/플랜트 건설",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "리비아 Zallaf South 정유공장 및 사우디 Petro Rabigh/SATORP 장기 유지보수 계약 수주 (출처: StockTitan)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "NASA 아르테미스 II 미션 실시간 관제 지원으로 우주항공 모멘텀 부각 (출처: Manila Times)",
+            "date": "2026-04-08",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "실적 둔화",
+            "description": "지난 분기 매출이 컨센서스를 소폭 하회하는 등 외형 성장 속도 둔화 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "NASA 우주 프로젝트 참여로 기술력이 입증된 가운데, 중동 지역 정유공장 장기 유지보수 계약을 따내며 안정적인 캐시카우를 구축 중임.",
+        "momentum": "bullish",
+        "analyst_view": "Buy / Strong Buy (목표가 $51.50 ~ $57.00)",
+        "score_hint": 80
+      },
+      "score": 110.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 42.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 42/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 47.",
+        "signals": [],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "상단 접근 — 과열 주의"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+5.4% / 20d:-3.7%"
+          },
+          "support_resistance": {
+            "score": 2.0,
+            "max": 10,
+            "reason": "저항선(38.05) 부근 — 돌파 여부 관건"
+          }
+        },
+        "entry_condition": "지지선(36) 확인 후 진입 또는 저항선(38) 돌파 시",
+        "stop_loss": "35 (지지선 -3%)",
+        "target_price": "38 (저항선)",
+        "ticker": "KBR",
+        "raw_indicators": {
+          "rsi": 46.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.737,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.57,
+          "trend": "sideways",
+          "price_change_5d": 5.42,
+          "price_change_20d": -3.71,
+          "support": 35.81,
+          "resistance": 38.05,
+          "current_price": 37.75
+        }
+      }
+    },
+    {
+      "ticker": "ACA",
+      "name": "Arcosa",
+      "theme": "중동 재건/플랜트 건설",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 5214760030.638908,
+      "research": {
+        "ticker": "ACA",
+        "name": "Arcosa",
+        "theme": "중동 재건/플랜트 건설",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "비핵심 사업(내륙 바지선) 매각 및 골재 사업 인수를 통한 고마진 건설 자재 사업 집중 (Perplexity)",
+            "date": "2026-02-26",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "지정학적 긴장 완화 소식에 따른 산업재 섹터 투자 심리 개선 (Perplexity)",
+            "date": "2026-03-31",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "거시 경제",
+            "description": "유가 변동성 및 지정학적 긴장에 따른 산업 섹터 전반의 역풍 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 4억 5천만 달러 규모의 바지선 사업 매각과 골재 사업 인수를 발표하며 건설/인프라 부문으로 사업 구조를 성공적으로 재편하고 있습니다. 주요 기관 투자자들의 높은 지분율(약 91%)을 유지하며 장기적인 성장이 기대됩니다.",
+        "momentum": "bullish",
+        "analyst_view": "Strong Buy (평균 목표주가: $120.00~$127.83, 최고 $135.00)",
+        "score_hint": 80
+      },
+      "score": 110.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 38.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 38/100 (관망). 주의: 데드크로스 임박 — 매도 준비, 거래량 부진 — 관심 저조. 횡보, RSI 46.",
+        "signals": [],
+        "warnings": [
+          "데드크로스 임박 — 매도 준비",
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 2.0,
+            "max": 15,
+            "reason": "데드크로스 임박 — 매도 준비"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "5d:+4.0% / 20d:-3.4%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(101) 확인 후 진입 또는 저항선(110) 돌파 시",
+        "stop_loss": "98 (지지선 -3%)",
+        "target_price": "110 (저항선)",
+        "ticker": "ACA",
+        "raw_indicators": {
+          "rsi": 45.7,
+          "rsi_signal": "중립",
+          "bb_pct": 0.572,
+          "macd_cross": "approaching_dead",
+          "macd_hist_trend": "falling",
+          "volume_ratio": 0.72,
+          "trend": "sideways",
+          "price_change_5d": 4.04,
+          "price_change_20d": -3.38,
+          "support": 100.68,
+          "resistance": 110.32,
+          "current_price": 106.21
+        }
+      }
+    },
+    {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "theme": "반도체/HBM·AI메모리",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "039030",
+        "name": "이오테크닉스",
+        "theme": "반도체/HBM·AI메모리",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "낸드 플래시 고단화에 따른 레이저 커팅 및 어닐링 장비 수요 급증 (뉴스핌)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "SK하이닉스 차세대 HBM 공정용 장비 성능 평가 진행 및 신규 장비 매출 비중 68% 확대 (이데일리)",
+            "date": "2026-04-08",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 부담",
+            "description": "PER 39~40배 수준으로 단기 주가 상승에 따른 밸류에이션 부담 존재",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "낸드 고단화와 HBM 시장 확대의 핵심 장비 수혜주로 부각되며 외국인과 기관의 매수세가 쏠리고 있습니다. 신규 장비 매출 본격화로 올해 창사 이래 최대 실적이 예상됩니다.",
+        "momentum": "bullish",
+        "analyst_view": "한국투자증권 512,000원 신규 제시, iM증권 485,000원 상향",
+        "score_hint": 80
+      },
+      "score": 110.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 49.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 49/100 (관망). 긍정: 골든크로스 — 강한 매수 신호. 주의: 상단 근접 — 과열. 횡보, RSI 57.",
+        "signals": [
+          "골든크로스 — 강한 매수 신호"
+        ],
+        "warnings": [
+          "상단 근접 — 과열"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 2.0,
+            "max": 15,
+            "reason": "상단 근접 — 과열"
+          },
+          "macd": {
+            "score": 15.0,
+            "max": 15,
+            "reason": "골든크로스 — 강한 매수 신호"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "횡보 / 20일 강세"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "5d:+1.6% / 20d:+10.9%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(384,500) 확인 후 진입 또는 저항선(446,500) 돌파 시",
+        "stop_loss": "372,965 (지지선 -3%)",
+        "target_price": "446,500 (저항선)",
+        "ticker": "039030",
+        "raw_indicators": {
+          "rsi": 56.8,
+          "rsi_signal": "중립",
+          "bb_pct": 0.935,
+          "macd_cross": "golden",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 1.33,
+          "trend": "sideways",
+          "price_change_5d": 1.61,
+          "price_change_20d": 10.92,
+          "support": 384500.0,
+          "resistance": 446500.0,
+          "current_price": 442000.0
+        }
+      }
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar",
+      "theme": "중동 재건/플랜트 건설",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 339023140393.2083,
+      "research": {
+        "ticker": "CAT",
+        "name": "Caterpillar",
+        "theme": "중동 재건/플랜트 건설",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "512억 달러 규모의 기록적인 수주잔고 및 데이터센터 전력 인프라 수요 기대감 (출처: TradingKey)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "Wolfe Research 및 Barclays 등 주요 IB 목표가 상향 (출처: MarketBeat)",
+            "date": "2026-03-31",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "정책/관세 리스크",
+            "description": "2026년 26억 달러 규모의 관세 타격 예상 (1분기에만 8억 달러 마진 압박 우려)",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "데이터센터발 전력망 인프라 수요와 사상 최대 수주잔고로 성장성이 부각되지만, 대규모 관세 부과로 인한 단기적인 마진 악화 우려가 혼재함.",
+        "momentum": "bullish",
+        "analyst_view": "Moderate Buy (목표가 $737.55)",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 49.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 49/100 (관망). 긍정: 상승추세 / 5일 +8.5% 추세 일치. 주의: 거래량 부진 — 관심 저조. 상승추세, RSI 54.",
+        "signals": [
+          "상승추세 / 5일 +8.5% 추세 일치"
+        ],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "상단 접근 — 과열 주의"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 13.0,
+            "max": 15,
+            "reason": "상승추세 / 5일 +8.5% 추세 일치"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+8.5% / 20d:+2.8%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(667) 확인 후 진입 또는 저항선(730) 돌파 시",
+        "stop_loss": "647 (지지선 -3%)",
+        "target_price": "730 (저항선)",
+        "ticker": "CAT",
+        "raw_indicators": {
+          "rsi": 54.3,
+          "rsi_signal": "중립",
+          "bb_pct": 0.822,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.65,
+          "trend": "uptrend",
+          "price_change_5d": 8.54,
+          "price_change_20d": 2.78,
+          "support": 667.43,
+          "resistance": 730.32,
+          "current_price": 724.44
+        }
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "theme": "반도체/HBM·AI메모리",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 4328720648345.9473,
+      "research": {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "theme": "반도체/HBM·AI메모리",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "데이터센터 부문 매출 75% 급증 등 기록적인 2026 회계연도 실적 달성 (MarketBeat)",
+            "date": "2026-02-25",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "차세대 Rubin GPU 아키텍처 출시 기대감 및 AI 추론 시장 확대 (Chronicle Journal)",
+            "date": "2026-04",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "내부자 매도",
+            "description": "최근 90일간 경영진(CFO 등)의 대규모 지분 매각(약 2억 9,200만 달러 규모) 포착",
+            "severity": "medium"
+          },
+          {
+            "type": "거시 경제",
+            "description": "금리 인하 지연 및 중동발 지정학적 리스크로 인한 단기 주가 횡보",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "AI 인프라 시장 지배력을 유지하며 기록적인 실적을 냈으나, 경영진의 대규모 주식 매각과 거시경제 불안 요소로 인해 최근 주가는 박스권에서 횡보하는 모습을 보이고 있습니다.",
+        "momentum": "neutral",
+        "analyst_view": "Strong Buy (평균 목표주가: $268.00~$275.00, 최고 $325.00)",
+        "score_hint": 85
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 46.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 46/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 50.",
+        "signals": [],
+        "warnings": [
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+7.8% / 20d:-2.5%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(165) 확인 후 진입 또는 저항선(186) 돌파 시",
+        "stop_loss": "160 (지지선 -3%)",
+        "target_price": "186 (저항선)",
+        "ticker": "NVDA",
+        "raw_indicators": {
+          "rsi": 49.9,
+          "rsi_signal": "중립",
+          "bb_pct": 0.533,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.74,
+          "trend": "sideways",
+          "price_change_5d": 7.83,
+          "price_change_20d": -2.49,
+          "support": 165.17,
+          "resistance": 186.03,
+          "current_price": 178.1
+        }
+      }
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "theme": "반도체/HBM·AI메모리",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 361184912281.0724,
+      "research": {
+        "ticker": "AMD",
+        "name": "AMD",
+        "theme": "반도체/HBM·AI메모리",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "Wells Fargo 2분기 전술적 아이디어 목록에 추가 및 'Overweight' 평가 (Bitmart)",
+            "date": "2026-04",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "다가오는 1분기 실적 호조 기대 및 하반기 차세대 MI450 가속기 출시 모멘텀 (24/7 Wall St)",
+            "date": "2026-04",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "경쟁 및 규제",
+            "description": "중국향 고성능 GPU 수출 통제 리스크 및 엔비디아와의 경쟁 심화 우려",
+            "severity": "medium"
+          },
+          {
+            "type": "투자의견 하향",
+            "description": "Citigroup의 목표주가 하향($260 -> $248) 및 투자의견 '중립' 조정",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "하반기 차세대 AI 칩 출시에 대한 기대감으로 Wells Fargo 등에서 긍정적인 평가를 받으며 주요 저항선을 돌파했습니다. 기관 투자자의 매수세도 유입되고 있으나, 일부 분석가의 보수적인 의견과 대중국 규제 리스크도 공존합니다.",
+        "momentum": "bullish",
+        "analyst_view": "Moderate Buy ~ Strong Buy (평균 목표주가: $290.19, 최고 $358.00)",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 38.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 38/100 (관망). 주의: 상단 돌파 — 극과열, 거래량 부진 — 관심 저조. 횡보, RSI 60.",
+        "signals": [],
+        "warnings": [
+          "상단 돌파 — 극과열",
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 0.0,
+            "max": 15,
+            "reason": "상단 돌파 — 극과열"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 7.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 8.0,
+            "max": 10,
+            "reason": "5d:+13.0% / 20d:+9.3%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(193) 확인 후 진입 또는 저항선(222) 돌파 시",
+        "stop_loss": "188 (지지선 -3%)",
+        "target_price": "222 (저항선)",
+        "ticker": "AMD",
+        "raw_indicators": {
+          "rsi": 59.9,
+          "rsi_signal": "중립",
+          "bb_pct": 0.98,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.77,
+          "trend": "sideways",
+          "price_change_5d": 13.0,
+          "price_change_20d": 9.3,
+          "support": 193.39,
+          "resistance": 221.53,
+          "current_price": 221.53
+        }
+      }
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines",
+      "theme": "항공·운송 (유가 하락 수혜)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 28906565334.20098,
+      "research": {
+        "ticker": "UAL",
+        "name": "United Airlines",
+        "theme": "항공·운송 (유가 하락 수혜)",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "4월 21일 1분기 실적 발표 임박 및 2026년 EPS 가이던스 상향 (출처: Stockwatch)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "새로운 프리미엄 객실 운임 구조 도입으로 고수익 고객 확보 기대 (출처: Benzinga)",
+            "date": "2026-04-08",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "기술적 하락",
+            "description": "4월 7일 단기 갭하락으로 인해 주요 이평선(100일, 200일) 하회",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "United Airlines는 4월 중순 프리미엄 운임제를 신규 도입하며 수익성 강화를 꾀하고 있습니다. 4월 21일 1분기 실적 발표를 앞두고 애널리스트들의 강력 매수(Strong Buy) 의견과 긍정적인 2026년 실적 가이던스가 유지되고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "Strong Buy, 평균 목표주가 $131.00 - $133.00",
+        "score_hint": 85
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 10,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 45.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 45/100 (관망). 주의: 데드크로스 임박 — 매도 준비. 하락추세, RSI 42.",
+        "signals": [],
+        "warnings": [
+          "데드크로스 임박 — 매도 준비"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 8.0,
+            "max": 15,
+            "reason": "중간 — 중립"
+          },
+          "macd": {
+            "score": 2.0,
+            "max": 15,
+            "reason": "데드크로스 임박 — 매도 준비"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "하락추세 / 하락추세 내 반등 +4.8%"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "5d:+4.8% / 20d:-5.5%"
+          },
+          "support_resistance": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "중간 구간"
+          }
+        },
+        "entry_condition": "지지선(85) 확인 후 진입 또는 저항선(95) 돌파 시",
+        "stop_loss": "83 (지지선 -3%)",
+        "target_price": "95 (저항선)",
+        "ticker": "UAL",
+        "raw_indicators": {
+          "rsi": 42.3,
+          "rsi_signal": "중립",
+          "bb_pct": 0.337,
+          "macd_cross": "approaching_dead",
+          "macd_hist_trend": "falling",
+          "volume_ratio": 1.14,
+          "trend": "downtrend",
+          "price_change_5d": 4.79,
+          "price_change_20d": -5.53,
+          "support": 85.21,
+          "resistance": 95.08,
+          "current_price": 89.29
+        }
+      }
+    },
+    {
+      "ticker": "003490",
+      "name": "대한항공",
+      "theme": "항공·운송 (유가 하락 수혜)",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "003490",
+        "name": "대한항공",
+        "theme": "항공·운송 (유가 하락 수혜)",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "중고도 정찰용 무인항공기(MUAV) 양산 1호기 출고 완료 (sedaily.com)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "미-이란 2주간 휴전 합의로 대외 악재(유가 상승 우려) 해소 (investing.com)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "코리아 밸류업 지수 기대감 속 외국인 244억 원 규모 대규모 순매수 유입 (mk.co.kr)",
+            "date": "2026-04-08",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "비용 증가",
+            "description": "환율 변동성으로 인한 단기 수익성 압박",
+            "severity": "medium"
+          },
+          {
+            "type": "규제 이슈",
+            "description": "공정거래위원회의 운임 인상 제한 등 시정조치 여파",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "국내 최초 전략급 무인기 1호기를 성공적으로 출고하며 방산 부문 기술력을 과시했습니다. 중동 휴전 소식에 따른 유가 하락 기대감과 밸류업 테마에 힘입어 외국인 매수세가 집중되며 주가가 6%대 급등했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "매수 (Buy), 평균 목표주가 31,000원 ~ 31,750원",
+        "score_hint": 85
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 10,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 52.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 52/100 (관망). 긍정: 골든크로스 임박 — 매수 준비. 횡보, RSI 53.",
+        "signals": [
+          "골든크로스 임박 — 매수 준비"
+        ],
+        "warnings": [],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 11.0,
+            "max": 15,
+            "reason": "골든크로스 임박 — 매수 준비"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 7.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "5d:+1.0% / 20d:+1.4%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(23,000) 확인 후 진입 또는 저항선(26,350) 돌파 시",
+        "stop_loss": "22,310 (지지선 -3%)",
+        "target_price": "26,350 (저항선)",
+        "ticker": "003490",
+        "raw_indicators": {
+          "rsi": 52.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.636,
+          "macd_cross": "approaching_golden",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 1.38,
+          "trend": "sideways",
+          "price_change_5d": 1.01,
+          "price_change_20d": 1.42,
+          "support": 23000.0,
+          "resistance": 26350.0,
+          "current_price": 24950.0
+        }
+      }
+    },
+    {
+      "ticker": "MYRG",
+      "name": "MYR Group",
+      "theme": "중동 재건/플랜트 건설",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 4488750180.899078,
+      "research": {
+        "ticker": "MYRG",
+        "name": "MYR Group",
+        "theme": "중동 재건/플랜트 건설",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "28억 달러 규모의 역대 최대 수주잔고 및 미국 대형 송배전(T&D)망 투자 수혜 기대 (출처: TipRanks)",
+            "date": "2026-04-08",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "운영 리스크",
+            "description": "기상 악화, 인허가 지연, 공급망 병목 등으로 인한 단기 프로젝트 마진 하락 우려",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "미국 내 노후 전력망 교체와 대규모 송배전 프로젝트 트렌드의 수혜를 입고 있으나 날씨와 공급망 이슈가 단기 실적 변수로 작용할 수 있음.",
+        "momentum": "bullish",
+        "analyst_view": "Buy / Strong Buy (목표가 $301.33)",
+        "score_hint": 70
+      },
+      "score": 100.0,
+      "score_breakdown": {
+        "base": 70,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 45.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 45/100 (관망). 긍정: 상승추세 / 5일 +8.1% 추세 일치. 주의: 상단 근접 — 과열, 거래량 부진 — 관심 저조. 상승추세, RSI 59.",
+        "signals": [
+          "상승추세 / 5일 +8.1% 추세 일치"
+        ],
+        "warnings": [
+          "상단 근접 — 과열",
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 2.0,
+            "max": 15,
+            "reason": "상단 근접 — 과열"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 13.0,
+            "max": 15,
+            "reason": "상승추세 / 5일 +8.1% 추세 일치"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+8.1% / 20d:+8.1%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(258) 확인 후 진입 또는 저항선(289) 돌파 시",
+        "stop_loss": "250 (지지선 -3%)",
+        "target_price": "289 (저항선)",
+        "ticker": "MYRG",
+        "raw_indicators": {
+          "rsi": 59.1,
+          "rsi_signal": "중립",
+          "bb_pct": 0.864,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 0.91,
+          "trend": "uptrend",
+          "price_change_5d": 8.14,
+          "price_change_20d": 8.06,
+          "support": 257.7,
+          "resistance": 289.31,
+          "current_price": 288.85
+        }
+      }
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "theme": "항공·운송 (유가 하락 수혜)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 42858438852.83707,
+      "research": {
+        "ticker": "DAL",
+        "name": "Delta Air Lines",
+        "theme": "항공·운송 (유가 하락 수혜)",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "수익성 강화를 위해 위탁 수하물 수수료 인상 단행 (Simple Flying)",
+            "date": "2026-04-08",
+            "impact": "medium"
+          },
+          {
+            "type": "중립",
+            "content": "강력한 여행 수요 기반 26년 1분기 실적 발표 (TastyLive)",
+            "date": "2026-04-08",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "유가 상승",
+            "description": "중동 불안으로 인한 글로벌 제트유 가격 상승 리스크 (단, 자체 정유소로 타사 대비 방어력 보유)",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "4월 8일 1분기 호실적 발표를 앞두고 수하물 수수료 인상을 단행했습니다. 중동발 유가 상승 우려가 존재하지만, 델타 특유의 자체 정유 시설이 이를 훌륭히 방어할 것으로 기대됩니다.",
+        "momentum": "bullish",
+        "analyst_view": "Strong Buy / 평균 목표주가 $78.84",
+        "score_hint": 80
+      },
+      "score": 100.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 10,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 41.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 41/100 (관망). 주의: 데드크로스 임박 — 매도 준비. 횡보, RSI 51.",
+        "signals": [],
+        "warnings": [
+          "데드크로스 임박 — 매도 준비"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 2.0,
+            "max": 15,
+            "reason": "데드크로스 임박 — 매도 준비"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 7.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "5d:+3.9% / 20d:+8.3%"
+          },
+          "support_resistance": {
+            "score": 2.0,
+            "max": 10,
+            "reason": "저항선(67.99) 부근 — 돌파 여부 관건"
+          }
+        },
+        "entry_condition": "지지선(58) 확인 후 진입 또는 저항선(68) 돌파 시",
+        "stop_loss": "56 (지지선 -3%)",
+        "target_price": "68 (저항선)",
+        "ticker": "DAL",
+        "raw_indicators": {
+          "rsi": 50.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.623,
+          "macd_cross": "approaching_dead",
+          "macd_hist_trend": "falling",
+          "volume_ratio": 1.08,
+          "trend": "sideways",
+          "price_change_5d": 3.85,
+          "price_change_20d": 8.32,
+          "support": 57.94,
+          "resistance": 67.99,
+          "current_price": 65.62
+        }
+      }
+    },
+    {
+      "ticker": "000720",
+      "name": "현대건설",
+      "theme": "중동 재건/플랜트 건설",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "000720",
+        "name": "현대건설",
+        "theme": "중동 재건/플랜트 건설",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미국 대형 원전 및 SMR 수주 기대감, 불가리아 코즐로두이 원전 하반기 본계약 대기 (기사 종합)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "한국건설기술연구원 및 HD현대건설기계와 AI 기반 스마트 건설 도입 협력 (뉴스1)",
+            "date": "2026-04-08",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "실적 부진",
+            "description": "2026년 1분기 영업이익 전년 동기 대비 32.2% 감소 전망 (주택 착공 물량 감소 여파)",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "1분기 실적은 주택 착공 감소로 부진하나 원전 수주 모멘텀과 중동 리스크 완화로 기관 중심의 매수세가 유입되고 있습니다. AI 스마트 건설 도입 등 미래 기술 협력도 활발히 진행 중입니다.",
+        "momentum": "bullish",
+        "analyst_view": "유안타증권 202,000원 유지, 한화투자증권 200,000원 상향",
+        "score_hint": 70
+      },
+      "score": 100.0,
+      "score_breakdown": {
+        "base": 70,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 49.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 49/100 (관망). 긍정: 골든크로스 — 강한 매수 신호, 거래량 폭증 — 변동성 확대. 주의: 상단 돌파 — 극과열. 횡보, RSI 68.",
+        "signals": [
+          "골든크로스 — 강한 매수 신호",
+          "거래량 폭증 — 변동성 확대"
+        ],
+        "warnings": [
+          "상단 돌파 — 극과열"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 6.0,
+            "max": 20,
+            "reason": "과매수 접근 — 주의"
+          },
+          "bollinger": {
+            "score": 0.0,
+            "max": 15,
+            "reason": "상단 돌파 — 극과열"
+          },
+          "macd": {
+            "score": 15.0,
+            "max": 15,
+            "reason": "골든크로스 — 강한 매수 신호"
+          },
+          "volume": {
+            "score": 10.0,
+            "max": 15,
+            "reason": "거래량 폭증 — 변동성 확대"
+          },
+          "trend": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "횡보 / 20일 강세"
+          },
+          "momentum": {
+            "score": 8.0,
+            "max": 10,
+            "reason": "5d:+18.0% / 20d:+26.8%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(142,100) 확인 후 진입 또는 저항선(188,700) 돌파 시",
+        "stop_loss": "137,837 (지지선 -3%)",
+        "target_price": "188,700 (저항선)",
+        "ticker": "000720",
+        "raw_indicators": {
+          "rsi": 67.6,
+          "rsi_signal": "중립",
+          "bb_pct": 1.251,
+          "macd_cross": "golden",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 3.98,
+          "trend": "sideways",
+          "price_change_5d": 18.01,
+          "price_change_20d": 26.81,
+          "support": 142100.0,
+          "resistance": 188700.0,
+          "current_price": 188700.0
+        }
+      }
+    },
+    {
+      "ticker": "089590",
+      "name": "제주항공",
+      "theme": "항공·운송 (유가 하락 수혜)",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "089590",
+        "name": "제주항공",
+        "theme": "항공·운송 (유가 하락 수혜)",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "중동 휴전 합의로 인한 국제유가 급락, 연료비 절감 모멘텀 작용 (daum.net)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "회원 전용 대기 예약 서비스 시작 및 스마트패스 확대 등 고객 편의 제고 (hankyung.com)",
+            "date": "2026-04-07",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "경쟁 심화",
+            "description": "LCC 공급 확대로 인한 노선 운임 하락 우려",
+            "severity": "medium"
+          },
+          {
+            "type": "단기 실적",
+            "description": "25년 대규모 영업적자 여파 (26년 1분기 흑자전환 전망이나 확인 필요)",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "중동 정세 완화에 따른 국제유가 폭락으로 비용 절감 기대감이 커지며 외국인과 기관의 강력한 동반 매수세가 유입, 주가가 강하게 반등했습니다. 또한 새로운 여객 대기 예약 서비스를 도입해 서비스 경쟁력을 높이고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "매수 (Buy), 평균 목표주가 약 6,700원",
+        "score_hint": 80
+      },
+      "score": 100.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 10,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 43.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 43/100 (관망). 주의: 상단 돌파 — 극과열. 횡보, RSI 52.",
+        "signals": [],
+        "warnings": [
+          "상단 돌파 — 극과열"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 0.0,
+            "max": 15,
+            "reason": "상단 돌파 — 극과열"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 8.0,
+            "max": 15,
+            "reason": "거래량 급증"
+          },
+          "trend": {
+            "score": 7.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "5d:+3.1% / 20d:+0.4%"
+          },
+          "support_resistance": {
+            "score": 1.0,
+            "max": 10,
+            "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+          }
+        },
+        "entry_condition": "지지선(4,990) 확인 후 진입 또는 저항선(5,350) 돌파 시",
+        "stop_loss": "4,840 (지지선 -3%)",
+        "target_price": "5,350 (저항선)",
+        "ticker": "089590",
+        "raw_indicators": {
+          "rsi": 51.9,
+          "rsi_signal": "중립",
+          "bb_pct": 0.954,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 2.12,
+          "trend": "sideways",
+          "price_change_5d": 3.08,
+          "price_change_20d": 0.38,
+          "support": 4990.0,
+          "resistance": 5350.0,
+          "current_price": 5350.0
+        }
+      }
+    },
+    {
+      "ticker": "ROAD",
+      "name": "Construction Partners",
+      "theme": "중동 재건/플랜트 건설",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 6031320995.708496,
+      "research": {
+        "ticker": "ROAD",
+        "name": "Construction Partners",
+        "theme": "중동 재건/플랜트 건설",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "B. Riley Financial 투자의견 'Buy' 상향 및 목표주가 $135 제시 (Investing.com)",
+            "date": "2026-04-02",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "사상 최대 수주 잔고($3.09B) 기록 및 2026 회계연도 실적 가이던스 상향 (Trefis)",
+            "date": "2026-03",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 및 차익실현",
+            "description": "동종 업계 대비 높은 P/E 부담과 사상 최고가 갱신 이후 발생한 4% 갭하락 등 차익 실현 매물 출회",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "기록적인 수주 잔고를 바탕으로 월가의 투자의견 상향이 이어졌으나, 최근 최고점 도달 후 밸류에이션 부담으로 단기 차익 실현 매물이 나오며 주가가 다소 조정을 받았습니다.",
+        "momentum": "neutral",
+        "analyst_view": "Buy / Strong Buy (평균 목표주가: $131.40~$140.00, 최고 $150.00)",
+        "score_hint": 70
+      },
+      "score": 90.0,
+      "score_breakdown": {
+        "base": 70,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 55.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 55/100 (관망). 긍정: 하단~중간 — 상승 여력, 골든크로스 임박 — 매수 준비. 주의: 하락추세 / 20일 약세. 하락추세, RSI 41.",
+        "signals": [
+          "하단~중간 — 상승 여력",
+          "골든크로스 임박 — 매수 준비"
+        ],
+        "warnings": [
+          "하락추세 / 20일 약세"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 10.0,
+            "max": 15,
+            "reason": "하단~중간 — 상승 여력"
+          },
+          "macd": {
+            "score": 11.0,
+            "max": 15,
+            "reason": "골든크로스 임박 — 매수 준비"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 2.0,
+            "max": 15,
+            "reason": "하락추세 / 20일 약세"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "5d:+0.7% / 20d:-13.6%"
+          },
+          "support_resistance": {
+            "score": 8.0,
+            "max": 10,
+            "reason": "지지선 부근 — 매수 관심"
+          }
+        },
+        "entry_condition": "지지선(105) 확인 후 진입 또는 저항선(123) 돌파 시",
+        "stop_loss": "102 (지지선 -3%)",
+        "target_price": "123 (저항선)",
+        "ticker": "ROAD",
+        "raw_indicators": {
+          "rsi": 40.6,
+          "rsi_signal": "중립",
+          "bb_pct": 0.216,
+          "macd_cross": "approaching_golden",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 1.0,
+          "trend": "downtrend",
+          "price_change_5d": 0.72,
+          "price_change_20d": -13.57,
+          "support": 104.92,
+          "resistance": 122.52,
+          "current_price": 106.72
+        }
+      }
+    },
+    {
+      "ticker": "RMBS",
+      "name": "Rambus",
+      "theme": "반도체/HBM·AI메모리",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 9936601802.708588,
+      "research": {
+        "ticker": "RMBS",
+        "name": "Rambus",
+        "theme": "반도체/HBM·AI메모리",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "차세대 HBM4E 메모리 컨트롤러 IP 출시 (Investing.com)",
+            "date": "2026-03",
+            "impact": "high"
+          },
+          {
+            "type": "중립",
+            "content": "2026년 1분기 실적 발표 예정 (BusinessWire)",
+            "date": "2026-04-27",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "경영진 리스크",
+            "description": "CFO 사임 및 CEO의 최근 자사주 매도(약 5,426주)로 인한 단기 투심 악화",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 차세대 HBM4E 메모리 컨트롤러를 선보이며 AI 인프라 기술력을 입증했으나, CFO 교체 및 경영진의 내부자 매도로 단기적인 주가 변동성이 발생하고 있습니다.",
+        "momentum": "neutral",
+        "analyst_view": "Moderate Buy ~ Strong Buy / 평균 목표주가 $105.71 ~ $108.17",
+        "score_hint": 70
+      },
+      "score": 90.0,
+      "score_breakdown": {
+        "base": 70,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 52.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 52/100 (관망). 횡보, RSI 49.",
+        "signals": [],
+        "warnings": [],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 9.0,
+            "max": 15,
+            "reason": "크로스 없으나 히스토그램 상승"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 7.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 8.0,
+            "max": 10,
+            "reason": "5d:+15.2% / 20d:+3.8%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(80) 확인 후 진입 또는 저항선(96) 돌파 시",
+        "stop_loss": "77 (지지선 -3%)",
+        "target_price": "96 (저항선)",
+        "ticker": "RMBS",
+        "raw_indicators": {
+          "rsi": 48.9,
+          "rsi_signal": "중립",
+          "bb_pct": 0.534,
+          "macd_cross": "none",
+          "macd_hist_trend": "rising",
+          "volume_ratio": 1.06,
+          "trend": "sideways",
+          "price_change_5d": 15.23,
+          "price_change_20d": 3.78,
+          "support": 79.73,
+          "resistance": 95.93,
+          "current_price": 91.87
+        }
+      }
+    },
+    {
+      "ticker": "ACLS",
+      "name": "Axcelis Technologies",
+      "theme": "반도체/HBM·AI메모리",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 2976812278.3023834,
+      "research": {
+        "ticker": "ACLS",
+        "name": "Axcelis Technologies",
+        "theme": "반도체/HBM·AI메모리",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "반도체 장비업체 Veeco와의 전략적 합병 주주 승인 완료 및 차세대 장비(Purion H6) 출시 (Axcelis PR)",
+            "date": "2026-02",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "경영진 교체",
+            "description": "4월 중순 기존 CFO 사임 및 과도기적 재무 불확실성",
+            "severity": "medium"
+          },
+          {
+            "type": "업황 사이클 둔화",
+            "description": "고객사의 장비 소화 사이클로 인한 1분기 보수적 실적 가이던스",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "Veeco와의 합병 절차가 주주 승인을 받으며 덩치를 키웠으나, 반도체 장비 사이클 둔화로 인한 보수적 실적 가이던스와 CFO 교체가 맞물려 주가는 횡보 중입니다.",
+        "momentum": "neutral",
+        "analyst_view": "Buy / 평균 목표주가 $101.50",
+        "score_hint": 65
+      },
+      "score": 85.0,
+      "score_breakdown": {
+        "base": 65,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 43.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 43/100 (관망). 긍정: 상승추세 / 5일 +7.1% 추세 일치 / 20일 강세. 주의: 데드크로스 임박 — 매도 준비, 거래량 부진 — 관심 저조. 상승추세, RSI 59.",
+        "signals": [
+          "상승추세 / 5일 +7.1% 추세 일치 / 20일 강세"
+        ],
+        "warnings": [
+          "데드크로스 임박 — 매도 준비",
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 10.0,
+            "max": 20,
+            "reason": "중립 상단"
+          },
+          "bollinger": {
+            "score": 4.0,
+            "max": 15,
+            "reason": "상단 접근 — 과열 주의"
+          },
+          "macd": {
+            "score": 2.0,
+            "max": 15,
+            "reason": "데드크로스 임박 — 매도 준비"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 15.0,
+            "max": 15,
+            "reason": "상승추세 / 5일 +7.1% 추세 일치 / 20일 강세"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+7.1% / 20d:+15.2%"
+          },
+          "support_resistance": {
+            "score": 2.0,
+            "max": 10,
+            "reason": "저항선(100.85) 부근 — 돌파 여부 관건"
+          }
+        },
+        "entry_condition": "지지선(83) 확인 후 진입 또는 저항선(101) 돌파 시",
+        "stop_loss": "81 (지지선 -3%)",
+        "target_price": "101 (저항선)",
+        "ticker": "ACLS",
+        "raw_indicators": {
+          "rsi": 59.1,
+          "rsi_signal": "중립",
+          "bb_pct": 0.766,
+          "macd_cross": "approaching_dead",
+          "macd_hist_trend": "flat",
+          "volume_ratio": 0.7,
+          "trend": "uptrend",
+          "price_change_5d": 7.12,
+          "price_change_20d": 15.24,
+          "support": 83.19,
+          "resistance": 100.85,
+          "current_price": 96.87
+        }
+      }
+    },
+    {
+      "ticker": "SNCY",
+      "name": "Sun Country Airlines",
+      "theme": "항공·운송 (유가 하락 수혜)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 896329725.5939255,
+      "research": {
+        "ticker": "SNCY",
+        "name": "Sun Country Airlines",
+        "theme": "항공·운송 (유가 하락 수혜)",
+        "catalysts": [
+          {
+            "type": "중립",
+            "content": "Allegiant(ALGT)와의 인수합병 반독점 심사 통과 및 대기 기간 종료 (출처: MarketBeat)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "2026년 신규 화물 기지(CVG) 확장을 통한 화물 운영 비즈니스 다각화 (출처: Investing)",
+            "date": "2026-04-08",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "합병 불확실성",
+            "description": "로펌들의 합병 가격 저평가 관련 주주 권리 침해 여부 법적 조사 진행 중",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "Sun Country Airlines는 Allegiant와의 합병이 미 법무부의 반독점 심사를 통과하며 순조롭게 진행 중입니다. 애널리스트들은 주가가 합병가치에 수렴함에 따라 목표가를 조정하며 중립 의견을 보이고 있으며, 회사의 화물 사업 확장은 긍정적으로 평가됩니다.",
+        "momentum": "neutral",
+        "analyst_view": "Hold / Neutral, 평균 목표주가 $19.25 - $20.00 (합병가액 수렴)",
+        "score_hint": 65
+      },
+      "score": 75.0,
+      "score_breakdown": {
+        "base": 65,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 41.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 41/100 (관망). 주의: 데드크로스 임박 — 매도 준비. 횡보, RSI 45.",
+        "signals": [],
+        "warnings": [
+          "데드크로스 임박 — 매도 준비"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 2.0,
+            "max": 15,
+            "reason": "데드크로스 임박 — 매도 준비"
+          },
+          "volume": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "평균 거래량"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 6.0,
+            "max": 10,
+            "reason": "5d:+4.2% / 20d:-0.4%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(16) 확인 후 진입 또는 저항선(17) 돌파 시",
+        "stop_loss": "15 (지지선 -3%)",
+        "target_price": "17 (저항선)",
+        "ticker": "SNCY",
+        "raw_indicators": {
+          "rsi": 45.2,
+          "rsi_signal": "중립",
+          "bb_pct": 0.555,
+          "macd_cross": "approaching_dead",
+          "macd_hist_trend": "falling",
+          "volume_ratio": 1.16,
+          "trend": "sideways",
+          "price_change_5d": 4.22,
+          "price_change_20d": -0.36,
+          "support": 15.54,
+          "resistance": 17.21,
+          "current_price": 16.54
+        }
+      }
+    },
+    {
+      "ticker": "ALGT",
+      "name": "Allegiant Travel",
+      "theme": "항공·운송 (유가 하락 수혜)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1489838258.8816452,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 39.0,
+        "timing": "관망",
+        "chart_summary": "차트점수 39/100 (관망). 주의: 데드크로스 임박 — 매도 준비, 거래량 부진 — 관심 저조. 횡보, RSI 44.",
+        "signals": [],
+        "warnings": [
+          "데드크로스 임박 — 매도 준비",
+          "거래량 부진 — 관심 저조"
+        ],
+        "score_breakdown": {
+          "rsi": {
+            "score": 12.0,
+            "max": 20,
+            "reason": "중립 하단"
+          },
+          "bollinger": {
+            "score": 6.0,
+            "max": 15,
+            "reason": "중간~상단 — 추세 유지"
+          },
+          "macd": {
+            "score": 2.0,
+            "max": 15,
+            "reason": "데드크로스 임박 — 매도 준비"
+          },
+          "volume": {
+            "score": 3.0,
+            "max": 15,
+            "reason": "거래량 부진 — 관심 저조"
+          },
+          "trend": {
+            "score": 5.0,
+            "max": 15,
+            "reason": "횡보"
+          },
+          "momentum": {
+            "score": 7.0,
+            "max": 10,
+            "reason": "5d:+5.5% / 20d:-2.1%"
+          },
+          "support_resistance": {
+            "score": 4.0,
+            "max": 10,
+            "reason": "저항선 접근"
+          }
+        },
+        "entry_condition": "지지선(75) 확인 후 진입 또는 저항선(85) 돌파 시",
+        "stop_loss": "72 (지지선 -3%)",
+        "target_price": "85 (저항선)",
+        "ticker": "ALGT",
+        "raw_indicators": {
+          "rsi": 44.3,
+          "rsi_signal": "중립",
+          "bb_pct": 0.537,
+          "macd_cross": "approaching_dead",
+          "macd_hist_trend": "falling",
+          "volume_ratio": 0.94,
+          "trend": "sideways",
+          "price_change_5d": 5.46,
+          "price_change_20d": -2.11,
+          "support": 74.66,
+          "resistance": 84.89,
+          "current_price": 80.74
+        }
+      }
+    },
+    {
+      "ticker": "AL",
+      "name": "Air Lease",
+      "theme": "항공·운송 (유가 하락 수혜)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 7282301520.0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "theme": "AI 인프라·데이터센터·소프트웨어",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 2766999941061.326,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "theme": "AI 인프라·데이터센터·소프트웨어",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 2294804080244.43,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "theme": "AI 인프라·데이터센터·소프트웨어",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 100355572436.8086,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "theme": "AI 인프라·데이터센터·소프트웨어",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 13612925897.653137,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "CLS",
+      "name": "Celestica",
+      "theme": "AI 인프라·데이터센터·소프트웨어",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 34250837996.95862,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "theme": "AI 인프라·데이터센터·소프트웨어",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 168290856119.83337,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "IRM",
+      "name": "Iron Mountain",
+      "theme": "AI 인프라·데이터센터·소프트웨어",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 31154957503.026634,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
+      "theme": "우주항공·방위산업",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 98073896289.5,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "LHX",
+      "name": "L3Harris Technologies",
+      "theme": "우주항공·방위산업",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 66122206830.0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab USA",
+      "theme": "우주항공·방위산업",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 38184887160.289764,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "theme": "우주항공·방위산업",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 3622538374.9550285,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "RDW",
+      "name": "Redwire",
+      "theme": "우주항공·방위산업",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1852566435.3670425,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "PL",
+      "name": "Planet Labs",
+      "theme": "우주항공·방위산업",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 12174060645.772202,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "theme": "우주항공·방위산업",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 35364277134.54449,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "theme": "금융·증권 (위험선호 복귀)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 802097411863.6207,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "theme": "금융·증권 (위험선호 복귀)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 256439044791.2444,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "AXP",
+      "name": "American Express",
+      "theme": "금융·증권 (위험선호 복귀)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 210811097116.99814,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "SOFI",
+      "name": "SoFi Technologies",
+      "theme": "금융·증권 (위험선호 복귀)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 20544501401.859283,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "LC",
+      "name": "LendingClub",
+      "theme": "금융·증권 (위험선호 복귀)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1671870880.0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "AFRM",
+      "name": "Affirm Holdings",
+      "theme": "금융·증권 (위험선호 복귀)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 15789445365.686516,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "035420",
+      "name": "NAVER",
+      "theme": "AI 인프라·데이터센터·소프트웨어",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "399720",
+      "name": "가온칩스",
+      "theme": "AI 인프라·데이터센터·소프트웨어",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "402030",
+      "name": "코난테크놀로지",
+      "theme": "AI 인프라·데이터센터·소프트웨어",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "047810",
+      "name": "한국항공우주",
+      "theme": "우주항공·방위산업",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "099320",
+      "name": "쎄트렉아이",
+      "theme": "우주항공·방위산업",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "105560",
+      "name": "KB금융",
+      "theme": "금융·증권 (위험선호 복귀)",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "039490",
+      "name": "키움증권",
+      "theme": "금융·증권 (위험선호 복귀)",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "006800",
+      "name": "미래에셋증권",
+      "theme": "금융·증권 (위험선호 복귀)",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "INDI",
+      "name": "Indie Semiconductor",
+      "theme": "반도체/HBM·AI메모리",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 598650684.3504338,
+      "research": {
+        "ticker": "INDI",
+        "name": "Indie Semiconductor",
+        "theme": "반도체/HBM·AI메모리",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "양자 컴퓨팅 시스템용 첫 자외선(UV) 레이저 다이오드 신제품 출시 (Investing.com)",
+            "date": "2026-04",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "Mahindra & Mahindra 신형 전기차에 모니터링 소프트웨어 공급 계약 체결 (Investing.com)",
+            "date": "2026-04",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "자본 희석",
+            "description": "1억 5천만 달러 규모의 2031년 만기 전환사채(CB) 발행 계획 발표로 주주가치 희석 우려",
+            "severity": "high"
+          },
+          {
+            "type": "기술적 하락",
+            "description": "단기 펀더멘털 악화 및 임원진의 세금납부용 주식 매도로 단기 매도세 강함",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "신차 전장 부품 공급 계약과 양자컴퓨터용 레이저 신제품 출시 등 사업적 호재가 있었으나, 대규모 전환사채 발행 예고로 인해 단기 주가는 하락 압력을 강하게 받고 있습니다.",
+        "momentum": "bearish",
+        "analyst_view": "Moderate Buy / 평균 목표주가 $6.16 ~ $6.45 (UBS $4.25 하향 조정)",
+        "score_hint": 45
+      },
+      "score": 55.0,
+      "score_breakdown": {
+        "base": 45,
+        "theme_strength": 20,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "DOW",
+      "name": "Dow Inc",
+      "theme": "화학·소재 (유가 하락·원가 수혜)",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 29799438126.124798,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "LYB",
+      "name": "LyondellBasell",
+      "theme": "화학·소재 (유가 하락·원가 수혜)",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 25857363122.509323,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "EMN",
+      "name": "Eastman Chemical",
+      "theme": "화학·소재 (유가 하락·원가 수혜)",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 8524786214.018234,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "CE",
+      "name": "Celanese",
+      "theme": "화학·소재 (유가 하락·원가 수혜)",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 7114929691.903885,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "AVY",
+      "name": "Avery Dennison",
+      "theme": "화학·소재 (유가 하락·원가 수혜)",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 12883602692.5,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "SEE",
+      "name": "Sealed Air",
+      "theme": "화학·소재 (유가 하락·원가 수혜)",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 6210325436.770264,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "051910",
+      "name": "LG화학",
+      "theme": "화학·소재 (유가 하락·원가 수혜)",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "011170",
+      "name": "롯데케미칼",
+      "theme": "화학·소재 (유가 하락·원가 수혜)",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "298050",
+      "name": "효성첨단소재",
+      "theme": "화학·소재 (유가 하락·원가 수혜)",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "298690",
+      "name": "에어부산",
+      "theme": "항공·운송 (유가 하락 수혜)",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "298690",
+        "name": "에어부산",
+        "theme": "항공·운송 (유가 하락 수혜)",
+        "catalysts": [
+          {
+            "type": "중립",
+            "content": "연료 소모 최소화를 위한 '녹색 운항' 캠페인 본격 도입 (fnnews.com)",
+            "date": "2026-04-08",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "비상경영",
+            "description": "고유가/고환율 직격탄으로 4월 전사적 비상경영 돌입 및 부산~괌 등 일부 노선 비운항",
+            "severity": "high"
+          },
+          {
+            "type": "수급 악화",
+            "description": "외국인의 지속적인 강한 매도세와 기관 관망세로 인한 수급 공백 지속",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "업황 악화와 유가/환율 부담을 견디지 못하고 4월부터 비상경영 체제에 돌입, 수익성 방어를 위해 노선 감편 및 '녹색 운항' 캠페인 등을 전개하고 있습니다. 타 항공사와 달리 외국인의 매도세가 멈추지 않아 단기 수급이 부진합니다.",
+        "momentum": "bearish",
+        "analyst_view": "단기 관망, 실적 턴어라운드 확인 시 중장기 목표가 2,700~3,500원 기대",
+        "score_hint": 40
+      },
+      "score": 40.0,
+      "score_breakdown": {
+        "base": 40,
+        "theme_strength": 10,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    },
+    {
+      "ticker": "ULCC",
+      "name": "Frontier Group",
+      "theme": "항공·운송 (유가 하락 수혜)",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 831630262.5892448,
+      "research": {
+        "ticker": "ULCC",
+        "name": "Frontier Group",
+        "theme": "항공·운송 (유가 하락 수혜)",
+        "catalysts": [
+          {
+            "type": "악재",
+            "content": "월가 애널리스트들의 연이은 투자의견 하향 및 목표가 삭감 (출처: MarketBeat)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "악재",
+            "content": "2026년 연간 EPS 가이던스 적자 전망 (-$0.40 ~ -$0.50) (출처: MarketBeat)",
+            "date": "2026-04-08",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "실적 악화",
+            "description": "마이너스 순이익률 및 저비용 항공사(ULCC) 부문 내 경쟁 심화로 인한 수익성 악화",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "Frontier Group은 최근 애널리스트들의 줄하향 리포트가 나오며 주가가 신저가(약 $3.50) 수준으로 하락했습니다. 초저가 항공 시장의 경쟁 심화와 2026년 연간 실적 적자 가이던스로 인해 투자 심리가 악화되었습니다.",
+        "momentum": "bearish",
+        "analyst_view": "Hold / Reduce, 평균 목표주가 $4.71 - $5.06 (투자의견 하향 추세)",
+        "score_hint": 30
+      },
+      "score": 30.0,
+      "score_breakdown": {
+        "base": 30,
+        "theme_strength": 10,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      },
+      "chart_result": {
+        "chart_score": 50,
+        "timing": "관망"
+      }
+    }
+  ],
+  "chart_results": [
+    {
+      "chart_score": 43.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 43/100 (관망). 주의: 상단 돌파 — 극과열. 횡보, RSI 61.",
+      "signals": [],
+      "warnings": [
+        "상단 돌파 — 극과열"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 10.0,
+          "max": 20,
+          "reason": "중립 상단"
+        },
+        "bollinger": {
+          "score": 0.0,
+          "max": 15,
+          "reason": "상단 돌파 — 극과열"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "평균 거래량"
+        },
+        "trend": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "횡보 / 20일 강세"
+        },
+        "momentum": {
+          "score": 8.0,
+          "max": 10,
+          "reason": "5d:+11.0% / 20d:+10.8%"
+        },
+        "support_resistance": {
+          "score": 1.0,
+          "max": 10,
+          "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+        }
+      },
+      "entry_condition": "지지선(167,200) 확인 후 진입 또는 저항선(210,500) 돌파 시",
+      "stop_loss": "162,184 (지지선 -3%)",
+      "target_price": "210,500 (저항선)",
+      "ticker": "005930",
+      "raw_indicators": {
+        "rsi": 61.1,
+        "rsi_signal": "중립",
+        "bb_pct": 1.0,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 1.33,
+        "trend": "sideways",
+        "price_change_5d": 11.02,
+        "price_change_20d": 10.79,
+        "support": 167200.0,
+        "resistance": 210500.0,
+        "current_price": 210500.0
+      }
+    },
+    {
+      "chart_score": 42.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 42/100 (관망). 긍정: 상승추세 / 5일 +24.6% 추세 일치 / 20일 강세. 주의: 상단 돌파 — 극과열, 거래량 부진 — 관심 저조. 상승추세, RSI 69.",
+      "signals": [
+        "상승추세 / 5일 +24.6% 추세 일치 / 20일 강세"
+      ],
+      "warnings": [
+        "상단 돌파 — 극과열",
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 6.0,
+          "max": 20,
+          "reason": "과매수 접근 — 주의"
+        },
+        "bollinger": {
+          "score": 0.0,
+          "max": 15,
+          "reason": "상단 돌파 — 극과열"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 15.0,
+          "max": 15,
+          "reason": "상승추세 / 5일 +24.6% 추세 일치 / 20일 강세"
+        },
+        "momentum": {
+          "score": 8.0,
+          "max": 10,
+          "reason": "5d:+24.6% / 20d:+18.1%"
+        },
+        "support_resistance": {
+          "score": 1.0,
+          "max": 10,
+          "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+        }
+      },
+      "entry_condition": "지지선(88) 확인 후 진입 또는 저항선(110) 돌파 시",
+      "stop_loss": "85 (지지선 -3%)",
+      "target_price": "110 (저항선)",
+      "ticker": "MRVL",
+      "raw_indicators": {
+        "rsi": 69.2,
+        "rsi_signal": "중립",
+        "bb_pct": 0.97,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 0.86,
+        "trend": "uptrend",
+        "price_change_5d": 24.56,
+        "price_change_20d": 18.06,
+        "support": 87.62,
+        "resistance": 109.51,
+        "current_price": 109.38
+      }
+    },
+    {
+      "chart_score": 43.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 43/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 53.",
+      "signals": [],
+      "warnings": [
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 4.0,
+          "max": 15,
+          "reason": "상단 접근 — 과열 주의"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 7.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 7.0,
+          "max": 10,
+          "reason": "5d:+9.0% / 20d:+4.2%"
+        },
+        "support_resistance": {
+          "score": 1.0,
+          "max": 10,
+          "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+        }
+      },
+      "entry_condition": "지지선(43) 확인 후 진입 또는 저항선(48) 돌파 시",
+      "stop_loss": "42 (지지선 -3%)",
+      "target_price": "48 (저항선)",
+      "ticker": "FLR",
+      "raw_indicators": {
+        "rsi": 53.4,
+        "rsi_signal": "중립",
+        "bb_pct": 0.788,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 0.78,
+        "trend": "sideways",
+        "price_change_5d": 9.0,
+        "price_change_20d": 4.15,
+        "support": 43.02,
+        "resistance": 47.94,
+        "current_price": 47.72
+      }
+    },
+    {
+      "chart_score": 40.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 40/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 54.",
+      "signals": [],
+      "warnings": [
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 4.0,
+          "max": 15,
+          "reason": "상단 접근 — 과열 주의"
+        },
+        "macd": {
+          "score": 5.0,
+          "max": 15,
+          "reason": "중립"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 7.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 8.0,
+          "max": 10,
+          "reason": "5d:+10.9% / 20d:+8.2%"
+        },
+        "support_resistance": {
+          "score": 1.0,
+          "max": 10,
+          "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+        }
+      },
+      "entry_condition": "지지선(132) 확인 후 진입 또는 저항선(151) 돌파 시",
+      "stop_loss": "128 (지지선 -3%)",
+      "target_price": "151 (저항선)",
+      "ticker": "PRIM",
+      "raw_indicators": {
+        "rsi": 54.0,
+        "rsi_signal": "중립",
+        "bb_pct": 0.821,
+        "macd_cross": "none",
+        "macd_hist_trend": "flat",
+        "volume_ratio": 0.83,
+        "trend": "sideways",
+        "price_change_5d": 10.89,
+        "price_change_20d": 8.2,
+        "support": 132.1813,
+        "resistance": 150.67,
+        "current_price": 148.95
+      }
+    },
+    {
+      "chart_score": 45.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 45/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 51.",
+      "signals": [],
+      "warnings": [
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "중간~상단 — 추세 유지"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 5.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "단기 과열 (5일 >> 20일)"
+        },
+        "support_resistance": {
+          "score": 4.0,
+          "max": 10,
+          "reason": "저항선 접근"
+        }
+      },
+      "entry_condition": "지지선(88) 확인 후 진입 또는 저항선(118) 돌파 시",
+      "stop_loss": "85 (지지선 -3%)",
+      "target_price": "118 (저항선)",
+      "ticker": "CRDO",
+      "raw_indicators": {
+        "rsi": 50.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.587,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 0.62,
+        "trend": "sideways",
+        "price_change_5d": 21.61,
+        "price_change_20d": -7.92,
+        "support": 87.81,
+        "resistance": 117.69,
+        "current_price": 106.79
+      }
+    },
+    {
+      "chart_score": 44.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 44/100 (관망). 주의: 상단 근접 — 과열. 횡보, RSI 55.",
+      "signals": [],
+      "warnings": [
+        "상단 근접 — 과열"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 2.0,
+          "max": 15,
+          "reason": "상단 근접 — 과열"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "평균 거래량"
+        },
+        "trend": {
+          "score": 7.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 7.0,
+          "max": 10,
+          "reason": "5d:+6.9% / 20d:+3.5%"
+        },
+        "support_resistance": {
+          "score": 1.0,
+          "max": 10,
+          "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+        }
+      },
+      "entry_condition": "지지선(15,520) 확인 후 진입 또는 저항선(18,100) 돌파 시",
+      "stop_loss": "15,054 (지지선 -3%)",
+      "target_price": "18,100 (저항선)",
+      "ticker": "075580",
+      "raw_indicators": {
+        "rsi": 55.0,
+        "rsi_signal": "중립",
+        "bb_pct": 0.87,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 1.13,
+        "trend": "sideways",
+        "price_change_5d": 6.91,
+        "price_change_20d": 3.55,
+        "support": 15520.0,
+        "resistance": 18100.0,
+        "current_price": 18100.0
+      }
+    },
+    {
+      "chart_score": 54.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 54/100 (관망). 긍정: 골든크로스 임박 — 매수 준비. 횡보, RSI 53.",
+      "signals": [
+        "골든크로스 임박 — 매수 준비"
+      ],
+      "warnings": [],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 8.0,
+          "max": 15,
+          "reason": "중간 — 중립"
+        },
+        "macd": {
+          "score": 11.0,
+          "max": 15,
+          "reason": "골든크로스 임박 — 매수 준비"
+        },
+        "volume": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "평균 거래량"
+        },
+        "trend": {
+          "score": 5.0,
+          "max": 15,
+          "reason": "횡보 / 20일 약세"
+        },
+        "momentum": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "5d:+2.6% / 20d:-10.2%"
+        },
+        "support_resistance": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "중간 구간"
+        }
+      },
+      "entry_condition": "지지선(251,000) 확인 후 진입 또는 저항선(317,000) 돌파 시",
+      "stop_loss": "243,470 (지지선 -3%)",
+      "target_price": "317,000 (저항선)",
+      "ticker": "042700",
+      "raw_indicators": {
+        "rsi": 53.1,
+        "rsi_signal": "중립",
+        "bb_pct": 0.459,
+        "macd_cross": "approaching_golden",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 1.36,
+        "trend": "sideways",
+        "price_change_5d": 2.56,
+        "price_change_20d": -10.24,
+        "support": 251000.0,
+        "resistance": 317000.0,
+        "current_price": 280500.0
+      }
+    },
+    {
+      "chart_score": 42.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 42/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 47.",
+      "signals": [],
+      "warnings": [
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 4.0,
+          "max": 15,
+          "reason": "상단 접근 — 과열 주의"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 5.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 7.0,
+          "max": 10,
+          "reason": "5d:+5.4% / 20d:-3.7%"
+        },
+        "support_resistance": {
+          "score": 2.0,
+          "max": 10,
+          "reason": "저항선(38.05) 부근 — 돌파 여부 관건"
+        }
+      },
+      "entry_condition": "지지선(36) 확인 후 진입 또는 저항선(38) 돌파 시",
+      "stop_loss": "35 (지지선 -3%)",
+      "target_price": "38 (저항선)",
+      "ticker": "KBR",
+      "raw_indicators": {
+        "rsi": 46.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.737,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 0.57,
+        "trend": "sideways",
+        "price_change_5d": 5.42,
+        "price_change_20d": -3.71,
+        "support": 35.81,
+        "resistance": 38.05,
+        "current_price": 37.75
+      }
+    },
+    {
+      "chart_score": 38.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 38/100 (관망). 주의: 데드크로스 임박 — 매도 준비, 거래량 부진 — 관심 저조. 횡보, RSI 46.",
+      "signals": [],
+      "warnings": [
+        "데드크로스 임박 — 매도 준비",
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "중간~상단 — 추세 유지"
+        },
+        "macd": {
+          "score": 2.0,
+          "max": 15,
+          "reason": "데드크로스 임박 — 매도 준비"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 5.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "5d:+4.0% / 20d:-3.4%"
+        },
+        "support_resistance": {
+          "score": 4.0,
+          "max": 10,
+          "reason": "저항선 접근"
+        }
+      },
+      "entry_condition": "지지선(101) 확인 후 진입 또는 저항선(110) 돌파 시",
+      "stop_loss": "98 (지지선 -3%)",
+      "target_price": "110 (저항선)",
+      "ticker": "ACA",
+      "raw_indicators": {
+        "rsi": 45.7,
+        "rsi_signal": "중립",
+        "bb_pct": 0.572,
+        "macd_cross": "approaching_dead",
+        "macd_hist_trend": "falling",
+        "volume_ratio": 0.72,
+        "trend": "sideways",
+        "price_change_5d": 4.04,
+        "price_change_20d": -3.38,
+        "support": 100.68,
+        "resistance": 110.32,
+        "current_price": 106.21
+      }
+    },
+    {
+      "chart_score": 49.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 49/100 (관망). 긍정: 골든크로스 — 강한 매수 신호. 주의: 상단 근접 — 과열. 횡보, RSI 57.",
+      "signals": [
+        "골든크로스 — 강한 매수 신호"
+      ],
+      "warnings": [
+        "상단 근접 — 과열"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 10.0,
+          "max": 20,
+          "reason": "중립 상단"
+        },
+        "bollinger": {
+          "score": 2.0,
+          "max": 15,
+          "reason": "상단 근접 — 과열"
+        },
+        "macd": {
+          "score": 15.0,
+          "max": 15,
+          "reason": "골든크로스 — 강한 매수 신호"
+        },
+        "volume": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "평균 거래량"
+        },
+        "trend": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "횡보 / 20일 강세"
+        },
+        "momentum": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "5d:+1.6% / 20d:+10.9%"
+        },
+        "support_resistance": {
+          "score": 1.0,
+          "max": 10,
+          "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+        }
+      },
+      "entry_condition": "지지선(384,500) 확인 후 진입 또는 저항선(446,500) 돌파 시",
+      "stop_loss": "372,965 (지지선 -3%)",
+      "target_price": "446,500 (저항선)",
+      "ticker": "039030",
+      "raw_indicators": {
+        "rsi": 56.8,
+        "rsi_signal": "중립",
+        "bb_pct": 0.935,
+        "macd_cross": "golden",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 1.33,
+        "trend": "sideways",
+        "price_change_5d": 1.61,
+        "price_change_20d": 10.92,
+        "support": 384500.0,
+        "resistance": 446500.0,
+        "current_price": 442000.0
+      }
+    },
+    {
+      "chart_score": 49.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 49/100 (관망). 긍정: 상승추세 / 5일 +8.5% 추세 일치. 주의: 거래량 부진 — 관심 저조. 상승추세, RSI 54.",
+      "signals": [
+        "상승추세 / 5일 +8.5% 추세 일치"
+      ],
+      "warnings": [
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 4.0,
+          "max": 15,
+          "reason": "상단 접근 — 과열 주의"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 13.0,
+          "max": 15,
+          "reason": "상승추세 / 5일 +8.5% 추세 일치"
+        },
+        "momentum": {
+          "score": 7.0,
+          "max": 10,
+          "reason": "5d:+8.5% / 20d:+2.8%"
+        },
+        "support_resistance": {
+          "score": 1.0,
+          "max": 10,
+          "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+        }
+      },
+      "entry_condition": "지지선(667) 확인 후 진입 또는 저항선(730) 돌파 시",
+      "stop_loss": "647 (지지선 -3%)",
+      "target_price": "730 (저항선)",
+      "ticker": "CAT",
+      "raw_indicators": {
+        "rsi": 54.3,
+        "rsi_signal": "중립",
+        "bb_pct": 0.822,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 0.65,
+        "trend": "uptrend",
+        "price_change_5d": 8.54,
+        "price_change_20d": 2.78,
+        "support": 667.43,
+        "resistance": 730.32,
+        "current_price": 724.44
+      }
+    },
+    {
+      "chart_score": 46.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 46/100 (관망). 주의: 거래량 부진 — 관심 저조. 횡보, RSI 50.",
+      "signals": [],
+      "warnings": [
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "중간~상단 — 추세 유지"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 5.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 7.0,
+          "max": 10,
+          "reason": "5d:+7.8% / 20d:-2.5%"
+        },
+        "support_resistance": {
+          "score": 4.0,
+          "max": 10,
+          "reason": "저항선 접근"
+        }
+      },
+      "entry_condition": "지지선(165) 확인 후 진입 또는 저항선(186) 돌파 시",
+      "stop_loss": "160 (지지선 -3%)",
+      "target_price": "186 (저항선)",
+      "ticker": "NVDA",
+      "raw_indicators": {
+        "rsi": 49.9,
+        "rsi_signal": "중립",
+        "bb_pct": 0.533,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 0.74,
+        "trend": "sideways",
+        "price_change_5d": 7.83,
+        "price_change_20d": -2.49,
+        "support": 165.17,
+        "resistance": 186.03,
+        "current_price": 178.1
+      }
+    },
+    {
+      "chart_score": 38.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 38/100 (관망). 주의: 상단 돌파 — 극과열, 거래량 부진 — 관심 저조. 횡보, RSI 60.",
+      "signals": [],
+      "warnings": [
+        "상단 돌파 — 극과열",
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 10.0,
+          "max": 20,
+          "reason": "중립 상단"
+        },
+        "bollinger": {
+          "score": 0.0,
+          "max": 15,
+          "reason": "상단 돌파 — 극과열"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 7.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 8.0,
+          "max": 10,
+          "reason": "5d:+13.0% / 20d:+9.3%"
+        },
+        "support_resistance": {
+          "score": 1.0,
+          "max": 10,
+          "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+        }
+      },
+      "entry_condition": "지지선(193) 확인 후 진입 또는 저항선(222) 돌파 시",
+      "stop_loss": "188 (지지선 -3%)",
+      "target_price": "222 (저항선)",
+      "ticker": "AMD",
+      "raw_indicators": {
+        "rsi": 59.9,
+        "rsi_signal": "중립",
+        "bb_pct": 0.98,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 0.77,
+        "trend": "sideways",
+        "price_change_5d": 13.0,
+        "price_change_20d": 9.3,
+        "support": 193.39,
+        "resistance": 221.53,
+        "current_price": 221.53
+      }
+    },
+    {
+      "chart_score": 45.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 45/100 (관망). 주의: 데드크로스 임박 — 매도 준비. 하락추세, RSI 42.",
+      "signals": [],
+      "warnings": [
+        "데드크로스 임박 — 매도 준비"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 8.0,
+          "max": 15,
+          "reason": "중간 — 중립"
+        },
+        "macd": {
+          "score": 2.0,
+          "max": 15,
+          "reason": "데드크로스 임박 — 매도 준비"
+        },
+        "volume": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "평균 거래량"
+        },
+        "trend": {
+          "score": 5.0,
+          "max": 15,
+          "reason": "하락추세 / 하락추세 내 반등 +4.8%"
+        },
+        "momentum": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "5d:+4.8% / 20d:-5.5%"
+        },
+        "support_resistance": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "중간 구간"
+        }
+      },
+      "entry_condition": "지지선(85) 확인 후 진입 또는 저항선(95) 돌파 시",
+      "stop_loss": "83 (지지선 -3%)",
+      "target_price": "95 (저항선)",
+      "ticker": "UAL",
+      "raw_indicators": {
+        "rsi": 42.3,
+        "rsi_signal": "중립",
+        "bb_pct": 0.337,
+        "macd_cross": "approaching_dead",
+        "macd_hist_trend": "falling",
+        "volume_ratio": 1.14,
+        "trend": "downtrend",
+        "price_change_5d": 4.79,
+        "price_change_20d": -5.53,
+        "support": 85.21,
+        "resistance": 95.08,
+        "current_price": 89.29
+      }
+    },
+    {
+      "chart_score": 52.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 52/100 (관망). 긍정: 골든크로스 임박 — 매수 준비. 횡보, RSI 53.",
+      "signals": [
+        "골든크로스 임박 — 매수 준비"
+      ],
+      "warnings": [],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "중간~상단 — 추세 유지"
+        },
+        "macd": {
+          "score": 11.0,
+          "max": 15,
+          "reason": "골든크로스 임박 — 매수 준비"
+        },
+        "volume": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "평균 거래량"
+        },
+        "trend": {
+          "score": 7.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "5d:+1.0% / 20d:+1.4%"
+        },
+        "support_resistance": {
+          "score": 4.0,
+          "max": 10,
+          "reason": "저항선 접근"
+        }
+      },
+      "entry_condition": "지지선(23,000) 확인 후 진입 또는 저항선(26,350) 돌파 시",
+      "stop_loss": "22,310 (지지선 -3%)",
+      "target_price": "26,350 (저항선)",
+      "ticker": "003490",
+      "raw_indicators": {
+        "rsi": 52.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.636,
+        "macd_cross": "approaching_golden",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 1.38,
+        "trend": "sideways",
+        "price_change_5d": 1.01,
+        "price_change_20d": 1.42,
+        "support": 23000.0,
+        "resistance": 26350.0,
+        "current_price": 24950.0
+      }
+    },
+    {
+      "chart_score": 45.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 45/100 (관망). 긍정: 상승추세 / 5일 +8.1% 추세 일치. 주의: 상단 근접 — 과열, 거래량 부진 — 관심 저조. 상승추세, RSI 59.",
+      "signals": [
+        "상승추세 / 5일 +8.1% 추세 일치"
+      ],
+      "warnings": [
+        "상단 근접 — 과열",
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 10.0,
+          "max": 20,
+          "reason": "중립 상단"
+        },
+        "bollinger": {
+          "score": 2.0,
+          "max": 15,
+          "reason": "상단 근접 — 과열"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 13.0,
+          "max": 15,
+          "reason": "상승추세 / 5일 +8.1% 추세 일치"
+        },
+        "momentum": {
+          "score": 7.0,
+          "max": 10,
+          "reason": "5d:+8.1% / 20d:+8.1%"
+        },
+        "support_resistance": {
+          "score": 1.0,
+          "max": 10,
+          "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+        }
+      },
+      "entry_condition": "지지선(258) 확인 후 진입 또는 저항선(289) 돌파 시",
+      "stop_loss": "250 (지지선 -3%)",
+      "target_price": "289 (저항선)",
+      "ticker": "MYRG",
+      "raw_indicators": {
+        "rsi": 59.1,
+        "rsi_signal": "중립",
+        "bb_pct": 0.864,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 0.91,
+        "trend": "uptrend",
+        "price_change_5d": 8.14,
+        "price_change_20d": 8.06,
+        "support": 257.7,
+        "resistance": 289.31,
+        "current_price": 288.85
+      }
+    },
+    {
+      "chart_score": 41.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 41/100 (관망). 주의: 데드크로스 임박 — 매도 준비. 횡보, RSI 51.",
+      "signals": [],
+      "warnings": [
+        "데드크로스 임박 — 매도 준비"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "중간~상단 — 추세 유지"
+        },
+        "macd": {
+          "score": 2.0,
+          "max": 15,
+          "reason": "데드크로스 임박 — 매도 준비"
+        },
+        "volume": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "평균 거래량"
+        },
+        "trend": {
+          "score": 7.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "5d:+3.9% / 20d:+8.3%"
+        },
+        "support_resistance": {
+          "score": 2.0,
+          "max": 10,
+          "reason": "저항선(67.99) 부근 — 돌파 여부 관건"
+        }
+      },
+      "entry_condition": "지지선(58) 확인 후 진입 또는 저항선(68) 돌파 시",
+      "stop_loss": "56 (지지선 -3%)",
+      "target_price": "68 (저항선)",
+      "ticker": "DAL",
+      "raw_indicators": {
+        "rsi": 50.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.623,
+        "macd_cross": "approaching_dead",
+        "macd_hist_trend": "falling",
+        "volume_ratio": 1.08,
+        "trend": "sideways",
+        "price_change_5d": 3.85,
+        "price_change_20d": 8.32,
+        "support": 57.94,
+        "resistance": 67.99,
+        "current_price": 65.62
+      }
+    },
+    {
+      "chart_score": 49.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 49/100 (관망). 긍정: 골든크로스 — 강한 매수 신호, 거래량 폭증 — 변동성 확대. 주의: 상단 돌파 — 극과열. 횡보, RSI 68.",
+      "signals": [
+        "골든크로스 — 강한 매수 신호",
+        "거래량 폭증 — 변동성 확대"
+      ],
+      "warnings": [
+        "상단 돌파 — 극과열"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 6.0,
+          "max": 20,
+          "reason": "과매수 접근 — 주의"
+        },
+        "bollinger": {
+          "score": 0.0,
+          "max": 15,
+          "reason": "상단 돌파 — 극과열"
+        },
+        "macd": {
+          "score": 15.0,
+          "max": 15,
+          "reason": "골든크로스 — 강한 매수 신호"
+        },
+        "volume": {
+          "score": 10.0,
+          "max": 15,
+          "reason": "거래량 폭증 — 변동성 확대"
+        },
+        "trend": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "횡보 / 20일 강세"
+        },
+        "momentum": {
+          "score": 8.0,
+          "max": 10,
+          "reason": "5d:+18.0% / 20d:+26.8%"
+        },
+        "support_resistance": {
+          "score": 1.0,
+          "max": 10,
+          "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+        }
+      },
+      "entry_condition": "지지선(142,100) 확인 후 진입 또는 저항선(188,700) 돌파 시",
+      "stop_loss": "137,837 (지지선 -3%)",
+      "target_price": "188,700 (저항선)",
+      "ticker": "000720",
+      "raw_indicators": {
+        "rsi": 67.6,
+        "rsi_signal": "중립",
+        "bb_pct": 1.251,
+        "macd_cross": "golden",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 3.98,
+        "trend": "sideways",
+        "price_change_5d": 18.01,
+        "price_change_20d": 26.81,
+        "support": 142100.0,
+        "resistance": 188700.0,
+        "current_price": 188700.0
+      }
+    },
+    {
+      "chart_score": 43.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 43/100 (관망). 주의: 상단 돌파 — 극과열. 횡보, RSI 52.",
+      "signals": [],
+      "warnings": [
+        "상단 돌파 — 극과열"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 0.0,
+          "max": 15,
+          "reason": "상단 돌파 — 극과열"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 8.0,
+          "max": 15,
+          "reason": "거래량 급증"
+        },
+        "trend": {
+          "score": 7.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "5d:+3.1% / 20d:+0.4%"
+        },
+        "support_resistance": {
+          "score": 1.0,
+          "max": 10,
+          "reason": "저항선 돌파 시도 중 — 성공 시 급등, 실패 시 되돌림"
+        }
+      },
+      "entry_condition": "지지선(4,990) 확인 후 진입 또는 저항선(5,350) 돌파 시",
+      "stop_loss": "4,840 (지지선 -3%)",
+      "target_price": "5,350 (저항선)",
+      "ticker": "089590",
+      "raw_indicators": {
+        "rsi": 51.9,
+        "rsi_signal": "중립",
+        "bb_pct": 0.954,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 2.12,
+        "trend": "sideways",
+        "price_change_5d": 3.08,
+        "price_change_20d": 0.38,
+        "support": 4990.0,
+        "resistance": 5350.0,
+        "current_price": 5350.0
+      }
+    },
+    {
+      "chart_score": 55.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 55/100 (관망). 긍정: 하단~중간 — 상승 여력, 골든크로스 임박 — 매수 준비. 주의: 하락추세 / 20일 약세. 하락추세, RSI 41.",
+      "signals": [
+        "하단~중간 — 상승 여력",
+        "골든크로스 임박 — 매수 준비"
+      ],
+      "warnings": [
+        "하락추세 / 20일 약세"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 10.0,
+          "max": 15,
+          "reason": "하단~중간 — 상승 여력"
+        },
+        "macd": {
+          "score": 11.0,
+          "max": 15,
+          "reason": "골든크로스 임박 — 매수 준비"
+        },
+        "volume": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "평균 거래량"
+        },
+        "trend": {
+          "score": 2.0,
+          "max": 15,
+          "reason": "하락추세 / 20일 약세"
+        },
+        "momentum": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "5d:+0.7% / 20d:-13.6%"
+        },
+        "support_resistance": {
+          "score": 8.0,
+          "max": 10,
+          "reason": "지지선 부근 — 매수 관심"
+        }
+      },
+      "entry_condition": "지지선(105) 확인 후 진입 또는 저항선(123) 돌파 시",
+      "stop_loss": "102 (지지선 -3%)",
+      "target_price": "123 (저항선)",
+      "ticker": "ROAD",
+      "raw_indicators": {
+        "rsi": 40.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.216,
+        "macd_cross": "approaching_golden",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 1.0,
+        "trend": "downtrend",
+        "price_change_5d": 0.72,
+        "price_change_20d": -13.57,
+        "support": 104.92,
+        "resistance": 122.52,
+        "current_price": 106.72
+      }
+    },
+    {
+      "chart_score": 52.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 52/100 (관망). 횡보, RSI 49.",
+      "signals": [],
+      "warnings": [],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "중간~상단 — 추세 유지"
+        },
+        "macd": {
+          "score": 9.0,
+          "max": 15,
+          "reason": "크로스 없으나 히스토그램 상승"
+        },
+        "volume": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "평균 거래량"
+        },
+        "trend": {
+          "score": 7.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 8.0,
+          "max": 10,
+          "reason": "5d:+15.2% / 20d:+3.8%"
+        },
+        "support_resistance": {
+          "score": 4.0,
+          "max": 10,
+          "reason": "저항선 접근"
+        }
+      },
+      "entry_condition": "지지선(80) 확인 후 진입 또는 저항선(96) 돌파 시",
+      "stop_loss": "77 (지지선 -3%)",
+      "target_price": "96 (저항선)",
+      "ticker": "RMBS",
+      "raw_indicators": {
+        "rsi": 48.9,
+        "rsi_signal": "중립",
+        "bb_pct": 0.534,
+        "macd_cross": "none",
+        "macd_hist_trend": "rising",
+        "volume_ratio": 1.06,
+        "trend": "sideways",
+        "price_change_5d": 15.23,
+        "price_change_20d": 3.78,
+        "support": 79.73,
+        "resistance": 95.93,
+        "current_price": 91.87
+      }
+    },
+    {
+      "chart_score": 43.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 43/100 (관망). 긍정: 상승추세 / 5일 +7.1% 추세 일치 / 20일 강세. 주의: 데드크로스 임박 — 매도 준비, 거래량 부진 — 관심 저조. 상승추세, RSI 59.",
+      "signals": [
+        "상승추세 / 5일 +7.1% 추세 일치 / 20일 강세"
+      ],
+      "warnings": [
+        "데드크로스 임박 — 매도 준비",
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 10.0,
+          "max": 20,
+          "reason": "중립 상단"
+        },
+        "bollinger": {
+          "score": 4.0,
+          "max": 15,
+          "reason": "상단 접근 — 과열 주의"
+        },
+        "macd": {
+          "score": 2.0,
+          "max": 15,
+          "reason": "데드크로스 임박 — 매도 준비"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 15.0,
+          "max": 15,
+          "reason": "상승추세 / 5일 +7.1% 추세 일치 / 20일 강세"
+        },
+        "momentum": {
+          "score": 7.0,
+          "max": 10,
+          "reason": "5d:+7.1% / 20d:+15.2%"
+        },
+        "support_resistance": {
+          "score": 2.0,
+          "max": 10,
+          "reason": "저항선(100.85) 부근 — 돌파 여부 관건"
+        }
+      },
+      "entry_condition": "지지선(83) 확인 후 진입 또는 저항선(101) 돌파 시",
+      "stop_loss": "81 (지지선 -3%)",
+      "target_price": "101 (저항선)",
+      "ticker": "ACLS",
+      "raw_indicators": {
+        "rsi": 59.1,
+        "rsi_signal": "중립",
+        "bb_pct": 0.766,
+        "macd_cross": "approaching_dead",
+        "macd_hist_trend": "flat",
+        "volume_ratio": 0.7,
+        "trend": "uptrend",
+        "price_change_5d": 7.12,
+        "price_change_20d": 15.24,
+        "support": 83.19,
+        "resistance": 100.85,
+        "current_price": 96.87
+      }
+    },
+    {
+      "chart_score": 41.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 41/100 (관망). 주의: 데드크로스 임박 — 매도 준비. 횡보, RSI 45.",
+      "signals": [],
+      "warnings": [
+        "데드크로스 임박 — 매도 준비"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "중간~상단 — 추세 유지"
+        },
+        "macd": {
+          "score": 2.0,
+          "max": 15,
+          "reason": "데드크로스 임박 — 매도 준비"
+        },
+        "volume": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "평균 거래량"
+        },
+        "trend": {
+          "score": 5.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 6.0,
+          "max": 10,
+          "reason": "5d:+4.2% / 20d:-0.4%"
+        },
+        "support_resistance": {
+          "score": 4.0,
+          "max": 10,
+          "reason": "저항선 접근"
+        }
+      },
+      "entry_condition": "지지선(16) 확인 후 진입 또는 저항선(17) 돌파 시",
+      "stop_loss": "15 (지지선 -3%)",
+      "target_price": "17 (저항선)",
+      "ticker": "SNCY",
+      "raw_indicators": {
+        "rsi": 45.2,
+        "rsi_signal": "중립",
+        "bb_pct": 0.555,
+        "macd_cross": "approaching_dead",
+        "macd_hist_trend": "falling",
+        "volume_ratio": 1.16,
+        "trend": "sideways",
+        "price_change_5d": 4.22,
+        "price_change_20d": -0.36,
+        "support": 15.54,
+        "resistance": 17.21,
+        "current_price": 16.54
+      }
+    },
+    {
+      "chart_score": 39.0,
+      "timing": "관망",
+      "chart_summary": "차트점수 39/100 (관망). 주의: 데드크로스 임박 — 매도 준비, 거래량 부진 — 관심 저조. 횡보, RSI 44.",
+      "signals": [],
+      "warnings": [
+        "데드크로스 임박 — 매도 준비",
+        "거래량 부진 — 관심 저조"
+      ],
+      "score_breakdown": {
+        "rsi": {
+          "score": 12.0,
+          "max": 20,
+          "reason": "중립 하단"
+        },
+        "bollinger": {
+          "score": 6.0,
+          "max": 15,
+          "reason": "중간~상단 — 추세 유지"
+        },
+        "macd": {
+          "score": 2.0,
+          "max": 15,
+          "reason": "데드크로스 임박 — 매도 준비"
+        },
+        "volume": {
+          "score": 3.0,
+          "max": 15,
+          "reason": "거래량 부진 — 관심 저조"
+        },
+        "trend": {
+          "score": 5.0,
+          "max": 15,
+          "reason": "횡보"
+        },
+        "momentum": {
+          "score": 7.0,
+          "max": 10,
+          "reason": "5d:+5.5% / 20d:-2.1%"
+        },
+        "support_resistance": {
+          "score": 4.0,
+          "max": 10,
+          "reason": "저항선 접근"
+        }
+      },
+      "entry_condition": "지지선(75) 확인 후 진입 또는 저항선(85) 돌파 시",
+      "stop_loss": "72 (지지선 -3%)",
+      "target_price": "85 (저항선)",
+      "ticker": "ALGT",
+      "raw_indicators": {
+        "rsi": 44.3,
+        "rsi_signal": "중립",
+        "bb_pct": 0.537,
+        "macd_cross": "approaching_dead",
+        "macd_hist_trend": "falling",
+        "volume_ratio": 0.94,
+        "trend": "sideways",
+        "price_change_5d": 5.46,
+        "price_change_20d": -2.11,
+        "support": 74.66,
+        "resistance": 84.89,
+        "current_price": 80.74
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ticker": "MRCY",
+  "name": "Mercury Systems",
+  "theme": "방위산업/드론",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "미국 우주개발국(SDA) Tranche 3용 위성 고용량 솔리드 스테이트 데이터 레코더 공급 계약 수주",
+      "date": "2026-04-02",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "역대 최고치인 15억 달러 규모 수주 잔고 달성 및 본격적인 실적 턴어라운드 진입",
+      "date": "2026-04-07",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수익성 우려",
+      "description": "과거 체결되었던 저마진 계약들의 잔여 물량으로 인한 단기 이익률 부담",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "SDA Tranche 3 핵심 부품 공급 계약을 따내며 우주 방산 및 무인기 부품 분야의 기술력을 입증했습니다. 역대급 수주 잔고를 바탕으로 실적 회복 신호를 강하게 보내고 있으며 기관들의 긍정적인 평가가 늘고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표주가 $87~$97 (낙관적 전망 최대 $120), 보유 및 매수 의견 혼재",
+  "score_hint": 80
+}

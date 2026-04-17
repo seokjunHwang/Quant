@@ -1,0 +1,23 @@
+{# 공용 매크로 #}
+
+{% macro change_badge(pct) %}
+  {% if pct is none %}
+    <span class="chg flat">—</span>
+  {% elif pct > 0 %}
+    <span class="chg up">+{{ "%.2f"|format(pct) }}%</span>
+  {% elif pct < 0 %}
+    <span class="chg down">{{ "%.2f"|format(pct) }}%</span>
+  {% else %}
+    <span class="chg flat">0.00%</span>
+  {% endif %}
+{% endmacro %}
+
+{% macro vix_zone(zone) %}
+  {% set cls = {'평시':'zone-calm','긴장':'zone-warn','공포':'zone-fear','극공포':'zone-panic'}.get(zone,'zone-calm') %}
+  <span class="vix-zone {{ cls }}">{{ zone or '—' }}</span>
+{% endmacro %}
+
+{% macro severity_badge(sev) %}
+  {% set cls = {'critical':'sev-critical','high':'sev-high','medium':'sev-med','low':'sev-low'}.get(sev,'sev-low') %}
+  <span class="sev {{ cls }}">{{ sev }}</span>
+{% endmacro %}

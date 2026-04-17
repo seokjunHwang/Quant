@@ -1,0 +1,36 @@
+{
+  "ticker": "AMSC",
+  "name": "American Superconductor",
+  "theme": "전력기기/에너지전환",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "최근 분기 EPS $2.75 기록 및 5분기 연속 흑자 전환 달성 (marketbeat.com)",
+      "date": "2026-02",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "12개월 수주잔고 $250M(약 3,400억원) 초과 달성 및 1분기 긍정적 가이던스 제시 (stocktitan.net)",
+      "date": "2026-03",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "미국 전력망 현대화 및 해군(Naval) 전력 시스템 수요 지속 증가",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "주가 변동성",
+      "description": "소형주(Small Cap) 특성상 실적에 따른 단기 주가 급등락 폭이 큼",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "5분기 연속 흑자와 사상 최대 수주잔고(2억 5천만 달러)를 기록하며 강한 턴어라운드를 보여주고 있습니다. 기관 투자자의 매수세(보유 비중 74%)가 유입되고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy (목표주가 $52.33 ~ $68.00)",
+  "score_hint": 90
+}

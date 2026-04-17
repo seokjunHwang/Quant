@@ -23,13 +23,29 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 # 노이즈 억제
-for noisy in ["httpx", "httpcore", "yfinance", "urllib3", "requests"]:
+for noisy in ["httpx", "httpcore", "yfinance", "urllib3", "requests", "pykrx"]:
     logging.getLogger(noisy).setLevel(logging.WARNING)
+
+# pykrx의 버그: util.py에서 logging.info(args, kwargs)를 호출해 root 로거에
+# 잘못된 포맷으로 기록 → logging 내부에서 TypeError 발생 → stderr에 긴
+# "--- Logging error ---" 트레이스백. 기능상 무해하므로 완전히 차단.
+logging.raiseExceptions = False
+
+
+class _DropRootNoise(logging.Filter):
+    """pykrx가 root 로거로 직접 찍는 INFO 노이즈를 드롭."""
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        return not (record.name == "root" and record.levelno <= logging.INFO)
+
+
+for _h in logging.getLogger().handlers:
+    _h.addFilter(_DropRootNoise())
 
 logger = logging.getLogger(__name__)
 
 from src.utils.config import (
-    DATA_DIR, now_kst,
+    DATA_DIR, DAILY_DIR, now_kst,
     MAX_REPORT_KR, MAX_REPORT_US, MAX_CHART,
     MAX_RESEARCH_KR, MAX_RESEARCH_US,
 )
@@ -40,6 +56,7 @@ from src.utils.claude_cli import get_claude_usage
 # ── 스텝 디렉토리 매핑 ────────────────────────────────────────────────────────
 
 STEP_DIRS = {
+    "step0": "step0_글로벌이벤트",
     "step1": "step1_데이터수집",
     "step2": "step2_테마분석",
     "step3": "step3_종목필터링",
@@ -50,7 +67,7 @@ STEP_DIRS = {
 
 def _step_dir(today: str, market: str, step: str) -> Path:
     """step별 저장 디렉토리 반환 + 생성."""
-    d = DATA_DIR / today / market / STEP_DIRS.get(step, step)
+    d = DAILY_DIR / today / market / STEP_DIRS.get(step, step)
     d.mkdir(parents=True, exist_ok=True)
     return d
 
@@ -95,6 +112,9 @@ def _save_step1_md(data: dict, today: str, market: str) -> None:
     # 뉴스
     news = data.get("news", {})
     for mkt, ndata in news.items():
+        # Gemini가 [{...}] 리스트로 반환하는 경우 방어
+        if isinstance(ndata, list):
+            ndata = ndata[0] if ndata else {}
         label = "국장 (KR)" if mkt == "kr" else "미장 (US)"
         lines += ["", f"## {label} 뉴스", ""]
 
@@ -117,6 +137,8 @@ def _save_step1_md(data: dict, today: str, market: str) -> None:
 
     # 프리마켓
     premarket = data.get("premarket", {})
+    if isinstance(premarket, list):
+        premarket = premarket[0] if premarket else {}
     movers = premarket.get("premarket_movers", [])
     if movers:
         lines += ["", "## 미장 프리마켓 주요 종목", ""]
@@ -191,6 +213,38 @@ def _print_step(n: int, title: str) -> None:
 
 
 # ── 파이프라인 단계 ──────────────────────────────────────────────────────────
+
+def run_step0(market: str, today: str, dry_run: bool) -> dict:
+    """Step 0: 글로벌 이벤트 수집 + 경제 캘린더."""
+    _print_step(0, "글로벌 이벤트 수집")
+
+    cache = _load_cache(today, market, "step0")
+    if cache:
+        print("  [캐시] step0 데이터 로드")
+        return cache
+
+    if dry_run:
+        print("  [dry-run] 스킵")
+        return {}
+
+    from src.step0_globe.events_gemini import fetch_global_events, fetch_economic_calendar
+
+    print("  글로벌 이벤트 검색...")
+    events = fetch_global_events()
+    print(f"  → 이벤트 {len(events.get('events', []))}건")
+
+    print("  경제 캘린더 검색...")
+    calendar = fetch_economic_calendar()
+    print(f"  → 캘린더 {len(calendar.get('calendar', []))}건")
+
+    result = {
+        "events_raw": events,
+        "calendar_raw": calendar,
+    }
+
+    _save_cache(result, today, market, "step0")
+    return result
+
 
 def run_step1(market: str, today: str, dry_run: bool) -> dict:
     """Step 1: 데이터 수집 (뉴스 + 매크로 + DART)."""
@@ -306,7 +360,7 @@ def run_step3(
     # Gemini 리서치
     research_results = []
     if not dry_run and passed:
-        from src.step3_research.stock_gemini import research_stocks_batch
+        from src.step3_research.stock_gemini_cli import research_stocks_batch
         # 국장/미장 분리
         kr_stocks = [s for s in passed if s.get("market") == "kr"]
         us_stocks = [s for s in passed if s.get("market") == "us"]
@@ -329,6 +383,25 @@ def run_step3(
             # passed 업데이트
             kr_tickers = {s.get("ticker") for s in kr_passed}
             passed = [s for s in passed if s.get("ticker") not in kr_tickers] + enriched_kr
+
+    # 시총 수집 + 상폐/유효하지 않은 종목 제거
+    if not dry_run:
+        from src.step1_collect.market_data import fetch_stock_info
+        print(f"\n  시총 데이터 수집...")
+        delisted = []
+        for stock in passed:
+            ticker = stock.get("ticker", "")
+            mkt = stock.get("market", "us")
+            if not stock.get("market_cap"):
+                info = fetch_stock_info(ticker, market=mkt)
+                stock["market_cap"] = info.get("market_cap", 0)
+                # US 종목 시총 0 = 상폐/유효하지 않은 티커
+                if mkt == "us" and not stock["market_cap"]:
+                    delisted.append(ticker)
+
+        if delisted:
+            print(f"  상폐/무효 종목 제외: {', '.join(delisted)}")
+            passed = [s for s in passed if s.get("ticker") not in delisted]
 
     # 점수 계산
     scored = score_candidates(passed, research_results)
@@ -455,8 +528,8 @@ def run_step5(
 def main():
     parser = argparse.ArgumentParser(description="v05 종목 추천 파이프라인")
     parser.add_argument("--market", choices=["kr", "us", "all"], default="all")
-    parser.add_argument("--from", dest="from_step", default="step1",
-                        choices=["step1", "step2", "step3", "step4", "step5"])
+    parser.add_argument("--from", dest="from_step", default="step0",
+                        choices=["step0", "step1", "step2", "step3", "step4", "step5"])
     parser.add_argument("--dry-run", action="store_true",
                         help="데이터 수집만, AI 호출 없음")
     args = parser.parse_args()
@@ -465,7 +538,7 @@ def main():
     dry_run = args.dry_run
     today = now_kst().strftime("%Y%m%d")
 
-    STEPS = ["step1", "step2", "step3", "step4", "step5"]
+    STEPS = ["step0", "step1", "step2", "step3", "step4", "step5"]
     start_idx = STEPS.index(args.from_step)
 
     print(f"\n{'='*60}")
@@ -476,26 +549,50 @@ def main():
     # 데이터 저장소
     data = {}
 
-    # from step2+ 이면 step1 캐시 강제 로드
+    # 캐시 강제 로드
     if start_idx > 0:
-        data["step1"] = _load_cache(today, market, "step1") or {}
+        data["step0"] = _load_cache(today, market, "step0") or {}
     if start_idx > 1:
-        data["step2"] = _load_cache(today, market, "step2") or {}
+        data["step1"] = _load_cache(today, market, "step1") or {}
     if start_idx > 2:
-        data["step3"] = _load_cache(today, market, "step3") or {}
+        data["step2"] = _load_cache(today, market, "step2") or {}
     if start_idx > 3:
+        data["step3"] = _load_cache(today, market, "step3") or {}
+    if start_idx > 4:
         data["step4"] = _load_cache(today, market, "step4") or {}
 
     try:
         if start_idx <= 0:
-            data["step1"] = run_step1(market, today, dry_run)
+            data["step0"] = run_step0(market, today, dry_run)
         if start_idx <= 1:
-            data["step2"] = run_step2(data["step1"], market, today, dry_run)
+            data["step1"] = run_step1(market, today, dry_run)
         if start_idx <= 2:
-            data["step3"] = run_step3(data["step1"], data["step2"], market, today, dry_run)
+            data["step2"] = run_step2(data["step1"], market, today, dry_run)
+
+        # Step 0 impact analysis (Step 0 + Step 2 완료 후)
+        if not dry_run and data.get("step0") and data.get("step2"):
+            try:
+                _print_step(0, "이벤트 영향 분석 (Claude)")
+                from src.step0_globe.impact_claude import analyze_events_impact
+                step0 = data["step0"]
+                impact = analyze_events_impact(
+                    step0.get("events_raw", {}),
+                    step0.get("calendar_raw", {}),
+                    data.get("step2"),
+                )
+                data["step0"]["impact"] = impact
+                _save_cache(data["step0"], today, market, "step0")
+                ev_count = len(impact.get("events", []))
+                up_count = len(impact.get("upcoming", []))
+                print(f"  → 이벤트 {ev_count}건, 예정 {up_count}건 분석 완료")
+            except Exception as e:
+                logger.warning(f"이벤트 영향 분석 스킵: {e}")
+
         if start_idx <= 3:
-            data["step4"] = run_step4(data["step3"], market, today, dry_run)
+            data["step3"] = run_step3(data["step1"], data["step2"], market, today, dry_run)
         if start_idx <= 4:
+            data["step4"] = run_step4(data["step3"], market, today, dry_run)
+        if start_idx <= 5:
             data["step5"] = run_step5(
                 data["step4"], data["step2"], data["step1"], market, today, dry_run
             )
@@ -521,6 +618,12 @@ def main():
             idx["latest"] = web_dates[0] if web_dates else ""
             save_web_json(idx, "dates.json")
             print("  웹 데이터 빌드 완료")
+            # 글로벌 이벤트 데이터 빌드
+            step0 = data.get("step0", {})
+            impact = step0.get("impact", {})
+            if impact:
+                save_web_json(impact, f"events_{today}.json")
+                print("  이벤트 데이터 빌드 완료")
     except Exception as e:
         logger.warning(f"웹 빌드 스킵: {e}")
 

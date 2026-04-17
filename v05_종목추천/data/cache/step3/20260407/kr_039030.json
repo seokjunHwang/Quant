@@ -1,0 +1,30 @@
+{
+  "ticker": "039030",
+  "name": "이오테크닉스",
+  "theme": "반도체/AI",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "낸드 고단화 및 HBM 시장 확대로 레이저 커팅 및 어닐링 장비 수요 급증 (edaily, bondweb 등)",
+      "date": "2026-04-07",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "외국인 및 기관의 강력한 동반 매수세 (4월 6일 기준 외국인 약 68억 순매수)",
+      "date": "2026-04-06",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 변동성",
+      "description": "전고점 부근 돌파 시도에 따른 단기 차익 실현 매물 출회 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "낸드 400단 고단화 및 HBM 수혜로 장비 수요가 크게 늘며 실적 레벨업이 기대됨. 외국인과 기관의 강력한 수급이 유입되며 증권가 목표가 상향 릴레이 중.",
+  "momentum": "bullish",
+  "analyst_view": "435,000원 ~ 485,000원 (최고 550,000원 제시)",
+  "score_hint": 90
+}

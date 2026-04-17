@@ -1,0 +1,24 @@
+{
+  "ticker": "ATKR",
+  "name": "Atkore",
+  "theme": "전력기기 / AI 데이터센터 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "고수익 전력 인프라 핵심 사업 집중을 위한 비핵심 사업(HDPE) 매각",
+      "date": "2026-04-14",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 성장 정체",
+      "description": "최근 분기 매출이 전년 대비 소폭 감소(-0.9%)하는 등 단기 실적 모멘텀이 경쟁사 대비 약함",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "비핵심 파이프 사업(HDPE)을 매각하며 데이터센터 및 태양광 등 핵심 전력 인프라로 포트폴리오 재편을 시도 중이나, 단기적인 실적 폭발력이 부족하여 주가는 박스권에서 정체된 흐름을 보이고 있습니다.",
+  "momentum": "neutral",
+  "analyst_view": "매수 및 보유 (목표주가 평균 약 75달러)",
+  "score_hint": 55
+}

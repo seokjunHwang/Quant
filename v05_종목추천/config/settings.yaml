@@ -13,16 +13,20 @@ universe:
 
 filtering:
   kr:
-    max_report: 7                 # 국장 최종 리포트 종목 수
+    max_report: 5                 # 국장 최종 리포트 종목 수
     large_cap_count: 2            # 대형주
-    small_mid_cap_count: 5        # 중소형주
-    max_research: 12              # Step3 국장 리서치 최대
+    small_mid_cap_count: 3        # 중소형주
+    max_research: 8               # Step3 국장 리서치 최대
+    hint_per_theme_large: 1       # 테마당 대형주 힌트
+    hint_per_theme_small: 2       # 테마당 중소형주 힌트
   us:
-    max_report: 20                # 미장 최종 리포트 종목 수
-    large_cap_count: 8            # 대형주
-    small_mid_cap_count: 12       # 중소형주
-    max_research: 25              # Step3 미장 리서치 최대
-  max_chart_analysis: 40          # Step4 차트 분석 최대 종목 수
+    max_report: 12                # 미장 최종 리포트 종목 수
+    large_cap_count: 5            # 대형주
+    small_mid_cap_count: 7        # 중소형주
+    max_research: 18              # Step3 미장 리서치 최대
+    hint_per_theme_large: 2       # 테마당 대형주 힌트
+    hint_per_theme_small: 5       # 테마당 중소형주 힌트
+  max_chart_analysis: 24          # Step4 차트 분석 최대 종목 수
   exclude_lockup_within_days: 30  # 보호예수 해제 30일 이내 제외
   exclude_rights_offering: true   # 유상증자 결정 공시 있으면 제외
 
@@ -43,5 +47,5 @@ gemini:
   search_context_limit: 5000     # 무료 월 한도
 
 claude:
-  model: "claude-opus-4-6"
+  model: "claude-sonnet-4-6"
   timeout_sec: 120

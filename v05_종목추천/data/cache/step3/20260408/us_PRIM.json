@@ -1,0 +1,30 @@
+{
+  "ticker": "PRIM",
+  "name": "Primoris Services",
+  "theme": "중동 재건/플랜트 건설",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "데이터센터 시장 진출을 위한 PayneCrest Electric 4.22억 달러 인수 발표 (출처: Benzinga)",
+      "date": "2026-04-01",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "Jefferies 등 주요 투자은행 목표주가 연이어 상향 조정 (출처: Investing)",
+      "date": "2026-04-07",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "재무/통합 리스크",
+      "description": "대규모 M&A에 따른 단기적 재무 부담 및 기업 통합 과정의 실행 리스크",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "데이터센터 및 전기 인프라 역량 강화를 위해 대형 인수를 단행하였으며, 가스 발전 및 신재생 에너지 인프라 수주 기대감으로 투심이 크게 개선됨.",
+  "momentum": "bullish",
+  "analyst_view": "Moderate Buy / Buy (목표가 $154.53 ~ $173.18)",
+  "score_hint": 85
+}

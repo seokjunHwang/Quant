@@ -1,0 +1,30 @@
+{
+  "ticker": "AMAT",
+  "name": "어플라이드머티리얼즈",
+  "theme": "반도체 / AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "차세대 2nm 공정용 신형 증착 장비(Precision Selective Nitride PECVD 등) 출시로 주가 급등 (stocktitan)",
+      "date": "2026-04-08",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "기술 혁신과 HBM 경쟁력 근거로 Wolfe Research 등 목표가 $500 릴레이 상향 (investing)",
+      "date": "2026-04-10",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "지정학적 리스크",
+      "description": "중국 시장에 대한 규제 심화 우려",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "2nm 이하 초미세 공정과 GAA 트랜지스터 구조의 핵심 난제를 해결하는 신규 장비를 발표하여 시장의 극찬을 받았으며, 목표주가 $500선까지 상향 조정되었습니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수 및 비중확대, 평균 목표주가 약 $400 (최고 $500)",
+  "score_hint": 95
+}

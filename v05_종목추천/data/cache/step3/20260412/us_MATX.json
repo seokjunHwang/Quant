@@ -1,0 +1,30 @@
+{
+  "ticker": "MATX",
+  "name": "Matson",
+  "theme": "조선/해운",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "새로운 무역 협정으로 인한 중국 노선(Fast Sea) 수요 증가 및 2025년 4분기 어닝 서프라이즈 (Financial Content)",
+      "date": "2026-04-12",
+      "impact": "high"
+    },
+    {
+      "type": "중립",
+      "content": "4억 2,500만 달러 규모의 신규 선박 건조 투자 계획 발표 (Matson)",
+      "date": "2026-04-12",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "운영 리스크",
+      "description": "미국 서안 항만 노조 협상 관련 불확실성 및 미중 무역 마찰 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "최근 2025년 4분기 실적이 시장 예상치를 크게 상회했습니다. 무역 협정 타결로 중국발 화물 수요가 호조를 보이고 있으나, 2026년 1분기 단기 영업이익은 전년 대비 다소 감소할 것이라는 가이던스를 제시했습니다.",
+  "momentum": "neutral",
+  "analyst_view": "투자의견 Hold, 평균 목표주가 $156.25",
+  "score_hint": 65
+}

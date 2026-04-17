@@ -1,0 +1,30 @@
+{
+  "ticker": "AVGO",
+  "name": "Broadcom",
+  "theme": "반도체/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "구글 및 앤스로픽과 5년 단위 차세대 TPU 설계/공급 대규모 계약 체결 (주요 외신)",
+      "date": "2026-04-01",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "AI 반도체 매출 전년 대비 106% 폭증 및 1분기 어닝 서프라이즈 (실적 발표)",
+      "date": "2026-03",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "내부자 매도",
+      "description": "CEO 훅 탄(Hock Tan)을 비롯한 일부 이사진의 주식 증여 및 매도",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "구글 등 빅테크와 대규모 차세대 맞춤형 AI 칩(TPU) 공급 계약을 맺으며 장기적인 폭발적 매출을 확보했습니다. AI 부문의 세 자릿수 성장세가 지속되며 월가의 극찬을 받고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "강력 매수, 평균 목표주가 $435 ~ $475 (최고 $630)",
+  "score_hint": 95
+}

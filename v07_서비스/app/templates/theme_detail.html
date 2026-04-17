@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}{{ theme.name }} 관련 종목 — {{ site_name }}{% endblock %}
+{% block description %}{{ theme.name }} 테마에 분류된 한국·미국 종목 리스트. {{ day.date_label }} 기준. 추천 아님.{% endblock %}
+
+{% block content %}
+  <p class="breadcrumb"><a href="/themes">← 테마 전체</a></p>
+
+  <section class="hero">
+    <p class="kicker">{{ day.date_label }} · 테마</p>
+    <h1>{{ theme.name }}</h1>
+    <div class="meta">
+      {% if theme.trading_type %}<span class="tag">{{ theme.trading_type }}</span>{% endif %}
+      {% if theme.duration %}<span class="tag">{{ theme.duration }}</span>{% endif %}
+      {% if theme.strength %}<span class="tag">강도: {{ theme.strength }}</span>{% endif %}
+    </div>
+    {% if theme.reason %}<p class="lede">{{ theme.reason }}</p>{% endif %}
+  </section>
+
+  {% if theme.risk %}
+  <section class="card warn">
+    <h2>참고 — 변동성·리스크 요인</h2>
+    <p>{{ theme.risk }}</p>
+  </section>
+  {% endif %}
+
+  <div class="row two-col">
+    <section class="card">
+      <h2>한국 종목 ({{ theme.stocks_kr|length }})</h2>
+      {% if theme.sectors_kr %}
+        <p class="muted small">관련 섹터: {{ theme.sectors_kr|join(' · ') }}</p>
+      {% endif %}
+      {% if theme.stocks_kr %}
+        <table class="stock-table">
+          <thead><tr><th>종목명</th><th>티커</th></tr></thead>
+          <tbody>
+            {% for s in theme.stocks_kr %}
+              <tr><td>{{ s.name }}</td><td class="mono">{{ s.ticker }}</td></tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="muted">해당 종목 정보 없음.</p>
+      {% endif %}
+    </section>
+
+    <section class="card">
+      <h2>미국 종목 ({{ theme.stocks_us|length }})</h2>
+      {% if theme.sectors_us %}
+        <p class="muted small">관련 섹터: {{ theme.sectors_us|join(' · ') }}</p>
+      {% endif %}
+      {% if theme.stocks_us %}
+        <table class="stock-table">
+          <thead><tr><th>종목명</th><th>티커</th></tr></thead>
+          <tbody>
+            {% for s in theme.stocks_us %}
+              <tr><td>{{ s.name }}</td><td class="mono">{{ s.ticker }}</td></tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="muted">해당 종목 정보 없음.</p>
+      {% endif %}
+    </section>
+  </div>
+
+  <section class="card notice">
+    <h2>주의사항</h2>
+    <ul>
+      <li>위 종목 리스트는 시장에서 해당 테마와 관련성이 언급된 기업을 <strong>가나다순으로 분류</strong>한 것입니다.</li>
+      <li>편입 여부와 사업 비중은 시점에 따라 달라질 수 있습니다.</li>
+      <li>본 페이지는 <strong>매수·매도 추천이 아닙니다.</strong> 투자 결정 전 반드시 본인이 직접 사실 확인을 하시기 바랍니다.</li>
+    </ul>
+  </section>
+{% endblock %}

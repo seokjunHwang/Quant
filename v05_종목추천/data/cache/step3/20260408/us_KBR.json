@@ -1,0 +1,30 @@
+{
+  "ticker": "KBR",
+  "name": "KBR Inc",
+  "theme": "중동 재건/플랜트 건설",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "리비아 Zallaf South 정유공장 및 사우디 Petro Rabigh/SATORP 장기 유지보수 계약 수주 (출처: StockTitan)",
+      "date": "2026-04-08",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "NASA 아르테미스 II 미션 실시간 관제 지원으로 우주항공 모멘텀 부각 (출처: Manila Times)",
+      "date": "2026-04-08",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실적 둔화",
+      "description": "지난 분기 매출이 컨센서스를 소폭 하회하는 등 외형 성장 속도 둔화 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "NASA 우주 프로젝트 참여로 기술력이 입증된 가운데, 중동 지역 정유공장 장기 유지보수 계약을 따내며 안정적인 캐시카우를 구축 중임.",
+  "momentum": "bullish",
+  "analyst_view": "Buy / Strong Buy (목표가 $51.50 ~ $57.00)",
+  "score_hint": 80
+}

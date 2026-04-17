@@ -1,0 +1,30 @@
+{
+  "ticker": "DVN",
+  "name": "Devon Energy",
+  "theme": "에너지/원유",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Coterra Energy와의 580억 달러 규모 대형 합병 반독점 심사 통과 (2분기 마무리 예정)",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "100% 미국 기반 자산 포트폴리오로 지정학적 리스크 회피 매력 부각 (월가 보고서)",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "정책/시장 리스크",
+      "description": "합병 이후 통합 과정에서의 불확실성 및 거시경제 둔화에 따른 원유 수요 감소 우려",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "Coterra Energy와의 초대형 합병이 임박한 가운데, 100% 미국 내 생산 포트폴리오가 중동 리스크의 완벽한 헷지 수단으로 주목받고 있습니다. 이에 따라 최근 다수 기관에서 목표주가를 60달러 이상으로 일제히 상향했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "투자의견 매수(Moderate Buy), 컨센서스 목표주가 $51.36~$58.00 (최고 $67.00)",
+  "score_hint": 90
+}

@@ -1,0 +1,24 @@
+{
+  "ticker": "CPE",
+  "name": "Callon Petroleum",
+  "theme": "에너지/원유",
+  "catalysts": [
+    {
+      "type": "중립",
+      "content": "APA Corporation(APA)에 완전 피인수되어 상장폐지 (1.0425비율로 주식 전환됨)",
+      "date": "2024-04-01",
+      "impact": "low"
+    }
+  ],
+  "risks": [
+    {
+      "type": "거래 불가",
+      "description": "이미 상장폐지된 종목으로 단독 주식 거래가 불가능함",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "Callon Petroleum은 2024년 4월 1일부로 APA Corporation(APA)에 인수 합병되어 뉴욕증권거래소에서 상장 폐지되었습니다. 기존 주주는 APA 주식을 교부받았으며, 현재는 APA의 주가 및 실적에 연동됩니다.",
+  "momentum": "neutral",
+  "analyst_view": "해당 없음 (존재하지 않는 독립 법인, APA 목표주가 $48~$55)",
+  "score_hint": 0
+}

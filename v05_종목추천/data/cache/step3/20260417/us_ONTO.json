@@ -1,0 +1,35 @@
+{
+  "ticker": "ONTO",
+  "name": "온투이노베이션",
+  "theme": "AI 인프라 / 반도체",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "최신 검사 장비 'Dragonfly G5'의 2.5D 첨단 AI 패키징용 승인 획득 및 6월 첫 출하 확정 (businesswire.com)",
+      "date": "2026-04-16",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "2026년 1분기 매출 잠정치 시장 예상 상회 및 2분기 매출 가이던스 상향 (investing.com)",
+      "date": "2026-04-16",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "경쟁 심화",
+      "description": "KLA 코퍼레이션 등 강력한 경쟁사와의 CoWoS 패키징 검사 시장 점유율 경쟁 지속",
+      "severity": "medium"
+    },
+    {
+      "type": "차익 실현",
+      "description": "상대적으로 높은 P/E 비율 형성으로 인한 단기 차익 실현 매물 출회 가능성",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "최신 첨단 패키징 검사 장비인 Dragonfly G5가 성공적으로 시장 승인을 받으며 AI 반도체 수요의 직접적인 수혜를 받게 되었습니다. 잠정 실적 호조에 따라 주요 투자은행들이 앞다투어 목표주가를 상향하고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "투자의견 매수/비중확대, 목표주가 상향 추세 (제프리스 $325, 캔터 피츠제럴드 $300)",
+  "score_hint": 85
+}

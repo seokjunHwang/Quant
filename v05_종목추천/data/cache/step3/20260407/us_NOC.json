@@ -1,0 +1,30 @@
+{
+  "ticker": "NOC",
+  "name": "Northrop Grumman",
+  "theme": "방위산업/드론",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "자율형 드론 'Lumberjack' 시연 성공 (미 육군 훈련)",
+      "date": "2026-04-01",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "NATO 국방비 증액으로 국제 매출 전년비 32% 성장세 유지",
+      "date": "2026-04-07",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "주가 변동성",
+      "description": "연초 급등 이후 최근 1개월간 약 7%의 기술적 가격 조정 발생",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "최근 자율형 무인기 'Lumberjack' 시연을 성공적으로 마치며 AI 적용 무기 체계 입지를 강화했습니다. 4월 21일 1분기 실적 발표를 앞두고 있으며 국제 방산 수요 증가를 바탕으로 강력한 성장 모멘텀이 유지되고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표가 $708.65 (주요 기관 $750~$815 제시), 완만한 매수 의견 지배적",
+  "score_hint": 75
+}

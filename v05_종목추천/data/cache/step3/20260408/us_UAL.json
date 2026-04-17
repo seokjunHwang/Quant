@@ -1,0 +1,30 @@
+{
+  "ticker": "UAL",
+  "name": "United Airlines",
+  "theme": "항공·운송 (유가 하락 수혜)",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "4월 21일 1분기 실적 발표 임박 및 2026년 EPS 가이던스 상향 (출처: Stockwatch)",
+      "date": "2026-04-08",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "새로운 프리미엄 객실 운임 구조 도입으로 고수익 고객 확보 기대 (출처: Benzinga)",
+      "date": "2026-04-08",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "기술적 하락",
+      "description": "4월 7일 단기 갭하락으로 인해 주요 이평선(100일, 200일) 하회",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "United Airlines는 4월 중순 프리미엄 운임제를 신규 도입하며 수익성 강화를 꾀하고 있습니다. 4월 21일 1분기 실적 발표를 앞두고 애널리스트들의 강력 매수(Strong Buy) 의견과 긍정적인 2026년 실적 가이던스가 유지되고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy, 평균 목표주가 $131.00 - $133.00",
+  "score_hint": 85
+}

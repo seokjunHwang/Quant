@@ -1,0 +1,36 @@
+{
+  "ticker": "J",
+  "name": "Jacobs Solutions",
+  "theme": "중동 재건 / 해외 건설",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "메인주 항만 전기화 계획 수주 (EPA 보조금 프로젝트)",
+      "date": "2026-04-13",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "시카고 I-290 고속도로 현대화 사업 2건 수주",
+      "date": "2026-04-09",
+      "impact": "high"
+    },
+    {
+      "type": "중립",
+      "content": "2026 회계연도 2분기 실적 발표 일정 확정 (5월 5일)",
+      "date": "2026-04-14",
+      "impact": "low"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수급 리스크",
+      "description": "최근 90일간 기관 투자자 보유 주식 수 8.35% 감소로 인한 단기 주가 하락",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "메인주 항만 및 시카고 고속도로 등 핵심 인프라 분야에서 대형 계약을 연달아 수주하며 강력한 수주 잔고 유지 중입니다. 5월 5일 실적 발표를 앞두고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수 우세, 평균 목표주가 $155",
+  "score_hint": 80
+}

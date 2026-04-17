@@ -1,0 +1,30 @@
+{
+  "ticker": "FLR",
+  "name": "Fluor Corporation",
+  "theme": "중동 재건/플랜트 건설",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "미국 텍사스 브라운스빌 정유공장(America First Refining) FEED 계약 수주 (출처: Fluor/Invest)",
+      "date": "2026-04-07",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "X-energy와 다우 텍사스 시설 소형모듈원전(SMR) 프로젝트 계약 체결 (출처: TradingView)",
+      "date": "2026-04-08",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "마진 압박",
+      "description": "과거 프로젝트 수행 과정에서의 마진 문제 및 비용 초과 리스크",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "텍사스 내 대규모 정유공장 및 SMR 원전 프로젝트 등 굵직한 수주 소식이 연이어 발표되며 강력한 수주잔고와 실적 턴어라운드 모멘텀 확보.",
+  "momentum": "bullish",
+  "analyst_view": "Moderate to Strong Buy (목표가 $54.33 ~ $55.00)",
+  "score_hint": 85
+}

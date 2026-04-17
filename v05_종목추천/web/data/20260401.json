@@ -1,0 +1,1018 @@
+{
+  "date": "20260401",
+  "generated_at": "2026-04-01T20:41:03.115517+09:00",
+  "market_summary": "미국-이란 종전 기대감에 나스닥 +3.8%, S&P500 +2.9% 급반등하며 VIX가 25.25로 17.5% 급락. 전일 KOSPI -4.3%, KOSDAQ -4.9% 폭락 이후 기술적 반등과 지정학 리스크 완화가 겹쳐 국내 증시도 강한 갭업 출발이 예상됨. 다만 외국인 9거래일 연속 순매도, 원/달러 1500원대 고착 등 구조적 불안은 여전하여 반등 시 차익실현 매물 경계 필요.",
+  "strategy": "전일 폭락 후 갭업 반등장에서 반도체·기술주 중심 단기 매수 후 분할 익절, 스윙은 WGBI 금융주·AI 인프라에 집중하되 종전 협상 경과에 따른 변동성 급변에 대비해 포지션 사이즈를 평소 70% 이하로 관리할 것.",
+  "market_view": "neutral — 전일 폭락 후 기술적 반등과 지정학 리스크 완화가 단기 상승 동력이나, 외국인 연속 순매도·환율 부담·종전 협상 불확실성이 상존하여 추세 전환보다는 '반등장 내 선별 대응'이 적절. 포지션 사이즈 평소 70% 이하 권장.",
+  "top_theme": "반도체/AI 기술주 반등 — 필라델피아 반도체 지수 +6.24% 급등 + 전일 국내 반도체주 급락에 따른 저가 매수 메리트가 가장 큰 단기 모멘텀",
+  "macro": {
+    "vix": {
+      "price": 25.25,
+      "change_pct": -17.51,
+      "prev_close": 30.61
+    },
+    "sp500": {
+      "price": 6528.52,
+      "change_pct": 2.91,
+      "prev_close": 6343.72
+    },
+    "nasdaq": {
+      "price": 21590.6289,
+      "change_pct": 3.83,
+      "prev_close": 20794.64
+    },
+    "us10y_yield": {
+      "price": 4.311,
+      "change_pct": -0.71,
+      "prev_close": 4.342
+    },
+    "us2y_yield": {
+      "price": 3.6,
+      "change_pct": 0.06,
+      "prev_close": 3.598
+    },
+    "dollar_index": {
+      "price": 99.776,
+      "change_pct": -0.68,
+      "prev_close": 100.455
+    },
+    "gold": {
+      "price": 4718.1001,
+      "change_pct": 2.91,
+      "prev_close": 4584.8999
+    },
+    "oil_wti": {
+      "price": 102.13,
+      "change_pct": -0.84,
+      "prev_close": 103.0
+    },
+    "bitcoin": {
+      "price": 68219.8359,
+      "change_pct": 2.29,
+      "prev_close": 66691.9141
+    },
+    "kospi": {
+      "price": 5052.46,
+      "change_pct": -4.26,
+      "prev_close": 5277.3
+    },
+    "kosdaq": {
+      "price": 1052.39,
+      "change_pct": -4.94,
+      "prev_close": 1107.05
+    },
+    "usdkrw": {
+      "price": 1504.17,
+      "change_pct": -0.88,
+      "prev_close": 1517.5699
+    },
+    "vix_zone": "긴장"
+  },
+  "themes": [
+    {
+      "name": "반도체/AI 기술주 반등",
+      "strength": "강",
+      "trading_type": "둘다",
+      "duration": "2~3일",
+      "reason": "필라델피아 반도체 지수 +6.24% 급등, 엔비디아·메타 등 대형 기술주 강세. 전일 국내 반도체주 급락으로 저가 매수 메리트 부각. CoreWeave 85억 달러 AI 인프라 대출 성공으로 AI 투자 사이클 재확인.",
+      "risk": "종전 기대 불발 시 리스크오프 재전환, 외국인 매도세 지속 시 반등 제한",
+      "sectors_kr": [
+        "반도체",
+        "AI 소프트웨어",
+        "반도체 장비"
+      ],
+      "sectors_us": [
+        "반도체",
+        "클라우드 컴퓨팅",
+        "데이터센터",
+        "AI 인프라"
+      ]
+    },
+    {
+      "name": "지정학적 리스크 완화 수혜 (항공·여행·운송)",
+      "strength": "강",
+      "trading_type": "단타",
+      "duration": "당일~2일",
+      "reason": "트럼프 대통령의 이란 전쟁 종식 가능성 시사로 유가 하락(-0.8%), VIX 급락. 항공유 비용 절감 기대와 여행 수요 회복 심리로 관련주 단기 급등 가능.",
+      "risk": "종전 협상 결렬 시 유가 재급등 및 심리 급반전 위험. 실체 없는 기대감이므로 단타 접근 필수.",
+      "sectors_kr": [
+        "항공",
+        "여행",
+        "운송/물류"
+      ],
+      "sectors_us": [
+        "항공사",
+        "크루즈",
+        "온라인 여행"
+      ]
+    },
+    {
+      "name": "WGBI 편입 금융주 수혜",
+      "strength": "강",
+      "trading_type": "스윙",
+      "duration": "1주일+",
+      "reason": "4월 1일 WGBI 정식 편입 시작. 향후 1~2년간 약 60~90조 원 규모 외국인 채권자금 유입 예상. 금융주·증권주는 채권 운용 수익 증가 및 원화 강세 수혜 직접 대상.",
+      "risk": "외국인 자금 유입 속도가 예상보다 느릴 수 있으며, 환율 변동성 확대 시 실제 유입 규모 감소 가능.",
+      "sectors_kr": [
+        "은행",
+        "증권",
+        "보험",
+        "채권 관련주"
+      ],
+      "sectors_us": []
+    },
+    {
+      "name": "AI 인프라·데이터센터 투자",
+      "strength": "강",
+      "trading_type": "스윙",
+      "duration": "1주일+",
+      "reason": "CoreWeave 85억 달러 대출 조달 성공은 AI 인프라 투자 확대의 실질적 시그널. 데이터센터 전력·냉각·네트워킹 수요 지속 확인.",
+      "risk": "AI 투자 사이클 피크아웃 논란 재부상 시 밸류에이션 부담 부각",
+      "sectors_kr": [
+        "전력기기",
+        "냉각장비",
+        "통신장비"
+      ],
+      "sectors_us": [
+        "클라우드 인프라",
+        "데이터센터 리츠",
+        "네트워킹"
+      ]
+    },
+    {
+      "name": "금·원자재 안전자산",
+      "strength": "중",
+      "trading_type": "스윙",
+      "duration": "1주일+",
+      "reason": "금 가격 $4,718(+2.9%)로 사상 최고치 경신 지속. 지정학 리스크 완화에도 달러 약세(-0.7%)와 인플레이션 우려 잔존으로 안전자산 수요 유지. 중앙은행 매수세도 구조적 지지.",
+      "risk": "종전 확정 시 안전자산 프리미엄 급격 축소 가능. 금리 인하 지연 시에도 조정 압력.",
+      "sectors_kr": [
+        "귀금속",
+        "원자재 관련주"
+      ],
+      "sectors_us": [
+        "금광주",
+        "원자재 ETF"
+      ]
+    },
+    {
+      "name": "방위산업·방산주",
+      "strength": "중",
+      "trading_type": "둘다",
+      "duration": "2~3일(단타 조정 후 스윙 진입)",
+      "reason": "종전 기대감으로 단기 차익실현 압력 있으나, 글로벌 재무장 트렌드와 한국 방산 수출 확대 기조는 구조적. 조정 시 스윙 매수 기회.",
+      "risk": "종전 확정 시 방산 예산 축소 우려로 단기 급락 가능. 종전 여부에 따라 방향성 급변.",
+      "sectors_kr": [
+        "방산",
+        "항공우주",
+        "드론"
+      ],
+      "sectors_us": [
+        "방산 대형주",
+        "우주항공"
+      ]
+    },
+    {
+      "name": "빅테크 소프트웨어·플랫폼",
+      "strength": "중",
+      "trading_type": "둘다",
+      "duration": "2~3일",
+      "reason": "나스닥 +3.8% 급등 속 메타·마이크로소프트 등 대형 플랫폼주 강세. 성장주 투자심리 회복과 금리 안정 기대 수혜.",
+      "risk": "반등이 단순 기술적 되돌림일 경우 추가 상승 제한. 실적 시즌 앞두고 가이던스 불확실성.",
+      "sectors_kr": [
+        "인터넷 플랫폼",
+        "게임"
+      ],
+      "sectors_us": [
+        "소프트웨어",
+        "인터넷 플랫폼",
+        "SaaS"
+      ]
+    },
+    {
+      "name": "2차전지·전기차",
+      "strength": "약",
+      "trading_type": "스윙",
+      "duration": "1주일+",
+      "reason": "유가 하락은 전기차 가격 경쟁력에 부정적이나, 전일 급락으로 기술적 반등 가능. 구조적으로는 글로벌 전기차 보급 확대 트렌드 유효.",
+      "risk": "유가 하락 지속 시 내연기관 대비 경쟁력 약화 인식 확산. 중국 과잉 공급 이슈 잔존.",
+      "sectors_kr": [
+        "2차전지",
+        "양극재",
+        "전기차 부품"
+      ],
+      "sectors_us": [
+        "전기차",
+        "배터리"
+      ]
+    },
+    {
+      "name": "조선·해운",
+      "strength": "약",
+      "trading_type": "스윙",
+      "duration": "1주일+",
+      "reason": "종전 기대감은 해상 운송 리스크 프리미엄 축소로 해운 운임 하락 압력이나, 조선업은 글로벌 선박 교체 수요와 LNG선 수주잔고 사상 최고 수준으로 구조적 강세 유지.",
+      "risk": "종전 확정 시 방산 연계 특수선 수주 기대 약화. 글로벌 경기 둔화 시 신조 발주 감소 우려.",
+      "sectors_kr": [
+        "조선",
+        "해운"
+      ],
+      "sectors_us": []
+    },
+    {
+      "name": "원전·에너지전환",
+      "strength": "약",
+      "trading_type": "스윙",
+      "duration": "1주일+",
+      "reason": "유가 고공 행진 속 에너지 안보 중요성 재부각. AI 데이터센터 전력 수요 급증과 맞물려 원전 관련 정책 지지 기대. 다만 오늘 직접 모멘텀은 제한적.",
+      "risk": "원전 정책 지연 리스크. 신규 원전 인허가 불확실성 및 건설비용 초과 이슈.",
+      "sectors_kr": [
+        "원전",
+        "에너지전환"
+      ],
+      "sectors_us": [
+        "원전",
+        "SMR",
+        "유틸리티"
+      ]
+    }
+  ],
+  "news": {
+    "kr": {
+      "summary": "미국과 이란의 종전 기대감 확산으로 뉴욕 증시가 급반등함에 따라, 전날 급락했던 한국 증시도 투자 심리가 개선되며 큰 폭의 상승 출발이 예상됩니다.",
+      "hot_themes": [
+        {
+          "theme": "반도체/기술주",
+          "reason": "미국 나스닥 급등 및 반도체주 강세 영향 (연합뉴스)",
+          "trading_type": "둘다",
+          "sectors": [
+            "반도체",
+            "AI",
+            "소프트웨어"
+          ]
+        },
+        {
+          "theme": "지정학적 리스크 완화 수혜주",
+          "reason": "이란-미국 종전 기대감으로 인한 투자 심리 회복 (뉴데일리)",
+          "trading_type": "단타",
+          "sectors": [
+            "항공",
+            "여행",
+            "운송"
+          ]
+        },
+        {
+          "theme": "WGBI 편입 관련주",
+          "reason": "4월 1일부터 세계국채지수(WGBI) 정식 편입 시작에 따른 외국인 자금 유입 기대 (매일경제)",
+          "trading_type": "스윙",
+          "sectors": [
+            "금융",
+            "채권 관련주"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "반도체",
+          "direction": "bullish",
+          "key_news": "미국 반도체주 일제히 강세 전환 및 필라델피아 반도체 지수 6.24% 급등 (연합뉴스)",
+          "reason": "전날 국내 반도체주 급락에 따른 저가 매수세 유입 및 글로벌 기술주 반등 영향"
+        },
+        {
+          "sector": "제약/바이오",
+          "direction": "neutral",
+          "key_news": "삼천당제약 하한가 이후 제약바이오 투심 위축 지속 (다음/이데일리)",
+          "reason": "재료 소멸에 따른 차익실현 매물 출회 여파가 섹터 전반에 잔존"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "이란 전쟁 장기화 가능성",
+          "severity": "high",
+          "description": "종전 기대감이 있으나, 실제 협상 결렬 시 스태그플레이션 및 유가 재급등 위험 상존 (조선비즈)"
+        },
+        {
+          "factor": "외국인 대규모 순매도세",
+          "severity": "high",
+          "description": "최근 9거래일 연속 순매도 등 외국인 이탈 흐름이 완전히 멈췄는지 확인 필요 (연합뉴스)"
+        }
+      ]
+    },
+    "us": {
+      "summary": "이란과의 전쟁 완화 기대감과 기술주 중심의 강력한 반등으로 시장 투자 심리가 크게 개선되었습니다.",
+      "hot_themes": [
+        {
+          "theme": "지정학적 리스크 완화(TACO Play)",
+          "reason": "도널드 트럼프 대통령의 이란 전쟁 종식 가능성 시사 보도로 시장 전반 급등(Kiplinger, Switzer Daily)",
+          "trading_type": "둘다",
+          "sectors": [
+            "에너지",
+            "항공",
+            "방산"
+          ]
+        },
+        {
+          "theme": "AI 인프라 투자",
+          "reason": "CoreWeave의 85억 달러 규모 AI 인프라 대출 조달 성공으로 관련주 강세(Kiplinger)",
+          "trading_type": "스윙",
+          "sectors": [
+            "클라우드 컴퓨팅",
+            "반도체",
+            "데이터센터"
+          ]
+        },
+        {
+          "theme": "빅테크 기술주 반등",
+          "reason": "나스닥 지수 3.8% 급등 등 기술주 중심의 저가 매수세 유입(TheStreet)",
+          "trading_type": "둘다",
+          "sectors": [
+            "소프트웨어",
+            "하드웨어",
+            "인터넷"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "기술(Tech)",
+          "direction": "bullish",
+          "key_news": "메타(Meta), 엔비디아(Nvidia) 등 대형 기술주 중심의 강력한 랠리(TheStreet)",
+          "reason": "지정학적 불안 완화에 따른 성장주 투자 심리 회복"
+        },
+        {
+          "sector": "에너지(Energy)",
+          "direction": "bearish",
+          "key_news": "WTI 유가 1% 하락 마감(Kiplinger)",
+          "reason": "이란 전쟁 관련 긴장 완화 보도로 인한 유가 급등세 진정"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "지정학적 불확실성",
+          "severity": "high",
+          "description": "이란과의 전쟁이 완전히 종식된 것이 아니며, 인프라 파괴 위협 등 여전히 변동성 상존(NBC News, TheStreet)"
+        },
+        {
+          "factor": "인플레이션 및 금리 경로",
+          "severity": "medium",
+          "description": "연준의 금리 인하 시점이 불투명하고, 물가 상승 압력이 지속되고 있어 시장 부담 요인(Trading Economics)"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "movers": [
+      {
+        "ticker": "HKIT",
+        "name": "Hitek Global Inc.",
+        "change_pct": 148.25,
+        "reason": "시장 변동성 및 단기 급등세"
+      },
+      {
+        "ticker": "APLS",
+        "name": "Apellis Pharmaceuticals, Inc.",
+        "change_pct": 136.4,
+        "reason": "기업 관련 뉴스 및 투자자 관심 집중"
+      },
+      {
+        "ticker": "IOBT",
+        "name": "IO Biotech, Inc.",
+        "change_pct": -71.46,
+        "reason": "임상 결과 또는 기업 악재로 인한 급락"
+      }
+    ],
+    "events": [
+      {
+        "time_et": "08:30 AM",
+        "event": "International Trade in Goods and Services",
+        "forecast": "미공개",
+        "importance": "medium"
+      },
+      {
+        "time_et": "08:30 AM",
+        "event": "Jobless Claims",
+        "forecast": "미공개",
+        "importance": "high"
+      },
+      {
+        "time_et": "10:15 AM",
+        "event": "Lorie Logan Speaks",
+        "forecast": "N/A",
+        "importance": "medium"
+      },
+      {
+        "time_et": "10:30 AM",
+        "event": "EIA Natural Gas Report",
+        "forecast": "미공개",
+        "importance": "low"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 04월 28-29일",
+      "cut_probability": "5.2"
+    }
+  },
+  "recommendations": [
+    {
+      "rank": 1,
+      "ticker": "DLR",
+      "name": "디지털리얼티",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "AI 인프라·데이터센터 투자",
+      "final_score": 71.6,
+      "trading_type": "스윙",
+      "timing": "관망",
+      "why": "32.5억 달러 하이퍼스케일 데이터센터 펀드 조성 성공으로 AI 인프라 확장 가속화 중. 20일 저항선(181.4) 돌파 시도 중이며 거래량 1.4배 증가로 매수세 유입 확인. CoreWeave 85억 달러 대출 성공 등 AI 인프라 투자 확대의 구조적 수혜주.",
+      "entry": "20일 저항선(181.4) 돌파 확인 후 진입. 돌파 실패 시 170~175 지지대 분할 매수",
+      "stop_loss": "170 이탈 시 손절 (-6% 내외)",
+      "target": "190~195 (돌파 성공 시 +5~8%)",
+      "risk": "4/23 실적발표 전 차익실현 매물, MACD 크로스 미발생으로 추세 전환 미확인",
+      "upcoming_events": "4/23 Q1 2026 실적발표 및 컨퍼런스콜 — 실적 시즌 전 포지션 축소 또는 헤지 고려",
+      "analyst_view": "평균 목표주가 약 $195 (최고 $220, 최저 $170), 투자의견 'Moderate Buy' 유지",
+      "heat": {
+        "rsi": 58.0,
+        "rsi_signal": "중립",
+        "bb_pct": 0.732,
+        "trend": "uptrend",
+        "volume_ratio": 1.36,
+        "price_change_5d": 3.15,
+        "price_change_20d": 1.86
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 62,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 2,
+      "ticker": "MRVL",
+      "name": "마벨테크놀로지",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "반도체/AI 기술주 반등",
+      "final_score": 71.6,
+      "trading_type": "단타",
+      "timing": "관망",
+      "why": "필라델피아 반도체 지수 +6.24% 급등의 직접 수혜주. 20일간 +27.8% 급등하며 강한 모멘텀 유지 중이고 거래량 2배 증가로 시장 관심 집중. AI 커스텀 칩 시장 확대의 핵심 플레이어.",
+      "entry": "볼린저 상단 과열 부담으로 단기 눌림목(5~7% 조정) 시 분할 진입 권장. 현재가 추격 매수 자제",
+      "stop_loss": "20일 이동평균선 이탈 시 손절",
+      "target": "전고점 대비 +10% 구간",
+      "risk": "20일 +27.8% 급등 후 볼린저 상단 과열, 단기 차익실현 매물 출회 가능성 높음",
+      "upcoming_events": "5/21 FQ1 2027 실적발표 확정 — 실적까지 시간 여유 있어 트레이딩 유리",
+      "analyst_view": null,
+      "heat": {
+        "rsi": 61.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.885,
+        "trend": "uptrend",
+        "volume_ratio": 2.0,
+        "price_change_5d": 7.24,
+        "price_change_20d": 27.79
+      },
+      "score_detail": {
+        "theme": 90,
+        "chart": 62,
+        "supply_demand": 80.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 3,
+      "ticker": "EQIX",
+      "name": "에퀴닉스",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "AI 인프라·데이터센터 투자",
+      "final_score": 70.4,
+      "trading_type": "스윙",
+      "timing": "관망",
+      "why": "AI 인프라 수요 급증에 힘입어 예약 실적 호조 및 2026년 가이던스 상향 발표. 데이터센터 리츠 대장주로서 AI 투자 사이클의 안정적 수혜 기대. DLR 대비 변동성 낮아 스윙 포지션에 적합.",
+      "entry": "볼린저 상단(81.8%) 근접 과열 부담으로 3~5% 조정 시 분할 진입",
+      "stop_loss": "20일 이동평균선 하향 이탈 시 손절",
+      "target": "+7~10% (가이던스 상향 모멘텀 반영)",
+      "risk": "거래량 평균 이하로 추가 상승 에너지 부족, 4/29 실적발표 앞두고 관망세 가능",
+      "upcoming_events": "4/29 Q1 2026 실적발표 — 가이던스 상향 지속 여부가 핵심 변수",
+      "analyst_view": "평균 목표주가 약 1,031달러 (최고 1,200달러), 투자의견은 'Moderate Buy' 우세",
+      "heat": {
+        "rsi": 64.0,
+        "rsi_signal": "중립",
+        "bb_pct": 0.818,
+        "trend": "uptrend",
+        "volume_ratio": 0.94,
+        "price_change_5d": 1.63,
+        "price_change_20d": 0.85
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 58,
+        "supply_demand": 65.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 4,
+      "ticker": "AMD",
+      "name": "AMD",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "반도체/AI 기술주 반등",
+      "final_score": 65.6,
+      "trading_type": "스윙",
+      "timing": "관망",
+      "why": "삼성전자 HBM4 협력 강화로 AI 공급망 리스크 완화. RSI 중립·횡보 구간에서 방향성 돌파 대기 중이나, 필라델피아 반도체 급등이 트리거로 작용할 가능성. 밸류에이션 부담이 MRVL 대비 낮아 중기 매력.",
+      "entry": "나스닥 반등 확인 후 횡보 상단 돌파 시 진입. 명확한 트리거 없이 선제 진입 자제",
+      "stop_loss": "횡보 하단(20일 저점) 이탈 시 손절",
+      "target": "+8~12% (반도체 섹터 반등 사이클 반영)",
+      "risk": "경영진 자사주 매도 지속, 뚜렷한 차트 방향성 부재로 횡보 장기화 가능",
+      "upcoming_events": "5/5 Q1 실적발표(추정) / 5/13 정기 주주총회",
+      "analyst_view": "월가 컨센서스 목표주가 약 $290.50 (최고 $365, 최저 $220), 투자의견은 '매수(Buy)' 우세",
+      "heat": {
+        "rsi": 49.5,
+        "rsi_signal": "중립",
+        "bb_pct": 0.585,
+        "trend": "sideways",
+        "volume_ratio": 1.22,
+        "price_change_5d": -0.94,
+        "price_change_20d": 6.54
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 52,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 5,
+      "ticker": "042700",
+      "name": "한미반도체",
+      "market": "kr",
+      "market_cap": 0,
+      "theme": "반도체/AI 기술주 반등",
+      "final_score": 63.5,
+      "trading_type": "강",
+      "timing": "관망",
+      "why": "최근 곽동신 회장의 대규모 자사주 매입으로 책임 경영 의지를 보였으나, 반도체 섹터 전반에 걸친 수요 둔화 우려와 수급 불안정으로 인해 주가 변동성이 커진 상황임.",
+      "entry": "데이터 부족",
+      "stop_loss": "-",
+      "target": "-",
+      "risk": "",
+      "upcoming_events": "",
+      "analyst_view": "최근 리포트 기준 목표주가는 230,000원~400,000원 사이로 다양하게 제시되고 있으나, 시장 컨센서스는 중립적임.",
+      "heat": {
+        "rsi": 50,
+        "rsi_signal": "중립",
+        "bb_pct": 0.5,
+        "trend": "sideways",
+        "volume_ratio": 1.0,
+        "price_change_5d": 0,
+        "price_change_20d": 0
+      },
+      "score_detail": {
+        "theme": 95,
+        "chart": 50,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 6,
+      "ticker": "336260",
+      "name": "두산퓨얼셀",
+      "market": "kr",
+      "market_cap": 0,
+      "theme": "AI 인프라·데이터센터 투자",
+      "final_score": 63.5,
+      "trading_type": "강",
+      "timing": "관망",
+      "why": "최근 미국 데이터센터향 연료전지 수출 기대감이 주가 모멘텀으로 작용하고 있으나, 국내 시장 성장 한계와 지속되는 영업적자로 인해 증권가에서는 보수적인 투자의견을 유지하고 있음. 미국 시장에서의 가시적인 수주 성과가 실적 반전의 핵심 열쇠로 평가됨.",
+      "entry": "데이터 부족",
+      "stop_loss": "-",
+      "target": "-",
+      "risk": "",
+      "upcoming_events": "",
+      "analyst_view": "증권사별 목표주가 상향 조정 중 (NH투자증권 3만6000원, KB증권 5만원, SK증권 4만2000원 등)",
+      "heat": {
+        "rsi": 50,
+        "rsi_signal": "중립",
+        "bb_pct": 0.5,
+        "trend": "sideways",
+        "volume_ratio": 1.0,
+        "price_change_5d": 0,
+        "price_change_20d": 0
+      },
+      "score_detail": {
+        "theme": 95,
+        "chart": 50,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 7,
+      "ticker": "ETN",
+      "name": "이튼",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "AI 인프라·데이터센터 투자",
+      "final_score": 63.5,
+      "trading_type": "강",
+      "timing": "관망",
+      "why": "이튼은 AI 데이터센터 인프라 수요 급증의 핵심 수혜주로 평가받으며, 최근 NVIDIA와의 협업 및 Boyd Thermal 인수를 통해 '그리드 투 칩(Grid-to-Chip)' 솔루션 경쟁력을 강화했습니다. 월가 애널리스트들은 데이터센터 부문의 강력한 수주 잔고와 마진 개선 전망을 바탕으로 긍정적인 목표주가를 제시하고 있습니다.",
+      "entry": "343.50 지지선 부근(±1%)에서 거래량 1.2x 이상 동반한 양봉 캔들 확인 시 분할 매수 진입. 또는 375.0 저항선 돌파 후 거래량 급증 시 추격 매수.",
+      "stop_loss": "지지선 매수 시 340.0 이탈 확인 (약 -5.0%), 저항 돌파 매수 시 370.0 재이탈 시 손절",
+      "target": "1차 목표 375.0 (저항선, +4.8%), 2차 목표 388~390 (+8.5~9.0%)",
+      "risk": "",
+      "upcoming_events": "",
+      "analyst_view": "평균 목표주가 약 $400~$430 수준 (최고 $495, 최저 $295), 투자의견은 'Moderate Buy' 또는 'Outperform' 우세",
+      "heat": {
+        "rsi": 48.8,
+        "rsi_signal": "중립",
+        "bb_pct": 0.498,
+        "trend": "sideways",
+        "volume_ratio": 0.77,
+        "price_change_5d": -4.39,
+        "price_change_20d": 0.91
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 45,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 8,
+      "ticker": "039130",
+      "name": "하나투어",
+      "market": "kr",
+      "market_cap": 0,
+      "theme": "지정학적 리스크 완화 수혜 (항공·여행·운송)",
+      "final_score": 62.0,
+      "trading_type": "단타",
+      "timing": "관망",
+      "why": "미국-이란 종전 기대감에 따른 유가 하락(-0.8%)과 여행 심리 회복의 직접 수혜주. 기업가치 제고 계획 발표 및 브랜드 가치 1위 유지로 펀더멘탈 안정. 4/15 배당 지급 앞두고 배당 매력도 부각.",
+      "entry": "갭업 시 장 초반 눌림목 매수, 시가 대비 +5% 이상 급등 시 추격 자제",
+      "stop_loss": "전일 종가 하회 시 손절",
+      "target": "+3~5% (종전 협상 진전 시 추가 상승 여력)",
+      "risk": "종전 협상 결렬 시 급반락 가능, 중국 관광 회복 지연 리스크",
+      "upcoming_events": "4/15 결산배당금 지급 — 배당락 전 단기 트레이딩 유효",
+      "analyst_view": "최근 증권사 컨센서스 목표주가는 약 69,000원~70,000원 수준으로, 2026년 실적 턴어라운드와 인바운드 플랫폼 성장에 대한 기대감이 반영되어 있음.",
+      "heat": {
+        "rsi": 50,
+        "rsi_signal": "중립",
+        "bb_pct": 0.5,
+        "trend": "sideways",
+        "volume_ratio": 1.0,
+        "price_change_5d": 0,
+        "price_change_20d": 0
+      },
+      "score_detail": {
+        "theme": 90,
+        "chart": 50,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 9,
+      "ticker": "000660",
+      "name": "SK하이닉스",
+      "market": "kr",
+      "market_cap": 0,
+      "theme": "반도체/AI 기술주 반등",
+      "final_score": 62.0,
+      "trading_type": "단타",
+      "timing": "관망",
+      "why": "전일 KOSPI 폭락(-4.3%)에 동반 급락한 국내 대표 반도체주로 저가 매수 메리트 최대. 필라델피아 반도체 +6.24% 급등의 국내 수혜 대표주이며, WGBI 편입(4/1)에 따른 외국인 자금 유입 기대도 중첩.",
+      "entry": "갭업 출발 후 시가 대비 1~2% 눌림 시 진입. 장 초반 30분 수급 확인 필수",
+      "stop_loss": "전일 저점 이탈 시 손절",
+      "target": "전일 폭락분의 50~60% 되돌림 (+3~5%)",
+      "risk": "외국인 9거래일 연속 순매도 지속 여부, 원/달러 1500원대 환율 부담",
+      "upcoming_events": "4/29 Q1 실적발표(호재 전망) / 5/1 결산배당금 지급",
+      "analyst_view": null,
+      "heat": {
+        "rsi": 50,
+        "rsi_signal": "중립",
+        "bb_pct": 0.5,
+        "trend": "sideways",
+        "volume_ratio": 1.0,
+        "price_change_5d": 0,
+        "price_change_20d": 0
+      },
+      "score_detail": {
+        "theme": 90,
+        "chart": 50,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 10,
+      "ticker": "089590",
+      "name": "제주항공",
+      "market": "kr",
+      "market_cap": 0,
+      "theme": "지정학적 리스크 완화 수혜 (항공·여행·운송)",
+      "final_score": 62.0,
+      "trading_type": "강",
+      "timing": "관망",
+      "why": "",
+      "entry": "데이터 부족",
+      "stop_loss": "-",
+      "target": "-",
+      "risk": "",
+      "upcoming_events": "",
+      "analyst_view": null,
+      "heat": {
+        "rsi": 50,
+        "rsi_signal": "중립",
+        "bb_pct": 0.5,
+        "trend": "sideways",
+        "volume_ratio": 1.0,
+        "price_change_5d": 0,
+        "price_change_20d": 0
+      },
+      "score_detail": {
+        "theme": 90,
+        "chart": 50,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 11,
+      "ticker": "CRWV",
+      "name": "코어위브",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "반도체/AI 기술주 반등",
+      "final_score": 62.0,
+      "trading_type": "강",
+      "timing": "관망",
+      "why": "코어위브는 85억 달러 규모의 대규모 자금 조달에 성공하며 AI 인프라 확장을 위한 자본 안정성을 확보했습니다. 이 소식으로 시장의 긍정적인 평가를 받으며 주가가 상승세를 보이고 있으나, 여전히 높은 부채와 현금 소진에 대한 우려가 공존하고 있습니다.",
+      "entry": "",
+      "stop_loss": "",
+      "target": "",
+      "risk": "",
+      "upcoming_events": "",
+      "analyst_view": "평균 목표주가 약 121.06달러 (최근 32개 증권사 컨센서스 'Moderate Buy')",
+      "heat": {
+        "rsi": 46.0,
+        "rsi_signal": "중립",
+        "bb_pct": 0.398,
+        "trend": "downtrend",
+        "volume_ratio": 1.25,
+        "price_change_5d": -6.69,
+        "price_change_20d": 5.0
+      },
+      "score_detail": {
+        "theme": 100,
+        "chart": 50,
+        "supply_demand": 35.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 12,
+      "ticker": "UAL",
+      "name": "유나이티드항공",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "지정학적 리스크 완화 수혜 (항공·여행·운송)",
+      "final_score": 60.5,
+      "trading_type": "강",
+      "timing": "관망",
+      "why": "유나이티드항공은 최근 승무원 노조와 임금 인상 잠정 합의를 통해 노동 리스크를 일부 해소했으나, 중동발 지정학적 리스크로 인한 유가 상승이 수익성 압박 요인으로 작용하고 있습니다. 경영진은 프리미엄 수요를 바탕으로 한 가격 결정력과 기단 현대화 전략으로 대응 중이나, 시장은 연료비 상승과 공급 과잉 우려 사이에서 신중한 입장을 보이고 있습니다.",
+      "entry": "85~87달러 지지선 부근 반등 확인 시 매수 진입. RSI 35 이하 진입 + 거래량 1.5x 이상 동반 시 단기 반등 매수 유효. 또는 MACD 골든크로스 발생 시 추세 전환 확인 후 진입.",
+      "stop_loss": "20일 지지선 85.21 하향 이탈 시 손절 (약 -7.5%). 종가 기준 83달러 이하 확정 시 즉시 청산.",
+      "target": "1차 목표 96~97달러 (+5~6%), 2차 목표 100.48달러 (20일 저항선, +9.1%)",
+      "risk": "",
+      "upcoming_events": "",
+      "analyst_view": "월가 애널리스트 컨센서스는 '매수(Buy)' 의견이 우세하며, 12개월 평균 목표주가는 약 $130~$135 수준으로 현재가 대비 높은 상승 여력을 제시하고 있음 (MarketBeat, Ticker Nerd 등)",
+      "heat": {
+        "rsi": 45.2,
+        "rsi_signal": "중립",
+        "bb_pct": 0.518,
+        "trend": "sideways",
+        "volume_ratio": 1.06,
+        "price_change_5d": -1.59,
+        "price_change_20d": -10.21
+      },
+      "score_detail": {
+        "theme": 90,
+        "chart": 45,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 13,
+      "ticker": "DAL",
+      "name": "델타항공",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "지정학적 리스크 완화 수혜 (항공·여행·운송)",
+      "final_score": 59.6,
+      "trading_type": "강",
+      "timing": "관망",
+      "why": "",
+      "entry": "67.99 저항선 돌파 후 거래량 1.5x 이상 수반 시 매수 진입, 또는 60~62 지지권 되돌림 시 분할 매수",
+      "stop_loss": "진입가 대비 -4% 또는 57.94(20일 지지선) 하향 이탈 시 손절",
+      "target": "저항 돌파 매수 시 목표 72~73 (+7~8%), 지지권 매수 시 목표 67~68 (+8~10%)",
+      "risk": "",
+      "upcoming_events": "",
+      "analyst_view": null,
+      "heat": {
+        "rsi": 53.4,
+        "rsi_signal": "중립",
+        "bb_pct": 0.784,
+        "trend": "sideways",
+        "volume_ratio": 1.08,
+        "price_change_5d": -0.26,
+        "price_change_20d": 2.91
+      },
+      "score_detail": {
+        "theme": 90,
+        "chart": 42,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 14,
+      "ticker": "NEM",
+      "name": "뉴몬트",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "금·원자재 안전자산",
+      "final_score": 59.0,
+      "trading_type": "스윙",
+      "timing": "관망",
+      "why": "금 가격 $4,718(+2.9%) 사상 최고치 경신 지속 중이며, 지정학 완화에도 달러 약세(-0.7%)와 인플레이션 우려가 금 강세를 뒷받침. 5일간 +9.3% 급반등 + MACD 골든크로스 발생으로 기술적 전환 시그널.",
+      "entry": "MACD 골든크로스 확인되었으나 거래량 부족(0.9x)으로 거래량 증가 동반 시 진입",
+      "stop_loss": "MACD 데드크로스 전환 또는 20일 저점 이탈 시 손절",
+      "target": "+8~10% (금 가격 $5,000 돌파 시나리오 반영)",
+      "risk": "거래량 미동반 반등으로 신뢰도 부족, 종전 확정 시 안전자산 매력 급감 가능",
+      "upcoming_events": "4/23 Q1 실적발표 / Q2 배당락일 예정",
+      "analyst_view": "월가 애널리스트 컨센서스는 '매수(Buy)' 의견이 우세하며, 12개월 목표주가는 평균 약 $133~$137 수준으로 형성되어 있습니다.",
+      "heat": {
+        "rsi": 48.6,
+        "rsi_signal": "중립",
+        "bb_pct": 0.505,
+        "trend": "sideways",
+        "volume_ratio": 0.93,
+        "price_change_5d": 9.32,
+        "price_change_20d": -8.67
+      },
+      "score_detail": {
+        "theme": 75,
+        "chart": 55,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 15,
+      "ticker": "LUV",
+      "name": "사우스웨스트항공",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "지정학적 리스크 완화 수혜 (항공·여행·운송)",
+      "final_score": 59.0,
+      "trading_type": "강",
+      "timing": "관망",
+      "why": "사우스웨스트항공은 지정 좌석제 도입 등 대대적인 비즈니스 모델 전환을 추진 중이나, 최근 제트 연료 가격 상승으로 단기 실적 우려가 제기되었습니다. 월가 애널리스트들은 경영 혁신에 따른 장기적 수익성 개선 기대와 연료비 부담 사이에서 '중립(Hold)' 의견을 유지하고 있습니다.",
+      "entry": "",
+      "stop_loss": "",
+      "target": "",
+      "risk": "",
+      "upcoming_events": "",
+      "analyst_view": "평균 목표주가 약 $46.25 (최저 $24 ~ 최고 $60), 투자의견은 '중립(Hold)'이 우세함",
+      "heat": {
+        "rsi": 50,
+        "rsi_signal": "중립",
+        "bb_pct": 0.5,
+        "trend": "sideways",
+        "volume_ratio": 1.0,
+        "price_change_5d": 0,
+        "price_change_20d": 0
+      },
+      "score_detail": {
+        "theme": 80,
+        "chart": 50,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 16,
+      "ticker": "SMCI",
+      "name": "슈퍼마이크로",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "AI 인프라·데이터센터 투자",
+      "final_score": 59.0,
+      "trading_type": "강",
+      "timing": "관망",
+      "why": "최근 미 법무부의 수출 통제 위반 혐의 기소로 주가가 급락했으나, 강력한 AI 서버 수요를 바탕으로 연간 매출 가이던스를 상향하며 일부 반등함. 그러나 경영진의 법적 리스크와 수익성 악화 우려로 인해 월가 애널리스트들의 투자의견은 하향 조정되는 등 매우 불안정한 흐름을 보임.",
+      "entry": "",
+      "stop_loss": "",
+      "target": "",
+      "risk": "",
+      "upcoming_events": "",
+      "analyst_view": "평균 목표주가 약 42달러 수준이나, 최근 다수의 증권사가 목표가를 하향 조정하고 투자의견을 'Hold' 또는 'Underperform'으로 낮추는 추세임.",
+      "heat": {
+        "rsi": 50,
+        "rsi_signal": "중립",
+        "bb_pct": 0.5,
+        "trend": "sideways",
+        "volume_ratio": 1.0,
+        "price_change_5d": 0,
+        "price_change_20d": 0
+      },
+      "score_detail": {
+        "theme": 80,
+        "chart": 50,
+        "supply_demand": 50.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    },
+    {
+      "rank": 17,
+      "ticker": "VRT",
+      "name": "버티브홀딩스",
+      "market": "us",
+      "market_cap": 0,
+      "theme": "AI 인프라·데이터센터 투자",
+      "final_score": 58.5,
+      "trading_type": "강",
+      "timing": "관망",
+      "why": "",
+      "entry": "20일 지지선(234.22) 부근 터치 후 반등 확인 시 매수 진입, 또는 RSI 40 이하 + 거래량 1.5x 이상 동반 반등 시 진입",
+      "stop_loss": "230.00 이탈 시 손절 (현재가 대비 약 -8.2%)",
+      "target": "1차 목표 265.00 (+5.8%), 2차 목표 276.16 (20일 저항선, +10.2%)",
+      "risk": "",
+      "upcoming_events": "",
+      "analyst_view": null,
+      "heat": {
+        "rsi": 49.9,
+        "rsi_signal": "중립",
+        "bb_pct": 0.301,
+        "trend": "sideways",
+        "volume_ratio": 0.49,
+        "price_change_5d": -7.5,
+        "price_change_20d": 2.54
+      },
+      "score_detail": {
+        "theme": 90,
+        "chart": 45,
+        "supply_demand": 40.0,
+        "financial": 50,
+        "dart_penalty": 0
+      }
+    }
+  ],
+  "avoid": [
+    "SMCI (슈퍼마이크로) — 미 법무부 수출통제 위반 기소 리스크, 법적 불확실성 해소 전까지 회피",
+    "CRWV (코어위브) — IPO 직후 변동성 극대, 차트 데이터 부재로 기술적 분석 불가",
+    "336260 (두산퓨얼셀) — 지속 영업적자, 데이터센터 연료전지 수출은 기대감일 뿐 실적 미반영"
+  ],
+  "excluded": [
+    {
+      "name": "두산에너빌리티",
+      "ticker": "034020",
+      "reason": "유상증자 결정 (30일 이내), 보호예수 해제 예정 (30일 이내)"
+    },
+    {
+      "name": "한전기술",
+      "ticker": "052690",
+      "reason": "유상증자 결정 (30일 이내)"
+    }
+  ],
+  "counts": {
+    "kr": 5,
+    "us": 12,
+    "total": 17
+  }
+}

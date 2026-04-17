@@ -1,0 +1,450 @@
+{
+  "macro": {
+    "vix": {
+      "price": 25.25,
+      "prev_close": 30.61,
+      "change_pct": -17.51
+    },
+    "sp500": {
+      "price": 6528.52,
+      "prev_close": 6343.72,
+      "change_pct": 2.91
+    },
+    "nasdaq": {
+      "price": 21590.6289,
+      "prev_close": 20794.64,
+      "change_pct": 3.83
+    },
+    "us10y_yield": {
+      "price": 4.311,
+      "prev_close": 4.342,
+      "change_pct": -0.71
+    },
+    "us2y_yield": {
+      "price": 3.6,
+      "prev_close": 3.598,
+      "change_pct": 0.06
+    },
+    "dollar_index": {
+      "price": 99.776,
+      "prev_close": 100.455,
+      "change_pct": -0.68
+    },
+    "gold": {
+      "price": 4718.1001,
+      "prev_close": 4584.8999,
+      "change_pct": 2.91
+    },
+    "oil_wti": {
+      "price": 102.13,
+      "prev_close": 103.0,
+      "change_pct": -0.84
+    },
+    "bitcoin": {
+      "price": 68219.8359,
+      "prev_close": 66691.9141,
+      "change_pct": 2.29
+    },
+    "kospi": {
+      "price": 5052.46,
+      "prev_close": 5277.3,
+      "change_pct": -4.26
+    },
+    "kosdaq": {
+      "price": 1052.39,
+      "prev_close": 1107.05,
+      "change_pct": -4.94
+    },
+    "usdkrw": {
+      "price": 1504.17,
+      "prev_close": 1517.5699,
+      "change_pct": -0.88
+    },
+    "vix_zone": "긴장"
+  },
+  "news": {
+    "kr": {
+      "market": "kr",
+      "date": "2026년 04월 01일",
+      "macro_environment": {
+        "summary": "미국과 이란의 종전 기대감 확산으로 뉴욕 증시가 급반등함에 따라, 전날 급락했던 한국 증시도 투자 심리가 개선되며 큰 폭의 상승 출발이 예상됩니다.",
+        "key_indicators": [
+          {
+            "name": "원/달러 환율",
+            "value": "1505원 내외 (역외)",
+            "trend": "하락",
+            "impact": "전날 1530원대 급등에서 진정세를 보이며 외국인 매도 압력 완화 기대"
+          },
+          {
+            "name": "국제 유가 (WTI)",
+            "value": "101.89달러",
+            "trend": "하락",
+            "impact": "종전 기대감으로 폭등세가 멈추며 인플레이션 우려 다소 완화"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "반도체/기술주",
+          "reason": "미국 나스닥 급등 및 반도체주 강세 영향 (연합뉴스)",
+          "trading_type": "둘다",
+          "sectors": [
+            "반도체",
+            "AI",
+            "소프트웨어"
+          ]
+        },
+        {
+          "theme": "지정학적 리스크 완화 수혜주",
+          "reason": "이란-미국 종전 기대감으로 인한 투자 심리 회복 (뉴데일리)",
+          "trading_type": "단타",
+          "sectors": [
+            "항공",
+            "여행",
+            "운송"
+          ]
+        },
+        {
+          "theme": "WGBI 편입 관련주",
+          "reason": "4월 1일부터 세계국채지수(WGBI) 정식 편입 시작에 따른 외국인 자금 유입 기대 (매일경제)",
+          "trading_type": "스윙",
+          "sectors": [
+            "금융",
+            "채권 관련주"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "반도체",
+          "direction": "bullish",
+          "key_news": "미국 반도체주 일제히 강세 전환 및 필라델피아 반도체 지수 6.24% 급등 (연합뉴스)",
+          "reason": "전날 국내 반도체주 급락에 따른 저가 매수세 유입 및 글로벌 기술주 반등 영향"
+        },
+        {
+          "sector": "제약/바이오",
+          "direction": "neutral",
+          "key_news": "삼천당제약 하한가 이후 제약바이오 투심 위축 지속 (다음/이데일리)",
+          "reason": "재료 소멸에 따른 차익실현 매물 출회 여파가 섹터 전반에 잔존"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "이란 전쟁 장기화 가능성",
+          "severity": "high",
+          "description": "종전 기대감이 있으나, 실제 협상 결렬 시 스태그플레이션 및 유가 재급등 위험 상존 (조선비즈)"
+        },
+        {
+          "factor": "외국인 대규모 순매도세",
+          "severity": "high",
+          "description": "최근 9거래일 연속 순매도 등 외국인 이탈 흐름이 완전히 멈췄는지 확인 필요 (연합뉴스)"
+        }
+      ]
+    },
+    "us": {
+      "market": "us",
+      "date": "2026년 04월 01일",
+      "macro_environment": {
+        "summary": "이란과의 전쟁 완화 기대감과 기술주 중심의 강력한 반등으로 시장 투자 심리가 크게 개선되었습니다.",
+        "key_indicators": [
+          {
+            "name": "연방기금금리(Fed Funds Rate)",
+            "value": "3.5%~3.75%",
+            "trend": "보합",
+            "impact": "3월 FOMC에서 동결 결정, 연내 1회 인하 전망 유지로 시장 불확실성 지속"
+          },
+          {
+            "name": "WTI 원유 선물",
+            "value": "$101.89",
+            "trend": "하락",
+            "impact": "이란 전쟁 관련 긴장 완화 보도로 급등 후 반락하며 시장 안도감 제공"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "지정학적 리스크 완화(TACO Play)",
+          "reason": "도널드 트럼프 대통령의 이란 전쟁 종식 가능성 시사 보도로 시장 전반 급등(Kiplinger, Switzer Daily)",
+          "trading_type": "둘다",
+          "sectors": [
+            "에너지",
+            "항공",
+            "방산"
+          ]
+        },
+        {
+          "theme": "AI 인프라 투자",
+          "reason": "CoreWeave의 85억 달러 규모 AI 인프라 대출 조달 성공으로 관련주 강세(Kiplinger)",
+          "trading_type": "스윙",
+          "sectors": [
+            "클라우드 컴퓨팅",
+            "반도체",
+            "데이터센터"
+          ]
+        },
+        {
+          "theme": "빅테크 기술주 반등",
+          "reason": "나스닥 지수 3.8% 급등 등 기술주 중심의 저가 매수세 유입(TheStreet)",
+          "trading_type": "둘다",
+          "sectors": [
+            "소프트웨어",
+            "하드웨어",
+            "인터넷"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "기술(Tech)",
+          "direction": "bullish",
+          "key_news": "메타(Meta), 엔비디아(Nvidia) 등 대형 기술주 중심의 강력한 랠리(TheStreet)",
+          "reason": "지정학적 불안 완화에 따른 성장주 투자 심리 회복"
+        },
+        {
+          "sector": "에너지(Energy)",
+          "direction": "bearish",
+          "key_news": "WTI 유가 1% 하락 마감(Kiplinger)",
+          "reason": "이란 전쟁 관련 긴장 완화 보도로 인한 유가 급등세 진정"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "지정학적 불확실성",
+          "severity": "high",
+          "description": "이란과의 전쟁이 완전히 종식된 것이 아니며, 인프라 파괴 위협 등 여전히 변동성 상존(NBC News, TheStreet)"
+        },
+        {
+          "factor": "인플레이션 및 금리 경로",
+          "severity": "medium",
+          "description": "연준의 금리 인하 시점이 불투명하고, 물가 상승 압력이 지속되고 있어 시장 부담 요인(Trading Economics)"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "premarket_movers": [
+      {
+        "ticker": "HKIT",
+        "name": "Hitek Global Inc.",
+        "change_pct": 148.25,
+        "reason": "시장 변동성 및 단기 급등세"
+      },
+      {
+        "ticker": "APLS",
+        "name": "Apellis Pharmaceuticals, Inc.",
+        "change_pct": 136.4,
+        "reason": "기업 관련 뉴스 및 투자자 관심 집중"
+      },
+      {
+        "ticker": "IOBT",
+        "name": "IO Biotech, Inc.",
+        "change_pct": -71.46,
+        "reason": "임상 결과 또는 기업 악재로 인한 급락"
+      }
+    ],
+    "earnings_today": [
+      {
+        "ticker": "CAG",
+        "name": "Conagra Brands, Inc.",
+        "expectation": "미공개",
+        "impact": "실적 발표 후 주가 변동성 확대 예상"
+      }
+    ],
+    "economic_events": [
+      {
+        "time_et": "08:30 AM",
+        "event": "International Trade in Goods and Services",
+        "forecast": "미공개",
+        "importance": "medium"
+      },
+      {
+        "time_et": "08:30 AM",
+        "event": "Jobless Claims",
+        "forecast": "미공개",
+        "importance": "high"
+      },
+      {
+        "time_et": "10:15 AM",
+        "event": "Lorie Logan Speaks",
+        "forecast": "N/A",
+        "importance": "medium"
+      },
+      {
+        "time_et": "10:30 AM",
+        "event": "EIA Natural Gas Report",
+        "forecast": "미공개",
+        "importance": "low"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 04월 28-29일",
+      "cut_probability": "5.2"
+    }
+  },
+  "dart": {
+    "today_disclosures": [
+      {
+        "corp_name": "두산",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260401",
+        "corp_code": "00117212",
+        "rcept_no": "20260401800077"
+      },
+      {
+        "corp_name": "현대차증권",
+        "report_nm": "투자설명서",
+        "rcept_dt": "20260401",
+        "corp_code": "00137997",
+        "rcept_no": "20260401000076"
+      },
+      {
+        "corp_name": "에스엠벡셀",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260401",
+        "corp_code": "00147860",
+        "rcept_no": "20260401800075"
+      },
+      {
+        "corp_name": "케이탑리츠",
+        "report_nm": "주식등의대량보유상황보고서(일반)",
+        "rcept_dt": "20260401",
+        "corp_code": "00861076",
+        "rcept_no": "20260401000033"
+      },
+      {
+        "corp_name": "SK디스커버리",
+        "report_nm": "[기재정정]타법인주식및출자증권취득결정(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260401",
+        "corp_code": "00131832",
+        "rcept_no": "20260401800020"
+      },
+      {
+        "corp_name": "SK가스",
+        "report_nm": "[기재정정]타법인주식및출자증권취득결정              ",
+        "rcept_dt": "20260401",
+        "corp_code": "00144164",
+        "rcept_no": "20260401800015"
+      },
+      {
+        "corp_name": "SK가스",
+        "report_nm": "[기재정정]타법인주식및출자증권취득결정(종속회사의주요경영사항)              ",
+        "rcept_dt": "20260401",
+        "corp_code": "00144164",
+        "rcept_no": "20260401800019"
+      },
+      {
+        "corp_name": "SK가스",
+        "report_nm": "[기재정정]타법인주식및출자증권취득결정(종속회사의주요경영사항)              ",
+        "rcept_dt": "20260401",
+        "corp_code": "00144164",
+        "rcept_no": "20260401800018"
+      },
+      {
+        "corp_name": "SK가스",
+        "report_nm": "[기재정정]유상증자결정(종속회사의주요경영사항)              ",
+        "rcept_dt": "20260401",
+        "corp_code": "00144164",
+        "rcept_no": "20260401800017"
+      },
+      {
+        "corp_name": "SK가스",
+        "report_nm": "[기재정정]유상증자결정(종속회사의주요경영사항)              ",
+        "rcept_dt": "20260401",
+        "corp_code": "00144164",
+        "rcept_no": "20260401800016"
+      },
+      {
+        "corp_name": "KG스틸",
+        "report_nm": "주요사항보고서(타법인주식및출자증권양수결정)",
+        "rcept_dt": "20260401",
+        "corp_code": "00115676",
+        "rcept_no": "20260401000011"
+      },
+      {
+        "corp_name": "케이카",
+        "report_nm": "투자판단관련주요경영사항              ",
+        "rcept_dt": "20260401",
+        "corp_code": "01323032",
+        "rcept_no": "20260401800005"
+      },
+      {
+        "corp_name": "현대로템",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260401",
+        "corp_code": "00302926",
+        "rcept_no": "20260401800013"
+      },
+      {
+        "corp_name": "DL이앤씨",
+        "report_nm": "[기재정정]단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260401",
+        "corp_code": "01524093",
+        "rcept_no": "20260401800009"
+      },
+      {
+        "corp_name": "현대차증권",
+        "report_nm": "효력발생안내( 2026.3.20. 제출 증권신고서(채무증권) )",
+        "rcept_dt": "20260401",
+        "corp_code": "00137997",
+        "rcept_no": "20260320100008"
+      },
+      {
+        "corp_name": "DH오토넥스",
+        "report_nm": "합병등종료보고서(자산양수도)",
+        "rcept_dt": "20260401",
+        "corp_code": "00126089",
+        "rcept_no": "20260331004986"
+      },
+      {
+        "corp_name": "대한제당",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260401",
+        "corp_code": "00113234",
+        "rcept_no": "20260331004933"
+      },
+      {
+        "corp_name": "대한제당",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260401",
+        "corp_code": "00113234",
+        "rcept_no": "20260331004922"
+      },
+      {
+        "corp_name": "두산에너빌리티",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260401",
+        "corp_code": "00159616",
+        "rcept_no": "20260331004979"
+      },
+      {
+        "corp_name": "서원",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260401",
+        "corp_code": "00131197",
+        "rcept_no": "20260331004953"
+      },
+      {
+        "corp_name": "한미약품",
+        "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "rcept_dt": "20260401",
+        "corp_code": "00828497",
+        "rcept_no": "20260331004932"
+      },
+      {
+        "corp_name": "두산에너빌리티",
+        "report_nm": "주요사항보고서(자기주식취득결정)",
+        "rcept_dt": "20260401",
+        "corp_code": "00159616",
+        "rcept_no": "20260331004988"
+      },
+      {
+        "corp_name": "하이브",
+        "report_nm": "주요사항보고서(자기주식처분결정)",
+        "rcept_dt": "20260401",
+        "corp_code": "01204056",
+        "rcept_no": "20260331004971"
+      }
+    ]
+  }
+}

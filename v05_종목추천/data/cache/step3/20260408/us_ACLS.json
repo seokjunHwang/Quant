@@ -1,0 +1,29 @@
+{
+  "ticker": "ACLS",
+  "name": "Axcelis Technologies",
+  "theme": "반도체/HBM·AI메모리",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "반도체 장비업체 Veeco와의 전략적 합병 주주 승인 완료 및 차세대 장비(Purion H6) 출시 (Axcelis PR)",
+      "date": "2026-02",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "경영진 교체",
+      "description": "4월 중순 기존 CFO 사임 및 과도기적 재무 불확실성",
+      "severity": "medium"
+    },
+    {
+      "type": "업황 사이클 둔화",
+      "description": "고객사의 장비 소화 사이클로 인한 1분기 보수적 실적 가이던스",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "Veeco와의 합병 절차가 주주 승인을 받으며 덩치를 키웠으나, 반도체 장비 사이클 둔화로 인한 보수적 실적 가이던스와 CFO 교체가 맞물려 주가는 횡보 중입니다.",
+  "momentum": "neutral",
+  "analyst_view": "Buy / 평균 목표주가 $101.50",
+  "score_hint": 65
+}
