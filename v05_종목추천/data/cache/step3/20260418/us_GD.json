@@ -1,0 +1,30 @@
+{
+  "ticker": "GD",
+  "name": "General Dynamics",
+  "theme": "조선/해운",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "미 해군 구축함(USS Truxtun) 수리 및 현대화 관련 1억 8,320만 달러 규모 계약 수주 (Defence Blog 등)",
+      "date": "2026-04-13",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "분기 배당금을 주당 1.59달러로 인상 발표 (MarketBeat)",
+      "date": "2026-04-10",
+      "impact": "low"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 변동성",
+      "description": "4월 22일(수) 2026년 1분기 실적 발표를 앞두고 있어 단기 관망세 유입 가능성",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "최근 해군 함정 수리 및 장갑차 관련 대규모 국방 계약을 다수 수주하며 견조한 흐름을 보이고 있습니다. 외국인/기관 투자자 비중이 86~89%로 매우 높고 뱅가드, 블랙록 등 대형 기관이 물량을 쥐고 있어 수급이 안정적입니다.",
+  "momentum": "bullish",
+  "analyst_view": "비중확대(Overweight) 다수, 평균 목표주가 $385 ~ $404",
+  "score_hint": 85
+}

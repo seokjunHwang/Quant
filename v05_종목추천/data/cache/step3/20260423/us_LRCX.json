@@ -1,0 +1,30 @@
+{
+  "ticker": "LRCX",
+  "name": "Lam Research",
+  "theme": "반도체/HBM",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "FY2026 Q3 매출 58.4억 달러 및 예상 상회 실적 발표 (TradingView)",
+      "date": "2026-04-22",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "테슬라(Tesla) '테라팹' 칩 생산 지원 파트너십 선정 및 어드밴스드 패키징 수요 증가 (BeaumontEnterprise)",
+      "date": "2026-04-23",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 수급 이탈",
+      "description": "CFO의 최근 약 5만 주 자사주 매도를 비롯한 일부 내부자의 차익 실현 동향",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "어닝 서프라이즈 달성 및 견조한 2분기 가이던스 제시로 시간외 강세. HBM 및 차세대 패키징 분야의 장비 수요 증가가 기업 성장을 강력하게 견인 중임.",
+  "momentum": "bullish",
+  "analyst_view": "매수, 평균 목표주가 $247 ~ $288 (최고 $350)",
+  "score_hint": 85
+}

@@ -1,0 +1,36 @@
+{
+  "ticker": "ALK",
+  "name": "Alaska Air Group",
+  "theme": "항공/운송",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "UBS의 목표주가 상향 및 투자의견 유지, 긍정적 모멘텀으로 주가 13% 이상 폭등 (Timothy Sykes)",
+      "date": "2026-04-17",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "Tailsight사와의 다년간 AI 파트너십 체결로 항공기 정비 효율성 극대화 및 다운타임 단축 기대 (StocksToTrade)",
+      "date": "2026-04-15",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "하와이안 항공(Hawaiian Airlines) 합병 과정의 핵심인 '단일 여객 서비스 시스템(PSS)' 통합 가시화 (QuiverQuant)",
+      "date": "2026-04-15",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 실적 리스크",
+      "description": "1분기 높은 연료비 및 지역 운항 차질로 인해 주당 순손실 가이던스 하향 조정 이력 존재",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "AI 정비 파트너십 발표와 하와이안 항공과의 시스템 통합 등 굵직한 호재가 겹치며 하루 만에 주가가 13% 폭등했습니다. 합병 시너지와 예약률 증가(전년비 +25%)로 긍정적 투심이 극대화되고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "Buy 의견 우세, 평균 목표주가 $61.00 ~ $63.00",
+  "score_hint": 88
+}

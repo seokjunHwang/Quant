@@ -1,0 +1,30 @@
+{
+  "ticker": "KTOS",
+  "name": "Kratos Defense",
+  "theme": "방산/항공우주",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "신형 고성능 저비용 제트 드론 'Firejet Mk1' 초도 비행 완료 및 2026년 하반기 양산 본격화 (회사 발표)",
+      "date": "2026-04-21",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "미 우주군(Space Force)으로부터 4억 4,680만 달러 규모 지상 관리 및 통합(GMI) 사업 수주 (주요 언론)",
+      "date": "2026-04-08",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수급/밸류에이션 리스크",
+      "description": "최근 10억 달러 대규모 주식 공모로 인한 가치 희석 우려 및 경영진 주요 내부자 지분 매도 발생",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "신형 무인기 비행 성공과 우주군 대규모 계약으로 미 국방부 저비용 드론 트렌드의 최대 수혜주로 부각되고 있습니다. 다만 내부자 매도 및 밸류에이션 부담이 단기 변수입니다.",
+  "momentum": "bullish",
+  "analyst_view": "완만한 매수(Moderate Buy), 평균 목표주가 $112 ~ $135",
+  "score_hint": 80
+}

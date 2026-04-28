@@ -1,0 +1,36 @@
+{
+  "ticker": "DAL",
+  "name": "Delta Air Lines",
+  "theme": "항공/운송",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "1분기 어닝 서프라이즈 달성 (EPS $0.64 vs 예상치 $0.61) 및 전년 대비 매출 9.4% 증가 (MarketBeat)",
+      "date": "2026-04-08",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "유가 하락과 위험 선호(Risk-on) 심리 회복으로 주가 7.2% 급등 (QuiverQuant)",
+      "date": "2026-04-14",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "2028년 6월까지 유효한 10억 달러 규모의 자사주 매입 프로그램 재확인 (QuiverQuant)",
+      "date": "2026-03-31",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "ESG 리스크",
+      "description": "지속가능 항공유(SAF) 및 넷제로 목표 축소로 인한 일부 ESG 투자자들의 반발 가능성",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "1분기 강력한 어닝 서프라이즈와 10억 달러 규모의 자사주 매입 정책을 바탕으로 투자 심리가 크게 개선되었습니다. 대다수 증권사가 목표가를 줄상향하며 업종 내 대장주 역할을 굳히고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy (만장일치 매수), 평균 목표주가 $77.82 ~ $79.26 (Evercore 등 80달러 이상 상향)",
+  "score_hint": 90
+}

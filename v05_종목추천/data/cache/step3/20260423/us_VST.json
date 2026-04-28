@@ -1,0 +1,30 @@
+{
+  "ticker": "VST",
+  "name": "Vistra",
+  "theme": "전력설비/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Morgan Stanley '비중확대' 의견 유지 및 목표가 208달러 제시 (MarketBeat)",
+      "date": "2026-04-20",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "Cogentrix 인수를 통한 발전 용량 확대 및 원전 슈퍼사이클 수혜 기대 (Investing.com)",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실적 변동성",
+      "description": "최근 2월 분기 실적(EPS $2.18)이 시장 예상치를 소폭 하회함",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "원자력 발전 및 AI 데이터센터 전력 수요 증가의 수혜주로 꼽히며 월가의 압도적인 '강력 매수' 의견을 유지하고 있음. 발전 용량 확대와 2026년 강력한 잉여현금흐름(FCF) 창출 기대감으로 매력도가 높음.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy, 평균 목표가 $234.00 ~ $236.87 (현재가 대비 약 50% 상승 여력)",
+  "score_hint": 90
+}

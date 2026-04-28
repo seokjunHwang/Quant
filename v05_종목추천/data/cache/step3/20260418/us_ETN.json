@@ -1,0 +1,30 @@
+{
+  "ticker": "ETN",
+  "name": "Eaton",
+  "theme": "전력설비/AI 데이터센터",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "AI 데이터센터 수요 대응을 위한 3천만 달러 규모의 스위치기어 제조 시설 투자 발표 (Simply Wall St)",
+      "date": "2026-04-18",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "Citigroup 등 주요 투자은행의 목표주가 $464 상향 조정 (MarketBeat)",
+      "date": "2026-04-13",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 밸류에이션 부담",
+      "description": "일부 기관(Wells Fargo 등)의 단기 차익 실현을 위한 목표가 소폭 하향 조정",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "AI 데이터센터 전력 장비의 폭발적 수요에 맞춰 스위치기어 제조 시설에 3천만 달러를 신규 투자하기로 결정했습니다. 주가는 최근 52주 신고가($410선)를 돌파하며 강력한 상승세를 보이고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표가 $396.50 ~ $403.90. AI 수혜주 부각으로 강력한 'Moderate Buy'.",
+  "score_hint": 85
+}

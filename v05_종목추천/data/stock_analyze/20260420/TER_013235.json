@@ -1,0 +1,114 @@
+{
+  "ticker": "TER",
+  "name": "Teradyne, Inc.",
+  "market": "us",
+  "current_price": "$370.13",
+  "summary": "AI 반도체 테스트 수요 폭증으로 Q1 2026 가이던스가 컨센 34% 상회, 최근 1개월 JPM·Susquehanna 등 상향 릴레이가 이어지며 강세 지속이나 P/E 90배 초과로 밸류에이션 부담이 공존하는 모멘텀주.",
+  "main_analysis": [
+    {
+      "category": "밸류에이션",
+      "result": "현재가 약 $370, TTM P/E 90배 초과로 SPE 섹터 최고 수준. Forward P/E는 2026년 EPS 회복 기반 약 40~45배로 하락 예상. Fair Value 컨센서스 목표주가 평균 $324.59(최고 $415, 최저 $220)로 현재가 대비 약 12% 하회 - 단기 고평가 구간."
+    },
+    {
+      "category": "경쟁사 비교",
+      "result": "ATE(자동 테스트 장비) 글로벌 양강 체제 - Teradyne vs Advantest(6857.T). Q1 2026 가이던스 매출 $1.15~1.25B로 YoY +75% 성장은 Advantest 추정치(+40~50% YoY)를 상회. AI 테스트 수요 점유율 기준 실질 대장주 위치 확보, ATE TAM $12~14B 중장기 목표."
+    },
+    {
+      "category": "재무 건전성",
+      "result": "Q4 2025 매출 $1.08B(YoY +44%), Q1 2026 가이던스 매출 $1.15~1.25B(신기록), Non-GAAP 매출총이익률 58.5~59.5%(QoQ +180bp), Non-GAAP EPS $1.89~$2.25. 부채비율 매우 낮음(순현금 포지션), 현금 약 $0.5B대 유지."
+    },
+    {
+      "category": "자본 리스크",
+      "result": "유상증자 계획 없음, 오히려 자사주 매입 프로그램 지속. 보호예수 관련 오버행 이슈 없음. 최근 TestInsight 인수로 희석 우려 제한적 - 주요 리스크는 밸류에이션 자체(P/E 90배+)에서 비롯된 멀티플 컴프레션 위험."
+    },
+    {
+      "category": "애널리스트 평가",
+      "result": "컨센서스 Buy(11 Buy / 6 Hold / 1 Underperform), 평균 목표주가 $324.59(최근 상향 반영 시 $350+), 최고 $415(Susquehanna), 최저 $220. 최근 1개월 JPM·Susquehanna 대폭 상향이 톤을 주도."
+    },
+    {
+      "category": "핵심 호재/악재",
+      "result": "호재: AI 컴퓨팅·HBM 테스트 수요 폭발(AI 기여 Q1 2026 매출의 70%+), TestInsight 인수, Q1 서프라이즈 가이던스, 미-이란 휴전으로 공급망 리스크 완화. 악재: 3월 5일 밸류에이션 근거 다운그레이드(-11%), P/E 90배+ 부담, 4월 29일 실적 발표 이벤트 리스크."
+    },
+    {
+      "category": "레버리지 티커",
+      "result": "TERG (Leverage Shares 2X Long TER Daily ETF) - 기초자산 TER의 일일 200% 수익률 추종, 운용보수 0.75%, 2025년 11월 상장."
+    }
+  ],
+  "analyst_ratings": [
+    {
+      "date": "2026-04-16",
+      "firm": "JPMorgan",
+      "target": "$400",
+      "rating": "Neutral",
+      "comment": "목표주가 $315→$400 상향. AI 테스트 TAM 확장과 Q1 가이던스 서프라이즈 반영, 다만 밸류에이션 프리미엄 감안해 Neutral 유지."
+    },
+    {
+      "date": "2026-04-09",
+      "firm": "Susquehanna",
+      "target": "$415",
+      "rating": "Positive",
+      "comment": "목표주가 $335→$415 상향. 2026년 매출 성장 모멘텀을 강조, 커버리지 내 최고 목표주가 제시."
+    },
+    {
+      "date": "2026-04-02",
+      "firm": "Meyka/컨센서스 업데이트",
+      "target": "$324",
+      "rating": "Buy",
+      "comment": "애널리스트 타겟이 $305 주가 수준에서 지속 상향, AI 모멘텀 기반 추가 상승 여지 존재."
+    },
+    {
+      "date": "2026-03-24",
+      "firm": "Street Consensus",
+      "target": "$311.40",
+      "rating": "Buy",
+      "comment": "17개 기관 12개월 타겟 평균 $311.40, 최고 $400, 최저 $220."
+    },
+    {
+      "date": "2026-03-05",
+      "firm": "Anonymous Downgrade(Trefis 보도)",
+      "target": "$270",
+      "rating": "Downgrade",
+      "comment": "밸류에이션 우려(P/E 90배+)로 하향, 발표 익일 주가 -11% 급락 유발."
+    },
+    {
+      "date": "2026-02-04",
+      "firm": "Goldman Sachs",
+      "target": "$300",
+      "rating": "Buy",
+      "comment": "목표주가 $230→$300 상향. AI 반도체 테스트 수요 강화 및 네트워킹 부문 성장 반영."
+    },
+    {
+      "date": "2026-02-03",
+      "firm": "Morgan Stanley",
+      "target": "$306",
+      "rating": "Equalweight",
+      "comment": "목표주가 $288→$306 상향. 네트워킹 성장 인정하나 SPE 커버리지 내 최고 멀티플로 Equalweight 유지."
+    }
+  ],
+  "swing_analysis": [
+    {
+      "category": "상대 거래량 (RVOL)",
+      "result": "최근 평균 일일 거래량 약 238만주, 애널리스트 상향 및 실적 기대로 RVOL 1.3~1.5배 구간 형성. 본격적인 돈 쏠림은 4월 29일 실적 전후 확대 예상."
+    },
+    {
+      "category": "옵션 활동",
+      "result": "Benzinga 옵션 스캐너 기준 최근 비정상 옵션 23건 포착, 센티먼트 Bullish 47% vs Bearish 34%로 강세 우위. 4월 29일 실적을 앞두고 콜옵션 IV 상승 중."
+    },
+    {
+      "category": "공매도 & 숏커버링",
+      "result": "Short Float 약 3.3~3.75%(약 520만주), 최근 리포트 대비 +12.1% 증가. Days to Cover 2~3일 수준으로 숏 스퀴즈 가능성은 제한적이나, 실적 서프라이즈 시 커버링 매수세 유입 여지."
+    },
+    {
+      "category": "시간 외 거래",
+      "result": "4월 14일 프리마켓 +0.58% 상승 갭 발생, AI 로보틱스 모멘텀 이슈로 상방 갭 지속 경향. 실적 임박으로 갭 변동성 확대 국면."
+    },
+    {
+      "category": "SMC 패턴 (15분봉)",
+      "result": "JPM 상향($400) 이후 Order Block $355~360 구간에서 지지 확인, 직전 고점 돌파 시 Bullish CHoCH 전환. $365~368 구간 FVG 갭 일부 메움, 상방 $375 저항 구간 미체결 유동성 존재."
+    }
+  ],
+  "verify": "RVOL 중간 수준 + 콜옵션 Bullish 47% + 애널리스트 상향 릴레이가 겹치며 '기관성 스마트머니' 유입 신호는 진짜이나, P/E 90배+ 밸류에이션 부담으로 4월 29일 실적 이벤트 전까지 신규 진입은 분할 접근 권고.",
+  "_query": "테라다인",
+  "_analyzed_at": "2026-04-20 01:32:35",
+  "_task_id": "d5b746a4"
+}

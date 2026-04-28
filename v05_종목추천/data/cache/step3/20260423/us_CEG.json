@@ -1,0 +1,30 @@
+{
+  "ticker": "CEG",
+  "name": "Constellation Energy",
+  "theme": "전력설비/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "크레인(Crane) 원전 재가동을 위한 10억 달러 DOE 대출 확보 및 데이터센터 전력 공급 계약 체결 (Intellectia)",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "type": "악재",
+      "content": "Morgan Stanley 목표가를 360달러로 소폭 하향 조정 (GuruFocus)",
+      "date": "2026-04-21",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실적 둔화 우려",
+      "description": "2026년 연간 실적 가이던스 중간값이 시장 컨센서스를 소폭 하회하며 단기 변동성 야기",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "미국 최대 원전 운영사로 AI 전력 수요의 핵심 기업. 최근 실적 가이던스가 예상치를 살짝 밑돌아 일부 목표가 하향이 있었으나, 원전 재가동 대출 및 데이터센터 전력 공급 계약 등 장기 모멘텀은 굳건함.",
+  "momentum": "bullish",
+  "analyst_view": "Strong/Moderate Buy, 평균 목표가 $376.20 ~ $386.00",
+  "score_hint": 80
+}

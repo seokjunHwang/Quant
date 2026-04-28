@@ -1,0 +1,30 @@
+{
+  "ticker": "WCC",
+  "name": "Wesco International",
+  "theme": "전력설비/AI 데이터센터",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "4월 17일 사상 최고가($319.78) 경신 및 1년간 105% 상승 달성 (investing.com)",
+      "date": "2026-04-17",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "주요 월가 기관들(RBC, Barclays, JPMorgan) 목표주가 일제히 상향 (marketbeat.com)",
+      "date": "2026-04-15",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "차익실현",
+      "description": "최근 1년간 105% 이상 단기 급등 및 신고가 경신에 따른 고점 부담",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "4월 17일 사상 최고가를 경신했으며, RBC, Barclays, JPMorgan 등 주요 월가 투자은행들이 실적 성장을 반영하여 일제히 목표주가를 290~335달러로 상향 조정했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "RBC $335, Barclays $313, JPMorgan $290 (전반적 Moderate Buy)",
+  "score_hint": 88
+}

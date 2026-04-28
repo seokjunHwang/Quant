@@ -1,0 +1,30 @@
+{
+  "ticker": "010120",
+  "name": "LS ELECTRIC",
+  "theme": "전력설비/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "1분기 사상 최대 실적 발표 및 어닝 서프라이즈 (공시)",
+      "date": "2026-04-21",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "미국 빅테크로부터 총 2,700억 원대 수주 및 공장 CAPA 확대 (뉴스)",
+      "date": "2026-04",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수급 변동",
+      "description": "단기 급등으로 인한 일시적인 외국인 차익 매물 출회",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "북미 데이터센터 전력 수요 폭증으로 1분기 사상 최대 실적을 기록하며 북미 빅테크향 대규모 수주를 연이어 따냈습니다. 실적 발표 이후 증권사들의 목표주가 상향과 기관의 강한 매수세가 이어지고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "200,000원 ~ 260,000원",
+  "score_hint": 95
+}

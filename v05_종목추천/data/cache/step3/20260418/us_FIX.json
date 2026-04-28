@@ -1,0 +1,35 @@
+{
+  "ticker": "FIX",
+  "name": "Comfort Systems USA",
+  "theme": "전력설비/AI 데이터센터",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Stifel, 데이터센터 부문 성장 기대감으로 목표주가를 $1,819로 상향 (investing.com)",
+      "date": "2026-04-16",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "기술/데이터센터 부문 매출 45% 비중 확보 및 120억 달러 수주잔고 기록 (zacks.com)",
+      "date": "2026-04-13",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 차익실현",
+      "description": "4월 23일 실적발표를 앞두고 4월 중순 3.3% 가량의 단기 차익실현 매물 출회",
+      "severity": "low"
+    },
+    {
+      "type": "내부자 매도",
+      "description": "최근 3개월간 내부자 약 5,370만 달러 규모의 주식 매도",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "4월 23일 1분기 실적 발표를 앞두고 있으며, Stifel 등 주요 기관은 회사의 강력한 데이터센터 노출도를 근거로 목표주가를 1,819달러로 대폭 상향했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "Stifel 목표가 $1,819 (Buy), Zacks Rank #1 (Strong Buy)",
+  "score_hint": 85
+}

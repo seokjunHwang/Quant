@@ -625,7 +625,7 @@ def _run_analyze_bg(task_id: str, query: str):
     prompt = _build_analyze_prompt(query)
     try:
         result = subprocess.run(
-            ["claude", "-p", prompt, "--model", "claude-opus-4-6",
+            ["claude", "-p", prompt, "--model", "claude-opus-4-7",
              "--output-format", "json", "--allowedTools", "WebSearch"],
             capture_output=True, text=True, timeout=300,
         )

@@ -1,0 +1,42 @@
+{
+  "ticker": "UAL",
+  "name": "United Airlines",
+  "theme": "항공/운송",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "중동 긴장 완화 및 호르무즈 해협 재개방에 따른 유가 급락으로 주가 10.5% 반등 (QuiverQuant)",
+      "date": "2026-04-17",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "견조한 1분기 실적 기대감 및 연간 EPS 가이던스 상향($12~14) 기대 (MarketBeat)",
+      "date": "2026-04-15",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "제트블루 인수 또는 아메리칸 항공과의 합병 가능성 등 대규모 M&A 루머 제기 (SimplyWall.st)",
+      "date": "2026-04-15",
+      "impact": "medium"
+    },
+    {
+      "type": "호재",
+      "content": "승무원 노조와의 새로운 잠정 노동 협약 체결로 비용 불확실성 해소 (Tikr)",
+      "date": "2026-03-31",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "지정학적 리스크",
+      "description": "중동 정세 불안정에 따른 제트유 가격 변동성 확대 및 글로벌 관세 영향",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "유가 급락에 따른 비용 감소 기대와 1분기 호실적 전망이 맞물리며 주가가 단기 급반등했습니다. 승무원 노사 합의 완료와 M&A 루머 또한 긍정적 모멘텀으로 작용하고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "Strong Buy 의견 압도적 우세, 평균 목표주가 $130.50 (최고 $156.00)",
+  "score_hint": 85
+}

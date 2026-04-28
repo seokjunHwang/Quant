@@ -1,0 +1,30 @@
+{
+  "ticker": "LMT",
+  "name": "Lockheed Martin",
+  "theme": "방산/항공우주",
+  "catalysts": [
+    {
+      "type": "중립",
+      "content": "1분기 실적 발표 예정 - 전분기 어닝 쇼크 만회 여부 주목 (Benzinga)",
+      "date": "2026-04-23",
+      "impact": "high"
+    },
+    {
+      "type": "악재",
+      "content": "페루 정부, LMT가 유력했던 F-16 전투기 도입 연기 발표 (TradingKey)",
+      "date": "2026-04-22",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수익성 악화",
+      "description": "주력인 항공(Aeronautics) 부문의 영업 이익률 하락(-1.3%) 및 프로그램 손실",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "4월 23일 1분기 실적 발표를 앞두고 전분기 어닝 쇼크의 여파로 경계감이 짙음. 미사일 및 우주 부문은 성장세를 보이나 주력 항공 부문의 마진 압박과 최근 페루의 F-16 도입 연기 악재로 단기 모멘텀이 약화됨.",
+  "momentum": "bearish",
+  "analyst_view": "Hold (중립) 의견 지배적, 평균 목표가 $646.16",
+  "score_hint": 45
+}

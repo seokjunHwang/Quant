@@ -1,0 +1,30 @@
+{
+  "ticker": "GEV",
+  "name": "GE Vernova",
+  "theme": "전력설비/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "1분기 어닝 서프라이즈 및 2026년 연간 실적 가이던스 상향 (실적 발표)",
+      "date": "2026-04-22",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "AI 데이터센터 수요 폭발로 인한 1,630억 달러 규모의 역대급 수주 잔고 달성 (실적 발표)",
+      "date": "2026-04-22",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "단기 과열",
+      "description": "어닝 비트 이후 단기 급등에 따른 차익 실현 매물 출회 가능성",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "1분기 압도적인 실적 발표와 데이터센터 장비 수주 호조로 연간 가이던스를 대폭 상향하며 전력 인프라 대장주로서의 입지를 공고히 했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "실적 발표 직후 대규모 목표가 상향, 최고 목표가 $1,220 (TD Cowen)",
+  "score_hint": 95
+}

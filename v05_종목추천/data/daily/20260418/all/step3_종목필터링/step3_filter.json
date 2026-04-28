@@ -1,0 +1,1984 @@
+{
+  "date": "20260418",
+  "market": "all",
+  "passed_count": 59,
+  "excluded_count": 5,
+  "passed": [
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "theme": "전력설비/AI 데이터센터",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 270270671028.75,
+      "research": {
+        "ticker": "GEV",
+        "name": "GE Vernova",
+        "theme": "전력설비/AI 데이터센터",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "JPMorgan, BofA 등 다수 투자은행의 목표주가 $1,000 이상으로 잇따른 대폭 상향 (MarketBeat/Investing)",
+            "date": "2026-04-16",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "강력한 전력망 및 AI 데이터센터 인프라 수주 잔고(1,500억 달러) 부각 (StockAnalysis)",
+            "date": "2026-04-18",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "내부자 매도",
+            "description": "최근 3개월간 경영진 및 내부자의 약 450만 달러 규모 자사주 매도 발생",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "초거대 AI 전력망 인프라 슈퍼사이클의 대장주로 평가받으며 월가에서 연달아 목표주가(최대 $1,150)를 대폭 상향했습니다. 4월 22일로 예정된 1분기 실적 발표를 앞두고 기대감이 최고조에 달했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "압도적 'Buy' 컨센서스. 최근 메이저 기관 목표주가 $1,095 ~ $1,150 포진.",
+        "score_hint": 95
+      },
+      "score": 125.0,
+      "score_breakdown": {
+        "base": 95,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "267260",
+      "name": "HD현대일렉트릭",
+      "theme": "전력설비/AI 데이터센터",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 39124069248000,
+      "research": {
+        "ticker": "267260",
+        "name": "HD현대일렉트릭",
+        "theme": "전력설비/AI 데이터센터",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "국내 최대 460MVA급 친환경 절연유 변압기 제작 성공 및 영국 내셔널그리드 공급 (언론 보도)",
+            "date": "2026-04-16",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "AI 데이터센터 확산 및 북미 전력망 교체 특수로 글로벌 초고압 변압기 수주 폭증 지속 (증권사 리포트)",
+            "date": "2026-04-14",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "차익 실현 매물",
+            "description": "단기간 과열로 인한 기관 및 일부 외국인의 고점 차익 실현 출회 가능성",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "초대형 친환경 변압기 개발 등 기술력을 입증하며 영국 및 북미 시장을 장악하고 있습니다. AI 및 인프라 특수로 외국인의 강력한 순매수가 이어지며 증권가 목표가가 130만 원대까지 지속 상향되고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "매수 (목표주가 1,100,000원 ~ 1,320,000원)",
+        "score_hint": 95
+      },
+      "score": 125.0,
+      "score_breakdown": {
+        "base": 95,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "theme": "항공/운송",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 47119618514.634766,
+      "research": {
+        "ticker": "DAL",
+        "name": "Delta Air Lines",
+        "theme": "항공/운송",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "1분기 어닝 서프라이즈 달성 (EPS $0.64 vs 예상치 $0.61) 및 전년 대비 매출 9.4% 증가 (MarketBeat)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "유가 하락과 위험 선호(Risk-on) 심리 회복으로 주가 7.2% 급등 (QuiverQuant)",
+            "date": "2026-04-14",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "2028년 6월까지 유효한 10억 달러 규모의 자사주 매입 프로그램 재확인 (QuiverQuant)",
+            "date": "2026-03-31",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "ESG 리스크",
+            "description": "지속가능 항공유(SAF) 및 넷제로 목표 축소로 인한 일부 ESG 투자자들의 반발 가능성",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "1분기 강력한 어닝 서프라이즈와 10억 달러 규모의 자사주 매입 정책을 바탕으로 투자 심리가 크게 개선되었습니다. 대다수 증권사가 목표가를 줄상향하며 업종 내 대장주 역할을 굳히고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "Strong Buy (만장일치 매수), 평균 목표주가 $77.82 ~ $79.26 (Evercore 등 80달러 이상 상향)",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "POWL",
+      "name": "Powell Industries",
+      "theme": "전력설비/AI 데이터센터",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 8779234677.391342,
+      "research": {
+        "ticker": "POWL",
+        "name": "Powell Industries",
+        "theme": "전력설비/AI 데이터센터",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "3대1 주식 분할 완료 및 4월 17일 52주 신고가($238.01) 경신 (247wallst.com)",
+            "date": "2026-04-17",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "AI 데이터센터 및 LNG 프로젝트 전력 수요로 16억 달러의 기록적인 수주잔고 달성 (247wallst.com)",
+            "date": "2026-04-15",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 부담",
+            "description": "최근 3년간 1600% 이상 급등함에 따라 가치 평가 부담 존재",
+            "severity": "medium"
+          },
+          {
+            "type": "내부자 매도",
+            "description": "4월 9일 CEO가 약 104만 달러(4,440주) 규모의 자사주 매도",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "4월 초 3대1 주식 분할을 성공적으로 완료했으며, AI 데이터센터 전력망 수요 확대로 수주잔고 16억 달러를 기록하며 4월 17일 52주 신고가를 경신했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "Zacks Research 'Strong Buy' 상향 (4/7), 여타 기관은 분할 후 목표가 조정 및 'Neutral' 의견 혼재",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "000070",
+      "name": "가온전선",
+      "theme": "전력설비/AI 데이터센터",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 482019577000,
+      "research": {
+        "ticker": "000070",
+        "name": "가온전선",
+        "theme": "전력설비/AI 데이터센터",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "외국인/기관 쌍끌이 대량 매수세 유입되며 주가 52주 신고가 경신 (시장 데이터)",
+            "date": "2026-04-16",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "미국 배전케이블 법인 LSCUS 100% 자회사 편입 및 구리 가격 상승에 따른 실적 확대 기대 (증권사 리포트)",
+            "date": "2026-04-18",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 부담",
+            "description": "단기 급등으로 인한 PBR/PER 상승 및 기술적 단기 조정 리스크",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "북미 전력 인프라 교체와 구리가격 강세 수혜로 외국인 매수세가 집중되며 52주 신고가를 경신했습니다. 미국 현지 법인 100% 자회사화를 통해 본격적인 북미 매출 성장을 앞두고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "매수 (목표주가 99,000원 ~ 135,000원)",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "ALK",
+      "name": "Alaska Air Group",
+      "theme": "항공/운송",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 5204722004.92897,
+      "research": {
+        "ticker": "ALK",
+        "name": "Alaska Air Group",
+        "theme": "항공/운송",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "UBS의 목표주가 상향 및 투자의견 유지, 긍정적 모멘텀으로 주가 13% 이상 폭등 (Timothy Sykes)",
+            "date": "2026-04-17",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "Tailsight사와의 다년간 AI 파트너십 체결로 항공기 정비 효율성 극대화 및 다운타임 단축 기대 (StocksToTrade)",
+            "date": "2026-04-15",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "하와이안 항공(Hawaiian Airlines) 합병 과정의 핵심인 '단일 여객 서비스 시스템(PSS)' 통합 가시화 (QuiverQuant)",
+            "date": "2026-04-15",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "단기 실적 리스크",
+            "description": "1분기 높은 연료비 및 지역 운항 차질로 인해 주당 순손실 가이던스 하향 조정 이력 존재",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "AI 정비 파트너십 발표와 하와이안 항공과의 시스템 통합 등 굵직한 호재가 겹치며 하루 만에 주가가 13% 폭등했습니다. 합병 시너지와 예약률 증가(전년비 +25%)로 긍정적 투심이 극대화되고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "Buy 의견 우세, 평균 목표주가 $61.00 ~ $63.00",
+        "score_hint": 88
+      },
+      "score": 118.0,
+      "score_breakdown": {
+        "base": 88,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "theme": "전력설비/AI 데이터센터",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 117587810524.64258,
+      "research": {
+        "ticker": "VRT",
+        "name": "Vertiv Holdings",
+        "theme": "전력설비/AI 데이터센터",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "BNP Paribas, Citi 등 다수 IB 목표주가 $311~$345로 잇따라 상향 조정 (MarketBeat)",
+            "date": "2026-04-14",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "BMarko Structures 인수를 통한 데이터센터 모듈 인프라 제조 역량 강화 (MarketChameleon)",
+            "date": "2026-04-18",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "고평가 논란",
+            "description": "단기 급등에 따른 밸류에이션 부담으로 Jefferies 등 일부 기관의 투자의견 하향('Hold')",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "데이터센터 인프라 역량 강화를 위해 BMarko Structures를 인수했으며, 150억 달러에 달하는 역대급 수주 잔고가 부각되었습니다. 4월 22일 실적 발표를 앞두고 긍정적 전망이 우세합니다.",
+        "momentum": "bullish",
+        "analyst_view": "'Moderate Buy' 의견 다수. 최근 상향된 목표가 $311 ~ $345 분포.",
+        "score_hint": 88
+      },
+      "score": 118.0,
+      "score_breakdown": {
+        "base": 88,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "WCC",
+      "name": "Wesco International",
+      "theme": "전력설비/AI 데이터센터",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 15526070481.096497,
+      "research": {
+        "ticker": "WCC",
+        "name": "Wesco International",
+        "theme": "전력설비/AI 데이터센터",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "4월 17일 사상 최고가($319.78) 경신 및 1년간 105% 상승 달성 (investing.com)",
+            "date": "2026-04-17",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "주요 월가 기관들(RBC, Barclays, JPMorgan) 목표주가 일제히 상향 (marketbeat.com)",
+            "date": "2026-04-15",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "차익실현",
+            "description": "최근 1년간 105% 이상 단기 급등 및 신고가 경신에 따른 고점 부담",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "4월 17일 사상 최고가를 경신했으며, RBC, Barclays, JPMorgan 등 주요 월가 투자은행들이 실적 성장을 반영하여 일제히 목표주가를 290~335달러로 상향 조정했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "RBC $335, Barclays $313, JPMorgan $290 (전반적 Moderate Buy)",
+        "score_hint": 88
+      },
+      "score": 118.0,
+      "score_breakdown": {
+        "base": 88,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines",
+      "theme": "항공/운송",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 33049308078.351288,
+      "research": {
+        "ticker": "UAL",
+        "name": "United Airlines",
+        "theme": "항공/운송",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "중동 긴장 완화 및 호르무즈 해협 재개방에 따른 유가 급락으로 주가 10.5% 반등 (QuiverQuant)",
+            "date": "2026-04-17",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "견조한 1분기 실적 기대감 및 연간 EPS 가이던스 상향($12~14) 기대 (MarketBeat)",
+            "date": "2026-04-15",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "제트블루 인수 또는 아메리칸 항공과의 합병 가능성 등 대규모 M&A 루머 제기 (SimplyWall.st)",
+            "date": "2026-04-15",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "승무원 노조와의 새로운 잠정 노동 협약 체결로 비용 불확실성 해소 (Tikr)",
+            "date": "2026-03-31",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "지정학적 리스크",
+            "description": "중동 정세 불안정에 따른 제트유 가격 변동성 확대 및 글로벌 관세 영향",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "유가 급락에 따른 비용 감소 기대와 1분기 호실적 전망이 맞물리며 주가가 단기 급반등했습니다. 승무원 노사 합의 완료와 M&A 루머 또한 긍정적 모멘텀으로 작용하고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "Strong Buy 의견 압도적 우세, 평균 목표주가 $130.50 (최고 $156.00)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "theme": "전력설비/AI 데이터센터",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 157771960681.15234,
+      "research": {
+        "ticker": "ETN",
+        "name": "Eaton",
+        "theme": "전력설비/AI 데이터센터",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "AI 데이터센터 수요 대응을 위한 3천만 달러 규모의 스위치기어 제조 시설 투자 발표 (Simply Wall St)",
+            "date": "2026-04-18",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "Citigroup 등 주요 투자은행의 목표주가 $464 상향 조정 (MarketBeat)",
+            "date": "2026-04-13",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "단기 밸류에이션 부담",
+            "description": "일부 기관(Wells Fargo 등)의 단기 차익 실현을 위한 목표가 소폭 하향 조정",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "AI 데이터센터 전력 장비의 폭발적 수요에 맞춰 스위치기어 제조 시설에 3천만 달러를 신규 투자하기로 결정했습니다. 주가는 최근 52주 신고가($410선)를 돌파하며 강력한 상승세를 보이고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표가 $396.50 ~ $403.90. AI 수혜주 부각으로 강력한 'Moderate Buy'.",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "FIX",
+      "name": "Comfort Systems USA",
+      "theme": "전력설비/AI 데이터센터",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 58070080983.70972,
+      "research": {
+        "ticker": "FIX",
+        "name": "Comfort Systems USA",
+        "theme": "전력설비/AI 데이터센터",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "Stifel, 데이터센터 부문 성장 기대감으로 목표주가를 $1,819로 상향 (investing.com)",
+            "date": "2026-04-16",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "기술/데이터센터 부문 매출 45% 비중 확보 및 120억 달러 수주잔고 기록 (zacks.com)",
+            "date": "2026-04-13",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "단기 차익실현",
+            "description": "4월 23일 실적발표를 앞두고 4월 중순 3.3% 가량의 단기 차익실현 매물 출회",
+            "severity": "low"
+          },
+          {
+            "type": "내부자 매도",
+            "description": "최근 3개월간 내부자 약 5,370만 달러 규모의 주식 매도",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "4월 23일 1분기 실적 발표를 앞두고 있으며, Stifel 등 주요 기관은 회사의 강력한 데이터센터 노출도를 근거로 목표주가를 1,819달러로 대폭 상향했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "Stifel 목표가 $1,819 (Buy), Zacks Rank #1 (Strong Buy)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "theme": "조선/해운",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 91082757246.33673,
+      "research": {
+        "ticker": "GD",
+        "name": "General Dynamics",
+        "theme": "조선/해운",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미 해군 구축함(USS Truxtun) 수리 및 현대화 관련 1억 8,320만 달러 규모 계약 수주 (Defence Blog 등)",
+            "date": "2026-04-13",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "분기 배당금을 주당 1.59달러로 인상 발표 (MarketBeat)",
+            "date": "2026-04-10",
+            "impact": "low"
+          }
+        ],
+        "risks": [
+          {
+            "type": "단기 변동성",
+            "description": "4월 22일(수) 2026년 1분기 실적 발표를 앞두고 있어 단기 관망세 유입 가능성",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "최근 해군 함정 수리 및 장갑차 관련 대규모 국방 계약을 다수 수주하며 견조한 흐름을 보이고 있습니다. 외국인/기관 투자자 비중이 86~89%로 매우 높고 뱅가드, 블랙록 등 대형 기관이 물량을 쥐고 있어 수급이 안정적입니다.",
+        "momentum": "bullish",
+        "analyst_view": "비중확대(Overweight) 다수, 평균 목표주가 $385 ~ $404",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "003490",
+      "name": "대한항공",
+      "theme": "항공/운송",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 9251751670200,
+      "research": {
+        "ticker": "003490",
+        "name": "대한항공",
+        "theme": "항공/운송",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "2026년 1분기 매출 4조 5,151억 원, 영업이익 5,169억 원으로 시장 예상치를 상회하는 사상 최대 실적 달성 (공시)",
+            "date": "2026-04-13",
+            "impact": "high"
+          },
+          {
+            "type": "중립",
+            "content": "유가 및 환율 상승 리스크에 대응하기 위한 전사적 비상경영 체제 돌입 (언론 보도)",
+            "date": "2026-04-18",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "지정학적 리스크/비용 증가",
+            "description": "중동 정세 불안으로 인한 제트유가 급등과 원/달러 환율 상승이 2분기 이후 비용 부담 및 유류할증료 급등으로 작용",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "1분기 화물 및 여객 호조로 역대 최대 어닝 서프라이즈를 기록하며 외국인/기관 매수세가 유입되었습니다. 다만, 고유가와 고환율에 대응해 선제적 비상경영에 돌입하며 리스크를 관리하고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "매수 (목표주가 31,000원 ~ 34,000원)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "033500",
+      "name": "동성화인텍",
+      "theme": "조선/해운",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "033500",
+        "name": "동성화인텍",
+        "theme": "조선/해운",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "삼성중공업과 878억원 규모 LNG운반선 초저온 보냉자재 공급 계약 체결 (공시)",
+            "date": "2026-04-08",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "기관 투자자의 10거래일 연속 누적 순매수 등 강한 수급 유입 (수급)",
+            "date": "2026-03-31",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "마진 압박",
+            "description": "원자재(MDI 등) 가격 상승 가능성에 따른 2026년 하반기 수익성 둔화 우려",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "삼성중공업과의 대규모 보냉재 공급 계약 및 조선업계 LNG 운반선 수주 호조를 바탕으로 한 실적 퀀텀점프 기대감이 높음. 특히 10거래일 이상 이어진 기관의 연속 매수세가 강한 주가 상승 탄력을 주도함.",
+        "momentum": "bullish",
+        "analyst_view": "매수(Buy) 의견 지배적, 평균 목표주가 약 36,000원대 (DS투자증권 38,000원, 신한투자증권 33,000원)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "HII",
+      "name": "Huntington Ingalls Industries",
+      "theme": "조선/해운",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 15546500786.374329,
+      "research": {
+        "ticker": "HII",
+        "name": "Huntington Ingalls Industries",
+        "theme": "조선/해운",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "차세대 무인 수상정(ROMULUS/REMUS) 및 분산형 해양 운영(DMO) 프레임워크 발표 (hii.com)",
+            "date": "2026-04-16",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "GrayMatter Robotics와 협력하여 함정 건조에 '물리적 AI' 도입 발표 (stocktitan.net)",
+            "date": "2026-04-06",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "비용 증가",
+            "description": "조선소 인력 확보 및 유지를 위한 임금 인상으로 인한 단기 비용 증가",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "로봇 공학과 물리적 AI를 조선 제조에 적극 도입하고 있으며, 무인 해양 시스템 프레임워크를 연달아 발표하며 현대전 기술력을 입증하고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "현 주가($396~$403) 대비 잉여현금흐름 모델 기준 약 13% 저평가 상태라는 분석 존재",
+        "score_hint": 82
+      },
+      "score": 112.0,
+      "score_breakdown": {
+        "base": 82,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "SNCY",
+      "name": "Sun Country Airlines",
+      "theme": "항공/운송",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 993332702.0755062,
+      "research": {
+        "ticker": "SNCY",
+        "name": "Sun Country Airlines",
+        "theme": "항공/운송",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미국 교통부(DOT)의 Allegiant Travel 인수 최종 승인 획득 (TipRanks/MarketBeat)",
+            "date": "2026-04-15",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "투자의견 하향",
+            "description": "합병 승인 소식에도 불구하고 Zacks Research에서 'Strong Sell'로 의견 하향",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "미국 교통부가 Allegiant Travel의 Sun Country 인수를 위한 최종 규제 승인을 내렸습니다. 5월 초 주주 총회를 거쳐 5월 중순에 합병이 완료될 것으로 기대됩니다.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표가 $20.29. 피인수 확정 임박으로 대부분 'Hold' 의견 제시.",
+        "score_hint": 80
+      },
+      "score": 110.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "GNK",
+      "name": "Genco Shipping & Trading",
+      "theme": "조선/해운",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1059553617.4013596,
+      "research": {
+        "ticker": "GNK",
+        "name": "Genco Shipping & Trading",
+        "theme": "조선/해운",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "Diana Shipping(DSX)의 주당 23.50달러 현금 인수 제안 및 위임장 대결(Proxy Fight) 본격화 (Seeking Alpha)",
+            "date": "2026-04-13",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "신형 고효율 Newcastlemax 선박 인도 완료로 철광석/석탄 운송 선대 경쟁력 강화 (StockTitan)",
+            "date": "2026-04-07",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "경영권 분쟁 리스크",
+            "description": "현 이사회와 적대적 인수자(Diana Shipping) 간의 갈등 및 포이즌 필(Poison Pill) 유지로 인한 중장기 경영 불확실성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "Diana Shipping의 적대적 인수 시도와 경영권 표 대결 이슈로 주가가 인수 제안가(23.50달러) 이상에서 강세를 띠고 있습니다. 기관 보유 비중은 약 51%이며, 단기적인 M&A 모멘텀이 주가를 견인 중입니다.",
+        "momentum": "bullish",
+        "analyst_view": "적극 매수(Moderate Buy), 평균 목표주가 $21.00 (경영권 분쟁으로 현재 주가가 목표가를 상회 중)",
+        "score_hint": 80
+      },
+      "score": 110.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "272450",
+      "name": "진에어",
+      "theme": "항공/운송",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 347336693160,
+      "research": {
+        "ticker": "272450",
+        "name": "진에어",
+        "theme": "항공/운송",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "대한항공-아시아나 합병에 따른 진에어, 에어부산, 에어서울 LCC 3사 통합 본격화 수혜 (주주총회 발표)",
+            "date": "2026-03-26",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "하계 시즌 부산-미야코지마, 제주-홍콩 등 단거리 신규 노선 공격적 취항 (언론 보도)",
+            "date": "2026-04-02",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "기상 악화 및 환율",
+            "description": "태풍 실라코 여파로 괌/사이판 일시 결항, 지속적인 LCC 경쟁 심화와 고환율 기조 부담",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "태풍 피해로 일부 결항이 있었으나 정상화되었으며, 하계 신규 노선 취항을 적극적으로 추진하고 있습니다. 2026년 LCC 3사 통합 완수 기대감으로 역사적 저점 부근에서 밸류에이션 매력이 부각되고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "적극 매수 (평균 목표주가 10,400원 수준)",
+        "score_hint": 80
+      },
+      "score": 110.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "042660",
+      "name": "한화오션",
+      "theme": "조선/해운",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 39831634310000,
+      "research": {
+        "ticker": "042660",
+        "name": "한화오션",
+        "theme": "조선/해운",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "오세아니아 선주로부터 초대형 원유운반선(VLCC) 2척 약 3,933억원 규모 수주 (공시)",
+            "date": "2026-04-09",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "외국인 및 기관 동반 순매수세 (4월 16일 쌍끌이 매수) (수급)",
+            "date": "2026-04-16",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "미국 해군 함정 MRO 사업 진출 및 해외 특수선 방산 수주 확대 모멘텀 (뉴스)",
+            "date": "2026-04-18",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "비용 증가",
+            "description": "인력 충원에 따른 고정비 증가 및 마케팅 비용 확대로 단기적 수익성 개선 정체 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "고부가가치 선종(VLCC 등) 중심의 수주 랠리와 해외 특수선(방산) 부문의 확장이 기대감을 모으며 기관/외국인의 수급이 유입됨. 단기 고정비 부담이 있으나 상선 수익성 턴어라운드가 이를 상쇄 중임.",
+        "momentum": "bullish",
+        "analyst_view": "매수(Buy) 의견 우세, 평균 목표주가 약 162,000~168,000원 (상상인증권 170,000원, 대신증권 164,000원)",
+        "score_hint": 80
+      },
+      "score": 110.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "SBLK",
+      "name": "Star Bulk Carriers",
+      "theme": "조선/해운",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 2783570214.9087105,
+      "research": {
+        "ticker": "SBLK",
+        "name": "Star Bulk Carriers",
+        "theme": "조선/해운",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "Wall Street Zen 등 일부 투자기관에서 투자의견을 'Strong Buy'로 상향 조정 (MarketBeat)",
+            "date": "2026-04-18",
+            "impact": "high"
+          },
+          {
+            "type": "수급 호재",
+            "content": "3월 하반기 공매도 잔고 23.8% 급감 및 노후 선박 2척 매각(4,660만 달러 확보 예정) 발표 (GlobeNewswire)",
+            "date": "2026-04-15",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "내부자 매도",
+            "description": "최고운영책임자(COO) 및 최고전략책임자(CSO) 등 핵심 임원진이 4월 8일~15일 사이 대규모 자사주 장내 매도",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "애널리스트 투자의견 상향 및 공매도 쇼트커버링 추세 등 수급 호재가 겹치고 있으나, 최근 핵심 임원들의 대규모 주식 매도가 포착되어 상승 탄력을 제한할 수 있습니다. 외국인/기관 비중은 약 34%입니다.",
+        "momentum": "bullish",
+        "analyst_view": "강력 매수(Strong Buy) 다수, 평균 목표주가 $29.00 ~ $30.00",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "089590",
+      "name": "제주항공",
+      "theme": "항공/운송",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 439918266060,
+      "research": {
+        "ticker": "089590",
+        "name": "제주항공",
+        "theme": "항공/운송",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "1분기 수송객 전년 동기 대비 24.2% 급증, 탑승률 91.9% 달성 (언론 보도)",
+            "date": "2026-04-15",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "자회사 AK아이에스 매각(433억 원) 및 기재 매각 검토로 유동성 확보 (언론 보도)",
+            "date": "2026-04-18",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "항공유 수급 불안",
+            "description": "글로벌 항공유 수급 불안정에 선제 대응해 5월부터 국제선 주 12회 감편 결정",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "1분기 여객 수송량 대폭 증가로 LCC 1위 입지를 유지하며 흑자 전환이 기대됩니다. 자회사 매각을 통해 재무 구조를 개선하는 한편, 글로벌 항공유 이슈로 일부 노선 감편 등 내실 다지기에 돌입했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "보유/매수 (목표주가 6,000원 ~ 8,500원)",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "LUV",
+      "name": "Southwest Airlines",
+      "theme": "항공/운송",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 20979278590.54588,
+      "research": {
+        "ticker": "LUV",
+        "name": "Southwest Airlines",
+        "theme": "항공/운송",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "지정 좌석제 전면 도입 및 4단계 운임제(수하물 유료화 포함) 통한 부가 수익(Ancillary revenue) 창출 가시화 (Financial Content)",
+            "date": "2026-04-15",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "유가 하락으로 인한 섹터 전반의 연료비 부담 경감 수혜",
+            "date": "2026-04-17",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "실행 리스크",
+            "description": "저비용 항공사(LCC) 정체성 탈피 과정에서의 기존 고객 이탈 및 델타/유나이티드 등 대형사와의 경쟁 심화 우려",
+            "severity": "medium"
+          },
+          {
+            "type": "비용 증가",
+            "description": "2024년 갱신된 대규모 노사 계약으로 인한 구조적인 인건비 부담 증가",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "자율 좌석제를 폐지하고 수하물 유료화를 도입하는 등 대규모 비즈니스 모델 전환(Great Transformation)을 진행 중입니다. 수익성 개선 기대감은 높으나 전환 과정의 리스크로 인해 시장의 평가는 엇갈리고 있습니다.",
+        "momentum": "neutral",
+        "analyst_view": "Hold ~ Moderate Buy 의견 혼재, 평균 목표주가 $44.00 ~ $46.00 (증권사별 격차 큼)",
+        "score_hint": 65
+      },
+      "score": 85.0,
+      "score_breakdown": {
+        "base": 65,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "033100",
+      "name": "제룡전기",
+      "theme": "전력설비/AI 데이터센터",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "033100",
+        "name": "제룡전기",
+        "theme": "전력설비/AI 데이터센터",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "2026년 기업가치 제고 계획(배당성향 30.1% 등) 발표 및 주당 1000원 배당금 지급 완료 (공시)",
+            "date": "2026-03-17",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "AI 데이터센터 확장 및 미국 내 노후 전력망 교체 사이클에 따른 변압기 장기 수요 지속 (뉴스)",
+            "date": "2026-04-18",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "실적 둔화",
+            "description": "미국 내 배전용 변압기 공급 부족 현상 완화로 인한 단가 하락 및 경쟁 심화 우려",
+            "severity": "high"
+          },
+          {
+            "type": "매출 편중",
+            "description": "수출의 거의 100%가 미국에 집중되어 있어 관세 정책 등 미국 시장 환경 변화에 민감함",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "최근 2~3년간 폭발적인 실적 성장을 거쳐 현재는 미국 내 변압기 경쟁 심화로 단기 조정 및 실적 둔화 우려가 있음. 다만 AI 인프라 확대 모멘텀과 고배당 정책 등 주주환원책이 주가를 지지하고 있음.",
+        "momentum": "neutral",
+        "analyst_view": "IBK투자증권 중립(Neutral), 목표주가 50,000원 유지",
+        "score_hint": 55
+      },
+      "score": 75.0,
+      "score_breakdown": {
+        "base": 55,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "MATX",
+      "name": "Matson",
+      "theme": "조선/해운",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 5504835274.403915,
+      "research": {},
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "DAC",
+      "name": "Danaos",
+      "theme": "조선/해운",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 2144369410.552597,
+      "research": {},
+      "score": 70.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "DHI",
+      "name": "D.R. Horton",
+      "theme": "주택/건설",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 43609621077.08777,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "LEN",
+      "name": "Lennar",
+      "theme": "주택/건설",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 22854019111.332825,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "theme": "주택/건설",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 9788548606.5,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "KBH",
+      "name": "KB Home",
+      "theme": "주택/건설",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 3397927923.5839844,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "CCS",
+      "name": "Century Communities",
+      "theme": "주택/건설",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1809847124.6362152,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "LGIH",
+      "name": "LGI Homes",
+      "theme": "주택/건설",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1007677257.9284592,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "SDHC",
+      "name": "Smith Douglas Homes",
+      "theme": "주택/건설",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 130248253.27751827,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "theme": "이차전지/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1503299283107.6582,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle",
+      "theme": "이차전지/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 23312131904.25,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "ENVX",
+      "name": "Enovix",
+      "theme": "이차전지/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1438025781.1806355,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "QS",
+      "name": "QuantumScape",
+      "theme": "이차전지/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 4349331495.479637,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "SLDP",
+      "name": "Solid Power",
+      "theme": "이차전지/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 756630423.0757914,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "LAC",
+      "name": "Lithium Americas",
+      "theme": "이차전지/전기차",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1681268979.9243965,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "theme": "금융/핀테크",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 40535441684.26361,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "theme": "금융/핀테크",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 836862198684.6809,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "FITB",
+      "name": "Fifth Third Bancorp",
+      "theme": "금융/핀테크",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 45599129958.21762,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "WAL",
+      "name": "Western Alliance Bancorporation",
+      "theme": "금융/핀테크",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 8737160635.348572,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "GBCI",
+      "name": "Glacier Bancorp",
+      "theme": "금융/핀테크",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 6367461262.844528,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "294870",
+      "name": "HDC현대산업개발",
+      "theme": "주택/건설",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 1491540102000,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "006400",
+      "name": "삼성SDI",
+      "theme": "이차전지/전기차",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 40369834755000,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "247540",
+      "name": "에코프로비엠",
+      "theme": "이차전지/전기차",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "003670",
+      "name": "포스코퓨처엠",
+      "theme": "이차전지/전기차",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 20857880148000,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "105560",
+      "name": "KB금융",
+      "theme": "금융/핀테크",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 58198787280600,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "323410",
+      "name": "카카오뱅크",
+      "theme": "금융/핀테크",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 12078212911050,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "ULCC",
+      "name": "Frontier Group Holdings",
+      "theme": "항공/운송",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1045281208.0179253,
+      "research": {
+        "ticker": "ULCC",
+        "name": "Frontier Group Holdings",
+        "theme": "항공/운송",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "최근 분기 실적에서 EPS $0.23 기록하며 예상치($0.10) 상회, 주가 일간 12% 급등 (MarketBeat)",
+            "date": "2026-04-17",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "재무/수익성 리스크",
+            "description": "2026년 연간 EPS 가이던스 적자 가능성(-$0.40 ~ $0.50) 제시 및 높은 부채 비율(5x EBITDAR)",
+            "severity": "high"
+          },
+          {
+            "type": "투자 심리 악화",
+            "description": "장기적 펀더멘털 우려로 씨티그룹, 바클레이즈 등 다수 IB의 1분기 목표주가 연속 하향 조정",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "단기 실적 서프라이즈로 주가가 12% 반등하는 모습을 보였으나, 연간 수익성 적자 가능성과 막대한 부채 부담으로 인해 월가의 시각은 여전히 보수적입니다.",
+        "momentum": "bearish",
+        "analyst_view": "Neutral ~ Reduce(비중 축소) 의견 다수, 평균 목표주가 $4.00 ~ $5.21 (대다수 하향 조정)",
+        "score_hint": 45
+      },
+      "score": 55.0,
+      "score_breakdown": {
+        "base": 45,
+        "theme_strength": 20,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 126737345698.0,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "GOLD",
+      "name": "Barrick Gold",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1355661915.9668655,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "KGC",
+      "name": "Kinross Gold",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 42006653529.9593,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "HMY",
+      "name": "Harmony Gold Mining",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 11787960611.970863,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "CDE",
+      "name": "Coeur Mining",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 21095287302.211563,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "PAAS",
+      "name": "Pan American Silver",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 24919701500.764656,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "HL",
+      "name": "Hecla Mining",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 13102858124.061409,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "103140",
+      "name": "풍산",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 2783324928200,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "012800",
+      "name": "대창",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 115551910724,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "009540",
+      "name": "HD한국조선해양",
+      "theme": "조선/해운",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "exclude_reason": "유상증자 결정 (30일 이내)"
+    },
+    {
+      "ticker": "000720",
+      "name": "현대건설",
+      "theme": "주택/건설",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "exclude_reason": "유상증자 결정 (30일 이내)"
+    },
+    {
+      "ticker": "047040",
+      "name": "대우건설",
+      "theme": "주택/건설",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "exclude_reason": "유상증자 결정 (30일 이내)"
+    },
+    {
+      "ticker": "316140",
+      "name": "우리금융지주",
+      "theme": "금융/핀테크",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "exclude_reason": "유상증자 결정 (30일 이내)"
+    },
+    {
+      "ticker": "010130",
+      "name": "고려아연",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "exclude_reason": "유상증자 결정 (30일 이내)"
+    }
+  ]
+}

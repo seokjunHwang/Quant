@@ -1,0 +1,29 @@
+{
+  "ticker": "IEC",
+  "name": "IEC Electronics",
+  "theme": "전력설비/AI 데이터센터",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "기존 IEC 비즈니스를 포함하는 모회사(Creation Technologies)의 2,200만 달러 규모 신규 첨단 제조 시설 오픈 (iconnect007.com)",
+      "date": "2026-04-14",
+      "impact": "low"
+    }
+  ],
+  "risks": [
+    {
+      "type": "상장폐지",
+      "description": "2021년 Creation Technologies에 피인수되어 개별 주식으로 거래되지 않음",
+      "severity": "high"
+    },
+    {
+      "type": "규제 리스크",
+      "description": "과거 IEC 시절 회계 부정 문제로 SEC 제재 최종 확정",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "2021년 인수되어 상장폐지된 상태이나, 4월 14일 기존 비즈니스를 담당하는 2,200만 달러 규모의 모회사 신규 첨단 제조 시설이 뉴욕에 공식 오픈했습니다.",
+  "momentum": "neutral",
+  "analyst_view": "null",
+  "score_hint": 0
+}

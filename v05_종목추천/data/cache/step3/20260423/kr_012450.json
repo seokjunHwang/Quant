@@ -1,0 +1,30 @@
+{
+  "ticker": "012450",
+  "name": "한화에어로스페이스",
+  "theme": "방산/항공우주",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "중동 지역 긴장 지속 및 K-방산 중장기 수출 낙관론 (jkn.co.kr 등)",
+      "date": "2026-04-21",
+      "impact": "high"
+    },
+    {
+      "type": "중립",
+      "content": "1분기 실적 발표(4월 30일) 대기 (simplywall.st)",
+      "date": "2026-04-21",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "수급 리스크",
+      "description": "단기 급등에 따른 피로감 및 외국인/기관 동반 차익 실현 매물 출회",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "4월 초 중동 긴장 및 수출 기대감으로 주가가 급등했으나, 최근 차익 실현 매물로 다소 조정을 받음. 4월 30일 1분기 실적 발표에 시장의 관심이 집중되고 있음.",
+  "momentum": "neutral",
+  "analyst_view": "애널리스트 평균 목표가 약 1,637,955원 (목표주가 상향 추세)",
+  "score_hint": 65
+}

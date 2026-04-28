@@ -1,0 +1,30 @@
+{
+  "ticker": "ETN",
+  "name": "Eaton",
+  "theme": "전력설비/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "AI 데이터센터 스위치기어 수요 대응을 위한 네브래스카 공장 증설 투자 (공식 발표)",
+      "date": "2026-04-08",
+      "impact": "medium"
+    },
+    {
+      "type": "중립",
+      "content": "주당 $1.10 분기 배당금 지급 선언 (공식 발표)",
+      "date": "2026-04-21",
+      "impact": "low"
+    }
+  ],
+  "risks": [
+    {
+      "type": "밸류에이션 부담",
+      "description": "역사적 고점 수준의 P/E 배수로 인해 일부 기관 비중 축소 및 보수적 목표가 제시",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "데이터센터 전력 설비 수요를 잡기 위한 인프라 투자를 지속하고 있으나, 높아진 주가 밸류에이션에 대해 월가의 의견이 엇갈리고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표가 $396~$419. Citigroup은 $464로 상향했으나, Barclays 등 일부는 $340~$350선으로 하향",
+  "score_hint": 75
+}

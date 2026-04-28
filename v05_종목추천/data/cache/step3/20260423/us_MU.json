@@ -1,0 +1,35 @@
+{
+  "ticker": "MU",
+  "name": "Micron Technology",
+  "theme": "반도체/HBM",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "2026년 전체 HBM(고대역폭 메모리) 생산 물량 완판 공식 확인 (MarketBeat)",
+      "date": "2026-04-23",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "어닝 서프라이즈 여파로 주가 장중 $491.98 사상 최고가 경신 (Fool.com)",
+      "date": "2026-04-22",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "경쟁 심화 리스크",
+      "description": "경쟁사 SK하이닉스의 대규모 HBM 설비 투자(약 130억 달러)에 따른 향후 경쟁 격화 가능성",
+      "severity": "medium"
+    },
+    {
+      "type": "임원 매도",
+      "description": "수석 부사장의 약 1,000만 달러 규모 자사주 매도 공시",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "2026년 HBM 물량 완판 소식과 강력한 실적 가이던스가 맞물려 주가 사상 최고치를 경신함. AI 메모리 수요 폭증으로 수급 우위 시장이 지속되고 있음.",
+  "momentum": "bullish",
+  "analyst_view": "강력 매수, 평균 목표가 $464 ~ $474 (최고 $600)",
+  "score_hint": 95
+}

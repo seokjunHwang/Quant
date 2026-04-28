@@ -1,0 +1,30 @@
+{
+  "ticker": "065130",
+  "name": "빅텍",
+  "theme": "방산/항공우주",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "214급 잠수함용 전자전 장비 및 신호처리기 등 국산화 개발 완료 예정 (newsis.com)",
+      "date": "2026-04-23",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "국내 최초 안티드론(대드론 탐지) 시스템 개발 마무리 및 신규 시장 진출 (judal.co.kr)",
+      "date": "2026-04-23",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "기술적 리스크",
+      "description": "단기 주가 반등으로 인한 RSI 과열 진입 및 단기 차익 실현 매물 출현 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "신형 전자전 장비 국산화 및 안티드론 시스템 신규 매출 기대로 중소형 방산주 수혜가 부각됨. 기관 저가 매수세가 유입되며 우상향 추세로 턴어라운드 시도 중.",
+  "momentum": "bullish",
+  "analyst_view": "중장기 목표가 6,500원 ~ 7,050원",
+  "score_hint": 75
+}

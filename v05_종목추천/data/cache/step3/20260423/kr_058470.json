@@ -1,0 +1,30 @@
+{
+  "ticker": "058470",
+  "name": "리노공업",
+  "theme": "반도체/HBM",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "AI 반도체 R&D 수요 확대 및 차세대 패키징(WMCM) 기술 도입 수혜 (리포트)",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "외국인 및 기관 동시 순매수 유입 (수급)",
+      "date": "2026-04-07",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "차익 실현",
+      "description": "단기간 주가 급등에 따른 차익 매물 출회 우려",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "AI 및 고성능 반도체 연구개발(R&D)용 테스트 소켓 수요 호조로 2026년 사상 최대 실적이 유력합니다. 4월 들어 외국인과 기관의 동반 매수세가 강하게 유입되며 목표주가 상향이 이어지고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "170,000원",
+  "score_hint": 85
+}

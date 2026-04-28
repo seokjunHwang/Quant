@@ -1,0 +1,36 @@
+{
+  "ticker": "PWR",
+  "name": "Quanta Services",
+  "theme": "전력설비/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "2026 Investor Day에서 2030년까지 2.4조 달러 규모 인프라(AI 데이터센터, 전력망) 기회 발표 (Simply Wall St)",
+      "date": "2026-04-20",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "Truist Securities 목표가 713달러로 상향 및 매수 의견 유지 (Benzinga)",
+      "date": "2026-04-20",
+      "impact": "medium"
+    },
+    {
+      "type": "중립",
+      "content": "1분기 실적 발표 및 강력한 수주 잔고 확인 기대 (Benzinga)",
+      "date": "2026-04-30",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "고평가",
+      "description": "P/E 89배 수준으로 밸류에이션 부담 존재",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "AI발 전력 인프라 붐의 핵심 수혜주로 부각되며 애널리스트들의 목표가 상향 릴레이가 이어지고 있음. 인베스터 데이에서 거대한 인프라 시장 기회를 강조하며 강력한 상승 모멘텀 유지 중.",
+  "momentum": "bullish",
+  "analyst_view": "강력 매수 우세, 평균 목표가 $595.82 ~ $626.00 (최고 $713.00)",
+  "score_hint": 85
+}

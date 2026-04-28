@@ -1,0 +1,30 @@
+{
+  "ticker": "AMAT",
+  "name": "Applied Materials",
+  "theme": "반도체/HBM",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Advantest와 EPIC 플랫폼 혁신 파트너십 체결 (공식 발표)",
+      "date": "2026-04-21",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "옹스트롬 시대 로직 칩을 위한 새로운 증착 시스템(PECVD, ALD) 출시 (뉴스 보도)",
+      "date": "2026-04-08",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "밸류에이션 부담",
+      "description": "최근 주가 급등으로 인한 단기 밸류에이션 고평가 우려",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "Advantest와의 파트너십 체결 및 첨단 공정용 신규 장비 출시로 기술 리더십을 강화하고 있으며, 굳건한 기관 수급을 바탕으로 강세를 유지하고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표주가 $368~$415, 최고 $500 (Susquehanna 등 최근 목표가 상향)",
+  "score_hint": 85
+}

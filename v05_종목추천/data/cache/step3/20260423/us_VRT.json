@@ -1,0 +1,30 @@
+{
+  "ticker": "VRT",
+  "name": "Vertiv Holdings",
+  "theme": "전력설비/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "1분기 매출 30% 증가 및 EPS 시장 예상치 대폭 상회, 연간 가이던스 상향 (실적 발표)",
+      "date": "2026-04-22",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "인프라 솔루션 역량 강화를 위한 BMarko Structures 인수 (공식 발표)",
+      "date": "2026-04-13",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "내부자 매도",
+      "description": "경영진 및 이사진의 지속적인 자사주 매도(약 1억 2,300만 달러 규모)",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "1분기 강력한 어닝 서프라이즈를 기록했으며, 엔비디아와의 파트너십을 기반으로 액침 냉각 및 고밀도 전력 솔루션 시장을 장악하며 가파른 성장세를 보이고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "실적 발표 후 목표가 일제히 상향, 최고 목표가 $350 (Evercore ISI, BNP Paribas 등)",
+  "score_hint": 90
+}

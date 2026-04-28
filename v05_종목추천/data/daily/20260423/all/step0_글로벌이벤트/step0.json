@@ -1,0 +1,2173 @@
+{
+  "events_raw": {
+    "events": [
+      {
+        "title": "OPEC+ 증산 결정 및 호르무즈 해협 봉쇄로 유가 90달러 돌파",
+        "summary": "OPEC+가 5월부터 하루 41만 1천 배럴 증산을 결정했으나, 미국-이란 갈등 격화로 호르무즈 해협 통항이 사실상 봉쇄되면서 3월 OPEC 생산량이 급감하고 유가가 배럴당 90달러를 돌파했습니다.",
+        "severity": "critical",
+        "category": "energy",
+        "status": "developing",
+        "time_ago": "최근 24시간",
+        "source": "TradingView, Bloomberg",
+        "countries": [
+          "사우디아라비아",
+          "이란",
+          "미국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "정유/에너지",
+            "direction": "bullish",
+            "reason": "호르무즈 해협 봉쇄에 따른 원유 공급 차질로 인한 급격한 단기 유가 상승"
+          },
+          {
+            "sector": "항공/여행",
+            "direction": "bearish",
+            "reason": "국제 유가 급등에 따른 항공유 비용 부담 증가 및 수익성 악화 우려"
+          }
+        ]
+      },
+      {
+        "title": "호르무즈·홍해 이중 봉쇄로 글로벌 해상 운임 40% 폭등",
+        "summary": "호르무즈 해협 마비와 후티 반군의 홍해 공격 지속으로 주요 해운사들의 아프리카 희망봉 우회가 고착화되며, 아시아-미주/유럽 노선 스팟 운임이 2월 대비 40% 폭등했습니다.",
+        "severity": "critical",
+        "category": "trade",
+        "status": "developing",
+        "time_ago": "지속중",
+        "source": "Maersk, Windward",
+        "countries": [
+          "예멘",
+          "이란",
+          "미국",
+          "유럽 연합"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "해운",
+            "direction": "bullish",
+            "reason": "희망봉 우회 장기화에 따른 운송 거리 증가 및 해상 운임 단가 급등"
+          },
+          {
+            "sector": "수출/제조업",
+            "direction": "bearish",
+            "reason": "물류 리드타임 최소 10~14일 지연 및 긴급 운송에 따른 운류비용 대폭 증가"
+          }
+        ]
+      },
+      {
+        "title": "이란-이스라엘 미사일 위협 및 산발적 교전 지속",
+        "summary": "이란이 약 1,000발 이상의 탄도 미사일을 여전히 보유 중이며, 최근 2주간의 휴전 합의에도 불구하고 텔아비브 인근에 산발적 미사일 공격이 보고됨.",
+        "severity": "high",
+        "category": "war",
+        "status": "developing",
+        "time_ago": "오늘",
+        "source": "Times of Israel, The Hindu",
+        "countries": [
+          "이란",
+          "이스라엘",
+          "미국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "방위산업",
+            "direction": "bullish",
+            "reason": "장기화된 미사일 위협으로 인하여 요격 시스템 및 방어용 무기 체계 수요 지속"
+          },
+          {
+            "sector": "정유/에너지",
+            "direction": "bullish",
+            "reason": "중동 긴장 불안으로 호르무즈 해협 물류 차질 위험 부각, 국제 유가 상승 압력"
+          },
+          {
+            "sector": "항공/해운",
+            "direction": "bearish",
+            "reason": "중동 노선 결항 및 회항 장기화에 따른 비용 증가"
+          }
+        ]
+      },
+      {
+        "title": "러시아의 나토 위협 경고 및 우크라이나의 정유시설 타격",
+        "summary": "네덜란드 정보당국은 러시아가 전쟁 종료 후 1년 내 나토를 타격할 준비가 될 수 있다고 경고. 한편 4월 들어 우크라이나는 러시아 정유소와 주요 파이프라인에 대규모 드론 타격을 집중함.",
+        "severity": "high",
+        "category": "war",
+        "status": "developing",
+        "time_ago": "2026년 4월 22일",
+        "source": "Defense News, Atlantic Council",
+        "countries": [
+          "러시아",
+          "우크라이나",
+          "나토 회원국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "방위산업",
+            "direction": "bullish",
+            "reason": "나토의 2035년까지 국방비 GDP 5% 증액 논의 촉발 및 유럽 내 무기 체계 수요 급증"
+          },
+          {
+            "sector": "정유",
+            "direction": "bullish",
+            "reason": "러시아의 핵심 정유 인프라 타격으로 글로벌 석유 제품 공급망 차질 우려 및 정제 마진 상승 기대"
+          }
+        ]
+      },
+      {
+        "title": "중국 항공모함 대만 해협 통과 및 무력 시위",
+        "summary": "4월 20일 중국 항공모함 랴오닝호가 대만 해협을 통과했으며, 대만과 일본 군함 이동에 반발해 매일 군용기와 군함을 동원한 강도 높은 무력 시위를 이어감.",
+        "severity": "high",
+        "category": "war",
+        "status": "live",
+        "time_ago": "4월 20일",
+        "source": "Munhwa, Japan Times",
+        "countries": [
+          "중국",
+          "대만",
+          "일본",
+          "미국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "bearish",
+            "reason": "세계 최대 반도체 생산지 대만의 지정학적 리스크 부각으로 글로벌 반도체 공급망 불안감 확산"
+          },
+          {
+            "sector": "해운",
+            "direction": "bearish",
+            "reason": "대만 해협 항행 위험 증대로 인한 해운사 운항 차질 및 노선 변경 리스크"
+          }
+        ]
+      },
+      {
+        "title": "글로벌 방산 계약 성사 및 나토 전 회원국 국방비 2% 달성",
+        "summary": "나토 32개국 전원이 국방비 GDP 2% 목표를 사상 최초로 달성. 미국은 최근 사우디와 90억 달러 패트리어트 수출 및 이스라엘과 67억 달러 아파치 헬기 계약을 승인/진행함.",
+        "severity": "high",
+        "category": "policy",
+        "status": "live",
+        "time_ago": "최근",
+        "source": "Times of Israel, Defense News",
+        "countries": [
+          "미국",
+          "나토 회원국",
+          "사우디아라비아",
+          "이스라엘"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "글로벌 방위산업",
+            "direction": "bullish",
+            "reason": "역대급 방산 계약 체결 및 주요국 장기 국방 예산 확보에 따른 항공우주·무기체계 기업들의 폭발적 실적 기대"
+          }
+        ]
+      },
+      {
+        "title": "미국, 중국 첨단 기술 제품에 145% 관세 부과 및 제약품 100% 관세",
+        "summary": "4월 10일 미국은 전기차, 배터리, 첨단 반도체 등 중국산 첨단 기술 제품에 145%의 관세를 부과했습니다. 이와 별도로 4월 2일 특허 의약품에 100% 관세를 부과하는 조치를 시행했으나 한국과 EU 등 동맹국에는 15%의 낮은 세율을 적용 중입니다.",
+        "severity": "high",
+        "category": "trade",
+        "status": "happened",
+        "time_ago": "약 2주 전 (현재 진행형)",
+        "source": "Frontier Affairs, Baker Botts",
+        "countries": [
+          "미국",
+          "중국",
+          "한국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "전기차/배터리",
+            "direction": "bearish",
+            "reason": "미국 시장 진출이 사실상 차단되어 BYD, CATL 등 중국 배터리 밸류체인 전반에 타격"
+          },
+          {
+            "sector": "한국 바이오/제약",
+            "direction": "bullish",
+            "reason": "중국산 특허 의약품 100% 관세 대비 한국은 15%로 혜택을 받아 미국 시장 내 반사이익 기대"
+          }
+        ]
+      },
+      {
+        "title": "미 하원, 중국 DUV 노광장비 수출 전면 통제하는 MATCH 법안 추진",
+        "summary": "4월 22일 미 하원 외교위에서 중국 SMIC, 화웨이 등 5개 기업에 대한 수출 금지를 명문화하고, 7nm 생산에 필수적인 DUV 노광장비 판매 및 유지보수를 전면 차단하는 MATCH 법안을 통과시켰습니다.",
+        "severity": "high",
+        "category": "policy",
+        "status": "developing",
+        "time_ago": "1일 전",
+        "source": "Tom's Hardware, House.gov",
+        "countries": [
+          "미국",
+          "중국",
+          "네덜란드"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "반도체 장비 (글로벌)",
+            "direction": "bearish",
+            "reason": "ASML 등 대중국 매출 비중이 높은 글로벌 장비사들의 DUV 수출 통제 및 기존 장비 유지보수 중단 리스크"
+          },
+          {
+            "sector": "한국 레거시 반도체",
+            "direction": "bullish",
+            "reason": "중국의 DUV 접근 차단으로 중국 파운드리의 기술 고도화가 지연되어 한국 레거시/파운드리 업계 반사이익"
+          }
+        ]
+      },
+      {
+        "title": "중국, 자국 기업의 엔비디아 H200 구매 차단 및 인텔 '탈갈륨' 기술 발표",
+        "summary": "4월 22일 하워드 루트닉 미 상무장관은 중국 정부가 자국 기업들의 엔비디아 H200 AI 칩 구매를 막고 자국산 대체를 강제하고 있다고 밝혔습니다. 한편 인텔은 4월, 중국의 갈륨 수출 통제를 무력화하는 실리콘 카바이드 기판 기반 19-마이크로미터 칩렛 기술을 발표했습니다.",
+        "severity": "high",
+        "category": "technology",
+        "status": "developing",
+        "time_ago": "1일 전",
+        "source": "Biggo, YouTube",
+        "countries": [
+          "미국",
+          "중국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "AI 반도체 (엔비디아 밸류체인)",
+            "direction": "bearish",
+            "reason": "중국 정부의 자체 구매 차단으로 인해 중국향 AI 칩 매출 감소 및 제재 불확실성 증폭"
+          },
+          {
+            "sector": "시스템 반도체 (인텔/차세대 기판)",
+            "direction": "bullish",
+            "reason": "탈갈륨 칩렛 기술로 원자재 무기화 리스크 해소 및 실리콘 카바이드(SiC) 소재 관련 기업 부각"
+          }
+        ]
+      },
+      {
+        "title": "한국 1분기 GDP 1.7% 깜짝 성장 및 고성능 메모리 칩 수출 5.1% 급증",
+        "summary": "4월 23일 한국은행은 1분기 GDP가 시장 예상치(0.9%)를 크게 상회하는 1.7% 성장했다고 발표했습니다. AI 인프라용 메모리 칩 수출이 5.1% 급증하며 성장을 이끌었으며, 해당 기간 SK하이닉스 이익은 5배 상승했습니다.",
+        "severity": "high",
+        "category": "economic",
+        "status": "happened",
+        "time_ago": "오늘",
+        "source": "Bank of Korea, Business Times",
+        "countries": [
+          "한국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "반도체 (HBM/메모리)",
+            "direction": "bullish",
+            "reason": "AI 칩 수요 폭발로 인한 확고한 실적 서프라이즈 및 수출 견인 효과 증명"
+          },
+          {
+            "sector": "국내 내수/소비재",
+            "direction": "bearish",
+            "reason": "수출 주도 경제 성장과 대조적으로 고물가 및 유가 부담에 따른 내수 침체 (K자형 양극화 지속)"
+          }
+        ]
+      },
+      {
+        "title": "일라이릴리 70억 달러 메가딜 및 AI 반도체 세레브라스 230억 달러 IPO",
+        "summary": "4월 20일 일라이릴리가 유전자 치료제 기업 켈로니아(Kelonia Therapeutics)를 최대 70억 달러에 인수하기로 했습니다. 한편 4월 17일, 엔비디아의 경쟁사로 꼽히는 AI 칩 제조사 세레브라스(Cerebras)가 230억 달러의 기업가치로 나스닥 상장을 위한 S-1 서류를 제출했습니다.",
+        "severity": "high",
+        "category": "technology",
+        "status": "happened",
+        "time_ago": "최근 1주일 내",
+        "source": "Investing.com, Stock Analysis",
+        "countries": [
+          "미국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "바이오/유전자 치료",
+            "direction": "bullish",
+            "reason": "빅파마의 공격적인 파이프라인 확보를 위한 대형 M&A로 유전자 및 차세대 항암제 기업 프리미엄 상승"
+          },
+          {
+            "sector": "AI 반도체 (비엔비디아 진영)",
+            "direction": "bullish",
+            "reason": "대어급 AI 칩 기업의 IPO로 신경망 처리장치(NPU) 및 맞춤형 AI 칩 생태계 전반의 투자심리 개선"
+          }
+        ]
+      },
+      {
+        "title": "미 동남부 대형 산불 확산 및 중부 150여 개 토네이도 발생",
+        "summary": "미국 조지아와 플로리다에서 극심한 가뭄으로 초대형 산불이 번져 비상사태가 선포되었으며, 중부 지역은 4월 한 달간 150여 개의 토네이도와 홍수가 발생해 인프라 피해가 속출하고 있습니다.",
+        "severity": "high",
+        "category": "disaster",
+        "status": "developing",
+        "time_ago": "최근 48시간",
+        "source": "News4JAX",
+        "countries": [
+          "미국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "농산물/곡물",
+            "direction": "bullish",
+            "reason": "이상기후와 홍수·가뭄이 곡물 주산지에 겹치면서 수확량 감소 및 애그플레이션 우려"
+          },
+          {
+            "sector": "보험/재해보험",
+            "direction": "bearish",
+            "reason": "대형 자연재해의 연속 발생으로 인한 재물 손해율 급증 우려"
+          }
+        ]
+      },
+      {
+        "title": "일본 홋카이도·산리쿠 '거대 지진(Megaquake) 주의보' 유지",
+        "summary": "4월 20일 발생한 규모 7.5 강진 이후 일본 기상청이 발령한 '거대 지진 주의보'가 4월 27일까지 유지되고 있으며, 금일(23일)도 규모 4.5의 여진이 관측되며 긴장감이 고조되고 있습니다.",
+        "severity": "high",
+        "category": "disaster",
+        "status": "developing",
+        "time_ago": "오늘 02:46 JST",
+        "source": "Japan Times",
+        "countries": [
+          "일본"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "재난복구/내진건설",
+            "direction": "bullish",
+            "reason": "지진 피해 복구 및 추가 방재 인프라 수요 기대감"
+          },
+          {
+            "sector": "일본 여행/항공",
+            "direction": "bearish",
+            "reason": "지진 주의보 발령에 따른 일본 방문 여행객 취소 및 심리 위축"
+          }
+        ]
+      },
+      {
+        "title": "TSMC 1나노급 로드맵 공개 및 삼성전자 테슬라 2나노 수주",
+        "summary": "TSMC가 1.2나노급(A12) 초미세 공정 로드맵을 공개한 가운데, 삼성전자는 테슬라의 차세대 자율주행 칩 'AI6'(2나노 공정) 물량을 약 22조 원 규모로 수주하며 테일러 공장 가동을 준비 중입니다.",
+        "severity": "high",
+        "category": "technology",
+        "status": "happened",
+        "time_ago": "최근 48시간",
+        "source": "TrendForce, ETNews",
+        "countries": [
+          "대만",
+          "한국",
+          "미국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "반도체 파운드리/소부장",
+            "direction": "bullish",
+            "reason": "TSMC의 역대급 실적 및 삼성전자의 대형 수주로 반도체 장비 및 소재 발주 확대 기대"
+          },
+          {
+            "sector": "자율주행/차량용 반도체",
+            "direction": "bullish",
+            "reason": "테슬라 차세대 2나노 AI 반도체 양산 구체화로 자율주행 생태계 고도화 전망"
+          }
+        ]
+      },
+      {
+        "title": "글로벌 데이터센터 지출 55% 급증 전망 및 CPU/GPU 품귀",
+        "summary": "가트너는 2026년 데이터센터 인프라 지출이 전년 대비 55.8% 폭증할 것으로 전망했습니다. AI 워크로드 확대로 네이버의 4천억 규모 GPU 도입 등 투자가 치열한 가운데 CPU 공급난까지 심화되고 있습니다.",
+        "severity": "high",
+        "category": "technology",
+        "status": "developing",
+        "time_ago": "오늘",
+        "source": "Gartner, ZDNet",
+        "countries": [
+          "글로벌",
+          "한국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "전력/전선 인프라",
+            "direction": "bullish",
+            "reason": "AI 데이터센터 폭증에 따른 초고압 케이블, 변압기 및 쿨링 시스템 수요 급증"
+          },
+          {
+            "sector": "고대역폭 메모리(HBM)",
+            "direction": "bullish",
+            "reason": "GPU 및 차세대 HBM4 등 고성능 AI 메모리 수요의 견조한 우상향"
+          }
+        ]
+      },
+      {
+        "title": "리튬 가격 연초 대비 40% 급등 및 서방 희토류 자립화",
+        "summary": "그린란드 탄브리즈 희토류 프로젝트가 크리티컬 메탈스 주도로 본격화되며 서방의 탈중국이 속도를 내는 가운데, 전기차 수요 회복 기대감으로 리튬 가격이 톤당 16만 6천 위안으로 40% 급등했습니다.",
+        "severity": "high",
+        "category": "supply_chain",
+        "status": "developing",
+        "time_ago": "최근 48시간",
+        "source": "Mining.com.au",
+        "countries": [
+          "미국",
+          "호주",
+          "중국",
+          "그린란드"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "2차전지/리튬",
+            "direction": "bullish",
+            "reason": "배터리 원자재인 리튬 가격이 강한 바닥 다지기를 끝내고 가파른 우상향 추세 진입"
+          },
+          {
+            "sector": "희토류/핵심광물",
+            "direction": "bullish",
+            "reason": "중국 의존도를 낮추기 위한 서방 국가의 자립망 구축 및 비중국산 광물 프리미엄 발생"
+          }
+        ]
+      },
+      {
+        "title": "일라이 릴리 경구용 비만약 '파운다요' FDA 승인 및 국내 임상 활기",
+        "summary": "일라이 릴리의 먹는 GLP-1 비만 치료제 '파운다요'가 FDA 승인을 획득했으며, 종근당의 ADC 신약 및 지아이이노베이션의 항암 병용 요법 등이 줄줄이 미국 임상(IND)에 진입했습니다.",
+        "severity": "high",
+        "category": "technology",
+        "status": "happened",
+        "time_ago": "최근 48시간",
+        "source": "FDA, Drugs.com",
+        "countries": [
+          "미국",
+          "한국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "제약/비만치료제",
+            "direction": "bullish",
+            "reason": "경구용 비만약 승인으로 펩타이드 합성 및 제형 변경 관련 CDMO 기업 수혜 기대"
+          },
+          {
+            "sector": "면역항암제/ADC",
+            "direction": "bullish",
+            "reason": "국내 주요 바이오텍 파이프라인의 글로벌 임상 진입 및 마일스톤 가치 상승"
+          }
+        ]
+      },
+      {
+        "title": "북한, 신포 일대 단거리 탄도미사일 등 연쇄 도발",
+        "summary": "북한이 4월 19일 함경남도 신포 인근에서 동해상으로 단거리 탄도미사일(SRBM)을 다수 발사. 4월에만 네 번째 도발로 집속탄 등 신형 무기 검증을 지속함.",
+        "severity": "medium",
+        "category": "war",
+        "status": "happened",
+        "time_ago": "4월 19일",
+        "source": "News1, SisaDays",
+        "countries": [
+          "북한",
+          "대한민국",
+          "미국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "국내 방위산업",
+            "direction": "bullish",
+            "reason": "북한의 핵투발 능력 고도화 및 빈번한 도발에 따른 방어 체계(KAMD 등) 예산 확대 기대"
+          },
+          {
+            "sector": "국내 증시 전반",
+            "direction": "bearish",
+            "reason": "한반도 단기 지정학적 리스크 부각에 따른 외국인 투자자 심리 위축 (제한적 영향)"
+          }
+        ]
+      },
+      {
+        "title": "미 연준 4월 FOMC 3.5~3.75% 동결 유력 및 중동 전쟁발 인플레 우려",
+        "summary": "4월 28-29일 예정된 FOMC에서 기준금리 3.5~3.75% 동결 확률이 100%에 근접했습니다. 이란 전쟁으로 인한 에너지 가격 급등으로 연말 PCE 물가 전망치가 2.7%로 상향되며 2026년 금리 인하는 1회에 그칠 것이란 전망이 우세합니다.",
+        "severity": "medium",
+        "category": "economic",
+        "status": "developing",
+        "time_ago": "4~5일 후 (예정)",
+        "source": "Federal Reserve, CME FedWatch",
+        "countries": [
+          "미국",
+          "이란"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "에너지/정유",
+            "direction": "bullish",
+            "reason": "중동 분쟁 격화로 인한 글로벌 유가 상승 수혜"
+          },
+          {
+            "sector": "성장주/기술주",
+            "direction": "bearish",
+            "reason": "인플레이션 고착화 우려로 금리 인하 기대감 후퇴 및 고금리 장기화 리스크"
+          }
+        ]
+      },
+      {
+        "title": "중국 14조 달러 서비스업 육성책 및 초장기 국채 기반 내수 부양",
+        "summary": "4월 21일 중국 국무원은 2030년까지 서비스업 규모를 14조 달러로 키우고, 90억 달러 규모의 초장기 특별 국채를 발행해 전기차와 스마트 가전 구매를 지원하는 내수 중심 부양책을 발표했습니다.",
+        "severity": "medium",
+        "category": "policy",
+        "status": "happened",
+        "time_ago": "2일 전",
+        "source": "Table.media, Steel Radar",
+        "countries": [
+          "중국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "중국 소비재/스마트가전",
+            "direction": "bullish",
+            "reason": "초장기 국채를 활용한 직접적인 소비자 보조금 지급으로 내수 판매 촉진 기대"
+          },
+          {
+            "sector": "전통 인프라/철강",
+            "direction": "bearish",
+            "reason": "과거와 같은 대규모 토목/건설 부양책 대신 서비스업/첨단산업으로 재정 집행 방향 전환"
+          }
+        ]
+      },
+      {
+        "title": "중동 분쟁으로 동북아 LNG 단기 가격 상승 및 북미 신규 공급 대기",
+        "summary": "호르무즈 해협 위협으로 아시아 지역 LNG 공급 불안이 가중되며 단기 가격이 상승했으나, 2026년 하반기 북미 신규 수출 터미널들의 대규모 가동이 예정되어 있어 폭등세는 제한적입니다.",
+        "severity": "medium",
+        "category": "energy",
+        "status": "developing",
+        "time_ago": "오늘",
+        "source": "TradingEconomics, EIA",
+        "countries": [
+          "카타르",
+          "미국",
+          "한국"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "천연가스/도시가스",
+            "direction": "bullish",
+            "reason": "단기적인 중동 지정학적 리스크로 인한 가스 가격 지지선 확보"
+          },
+          {
+            "sector": "조선/피팅",
+            "direction": "bullish",
+            "reason": "미국 중심의 LNG 수출 터미널 증설에 따른 LNG 운반선 및 피팅 밸브 수요 증가"
+          }
+        ]
+      },
+      {
+        "title": "지정학적 리스크로 금값 온스당 4,700달러대 혼조세",
+        "summary": "연초 사상 최고치를 경신했던 금값이 중동 불안에 따른 안전자산 선호와 미국의 고금리 유지 전망이 충돌하며 온스당 4,700달러대에서 높은 변동성을 보이고 있습니다.",
+        "severity": "medium",
+        "category": "economic",
+        "status": "developing",
+        "time_ago": "오늘",
+        "source": "TradingEconomics",
+        "countries": [
+          "미국",
+          "글로벌"
+        ],
+        "impact_sectors": [
+          {
+            "sector": "귀금속/금 관련주",
+            "direction": "bullish",
+            "reason": "장기화된 글로벌 지정학적 불안과 인플레이션 회피를 위한 안전자산 편입 수요 지속"
+          }
+        ]
+      }
+    ]
+  },
+  "calendar_raw": {
+    "calendar": [
+      {
+        "date": "2026-04-28",
+        "d_day": "D-5",
+        "event": "일본 BOJ 금융정책결정회의(금리결정)",
+        "category": "fed",
+        "importance": "high",
+        "country": "일본",
+        "impact_preview": "금리 유지 혹은 추가 인상 힌트에 따른 엔달러 환율 변동 및 국내 수출 기업 가격 경쟁력 영향",
+        "watch_sectors": [
+          "자동차",
+          "조선",
+          "반도체",
+          "금융"
+        ]
+      },
+      {
+        "date": "2026-04-29",
+        "d_day": "D-6",
+        "event": "FOMC 금리결정 및 파월 의장 기자회견",
+        "category": "fed",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "기준금리 동결 여부 및 향후 금리 인하 경로에 대한 파월 의장의 발언에 따라 증시 변동성 확대 예상",
+        "watch_sectors": [
+          "금융",
+          "기술주",
+          "부동산"
+        ]
+      },
+      {
+        "date": "2026-04-29",
+        "d_day": "D-6",
+        "event": "MSFT, GOOGL, META 1분기 실적발표",
+        "category": "earnings",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "AI 부문 수익성 및 클라우드 성장세 확인을 통한 빅테크 랠리 지속 여부 결정",
+        "watch_sectors": [
+          "반도체",
+          "소프트웨어",
+          "IT 인프라"
+        ]
+      },
+      {
+        "date": "2026-04-30",
+        "d_day": "D-7",
+        "event": "ECB 금리결정 및 총재 연설",
+        "category": "policy",
+        "importance": "medium",
+        "country": "유럽",
+        "impact_preview": "유로존 금리 인하 시점 시사 여부에 따른 유로화 및 달러 인덱스 변동",
+        "watch_sectors": [
+          "은행",
+          "수출주"
+        ]
+      },
+      {
+        "date": "2026-04-30",
+        "d_day": "D-7",
+        "event": "미국 1분기 GDP 속보치",
+        "category": "economic",
+        "importance": "medium",
+        "country": "미국",
+        "impact_preview": "미국 경제의 견조한 성장세 또는 둔화 여부 확인으로 매크로 투자 심리 방향성 제시",
+        "watch_sectors": [
+          "경기소비재",
+          "산업재"
+        ]
+      },
+      {
+        "date": "2026-04-30",
+        "d_day": "D-7",
+        "event": "미국 3월 Core PCE (개인소비지출) 물가지수",
+        "category": "economic",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "연준이 가장 선호하는 물가지표로, 인플레이션 둔화 여부에 따라 통화정책 전망 재조정",
+        "watch_sectors": [
+          "채권",
+          "성장주"
+        ]
+      },
+      {
+        "date": "2026-04-30",
+        "d_day": "D-7",
+        "event": "AAPL, AMZN 1분기 실적발표",
+        "category": "earnings",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "애플의 중국 내 매출 방어 및 아마존의 AWS 성장률이 전체 시장 지수에 주요한 영향",
+        "watch_sectors": [
+          "소비재",
+          "IT 하드웨어",
+          "클라우드"
+        ]
+      },
+      {
+        "date": "2026-04-30",
+        "d_day": "D-7",
+        "event": "중국 4월 국가통계국(NBS) PMI 제조업/서비스업 발표",
+        "category": "economic",
+        "importance": "high",
+        "country": "중국",
+        "impact_preview": "중국 내수 및 제조업 경기 회복세 검증, 경기민감주 변동성 확대",
+        "watch_sectors": [
+          "철강",
+          "화학",
+          "기계",
+          "화장품"
+        ]
+      },
+      {
+        "date": "2026-05-01",
+        "d_day": "D-8",
+        "event": "미국 4월 ISM 제조업 PMI",
+        "category": "economic",
+        "importance": "medium",
+        "country": "미국",
+        "impact_preview": "제조업 경기 확장(50 이상) 여부를 통해 실물 경제 침체 우려 해소 또는 증폭",
+        "watch_sectors": [
+          "제조업",
+          "소재",
+          "운송"
+        ]
+      },
+      {
+        "date": "2026-05-01",
+        "d_day": "D-8",
+        "event": "한국 4월 수출입동향 발표",
+        "category": "economic",
+        "importance": "high",
+        "country": "한국",
+        "impact_preview": "반도체 및 자동차 수출 호조 지속 여부 확인, 무역수지 흑자 점검",
+        "watch_sectors": [
+          "반도체",
+          "자동차",
+          "조선",
+          "해운"
+        ]
+      },
+      {
+        "date": "2026-05-05",
+        "d_day": "D-12",
+        "event": "미국 4월 ISM 서비스업 PMI",
+        "category": "economic",
+        "importance": "medium",
+        "country": "미국",
+        "impact_preview": "미국 경제의 핵심인 서비스업 업황을 통해 고용 및 인플레이션 고착화 가능성 점검",
+        "watch_sectors": [
+          "서비스업",
+          "소비재"
+        ]
+      },
+      {
+        "date": "2026-05-08",
+        "d_day": "D-15",
+        "event": "미국 4월 비농업고용지표(NFP) 및 실업률",
+        "category": "economic",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "고용 시장 과열 진정 여부를 통해 연준의 금리 인하 정당성 부여 여부 판단",
+        "watch_sectors": [
+          "전체 증시",
+          "채권"
+        ]
+      },
+      {
+        "date": "2026-05-11",
+        "d_day": "D-18",
+        "event": "중국 4월 CPI 및 PPI 발표",
+        "category": "economic",
+        "importance": "medium",
+        "country": "중국",
+        "impact_preview": "중국 디플레이션 우려 완화 및 소비 회복 여부 확인",
+        "watch_sectors": [
+          "소비재",
+          "화장품",
+          "유통",
+          "카지노"
+        ]
+      },
+      {
+        "date": "2026-05-12",
+        "d_day": "D-19",
+        "event": "미국 4월 CPI (소비자물가지수)",
+        "category": "economic",
+        "importance": "high",
+        "country": "미국",
+        "impact_preview": "인플레이션 반등 여부 확인, 시장의 금리 인하 기대감을 크게 흔들 수 있는 핵심 지표",
+        "watch_sectors": [
+          "기술주",
+          "중소형주"
+        ]
+      },
+      {
+        "date": "2026-05-12",
+        "d_day": "D-19",
+        "event": "미국 10년물 국채 입찰",
+        "category": "market",
+        "importance": "medium",
+        "country": "미국",
+        "impact_preview": "국채 수요(응찰률) 확인을 통해 시장 금리 상방 압력 또는 안정화 여부 파악",
+        "watch_sectors": [
+          "은행",
+          "채권",
+          "유틸리티"
+        ]
+      },
+      {
+        "date": "2026-05-12",
+        "d_day": "D-19",
+        "event": "MSCI 5월 반기 리뷰(SAIR) 편입/편출 종목 발표",
+        "category": "market",
+        "importance": "high",
+        "country": "한국",
+        "impact_preview": "신규 편입 및 편출 예상 종목에 대한 외국인 패시브 자금 수급 유입/이탈",
+        "watch_sectors": [
+          "지수 편입 예상주",
+          "코스피200 대형주"
+        ]
+      },
+      {
+        "date": "2026-05-13",
+        "d_day": "D-20",
+        "event": "미국 4월 PPI (생산자물가지수)",
+        "category": "economic",
+        "importance": "medium",
+        "country": "미국",
+        "impact_preview": "CPI의 선행 지표로 도매 물가 추이를 통해 향후 소비자 물가 경로 예측",
+        "watch_sectors": [
+          "원자재",
+          "제조업"
+        ]
+      },
+      {
+        "date": "2026-05-13",
+        "d_day": "D-20",
+        "event": "미국 30년물 국채 입찰",
+        "category": "market",
+        "importance": "medium",
+        "country": "미국",
+        "impact_preview": "장기 국채 수요 및 인플레이션 장기 전망에 대한 투자자들의 인식 확인",
+        "watch_sectors": [
+          "보험",
+          "장기채 ETF"
+        ]
+      },
+      {
+        "date": "2026-05-14",
+        "d_day": "D-21",
+        "event": "미국 4월 소매판매",
+        "category": "economic",
+        "importance": "medium",
+        "country": "미국",
+        "impact_preview": "미국 실물 경제의 70%를 차지하는 소비의 지속 여부를 통해 경제 연착륙 여부 점검",
+        "watch_sectors": [
+          "자유소비재",
+          "소매유통"
+        ]
+      },
+      {
+        "date": "2026-05-14",
+        "d_day": "D-21",
+        "event": "한국 증시 옵션만기일",
+        "category": "market",
+        "importance": "high",
+        "country": "한국",
+        "impact_preview": "금융투자 및 외국인 프로그램 매매 출회에 따른 막판 지수 변동성 확대",
+        "watch_sectors": [
+          "코스피 시총 상위주",
+          "금융주"
+        ]
+      },
+      {
+        "date": "2026-05-15",
+        "d_day": "D-22",
+        "event": "미국 월간 옵션 만기일",
+        "category": "market",
+        "importance": "medium",
+        "country": "미국",
+        "impact_preview": "옵션 포지션 청산 및 롤오버로 인한 주식 시장의 단기 변동성 확대 및 수급 교란 가능성",
+        "watch_sectors": [
+          "대형 기술주",
+          "파생상품 관련주"
+        ]
+      },
+      {
+        "date": "2026-05-20",
+        "d_day": "D-27",
+        "event": "중국 5월 LPR(대출우대금리) 결정",
+        "category": "policy",
+        "importance": "high",
+        "country": "중국",
+        "impact_preview": "부동산 경기 부양 및 내수 활성화를 위한 인민은행 유동성 공급 정책 여부 판단",
+        "watch_sectors": [
+          "건설기계",
+          "철강",
+          "인프라"
+        ]
+      },
+      {
+        "date": "2026-05-22",
+        "d_day": "D-29",
+        "event": "일본 4월 핵심 CPI 발표",
+        "category": "economic",
+        "importance": "medium",
+        "country": "일본",
+        "impact_preview": "BOJ 추가 금리 인상의 주요 근거인 인플레이션 목표 달성 여부 확인",
+        "watch_sectors": [
+          "엔화 민감주",
+          "수출주"
+        ]
+      },
+      {
+        "date": "2026-05-28",
+        "d_day": "D-35",
+        "event": "한국 금통위(BOK) 기준금리 결정",
+        "category": "fed",
+        "importance": "high",
+        "country": "한국",
+        "impact_preview": "한국 기준금리 인하 혹은 동결 여부에 따른 증시 유동성 및 원달러 환율 방향성 결정",
+        "watch_sectors": [
+          "금융",
+          "부동산",
+          "인터넷",
+          "바이오"
+        ]
+      }
+    ]
+  },
+  "impact": {
+    "events": [
+      {
+        "id": "ev_001",
+        "title": "OPEC+ 증산에도 호르무즈 해협 봉쇄로 유가 90달러 돌파",
+        "summary": "OPEC+가 5월부터 일 41.1만 배럴 증산을 결정했으나, 미국-이란 갈등 격화로 호르무즈 해협이 사실상 봉쇄되며 3월 OPEC 생산량이 급감. 국제 유가가 배럴당 90달러를 돌파하며 글로벌 에너지 공급 차질이 현실화.",
+        "severity": "critical",
+        "category": "energy",
+        "status": "developing",
+        "time_label": "최근 24시간 (진행중)",
+        "points": [
+          {
+            "country": "사우디아라비아",
+            "role": "origin",
+            "label": "OPEC+ 증산 결정 주도",
+            "lat": 24.7,
+            "lng": 46.7,
+            "city": "리야드"
+          },
+          {
+            "country": "이란",
+            "role": "origin",
+            "label": "호르무즈 해협 봉쇄 주체",
+            "lat": 35.7,
+            "lng": 51.4,
+            "city": "테헤란"
+          },
+          {
+            "country": "미국",
+            "role": "origin",
+            "label": "이란 제재 강화 주도",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          },
+          {
+            "country": "한국",
+            "role": "affected",
+            "label": "원유 수입 의존국, 에너지 비용 급등",
+            "lat": 37.5,
+            "lng": 127.0,
+            "city": "서울"
+          }
+        ],
+        "connections": [
+          {
+            "from": "미국",
+            "to": "이란",
+            "type": "attack",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": 35.7,
+            "to_lng": 51.4
+          },
+          {
+            "from": "이란",
+            "to": "사우디아라비아",
+            "type": "impact",
+            "from_lat": 35.7,
+            "from_lng": 51.4,
+            "to_lat": 24.7,
+            "to_lng": 46.7
+          },
+          {
+            "from": "이란",
+            "to": "한국",
+            "type": "impact",
+            "from_lat": 35.7,
+            "from_lng": 51.4,
+            "to_lat": 37.5,
+            "to_lng": 127.0
+          }
+        ],
+        "impact_chain": [
+          "호르무즈 해협 봉쇄 → OPEC+ 증산 실효성 소멸 → 유가 90달러 돌파",
+          "유가 급등 → 정유·E&P 기업 정제 마진 확대 → 에너지주 강세",
+          "고유가 지속 → 항공유·운송비 급등 → 항공·물류주 수익성 악화"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "정유/에너지",
+            "direction": "bullish",
+            "magnitude": "+4~7%"
+          },
+          {
+            "sector": "항공/여행",
+            "direction": "bearish",
+            "magnitude": "-3~5%"
+          }
+        ],
+        "affected_tickers": []
+      },
+      {
+        "id": "ev_002",
+        "title": "호르무즈·홍해 이중 봉쇄로 글로벌 해상 운임 40% 폭등",
+        "summary": "호르무즈 해협 마비와 후티 반군의 홍해 공격 지속으로 주요 해운사들이 아프리카 희망봉 우회를 고착화. 아시아-미주/유럽 노선 스팟 운임이 2월 대비 40% 폭등하며 글로벌 물류비 부담이 급증.",
+        "severity": "critical",
+        "category": "trade",
+        "status": "developing",
+        "time_label": "지속중",
+        "points": [
+          {
+            "country": "예멘",
+            "role": "origin",
+            "label": "후티 반군 홍해 공격 지속",
+            "lat": 0,
+            "lng": 0,
+            "city": "예멘"
+          },
+          {
+            "country": "이란",
+            "role": "origin",
+            "label": "호르무즈 해협 봉쇄 주체",
+            "lat": 35.7,
+            "lng": 51.4,
+            "city": "테헤란"
+          },
+          {
+            "country": "유럽 연합",
+            "role": "affected",
+            "label": "아시아-유럽 물류 리드타임 10~14일 지연",
+            "lat": 50.8,
+            "lng": 4.4,
+            "city": "브뤼셀"
+          },
+          {
+            "country": "한국",
+            "role": "affected",
+            "label": "수출 제조업 물류비 급증",
+            "lat": 37.5,
+            "lng": 127.0,
+            "city": "서울"
+          }
+        ],
+        "connections": [
+          {
+            "from": "이란",
+            "to": "예멘",
+            "type": "alliance",
+            "from_lat": 35.7,
+            "from_lng": 51.4,
+            "to_lat": 0,
+            "to_lng": 0
+          },
+          {
+            "from": "예멘",
+            "to": "유럽 연합",
+            "type": "impact",
+            "from_lat": 0,
+            "from_lng": 0,
+            "to_lat": 50.8,
+            "to_lng": 4.4
+          },
+          {
+            "from": "이란",
+            "to": "한국",
+            "type": "impact",
+            "from_lat": 35.7,
+            "from_lng": 51.4,
+            "to_lat": 37.5,
+            "to_lng": 127.0
+          },
+          {
+            "from": "예멘",
+            "to": "미국",
+            "type": "impact",
+            "from_lat": 0,
+            "from_lng": 0,
+            "to_lat": 38.9,
+            "to_lng": -77.0
+          }
+        ],
+        "impact_chain": [
+          "호르무즈+홍해 이중 봉쇄 → 희망봉 우회 고착화 → 해상 운임 40% 폭등",
+          "운임 급등 → 해운사 수익 급증 → 해운주 강세",
+          "물류비 폭등 → 수출 제조업 원가 부담 → 수출 기업 마진 압박"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "해운",
+            "direction": "bullish",
+            "magnitude": "+5~8%"
+          },
+          {
+            "sector": "수출/제조업",
+            "direction": "bearish",
+            "magnitude": "-2~4%"
+          }
+        ],
+        "affected_tickers": []
+      },
+      {
+        "id": "ev_003",
+        "title": "이란-이스라엘 미사일 위협 및 나토 국방비 증액·대형 방산 계약 연쇄",
+        "summary": "이란의 탄도미사일 1,000발 이상 보유 속 텔아비브 인근 산발적 공격 지속. 나토 32개국 사상 최초 GDP 2% 국방비 달성, 미국은 사우디 90억불 패트리어트·이스라엘 67억불 아파치 계약 승인. 유럽 2035년 GDP 5% 증액 논의까지 촉발.",
+        "severity": "high",
+        "category": "war",
+        "status": "developing",
+        "time_label": "오늘 (진행중)",
+        "points": [
+          {
+            "country": "이란",
+            "role": "origin",
+            "label": "탄도미사일 1,000발 보유, 산발적 공격",
+            "lat": 35.7,
+            "lng": 51.4,
+            "city": "테헤란"
+          },
+          {
+            "country": "이스라엘",
+            "role": "target",
+            "label": "텔아비브 인근 미사일 피격",
+            "lat": 31.8,
+            "lng": 35.2,
+            "city": "예루살렘"
+          },
+          {
+            "country": "미국",
+            "role": "origin",
+            "label": "사우디·이스라엘 방산 대형 수출 승인",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          },
+          {
+            "country": "사우디아라비아",
+            "role": "affected",
+            "label": "90억불 패트리어트 도입",
+            "lat": 24.7,
+            "lng": 46.7,
+            "city": "리야드"
+          },
+          {
+            "country": "나토 회원국",
+            "role": "affected",
+            "label": "GDP 2% 국방비 최초 전원 달성",
+            "lat": 0,
+            "lng": 0,
+            "city": "나토 회원국"
+          }
+        ],
+        "connections": [
+          {
+            "from": "이란",
+            "to": "이스라엘",
+            "type": "attack",
+            "from_lat": 35.7,
+            "from_lng": 51.4,
+            "to_lat": 31.8,
+            "to_lng": 35.2
+          },
+          {
+            "from": "미국",
+            "to": "사우디아라비아",
+            "type": "trade",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": 24.7,
+            "to_lng": 46.7
+          },
+          {
+            "from": "미국",
+            "to": "이스라엘",
+            "type": "alliance",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": 31.8,
+            "to_lng": 35.2
+          },
+          {
+            "from": "러시아",
+            "to": "나토 회원국",
+            "type": "impact",
+            "from_lat": 55.8,
+            "from_lng": 37.6,
+            "to_lat": 0,
+            "to_lng": 0
+          }
+        ],
+        "impact_chain": [
+          "이란-이스라엘 교전 장기화 → 미사일 요격체계 수요 폭증 → 방산주 수주 모멘텀",
+          "나토 전원 GDP 2% 달성 + 5% 논의 → 유럽 방산 예산 장기 확대 → 글로벌 방산 슈퍼사이클",
+          "사우디 90억불 + 이스라엘 67억불 대형 계약 → 미국 방산 기업 수주잔고 급증"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "글로벌 방위산업",
+            "direction": "bullish",
+            "magnitude": "+4~7%"
+          },
+          {
+            "sector": "정유/에너지",
+            "direction": "bullish",
+            "magnitude": "+2~3%"
+          },
+          {
+            "sector": "항공/해운(중동 노선)",
+            "direction": "bearish",
+            "magnitude": "-1~3%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "LMT",
+            "name": "Lockheed Martin",
+            "impact": "수혜",
+            "reason": "패트리어트 시스템 사우디 90억불 수출 및 F-35 유럽 추가 발주 기대"
+          },
+          {
+            "ticker": "RTX",
+            "name": "RTX Corporation",
+            "impact": "수혜",
+            "reason": "미사일 요격체계 및 아파치 헬기 엔진 공급 수주 확대"
+          },
+          {
+            "ticker": "KTOS",
+            "name": "Kratos Defense",
+            "impact": "수혜",
+            "reason": "무인기·드론 방어체계 수요 증가에 따른 수주 모멘텀"
+          },
+          {
+            "ticker": "AVAV",
+            "name": "AeroVironment",
+            "impact": "수혜",
+            "reason": "전장 무인기 및 배회형 탄약 수요 지속 확대"
+          },
+          {
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "impact": "수혜",
+            "reason": "유럽 K9 자주포·K239 천무 수출 및 폴란드 추가 발주 기대"
+          },
+          {
+            "ticker": "079550",
+            "name": "LIG넥스원",
+            "impact": "수혜",
+            "reason": "천궁-II 방공 미사일 수출 확대 및 중동 수주 기대"
+          }
+        ]
+      },
+      {
+        "id": "ev_004",
+        "title": "미국, 중국 첨단 제품 145% 관세 및 MATCH 법안으로 DUV 장비 수출 전면 차단",
+        "summary": "미국이 중국산 전기차·배터리·반도체에 145% 관세를 부과하고, 하원 외교위는 SMIC·화웨이 등 5개 기업에 대한 DUV 노광장비 판매·유지보수를 전면 차단하는 MATCH 법안을 통과. 한국은 의약품 관세 15%로 반사이익.",
+        "severity": "high",
+        "category": "trade",
+        "status": "developing",
+        "time_label": "1일 전 (진행중)",
+        "points": [
+          {
+            "country": "미국",
+            "role": "origin",
+            "label": "145% 관세 부과 및 MATCH 법안 추진",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          },
+          {
+            "country": "중국",
+            "role": "target",
+            "label": "첨단 기술 수출 전면 차단 대상",
+            "lat": 39.9,
+            "lng": 116.4,
+            "city": "베이징"
+          },
+          {
+            "country": "네덜란드",
+            "role": "affected",
+            "label": "ASML DUV 장비 대중국 수출 통제",
+            "lat": 0,
+            "lng": 0,
+            "city": "네덜란드"
+          },
+          {
+            "country": "한국",
+            "role": "affected",
+            "label": "의약품 15% 낮은 관세 혜택, 레거시 반도체 반사이익",
+            "lat": 37.5,
+            "lng": 127.0,
+            "city": "서울"
+          }
+        ],
+        "connections": [
+          {
+            "from": "미국",
+            "to": "중국",
+            "type": "trade",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": 39.9,
+            "to_lng": 116.4
+          },
+          {
+            "from": "미국",
+            "to": "네덜란드",
+            "type": "alliance",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": 0,
+            "to_lng": 0
+          },
+          {
+            "from": "미국",
+            "to": "한국",
+            "type": "trade",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": 37.5,
+            "to_lng": 127.0
+          }
+        ],
+        "impact_chain": [
+          "MATCH 법안 → 중국 DUV 접근 전면 차단 → 중국 파운드리 기술 고도화 지연",
+          "중국 파운드리 정체 → 한국 레거시 반도체·파운드리 반사이익",
+          "ASML 대중국 매출 차단 → 글로벌 반도체 장비주 단기 하방 압력"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "한국 레거시 반도체",
+            "direction": "bullish",
+            "magnitude": "+2~4%"
+          },
+          {
+            "sector": "한국 바이오/제약",
+            "direction": "bullish",
+            "magnitude": "+1~3%"
+          },
+          {
+            "sector": "반도체 장비(글로벌)",
+            "direction": "bearish",
+            "magnitude": "-2~4%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "LRCX",
+            "name": "Lam Research",
+            "impact": "피해",
+            "reason": "대중국 장비 수출 제한 확대로 매출 감소 우려"
+          },
+          {
+            "ticker": "KLAC",
+            "name": "KLA Corporation",
+            "impact": "피해",
+            "reason": "중국향 검사장비 매출 비중 높아 규제 리스크 노출"
+          },
+          {
+            "ticker": "AMAT",
+            "name": "Applied Materials",
+            "impact": "피해",
+            "reason": "DUV 관련 유지보수 차단으로 중국향 서비스 매출 타격"
+          },
+          {
+            "ticker": "058470",
+            "name": "리노공업",
+            "impact": "수혜",
+            "reason": "중국 파운드리 정체로 한국 반도체 검사 소켓 수요 반사이익"
+          }
+        ]
+      },
+      {
+        "id": "ev_005",
+        "title": "중국 항공모함 대만 해협 통과 및 무력 시위 강화",
+        "summary": "4월 20일 중국 항공모함 랴오닝호가 대만 해협을 통과. 대만·일본 군함 이동에 반발하여 매일 군용기·군함을 동원한 고강도 무력 시위를 이어가며 세계 최대 반도체 생산지의 지정학적 리스크가 부각.",
+        "severity": "high",
+        "category": "war",
+        "status": "live",
+        "time_label": "4월 20일~ (진행중)",
+        "points": [
+          {
+            "country": "중국",
+            "role": "origin",
+            "label": "항공모함 대만 해협 통과, 무력 시위",
+            "lat": 39.9,
+            "lng": 116.4,
+            "city": "베이징"
+          },
+          {
+            "country": "대만",
+            "role": "target",
+            "label": "세계 반도체 생산 중심지, 군사 압박 대상",
+            "lat": 25.0,
+            "lng": 121.5,
+            "city": "타이베이"
+          },
+          {
+            "country": "일본",
+            "role": "affected",
+            "label": "자국 군함 이동 관련 중국 반발",
+            "lat": 35.7,
+            "lng": 139.7,
+            "city": "도쿄"
+          },
+          {
+            "country": "미국",
+            "role": "affected",
+            "label": "대만 방어 공약 이행 압박",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          }
+        ],
+        "connections": [
+          {
+            "from": "중국",
+            "to": "대만",
+            "type": "attack",
+            "from_lat": 39.9,
+            "from_lng": 116.4,
+            "to_lat": 25.0,
+            "to_lng": 121.5
+          },
+          {
+            "from": "미국",
+            "to": "대만",
+            "type": "alliance",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": 25.0,
+            "to_lng": 121.5
+          },
+          {
+            "from": "중국",
+            "to": "일본",
+            "type": "impact",
+            "from_lat": 39.9,
+            "from_lng": 116.4,
+            "to_lat": 35.7,
+            "to_lng": 139.7
+          }
+        ],
+        "impact_chain": [
+          "대만 해협 긴장 고조 → TSMC 공급망 리스크 프리미엄 확대 → 반도체 주 변동성 증가",
+          "해협 항행 위험 → 해운사 노선 변경 → 아시아 물류 추가 비용 발생",
+          "미·중 군사 대치 심화 → 기술 디커플링 가속 → 비중국 반도체 공급망 재편 수혜"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "bearish",
+            "magnitude": "-2~4%"
+          },
+          {
+            "sector": "해운",
+            "direction": "bearish",
+            "magnitude": "-1~3%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "NVDA",
+            "name": "NVIDIA",
+            "impact": "피해",
+            "reason": "TSMC 의존도 높은 AI GPU 공급망 불안 부각"
+          },
+          {
+            "ticker": "AMD",
+            "name": "AMD",
+            "impact": "피해",
+            "reason": "TSMC 첨단 공정 위탁 생산 집중으로 지정학 리스크 노출"
+          },
+          {
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "impact": "수혜",
+            "reason": "대만 리스크 부각 시 한국 메모리 대체 공급처 프리미엄"
+          }
+        ]
+      },
+      {
+        "id": "ev_006",
+        "title": "한국 1분기 GDP 1.7% 깜짝 성장, AI 메모리 수출 5.1% 급증",
+        "summary": "한국은행이 1분기 GDP 성장률 1.7%를 발표, 시장 예상치(0.9%)를 크게 상회. AI 인프라용 고성능 메모리 칩 수출이 5.1% 급증하며 성장을 이끌었고 SK하이닉스 이익은 전년 대비 5배 상승.",
+        "severity": "high",
+        "category": "economic",
+        "status": "happened",
+        "time_label": "오늘",
+        "points": [
+          {
+            "country": "한국",
+            "role": "origin",
+            "label": "1분기 GDP 1.7% 서프라이즈, AI 메모리 수출 주도",
+            "lat": 37.5,
+            "lng": 127.0,
+            "city": "서울"
+          }
+        ],
+        "connections": [],
+        "impact_chain": [
+          "AI 메모리 수출 5.1% 급증 → 한국 GDP 서프라이즈 → 반도체 수출 주도 성장 확인",
+          "SK하이닉스 이익 5배 → HBM 수요 확대 검증 → 메모리 밸류체인 전반 투자심리 개선",
+          "수출 주도 성장 vs 내수 침체 → K자형 양극화 지속 → 소비재 부진"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "반도체(HBM/메모리)",
+            "direction": "bullish",
+            "magnitude": "+3~5%"
+          },
+          {
+            "sector": "국내 내수/소비재",
+            "direction": "bearish",
+            "magnitude": "-1~2%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "impact": "수혜",
+            "reason": "이익 5배 서프라이즈, HBM 수출 주도 성장 입증"
+          },
+          {
+            "ticker": "042700",
+            "name": "한미반도체",
+            "impact": "수혜",
+            "reason": "HBM 패키징 핵심 장비 공급사로 HBM 수요 확대 직접 수혜"
+          },
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "impact": "수혜",
+            "reason": "글로벌 AI 메모리 수요 검증으로 HBM 경쟁사 동반 수혜"
+          }
+        ]
+      },
+      {
+        "id": "ev_007",
+        "title": "TSMC 1나노 로드맵 공개, 삼성 테슬라 2나노 22조원 수주 및 데이터센터 지출 55% 폭증",
+        "summary": "TSMC가 1.2나노급(A12) 공정 로드맵을 공개하고 삼성전자는 테슬라 AI6 자율주행 칩 2나노 물량 약 22조원 수주. 가트너는 2026년 데이터센터 인프라 지출이 전년 대비 55.8% 폭증할 것으로 전망하며 CPU/GPU 품귀 현상 심화.",
+        "severity": "high",
+        "category": "technology",
+        "status": "developing",
+        "time_label": "최근 48시간",
+        "points": [
+          {
+            "country": "대만",
+            "role": "origin",
+            "label": "TSMC 1.2나노 로드맵 공개",
+            "lat": 25.0,
+            "lng": 121.5,
+            "city": "타이베이"
+          },
+          {
+            "country": "한국",
+            "role": "origin",
+            "label": "삼성전자 테슬라 2나노 22조원 수주",
+            "lat": 37.5,
+            "lng": 127.0,
+            "city": "서울"
+          },
+          {
+            "country": "미국",
+            "role": "affected",
+            "label": "테슬라 AI6 칩 양산 파트너 확보, 데이터센터 투자 폭증",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          }
+        ],
+        "connections": [
+          {
+            "from": "한국",
+            "to": "미국",
+            "type": "trade",
+            "from_lat": 37.5,
+            "from_lng": 127.0,
+            "to_lat": 38.9,
+            "to_lng": -77.0
+          },
+          {
+            "from": "대만",
+            "to": "미국",
+            "type": "trade",
+            "from_lat": 25.0,
+            "from_lng": 121.5,
+            "to_lat": 38.9,
+            "to_lng": -77.0
+          }
+        ],
+        "impact_chain": [
+          "TSMC+삼성 첨단 공정 경쟁 → 반도체 장비·소재 발주 동반 확대",
+          "데이터센터 지출 55% 폭증 → GPU/CPU 품귀 → AI 인프라 밸류체인 전반 수혜",
+          "테슬라 AI6 2나노 양산 → 자율주행 반도체 고도화 → 차량용 반도체 생태계 성장"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "반도체 파운드리/소부장",
+            "direction": "bullish",
+            "magnitude": "+3~5%"
+          },
+          {
+            "sector": "자율주행/차량용 반도체",
+            "direction": "bullish",
+            "magnitude": "+2~4%"
+          },
+          {
+            "sector": "전력/전선 인프라",
+            "direction": "bullish",
+            "magnitude": "+3~6%"
+          },
+          {
+            "sector": "고대역폭 메모리(HBM)",
+            "direction": "bullish",
+            "magnitude": "+2~4%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "NVDA",
+            "name": "NVIDIA",
+            "impact": "수혜",
+            "reason": "데이터센터 지출 55% 폭증 및 GPU 품귀로 AI 칩 수요 견조"
+          },
+          {
+            "ticker": "MRVL",
+            "name": "Marvell Technology",
+            "impact": "수혜",
+            "reason": "데이터센터 커스텀 칩 및 네트워킹 솔루션 수요 확대"
+          },
+          {
+            "ticker": "VRT",
+            "name": "Vertiv Holdings",
+            "impact": "수혜",
+            "reason": "데이터센터 전력·쿨링 인프라 수요 폭증 직접 수혜"
+          },
+          {
+            "ticker": "GEV",
+            "name": "GE Vernova",
+            "impact": "수혜",
+            "reason": "AI 데이터센터 급증에 따른 전력 설비·가스터빈 수요 확대"
+          },
+          {
+            "ticker": "ETN",
+            "name": "Eaton",
+            "impact": "수혜",
+            "reason": "데이터센터 전력관리 시스템 및 UPS 수요 급증"
+          },
+          {
+            "ticker": "PWR",
+            "name": "Quanta Services",
+            "impact": "수혜",
+            "reason": "데이터센터 전력망 구축 및 송배전 인프라 시공 수주 확대"
+          },
+          {
+            "ticker": "010120",
+            "name": "LS ELECTRIC",
+            "impact": "수혜",
+            "reason": "초고압 변압기·배전반 등 데이터센터 전력 인프라 수요 수혜"
+          },
+          {
+            "ticker": "033100",
+            "name": "제룡전기",
+            "impact": "수혜",
+            "reason": "변압기 수출 호조 및 데이터센터향 수배전반 수요 증가"
+          },
+          {
+            "ticker": "000240",
+            "name": "가온전선",
+            "impact": "수혜",
+            "reason": "데이터센터 전력 케이블 및 초고압 케이블 수요 확대"
+          }
+        ]
+      },
+      {
+        "id": "ev_008",
+        "title": "중국의 엔비디아 H200 자체 구매 차단 및 세레브라스 230억불 IPO",
+        "summary": "중국 정부가 자국 기업들의 엔비디아 H200 AI 칩 구매를 차단하고 자국산 대체를 강제. 한편 AI 칩 제조사 세레브라스가 230억 달러 기업가치로 나스닥 상장 S-1 서류 제출. 인텔은 갈륨 무기화 무력화하는 SiC 기반 칩렛 기술 발표.",
+        "severity": "high",
+        "category": "technology",
+        "status": "developing",
+        "time_label": "1일 전",
+        "points": [
+          {
+            "country": "중국",
+            "role": "origin",
+            "label": "엔비디아 H200 구매 차단, 자국산 대체 강제",
+            "lat": 39.9,
+            "lng": 116.4,
+            "city": "베이징"
+          },
+          {
+            "country": "미국",
+            "role": "affected",
+            "label": "엔비디아 중국향 매출 감소, 세레브라스 IPO",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          }
+        ],
+        "connections": [
+          {
+            "from": "중국",
+            "to": "미국",
+            "type": "trade",
+            "from_lat": 39.9,
+            "from_lng": 116.4,
+            "to_lat": 38.9,
+            "to_lng": -77.0
+          }
+        ],
+        "impact_chain": [
+          "중국 자체 구매 차단 → 엔비디아 중국향 AI 칩 매출 감소 → 단기 실적 우려",
+          "세레브라스 IPO → 비엔비디아 AI 칩 생태계 투자심리 개선",
+          "인텔 탈갈륨 기술 → 중국 원자재 무기화 리스크 해소 → SiC 소재 기업 부각"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "AI 반도체(엔비디아 밸류체인)",
+            "direction": "bearish",
+            "magnitude": "-2~3%"
+          },
+          {
+            "sector": "AI 반도체(비엔비디아 진영)",
+            "direction": "bullish",
+            "magnitude": "+2~4%"
+          }
+        ],
+        "affected_tickers": [
+          {
+            "ticker": "NVDA",
+            "name": "NVIDIA",
+            "impact": "피해",
+            "reason": "중국 정부의 H200 구매 차단으로 중국향 매출 감소 현실화"
+          },
+          {
+            "ticker": "AMD",
+            "name": "AMD",
+            "impact": "수혜",
+            "reason": "엔비디아 중국 시장 위축 시 AI 가속기 대체 수요 일부 흡수 가능"
+          },
+          {
+            "ticker": "MRVL",
+            "name": "Marvell Technology",
+            "impact": "수혜",
+            "reason": "커스텀 AI 칩 생태계 확대 속 비엔비디아 진영 투자심리 수혜"
+          }
+        ]
+      },
+      {
+        "id": "ev_009",
+        "title": "리튬 가격 40% 급등 및 서방 희토류 자립화 본격화",
+        "summary": "전기차 수요 회복 기대감으로 리튬 가격이 톤당 16.6만 위안으로 연초 대비 40% 급등. 그린란드 탄브리즈 희토류 프로젝트가 본격화되며 서방의 탈중국 핵심광물 자립망 구축이 가속화.",
+        "severity": "high",
+        "category": "supply_chain",
+        "status": "developing",
+        "time_label": "최근 48시간",
+        "points": [
+          {
+            "country": "호주",
+            "role": "origin",
+            "label": "리튬 가격 급등 수혜국",
+            "lat": -33.9,
+            "lng": 151.2,
+            "city": "시드니"
+          },
+          {
+            "country": "그린란드",
+            "role": "origin",
+            "label": "희토류 프로젝트 본격화",
+            "lat": 0,
+            "lng": 0,
+            "city": "그린란드"
+          },
+          {
+            "country": "중국",
+            "role": "affected",
+            "label": "희토류 독점 공급 지위 약화",
+            "lat": 39.9,
+            "lng": 116.4,
+            "city": "베이징"
+          },
+          {
+            "country": "미국",
+            "role": "affected",
+            "label": "탈중국 핵심광물 자립망 주도",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          }
+        ],
+        "connections": [
+          {
+            "from": "미국",
+            "to": "그린란드",
+            "type": "alliance",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": 0,
+            "to_lng": 0
+          },
+          {
+            "from": "미국",
+            "to": "중국",
+            "type": "trade",
+            "from_lat": 38.9,
+            "from_lng": -77.0,
+            "to_lat": 39.9,
+            "to_lng": 116.4
+          }
+        ],
+        "impact_chain": [
+          "리튬 가격 40% 급등 → 2차전지 원자재 상승 사이클 진입 → 리튬 광산/정제 기업 수혜",
+          "서방 희토류 자립화 → 비중국산 광물 프리미엄 형성 → 핵심광물 기업 부각"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "2차전지/리튬",
+            "direction": "bullish",
+            "magnitude": "+3~5%"
+          },
+          {
+            "sector": "희토류/핵심광물",
+            "direction": "bullish",
+            "magnitude": "+2~4%"
+          }
+        ],
+        "affected_tickers": []
+      },
+      {
+        "id": "ev_010",
+        "title": "미 동남부 대형 산불·중부 150개 토네이도 및 일본 거대지진 주의보",
+        "summary": "미국 조지아·플로리다 초대형 산불 비상사태 선포, 중부 4월 한 달 150여 개 토네이도 발생. 일본은 4/20 규모 7.5 강진 이후 거대지진(Megaquake) 주의보를 4/27까지 유지하며 긴장 고조.",
+        "severity": "high",
+        "category": "disaster",
+        "status": "developing",
+        "time_label": "최근 48시간 (진행중)",
+        "points": [
+          {
+            "country": "미국",
+            "role": "affected",
+            "label": "동남부 산불 비상사태, 중부 토네이도 150개",
+            "lat": 38.9,
+            "lng": -77.0,
+            "city": "워싱턴"
+          },
+          {
+            "country": "일본",
+            "role": "affected",
+            "label": "규모 7.5 강진 후 Megaquake 주의보 유지",
+            "lat": 35.7,
+            "lng": 139.7,
+            "city": "도쿄"
+          }
+        ],
+        "connections": [],
+        "impact_chain": [
+          "미국 이상기후 → 곡물 주산지 수확량 감소 → 애그플레이션 우려",
+          "대형 자연재해 연속 → 보험사 손해율 급증 → 보험주 하방 압력",
+          "일본 지진 주의보 → 여행객 취소 → 일본 관광 관련주 위축"
+        ],
+        "affected_sectors": [
+          {
+            "sector": "농산물/곡물",
+            "direction": "bullish",
+            "magnitude": "+2~4%"
+          },
+          {
+            "sector": "보험/재해보험",
+            "direction": "bearish",
+            "magnitude": "-2~4%"
+          }
+        ],
+        "affected_tickers": []
+      }
+    ],
+    "upcoming": [
+      {
+        "date": "2026-04-28",
+        "d_day": "D-5",
+        "event": "일본 BOJ 금융정책결정회의(금리결정)",
+        "importance": "high",
+        "country": "일본",
+        "category": "fed",
+        "scenarios": [
+          {
+            "name": "금리 동결 + 추가 인상 시사",
+            "probability": "55%",
+            "impact": "엔화 강세 → 한국 수출 기업 가격 경쟁력 개선, 일본 수출주 약세"
+          },
+          {
+            "name": "금리 동결 + 비둘기파 발언",
+            "probability": "45%",
+            "impact": "엔화 약세 지속 → 한국 자동차·조선 가격 경쟁 심화"
+          }
+        ],
+        "watch_sectors": [
+          "자동차",
+          "조선",
+          "반도체",
+          "금융"
+        ],
+        "lat": 35.7,
+        "lng": 139.7
+      },
+      {
+        "date": "2026-04-29",
+        "d_day": "D-6",
+        "event": "FOMC 금리결정 및 파월 의장 기자회견",
+        "importance": "high",
+        "country": "미국",
+        "category": "fed",
+        "scenarios": [
+          {
+            "name": "동결 + 연내 1회 인하 시사",
+            "probability": "60%",
+            "impact": "시장 안도감, 성장주·기술주 소폭 반등"
+          },
+          {
+            "name": "동결 + 인플레 경계 강화(매파)",
+            "probability": "40%",
+            "impact": "금리 인하 기대 후퇴 → 성장주 약세, 달러 강세"
+          }
+        ],
+        "watch_sectors": [
+          "금융",
+          "기술주",
+          "부동산",
+          "성장주"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-04-29",
+        "d_day": "D-6",
+        "event": "MSFT, GOOGL, META 1분기 실적발표",
+        "importance": "high",
+        "country": "미국",
+        "category": "earnings",
+        "scenarios": [
+          {
+            "name": "AI 수익화 가시화 + 가이던스 상향",
+            "probability": "55%",
+            "impact": "빅테크 랠리 지속, AI 밸류체인 동반 강세"
+          },
+          {
+            "name": "AI 투자비용 부담 + 광고 둔화",
+            "probability": "45%",
+            "impact": "빅테크 차익실현 매물 → 나스닥 조정"
+          }
+        ],
+        "watch_sectors": [
+          "반도체",
+          "소프트웨어",
+          "IT 인프라",
+          "클라우드"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-04-30",
+        "d_day": "D-7",
+        "event": "미국 3월 Core PCE 물가지수",
+        "importance": "high",
+        "country": "미국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "전월비 0.2% 이하 (둔화)",
+            "probability": "40%",
+            "impact": "금리 인하 기대 회복 → 성장주·채권 강세"
+          },
+          {
+            "name": "전월비 0.3% 이상 (고착화)",
+            "probability": "60%",
+            "impact": "중동발 에너지 인플레 확인 → 긴축 장기화 우려"
+          }
+        ],
+        "watch_sectors": [
+          "채권",
+          "성장주",
+          "에너지"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-04-30",
+        "d_day": "D-7",
+        "event": "AAPL, AMZN 1분기 실적발표",
+        "importance": "high",
+        "country": "미국",
+        "category": "earnings",
+        "scenarios": [
+          {
+            "name": "애플 중국 매출 방어 + AWS 성장 가속",
+            "probability": "50%",
+            "impact": "시장 전반 안도감 및 소비재·클라우드주 강세"
+          },
+          {
+            "name": "중국 매출 부진 + 관세 가이던스 하향",
+            "probability": "50%",
+            "impact": "미·중 무역 리스크 재부각 → 시장 지수 하방 압력"
+          }
+        ],
+        "watch_sectors": [
+          "소비재",
+          "IT 하드웨어",
+          "클라우드"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-04-30",
+        "d_day": "D-7",
+        "event": "중국 4월 NBS PMI 제조업/서비스업 발표",
+        "importance": "high",
+        "country": "중국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "제조업 PMI 50 이상 (확장)",
+            "probability": "45%",
+            "impact": "중국 부양책 효과 확인 → 경기민감주·소재주 반등"
+          },
+          {
+            "name": "제조업 PMI 50 미만 (위축)",
+            "probability": "55%",
+            "impact": "내수 부진 지속 → 중국 소비재·철강 약세"
+          }
+        ],
+        "watch_sectors": [
+          "철강",
+          "화학",
+          "기계",
+          "화장품"
+        ],
+        "lat": 39.9,
+        "lng": 116.4
+      },
+      {
+        "date": "2026-05-01",
+        "d_day": "D-8",
+        "event": "한국 4월 수출입동향 발표",
+        "importance": "high",
+        "country": "한국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "반도체 수출 20%+ 증가 지속",
+            "probability": "65%",
+            "impact": "AI 메모리 호황 재확인 → 반도체·조선 강세 지속"
+          },
+          {
+            "name": "물류비 부담으로 수출 둔화",
+            "probability": "35%",
+            "impact": "해상 운임 폭등 영향 현실화 → 수출주 불확실성 확대"
+          }
+        ],
+        "watch_sectors": [
+          "반도체",
+          "자동차",
+          "조선",
+          "해운"
+        ],
+        "lat": 37.5,
+        "lng": 127.0
+      },
+      {
+        "date": "2026-05-08",
+        "d_day": "D-15",
+        "event": "미국 4월 비농업고용지표(NFP) 및 실업률",
+        "importance": "high",
+        "country": "미국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "고용 둔화 (15만 이하)",
+            "probability": "45%",
+            "impact": "금리 인하 정당성 확보 → 전체 증시 반등"
+          },
+          {
+            "name": "고용 견조 (20만 이상)",
+            "probability": "55%",
+            "impact": "고금리 장기화 확정 → 채권 금리 상승, 성장주 압박"
+          }
+        ],
+        "watch_sectors": [
+          "전체 증시",
+          "채권",
+          "금융"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      },
+      {
+        "date": "2026-05-12",
+        "d_day": "D-19",
+        "event": "미국 4월 CPI (소비자물가지수)",
+        "importance": "high",
+        "country": "미국",
+        "category": "economic",
+        "scenarios": [
+          {
+            "name": "CPI 둔화 (3.0% 이하)",
+            "probability": "35%",
+            "impact": "6월 금리 인하 기대 급등 → 기술주·중소형주 강세"
+          },
+          {
+            "name": "CPI 반등 (3.5% 이상)",
+            "probability": "65%",
+            "impact": "에너지발 인플레 재점화 → 2026 인하 무산 우려 확산"
+          }
+        ],
+        "watch_sectors": [
+          "기술주",
+          "중소형주",
+          "에너지"
+        ],
+        "lat": 38.9,
+        "lng": -77.0
+      }
+    ],
+    "sector_summary": [
+      {
+        "sector": "방위산업",
+        "net_direction": "bullish",
+        "event_count": 4,
+        "key_reason": "이란-이스라엘 교전, 러시아-나토 긴장, 대만 해협 위기, 북한 도발이 동시 진행. 나토 전원 GDP 2% 달성 및 대형 방산 계약 체결로 슈퍼사이클 진입"
+      },
+      {
+        "sector": "전력/데이터센터 인프라",
+        "net_direction": "bullish",
+        "event_count": 2,
+        "key_reason": "가트너 데이터센터 지출 55.8% 폭증 전망, AI 워크로드 확대로 변압기·전력 케이블·쿨링 시스템 수요 급증"
+      },
+      {
+        "sector": "반도체(HBM/메모리)",
+        "net_direction": "bullish",
+        "event_count": 3,
+        "key_reason": "한국 GDP 서프라이즈의 핵심 동력, SK하이닉스 이익 5배, AI 메모리 수출 5.1% 급증으로 수요 견조 재확인"
+      },
+      {
+        "sector": "정유/에너지",
+        "net_direction": "bullish",
+        "event_count": 4,
+        "key_reason": "호르무즈 해협 봉쇄·러시아 정유시설 타격·이란 전쟁 등 복합 공급 차질로 유가 90달러 돌파, 정제 마진 확대"
+      },
+      {
+        "sector": "해운",
+        "net_direction": "bullish",
+        "event_count": 3,
+        "key_reason": "호르무즈·홍해 이중 봉쇄 및 대만 해협 리스크로 운임 40% 폭등, 희망봉 우회 장기화에 따른 운송 수익 급증"
+      },
+      {
+        "sector": "반도체 장비(글로벌)",
+        "net_direction": "bearish",
+        "event_count": 2,
+        "key_reason": "MATCH 법안으로 대중국 DUV 수출 전면 차단, ASML·램리서치·AMAT 등 중국향 매출 비중 높은 장비사 직격탄"
+      },
+      {
+        "sector": "항공/여행",
+        "net_direction": "bearish",
+        "event_count": 3,
+        "key_reason": "유가 90달러 돌파 항공유 비용 급증, 중동 노선 결항, 일본 지진 주의보로 여행 수요 위축"
+      },
+      {
+        "sector": "성장주/기술주",
+        "net_direction": "bearish",
+        "event_count": 2,
+        "key_reason": "중동발 에너지 인플레로 연말 PCE 2.7% 상향, 2026년 금리 인하 1회 전망으로 고금리 장기화 리스크"
+      },
+      {
+        "sector": "2차전지/리튬",
+        "net_direction": "bullish",
+        "event_count": 1,
+        "key_reason": "리튬 가격 연초 대비 40% 급등, EV 수요 회복 기대감 및 서방 핵심광물 자립화 가속"
+      },
+      {
+        "sector": "바이오/제약",
+        "net_direction": "bullish",
+        "event_count": 2,
+        "key_reason": "일라이릴리 경구용 비만약 FDA 승인, 70억불 유전자 치료 M&A 및 한국 바이오텍 IND 진입 활기"
+      }
+    ]
+  }
+}

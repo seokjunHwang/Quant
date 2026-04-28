@@ -1,0 +1,239 @@
+{
+  "analysis_date": "2026년 04월 23일",
+  "market_summary": "SK하이닉스 1분기 영업이익 37.6조원(+405% YoY) 서프라이즈와 한국 GDP 깜짝 성장(1.7%)으로 코스피가 6,500선을 돌파하며 반도체 대형주 주도의 강세장이 연출됐습니다. 미국은 S&P500(+1.1%)·나스닥(+1.6%) 상승했으나 IBM·ServiceNow 실적 실망과 WTI 94달러대 고유가가 잠재 부담으로 작용 중이며, VIX 18.9(-2.9%)로 공포 심리 완화 속 AI 인프라 수혜 섹터로 수급이 집중되는 구조입니다.",
+  "themes": [
+    {
+      "theme_name": "반도체/HBM",
+      "trading_type": "스윙",
+      "strength": "강",
+      "reason": "SK하이닉스 사상 최대 실적 서프라이즈로 AI 서버향 HBM 수요의 구조적 성장이 재확인됐으며, NVIDIA를 중심으로 한 글로벌 AI 인프라 투자 사이클이 지속되며 장비·소재 밸류체인 전반으로 수혜 확산 중. VIX 하락과 나스닥 강세가 위험선호 심리를 뒷받침하며 추가 매수세 유입 가능성 높음.",
+      "duration": "1주일+",
+      "sectors_kr": [
+        "반도체",
+        "반도체 장비",
+        "반도체 소재"
+      ],
+      "sectors_us": [
+        "반도체",
+        "반도체 장비",
+        "AI 칩"
+      ],
+      "tickers_hint_kr": [
+        "SK하이닉스(000660)",
+        "한미반도체(042700)",
+        "리노공업(058470)"
+      ],
+      "tickers_hint_us": [
+        "NVIDIA(NVDA)",
+        "AMD(AMD)",
+        "Micron Technology(MU)",
+        "Lam Research(LRCX)",
+        "KLA Corporation(KLAC)",
+        "Applied Materials(AMAT)",
+        "Marvell Technology(MRVL)"
+      ],
+      "risk": "미중 반도체 수출 규제 확대 가능성, 단기 급등에 따른 고PER 부담으로 차익 실현 매물 출회"
+    },
+    {
+      "theme_name": "전력설비/AI 인프라",
+      "trading_type": "둘다",
+      "strength": "강",
+      "reason": "AI 데이터센터 전력 수요 급증으로 국내 전선·전력기기주가 신고가를 경신 중이며, 미국에서는 GE Vernova가 실적 서프라이즈와 가이던스 상향으로 섹터 전반에 강력한 모멘텀 제공. 조선업체의 데이터센터 발전 엔진 수주까지 맞물려 AI 인프라 수혜 범위가 전력망 전반으로 확장되는 중.",
+      "duration": "1주일+",
+      "sectors_kr": [
+        "전선",
+        "전력기기",
+        "변압기"
+      ],
+      "sectors_us": [
+        "전력설비",
+        "유틸리티",
+        "에너지전환"
+      ],
+      "tickers_hint_kr": [
+        "LS ELECTRIC(010120)",
+        "제룡전기(033100)",
+        "가온전선(000240)"
+      ],
+      "tickers_hint_us": [
+        "GE Vernova(GEV)",
+        "Eaton(ETN)",
+        "Vertiv Holdings(VRT)",
+        "Quanta Services(PWR)",
+        "Vistra(VST)",
+        "Constellation Energy(CEG)",
+        "NuScale Power(SMR)"
+      ],
+      "risk": "전력망 인허가 지연, 구리 등 원자재 가격 급등에 따른 원가 부담"
+    },
+    {
+      "theme_name": "방산/항공우주",
+      "trading_type": "스윙",
+      "strength": "중",
+      "reason": "호르무즈 해협 봉쇄 지속과 미-이란 협상 교착으로 지정학 리스크가 장기화되며 방산 수주 모멘텀 유지. 이집트 등 중동·유럽향 대규모 수출 계약 공시가 이어지며 국내 방산주의 수주 잔고가 사상 최고 수준. 미국 국방 예산 확대 기조도 동반 수혜.",
+      "duration": "1주일+",
+      "sectors_kr": [
+        "방위산업",
+        "항공우주"
+      ],
+      "sectors_us": [
+        "방위산업",
+        "드론",
+        "항공우주"
+      ],
+      "tickers_hint_kr": [
+        "한화에어로스페이스(012450)",
+        "LIG넥스원(079550)",
+        "빅텍(065130)"
+      ],
+      "tickers_hint_us": [
+        "Lockheed Martin(LMT)",
+        "RTX Corporation(RTX)",
+        "Kratos Defense(KTOS)",
+        "AeroVironment(AVAV)",
+        "TransDigm Group(TDG)",
+        "HEICO Corporation(HEI)",
+        "Mercury Systems(MRCY)"
+      ],
+      "risk": "지정학 리스크 급격한 완화 시 수급 이탈, 수출 규제에 따른 수주 취소 리스크"
+    },
+    {
+      "theme_name": "에너지/정유",
+      "trading_type": "스윙",
+      "strength": "중",
+      "reason": "호르무즈 해협 봉쇄로 WTI 94달러대가 유지되며 국내 정유사 정제마진 개선 기대. 미국 에너지 기업들의 실적 추정치 상향 조정이 잇따르며 단기 강세 모멘텀 유효. 달러 약세(-0.1%)도 원자재·에너지주에 우호적 환경.",
+      "duration": "2~3일",
+      "sectors_kr": [
+        "정유",
+        "석유화학"
+      ],
+      "sectors_us": [
+        "에너지",
+        "석유 및 가스"
+      ],
+      "tickers_hint_kr": [
+        "S-Oil(010950)",
+        "흥구석유(024060)",
+        "극동유화(014530)"
+      ],
+      "tickers_hint_us": [
+        "ExxonMobil(XOM)",
+        "Chevron(CVX)",
+        "Devon Energy(DVN)",
+        "Diamondback Energy(FANG)",
+        "Callon Petroleum(CPE)",
+        "Vaalco Energy(EGY)",
+        "Matador Resources(MTDR)"
+      ],
+      "risk": "미-이란 협상 급진전 시 유가 급락, 경기침체 우려로 인한 수요 감소 시나리오"
+    },
+    {
+      "theme_name": "조선/기자재",
+      "trading_type": "스윙",
+      "strength": "중",
+      "reason": "HD현대중공업 등 국내 조선 대형주가 AI 데이터센터용 발전 엔진 수주라는 새로운 성장 축 확보. 고유가 지속으로 LNG선 추가 발주 수요도 동반 증가 기대. 미국향 대규모 공급계약 체결 공시가 수급 유인.",
+      "duration": "1주일+",
+      "sectors_kr": [
+        "조선",
+        "조선기자재"
+      ],
+      "sectors_us": [
+        "해운",
+        "산업재"
+      ],
+      "tickers_hint_kr": [
+        "HD현대중공업(329180)",
+        "HSD엔진(082740)",
+        "성광벤드(014620)"
+      ],
+      "tickers_hint_us": [
+        "Huntington Ingalls(HII)",
+        "General Dynamics(GD)",
+        "Kirby Corporation(KEX)",
+        "Genco Shipping(GNK)",
+        "Star Bulk Carriers(SBLK)",
+        "International Seaways(INSW)",
+        "Scorpio Tankers(STNG)"
+      ],
+      "risk": "원자재(강재) 가격 급등으로 수익성 훼손, 인력 부족에 따른 납기 지연"
+    },
+    {
+      "theme_name": "AI/로보틱스",
+      "trading_type": "둘다",
+      "strength": "중",
+      "reason": "테슬라 1분기 실적 예상치 상회 및 로봇택시·AI 인프라 투자 가속화 확인으로 로봇·자동화 섹터에 수급 유입. 국내에서도 제조업 자동화 수요 증가로 협동로봇 업체들의 수주 파이프라인 확대. AI 소프트웨어 실적 실망(IBM, ServiceNow)과 대조적으로 실물 하드웨어 자동화에 차별화된 수급 집중.",
+      "duration": "2~3일",
+      "sectors_kr": [
+        "로봇",
+        "자동화",
+        "드론"
+      ],
+      "sectors_us": [
+        "로보틱스",
+        "AI 하드웨어",
+        "전기차"
+      ],
+      "tickers_hint_kr": [
+        "두산로보틱스(454910)",
+        "레인보우로보틱스(277810)",
+        "로보스타(090360)"
+      ],
+      "tickers_hint_us": [
+        "Tesla(TSLA)",
+        "Palantir(PLTR)",
+        "UiPath(PATH)",
+        "Symbotic(SYM)",
+        "Serve Robotics(SERV)",
+        "Joby Aviation(JOBY)",
+        "Intuitive Machines(LUNR)"
+      ],
+      "risk": "테슬라 뉴스 소화 이후 '소문에 사고 뉴스에 팔자' 패턴 경계, AI 버블 피로감"
+    },
+    {
+      "theme_name": "금/귀금속",
+      "trading_type": "단타",
+      "strength": "약",
+      "reason": "지정학 리스크 장기화와 인플레이션 우려로 금 가격이 고공행진 중. 달러 인덱스 소폭 약세(-0.1%)가 금 가격을 지지. 단기 과열 부담이 있으나 중동 리스크 헤지 수요로 방어적 매수 지속. 비철금속(구리)도 AI 인프라 수요로 동반 강세.",
+      "duration": "당일",
+      "sectors_kr": [
+        "귀금속",
+        "비철금속"
+      ],
+      "sectors_us": [
+        "금광",
+        "귀금속",
+        "원자재"
+      ],
+      "tickers_hint_kr": [
+        "고려아연(010130)",
+        "풍산(103140)",
+        "영풍(000670)"
+      ],
+      "tickers_hint_us": [
+        "Newmont(NEM)",
+        "Barrick Gold(GOLD)",
+        "Kinross Gold(KGC)",
+        "Pan American Silver(PAAS)",
+        "Coeur Mining(CDE)",
+        "First Majestic Silver(AG)",
+        "Harmony Gold(HMY)"
+      ],
+      "risk": "지정학 리스크 완화 또는 달러 반등 시 금 가격 급락, 단기 추격 매수 후 물림 위험"
+    }
+  ],
+  "avoid_sectors": [
+    {
+      "sector": "이차전지/전기차(국장)",
+      "reason": "반도체로의 수급 쏠림으로 LG에너지솔루션·삼성SDI 등 이차전지 대형주 약세 전환. 중국산 저가 배터리 경쟁 심화와 글로벌 EV 수요 둔화 우려가 겹쳐 단기 반등 모멘텀 부재"
+    },
+    {
+      "sector": "소프트웨어/클라우드(미장)",
+      "reason": "IBM(-7%)·ServiceNow(-12%) 실적 실망으로 시간외 급락. SaaS 밸류에이션 프리미엄 축소 국면이 본격화될 수 있으며 실적 발표 시즌 동안 하방 압력 지속 예상"
+    },
+    {
+      "sector": "내수/소비재(국장)",
+      "reason": "CCSI 99.2로 1년 만에 비관적 구간 재진입, 국고채 3년물 3.453% 고금리 지속으로 소비 여력 약화. 내수 기반 유통·음식료·의류주의 단기 실적 개선 가시성 낮음"
+    }
+  ],
+  "overall_strategy": "SK하이닉스 실적 모멘텀 기반 반도체·전력설비 스윙 비중 집중 유지, 에너지·방산은 지정학 동향 모니터링하며 단기 대응, 이차전지·소프트웨어는 수급 정상화 신호 확인 전 완전 관망."
+}

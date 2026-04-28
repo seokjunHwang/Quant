@@ -1,0 +1,41 @@
+{
+  "ticker": "NVDA",
+  "name": "NVIDIA",
+  "theme": "반도체/HBM",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "차세대 아키텍처 '베라 루빈(Vera Rubin)' 리더십 공고화 전망 (Seeking Alpha)",
+      "date": "2026-04-23",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "FY2027 Q1 매출 약 780억 달러 전망으로 강력한 가이던스 제시 (Nvidia.com)",
+      "date": "2026-04-23",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "585억 달러 규모 자사주 매입 잔액 및 주당 $0.01 배당금 지급 (Nvidia.com)",
+      "date": "2026-04-01",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "거시경제 리스크",
+      "description": "4월 말 FOMC 회의 및 중동 정세 등 대외 매크로 불확실성 확대",
+      "severity": "medium"
+    },
+    {
+      "type": "밸류에이션 부담",
+      "description": "P/E 약 40배 수준으로 높아진 밸류에이션에 따른 단기 변동성 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "차세대 칩 '베라 루빈'에 대한 강한 수요 기대감과 기관의 콜옵션 매수세 등 견조한 수급이 이어짐. 강력한 향후 매출 가이던스를 바탕으로 200달러 선 회복을 시도 중임.",
+  "momentum": "bullish",
+  "analyst_view": "강력 매수, 평균 목표가 $266 ~ $275 (최고 $400)",
+  "score_hint": 85
+}

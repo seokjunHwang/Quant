@@ -1,0 +1,30 @@
+{
+  "ticker": "GNK",
+  "name": "Genco Shipping & Trading",
+  "theme": "조선/해운",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Diana Shipping(DSX)의 주당 23.50달러 현금 인수 제안 및 위임장 대결(Proxy Fight) 본격화 (Seeking Alpha)",
+      "date": "2026-04-13",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "신형 고효율 Newcastlemax 선박 인도 완료로 철광석/석탄 운송 선대 경쟁력 강화 (StockTitan)",
+      "date": "2026-04-07",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "경영권 분쟁 리스크",
+      "description": "현 이사회와 적대적 인수자(Diana Shipping) 간의 갈등 및 포이즌 필(Poison Pill) 유지로 인한 중장기 경영 불확실성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "Diana Shipping의 적대적 인수 시도와 경영권 표 대결 이슈로 주가가 인수 제안가(23.50달러) 이상에서 강세를 띠고 있습니다. 기관 보유 비중은 약 51%이며, 단기적인 M&A 모멘텀이 주가를 견인 중입니다.",
+  "momentum": "bullish",
+  "analyst_view": "적극 매수(Moderate Buy), 평균 목표주가 $21.00 (경영권 분쟁으로 현재 주가가 목표가를 상회 중)",
+  "score_hint": 80
+}

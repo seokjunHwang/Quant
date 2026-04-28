@@ -1,0 +1,30 @@
+{
+  "ticker": "079550",
+  "name": "LIG넥스원",
+  "theme": "방산/항공우주",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "중동 지정학적 리스크 수혜로 천궁-II 등 방공체계 수요 급증 (hankyung.com)",
+      "date": "2026-04-23",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "고스트로보틱스 사족보행 로봇 대규모 계약 체결 기대 및 흑자전환 모멘텀 (alphasquare.co.kr)",
+      "date": "2026-04-23",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "가격 리스크",
+      "description": "52주 신고가 경신 등 단기 과열에 따른 주가 변동성 확대 가능성",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "중동 리스크에 따른 수출 확대 기대감과 고스트로보틱스 모멘텀으로 사상 최고가를 경신하며 강력한 상승 랠리 중. 4월 초부터 기관의 꾸준한 매수세가 하단을 지지 중임.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표가 786,000원 ~ 850,000원 (최고 1,200,000원, 대다수 매수 의견)",
+  "score_hint": 85
+}

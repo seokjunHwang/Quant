@@ -1,0 +1,35 @@
+{
+  "ticker": "POWL",
+  "name": "Powell Industries",
+  "theme": "전력설비/AI 데이터센터",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "3대1 주식 분할 완료 및 4월 17일 52주 신고가($238.01) 경신 (247wallst.com)",
+      "date": "2026-04-17",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "AI 데이터센터 및 LNG 프로젝트 전력 수요로 16억 달러의 기록적인 수주잔고 달성 (247wallst.com)",
+      "date": "2026-04-15",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "밸류에이션 부담",
+      "description": "최근 3년간 1600% 이상 급등함에 따라 가치 평가 부담 존재",
+      "severity": "medium"
+    },
+    {
+      "type": "내부자 매도",
+      "description": "4월 9일 CEO가 약 104만 달러(4,440주) 규모의 자사주 매도",
+      "severity": "low"
+    }
+  ],
+  "news_summary": "4월 초 3대1 주식 분할을 성공적으로 완료했으며, AI 데이터센터 전력망 수요 확대로 수주잔고 16억 달러를 기록하며 4월 17일 52주 신고가를 경신했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "Zacks Research 'Strong Buy' 상향 (4/7), 여타 기관은 분할 후 목표가 조정 및 'Neutral' 의견 혼재",
+  "score_hint": 90
+}

@@ -1,0 +1,36 @@
+{
+  "ticker": "SMR",
+  "name": "NuScale Power",
+  "theme": "전력설비/AI 인프라",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "주가 단일 세션 16.5% 급등 등 밈 주식(meme stock) 성격의 강한 매수세 유입 (Quiver Quant)",
+      "date": "2026-04-22",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "백악관의 우주(달/화성) 원자로 배치 지시(2028년)로 SMR 섹터 전반 부각 (24/7 Wall St)",
+      "date": "2026-04 중순",
+      "impact": "high"
+    },
+    {
+      "type": "악재",
+      "content": "Citigroup '매도(Sell)' 의견 및 목표가 9달러 제시 (MarketBeat)",
+      "date": "2026-04-21",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "법적/재무적 리스크",
+      "description": "전분기 어닝 쇼크 및 진행 중인 증권 사기 집단 소송으로 인한 기관 투자 유입 제한",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "백악관의 우주 원자로 정책과 AI 전력 부족 내러티브에 힘입어 최근 주가가 16% 이상 급등하는 등 강한 변동성을 보임. 다만 실적 부진 및 기관투자자의 엇갈린 평가(목표가 9달러~41달러)로 리스크가 혼재됨.",
+  "momentum": "bullish",
+  "analyst_view": "Hold (중립), 목표가 $17.11 ~ $20.75 수준이나 기관별 시각 차이 극심",
+  "score_hint": 65
+}

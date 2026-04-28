@@ -371,3 +371,17 @@
 {"timestamp": "2026-04-17T10:39:53.530258+09:00", "context": "step5_events_batch3", "cost_usd": 0.44406950000000006, "input_tokens": 9, "output_tokens": 2225, "model": "claude-opus-4-6"}
 {"timestamp": "2026-04-17T10:41:02.445956+09:00", "context": "step5_events_batch4", "cost_usd": 0.36435629999999997, "input_tokens": 9, "output_tokens": 1702, "model": "claude-opus-4-6"}
 {"timestamp": "2026-04-17T10:43:18.646613+09:00", "context": "step5_report", "cost_usd": 0.18768015000000005, "input_tokens": 3, "output_tokens": 9211, "model": "claude-sonnet-4-6"}
+{"timestamp": "2026-04-18T19:28:44.540455+09:00", "context": "step2_theme", "cost_usd": 0.15969765, "input_tokens": 3, "output_tokens": 8502, "model": "claude-sonnet-4-6"}
+{"timestamp": "2026-04-18T19:32:19.920235+09:00", "context": "step0_impact_analysis", "cost_usd": 0.45252074999999997, "input_tokens": 3, "output_tokens": 12716, "model": "claude-opus-4-6"}
+{"timestamp": "2026-04-18T19:41:00.379178+09:00", "context": "step5_events_batch1", "cost_usd": 0.53056775, "input_tokens": 10, "output_tokens": 1792, "model": "claude-opus-4-6"}
+{"timestamp": "2026-04-18T19:42:45.909437+09:00", "context": "step5_events_batch2", "cost_usd": 0.6972477, "input_tokens": 4295, "output_tokens": 3116, "model": "claude-opus-4-6"}
+{"timestamp": "2026-04-18T19:44:06.496972+09:00", "context": "step5_events_batch3", "cost_usd": 0.6438763499999999, "input_tokens": 3410, "output_tokens": 2801, "model": "claude-opus-4-6"}
+{"timestamp": "2026-04-18T19:45:29.005910+09:00", "context": "step5_events_batch4", "cost_usd": 0.5158247000000001, "input_tokens": 1617, "output_tokens": 1920, "model": "claude-opus-4-6"}
+{"timestamp": "2026-04-18T19:46:43.399198+09:00", "context": "step5_report", "cost_usd": 0.12698264999999997, "input_tokens": 3, "output_tokens": 4996, "model": "claude-sonnet-4-6"}
+{"timestamp": "2026-04-23T14:32:53.084723+09:00", "context": "step2_theme", "cost_usd": 0.21279765, "input_tokens": 3, "output_tokens": 11915, "model": "claude-sonnet-4-6"}
+{"timestamp": "2026-04-23T14:36:14.342732+09:00", "context": "step0_impact_analysis", "cost_usd": 0.42742699999999995, "input_tokens": 3, "output_tokens": 12183, "model": "claude-opus-4-6"}
+{"timestamp": "2026-04-23T14:46:09.160672+09:00", "context": "step5_events_batch1", "cost_usd": 0.6462005000000001, "input_tokens": 6871, "output_tokens": 1952, "model": "claude-opus-4-6"}
+{"timestamp": "2026-04-23T14:47:22.023296+09:00", "context": "step5_events_batch2", "cost_usd": 0.43772750000000005, "input_tokens": 1595, "output_tokens": 2195, "model": "claude-opus-4-6"}
+{"timestamp": "2026-04-23T14:48:16.748073+09:00", "context": "step5_events_batch3", "cost_usd": 0.48723755, "input_tokens": 3669, "output_tokens": 1539, "model": "claude-opus-4-6"}
+{"timestamp": "2026-04-23T14:50:31.961225+09:00", "context": "step5_events_batch4", "cost_usd": 0.77926735, "input_tokens": 4516, "output_tokens": 3034, "model": "claude-opus-4-6"}
+{"timestamp": "2026-04-23T14:52:03.967682+09:00", "context": "step5_report", "cost_usd": 0.14176139999999998, "input_tokens": 3, "output_tokens": 6014, "model": "claude-sonnet-4-6"}

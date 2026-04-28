@@ -1,0 +1,30 @@
+{
+  "ticker": "VRT",
+  "name": "Vertiv Holdings",
+  "theme": "전력설비/AI 데이터센터",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "BNP Paribas, Citi 등 다수 IB 목표주가 $311~$345로 잇따라 상향 조정 (MarketBeat)",
+      "date": "2026-04-14",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "BMarko Structures 인수를 통한 데이터센터 모듈 인프라 제조 역량 강화 (MarketChameleon)",
+      "date": "2026-04-18",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "고평가 논란",
+      "description": "단기 급등에 따른 밸류에이션 부담으로 Jefferies 등 일부 기관의 투자의견 하향('Hold')",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "데이터센터 인프라 역량 강화를 위해 BMarko Structures를 인수했으며, 150억 달러에 달하는 역대급 수주 잔고가 부각되었습니다. 4월 22일 실적 발표를 앞두고 긍정적 전망이 우세합니다.",
+  "momentum": "bullish",
+  "analyst_view": "'Moderate Buy' 의견 다수. 최근 상향된 목표가 $311 ~ $345 분포.",
+  "score_hint": 88
+}

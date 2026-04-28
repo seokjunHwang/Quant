@@ -1,0 +1,30 @@
+{
+  "ticker": "GEV",
+  "name": "GE Vernova",
+  "theme": "전력설비/AI 데이터센터",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "JPMorgan, BofA 등 다수 투자은행의 목표주가 $1,000 이상으로 잇따른 대폭 상향 (MarketBeat/Investing)",
+      "date": "2026-04-16",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "강력한 전력망 및 AI 데이터센터 인프라 수주 잔고(1,500억 달러) 부각 (StockAnalysis)",
+      "date": "2026-04-18",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "내부자 매도",
+      "description": "최근 3개월간 경영진 및 내부자의 약 450만 달러 규모 자사주 매도 발생",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "초거대 AI 전력망 인프라 슈퍼사이클의 대장주로 평가받으며 월가에서 연달아 목표주가(최대 $1,150)를 대폭 상향했습니다. 4월 22일로 예정된 1분기 실적 발표를 앞두고 기대감이 최고조에 달했습니다.",
+  "momentum": "bullish",
+  "analyst_view": "압도적 'Buy' 컨센서스. 최근 메이저 기관 목표주가 $1,095 ~ $1,150 포진.",
+  "score_hint": 95
+}

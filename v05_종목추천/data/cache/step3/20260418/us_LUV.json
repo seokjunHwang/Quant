@@ -1,0 +1,35 @@
+{
+  "ticker": "LUV",
+  "name": "Southwest Airlines",
+  "theme": "항공/운송",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "지정 좌석제 전면 도입 및 4단계 운임제(수하물 유료화 포함) 통한 부가 수익(Ancillary revenue) 창출 가시화 (Financial Content)",
+      "date": "2026-04-15",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "유가 하락으로 인한 섹터 전반의 연료비 부담 경감 수혜",
+      "date": "2026-04-17",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실행 리스크",
+      "description": "저비용 항공사(LCC) 정체성 탈피 과정에서의 기존 고객 이탈 및 델타/유나이티드 등 대형사와의 경쟁 심화 우려",
+      "severity": "medium"
+    },
+    {
+      "type": "비용 증가",
+      "description": "2024년 갱신된 대규모 노사 계약으로 인한 구조적인 인건비 부담 증가",
+      "severity": "high"
+    }
+  ],
+  "news_summary": "자율 좌석제를 폐지하고 수하물 유료화를 도입하는 등 대규모 비즈니스 모델 전환(Great Transformation)을 진행 중입니다. 수익성 개선 기대감은 높으나 전환 과정의 리스크로 인해 시장의 평가는 엇갈리고 있습니다.",
+  "momentum": "neutral",
+  "analyst_view": "Hold ~ Moderate Buy 의견 혼재, 평균 목표주가 $44.00 ~ $46.00 (증권사별 격차 큼)",
+  "score_hint": 65
+}

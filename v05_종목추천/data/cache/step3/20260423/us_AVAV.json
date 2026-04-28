@@ -1,0 +1,30 @@
+{
+  "ticker": "AVAV",
+  "name": "AeroVironment",
+  "theme": "방산/항공우주",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "미 해군 항공모함에서 LOCUST 레이저 무기 체계(LWS) 실사격 시연 성공 및 주가 급등 (회사 발표)",
+      "date": "2026-04-21",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "미 육군 중거리 정찰 프로그램용 VAPOR CLE 무인기 1,460만 달러 생산 계약 수주 (언론 보도)",
+      "date": "2026-04-20",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실적 변동성 리스크",
+      "description": "블루할로(BlueHalo) 인수 관련 손상 차손 발생 및 우주 사업 중단 명령으로 인한 단기 실적 가이던스 하향 조정",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "레이저 무기 시연 성공과 육군 드론 수주 소식에 힘입어 주가가 단기 강한 반등세를 보였습니다. 인수합병 비용으로 실적은 다소 부진했으나 수주잔고는 역대 최고치입니다.",
+  "momentum": "bullish",
+  "analyst_view": "매수(Moderate/Strong Buy), 평균 목표주가 $303 ~ $318",
+  "score_hint": 75
+}

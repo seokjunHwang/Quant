@@ -1,0 +1,30 @@
+{
+  "ticker": "HII",
+  "name": "Huntington Ingalls Industries",
+  "theme": "조선/해운",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "차세대 무인 수상정(ROMULUS/REMUS) 및 분산형 해양 운영(DMO) 프레임워크 발표 (hii.com)",
+      "date": "2026-04-16",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "GrayMatter Robotics와 협력하여 함정 건조에 '물리적 AI' 도입 발표 (stocktitan.net)",
+      "date": "2026-04-06",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "비용 증가",
+      "description": "조선소 인력 확보 및 유지를 위한 임금 인상으로 인한 단기 비용 증가",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "로봇 공학과 물리적 AI를 조선 제조에 적극 도입하고 있으며, 무인 해양 시스템 프레임워크를 연달아 발표하며 현대전 기술력을 입증하고 있습니다.",
+  "momentum": "bullish",
+  "analyst_view": "현 주가($396~$403) 대비 잉여현금흐름 모델 기준 약 13% 저평가 상태라는 분석 존재",
+  "score_hint": 82
+}

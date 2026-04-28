@@ -1,0 +1,30 @@
+{
+  "ticker": "ATSG",
+  "name": "Air Transport Services Group",
+  "theme": "항공/운송",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "자회사 조종사 노조와의 새로운 단체 교섭 협약 비준으로 장기 노동 안정성 확보 (Motley Fool)",
+      "date": "2026-04-18",
+      "impact": "medium"
+    },
+    {
+      "type": "중립",
+      "content": "Greg Mays 신임 CEO 선임 등 대대적인 리더십 개편 진행 (MarketBeat)",
+      "date": "2026-04-18",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "실적 부진",
+      "description": "전년 대비 매출 소폭 감소 추세 및 혼조된 단기 실적 흐름",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "자회사 조종사들과의 장기 노동 협약 비준으로 주요 운영 리스크를 해소했습니다. 신임 CEO를 필두로 리더십을 개편하며 수익성 개선을 도모하고 있습니다.",
+  "momentum": "neutral",
+  "analyst_view": "평균 목표가 약 $20.60. 전반적으로 'Buy' 또는 'Hold' 컨센서스.",
+  "score_hint": 55
+}

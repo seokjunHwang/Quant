@@ -1,0 +1,30 @@
+{
+  "ticker": "SBLK",
+  "name": "Star Bulk Carriers",
+  "theme": "조선/해운",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "Wall Street Zen 등 일부 투자기관에서 투자의견을 'Strong Buy'로 상향 조정 (MarketBeat)",
+      "date": "2026-04-18",
+      "impact": "high"
+    },
+    {
+      "type": "수급 호재",
+      "content": "3월 하반기 공매도 잔고 23.8% 급감 및 노후 선박 2척 매각(4,660만 달러 확보 예정) 발표 (GlobeNewswire)",
+      "date": "2026-04-15",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "내부자 매도",
+      "description": "최고운영책임자(COO) 및 최고전략책임자(CSO) 등 핵심 임원진이 4월 8일~15일 사이 대규모 자사주 장내 매도",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "애널리스트 투자의견 상향 및 공매도 쇼트커버링 추세 등 수급 호재가 겹치고 있으나, 최근 핵심 임원들의 대규모 주식 매도가 포착되어 상승 탄력을 제한할 수 있습니다. 외국인/기관 비중은 약 34%입니다.",
+  "momentum": "bullish",
+  "analyst_view": "강력 매수(Strong Buy) 다수, 평균 목표주가 $29.00 ~ $30.00",
+  "score_hint": 75
+}

@@ -1,0 +1,11 @@
+backend: cli            # cli | api
+model: claude-opus-4-7
+max_rounds: 5
+sandbox:
+  image: python:3.11-slim
+  timeout: 30
+paths:
+  rules: knowledge/Rule.md
+  history: knowledge/Rule.history.jsonl
+  failures: knowledge/failure_log.jsonl
+  tasks: tasks/

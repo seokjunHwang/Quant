@@ -1,0 +1,114 @@
+{
+  "ticker": "RKLB",
+  "name": "Rocket Lab Corporation",
+  "market": "us",
+  "current_price": "$83.15",
+  "summary": "Neutron 로켓 발사를 앞둔 우주 섹터 대장주로, 고밸류에이션 부담에도 불구하고 강력한 수주 백로그와 애널리스트 상향 흐름이 이어지는 성장주.",
+  "main_analysis": [
+    {
+      "category": "밸류에이션",
+      "result": "현재 주가 $83.15 기준, P/S 비율 약 49~67배로 매우 고평가 구간. EPS 적자(-$0.37/연)로 P/E 산출 불가. 애널리스트 평균 목표가 $71~$86로 현재가 근접 또는 약간 하회하여 단기 과열 신호. 12개월 평균 대비 P/S가 121% 상승."
+    },
+    {
+      "category": "경쟁사 비교",
+      "result": "섹터 내 SpaceX(비상장) 다음가는 상장 대장주. 2025년 매출 $602M(+38% YoY), Q4 매출 $180M(+36% YoY). 경쟁사 Intuitive Machines(LUNR), Astra 대비 압도적 매출 규모. 수주 백로그 $1.85B(+73% YoY)로 동종업계 최대 수준."
+    },
+    {
+      "category": "재무 건전성",
+      "result": "Q4 2025 매출 $180M, GAAP 총이익률 38%/비GAAP 44%(사상 최대). 현금성 자산 $1.1B 보유(ATM 증자 $280.6M 포함). Trinity 차입 상환 완료로 부채 실질적 소멸, 전환사채 약 $117M 전환 완료로 재무구조 대폭 개선. 다만 Q4 순손실 $52.9M."
+    },
+    {
+      "category": "자본 리스크",
+      "result": "ATM 프로그램으로 Q4에 $280.6M 증자 단행 → 희석 리스크 존재. 전환사채 $355M 중 89% 전환 완료, 잔여 7.5M주(~11%)가 추가 희석 가능. 4월 Mynaric 인수 대가로 2,277,002주 신규 발행. 오버행 물량 모니터링 필요."
+    },
+    {
+      "category": "애널리스트 평가",
+      "result": "컨센서스 'Buy'(Strong Buy 46%, Buy 38%, Hold 15%). 평균 목표가 $71~$86.86, 최고 $105/최저 $60. 4월 Citigroup이 Market Perform → Outperform 상향, Wells Fargo 신규 커버리지 개시(Equal-Weight). 전반적 상향 흐름."
+    },
+    {
+      "category": "핵심 호재/악재",
+      "result": "호재: (1) Neutron 로켓 Q4 2026 발사 타겟, (2) NSSL Lane 1($5.6B 5년 계약) 진입 가능성, (3) Mynaric 인수 완료($155.3M), SDA $1.3B 계약 연계, (4) iQPS 3건 추가 수주. 악재: Archimedes 엔진 테스트 중 일정 지연 리스크, 현금 소진 우려, 고밸류에이션."
+    },
+    {
+      "category": "레버리지 티커",
+      "result": "Bull 2X: RKLX (Defiance Daily Target 2X Long RKLB ETF, 운용보수 1.29%, AUM $161M). Bear 2X: RKLZ (Defiance Daily Target 2X Short RKLB ETF)."
+    }
+  ],
+  "analyst_ratings": [
+    {
+      "date": "2026-04-14",
+      "firm": "Citigroup",
+      "target": "N/A",
+      "rating": "Outperform (상향)",
+      "comment": "Market Perform에서 Outperform으로 상향. 78.3% 매출 성장, 현금흐름 개선, Neutron 개발 신뢰 기반."
+    },
+    {
+      "date": "2026-04-14",
+      "firm": "Cantor Fitzgerald",
+      "target": "$85",
+      "rating": "Overweight",
+      "comment": "Mynaric 인수 완료를 긍정 평가, 광통신 터미널 수직계열화 효과 주목."
+    },
+    {
+      "date": "2026-04-07",
+      "firm": "Citizens JMP",
+      "target": "N/A",
+      "rating": "Market Outperform (상향)",
+      "comment": "Market Perform에서 Outperform으로 상향, 우주 섹터 모멘텀 가속화 전망."
+    },
+    {
+      "date": "2026-04-01",
+      "firm": "Wells Fargo",
+      "target": "N/A",
+      "rating": "Equal-Weight (신규)",
+      "comment": "신규 커버리지 개시, 장기 성장 스토리는 인정하나 현 밸류에이션 부담 지적."
+    },
+    {
+      "date": "2026-03-02",
+      "firm": "Deutsche Bank",
+      "target": "$73",
+      "rating": "Buy",
+      "comment": "Edison Yu 애널리스트, 목표가 $55 → $73 상향. 기록적 2025년 실적과 백로그 73% 증가 반영."
+    },
+    {
+      "date": "2026-03-02",
+      "firm": "Cantor Fitzgerald",
+      "target": "$85",
+      "rating": "Overweight",
+      "comment": "목표가 $72 → $85 상향. Neutron 로켓이 올해 가장 중요한 촉매라고 평가."
+    },
+    {
+      "date": "2026-02-27",
+      "firm": "Stifel",
+      "target": "$90",
+      "rating": "Buy",
+      "comment": "목표가 $85 → $90 상향. 소형 발사체 시장의 독보적 실행력 및 국방 확장 긍정 평가."
+    }
+  ],
+  "swing_analysis": [
+    {
+      "category": "상대 거래량 (RVOL)",
+      "result": "4월 16일 NASA 계약 모멘텀으로 섹터 랠리 발생, 당일 +9% 급등하며 RVOL 평소 대비 1.5~2배 수준으로 추정. 돈이 몰리는 단계."
+    },
+    {
+      "category": "옵션 활동",
+      "result": "OI 풋/콜 비율 0.70으로 콜 우위(Bullish). 4월 Citigroup 상향 전후 콜옵션 거래 증가세 포착, Unusual Options Activity 존재."
+    },
+    {
+      "category": "공매도 & 숏커버링",
+      "result": "Short Float 약 12.7%(숏 물량 53.08M주)로 중간 이상 수준. Days to Cover 약 2.4일로 짧아 급등 시 숏커버 스퀴즈 가능성 존재. Neutron 발사 임박 시 타이트한 스퀴즈 트리거 가능."
+    },
+    {
+      "category": "시간 외 거래",
+      "result": "NASA 계약 및 섹터 모멘텀으로 4월 중순 프리마켓 상방 갭 발생 빈도 증가. 현재 $83대에서 강한 상방 바이어스."
+    },
+    {
+      "category": "SMC 패턴 (15분봉)",
+      "result": "$80~$82 구간에 Bullish Order Block 형성, $78 하방 FVG(갭 메우기 구간) 존재. 직전 상승 추세에서 CHoCH 미발생으로 상승 구조 유지 중. $85 Breakout 시 다음 타겟 $90."
+    }
+  ],
+  "verify": "RVOL 1.5~2배 급증 + 콜옵션 우위(P/C 0.70) + 애널리스트 연쇄 상향이 동시 발생 → '진짜 돈(Smart Money)'이 유입 중이나 고밸류에이션 구간이라 추격 매수보다 눌림 매수 전략 권장.",
+  "_query": "로켓랩",
+  "_analyzed_at": "2026-04-20 03:12:31",
+  "_task_id": "e7798418"
+}

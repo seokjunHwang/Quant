@@ -1,0 +1,29 @@
+{
+  "ticker": "ULCC",
+  "name": "Frontier Group Holdings",
+  "theme": "항공/운송",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "최근 분기 실적에서 EPS $0.23 기록하며 예상치($0.10) 상회, 주가 일간 12% 급등 (MarketBeat)",
+      "date": "2026-04-17",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "재무/수익성 리스크",
+      "description": "2026년 연간 EPS 가이던스 적자 가능성(-$0.40 ~ $0.50) 제시 및 높은 부채 비율(5x EBITDAR)",
+      "severity": "high"
+    },
+    {
+      "type": "투자 심리 악화",
+      "description": "장기적 펀더멘털 우려로 씨티그룹, 바클레이즈 등 다수 IB의 1분기 목표주가 연속 하향 조정",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "단기 실적 서프라이즈로 주가가 12% 반등하는 모습을 보였으나, 연간 수익성 적자 가능성과 막대한 부채 부담으로 인해 월가의 시각은 여전히 보수적입니다.",
+  "momentum": "bearish",
+  "analyst_view": "Neutral ~ Reduce(비중 축소) 의견 다수, 평균 목표주가 $4.00 ~ $5.21 (대다수 하향 조정)",
+  "score_hint": 45
+}

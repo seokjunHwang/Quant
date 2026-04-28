@@ -1,0 +1,30 @@
+{
+  "ticker": "RTX",
+  "name": "RTX Corporation",
+  "theme": "방산/항공우주",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "2026년 1분기 시장 예상치 상회하는 실적 발표 및 연간 매출/EPS 가이던스 상향 (RTX 공식 발표)",
+      "date": "2026-04-21",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "역대 최대 규모인 2,710억 달러 수주 잔고 달성 및 우크라이나 패트리어트 37억 달러 계약 체결 (언론 보도)",
+      "date": "2026-04-21",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "비용/수익성 리스크",
+      "description": "프랫 앤 휘트니(P&W) GTF 엔진 결함에 따른 지속적인 수리 비용 및 공급망 병목 현상에 따른 마진 압박",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "1분기 호실적과 2,710억 달러 역대급 수주잔고를 달성하며 연간 실적 전망을 상향했습니다. 엔진 결함 관련 비용 우려가 잔존하나 대형 자산운용사들의 강력한 매수세가 유입 중입니다.",
+  "momentum": "bullish",
+  "analyst_view": "완만한 매수(Moderate Buy), 목표주가 약 $202 ~ $240",
+  "score_hint": 85
+}

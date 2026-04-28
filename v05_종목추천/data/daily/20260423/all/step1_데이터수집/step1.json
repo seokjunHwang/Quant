@@ -1,0 +1,1021 @@
+{
+  "macro": {
+    "vix": {
+      "price": 18.92,
+      "prev_close": 19.49,
+      "change_pct": -2.92
+    },
+    "sp500": {
+      "price": 7137.8999,
+      "prev_close": 7064.01,
+      "change_pct": 1.05
+    },
+    "nasdaq": {
+      "price": 24657.5703,
+      "prev_close": 24259.965,
+      "change_pct": 1.64
+    },
+    "us10y_yield": {
+      "price": 4.294,
+      "prev_close": 4.292,
+      "change_pct": 0.05
+    },
+    "us2y_yield": {
+      "price": 3.595,
+      "prev_close": 3.598,
+      "change_pct": -0.08
+    },
+    "dollar_index": {
+      "price": 98.664,
+      "prev_close": 98.71,
+      "change_pct": -0.05
+    },
+    "gold": {
+      "price": 4722.7002,
+      "prev_close": 4720.0,
+      "change_pct": 0.06
+    },
+    "oil_wti": {
+      "price": 94.36,
+      "prev_close": 94.55,
+      "change_pct": -0.2
+    },
+    "bitcoin": {
+      "price": 77930.7891,
+      "prev_close": 78208.5469,
+      "change_pct": -0.36
+    },
+    "kospi": {
+      "price": 6451.3198,
+      "prev_close": 6420.1401,
+      "change_pct": 0.49
+    },
+    "kosdaq": {
+      "price": 1172.95,
+      "prev_close": 1177.5601,
+      "change_pct": -0.39
+    },
+    "usdkrw": {
+      "price": 1480.87,
+      "prev_close": 1478.8101,
+      "change_pct": 0.14
+    },
+    "vix_zone": "평시"
+  },
+  "news": {
+    "kr": {
+      "market": "kr",
+      "date": "2026년 04월 23일",
+      "macro_environment": {
+        "summary": "SK하이닉스의 역대급 실적과 1분기 GDP 깜짝 성장(1.7%)으로 코스피가 사상 처음 6,500선을 돌파했으나, 중동 지정학적 리스크에 따른 고유가 우려와 소비심리 위축이 상존하는 혼조세입니다.",
+        "key_indicators": [
+          {
+            "name": "KOSPI",
+            "value": "6,500선 돌파",
+            "trend": "상승",
+            "impact": "반도체 대형주 중심의 강세 지속"
+          },
+          {
+            "name": "1분기 GDP 성장률",
+            "value": "1.7%",
+            "trend": "상승",
+            "impact": "예상치를 상회하는 깜짝 성장으로 경제 복원력 입증"
+          },
+          {
+            "name": "국고채 3년물 금리",
+            "value": "3.453%",
+            "trend": "상승",
+            "impact": "시장 금리 상승 압력으로 채권 시장 약세"
+          },
+          {
+            "name": "소비자심리지수(CCSI)",
+            "value": "99.2",
+            "trend": "하락",
+            "impact": "1년 만에 비관적 구간 진입으로 내수 경기 둔화 우려"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "반도체 및 HBM",
+          "reason": "SK하이닉스 1분기 영업이익 37.6조원 달성 및 글로벌 AI 인프라 투자 지속 (연합뉴스)",
+          "trading_type": "스윙",
+          "sectors": [
+            "반도체",
+            "반도체 장비"
+          ]
+        },
+        {
+          "theme": "조선 및 기자재",
+          "reason": "AI 데이터센터용 발전 엔진 수주 모멘텀 및 미국향 대규모 공급계약 체결 (인베스팅닷컴)",
+          "trading_type": "스윙",
+          "sectors": [
+            "조선",
+            "조선기자재"
+          ]
+        },
+        {
+          "theme": "전력설비 및 전선",
+          "reason": "AI 데이터센터 확장에 따른 전력 수요 급증으로 관련주 신고가 경신 (CBC뉴스)",
+          "trading_type": "둘다",
+          "sectors": [
+            "전선",
+            "전력기기"
+          ]
+        },
+        {
+          "theme": "방산",
+          "reason": "지정학적 리스크 지속 및 이집트 등 해외 대규모 수주 공시 (EBN)",
+          "trading_type": "스윙",
+          "sectors": [
+            "방위산업"
+          ]
+        },
+        {
+          "theme": "스페이스X 관련주",
+          "reason": "기업공개(IPO) 기대감 지속에 따른 수급 유입 (인베스팅닷컴)",
+          "trading_type": "단타",
+          "sectors": [
+            "우주항공"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "반도체",
+          "direction": "bullish",
+          "key_news": "SK하이닉스 1분기 영업이익 37.6조원, 전년 대비 405% 급증 (EBN)",
+          "reason": "AI 서버용 HBM 수요 폭발에 따른 실적 서프라이즈"
+        },
+        {
+          "sector": "이차전지",
+          "direction": "bearish",
+          "key_news": "LG에너지솔루션, 삼성SDI 등 주요 이차전지주 약세 (연합뉴스)",
+          "reason": "반도체로의 수급 쏠림 및 차익 실현 매물 출회"
+        },
+        {
+          "sector": "조선",
+          "direction": "bullish",
+          "key_news": "HD현대중공업 등 조선주, 미국 데이터센터 발전설비 수주로 급등 (인베스팅닷컴)",
+          "reason": "AI 데이터센터 인프라 투자 확대의 직접적 수혜"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "중동 지정학적 리스크",
+          "severity": "high",
+          "description": "호르무즈 해협 봉쇄 지속 및 미국-이란 협상 난항으로 인한 국제유가 상승 압력 (라이브민트)"
+        },
+        {
+          "factor": "내수 경기 둔화",
+          "severity": "medium",
+          "description": "4월 소비자심리지수(CCSI)가 99.2로 하락하며 1년 만에 비관적 구간 진입 (알파경제)"
+        }
+      ]
+    },
+    "us": {
+      "market": "us",
+      "date": "2026년 04월 23일",
+      "macro_environment": {
+        "summary": "미국-이란 간 휴전 연장에도 불구하고 호르무즈 해협 봉쇄 지속과 유가 급등으로 인해 투자 심리가 위축되며 시장이 하락세로 전환됨.",
+        "key_indicators": [
+          {
+            "name": "WTI 원유",
+            "value": "96.73달러",
+            "trend": "상승",
+            "impact": "에너지 비용 상승 및 인플레이션 우려 자극"
+          },
+          {
+            "name": "S&P 500 선물",
+            "value": "하락세",
+            "trend": "하락",
+            "impact": "전일 사상 최고치 경신 후 차익 실현 매물 출회"
+          },
+          {
+            "name": "미국 10년물 국채금리",
+            "value": "4.28% 수준",
+            "trend": "보합",
+            "impact": "지정학적 리스크에 따른 안전자산 선호 심리 유지"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "에너지/정유",
+          "reason": "호르무즈 해협 봉쇄 지속에 따른 공급 차질 우려로 유가 급등 (Trading Economics)",
+          "trading_type": "스윙",
+          "sectors": [
+            "에너지",
+            "석유 및 가스"
+          ]
+        },
+        {
+          "theme": "AI 및 로봇",
+          "reason": "테슬라의 1분기 실적 발표에서 AI 및 로봇택시 인프라 투자 가속화 확인 (AA.com.tr)",
+          "trading_type": "둘다",
+          "sectors": [
+            "기술",
+            "전기차",
+            "로보틱스"
+          ]
+        },
+        {
+          "theme": "암호화폐 관련주",
+          "reason": "비트코인 가격이 78,000달러를 상회하며 관련주(MSTR, COIN 등) 동반 강세 (Schwab)",
+          "trading_type": "단타",
+          "sectors": [
+            "금융",
+            "디지털 자산"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "기술(Tech)",
+          "direction": "bearish",
+          "key_news": "IBM 및 ServiceNow 실적 부진으로 시간외 거래에서 각각 7%, 12% 급락 (Trading Economics)",
+          "reason": "예상치를 하회하는 실적 발표로 인한 기술주 전반의 투자 심리 악화"
+        },
+        {
+          "sector": "전기차(EV)",
+          "direction": "bullish",
+          "key_news": "테슬라 1분기 실적 예상치 상회 및 AI 인프라 투자 강조 (AA.com.tr)",
+          "reason": "실적 호조 및 미래 성장 동력 확인으로 인한 긍정적 반응"
+        },
+        {
+          "sector": "산업재(Industrial)",
+          "direction": "bullish",
+          "key_news": "GE Vernova 실적 서프라이즈 및 가이던스 상향 (Schwab)",
+          "reason": "데이터센터 전력 설비 수요 급증에 따른 실적 개선"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "지정학적 리스크",
+          "severity": "high",
+          "description": "미국-이란 휴전에도 불구하고 이란의 호르무즈 해협 봉쇄 지속 및 협상 교착 상태 (Trading Economics)"
+        },
+        {
+          "factor": "인플레이션 압력",
+          "severity": "medium",
+          "description": "유가 급등이 소비자 물가 및 기업 비용에 미칠 잠재적 악영향 (Vanguard)"
+        },
+        {
+          "factor": "실적 피로감",
+          "severity": "medium",
+          "description": "사상 최고치 부근에서 일부 대형 기술주들의 실적 실망감이 시장 전반의 차익 실현을 유도 (Schwab)"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "premarket_movers": [
+      {
+        "ticker": "AGPU",
+        "name": "Axe Compute Inc.",
+        "change_pct": 123.16,
+        "reason": "시장 변동성 및 단기 급등세"
+      },
+      {
+        "ticker": "INBX",
+        "name": "Inhibrx Biosciences, Inc.",
+        "change_pct": 74.99,
+        "reason": "바이오 섹터 내 투자 심리 개선"
+      },
+      {
+        "ticker": "HCSG",
+        "name": "Healthcare Services Group, Inc.",
+        "change_pct": 23.93,
+        "reason": "기업 관련 긍정적 모멘텀"
+      }
+    ],
+    "earnings_today": [
+      {
+        "ticker": "HBAN",
+        "name": "Huntington Bancshares",
+        "expectation": "N/A",
+        "impact": "지역 은행 실적에 따른 금융주 전반 영향"
+      },
+      {
+        "ticker": "TECK",
+        "name": "Teck Resources",
+        "expectation": "N/A",
+        "impact": "구리 가격 및 원자재 섹터 변동성"
+      },
+      {
+        "ticker": "NDAQ",
+        "name": "Nasdaq",
+        "expectation": "0.747",
+        "impact": "금융 거래소 실적에 따른 시장 심리 반영"
+      }
+    ],
+    "economic_events": [
+      {
+        "time_et": "08:30",
+        "event": "신규 실업수당 청구건수",
+        "forecast": "N/A",
+        "importance": "high"
+      },
+      {
+        "time_et": "09:45",
+        "event": "PMI 복합지수(Flash)",
+        "forecast": "N/A",
+        "importance": "medium"
+      },
+      {
+        "time_et": "10:30",
+        "event": "EIA 천연가스 재고 발표",
+        "forecast": "N/A",
+        "importance": "medium"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 4월 28-29일",
+      "cut_probability": "1% 미만 (동결 전망 약 99%)"
+    }
+  },
+  "dart": {
+    "today_disclosures": [
+      {
+        "corp_name": "지엠비코리아",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260423",
+        "corp_code": "00156354",
+        "rcept_no": "20260423000315"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260423",
+        "corp_code": "00148610",
+        "rcept_no": "20260423000308"
+      },
+      {
+        "corp_name": "미래에셋증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00111722",
+        "rcept_no": "20260423000305"
+      },
+      {
+        "corp_name": "진양폴리우레탄",
+        "report_nm": "기업가치제고계획(자율공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00160375",
+        "rcept_no": "20260423800356"
+      },
+      {
+        "corp_name": "DB증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00115694",
+        "rcept_no": "20260423000285"
+      },
+      {
+        "corp_name": "NH투자증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00120182",
+        "rcept_no": "20260423000284"
+      },
+      {
+        "corp_name": "현대자동차",
+        "report_nm": "현금ㆍ현물배당결정              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00164742",
+        "rcept_no": "20260423800359"
+      },
+      {
+        "corp_name": "한미약품",
+        "report_nm": "결산실적공시예고(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00828497",
+        "rcept_no": "20260423800345"
+      },
+      {
+        "corp_name": "한미약품",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00828497",
+        "rcept_no": "20260423800351"
+      },
+      {
+        "corp_name": "현대자동차",
+        "report_nm": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00164742",
+        "rcept_no": "20260423800355"
+      },
+      {
+        "corp_name": "현대자동차",
+        "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00164742",
+        "rcept_no": "20260423800339"
+      },
+      {
+        "corp_name": "현대자동차",
+        "report_nm": "자기주식취득결과보고서",
+        "rcept_dt": "20260423",
+        "corp_code": "00164742",
+        "rcept_no": "20260423000276"
+      },
+      {
+        "corp_name": "동아쏘시오홀딩스",
+        "report_nm": "타인에대한채무보증결정              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00116824",
+        "rcept_no": "20260423800344"
+      },
+      {
+        "corp_name": "DB증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00115694",
+        "rcept_no": "20260423000263"
+      },
+      {
+        "corp_name": "DB증권",
+        "report_nm": "일괄신고추가서류(기타파생결합사채)",
+        "rcept_dt": "20260423",
+        "corp_code": "00115694",
+        "rcept_no": "20260423000252"
+      },
+      {
+        "corp_name": "SK하이닉스",
+        "report_nm": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+        "rcept_dt": "20260423",
+        "corp_code": "00164779",
+        "rcept_no": "20260423000249"
+      },
+      {
+        "corp_name": "신한지주",
+        "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00382199",
+        "rcept_no": "20260423800306"
+      },
+      {
+        "corp_name": "한국항공우주",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00309503",
+        "rcept_no": "20260423800322"
+      },
+      {
+        "corp_name": "신한지주",
+        "report_nm": "현금ㆍ현물배당결정              (2026년 1분기)",
+        "rcept_dt": "20260423",
+        "corp_code": "00382199",
+        "rcept_no": "20260423800321"
+      },
+      {
+        "corp_name": "신한지주",
+        "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00382199",
+        "rcept_no": "20260423800302"
+      },
+      {
+        "corp_name": "신한지주",
+        "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00382199",
+        "rcept_no": "20260423800300"
+      },
+      {
+        "corp_name": "한국항공우주",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00309503",
+        "rcept_no": "20260423800317"
+      },
+      {
+        "corp_name": "신한지주",
+        "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00382199",
+        "rcept_no": "20260423800296"
+      },
+      {
+        "corp_name": "한국항공우주",
+        "report_nm": "결산실적공시예고(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00309503",
+        "rcept_no": "20260423800311"
+      },
+      {
+        "corp_name": "SK증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260423",
+        "corp_code": "00131850",
+        "rcept_no": "20260423000236"
+      },
+      {
+        "corp_name": "미래에셋증권",
+        "report_nm": "일괄신고추가서류(파생결합증권-상장지수증권)",
+        "rcept_dt": "20260423",
+        "corp_code": "00111722",
+        "rcept_no": "20260423000235"
+      },
+      {
+        "corp_name": "키움증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00296290",
+        "rcept_no": "20260423000226"
+      },
+      {
+        "corp_name": "DB증권",
+        "report_nm": "일괄신고추가서류(기타파생결합사채)",
+        "rcept_dt": "20260423",
+        "corp_code": "00115694",
+        "rcept_no": "20260423000224"
+      },
+      {
+        "corp_name": "태광산업",
+        "report_nm": "최대주주등소유주식변동신고서              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00153393",
+        "rcept_no": "20260423800289"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "증권발행실적보고서",
+        "rcept_dt": "20260423",
+        "corp_code": "00113359",
+        "rcept_no": "20260423000208"
+      },
+      {
+        "corp_name": "고려산업",
+        "report_nm": "타인에대한채무보증결정              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00102751",
+        "rcept_no": "20260423800277"
+      },
+      {
+        "corp_name": "엘에스일렉트릭",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260423",
+        "corp_code": "00105855",
+        "rcept_no": "20260423000200"
+      },
+      {
+        "corp_name": "LG디스플레이",
+        "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00105873",
+        "rcept_no": "20260423800267"
+      },
+      {
+        "corp_name": "삼성E&A",
+        "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00126308",
+        "rcept_no": "20260423800261"
+      },
+      {
+        "corp_name": "SKC",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00139889",
+        "rcept_no": "20260423800257"
+      },
+      {
+        "corp_name": "코오롱인더",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00795135",
+        "rcept_no": "20260423800253"
+      },
+      {
+        "corp_name": "코오롱인더",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00795135",
+        "rcept_no": "20260423800252"
+      },
+      {
+        "corp_name": "코오롱인더",
+        "report_nm": "결산실적공시예고(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00795135",
+        "rcept_no": "20260423800250"
+      },
+      {
+        "corp_name": "현대글로비스",
+        "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00360595",
+        "rcept_no": "20260423800243"
+      },
+      {
+        "corp_name": "현대글로비스",
+        "report_nm": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+        "rcept_dt": "20260423",
+        "corp_code": "00360595",
+        "rcept_no": "20260423000180"
+      },
+      {
+        "corp_name": "신한지주",
+        "report_nm": "기업가치제고계획(자율공시)              (2026년)",
+        "rcept_dt": "20260423",
+        "corp_code": "00382199",
+        "rcept_no": "20260423800235"
+      },
+      {
+        "corp_name": "삼성전자",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260423",
+        "corp_code": "00126380",
+        "rcept_no": "20260423000164"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00148610",
+        "rcept_no": "20260423000157"
+      },
+      {
+        "corp_name": "HJ중공업",
+        "report_nm": "[기재정정]단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00633835",
+        "rcept_no": "20260423800218"
+      },
+      {
+        "corp_name": "KG모빌리티",
+        "report_nm": "기타안내사항(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00138242",
+        "rcept_no": "20260423800201"
+      },
+      {
+        "corp_name": "한화투자증권",
+        "report_nm": "일괄신고추가서류(기타파생결합사채)",
+        "rcept_dt": "20260423",
+        "corp_code": "00148610",
+        "rcept_no": "20260423000141"
+      },
+      {
+        "corp_name": "키움증권",
+        "report_nm": "일괄신고추가서류(파생결합증권-주가연계증권)",
+        "rcept_dt": "20260423",
+        "corp_code": "00296290",
+        "rcept_no": "20260423000140"
+      },
+      {
+        "corp_name": "키움증권",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00296290",
+        "rcept_no": "20260423800186"
+      },
+      {
+        "corp_name": "키움증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260423",
+        "corp_code": "00296290",
+        "rcept_no": "20260423000135"
+      },
+      {
+        "corp_name": "키움증권",
+        "report_nm": "결산실적공시예고(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00296290",
+        "rcept_no": "20260423800183"
+      },
+      {
+        "corp_name": "SUN&L",
+        "report_nm": "단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00132211",
+        "rcept_no": "20260423800175"
+      },
+      {
+        "corp_name": "NH투자증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00120182",
+        "rcept_no": "20260423000132"
+      },
+      {
+        "corp_name": "LG디스플레이",
+        "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "rcept_dt": "20260423",
+        "corp_code": "00105873",
+        "rcept_no": "20260423000130"
+      },
+      {
+        "corp_name": "NH투자증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00120182",
+        "rcept_no": "20260423000124"
+      },
+      {
+        "corp_name": "동아에스티",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00956930",
+        "rcept_no": "20260423800168"
+      },
+      {
+        "corp_name": "NH투자증권",
+        "report_nm": "일괄신고추가서류(파생결합증권-주가연계증권)",
+        "rcept_dt": "20260423",
+        "corp_code": "00120182",
+        "rcept_no": "20260423000104"
+      },
+      {
+        "corp_name": "NH투자증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260423",
+        "corp_code": "00120182",
+        "rcept_no": "20260423000102"
+      },
+      {
+        "corp_name": "동아에스티",
+        "report_nm": "결산실적공시예고(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00956930",
+        "rcept_no": "20260423800164"
+      },
+      {
+        "corp_name": "한화솔루션",
+        "report_nm": "풍문또는보도에대한해명(미확정)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00162461",
+        "rcept_no": "20260423800161"
+      },
+      {
+        "corp_name": "삼성에스디에스",
+        "report_nm": "특수관계인에대한출자",
+        "rcept_dt": "20260423",
+        "corp_code": "00126186",
+        "rcept_no": "20260423000088"
+      },
+      {
+        "corp_name": "한미반도체",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00161383",
+        "rcept_no": "20260423800155"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00113359",
+        "rcept_no": "20260423000074"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260423",
+        "corp_code": "00113359",
+        "rcept_no": "20260423000066"
+      },
+      {
+        "corp_name": "DKME",
+        "report_nm": "[기재정정]투자판단관련주요경영사항              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00108746",
+        "rcept_no": "20260423800139"
+      },
+      {
+        "corp_name": "삼성에스디에스",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00126186",
+        "rcept_no": "20260423800138"
+      },
+      {
+        "corp_name": "NH투자증권",
+        "report_nm": "일괄신고추가서류(파생결합증권-주가연계증권)",
+        "rcept_dt": "20260423",
+        "corp_code": "00120182",
+        "rcept_no": "20260423000053"
+      },
+      {
+        "corp_name": "삼성에스디에스",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00126186",
+        "rcept_no": "20260423800134"
+      },
+      {
+        "corp_name": "삼성에스디에스",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00126186",
+        "rcept_no": "20260423800132"
+      },
+      {
+        "corp_name": "삼성에스디에스",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00126186",
+        "rcept_no": "20260423800131"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00113359",
+        "rcept_no": "20260423000051"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260423",
+        "corp_code": "00113359",
+        "rcept_no": "20260423000048"
+      },
+      {
+        "corp_name": "삼성에스디에스",
+        "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00126186",
+        "rcept_no": "20260423800121"
+      },
+      {
+        "corp_name": "동아쏘시오홀딩스",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00116824",
+        "rcept_no": "20260423800125"
+      },
+      {
+        "corp_name": "동아쏘시오홀딩스",
+        "report_nm": "결산실적공시예고(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00116824",
+        "rcept_no": "20260423800122"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00113359",
+        "rcept_no": "20260423000043"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00113359",
+        "rcept_no": "20260423000040"
+      },
+      {
+        "corp_name": "한화",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00160588",
+        "rcept_no": "20260423800104"
+      },
+      {
+        "corp_name": "한화",
+        "report_nm": "기업설명회(IR)개최(안내공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00160588",
+        "rcept_no": "20260423800102"
+      },
+      {
+        "corp_name": "미래에셋증권",
+        "report_nm": "투자설명서(일괄신고)",
+        "rcept_dt": "20260423",
+        "corp_code": "00111722",
+        "rcept_no": "20260423000037"
+      },
+      {
+        "corp_name": "엠앤씨솔루션",
+        "report_nm": "단일판매ㆍ공급계약체결              ",
+        "rcept_dt": "20260423",
+        "corp_code": "01519790",
+        "rcept_no": "20260423800089"
+      },
+      {
+        "corp_name": "미래에셋증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260423",
+        "corp_code": "00111722",
+        "rcept_no": "20260423000033"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "rcept_dt": "20260423",
+        "corp_code": "00113359",
+        "rcept_no": "20260423000029"
+      },
+      {
+        "corp_name": "교보증권",
+        "report_nm": "일괄신고추가서류(파생결합증권-주가연계증권)",
+        "rcept_dt": "20260423",
+        "corp_code": "00113359",
+        "rcept_no": "20260423000028"
+      },
+      {
+        "corp_name": "현대로템",
+        "report_nm": "조회공시요구(풍문또는보도)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00302926",
+        "rcept_no": "20260423800091"
+      },
+      {
+        "corp_name": "금호타이어",
+        "report_nm": "투자설명서",
+        "rcept_dt": "20260423",
+        "corp_code": "00481454",
+        "rcept_no": "20260423000011"
+      },
+      {
+        "corp_name": "포스코인터내셔널",
+        "report_nm": "투자설명서",
+        "rcept_dt": "20260423",
+        "corp_code": "00124504",
+        "rcept_no": "20260423000010"
+      },
+      {
+        "corp_name": "롯데칠성음료",
+        "report_nm": "투자설명서",
+        "rcept_dt": "20260423",
+        "corp_code": "00120571",
+        "rcept_no": "20260423000009"
+      },
+      {
+        "corp_name": "AJ네트웍스",
+        "report_nm": "투자설명서",
+        "rcept_dt": "20260423",
+        "corp_code": "00365387",
+        "rcept_no": "20260423000008"
+      },
+      {
+        "corp_name": "DKME",
+        "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+        "rcept_dt": "20260423",
+        "corp_code": "00108746",
+        "rcept_no": "20260423000006"
+      },
+      {
+        "corp_name": "대신증권",
+        "report_nm": "투자설명서",
+        "rcept_dt": "20260423",
+        "corp_code": "00110893",
+        "rcept_no": "20260423000005"
+      },
+      {
+        "corp_name": "DKME",
+        "report_nm": "투자판단관련주요경영사항              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00108746",
+        "rcept_no": "20260423800002"
+      },
+      {
+        "corp_name": "SK하이닉스",
+        "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "rcept_dt": "20260423",
+        "corp_code": "00164779",
+        "rcept_no": "20260423800001"
+      },
+      {
+        "corp_name": "AJ네트웍스",
+        "report_nm": "효력발생안내( 2026.4.13. 제출 증권신고서(채무증권) )",
+        "rcept_dt": "20260423",
+        "corp_code": "00365387",
+        "rcept_no": "20260413100028"
+      },
+      {
+        "corp_name": "금호타이어",
+        "report_nm": "효력발생안내( 2026.4.13. 제출 증권신고서(채무증권) )",
+        "rcept_dt": "20260423",
+        "corp_code": "00481454",
+        "rcept_no": "20260413100033"
+      },
+      {
+        "corp_name": "대신증권",
+        "report_nm": "효력발생안내( 2026.4.1. 제출 증권신고서(파생결합증권-상장지수증권) )",
+        "rcept_dt": "20260423",
+        "corp_code": "00110893",
+        "rcept_no": "20260401100003"
+      },
+      {
+        "corp_name": "롯데칠성음료",
+        "report_nm": "효력발생안내( 2026.4.13. 제출 증권신고서(채무증권) )",
+        "rcept_dt": "20260423",
+        "corp_code": "00120571",
+        "rcept_no": "20260413100034"
+      },
+      {
+        "corp_name": "포스코인터내셔널",
+        "report_nm": "효력발생안내( 2026.4.13. 제출 증권신고서(채무증권) )",
+        "rcept_dt": "20260423",
+        "corp_code": "00124504",
+        "rcept_no": "20260413100036"
+      }
+    ]
+  }
+}

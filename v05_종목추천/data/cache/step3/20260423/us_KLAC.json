@@ -1,0 +1,35 @@
+{
+  "ticker": "KLAC",
+  "name": "KLA Corporation",
+  "theme": "반도체/HBM",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "이사회 70억 달러 규모 신규 자사주 매입 승인 (WallStreetZen)",
+      "date": "2026-04-01",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "AI 반도체 고도화에 따른 공정 제어 및 계측 장비 시장 수요 폭증 (TradingKey)",
+      "date": "2026-04-23",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "지정학적 리스크",
+      "description": "미국 대중국 수출 규제 여파로 인한 중국발 매출 비중 하락 압력",
+      "severity": "medium"
+    },
+    {
+      "type": "밸류에이션 부담",
+      "description": "주가 급등에 따른 차익 실현 물량 출회 및 일부 기관(Primecap 등)의 비중 축소",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "70억 달러 자사주 매입으로 적극적인 주주 환원 정책 시행 중. 4월 29일 예정된 실적 발표에서 대중국 규제 상쇄 여부와 AI 관련 가이던스 확인에 시장의 주목이 쏠림.",
+  "momentum": "bullish",
+  "analyst_view": "매수, 평균 목표주가 $1,700 ~ $1,770 (최고 $2,000)",
+  "score_hint": 80
+}

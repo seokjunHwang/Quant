@@ -1,0 +1,2184 @@
+{
+  "date": "20260423",
+  "market": "all",
+  "passed_count": 67,
+  "excluded_count": 2,
+  "passed": [
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "theme": "반도체/HBM",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 549747807571.13635,
+      "research": {
+        "ticker": "MU",
+        "name": "Micron Technology",
+        "theme": "반도체/HBM",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "2026년 전체 HBM(고대역폭 메모리) 생산 물량 완판 공식 확인 (MarketBeat)",
+            "date": "2026-04-23",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "어닝 서프라이즈 여파로 주가 장중 $491.98 사상 최고가 경신 (Fool.com)",
+            "date": "2026-04-22",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "경쟁 심화 리스크",
+            "description": "경쟁사 SK하이닉스의 대규모 HBM 설비 투자(약 130억 달러)에 따른 향후 경쟁 격화 가능성",
+            "severity": "medium"
+          },
+          {
+            "type": "임원 매도",
+            "description": "수석 부사장의 약 1,000만 달러 규모 자사주 매도 공시",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "2026년 HBM 물량 완판 소식과 강력한 실적 가이던스가 맞물려 주가 사상 최고치를 경신함. AI 메모리 수요 폭증으로 수급 우위 시장이 지속되고 있음.",
+        "momentum": "bullish",
+        "analyst_view": "강력 매수, 평균 목표가 $464 ~ $474 (최고 $600)",
+        "score_hint": 95
+      },
+      "score": 125.0,
+      "score_breakdown": {
+        "base": 95,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "theme": "전력설비/AI 인프라",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 303910659348.1421,
+      "research": {
+        "ticker": "GEV",
+        "name": "GE Vernova",
+        "theme": "전력설비/AI 인프라",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "1분기 어닝 서프라이즈 및 2026년 연간 실적 가이던스 상향 (실적 발표)",
+            "date": "2026-04-22",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "AI 데이터센터 수요 폭발로 인한 1,630억 달러 규모의 역대급 수주 잔고 달성 (실적 발표)",
+            "date": "2026-04-22",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "단기 과열",
+            "description": "어닝 비트 이후 단기 급등에 따른 차익 실현 매물 출회 가능성",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "1분기 압도적인 실적 발표와 데이터센터 장비 수주 호조로 연간 가이던스를 대폭 상향하며 전력 인프라 대장주로서의 입지를 공고히 했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "실적 발표 직후 대규모 목표가 상향, 최고 목표가 $1,220 (TD Cowen)",
+        "score_hint": 95
+      },
+      "score": 125.0,
+      "score_breakdown": {
+        "base": 95,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "010120",
+      "name": "LS ELECTRIC",
+      "theme": "전력설비/AI 인프라",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 31448454232500,
+      "research": {
+        "ticker": "010120",
+        "name": "LS ELECTRIC",
+        "theme": "전력설비/AI 인프라",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "1분기 사상 최대 실적 발표 및 어닝 서프라이즈 (공시)",
+            "date": "2026-04-21",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "미국 빅테크로부터 총 2,700억 원대 수주 및 공장 CAPA 확대 (뉴스)",
+            "date": "2026-04",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "수급 변동",
+            "description": "단기 급등으로 인한 일시적인 외국인 차익 매물 출회",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "북미 데이터센터 전력 수요 폭증으로 1분기 사상 최대 실적을 기록하며 북미 빅테크향 대규모 수주를 연이어 따냈습니다. 실적 발표 이후 증권사들의 목표주가 상향과 기관의 강한 매수세가 이어지고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "200,000원 ~ 260,000원",
+        "score_hint": 95
+      },
+      "score": 125.0,
+      "score_breakdown": {
+        "base": 95,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "theme": "반도체/HBM",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 494764460788.5067,
+      "research": {
+        "ticker": "AMD",
+        "name": "AMD",
+        "theme": "반도체/HBM",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "세계 최초 듀얼 3D V-Cache 탑재 프로세서 'Ryzen 9 9950X3D2' 출시 (AMD.com)",
+            "date": "2026-04-22",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "메타(Meta)와 6GW 규모 AI 인프라 파트너십 및 MI450 가속기 기대감 (Seeking Alpha)",
+            "date": "2026-04-23",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "미국 정부의 대중국 AI 칩 수출 제한 조치 일부 완화 (HistoricalOptionData)",
+            "date": "2026-04-23",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "기술적 과열",
+            "description": "단기 주가 급등에 따른 RSI 과매수 신호 및 차익 실현 우려",
+            "severity": "medium"
+          },
+          {
+            "type": "공급망 제약",
+            "description": "반도체 업계 전반의 AI 가속기 공급망 병목 현상 지속",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "신규 게이밍 프로세서 출시 및 메타와의 대규모 파트너십 소식에 힘입어 주가 장중 292달러 돌파하며 52주 신고가 경신. 5월 5일 예정된 실적 발표 가이던스에 이목 집중됨.",
+        "momentum": "bullish",
+        "analyst_view": "매수, 평균 목표주가 약 $292 (Stifel $320 상향)",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "theme": "반도체/HBM",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 137569777508.12347,
+      "research": {
+        "ticker": "MRVL",
+        "name": "Marvell Technology",
+        "theme": "반도체/HBM",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "Google과 맞춤형 AI 칩(MPU, TPU) 공동 개발 논의 보도 (뉴스 보도)",
+            "date": "2026-04-19",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "실리콘 포토닉스 전문기업 Polariton Technologies 인수 발표 (공식 발표)",
+            "date": "2026-04-22",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "내부자 매도",
+            "description": "CFO 등 경영진의 10b5-1 계획에 따른 대규모 주식 매도(차익 실현)",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "구글과의 AI 칩 공동 개발 소식과 데이터센터 대역폭 수요를 겨냥한 폴라리톤 테크놀로지스 인수로 시장의 엄청난 기대를 모으며 주가가 급등했습니다.",
+        "momentum": "bullish",
+        "analyst_view": "목표주가 릴레이 상향 중 (Oppenheimer, RBC 등 최고 $170 제시)",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "theme": "전력설비/AI 인프라",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 117159763054.8678,
+      "research": {
+        "ticker": "VRT",
+        "name": "Vertiv Holdings",
+        "theme": "전력설비/AI 인프라",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "1분기 매출 30% 증가 및 EPS 시장 예상치 대폭 상회, 연간 가이던스 상향 (실적 발표)",
+            "date": "2026-04-22",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "인프라 솔루션 역량 강화를 위한 BMarko Structures 인수 (공식 발표)",
+            "date": "2026-04-13",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "내부자 매도",
+            "description": "경영진 및 이사진의 지속적인 자사주 매도(약 1억 2,300만 달러 규모)",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "1분기 강력한 어닝 서프라이즈를 기록했으며, 엔비디아와의 파트너십을 기반으로 액침 냉각 및 고밀도 전력 솔루션 시장을 장악하며 가파른 성장세를 보이고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "실적 발표 후 목표가 일제히 상향, 최고 목표가 $350 (Evercore ISI, BNP Paribas 등)",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "theme": "전력설비/AI 인프라",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 52742591927.70502,
+      "research": {
+        "ticker": "VST",
+        "name": "Vistra",
+        "theme": "전력설비/AI 인프라",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "Morgan Stanley '비중확대' 의견 유지 및 목표가 208달러 제시 (MarketBeat)",
+            "date": "2026-04-20",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "Cogentrix 인수를 통한 발전 용량 확대 및 원전 슈퍼사이클 수혜 기대 (Investing.com)",
+            "date": "2026-04",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "실적 변동성",
+            "description": "최근 2월 분기 실적(EPS $2.18)이 시장 예상치를 소폭 하회함",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "원자력 발전 및 AI 데이터센터 전력 수요 증가의 수혜주로 꼽히며 월가의 압도적인 '강력 매수' 의견을 유지하고 있음. 발전 용량 확대와 2026년 강력한 잉여현금흐름(FCF) 창출 기대감으로 매력도가 높음.",
+        "momentum": "bullish",
+        "analyst_view": "Strong Buy, 평균 목표가 $234.00 ~ $236.87 (현재가 대비 약 50% 상승 여력)",
+        "score_hint": 90
+      },
+      "score": 120.0,
+      "score_breakdown": {
+        "base": 90,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "theme": "반도체/HBM",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 4921762500000.0,
+      "research": {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "theme": "반도체/HBM",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "차세대 아키텍처 '베라 루빈(Vera Rubin)' 리더십 공고화 전망 (Seeking Alpha)",
+            "date": "2026-04-23",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "FY2027 Q1 매출 약 780억 달러 전망으로 강력한 가이던스 제시 (Nvidia.com)",
+            "date": "2026-04-23",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "585억 달러 규모 자사주 매입 잔액 및 주당 $0.01 배당금 지급 (Nvidia.com)",
+            "date": "2026-04-01",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "거시경제 리스크",
+            "description": "4월 말 FOMC 회의 및 중동 정세 등 대외 매크로 불확실성 확대",
+            "severity": "medium"
+          },
+          {
+            "type": "밸류에이션 부담",
+            "description": "P/E 약 40배 수준으로 높아진 밸류에이션에 따른 단기 변동성 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "차세대 칩 '베라 루빈'에 대한 강한 수요 기대감과 기관의 콜옵션 매수세 등 견조한 수급이 이어짐. 강력한 향후 매출 가이던스를 바탕으로 200달러 선 회복을 시도 중임.",
+        "momentum": "bullish",
+        "analyst_view": "강력 매수, 평균 목표가 $266 ~ $275 (최고 $400)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "theme": "반도체/HBM",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 333538751167.60254,
+      "research": {
+        "ticker": "LRCX",
+        "name": "Lam Research",
+        "theme": "반도체/HBM",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "FY2026 Q3 매출 58.4억 달러 및 예상 상회 실적 발표 (TradingView)",
+            "date": "2026-04-22",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "테슬라(Tesla) '테라팹' 칩 생산 지원 파트너십 선정 및 어드밴스드 패키징 수요 증가 (BeaumontEnterprise)",
+            "date": "2026-04-23",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "단기 수급 이탈",
+            "description": "CFO의 최근 약 5만 주 자사주 매도를 비롯한 일부 내부자의 차익 실현 동향",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "어닝 서프라이즈 달성 및 견조한 2분기 가이던스 제시로 시간외 강세. HBM 및 차세대 패키징 분야의 장비 수요 증가가 기업 성장을 강력하게 견인 중임.",
+        "momentum": "bullish",
+        "analyst_view": "매수, 평균 목표주가 $247 ~ $288 (최고 $350)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "theme": "반도체/HBM",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 320205717856.01843,
+      "research": {
+        "ticker": "AMAT",
+        "name": "Applied Materials",
+        "theme": "반도체/HBM",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "Advantest와 EPIC 플랫폼 혁신 파트너십 체결 (공식 발표)",
+            "date": "2026-04-21",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "옹스트롬 시대 로직 칩을 위한 새로운 증착 시스템(PECVD, ALD) 출시 (뉴스 보도)",
+            "date": "2026-04-08",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 부담",
+            "description": "최근 주가 급등으로 인한 단기 밸류에이션 고평가 우려",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "Advantest와의 파트너십 체결 및 첨단 공정용 신규 장비 출시로 기술 리더십을 강화하고 있으며, 굳건한 기관 수급을 바탕으로 강세를 유지하고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표주가 $368~$415, 최고 $500 (Susquehanna 등 최근 목표가 상향)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "theme": "전력설비/AI 인프라",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 92101817997.79297,
+      "research": {
+        "ticker": "PWR",
+        "name": "Quanta Services",
+        "theme": "전력설비/AI 인프라",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "2026 Investor Day에서 2030년까지 2.4조 달러 규모 인프라(AI 데이터센터, 전력망) 기회 발표 (Simply Wall St)",
+            "date": "2026-04-20",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "Truist Securities 목표가 713달러로 상향 및 매수 의견 유지 (Benzinga)",
+            "date": "2026-04-20",
+            "impact": "medium"
+          },
+          {
+            "type": "중립",
+            "content": "1분기 실적 발표 및 강력한 수주 잔고 확인 기대 (Benzinga)",
+            "date": "2026-04-30",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "고평가",
+            "description": "P/E 89배 수준으로 밸류에이션 부담 존재",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "AI발 전력 인프라 붐의 핵심 수혜주로 부각되며 애널리스트들의 목표가 상향 릴레이가 이어지고 있음. 인베스터 데이에서 거대한 인프라 시장 기회를 강조하며 강력한 상승 모멘텀 유지 중.",
+        "momentum": "bullish",
+        "analyst_view": "강력 매수 우세, 평균 목표가 $595.82 ~ $626.00 (최고 $713.00)",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "058470",
+      "name": "리노공업",
+      "theme": "반도체/HBM",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "058470",
+        "name": "리노공업",
+        "theme": "반도체/HBM",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "AI 반도체 R&D 수요 확대 및 차세대 패키징(WMCM) 기술 도입 수혜 (리포트)",
+            "date": "2026-04",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "외국인 및 기관 동시 순매수 유입 (수급)",
+            "date": "2026-04-07",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "차익 실현",
+            "description": "단기간 주가 급등에 따른 차익 매물 출회 우려",
+            "severity": "low"
+          }
+        ],
+        "news_summary": "AI 및 고성능 반도체 연구개발(R&D)용 테스트 소켓 수요 호조로 2026년 사상 최대 실적이 유력합니다. 4월 들어 외국인과 기관의 동반 매수세가 강하게 유입되며 목표주가 상향이 이어지고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "170,000원",
+        "score_hint": 85
+      },
+      "score": 115.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "theme": "반도체/HBM",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 238090807695.0498,
+      "research": {
+        "ticker": "KLAC",
+        "name": "KLA Corporation",
+        "theme": "반도체/HBM",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "이사회 70억 달러 규모 신규 자사주 매입 승인 (WallStreetZen)",
+            "date": "2026-04-01",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "AI 반도체 고도화에 따른 공정 제어 및 계측 장비 시장 수요 폭증 (TradingKey)",
+            "date": "2026-04-23",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "지정학적 리스크",
+            "description": "미국 대중국 수출 규제 여파로 인한 중국발 매출 비중 하락 압력",
+            "severity": "medium"
+          },
+          {
+            "type": "밸류에이션 부담",
+            "description": "주가 급등에 따른 차익 실현 물량 출회 및 일부 기관(Primecap 등)의 비중 축소",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "70억 달러 자사주 매입으로 적극적인 주주 환원 정책 시행 중. 4월 29일 예정된 실적 발표에서 대중국 규제 상쇄 여부와 AI 관련 가이던스 확인에 시장의 주목이 쏠림.",
+        "momentum": "bullish",
+        "analyst_view": "매수, 평균 목표주가 $1,700 ~ $1,770 (최고 $2,000)",
+        "score_hint": 80
+      },
+      "score": 110.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "theme": "전력설비/AI 인프라",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 104036539338.28271,
+      "research": {
+        "ticker": "CEG",
+        "name": "Constellation Energy",
+        "theme": "전력설비/AI 인프라",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "크레인(Crane) 원전 재가동을 위한 10억 달러 DOE 대출 확보 및 데이터센터 전력 공급 계약 체결 (Intellectia)",
+            "date": "2026-04",
+            "impact": "high"
+          },
+          {
+            "type": "악재",
+            "content": "Morgan Stanley 목표가를 360달러로 소폭 하향 조정 (GuruFocus)",
+            "date": "2026-04-21",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "실적 둔화 우려",
+            "description": "2026년 연간 실적 가이던스 중간값이 시장 컨센서스를 소폭 하회하며 단기 변동성 야기",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "미국 최대 원전 운영사로 AI 전력 수요의 핵심 기업. 최근 실적 가이던스가 예상치를 살짝 밑돌아 일부 목표가 하향이 있었으나, 원전 재가동 대출 및 데이터센터 전력 공급 계약 등 장기 모멘텀은 굳건함.",
+        "momentum": "bullish",
+        "analyst_view": "Strong/Moderate Buy, 평균 목표가 $376.20 ~ $386.00",
+        "score_hint": 80
+      },
+      "score": 110.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "042700",
+      "name": "한미반도체",
+      "theme": "반도체/HBM",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 27744503085000,
+      "research": {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "theme": "반도체/HBM",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "HBM4 전용 장비 공급 본격화 및 차세대 하이브리드 본더 장비 전용 공장 증설 (뉴스)",
+            "date": "2026-04",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "역대 최대 규모 총 760억 원 배당금 지급 (공시)",
+            "date": "2026-04-07",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "차익 실현",
+            "description": "외국계 창구를 통한 일부 차익 실현 매물 출회 및 밸류에이션 논란",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "HBM4 전용 장비 공급 본격화로 1분기 영업이익 급증이 예상되며, 차세대 패키징 장비 개발로 시장 내 독보적 지위를 유지하고 있습니다. 역대 최대 규모의 배당을 통해 주주 친화 정책도 강화하고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "300,000원 ~ 350,000원",
+        "score_hint": 80
+      },
+      "score": 110.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "theme": "전력설비/AI 인프라",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 160747106103.51562,
+      "research": {
+        "ticker": "ETN",
+        "name": "Eaton",
+        "theme": "전력설비/AI 인프라",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "AI 데이터센터 스위치기어 수요 대응을 위한 네브래스카 공장 증설 투자 (공식 발표)",
+            "date": "2026-04-08",
+            "impact": "medium"
+          },
+          {
+            "type": "중립",
+            "content": "주당 $1.10 분기 배당금 지급 선언 (공식 발표)",
+            "date": "2026-04-21",
+            "impact": "low"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 부담",
+            "description": "역사적 고점 수준의 P/E 배수로 인해 일부 기관 비중 축소 및 보수적 목표가 제시",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "데이터센터 전력 설비 수요를 잡기 위한 인프라 투자를 지속하고 있으나, 높아진 주가 밸류에이션에 대해 월가의 의견이 엇갈리고 있습니다.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표가 $396~$419. Citigroup은 $464로 상향했으나, Barclays 등 일부는 $340~$350선으로 하향",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "theme": "방산/항공우주",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 243628503891.182,
+      "research": {
+        "ticker": "RTX",
+        "name": "RTX Corporation",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "2026년 1분기 시장 예상치 상회하는 실적 발표 및 연간 매출/EPS 가이던스 상향 (RTX 공식 발표)",
+            "date": "2026-04-21",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "역대 최대 규모인 2,710억 달러 수주 잔고 달성 및 우크라이나 패트리어트 37억 달러 계약 체결 (언론 보도)",
+            "date": "2026-04-21",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "비용/수익성 리스크",
+            "description": "프랫 앤 휘트니(P&W) GTF 엔진 결함에 따른 지속적인 수리 비용 및 공급망 병목 현상에 따른 마진 압박",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "1분기 호실적과 2,710억 달러 역대급 수주잔고를 달성하며 연간 실적 전망을 상향했습니다. 엔진 결함 관련 비용 우려가 잔존하나 대형 자산운용사들의 강력한 매수세가 유입 중입니다.",
+        "momentum": "bullish",
+        "analyst_view": "완만한 매수(Moderate Buy), 목표주가 약 $202 ~ $240",
+        "score_hint": 85
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 10,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "000240",
+      "name": "가온전선",
+      "theme": "전력설비/AI 인프라",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 2367953600000,
+      "research": {
+        "ticker": "000240",
+        "name": "가온전선",
+        "theme": "전력설비/AI 인프라",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미국 배전케이블 생산법인 지분 100% 인수로 북미 현지화 강화 (뉴스)",
+            "date": "2026-04",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "외국인 7거래일 연속 강한 순매수 유입 (수급)",
+            "date": "2026-04-20",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "밸류에이션 부담",
+            "description": "역사적 고점 갱신 및 주가 단기 급등에 따른 과열 우려",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "미국 인프라 투자 및 AI 데이터센터 수요의 수혜주로 꼽히며 북미 현지법인 인수 효과로 강력한 모멘텀을 받고 있습니다. 외국인의 매수세가 계속되면서 주가는 기존 목표가를 모두 돌파하고 강한 상승세를 보였습니다.",
+        "momentum": "bullish",
+        "analyst_view": "130,000원 ~ 135,000원 (현재 14만원대 상회)",
+        "score_hint": 75
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "079550",
+      "name": "LIG넥스원",
+      "theme": "방산/항공우주",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 21233583000000,
+      "research": {
+        "ticker": "079550",
+        "name": "LIG넥스원",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "중동 지정학적 리스크 수혜로 천궁-II 등 방공체계 수요 급증 (hankyung.com)",
+            "date": "2026-04-23",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "고스트로보틱스 사족보행 로봇 대규모 계약 체결 기대 및 흑자전환 모멘텀 (alphasquare.co.kr)",
+            "date": "2026-04-23",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "가격 리스크",
+            "description": "52주 신고가 경신 등 단기 과열에 따른 주가 변동성 확대 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "중동 리스크에 따른 수출 확대 기대감과 고스트로보틱스 모멘텀으로 사상 최고가를 경신하며 강력한 상승 랠리 중. 4월 초부터 기관의 꾸준한 매수세가 하단을 지지 중임.",
+        "momentum": "bullish",
+        "analyst_view": "평균 목표가 786,000원 ~ 850,000원 (최고 1,200,000원, 대다수 매수 의견)",
+        "score_hint": 85
+      },
+      "score": 105.0,
+      "score_breakdown": {
+        "base": 85,
+        "theme_strength": 10,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "KTOS",
+      "name": "Kratos Defense",
+      "theme": "방산/항공우주",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 12860154844.693375,
+      "research": {
+        "ticker": "KTOS",
+        "name": "Kratos Defense",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "신형 고성능 저비용 제트 드론 'Firejet Mk1' 초도 비행 완료 및 2026년 하반기 양산 본격화 (회사 발표)",
+            "date": "2026-04-21",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "미 우주군(Space Force)으로부터 4억 4,680만 달러 규모 지상 관리 및 통합(GMI) 사업 수주 (주요 언론)",
+            "date": "2026-04-08",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "수급/밸류에이션 리스크",
+            "description": "최근 10억 달러 대규모 주식 공모로 인한 가치 희석 우려 및 경영진 주요 내부자 지분 매도 발생",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "신형 무인기 비행 성공과 우주군 대규모 계약으로 미 국방부 저비용 드론 트렌드의 최대 수혜주로 부각되고 있습니다. 다만 내부자 매도 및 밸류에이션 부담이 단기 변수입니다.",
+        "momentum": "bullish",
+        "analyst_view": "완만한 매수(Moderate Buy), 평균 목표주가 $112 ~ $135",
+        "score_hint": 80
+      },
+      "score": 100.0,
+      "score_breakdown": {
+        "base": 80,
+        "theme_strength": 10,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "SMR",
+      "name": "NuScale Power",
+      "theme": "전력설비/AI 인프라",
+      "theme_strength": "강",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 4393071909.604187,
+      "research": {
+        "ticker": "SMR",
+        "name": "NuScale Power",
+        "theme": "전력설비/AI 인프라",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "주가 단일 세션 16.5% 급등 등 밈 주식(meme stock) 성격의 강한 매수세 유입 (Quiver Quant)",
+            "date": "2026-04-22",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "백악관의 우주(달/화성) 원자로 배치 지시(2028년)로 SMR 섹터 전반 부각 (24/7 Wall St)",
+            "date": "2026-04 중순",
+            "impact": "high"
+          },
+          {
+            "type": "악재",
+            "content": "Citigroup '매도(Sell)' 의견 및 목표가 9달러 제시 (MarketBeat)",
+            "date": "2026-04-21",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "법적/재무적 리스크",
+            "description": "전분기 어닝 쇼크 및 진행 중인 증권 사기 집단 소송으로 인한 기관 투자 유입 제한",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "백악관의 우주 원자로 정책과 AI 전력 부족 내러티브에 힘입어 최근 주가가 16% 이상 급등하는 등 강한 변동성을 보임. 다만 실적 부진 및 기관투자자의 엇갈린 평가(목표가 9달러~41달러)로 리스크가 혼재됨.",
+        "momentum": "bullish",
+        "analyst_view": "Hold (중립), 목표가 $17.11 ~ $20.75 수준이나 기관별 시각 차이 극심",
+        "score_hint": 65
+      },
+      "score": 95.0,
+      "score_breakdown": {
+        "base": 65,
+        "theme_strength": 20,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "AVAV",
+      "name": "AeroVironment",
+      "theme": "방산/항공우주",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 10632125725.968842,
+      "research": {
+        "ticker": "AVAV",
+        "name": "AeroVironment",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "미 해군 항공모함에서 LOCUST 레이저 무기 체계(LWS) 실사격 시연 성공 및 주가 급등 (회사 발표)",
+            "date": "2026-04-21",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "미 육군 중거리 정찰 프로그램용 VAPOR CLE 무인기 1,460만 달러 생산 계약 수주 (언론 보도)",
+            "date": "2026-04-20",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "실적 변동성 리스크",
+            "description": "블루할로(BlueHalo) 인수 관련 손상 차손 발생 및 우주 사업 중단 명령으로 인한 단기 실적 가이던스 하향 조정",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "레이저 무기 시연 성공과 육군 드론 수주 소식에 힘입어 주가가 단기 강한 반등세를 보였습니다. 인수합병 비용으로 실적은 다소 부진했으나 수주잔고는 역대 최고치입니다.",
+        "momentum": "bullish",
+        "analyst_view": "매수(Moderate/Strong Buy), 평균 목표주가 $303 ~ $318",
+        "score_hint": 75
+      },
+      "score": 95.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 10,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "065130",
+      "name": "빅텍",
+      "theme": "방산/항공우주",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "065130",
+        "name": "빅텍",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "214급 잠수함용 전자전 장비 및 신호처리기 등 국산화 개발 완료 예정 (newsis.com)",
+            "date": "2026-04-23",
+            "impact": "high"
+          },
+          {
+            "type": "호재",
+            "content": "국내 최초 안티드론(대드론 탐지) 시스템 개발 마무리 및 신규 시장 진출 (judal.co.kr)",
+            "date": "2026-04-23",
+            "impact": "high"
+          }
+        ],
+        "risks": [
+          {
+            "type": "기술적 리스크",
+            "description": "단기 주가 반등으로 인한 RSI 과열 진입 및 단기 차익 실현 매물 출현 가능성",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "신형 전자전 장비 국산화 및 안티드론 시스템 신규 매출 기대로 중소형 방산주 수혜가 부각됨. 기관 저가 매수세가 유입되며 우상향 추세로 턴어라운드 시도 중.",
+        "momentum": "bullish",
+        "analyst_view": "중장기 목표가 6,500원 ~ 7,050원",
+        "score_hint": 75
+      },
+      "score": 95.0,
+      "score_breakdown": {
+        "base": 75,
+        "theme_strength": 10,
+        "momentum": 10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "033100",
+      "name": "제룡전기",
+      "theme": "전력설비/AI 인프라",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {
+        "ticker": "033100",
+        "name": "제룡전기",
+        "theme": "전력설비/AI 인프라",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "2026년 기업가치 제고 계획(밸류업) 및 배당 정책 공시 (공시)",
+            "date": "2026-03-17",
+            "impact": "medium"
+          },
+          {
+            "type": "호재",
+            "content": "미국 노후 전력망 교체 및 인프라 수출 모멘텀 지속 (뉴스)",
+            "date": "2026-04",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "실적 둔화",
+            "description": "2025년 실적 부진 및 배전 변압기 공급망 경쟁 심화",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "2025년의 부진한 실적을 딛고 주주 환원 확대 공시 및 친환경 제품 판매로 실적 회복을 모색 중입니다. 다만 최근 시장에서 강한 매수세보다는 외국인과 기관의 단기 매매 위주 관망세가 짙습니다.",
+        "momentum": "neutral",
+        "analyst_view": "50,000원",
+        "score_hint": 60
+      },
+      "score": 80.0,
+      "score_breakdown": {
+        "base": 60,
+        "theme_strength": 20,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "012450",
+      "name": "한화에어로스페이스",
+      "theme": "방산/항공우주",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 72851483808000,
+      "research": {
+        "ticker": "012450",
+        "name": "한화에어로스페이스",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "호재",
+            "content": "중동 지역 긴장 지속 및 K-방산 중장기 수출 낙관론 (jkn.co.kr 등)",
+            "date": "2026-04-21",
+            "impact": "high"
+          },
+          {
+            "type": "중립",
+            "content": "1분기 실적 발표(4월 30일) 대기 (simplywall.st)",
+            "date": "2026-04-21",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "수급 리스크",
+            "description": "단기 급등에 따른 피로감 및 외국인/기관 동반 차익 실현 매물 출회",
+            "severity": "medium"
+          }
+        ],
+        "news_summary": "4월 초 중동 긴장 및 수출 기대감으로 주가가 급등했으나, 최근 차익 실현 매물로 다소 조정을 받음. 4월 30일 1분기 실적 발표에 시장의 관심이 집중되고 있음.",
+        "momentum": "neutral",
+        "analyst_view": "애널리스트 평균 목표가 약 1,637,955원 (목표주가 상향 추세)",
+        "score_hint": 65
+      },
+      "score": 75.0,
+      "score_breakdown": {
+        "base": 65,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "TDG",
+      "name": "TransDigm Group",
+      "theme": "방산/항공우주",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 67076474453.25,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "HEI",
+      "name": "HEICO Corporation",
+      "theme": "방산/항공우주",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 37470457441.293274,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "MRCY",
+      "name": "Mercury Systems",
+      "theme": "방산/항공우주",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 4957808786.150024,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "XOM",
+      "name": "ExxonMobil",
+      "theme": "에너지/정유",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 621405632542.5,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "theme": "에너지/정유",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 371130599191.42255,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy",
+      "theme": "에너지/정유",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 29282967794.774246,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "FANG",
+      "name": "Diamondback Energy",
+      "theme": "에너지/정유",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 54537903721.50757,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "EGY",
+      "name": "Vaalco Energy",
+      "theme": "에너지/정유",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 630762456.5856838,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "MTDR",
+      "name": "Matador Resources",
+      "theme": "에너지/정유",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 7505948778.421997,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "HII",
+      "name": "Huntington Ingalls",
+      "theme": "조선/기자재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 14446696688.751343,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "theme": "조선/기자재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 86871099132.90088,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "KEX",
+      "name": "Kirby Corporation",
+      "theme": "조선/기자재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 7954628814.51416,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "GNK",
+      "name": "Genco Shipping",
+      "theme": "조선/기자재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1027498447.1760197,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "SBLK",
+      "name": "Star Bulk Carriers",
+      "theme": "조선/기자재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 2826832149.984129,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "INSW",
+      "name": "International Seaways",
+      "theme": "조선/기자재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 3769838538.6850204,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "STNG",
+      "name": "Scorpio Tankers",
+      "theme": "조선/기자재",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 3830254078.115387,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "theme": "AI/로보틱스",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1454104954764.6836,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "theme": "AI/로보틱스",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 365017535334.71594,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "PATH",
+      "name": "UiPath",
+      "theme": "AI/로보틱스",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 5823424242.351734,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "SYM",
+      "name": "Symbotic",
+      "theme": "AI/로보틱스",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 38075876305.43994,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "SERV",
+      "name": "Serve Robotics",
+      "theme": "AI/로보틱스",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 743277515.0411911,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "JOBY",
+      "name": "Joby Aviation",
+      "theme": "AI/로보틱스",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 8986167575.024385,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "theme": "AI/로보틱스",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 4771614741.094133,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "010950",
+      "name": "S-Oil",
+      "theme": "에너지/정유",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 13923908424400,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "024060",
+      "name": "흥구석유",
+      "theme": "에너지/정유",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "014530",
+      "name": "극동유화",
+      "theme": "에너지/정유",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 133499250300,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "082740",
+      "name": "HSD엔진",
+      "theme": "조선/기자재",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 5706306594000,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "014620",
+      "name": "성광벤드",
+      "theme": "조선/기자재",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "454910",
+      "name": "두산로보틱스",
+      "theme": "AI/로보틱스",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 5943992166000,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "277810",
+      "name": "레인보우로보틱스",
+      "theme": "AI/로보틱스",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "090360",
+      "name": "로보스타",
+      "theme": "AI/로보틱스",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 0,
+      "research": {},
+      "score": 60.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 10,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 121678728952.23569,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "GOLD",
+      "name": "Barrick Gold",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 1330056848.9502983,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "KGC",
+      "name": "Kinross Gold",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 39181365161.94897,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "PAAS",
+      "name": "Pan American Silver",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 23822659857.823563,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "CDE",
+      "name": "Coeur Mining",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 20008435659.17832,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "AG",
+      "name": "First Majestic Silver",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 10311500637.743221,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "HMY",
+      "name": "Harmony Gold",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 10796686134.854317,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "010130",
+      "name": "고려아연",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 30111902496000,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "103140",
+      "name": "풍산",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 2720502088800,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "000670",
+      "name": "영풍",
+      "theme": "금/귀금속",
+      "theme_strength": "약",
+      "market": "kr",
+      "source": "theme_hint",
+      "corp_code": null,
+      "financials": {},
+      "financial_score": 50,
+      "dart_risk": {
+        "has_rights_offering": false,
+        "has_lockup_release": false,
+        "risk_score": 0
+      },
+      "market_cap": 1235356829300,
+      "research": {},
+      "score": 50.0,
+      "score_breakdown": {
+        "base": 50,
+        "theme_strength": 0,
+        "momentum": 0,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "theme": "방산/항공우주",
+      "theme_strength": "중",
+      "market": "us",
+      "source": "theme_hint",
+      "market_cap": 128005572512.78503,
+      "research": {
+        "ticker": "LMT",
+        "name": "Lockheed Martin",
+        "theme": "방산/항공우주",
+        "catalysts": [
+          {
+            "type": "중립",
+            "content": "1분기 실적 발표 예정 - 전분기 어닝 쇼크 만회 여부 주목 (Benzinga)",
+            "date": "2026-04-23",
+            "impact": "high"
+          },
+          {
+            "type": "악재",
+            "content": "페루 정부, LMT가 유력했던 F-16 전투기 도입 연기 발표 (TradingKey)",
+            "date": "2026-04-22",
+            "impact": "medium"
+          }
+        ],
+        "risks": [
+          {
+            "type": "수익성 악화",
+            "description": "주력인 항공(Aeronautics) 부문의 영업 이익률 하락(-1.3%) 및 프로그램 손실",
+            "severity": "high"
+          }
+        ],
+        "news_summary": "4월 23일 1분기 실적 발표를 앞두고 전분기 어닝 쇼크의 여파로 경계감이 짙음. 미사일 및 우주 부문은 성장세를 보이나 주력 항공 부문의 마진 압박과 최근 페루의 F-16 도입 연기 악재로 단기 모멘텀이 약화됨.",
+        "momentum": "bearish",
+        "analyst_view": "Hold (중립) 의견 지배적, 평균 목표가 $646.16",
+        "score_hint": 45
+      },
+      "score": 45.0,
+      "score_breakdown": {
+        "base": 45,
+        "theme_strength": 10,
+        "momentum": -10,
+        "dart_penalty": 0,
+        "financial": 0.0
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "000660",
+      "name": "SK하이닉스",
+      "theme": "반도체/HBM",
+      "theme_strength": "강",
+      "market": "kr",
+      "source": "theme_hint",
+      "exclude_reason": "유상증자 결정 (30일 이내)"
+    },
+    {
+      "ticker": "329180",
+      "name": "HD현대중공업",
+      "theme": "조선/기자재",
+      "theme_strength": "중",
+      "market": "kr",
+      "source": "theme_hint",
+      "exclude_reason": "유상증자 결정 (30일 이내)"
+    }
+  ]
+}

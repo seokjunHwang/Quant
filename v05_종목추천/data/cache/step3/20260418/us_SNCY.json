@@ -1,0 +1,24 @@
+{
+  "ticker": "SNCY",
+  "name": "Sun Country Airlines",
+  "theme": "항공/운송",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "미국 교통부(DOT)의 Allegiant Travel 인수 최종 승인 획득 (TipRanks/MarketBeat)",
+      "date": "2026-04-15",
+      "impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "type": "투자의견 하향",
+      "description": "합병 승인 소식에도 불구하고 Zacks Research에서 'Strong Sell'로 의견 하향",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "미국 교통부가 Allegiant Travel의 Sun Country 인수를 위한 최종 규제 승인을 내렸습니다. 5월 초 주주 총회를 거쳐 5월 중순에 합병이 완료될 것으로 기대됩니다.",
+  "momentum": "bullish",
+  "analyst_view": "평균 목표가 $20.29. 피인수 확정 임박으로 대부분 'Hold' 의견 제시.",
+  "score_hint": 80
+}

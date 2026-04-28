@@ -1,0 +1,277 @@
+{
+  "macro": {
+    "vix": {
+      "price": 17.48,
+      "prev_close": 17.94,
+      "change_pct": -2.56
+    },
+    "sp500": {
+      "price": 7126.0601,
+      "prev_close": 7041.28,
+      "change_pct": 1.2
+    },
+    "nasdaq": {
+      "price": 24468.4805,
+      "prev_close": 24102.703,
+      "change_pct": 1.52
+    },
+    "us10y_yield": {
+      "price": 4.246,
+      "prev_close": 4.309,
+      "change_pct": -1.46
+    },
+    "us2y_yield": {
+      "price": 3.6,
+      "prev_close": 3.61,
+      "change_pct": -0.28
+    },
+    "dollar_index": {
+      "price": 98.1,
+      "prev_close": 98.205,
+      "change_pct": -0.11
+    },
+    "gold": {
+      "price": 4857.6001,
+      "prev_close": 4814.1001,
+      "change_pct": 0.9
+    },
+    "oil_wti": {
+      "price": 83.85,
+      "prev_close": 89.83,
+      "change_pct": -6.66
+    },
+    "bitcoin": {
+      "price": 76380.3594,
+      "prev_close": 77140.8281,
+      "change_pct": -0.99
+    },
+    "kospi": {
+      "price": 6191.9199,
+      "prev_close": 6226.05,
+      "change_pct": -0.55
+    },
+    "kosdaq": {
+      "price": 1170.04,
+      "prev_close": 1162.97,
+      "change_pct": 0.61
+    },
+    "usdkrw": {
+      "price": 1465.6801,
+      "prev_close": 1478.8101,
+      "change_pct": -0.89
+    },
+    "vix_zone": "평시"
+  },
+  "news": {
+    "kr": {
+      "market": "kr",
+      "date": "2026년 04월 18일",
+      "macro_environment": {
+        "summary": "중동발 지정학적 리스크 완화로 인한 글로벌 증시 랠리와 원·달러 환율 급락에도 불구하고, 국내 증시는 단기 급등에 따른 외국인 투자자의 차익 실현 매물 출회로 약보합세를 보임.",
+        "key_indicators": [
+          {
+            "name": "원/달러 환율",
+            "value": "1460원",
+            "trend": "하락",
+            "impact": "수입 물가 부담 완화 및 외환시장 불안 진정"
+          },
+          {
+            "name": "국제유가(WTI)",
+            "value": "82.59달러",
+            "trend": "하락",
+            "impact": "기업 비용 압박 완화 및 인플레이션 우려 감소"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "조선업",
+          "reason": "중동 휴전 기대감 및 글로벌 물동량 회복 전망에 따른 수주 기대감 지속",
+          "trading_type": "스윙",
+          "sectors": [
+            "조선",
+            "기자재"
+          ]
+        },
+        {
+          "theme": "전력설비/데이터센터",
+          "reason": "트럼프 대통령의 빅테크 기업 전력원 자립 요구 및 AI 데이터센터 전력 수요 급증",
+          "trading_type": "둘다",
+          "sectors": [
+            "전선",
+            "변압기",
+            "전력기기"
+          ]
+        },
+        {
+          "theme": "이차전지",
+          "reason": "삼성SDI-아마존 웹서비스(AWS) 협력 기대감 및 전기차 수요 회복 전망",
+          "trading_type": "스윙",
+          "sectors": [
+            "배터리",
+            "소재"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "반도체",
+          "direction": "bearish",
+          "key_news": "삼성전자 및 SK하이닉스 등 대장주 외국인 매도세로 하락 (조선일보)",
+          "reason": "최근 급등에 따른 외국인 투자자의 차익 실현 매물 출회"
+        },
+        {
+          "sector": "방산",
+          "direction": "bearish",
+          "key_news": "중동 휴전 협상 진전 소식에 따른 방산주 조정 (MBC뉴스)",
+          "reason": "지정학적 리스크 완화로 인한 단기 모멘텀 약화"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "외국인 수급 변동성",
+          "severity": "high",
+          "description": "4월 들어 외국인 매수세가 증시를 견인했으나, 차익 실현 시 지수 하락 압력이 큼 (조선일보)"
+        },
+        {
+          "factor": "중동 지정학적 불확실성",
+          "severity": "medium",
+          "description": "호르무즈 해협 개방은 긍정적이나, 휴전 지속 여부 및 최종 평화 협상 타결까지 변동성 상존 (연합뉴스)"
+        },
+        {
+          "factor": "한국은행 총재 교체",
+          "severity": "medium",
+          "description": "이창용 총재 퇴임 및 신현송 후보자 청문회 지연에 따른 통화정책 불확실성 (연합뉴스)"
+        }
+      ]
+    },
+    "us": {
+      "market": "us",
+      "date": "2026년 04월 18일",
+      "macro_environment": {
+        "summary": "이란의 호르무즈 해협 상업 항로 재개 발표로 지정학적 긴장이 완화되며 유가가 급락하고, 이에 힘입어 미국 증시가 사상 최고치를 경신하는 등 강한 랠리를 보임.",
+        "key_indicators": [
+          {
+            "name": "WTI 원유 가격",
+            "value": "82.59달러",
+            "trend": "하락",
+            "impact": "에너지 비용 부담 완화로 인한 인플레이션 우려 감소 및 소비 심리 개선"
+          },
+          {
+            "name": "10년물 국채 금리",
+            "value": "4.23%",
+            "trend": "하락",
+            "impact": "시장 금리 하락으로 인한 주식 시장 밸류에이션 부담 완화"
+          },
+          {
+            "name": "S&P 500",
+            "value": "사상 최고치",
+            "trend": "상승",
+            "impact": "투자 심리 전반의 강력한 낙관론 형성"
+          }
+        ]
+      },
+      "hot_themes": [
+        {
+          "theme": "항공/운송 섹터",
+          "reason": "유가 급락으로 인한 연료비 절감 기대감 (United Airlines +7.1%, Southwest Airlines +5.1% 등 급등)",
+          "trading_type": "스윙",
+          "sectors": [
+            "항공",
+            "운송"
+          ]
+        },
+        {
+          "theme": "주택/건설 관련주",
+          "reason": "국채 금리 하락에 따른 모기지 금리 인하 기대감으로 주택 수요 회복 전망 (Builders FirstSource +7.1%, Lennar +5.7%)",
+          "trading_type": "스윙",
+          "sectors": [
+            "주택 건설",
+            "건축 자재"
+          ]
+        },
+        {
+          "theme": "자동차/소비재",
+          "reason": "금리 인하 기대감 및 인플레이션 압력 완화로 인한 소비 여력 증대 기대 (Carvana +9.2%)",
+          "trading_type": "둘다",
+          "sectors": [
+            "자동차",
+            "소비재"
+          ]
+        }
+      ],
+      "sector_news": [
+        {
+          "sector": "에너지",
+          "direction": "bearish",
+          "key_news": "호르무즈 해협 재개방 소식에 유가 9% 이상 급락 (AP 통신)",
+          "reason": "공급 차질 우려 해소에 따른 에너지 가격 조정"
+        },
+        {
+          "sector": "금융",
+          "direction": "bullish",
+          "key_news": "State Street, Fifth Third Bancorp 등 주요 은행 실적 호조 (TribLive)",
+          "reason": "예상치를 상회하는 실적 발표로 금융 섹터 전반의 투자 심리 개선"
+        }
+      ],
+      "risk_factors": [
+        {
+          "factor": "지정학적 불확실성 잔존",
+          "severity": "medium",
+          "description": "호르무즈 해협 재개방이 일시적일 수 있다는 우려와 이란 전쟁의 완전한 종식까지는 시간이 필요하다는 분석 (Washington Post)"
+        },
+        {
+          "factor": "고밸류에이션 부담",
+          "severity": "high",
+          "description": "증시가 역사적으로 높은 밸류에이션 수준에 도달해 있어, 향후 인플레이션 재발 시 연준의 금리 정책 변화에 취약할 수 있음 (The Motley Fool)"
+        }
+      ]
+    }
+  },
+  "premarket": {
+    "premarket_movers": [
+      {
+        "ticker": "EFOI",
+        "name": "Energy Focus, Inc.",
+        "change_pct": 154.55,
+        "reason": "급등세 지속 및 시장 변동성 영향"
+      },
+      {
+        "ticker": "PBM",
+        "name": "Psyence Biomedical Ltd.",
+        "change_pct": 67.46,
+        "reason": "거래량 급증에 따른 투기적 매수세"
+      },
+      {
+        "ticker": "FCHL",
+        "name": "Fitness Champs Holdings Limited",
+        "change_pct": -66.82,
+        "reason": "급격한 매도세 출현"
+      }
+    ],
+    "earnings_today": [
+      {
+        "ticker": "HDB",
+        "name": "HDFC Bank",
+        "expectation": "N/A",
+        "impact": "중립 (실적 발표 시간 변경에 따른 시장 주시)"
+      }
+    ],
+    "economic_events": [
+      {
+        "time_et": "N/A",
+        "event": "IMF/World Bank Spring Meetings",
+        "forecast": "N/A",
+        "importance": "high"
+      }
+    ],
+    "fed_watch": {
+      "current_rate": "3.50% - 3.75%",
+      "next_meeting": "2026년 4월 28일 - 29일",
+      "cut_probability": "1.6"
+    }
+  },
+  "dart": {
+    "today_disclosures": []
+  }
+}

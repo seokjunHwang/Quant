@@ -1,0 +1,41 @@
+{
+  "ticker": "AMD",
+  "name": "AMD",
+  "theme": "반도체/HBM",
+  "catalysts": [
+    {
+      "type": "호재",
+      "content": "세계 최초 듀얼 3D V-Cache 탑재 프로세서 'Ryzen 9 9950X3D2' 출시 (AMD.com)",
+      "date": "2026-04-22",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "메타(Meta)와 6GW 규모 AI 인프라 파트너십 및 MI450 가속기 기대감 (Seeking Alpha)",
+      "date": "2026-04-23",
+      "impact": "high"
+    },
+    {
+      "type": "호재",
+      "content": "미국 정부의 대중국 AI 칩 수출 제한 조치 일부 완화 (HistoricalOptionData)",
+      "date": "2026-04-23",
+      "impact": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "type": "기술적 과열",
+      "description": "단기 주가 급등에 따른 RSI 과매수 신호 및 차익 실현 우려",
+      "severity": "medium"
+    },
+    {
+      "type": "공급망 제약",
+      "description": "반도체 업계 전반의 AI 가속기 공급망 병목 현상 지속",
+      "severity": "medium"
+    }
+  ],
+  "news_summary": "신규 게이밍 프로세서 출시 및 메타와의 대규모 파트너십 소식에 힘입어 주가 장중 292달러 돌파하며 52주 신고가 경신. 5월 5일 예정된 실적 발표 가이던스에 이목 집중됨.",
+  "momentum": "bullish",
+  "analyst_view": "매수, 평균 목표주가 약 $292 (Stifel $320 상향)",
+  "score_hint": 90
+}
