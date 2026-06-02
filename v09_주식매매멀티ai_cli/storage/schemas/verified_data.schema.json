@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "verified_data.schema.json",
+  "title": "VerifiedDataItem",
+  "description": "검수자 통과한 데이터 단위. 토론자는 이것만 참조 가능.",
+  "type": "object",
+  "required": ["id", "kind", "value", "source_url", "fetched_at", "audit_pass"],
+  "properties": {
+    "id":          { "type": "string", "description": "v1, v2, ... — 발언에서 evidence_refs 로 참조" },
+    "kind":        { "enum": ["price", "filing", "news", "funding", "open_interest", "macro"] },
+    "ticker":      { "type": "string" },
+    "value":       {},
+    "unit":        { "type": "string", "examples": ["USD", "%", "bp", "shares"] },
+    "source_url":  { "type": "string", "format": "uri" },
+    "fetched_at":  { "type": "string", "format": "date-time" },
+    "audit_pass":  { "type": "boolean" },
+    "cross_check_sources": { "type": "integer", "minimum": 0 },
+    "notes":       { "type": "string" }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "agenda.schema.json",
+  "title": "Agenda",
+  "description": "진행자가 발행하는 토론 어젠다",
+  "type": "object",
+  "required": ["run_id", "ticker", "asset_class", "focus", "required_data", "created_at"],
+  "properties": {
+    "run_id":      { "type": "string" },
+    "ticker":      { "type": "string", "examples": ["NVDA", "BTC"] },
+    "asset_class": { "enum": ["stock", "crypto"] },
+    "event_type":  { "type": "string", "examples": ["us_market_open", "btc_4h_close", "macro_event"] },
+    "focus":       { "type": "array", "items": { "type": "string" } },
+    "required_data": {
+      "type": "array",
+      "items": { "enum": ["price_1d", "price_5d", "filings_24h", "news_24h", "funding_rate", "open_interest", "macro_calendar"] }
+    },
+    "created_at":  { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}

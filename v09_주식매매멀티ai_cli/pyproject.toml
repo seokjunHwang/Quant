@@ -1,0 +1,21 @@
+[project]
+name = "multi-ai-debate-trading"
+version = "0.1.0"
+description = "Claude Opus 4.7 6명이 US 주식·BTC를 한국어로 토론하는 라이브 쇼케이스"
+requires-python = ">=3.11"
+dependencies = [
+    "pyyaml>=6.0",
+    "jsonschema>=4.20",
+    "yfinance>=0.2.40",
+    "requests>=2.31",
+    "python-dateutil>=2.9",
+    "apscheduler>=3.10",
+]
+
+[project.scripts]
+debate = "runners.cli:main"
+scheduler = "runners.scheduler:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

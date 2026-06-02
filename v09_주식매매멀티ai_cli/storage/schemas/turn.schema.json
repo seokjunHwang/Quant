@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "turn.schema.json",
+  "title": "Turn",
+  "description": "토론자 1회 발언",
+  "type": "object",
+  "required": ["round", "speaker", "text", "created_at"],
+  "properties": {
+    "round":          { "type": "integer", "minimum": 1 },
+    "speaker":        { "enum": ["moderator", "data_provider", "auditor", "bull", "bear", "quant"] },
+    "model":          { "type": "string", "examples": ["claude-opus-4-7"] },
+    "temperature":    { "type": "number", "minimum": 0.0, "maximum": 2.0 },
+    "text":           { "type": "string", "maxLength": 4000 },
+    "quotes":         {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^@(bull|bear|quant|moderator|data_provider|auditor):" }
+    },
+    "evidence_refs":  { "type": "array", "items": { "type": "string", "pattern": "^v[0-9]+$" } },
+    "input_tokens":   { "type": "integer", "minimum": 0 },
+    "output_tokens":  { "type": "integer", "minimum": 0 },
+    "cost_usd":       { "type": "number", "minimum": 0 },
+    "latency_ms":     { "type": "integer", "minimum": 0 },
+    "created_at":     { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}

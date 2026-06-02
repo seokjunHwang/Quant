@@ -1,0 +1,109 @@
+# config.yml — 모든 시스템 설정 (single source of truth)
+# BASIC 5줄만 봐도 운영 가능. 나머지는 ADVANCED.
+
+# ============================================================
+# BASIC — 운영자가 처음 만질 것
+# ============================================================
+basic:
+  tickers_stock: [NVDA, MSFT, TSLA, GOOGL, PLTR]
+  tickers_crypto: [BTC, ETH]
+  language: ko                  # ko | en
+  daily_cost_cap_usd: 10.0
+  debates_per_day: 7
+
+# ============================================================
+# ADVANCED
+# ============================================================
+
+# LLM 호출 추상화 (매각 안전장치)
+runner:
+  type: claude_cli              # claude_cli | anthropic_api | openrouter
+  cli_binary: claude
+  default_model: claude-opus-4-7
+
+# 토론 흐름
+debate:
+  max_rounds: 5
+  turns_per_debater: 3          # 발언권 횟수
+  max_chars_per_turn: 280       # 발언 길이 (Alpha Arena 톤)
+  enforce_quote_syntax: true    # @bull, @bear 인용 강제
+  consensus_threshold: 0.7
+  early_stop_on_consensus: true
+  early_stop_on_stall: true     # 같은 주장 반복 시 종료
+
+# 6 역할
+agents:
+  moderator:
+    model: claude-opus-4-7
+    temperature: 0.3
+    persona: personas/moderator.md
+  data_provider:
+    model: claude-opus-4-7
+    temperature: 0.0
+    persona: personas/data_provider.md
+  auditor:
+    model: claude-opus-4-7
+    temperature: 0.0
+    persona: personas/auditor.md
+    rules: rules/auditor_rules.yml
+
+debaters:                       # 토론자는 추가/삭제 자유 (확장 훅)
+  - id: bull
+    model: claude-opus-4-7
+    temperature: 0.9
+    persona: personas/bull.md
+  - id: bear
+    model: claude-opus-4-7
+    temperature: 0.7
+    persona: personas/bear.md
+  - id: quant
+    model: claude-opus-4-7
+    temperature: 0.4
+    persona: personas/quant.md
+
+# 비용 통제
+cost:
+  prompt_cache: true            # 페르소나·룰셋 캐시 (CLI는 자동, API는 명시)
+  per_debate_token_cap: 50000
+  show_cost_in_output: true     # 사이트에 토론별 비용 표시
+
+# 데이터 (모두 무료 소스)
+data:
+  sources:
+    quotes: yfinance            # yfinance | polygon | alpaca
+    filings: sec_edgar
+    news: finnhub
+    crypto: coingecko           # coingecko | binance
+  freshness_minutes:
+    quotes: 20
+    news: 1440                  # 24h
+  cross_check_sources: 2        # 검수자 교차검증 최소 소스 수
+
+# 스케줄
+schedule:
+  triggers:
+    - btc_4h_close              # x6/day (00,04,08,12,16,20 UTC)
+    - us_market_open            # 14:30 UTC
+    - us_market_noon            # 17:00 UTC
+    - us_market_close           # 21:00 UTC
+    - macro_event               # CPI/FOMC 자동 감지
+  rate_limit:
+    max_debates_per_5h: 1.5     # Claude Max 한도 대응
+    cooldown_on_429_seconds: 600
+    queue_excess: true
+  off_hours_mode: slow          # off | slow | normal
+
+# 출력·UX
+output:
+  language: ko
+  disclaimer_footer: |
+    이것은 AI 모델 간 토론이며 투자자문이 아닙니다.
+    Paper trading 결과는 실제 수익을 보장하지 않습니다.
+  show_token_cost: true
+  anonymize_until_round: null   # "Mystery Model" 모드 (null=비활성)
+
+# 저장
+storage:
+  backend: sqlite               # sqlite | jsonl
+  path: storage/runs.db
+  schemas_dir: storage/schemas

@@ -1,0 +1,32 @@
+# 기본 토론 공정 — pipelines/*.yml 로 단계 재배열 가능 (확장 훅).
+# 단계 추가/제거 시 runners/orchestrator.py 가 자동으로 따라감.
+
+stages:
+  - id: agenda
+    agent: moderator
+    action: build_agenda
+
+  - id: collect
+    agent: data_provider
+    action: collect
+
+  - id: audit
+    agent: auditor
+    action: audit
+    retry_on_fail: 2
+
+  - id: debate
+    loop:
+      max_rounds: 5
+      stop_check: moderator
+      order:
+        - bull
+        - bear
+        - quant
+
+  - id: finalize
+    agent: moderator
+    action: final_summary
+
+  - id: save
+    sink: repository

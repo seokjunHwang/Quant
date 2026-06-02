@@ -1,0 +1,42 @@
+# 검수자 룰 — 코드로 강제되는 부분 (LLM 판단 X)
+# 항목 하나라도 fail 이면 audit_pass=false
+
+required_fields:
+  - id
+  - kind
+  - ticker
+  - value
+  - source_url
+  - fetched_at
+
+source_url:
+  must_be_https: true
+  blocked_domains: []         # 차단할 도메인 (필요 시 추가)
+
+freshness:
+  # kind 별 최대 허용 경과 시간 (분)
+  price: 30
+  filing: 1440
+  news: 1440
+  funding: 60
+  open_interest: 60
+  macro: 10080                # 7일
+
+unit_required_for_kinds:
+  - price
+  - funding
+
+cross_check:
+  # 동일 kind 의 데이터가 최소 N개 이상이어야 통과 (단일 소스 환각 차단)
+  min_sources_per_kind:
+    price: 1                  # 1차 출시는 1개 OK, 2로 올리려면 다중 소스 추가
+    news: 1
+    funding: 1
+
+outlier:
+  # ATR/표준편차 기반 이상치 감지 — Phase 1 은 비활성
+  enabled: false
+  z_score_max: 4.0
+
+retry:
+  max_attempts: 2             # 데이터 제공자에 반려 후 재수집 횟수

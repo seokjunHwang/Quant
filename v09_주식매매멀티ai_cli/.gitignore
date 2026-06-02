@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+storage/runs/*.json
+storage/runs.db
+data/raw/*
+data/verified/*
+!data/raw/.gitkeep
+!data/verified/.gitkeep
+!storage/runs/.gitkeep
+*.log
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "transcript.schema.json",
+  "title": "Transcript",
+  "description": "한 번의 토론 전체 기록 — 매각 자산의 핵심 단위.",
+  "type": "object",
+  "required": ["run_id", "agenda", "verified_data", "turns", "final_report", "started_at", "ended_at"],
+  "properties": {
+    "run_id":         { "type": "string" },
+    "agenda":         { "$ref": "agenda.schema.json" },
+    "verified_data":  { "type": "array", "items": { "$ref": "verified_data.schema.json" } },
+    "turns":          { "type": "array", "items": { "$ref": "turn.schema.json" } },
+    "final_report": {
+      "type": "object",
+      "required": ["stop_reason", "summary"],
+      "properties": {
+        "stop_reason":   { "enum": ["consensus", "disagree", "stalled", "max_rounds"] },
+        "summary":       { "type": "string" },
+        "action":        { "type": "string", "examples": ["buy", "sell", "hold"] },
+        "confidence":    { "type": "number", "minimum": 0, "maximum": 1 },
+        "invalidation":  { "type": "string" },
+        "dissent":       { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "total_cost_usd": { "type": "number", "minimum": 0 },
+    "total_tokens":   { "type": "integer", "minimum": 0 },
+    "started_at":     { "type": "string", "format": "date-time" },
+    "ended_at":       { "type": "string", "format": "date-time" },
+    "config_snapshot":{ "type": "object" }
+  },
+  "additionalProperties": false
+}
